@@ -9,18 +9,20 @@
   <!-- Structured Course Data Engine -->
   <script src="data/course-data.js"></script>
   <style>
-    /* Signature Tactile Micro-Mesh Texture (Deck Header only) */
+    /* Signature Precision CAD Micro-Grid (Deck Header only) */
     .textured-surface,
     #deck-header {
       background-image: 
-        /* Layer 1: Soft top-edge spotlight sheen */
-        radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.14) 0%, transparent 70%),
-        /* Layer 2: 45° diagonal highlight ridges (1px line every 4px) */
-        repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.045) 0, rgba(255, 255, 255, 0.045) 1px, transparent 0, transparent 4px),
-        /* Layer 3: -45° crosshatch shadow grooves (1px line every 4px) */
-        repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.16) 0, rgba(0, 0, 0, 0.16) 1px, transparent 0, transparent 4px),
-        /* Layer 4: Vertical depth gradient (light top, darker bottom) */
-        linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.14) 100%) !important;
+        /* Layer 1: Top ambient spotlight */
+        radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.18) 0%, transparent 75%),
+        /* Layer 2: Hairline precision grid vertical lines */
+        linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+        /* Layer 3: Hairline precision grid horizontal lines */
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+        /* Layer 4: Vertical depth gradient */
+        linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(0, 0, 0, 0.16) 100%) !important;
+      background-size: 100% 100%, 16px 16px, 16px 16px, 100% 100% !important;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.3) !important;
     }
 
     /* All buttons, badges, and controls must NOT have mesh texture */
@@ -475,7 +477,7 @@
           <nav id="modal-tab-strip" class="flex items-center gap-1 overflow-x-auto pb-0.5 text-xs select-none">
             <button data-tab="objectives" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Objectives</button>
             <button data-tab="plan" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Lesson Plan</button>
-            <button data-tab="revision" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Flashcards &amp; Review</button>
+            <button data-tab="revision" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Vocabulary</button>
             <button data-tab="materials" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Additional Materials</button>
             <button data-tab="toeic" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">TOEIC Practice</button>
             <button data-tab="ddrs" id="modal-tab-ddrs" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer hidden">DDRS</button>
@@ -773,19 +775,19 @@
         name: "Module 1",
         subtitle: "Travel, Transport & Leisure",
         supertitle: "GSEA SEMESTER 1 - MODULE 1: TRAVEL, TRANSPORT & LEISURE (2)",
-        // Refined Terracotta / Warm Orange Theme (slightly darker for contrast)
-        primary: "#c0684f",
-        primaryDark: "#a85640",
-        primaryDarker: "#924731",
-        accent: "#d6a555",
-        accentDark: "#bf8f40",
-        accentDarker: "#a8782f",
-        highlight: "#fef39e",
+        // Refined Aero Graphite / Carbon Theme
+        primary: "#374151",
+        primaryDark: "#1f2937",
+        primaryDarker: "#111827",
+        accent: "#64748b",
+        accentDark: "#475569",
+        accentDarker: "#334155",
+        highlight: "#f1f5f9",
         worksheet: "#374151",
         worksheetDark: "#1f2937",
-        activeMenuBg: "rgba(254, 243, 199, 0.7)",
-        activeMenuText: "#c0684f",
-        activeMenuBorder: "#d6a555",
+        activeMenuBg: "rgba(55, 65, 81, 0.12)",
+        activeMenuText: "#374151",
+        activeMenuBorder: "#64748b",
         pages: createModulePages(1)
       },
       {
@@ -1291,7 +1293,7 @@
         return;
       }
 
-      footerInstruction.textContent = "Click below to explore interactive materials in the integrated workspace hub or open the full materials page directly:";
+      footerInstruction.textContent = "Click below to explore interactive session resources in the workspace drawer:";
 
       const createModalBtn = (label, tabKey, fallbackHref) => {
         const btn = document.createElement('button');
@@ -1326,7 +1328,7 @@
         if (page.lessonPlanUrl) actionContainer.appendChild(createExternalBtn(page.lessonPlanUrl, "Evaluation Guidelines"));
         if (page.objectivesUrl) actionContainer.appendChild(createExternalBtn(page.objectivesUrl, "Evaluation Criteria"));
       } else {
-        // Sessions 1 to 4: Dual Button & Integrated in-deck hub (unified styling & colors)
+        // Sessions 1 to 4: In-deck modal workspace hub (unified styling & colors)
         if (page.objectivesUrl) {
           actionContainer.appendChild(createModalBtn("Objectives", "objectives", page.objectivesUrl));
         }
@@ -1334,27 +1336,14 @@
           actionContainer.appendChild(createModalBtn("Lesson Plan", "plan", page.lessonPlanUrl));
         }
         if (page.classReviewUrl) {
-          actionContainer.appendChild(createModalBtn("Flashcards & Review", "revision", page.classReviewUrl));
+          actionContainer.appendChild(createModalBtn("Vocabulary", "revision", page.classReviewUrl));
         }
         const materialsUrl = page.additionalMaterialsUrl || page.url;
         if (materialsUrl) {
-          // Dual Button Mode:
-          // 1. Full Materials Page ↗ (Direct standalone subpage with all 132+ links & Back to Portal)
-          const fullPageBtn = document.createElement('a');
-          fullPageBtn.className = "inline-flex items-center space-x-1.5 text-white px-3.5 py-2 rounded-lg text-xs font-bold shadow-md shadow-slate-400/40 transition-all cursor-pointer no-underline hover:scale-[1.02] active:scale-[0.98]";
-          fullPageBtn.style.backgroundColor = mod.primary;
-          fullPageBtn.onmouseenter = () => fullPageBtn.style.backgroundColor = mod.primaryDark;
-          fullPageBtn.onmouseleave = () => fullPageBtn.style.backgroundColor = mod.primary;
-          fullPageBtn.href = materialsUrl;
-          fullPageBtn.target = "_self";
-          fullPageBtn.innerHTML = `<span>Additional Materials ↗</span>`;
-          fullPageBtn.title = "Open full standalone materials page with all videos, articles, and web resources";
-          actionContainer.appendChild(fullPageBtn);
+          // Additional Materials (In-Deck Modal Drawer - No arrow, opens directly in slide-over overlay)
+          actionContainer.appendChild(createModalBtn("Additional Materials", "materials", materialsUrl));
 
-          // 2. Quick Media Hub (In-deck slide-over drawer modal)
-          actionContainer.appendChild(createModalBtn("Quick Media Hub", "materials", materialsUrl));
-
-          // 3. TOEIC Practice Diagnostic Drill
+          // TOEIC Practice Diagnostic Drill
           actionContainer.appendChild(createModalBtn("TOEIC Practice", "toeic", materialsUrl));
         }
       }

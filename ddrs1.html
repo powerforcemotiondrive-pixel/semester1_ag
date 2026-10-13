@@ -8,36 +8,36 @@
     <link rel="stylesheet" href="output.css">
     <style>
       :root {
-        --primary: #c0684f;
-        --primary-dark: #a85640;
-        --primary-darker: #924731;
-        --accent: #d6a555;
-        --accent-dark: #bf8f40;
-        --accent-darker: #a8782f;
-        --highlight: #fef39e;
+        --primary: #374151;
+        --primary-dark: #1f2937;
+        --primary-darker: #111827;
+        --accent: #64748b;
+        --accent-dark: #475569;
+        --accent-darker: #334155;
+        --highlight: #f1f5f9;
       }
-      .theme-header { background-color: #c0684f !important; border-color: #a85640 !important; }
-      .theme-icon-box { background-color: #d6a555 !important; }
-      .theme-supertitle { color: #fef39e !important; }
-      .theme-btn { background-color: #d6a555 !important; }
-      .theme-btn:hover { background-color: #bf8f40 !important; }
-      .theme-btn:active { background-color: #a8782f !important; }
-      .theme-badge { background-color: #c0684f !important; border-color: #a85640 !important; }
-      .theme-title { color: #c0684f !important; }
-      .theme-axe-badge { background-color: #c0684f !important; }
-      .theme-axe-num { color: #c0684f !important; }
-      .theme-axe-title { color: #c0684f !important; }
-      .theme-tag-badge { background-color: #c0684f !important; }
-      .theme-tag-num { color: #c0684f !important; }
-      .theme-tag-title { color: #c0684f !important; }
-      .theme-skill-primary { color: #c0684f !important; }
-      .theme-skill-accent { color: #d6a555 !important; }
+      .theme-header { background-color: #374151 !important; border-color: #1f2937 !important; }
+      .theme-icon-box { background-color: #64748b !important; }
+      .theme-supertitle { color: #f1f5f9 !important; }
+      .theme-btn { background-color: #64748b !important; }
+      .theme-btn:hover { background-color: #475569 !important; }
+      .theme-btn:active { background-color: #334155 !important; }
+      .theme-badge { background-color: #374151 !important; border-color: #1f2937 !important; }
+      .theme-title { color: #374151 !important; }
+      .theme-axe-badge { background-color: #374151 !important; }
+      .theme-axe-num { color: #374151 !important; }
+      .theme-axe-title { color: #374151 !important; }
+      .theme-tag-badge { background-color: #374151 !important; }
+      .theme-tag-num { color: #374151 !important; }
+      .theme-tag-title { color: #374151 !important; }
+      .theme-skill-primary { color: #374151 !important; }
+      .theme-skill-accent { color: #64748b !important; }
       /* Self-contained layout fallbacks to ensure preview never breaks */
       .moodle-deck-canvas { background-color: #ffffff; border-radius: 1rem; border: 1px solid #cbd5e1; display: flex; flex-direction: column; overflow: hidden; }
       .grid { display: grid; }
-      .grid-cols-\[60px_1fr\] { grid-template-columns: 60px 1fr; }
-      .gap-2\.5 { gap: 0.625rem; }
-      .space-y-2\.5 > * + * { margin-top: 0.625rem; }
+      .grid-cols-[60px_1fr] { grid-template-columns: 60px 1fr; }
+      .gap-2.5 { gap: 0.625rem; }
+      .space-y-2.5 > * + * { margin-top: 0.625rem; }
       .space-y-4 > * + * { margin-top: 1rem; }
       .space-x-2 > * + * { margin-left: 0.5rem; }
       .rounded-xl { border-radius: 0.75rem; }
@@ -67,17 +67,19 @@
         color: #94a3b8 !important;
       }
     
-      /* Signature Tactile Micro-Mesh Texture */
+      /* Signature Precision CAD Micro-Grid */
       .textured-surface {
         background-image: 
-          /* Layer 1: Soft top-edge spotlight sheen */
-          radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.14) 0%, transparent 70%),
-          /* Layer 2: 45° diagonal highlight ridges (1px line every 4px) */
-          repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.045) 0, rgba(255, 255, 255, 0.045) 1px, transparent 0, transparent 4px),
-          /* Layer 3: -45° crosshatch shadow grooves (1px line every 4px) */
-          repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.16) 0, rgba(0, 0, 0, 0.16) 1px, transparent 0, transparent 4px),
-          /* Layer 4: Vertical depth gradient (light top, darker bottom) */
-          linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.14) 100%) !important;
+          /* Layer 1: Top ambient spotlight */
+          radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.18) 0%, transparent 75%),
+          /* Layer 2: Hairline precision grid vertical lines */
+          linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+          /* Layer 3: Hairline precision grid horizontal lines */
+          linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+          /* Layer 4: Vertical depth gradient */
+          linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(0, 0, 0, 0.16) 100%) !important;
+        background-size: 100% 100%, 16px 16px, 16px 16px, 100% 100% !important;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.3) !important;
       }
 
       /* Elements and inactive buttons that must NOT have mesh texture */
