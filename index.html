@@ -1358,54 +1358,6 @@
       const footerInstruction = document.getElementById('footer-instruction');
       actionContainer.innerHTML = '';
 
-      if (page.detailsUrl) {
-        footerInstruction.textContent = "Click below to explore the official DD&RS framework matrix in the integrated hub:";
-        const detailsBtn = document.createElement('button');
-        detailsBtn.type = 'button';
-        detailsBtn.className = "inline-flex items-center gap-1.5 text-white px-3.5 py-1.5 rounded-lg text-xs font-bold tracking-wide shadow-xs transition-all duration-150 cursor-pointer select-none border border-black/10 hover:shadow-md hover:-translate-y-0.5 active:translate-y-0";
-        detailsBtn.style.backgroundColor = mod.primary;
-        detailsBtn.onmouseenter = () => detailsBtn.style.backgroundColor = mod.primaryDark;
-        detailsBtn.onmouseleave = () => detailsBtn.style.backgroundColor = mod.primary;
-        detailsBtn.innerHTML = `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"/></svg><span>DDRS Framework Matrix</span>`;
-        detailsBtn.addEventListener('click', () => {
-          openModalDrawer('ddrs', mod.id, 6, page.detailsUrl);
-        });
-        actionContainer.appendChild(detailsBtn);
-
-        const imageContainer = document.getElementById('image-container');
-        const imgEl = document.getElementById('card-image');
-
-        if (page.imageUrl && page.imageUrl.trim() !== "") {
-          imgEl.src = page.imageUrl;
-          imageContainer.classList.remove('hidden');
-        } else {
-          imgEl.src = "";
-          imageContainer.classList.add('hidden');
-        }
-
-        document.getElementById('counter-badge').textContent = `${currentIndex + 1} of ${pages.length}`;
-        document.getElementById('deck-title').textContent = page.title;
-        document.getElementById('footer-status').textContent = `Active: ${mod.name} - ${page.title}`;
-
-        document.getElementById('prev-btn').disabled = (currentIndex === 0);
-        document.getElementById('next-btn').disabled = (currentIndex === pages.length - 1);
-
-        try {
-          sessionStorage.setItem('gsea_active_prog', currentProgram);
-          sessionStorage.setItem(`gsea_${currentProgram}_last_mod`, String(currentModuleIndex));
-          sessionStorage.setItem(`gsea_${currentProgram}_last_card`, String(currentIndex));
-          sessionStorage.setItem('gsea_last_mod', String(currentModuleIndex));
-          sessionStorage.setItem('gsea_last_card', String(currentIndex));
-          if (window.history && typeof window.history.replaceState === 'function') {
-            window.history.replaceState(null, '', `#${currentProgram}-module${currentModuleIndex + 1}-card${currentIndex + 1}`);
-          }
-        } catch (e) {}
-        ScormAPI.setProgress(`${currentProgram}-mod${currentModuleIndex + 1}-card${currentIndex}`, true);
-        return;
-      }
-
-      footerInstruction.textContent = "Click below to explore interactive session resources in the workspace drawer:";
-
       const getActionIcon = (type) => {
         switch (type) {
           case 'objectives':
@@ -1452,12 +1404,27 @@
         return btn;
       };
 
-      if (currentIndex === 4) {
+      if (page.detailsUrl) {
+        footerInstruction.textContent = "Click below to explore the official DD&RS framework matrix in the integrated hub:";
+        const detailsBtn = document.createElement('button');
+        detailsBtn.type = 'button';
+        detailsBtn.className = "inline-flex items-center gap-1.5 text-white px-3.5 py-1.5 rounded-lg text-xs font-bold tracking-wide shadow-xs transition-all duration-150 cursor-pointer select-none border border-black/10 hover:shadow-md hover:-translate-y-0.5 active:translate-y-0";
+        detailsBtn.style.backgroundColor = mod.primary;
+        detailsBtn.onmouseenter = () => detailsBtn.style.backgroundColor = mod.primaryDark;
+        detailsBtn.onmouseleave = () => detailsBtn.style.backgroundColor = mod.primary;
+        detailsBtn.innerHTML = `${getActionIcon('ddrs')}<span>DDRS Framework Matrix</span>`;
+        detailsBtn.addEventListener('click', () => {
+          openModalDrawer('ddrs', mod.id, 6, page.detailsUrl);
+        });
+        actionContainer.appendChild(detailsBtn);
+      } else if (currentIndex === 4) {
+        footerInstruction.textContent = "Click below to access formative evaluation rubrics and assessment guidelines:";
         // Session 5: Formative Evaluation external links
         if (page.url) actionContainer.appendChild(createExternalBtn(page.url, "Formative Evaluation"));
         if (page.lessonPlanUrl) actionContainer.appendChild(createExternalBtn(page.lessonPlanUrl, "Evaluation Guidelines"));
         if (page.objectivesUrl) actionContainer.appendChild(createExternalBtn(page.objectivesUrl, "Evaluation Criteria"));
       } else {
+        footerInstruction.textContent = "Click below to explore interactive session resources in the workspace drawer:";
         // Sessions 1 to 4: In-deck modal workspace hub (unified styling & colors)
         if (page.objectivesUrl) {
           actionContainer.appendChild(createModalBtn("Objectives", "objectives", page.objectivesUrl));
