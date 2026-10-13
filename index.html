@@ -410,7 +410,7 @@
             <button data-tab="objectives" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">🎯 Objectives</button>
             <button data-tab="plan" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">⏱️ Lesson Plan</button>
             <button data-tab="revision" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">🎴 Flashcards & Review</button>
-            <button data-tab="materials" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">🎬 Videos & Media</button>
+            <button data-tab="materials" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">📚 Additional Materials</button>
             <button data-tab="toeic" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">📝 TOEIC Practice</button>
             <button data-tab="ddrs" id="modal-tab-ddrs" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer hidden">🌱 DDRS</button>
           </nav>
@@ -1213,7 +1213,7 @@
         return;
       }
 
-      footerInstruction.textContent = "Click below to explore interactive materials in the integrated workspace hub:";
+      footerInstruction.textContent = "Click below to explore interactive materials in the integrated workspace hub or open the full materials page directly:";
 
       const createModalBtn = (label, tabKey, fallbackHref, isSpecial = false) => {
         const btn = document.createElement('button');
@@ -1250,7 +1250,7 @@
         if (page.lessonPlanUrl) actionContainer.appendChild(createExternalBtn(page.lessonPlanUrl, "Evaluation Guidelines"));
         if (page.objectivesUrl) actionContainer.appendChild(createExternalBtn(page.objectivesUrl, "Evaluation Criteria"));
       } else {
-        // Sessions 1 to 4: Integrated in-deck hub
+        // Sessions 1 to 4: Dual Button & Integrated in-deck hub
         if (page.objectivesUrl) {
           actionContainer.appendChild(createModalBtn("🎯 Objectives", "objectives", page.objectivesUrl));
         }
@@ -1262,7 +1262,23 @@
         }
         const materialsUrl = page.additionalMaterialsUrl || page.url;
         if (materialsUrl) {
-          actionContainer.appendChild(createModalBtn("🎬 Videos & Media", "materials", materialsUrl));
+          // Dual Button Mode:
+          // 1. Full Materials Page ↗ (Direct standalone subpage with all 132+ links & Back to Portal)
+          const fullPageBtn = document.createElement('a');
+          fullPageBtn.className = "inline-flex items-center space-x-1.5 text-white px-3.5 py-2 rounded-lg text-xs font-bold shadow-md shadow-slate-400/40 transition-all cursor-pointer no-underline hover:scale-[1.02] active:scale-[0.98]";
+          fullPageBtn.style.backgroundColor = mod.primary;
+          fullPageBtn.onmouseenter = () => fullPageBtn.style.backgroundColor = mod.primaryDark;
+          fullPageBtn.onmouseleave = () => fullPageBtn.style.backgroundColor = mod.primary;
+          fullPageBtn.href = materialsUrl;
+          fullPageBtn.target = "_self";
+          fullPageBtn.innerHTML = `<span>📚 Additional Materials ↗</span>`;
+          fullPageBtn.title = "Open full standalone materials page with all videos, articles, and web resources";
+          actionContainer.appendChild(fullPageBtn);
+
+          // 2. Quick Media Hub (In-deck slide-over drawer modal)
+          actionContainer.appendChild(createModalBtn("🎬 Quick Media Hub", "materials", materialsUrl));
+
+          // 3. TOEIC Practice Diagnostic Drill
           actionContainer.appendChild(createModalBtn("📝 TOEIC Practice", "toeic", materialsUrl, true));
         }
       }
@@ -1434,6 +1450,17 @@
           btn.className = "modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer";
         }
       });
+
+      // Update standalone pop-out link to match active tab
+      const standaloneBtn = document.getElementById('modal-standalone-btn');
+      if (standaloneBtn && modalState.sessionNum <= 4) {
+        const modNum = modalState.modNum;
+        const sNum = modalState.sessionNum;
+        if (tabKey === 'objectives') standaloneBtn.href = `session${sNum}/obj${modNum}.html`;
+        else if (tabKey === 'plan') standaloneBtn.href = `session${sNum}/plan${modNum}.html`;
+        else if (tabKey === 'revision') standaloneBtn.href = `session${sNum}/rev${modNum}.html`;
+        else if (tabKey === 'materials' || tabKey === 'toeic') standaloneBtn.href = `session${sNum}/admat${modNum}.html`;
+      }
 
       renderModalBody();
     }
@@ -1633,17 +1660,37 @@
 
     function renderMaterialsTab(sessionData, theme) {
       const bodyEl = document.getElementById('modal-body');
-      const mat = sessionData.materials || { videos: [], grammar: {}, resources: [] };
+      const mat = sessionData.materials || { videos: [], articles: [], grammar: {}, resources: [] };
       const vids = mat.videos || [];
+      const articles = mat.articles || [];
       const grammar = mat.grammar || {};
       const res = mat.resources || [];
+      const pageUrl = mat.pageUrl || `session${modalState.sessionNum}/admat${modalState.modNum}.html`;
 
       bodyEl.innerHTML = `
-        <div class="space-y-5">
-          <!-- Curated Videos Grid -->
+        <div class="space-y-6">
+          <!-- Standalone Page Direct Access Banner -->
+          <div class="p-4 bg-white border border-slate-200 rounded-xl shadow-xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Authentic Subpage</span>
+                <span class="text-[10px] font-black px-2 py-0.5 rounded text-white" style="background-color: ${theme.primary};">100% Fidelity</span>
+              </div>
+              <h4 class="text-sm font-bold text-slate-800 mt-0.5">Session ${modalState.sessionNum} Additional Materials &amp; Resources</h4>
+              <p class="text-xs text-slate-500 mt-0.5">Access the complete original page with all 4 sections, video transcripts, and complete reading passages.</p>
+            </div>
+            <a href="${pageUrl}" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg text-xs font-bold text-white shadow-md flex items-center justify-center gap-1.5 no-underline shrink-0 transition-transform hover:scale-[1.02] active:scale-[0.98]" style="background-color: ${theme.primary};">
+              <span>Open Standalone Page ↗</span>
+            </a>
+          </div>
+
+          <!-- Section 1: Curated Videos Grid -->
           <div>
             <div class="flex items-center justify-between pb-2 mb-3 border-b border-slate-200">
-              <h3 class="text-xs font-bold uppercase tracking-wider text-slate-700">Curated Video Clips (${vids.length})</h3>
+              <div class="flex items-center gap-2">
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">01</span>
+                <h3 class="text-xs font-bold uppercase tracking-wider text-slate-700">Video Viewers &amp; Analysis (${vids.length})</h3>
+              </div>
               <span class="text-[11px] text-slate-500">Subtitled on YouTube</span>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5">
@@ -1651,11 +1698,11 @@
                 <div class="bg-white border border-slate-200 rounded-xl p-3 flex flex-col justify-between shadow-xs">
                   <div>
                     <div class="flex items-center justify-between gap-1 pb-1.5 border-b border-slate-100 text-xs">
-                      <span class="font-bold text-slate-800 truncate" title="${v.title}">Video ${i + 1}</span>
-                      <a href="${v.watchUrl}" target="_blank" rel="noopener noreferrer" class="text-[10px] font-bold text-rose-700 bg-rose-50 border border-rose-200 px-1.5 py-0.5 rounded-full shrink-0 no-underline">Watch ↗</a>
+                      <span class="font-bold text-slate-800 truncate" title="${v.title}">Video ${i + 1}: ${v.title.replace(/^Video \d+:\s*/, '')}</span>
+                      <a href="${v.watchUrl}" target="_blank" rel="noopener noreferrer" class="text-[10px] font-bold text-rose-700 bg-rose-50 border border-rose-200 hover:bg-rose-100 px-2 py-0.5 rounded-full shrink-0 no-underline transition-all">Watch ↗</a>
                     </div>
                     <div class="aspect-video w-full my-2 bg-slate-900 rounded-lg overflow-hidden border border-slate-200">
-                      <iframe class="w-full h-full" src="${v.embedUrl}" title="${v.title}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <iframe class="w-full h-full" src="${v.embedUrl}" title="${v.title}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                     <p class="text-[11px] text-slate-600 leading-relaxed">${v.caption}</p>
                   </div>
@@ -1664,11 +1711,79 @@
             </div>
           </div>
 
-          <!-- Grammar Focus Card -->
+          <!-- Section 2: Featured News & Current Affairs Articles -->
+          ${articles.length > 0 ? `
+            <div>
+              <div class="flex items-center justify-between pb-2 mb-3 border-b border-slate-200">
+                <div class="flex items-center gap-2">
+                  <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">02</span>
+                  <h3 class="text-xs font-bold uppercase tracking-wider text-slate-700">Featured News &amp; Current Affairs (${articles.length})</h3>
+                </div>
+                <span class="text-[11px] text-slate-500">Industry Reports &amp; Case Studies</span>
+              </div>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+                ${articles.map(a => `
+                  <article class="bg-white border border-slate-200 rounded-xl p-4 flex flex-col justify-between shadow-xs hover:border-slate-300 transition-all">
+                    <div>
+                      <div class="flex items-center justify-between gap-2 pb-1.5 border-b border-slate-100 text-xs">
+                        <span class="font-bold text-[11px]" style="color: ${theme.primary};">${a.topic || 'Case Study'}</span>
+                        <span class="text-[10px] font-bold text-slate-400 bg-slate-100 px-2 py-0.5 rounded">${a.sourceTag || 'Analysis'}</span>
+                      </div>
+                      <h4 class="text-xs sm:text-sm font-bold text-slate-800 leading-snug mt-2">${a.heading}</h4>
+                      <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-2">${a.snippet}</p>
+                    </div>
+                    <div class="pt-3 mt-3 border-t border-slate-100 flex items-center justify-between text-xs">
+                      <span class="text-[11px] text-slate-400">${a.readTime || 'Estimated read: 4-5 mins'}</span>
+                      <a href="${a.url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-white font-bold text-xs px-3 py-1.5 rounded-lg shadow-xs hover:opacity-95 transition-all no-underline" style="background-color: ${theme.primary};">
+                        <span>Read Article</span>
+                        <span>→</span>
+                      </a>
+                    </div>
+                  </article>
+                `).join('')}
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- Section 3: Curated Web Resources & References -->
+          ${res.length > 0 ? `
+            <div>
+              <div class="flex items-center justify-between pb-2 mb-3 border-b border-slate-200">
+                <div class="flex items-center gap-2">
+                  <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">03</span>
+                  <h3 class="text-xs font-bold uppercase tracking-wider text-slate-700">Curated Web Resources &amp; References (${res.length})</h3>
+                </div>
+                <span class="text-[11px] text-slate-500">Authoritative Industry Portals</span>
+              </div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5">
+                ${res.map(r => `
+                  <a href="${r.url}" target="_blank" rel="noopener noreferrer" class="p-3.5 bg-white border border-slate-200 hover:border-slate-300 rounded-xl shadow-xs transition-all flex flex-col justify-between group no-underline">
+                    <div>
+                      <div class="flex items-center justify-between text-[10px] font-bold text-slate-400">
+                        <span class="truncate pr-1">${r.tag}</span>
+                        <span class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform text-slate-400">↗</span>
+                      </div>
+                      <h4 class="text-xs font-bold text-slate-800 mt-1">${r.name}</h4>
+                      <p class="text-[11px] text-slate-500 mt-1 line-clamp-2 leading-relaxed">${r.desc}</p>
+                    </div>
+                    <div class="pt-2 mt-2 border-t border-slate-100 flex items-center justify-between text-[11px] font-semibold" style="color: ${theme.primary};">
+                      <span>Visit Portal</span>
+                      <span>→</span>
+                    </div>
+                  </a>
+                `).join('')}
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- Section 4: Grammar Focus Card -->
           ${grammar.formula ? `
             <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-xs space-y-3">
               <div class="flex items-center justify-between pb-2 border-b border-slate-100">
-                <span class="text-xs font-bold uppercase tracking-wider" style="color: ${theme.primary};">${grammar.title || 'Grammar Focus'}</span>
+                <div class="flex items-center gap-2">
+                  <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">04</span>
+                  <span class="text-xs font-bold uppercase tracking-wider" style="color: ${theme.primary};">${grammar.title || 'Grammar Focus'}</span>
+                </div>
                 <span class="text-[10px] font-bold bg-amber-100 text-amber-800 px-2 py-0.5 rounded">Core Formula</span>
               </div>
               <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-center font-mono font-bold text-xs sm:text-sm" style="color: ${theme.primary};">
@@ -1679,27 +1794,6 @@
                   <strong>⚠️ Grammar Trap:</strong> ${grammar.trap}
                 </div>
               ` : ''}
-            </div>
-          ` : ''}
-
-          <!-- Curated Reading Links -->
-          ${res.length > 0 ? `
-            <div>
-              <h3 class="text-xs font-bold uppercase tracking-wider text-slate-700 pb-2 mb-3 border-b border-slate-200">Reference Portals &amp; Articles</h3>
-              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5">
-                ${res.map(r => `
-                  <a href="${r.url}" target="_blank" rel="noopener noreferrer" class="p-3 bg-white border border-slate-200 hover:border-slate-300 rounded-xl shadow-xs transition-all flex flex-col justify-between group no-underline">
-                    <div>
-                      <div class="flex items-center justify-between text-[10px] font-bold text-slate-400">
-                        <span>${r.tag}</span>
-                        <span class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform">↗</span>
-                      </div>
-                      <h4 class="text-xs font-bold text-slate-800 mt-1">${r.name}</h4>
-                      <p class="text-[11px] text-slate-500 mt-1 line-clamp-2">${r.desc}</p>
-                    </div>
-                  </a>
-                `).join('')}
-              </div>
             </div>
           ` : ''}
         </div>

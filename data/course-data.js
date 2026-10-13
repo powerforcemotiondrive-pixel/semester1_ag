@@ -4,12 +4,12 @@
  * Author: Phil PARRIS (LH/LAN)
  */
 (function (root, factory) {
-  if (typeof module === 'object' && module.exports) {
+  if (typeof module === "object" && module.exports) {
     module.exports = factory();
   } else {
     root.COURSE_DATA = factory();
   }
-})(typeof self !== 'undefined' ? self : this, function () {
+})(typeof self !== "undefined" ? self : this, function () {
   return {
   "1": {
     "id": 1,
@@ -313,7 +313,25 @@
               "desc": "International Civil Aviation Organization carbon offsetting and reduction scheme policies for international aviation."
             }
           ],
-          "pageUrl": "session1/admat1.html"
+          "pageUrl": "session1/admat1.html",
+          "articles": [
+            {
+              "topic": "Travel &amp; Communication",
+              "sourceTag": "Cultural Insights",
+              "heading": "The Art of the Travel Anecdote: Why Personal Journeys Build Spoken Fluency",
+              "snippet": "Sharing personal travel anecdotes and navigating unexpected transit disruptions provides the ideal foundation for natural narrative tenses, descriptive vocabulary, and conversational confidence in English.",
+              "readTime": "Estimated read: 4 mins",
+              "url": "https://www.bbc.com/travel"
+            },
+            {
+              "topic": "Exam Preparation",
+              "sourceTag": "ETS Global Insights",
+              "heading": "Understanding the Global TOEIC Benchmark: Essential Strategies for B2 Learners",
+              "snippet": "Learn how the 990-point scaled scoring system maps to CEFR B2 and C1 competencies, and why time management pacing in Parts 5, 6, and 7 is decisive for overall test success.",
+              "readTime": "Estimated read: 5 mins",
+              "url": "https://www.etsglobal.org/fr/fr"
+            }
+          ]
         }
       },
       "2": {
@@ -591,7 +609,25 @@
               "desc": "Practice timed workplace transport reading comprehension, corporate travel memos, and correlative inversion sentence completions."
             }
           ],
-          "pageUrl": "session2/admat1.html"
+          "pageUrl": "session2/admat1.html",
+          "articles": [
+            {
+              "topic": "Modal Shift &amp; Rail Policy",
+              "sourceTag": "Industry Press",
+              "heading": "The European Rail Revival: Banning Short-Haul Domestic Flights Where Rail Alternatives Exist",
+              "snippet": "European policymakers have implemented statutory restrictions on domestic short-haul flights connecting cities with high-speed rail links under 2.5 hours. Explore how airlines are restructuring their feeder networks, forming intermodal partnerships, and auditing corporate travel emissions.",
+              "readTime": "Estimated read: 5 mins",
+              "url": "https://www.railtech.com"
+            },
+            {
+              "topic": "European Commission Policy",
+              "sourceTag": "EU Mobility Hub",
+              "heading": "Reshaping the European Transport Network: The High-Speed Rail Action Plan",
+              "snippet": "Examine the European Commission&#39;s strategic blueprint for expanding cross-border high-speed passenger rail, tripling HSR traffic by 2030, and accelerating the decarbonization of European transport corridors.",
+              "readTime": "Estimated read: 4 mins",
+              "url": "https://transport.ec.europa.eu/transport-modes/rail/high-speed-rail-plan_en"
+            }
+          ]
         }
       },
       "3": {
@@ -832,7 +868,25 @@
             "strategy": "Whenever a blank immediately succeeds a modal verb (<em>must</em>, <em>should</em>, <em>can</em>, <em>could</em>, <em>may</em>, <em>might</em>, <em>will</em>, <em>would</em>) in TOEIC Part 5, always select the <strong>uninflected base verb</strong>."
           },
           "resources": [],
-          "pageUrl": "session3/admat1.html"
+          "pageUrl": "session3/admat1.html",
+          "articles": [
+            {
+              "topic": "UN Tourism Policy Brief",
+              "sourceTag": "Industry Analysis",
+              "heading": "Carrying Capacity Indicators in European Heritage Centers",
+              "snippet": "A comparative framework analyzing visitor ratios, local resident sentiment, and infrastructure strain.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://www.unwto.org/sustainable-development"
+            },
+            {
+              "topic": "Journal of Sustainable Tourism",
+              "sourceTag": "Industry Analysis",
+              "heading": "The Economics of Tourist Taxation &amp; Crowd Dispersal",
+              "snippet": "Evaluating whether dynamic pricing diverts crowds or merely generates municipal revenue.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://cda.ve.it"
+            }
+          ]
         }
       },
       "4": {
@@ -1073,7 +1127,25 @@
             "strategy": ""
           },
           "resources": [],
-          "pageUrl": "session4/admat1.html"
+          "pageUrl": "session4/admat1.html",
+          "articles": [
+            {
+              "topic": "Harvard Business Review",
+              "sourceTag": "Industry Analysis",
+              "heading": "Auditing Corporate Travel: The Scope 3 Emissions Challenge",
+              "snippet": "How international corporations measure and reduce business travel emissions through clear guidelines.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://hbr.org"
+            },
+            {
+              "topic": "Stanford Social Innovation Review",
+              "sourceTag": "Industry Analysis",
+              "heading": "The Rise of Regenerative Tourism",
+              "snippet": "Shifting the paradigm from &#x27;leaving no trace&#x27; to actively restoring degraded ecosystems and supporting communities.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://ssir.org"
+            }
+          ]
         }
       }
     }
@@ -1338,7 +1410,25 @@
             "strategy": ""
           },
           "resources": [],
-          "pageUrl": "session1/admat2.html"
+          "pageUrl": "session1/admat2.html",
+          "articles": [
+            {
+              "topic": "WMO Global Climate Observatory",
+              "sourceTag": "International Report",
+              "heading": "State of the Global Climate: Extreme Events &amp; Frequency",
+              "snippet": "World Meteorological Organization empirical analysis tracking rising global temperatures, severe heatwaves, and unprecedented precipitation extremes.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://public.wmo.int"
+            },
+            {
+              "topic": "UNDRR Risk Reduction Briefing",
+              "sourceTag": "Economic Analysis",
+              "heading": "The Escalating Economic Toll of Extreme Weather Disasters",
+              "snippet": "Assessing financial losses, supply-chain disruptions, and critical infrastructure vulnerabilities caused by climate-driven severe weather shocks.",
+              "readTime": "Estimated read: 6-8 mins",
+              "url": "https://www.undrr.org"
+            }
+          ]
         }
       },
       "2": {
@@ -1559,7 +1649,25 @@
             "strategy": ""
           },
           "resources": [],
-          "pageUrl": "session2/admat2.html"
+          "pageUrl": "session2/admat2.html",
+          "articles": [
+            {
+              "topic": "C40 Cities Climate Leadership",
+              "sourceTag": "Urban Policy",
+              "heading": "Urban Mobility Transition Index",
+              "snippet": "Comparative scoring of 50 global cities on public transit share, air quality improvements, and active mobility network integration.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://www.c40.org"
+            },
+            {
+              "topic": "OECD Urban Studies",
+              "sourceTag": "Economic Analysis",
+              "heading": "The Economics of Low-Emission Zones and Public Health",
+              "snippet": "Empirical assessment of health outcomes, commercial vitality, and emissions reductions following the implementation of urban clean-air zones.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://www.oecd.org"
+            }
+          ]
         }
       },
       "3": {
@@ -1780,7 +1888,25 @@
             "strategy": ""
           },
           "resources": [],
-          "pageUrl": "session3/admat2.html"
+          "pageUrl": "session3/admat2.html",
+          "articles": [
+            {
+              "topic": "Oxford Review of Economic Policy",
+              "sourceTag": "Policy Analysis",
+              "heading": "The Rhetoric of Climate Policy Negotiations",
+              "snippet": "Analyzing discourse markers, persuasive framing, and consensus-building strategies in international climate accords and environmental diplomacy.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://academic.oup.com"
+            },
+            {
+              "topic": "Centre for European Policy Studies (CEPS)",
+              "sourceTag": "Economic Briefing",
+              "heading": "Economic Trade-Offs in Transport Carbon Taxation",
+              "snippet": "A balanced policy briefing modeling passenger demand elasticity, modal shift potential, and economic impacts under escalating carbon levies.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://www.ceps.eu"
+            }
+          ]
         }
       },
       "4": {
@@ -2001,7 +2127,25 @@
             "strategy": ""
           },
           "resources": [],
-          "pageUrl": "session4/admat2.html"
+          "pageUrl": "session4/admat2.html",
+          "articles": [
+            {
+              "topic": "European Environment Agency (EEA)",
+              "sourceTag": "Environmental Briefing",
+              "heading": "Urban Greening and Biodiversity in European Cities",
+              "snippet": "Assessing how tree canopy expansion, rooftop gardens, and urban wetlands enhance ecological resilience and mitigate heat stress across metropolitan regions.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://www.eea.europa.eu"
+            },
+            {
+              "topic": "Airport World Technical Review",
+              "sourceTag": "Aviation Ecology",
+              "heading": "Balancing Airfield Safety Standards with Habitat Conservation",
+              "snippet": "Operational guidelines for airport environmental managers reconciling mandatory wildlife hazard controls with local biodiversity net gain objectives.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://airport-world.com"
+            }
+          ]
         }
       }
     }
@@ -2266,7 +2410,25 @@
             "strategy": ""
           },
           "resources": [],
-          "pageUrl": "session1/admat3.html"
+          "pageUrl": "session1/admat3.html",
+          "articles": [
+            {
+              "topic": "MIT Technology Review",
+              "sourceTag": "Industry Analysis",
+              "heading": "Generative AI and the Transformation of Modern Workplaces",
+              "snippet": "Analyzing how enterprise deployment of generative AI tools reshapes professional productivity, human-in-the-loop workflows, and ethical benchmarks.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://www.technologyreview.com"
+            },
+            {
+              "topic": "International Energy Agency (IEA)",
+              "sourceTag": "Environmental Briefing",
+              "heading": "The Compute Carbon Footprint: Data Centers and Energy Demands",
+              "snippet": "Assessing the soaring electrical energy and water cooling demands required to train and deploy modern large-scale artificial intelligence models.",
+              "readTime": "Estimated read: 6-8 mins",
+              "url": "https://www.iea.org"
+            }
+          ]
         }
       },
       "2": {
@@ -2487,7 +2649,25 @@
             "strategy": ""
           },
           "resources": [],
-          "pageUrl": "session2/admat3.html"
+          "pageUrl": "session2/admat3.html",
+          "articles": [
+            {
+              "topic": "International Council on Clean Transportation (ICCT)",
+              "sourceTag": "Policy Analysis",
+              "heading": "The European Rail Renaissance: Can High-Speed Rail Replace Regional Flights?",
+              "snippet": "Comparative modeling of travel times, carbon savings, and infrastructure investment required to achieve competitive rail alternatives across European corridors.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://theicct.org"
+            },
+            {
+              "topic": "McKinsey Transport &amp; Logistics Review",
+              "sourceTag": "Industry Forecast",
+              "heading": "The Next Decade of Sustainable Mobility &amp; Clean Fuels",
+              "snippet": "Assessing commercial scaling timelines for electric fleets, hydrogen fuel cells, autonomous shuttles, and net-zero passenger transport.",
+              "readTime": "Estimated read: 6-8 mins",
+              "url": "https://www.mckinsey.com"
+            }
+          ]
         }
       },
       "3": {
@@ -2708,7 +2888,25 @@
             "strategy": ""
           },
           "resources": [],
-          "pageUrl": "session3/admat3.html"
+          "pageUrl": "session3/admat3.html",
+          "articles": [
+            {
+              "topic": "Stanford Center for Human-Centered AI",
+              "sourceTag": "Academic Briefing",
+              "heading": "Critical Thinking in the Age of Automated Algorithms",
+              "snippet": "Analyzing how human operators can maintain situational awareness, recognize cognitive complacency, and challenge flawed automated outputs.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://hai.stanford.edu"
+            },
+            {
+              "topic": "Harvard Law Review Digital Governance",
+              "sourceTag": "Legal &amp; Policy Review",
+              "heading": "Allocating Legal Liability for Automated Decisions",
+              "snippet": "Exploring legal doctrines and ethical frameworks for attributing fault when autonomous vehicles, AI models, or automated systems cause harm.",
+              "readTime": "Estimated read: 6-8 mins",
+              "url": "https://harvardlawreview.org"
+            }
+          ]
         }
       },
       "4": {
@@ -2929,7 +3127,25 @@
             "strategy": ""
           },
           "resources": [],
-          "pageUrl": "session4/admat3.html"
+          "pageUrl": "session4/admat3.html",
+          "articles": [
+            {
+              "topic": "NIST / European Data Protection Board",
+              "sourceTag": "Scientific Evaluation",
+              "heading": "Facial Recognition at the Border: Privacy Safeguards and Demographic Fairness",
+              "snippet": "Technical evaluation of automated border e-Gates examining false match rates, demographic performance parity, and strict GDPR privacy compliance.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://www.nist.gov"
+            },
+            {
+              "topic": "International Air Transport Association (IATA)",
+              "sourceTag": "Industry Whitepaper",
+              "heading": "The Rise of Digital Passports &amp; Self-Sovereign Identity in Travel",
+              "snippet": "Evaluating the transition from physical passports to encrypted digital credentials, contactless boarding tokens, and passenger consent protocols.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://www.iata.org"
+            }
+          ]
         }
       }
     }

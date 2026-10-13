@@ -252,3 +252,4 @@ const fileContent = `/**
 
 fs.writeFileSync(outJsPath, fileContent, 'utf8');
 console.log('✓ Successfully generated data/course-data.js with complete multimedia and TOEIC quizzes!');
+
