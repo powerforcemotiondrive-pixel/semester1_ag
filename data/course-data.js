@@ -10,7 +10,7 @@
     root.COURSE_DATA = factory();
   }
 })(typeof self !== "undefined" ? self : this, function () {
-  return {
+  const agData = {
   "1": {
     "id": 1,
     "name": "Module 1",
@@ -5091,5 +5091,19 @@
       }
     }
   }
-};
+  };
+
+  const aasData = JSON.parse(JSON.stringify(agData));
+  aasData["1"].title = "Aerodrome";
+  aasData["2"].title = "Aircraft and Aerodynamics";
+  aasData["3"].title = "Safety and Security";
+
+  return {
+    ag: agData,
+    aas: aasData,
+    "1": agData["1"],
+    "2": agData["2"],
+    "3": agData["3"]
+  };
 });
+
