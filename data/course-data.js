@@ -333,8 +333,21 @@
           ],
           "grammar": {
             "title": "How to Use the Present Perfect",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "Sentence Pattern",
             "formula": "Subject + have / has + Past Participle (V3)",
-            "trap": "Never use <em>have / has + V3</em> with finished past dates or times (like <em>yesterday</em>, <em>in 2020</em>, <em>two hours ago</em>, or <em>last year</em>). When you see a specific completed time, always choose the <strong>Past Simple</strong> (*introduced*, *allocated*)!"
+            "rulesTitle": "When to Use It",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Actions continuing now:</strong> Started in the past and continue into the present, signaled by <span style=\"font-weight: 700; color: #c0684f;\">since</span> (+ starting point, e.g., <em>since 2021</em>) or <span style=\"font-weight: 700; color: #c0684f;\">for</span> (+ duration, e.g., <em>for three years</em>).",
+              "<strong style=\"color: #1e293b;\">2. Past action with a present result:</strong> The exact past time is not mentioned; what matters is the result right now (*\"We have updated our safety procedures\"*).",
+              "<strong style=\"color: #1e293b;\">3. Recent updates:</strong> Marked by signal words like <span style=\"font-weight: 600; color: #334155;\">already</span>, <span style=\"font-weight: 600; color: #334155;\">yet</span>, <span style=\"font-weight: 600; color: #334155;\">recently</span>, <span style=\"font-weight: 600; color: #334155;\">just</span>, or <span style=\"font-weight: 600; color: #334155;\">lately</span>."
+            ],
+            "trap": "<strong>⚠️ The #1 Past vs. Present Perfect Trap:</strong> Never use <em>have / has + V3</em> with finished past dates or times (like <em>yesterday</em>, <em>in 2020</em>, <em>two hours ago</em>, or <em>last year</em>). When you see a specific completed time, always choose the <strong>Past Simple</strong> (*introduced*, *allocated*)!",
+            "examplesTitle": "Workplace & Transit Examples",
+            "examples": [
+              "<em>\"The European Commission <strong>has allocated</strong> new funding for high-speed rail corridors <strong>since 2021</strong>.\"</em>",
+              "<em>\"Airport ground staff <strong>have not finalized</strong> the passenger rebooking procedures <strong>yet</strong>.\"</em>"
+            ]
           },
           "toeic": {
             "stem": "The European Transport Commission ________ several new high-speed rail corridors across member states over the past three years.",
@@ -756,8 +769,20 @@
           ],
           "grammar": {
             "title": "The \"Past Before the Past\"",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "Sentence Pattern",
             "formula": "Subject + had + Past Participle (V3)",
-            "trap": "If a sentence already talks about a past moment (like <em>By the time they arrived...</em>), you cannot use <em>has / have</em>. You must look backward into the past with <strong>had + past participle</strong>!"
+            "rulesTitle": "When to Use It",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Two past events in order:</strong> The <strong>earlier</strong> event uses <span style=\"font-weight: 700; color: #c0684f;\">had + past participle</span> (*had dominated*), while the <strong>later</strong> event uses the <strong>Past Simple</strong> (*entered service*).",
+              "<strong style=\"color: #1e293b;\">2. Finished before a past deadline:</strong> Look for time connectors like <span style=\"font-weight: 700; color: #c0684f;\">by the time</span>, <span style=\"font-weight: 700; color: #c0684f;\">before</span>, <span style=\"font-weight: 600; color: #334155;\">already</span>, and <span style=\"font-weight: 600; color: #334155;\">until</span> (*\"By the time the inspectors arrived, the crew had already fixed the issue\"*)."
+            ],
+            "trap": "<strong>⚠️ Past vs. Present Perfect Trap:</strong> If a sentence already talks about a past moment (like <em>By the time they arrived...</em>), you cannot use <em>has / have</em>. You must look backward into the past with <strong>had + past participle</strong>!",
+            "examplesTitle": "Transport Evolution Examples",
+            "examples": [
+              "<em>\"By the time commercial jetliners entered service in the late 1950s, transcontinental rail networks <strong>had dominated</strong> international passenger travel for half a century.\"</em>",
+              "<em>\"The regional carrier <strong>had already phased out</strong> its older turboprop fleet before new carbon regulations took effect.\"</em>"
+            ]
           },
           "toeic": {
             "stem": "All international passenger flight manifests must ________ to the border security agency at least thirty minutes prior to departure.",
@@ -1179,8 +1204,22 @@
           ],
           "grammar": {
             "title": "Modal Verbs & Meanings",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "The Golden Rule",
             "formula": "Subject + Modal (must / should / can / may) + Base Verb (V1 without \"to\")",
-            "trap": "A modal verb (<em>must, should, can, could, will, would, may, might</em>) is <strong>always</strong> followed by the simple <strong>base verb</strong> (V1) with NO <em>-s</em>, NO <em>-ing</em>, NO <em>-ed</em>, and NO <em>to</em> (e.g., <em>must submit</em>, never <em>must to submit</em> or <em>must submitting</em>)!"
+            "rulesTitle": "Core Meanings",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Obligation &amp; Rules (Must / Have to):</strong> Something is mandatory by law or safety regulation (*\"Carriers <strong>must submit</strong> their manifests\"*).",
+              "<strong style=\"color: #1e293b;\">2. Advice &amp; Recommendations (Should / Ought to):</strong> Suggesting the best thing to do (*\"Authorities <strong>should encourage</strong> off-peak travel\"*).",
+              "<strong style=\"color: #1e293b;\">3. Permission &amp; Bans (May / Must not):</strong> <em>May</em> means you are allowed to; <em>must not</em> means something is strictly forbidden.",
+              "<strong style=\"color: #1e293b;\">4. Possibility &amp; Ability (Can / Could / Might):</strong> Stating what is possible or capable of happening."
+            ],
+            "trap": "<strong>⚠️ The #1 Modal Rule in TOEIC:</strong> A modal verb (<em>must, should, can, could, will, would, may, might</em>) is <strong>always</strong> followed by the simple <strong>base verb</strong> (V1) with NO <em>-s</em>, NO <em>-ing</em>, NO <em>-ed</em>, and NO <em>to</em> (e.g., <em>must submit</em>, never <em>must to submit</em> or <em>must submitting</em>)!",
+            "examplesTitle": "Carrying Capacity Examples",
+            "examples": [
+              "<em>\"To protect fragile canal banks, maritime authorities <strong>must regulate</strong> daily cruise disembarkation tallies.\"</em>",
+              "<em>\"Regional transit boards <strong>should promote</strong> off-peak rail incentives to disperse peak crowd density.\"</em>"
+            ]
           },
           "toeic": {
             "stem": "Due to severe visitor overcrowding in historic quarters, city officials ________ impose strict daily tourist caps next season.",
@@ -1565,8 +1604,22 @@
           ],
           "grammar": {
             "title": "AT, IN, and ON for Places",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "The Three Place Prepositions",
             "formula": "AT (Point / Desk) • IN (Enclosed Room / City) • ON (Surface / Floor / Line)",
-            "trap": "Watch out for movement words! Static places use <em>at</em>, <em>in</em>, or <em>on</em>. Movement uses <em>to</em>, <em>into</em>, <em>onto</em>, or <em>toward</em>. If the action is stationary (e.g., <em>purchase</em>, <em>wait</em>, <em>meet</em>, <em>sit</em>), do not choose movement words!"
+            "rulesTitle": "Core Rules",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. AT (Specific Points &amp; Desks):</strong> Exact service counters, meeting points, and transit stops (<span style=\"font-weight: 700; color: #c0684f;\">at the desk</span>, <span style=\"font-weight: 700; color: #c0684f;\">at the solar charging hub</span>, <span style=\"font-weight: 700; color: #c0684f;\">at the gate</span>).",
+              "<strong style=\"color: #1e293b;\">2. IN (Enclosed Spaces &amp; Areas):</strong> Rooms, buildings, cities, and regions (<span style=\"font-weight: 700; color: #c0684f;\">in the terminal</span>, <span style=\"font-weight: 700; color: #c0684f;\">in the national park</span>, <span style=\"font-weight: 700; color: #c0684f;\">in Copenhagen</span>).",
+              "<strong style=\"color: #1e293b;\">3. ON (Surfaces, Floors &amp; Public Transport):</strong> Flat surfaces, specific floors, and public transit (<span style=\"font-weight: 600; color: #334155;\">on the roof</span>, <span style=\"font-weight: 600; color: #334155;\">on the second floor</span>, <span style=\"font-weight: 600; color: #334155;\">on the train</span>).",
+              "<strong style=\"color: #1e293b;\">4. Relational Words:</strong> <span style=\"font-weight: 600; color: #334155;\">next to</span> / <span style=\"font-weight: 600; color: #334155;\">adjacent to</span> (beside), <span style=\"font-weight: 600; color: #334155;\">between</span> (between two points), and <span style=\"font-weight: 600; color: #334155;\">throughout</span> (all across an area)."
+            ],
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> Watch out for movement words! Static places use <em>at</em>, <em>in</em>, or <em>on</em>. Movement uses <em>to</em>, <em>into</em>, <em>onto</em>, or <em>toward</em>. If the action is stationary (e.g., <em>purchase</em>, <em>wait</em>, <em>meet</em>, <em>sit</em>), do not choose movement words!",
+            "examplesTitle": "Green Tourism & Transit Examples",
+            "examples": [
+              "<em>\"Visitors can collect reusable guidebooks <strong>at</strong> the eco-tourism kiosk located in the primary lobby.\"</em>",
+              "<em>\"Electric shuttle buses run continuously <strong>between</strong> the high-speed rail terminus and the regional biosphere reserve.\"</em>"
+            ]
           },
           "toeic": {
             "stem": "If large corporations ________ corporate business travel by twenty percent, their overall carbon footprint would decline noticeably.",
@@ -2061,8 +2114,22 @@
           ],
           "grammar": {
             "title": "Word Endings & Sentence Positions",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "Common Endings & Word Types",
             "formula": "Noun (-tion, -ment) • Adj (-able, -ive) • Adv (-ly) • Verb (-ate, -ify)",
-            "trap": "If a sentence already has a complete verb (e.g., <em>dropped</em>), and the blank explains how it happened, you need an <strong>adverb ending in -ly</strong> (<em>dropped significantly</em>)!"
+            "rulesTitle": "Core Rules",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Nouns (-tion, -ment, -ance, -ity):</strong> Names of things, people, or concepts. They come after <em>a</em>, <em>an</em>, <em>the</em> or adjectives (<span style=\"font-weight: 700; color: #49739a;\">prediction</span>, <span style=\"font-weight: 700; color: #49739a;\">severity</span>).",
+              "<strong style=\"color: #1e293b;\">2. Adjectives (-able, -ive, -al, -ous):</strong> Words that describe nouns. They come before nouns or after verbs like <em>be</em>, <em>remain</em>, <em>seem</em> (<span style=\"font-weight: 700; color: #49739a;\">predictable</span>, <span style=\"font-weight: 700; color: #49739a;\">severe</span>).",
+              "<strong style=\"color: #1e293b;\">3. Adverbs (-ly):</strong> Words that describe how or how much an action happens. They describe verbs, adjectives, or full sentences (<span style=\"font-weight: 600; color: #334155;\">significantly</span>, <span style=\"font-weight: 600; color: #334155;\">rapidly</span>).",
+              "<strong style=\"color: #1e293b;\">4. Verbs (-ate, -ify, -ize):</strong> Action words. They follow the subject (<span style=\"font-weight: 600; color: #334155;\">predict</span>, <span style=\"font-weight: 600; color: #334155;\">signify</span>)."
+            ],
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> If a sentence already has a complete verb (e.g., <em>dropped</em>), and the blank explains how it happened, you need an <strong>adverb ending in -ly</strong> (<em>dropped significantly</em>)!",
+            "examplesTitle": "Meteorology & Operations Examples",
+            "examples": [
+              "<em>\"Meteorologists must monitor barometric pressure <strong>continuously</strong> to ensure flight safety.\"</em>",
+              "<em>\"The sudden drop in altitude caused by wind shear was <strong>extremely</strong> dangerous.\"</em>"
+            ]
           },
           "toeic": {
             "stem": "The frequency of Mediterranean heatwave events was ________ higher this decade than during any previously recorded ten-year span.",
@@ -2427,8 +2494,21 @@
           ],
           "grammar": {
             "title": "Matching Subjects & Verbs",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "Basic Rule",
             "formula": "Main Subject [Singular] + (words in between) + Verb with -s [Singular]",
-            "trap": "The test often puts plural nouns right in front of the blank (e.g., <em>\"...corridors into hubs [ _____ ]\"</em>) to fool you. Ignore the words inside <em>\"of...\"</em> or <em>\"in...\"</em> and match the verb to the very first main noun!"
+            "rulesTitle": "Core Rules",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Words in Between (The \"of / in / with\" trap):</strong> In <em>\"The integration of light-rail corridors\"</em>, the real subject is <span style=\"font-weight: 700; color: #49739a;\">integration</span> (singular), not <em>corridors</em> (plural). The verb must be singular (<em>reduces</em>).",
+              "<strong style=\"color: #1e293b;\">2. Companies &amp; Organizations:</strong> Words like <em>the committee</em>, <em>the transit board</em>, or <em>the municipality</em> count as one single unit and take a singular verb.",
+              "<strong style=\"color: #1e293b;\">3. Words like Each / Every / One of:</strong> Phrases like <em>Each of the hubs</em> or <em>One of the passengers</em> always take a <span style=\"font-weight: 600; color: #334155;\">singular verb</span>."
+            ],
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> The test often puts plural nouns right in front of the blank (e.g., <em>\"...corridors into hubs [ _____ ]\"</em>) to fool you. Ignore the words inside <em>\"of...\"</em> or <em>\"in...\"</em> and match the verb to the very first main noun!",
+            "examplesTitle": "Urban Mobility Examples",
+            "examples": [
+              "<em>\"The expansion of electric tramways into suburban districts <strong>has improved</strong> regional air quality.\"</em>",
+              "<em>\"Each of the city's shared mobility hubs <strong>provides</strong> free solar battery recharging.\"</em>"
+            ]
           },
           "toeic": {
             "stem": "European metropolitan areas ________ invest heavily in protected cycling infrastructure report substantial reductions in transport emissions.",
@@ -2793,8 +2873,21 @@
           ],
           "grammar": {
             "title": "Verbs with -ing vs. to + Verb",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "Two Different Verb Patterns",
             "formula": "Verb + -ing | Verb + to + Verb | Preposition + -ing",
-            "trap": "In French, people say <em>\"recommander de faire\"</em> with an infinitive. But in English, you <strong>cannot</strong> say <em>\"recommend to do\"</em>. You must say <strong>recommend doing (-ing)</strong>!"
+            "rulesTitle": "Core Rules",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Verbs Followed by -ing:</strong> <span style=\"font-weight: 700; color: #49739a;\">recommend</span>, <span style=\"font-weight: 700; color: #49739a;\">suggest</span>, <span style=\"font-weight: 700; color: #49739a;\">consider</span>, <em>avoid</em>, <em>postpone</em>, <em>delay</em> (*recommend implementing*).",
+              "<strong style=\"color: #1e293b;\">2. Verbs Followed by to + Verb:</strong> <span style=\"font-weight: 700; color: #49739a;\">decide</span>, <span style=\"font-weight: 700; color: #49739a;\">agree</span>, <span style=\"font-weight: 700; color: #49739a;\">aim</span>, <em>plan</em>, <em>refuse</em>, <em>promise</em>, <em>hesitate</em> (*agree to invest*).",
+              "<strong style=\"color: #1e293b;\">3. Prepositions Always Take -ing:</strong> Any verb after a preposition (<em>in</em>, <em>by</em>, <em>for</em>, <em>committed to</em>, <em>look forward to</em>) must end in <span style=\"font-weight: 600; color: #334155;\">-ing</span>."
+            ],
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> In French, people say <em>\"recommander de faire\"</em> with an infinitive. But in English, you <strong>cannot</strong> say <em>\"recommend to do\"</em>. You must say <strong>recommend doing (-ing)</strong>!",
+            "examplesTitle": "Climate Policy & Debate Examples",
+            "examples": [
+              "<em>\"European transport ministers suggested <strong>capping</strong> carbon subsidies for short-haul flights.\"</em>",
+              "<em>\"The airline coalition agreed <strong>to invest</strong> in hydrogen fuel cell prototypes.\"</em>"
+            ]
           },
           "toeic": {
             "stem": "High-speed rail ticket prices remain elevated; ________, passenger ridership has expanded steadily across major European corridors.",
@@ -3159,8 +3252,22 @@
           ],
           "grammar": {
             "title": "Pronouns & Possessives in Business",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "Key Business Rule",
             "formula": "Company / Authority / Organization = ITS (Singular, not \"their\")",
-            "trap": "<strong>its</strong> vs. <strong>it's</strong>! <em>Its</em> (no apostrophe) shows possession (<em>its report</em>). <em>It's</em> (with apostrophe) means <em>it is</em> or <em>it has</em>. In TOEIC Part 5, almost every blank before a noun needs <strong>its</strong>!"
+            "rulesTitle": "Core Rules",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Companies &amp; Authorities use ITS:</strong> A company, airport, or committee is one single organization. Always use <span style=\"font-weight: 700; color: #49739a;\">its</span>, not <em>their</em> (<em>\"The authority released <strong>its</strong> report\"</em>).",
+              "<strong style=\"color: #1e293b;\">2. Before a Noun vs. Alone:</strong> Use <span style=\"font-weight: 700; color: #49739a;\">its</span> or <em>their</em> right before a noun (<em>their plan</em>). Use <em>theirs</em> or <em>mine</em> only when there is NO noun after it.",
+              "<strong style=\"color: #1e293b;\">3. -self words (itself / themselves):</strong> Use <span style=\"font-weight: 600; color: #334155;\">itself</span> when the subject does something to or by itself (<em>by itself</em>).",
+              "<strong style=\"color: #1e293b;\">4. Determiners:</strong> <em>Each</em> / <em>every</em> take singular nouns; <em>other</em> takes plural nouns (<em>other airports</em>); <em>another</em> takes a single noun (<em>another terminal</em>)."
+            ],
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> <strong>its</strong> vs. <strong>it's</strong>! <em>Its</em> (no apostrophe) shows possession (<em>its report</em>). <em>It's</em> (with apostrophe) means <em>it is</em> or <em>it has</em>. In TOEIC Part 5, almost every blank before a noun needs <strong>its</strong>!",
+            "examplesTitle": "Airport Biodiversity Examples",
+            "examples": [
+              "<em>\"The civil aviation commission updated <strong>its</strong> environmental impact charter for green perimeter zones.\"</em>",
+              "<em>\"Urban planners designed the green corridor so that wildlife could navigate the transit hub by <strong>itself</strong>.\"</em>"
+            ]
           },
           "toeic": {
             "stem": "Commercial flight operations continued without interruption ________ dense snow accumulation on taxiways throughout the early morning.",
@@ -3655,8 +3762,21 @@
           ],
           "grammar": {
             "title": "Active vs. Passive Voice",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "How Both Voices Work",
             "formula": "Active: Subject + Action + Object | Passive: Receiver + [be] + Past Participle (V3)",
-            "trap": "Check who does the action! If the subject is an object that cannot act on its own (like source code, a report, or equipment), and is followed by <em>\"by...\"</em>, you need the <strong>passive voice ([be] + V3)</strong>!"
+            "rulesTitle": "Core Distinction",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Active Voice (Subject does the action):</strong> Use when you want to focus on who or what does the work (<span style=\"font-weight: 700; color: #60854b;\">\"Engineers test the software\"</span>).",
+              "<strong style=\"color: #1e293b;\">2. Passive Voice (Subject receives the action):</strong> Formed with <span style=\"font-weight: 700; color: #60854b;\">[be] + Past Participle (V3)</span>. Very common in aviation manuals and safety reports when the result is more important than who did it (<em>\"The software is tested\"</em>).",
+              "<strong style=\"color: #1e293b;\">3. Passive with Modal Verbs:</strong> Formed with <span style=\"font-weight: 600; color: #334155;\">modal + be + Past Participle</span> (e.g., <em>must be tested</em>, <em>should be updated</em>, <em>can be operated</em>)."
+            ],
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> Check who does the action! If the subject is an object that cannot act on its own (like source code, a report, or equipment), and is followed by <em>\"by...\"</em>, you need the <strong>passive voice ([be] + V3)</strong>!",
+            "examplesTitle": "Aviation & AI Examples",
+            "examples": [
+              "<em>\"Flight telemetry data <strong>is analyzed</strong> by deep learning models in real time.\" (Passive)</em>",
+              "<em>\"Avionics engineers <strong>calibrated</strong> the autopilot sensor array before takeoff.\" (Active)</em>"
+            ]
           },
           "toeic": {
             "stem": "By the end of this fiscal year, automated baggage tracking systems ________ at three major international hub terminals.",
@@ -4021,8 +4141,21 @@
           ],
           "grammar": {
             "title": "Comparing Things & Degree Words",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "Comparison Rules",
             "formula": "Comparative: [much / considerably] + [more + adj / -er] + than | Superlative: the + [most + adj / -est]",
-            "trap": "Never put <strong>very</strong> in front of a comparative (NOT <em>very more expensive</em> ❌)! When you see <em>than</em> after the blank, you must use a comparative (<em>more costly</em>), never a superlative (<em>most costly</em>)."
+            "rulesTitle": "Core Rules",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Comparing Two Things (Comparative):</strong> Compare two items using <span style=\"font-weight: 700; color: #60854b;\">-er / more ... than</span> (e.g., <em>faster than</em>, <em>more efficient than</em>).",
+              "<strong style=\"color: #1e293b;\">2. Degree Words (How much bigger or smaller):</strong> Use words like <span style=\"font-weight: 600; color: #334155;\">much, considerably, far, significantly, slightly</span> before comparatives (e.g., <em>considerably more costly</em>, <em>significantly higher</em>).",
+              "<strong style=\"color: #1e293b;\">3. The Top of a Group (Superlative):</strong> Use <span style=\"font-weight: 700; color: #60854b;\">the + -est / the most + adjective</span> for three or more things (e.g., <em>the most viable solution</em>, <em>the cheapest option</em>)."
+            ],
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> Never put <strong>very</strong> in front of a comparative (NOT <em>very more expensive</em> ❌)! When you see <em>than</em> after the blank, you must use a comparative (<em>more costly</em>), never a superlative (<em>most costly</em>).",
+            "examplesTitle": "Propulsion & Energy Examples",
+            "examples": [
+              "<em>\"Hydrogen yields <strong>significantly higher</strong> gravimetric energy density than battery cells.\" (Comparative)</em>",
+              "<em>\"Hybrid turboprops represent <strong>the most viable</strong> interim solution for regional carriers.\" (Superlative)</em>"
+            ]
           },
           "toeic": {
             "stem": "Rarely ________ airline dispatch teams encountered such extensive cloud infrastructure outages across European air control centers.",
@@ -4387,8 +4520,21 @@
           ],
           "grammar": {
             "title": "Connecting Sentences & Ideas",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "Connecting Words",
             "formula": "Conjunction: [Although / Because] + Subject + Verb | Preposition: [Despite / Due to] + Noun",
-            "trap": "The <em>\"Although vs. Despite\"</em> trap! If you see a <strong>Subject and a Verb</strong> after the blank, choose <em>Although / Even though</em>. If you see only a noun phrase, choose <em>Despite / In spite of</em>!"
+            "rulesTitle": "Core Rules",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Conjunctions (Although, Even though, Because, Since):</strong> Followed by a complete sentence with a <span style=\"font-weight: 700; color: #60854b;\">Subject and a Verb</span> (<em>\"Although the model worked...\"</em>).",
+              "<strong style=\"color: #1e293b;\">2. Prepositions (Despite, In spite of, Because of, Due to):</strong> Followed only by a <span style=\"font-weight: 700; color: #60854b;\">noun or an -ing word</span>, never a full subject + verb (<em>\"Despite high accuracy...\"</em>).",
+              "<strong style=\"color: #1e293b;\">3. Transition Words (However, Therefore, Furthermore):</strong> Start a new sentence after a period or semicolon, usually followed by a comma (<span style=\"font-weight: 600; color: #334155;\">\"However, regulators hesitated.\"</span>)."
+            ],
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> The <em>\"Although vs. Despite\"</em> trap! If you see a <strong>Subject and a Verb</strong> after the blank, choose <em>Although / Even though</em>. If you see only a noun phrase, choose <em>Despite / In spite of</em>!",
+            "examplesTitle": "Governance & Ethics Examples",
+            "examples": [
+              "<em>\"<strong>Although</strong> the model demonstrated accuracy, bias audits remained mandatory.\" (+ Clause)</em>",
+              "<em>\"<strong>Despite</strong> high statistical accuracy, public deployment was delayed.\" (+ Noun Phrase)</em>"
+            ]
           },
           "toeic": {
             "stem": "European air transport regulators recommend that every commercial AI guidance system ________ audited by human flight safety panels.",
@@ -4753,8 +4899,21 @@
           ],
           "grammar": {
             "title": "Words That Go Together (Collocations)",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "Key Word Pairs",
             "formula": "Verb + Preposition: comply with / adhere to | Verb + Noun: meet standards / conduct an audit",
-            "trap": "Pay close attention to the preposition right after the blank! If you see <em>with</em>, you cannot pick <em>meet</em>, <em>follow</em>, or <em>observe</em> (they don't use <em>with</em>). You must pick <strong>comply with</strong>!"
+            "rulesTitle": "Core Rules",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Verbs with Fixed Prepositions:</strong> <span style=\"font-weight: 700; color: #60854b;\">comply with</span> (rules), <span style=\"font-weight: 700; color: #60854b;\">adhere to</span> (policies), <span style=\"font-weight: 700; color: #60854b;\">participate in</span> (events), <span style=\"font-weight: 700; color: #60854b;\">account for</span> (a percentage).",
+              "<strong style=\"color: #1e293b;\">2. Verbs with NO Preposition:</strong> <span style=\"font-weight: 600; color: #334155;\">meet standards</span> (NOT <em>meet with standards</em>), <span style=\"font-weight: 600; color: #334155;\">follow rules</span>, <span style=\"font-weight: 600; color: #334155;\">observe regulations</span>.",
+              "<strong style=\"color: #1e293b;\">3. Natural Business Pairs:</strong> <span style=\"font-weight: 600; color: #334155;\">conduct an audit</span>, <span style=\"font-weight: 600; color: #334155;\">grant clearance</span>, <span style=\"font-weight: 600; color: #334155;\">implement measures</span>, <span style=\"font-weight: 600; color: #334155;\">strict confidentiality</span>."
+            ],
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> Pay close attention to the preposition right after the blank! If you see <em>with</em>, you cannot pick <em>meet</em>, <em>follow</em>, or <em>observe</em> (they don't use <em>with</em>). You must pick <strong>comply with</strong>!",
+            "examplesTitle": "Biometrics & Security Examples",
+            "examples": [
+              "<em>\"Border control e-gates must <strong>comply with</strong> international encryption protocols.\" (Verb + Prep)</em>",
+              "<em>\"The airport authority will <strong>conduct a comprehensive audit</strong> of its facial scanner feeds.\" (Verb + Noun)</em>"
+            ]
           },
           "toeic": {
             "stem": "________ their digital identity tokens at the self-service terminal, passengers proceed seamlessly through automated biometric boarding lanes.",
