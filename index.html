@@ -383,8 +383,7 @@
           </div>
 
           <!-- Action Link Footer Inside Card -->
-          <div class="pt-4 border-t border-slate-100 flex flex-col items-start gap-2.5 mt-4">
-            <div id="footer-instruction" class="text-[11px] text-slate-500 font-medium">Click below to open this specific page directly in your workspace tab.</div>
+          <div class="pt-4 border-t border-slate-100 flex flex-col gap-2.5 mt-4">
             <!-- Dynamic Action Links Container -->
             <div id="action-links-container" class="w-full flex flex-wrap items-center gap-2"></div>
           </div>
@@ -1472,7 +1471,6 @@
       document.getElementById('card-desc').innerHTML = formatCardDescription(page.description, page, currentIndex);
 
       const actionContainer = document.getElementById('action-links-container');
-      const footerInstruction = document.getElementById('footer-instruction');
       actionContainer.innerHTML = '';
 
       const getActionIcon = (type) => {
@@ -1522,7 +1520,6 @@
       };
 
       if (page.detailsUrl) {
-        footerInstruction.textContent = "Click below to explore the official DD&RS framework matrix in the integrated hub:";
         const detailsBtn = document.createElement('button');
         detailsBtn.type = 'button';
         detailsBtn.className = "inline-flex items-center gap-1.5 text-white px-3.5 py-1.5 rounded-lg text-xs font-bold tracking-wide shadow-xs transition-all duration-150 cursor-pointer select-none border border-black/10 hover:shadow-sm hover:-translate-y-[1px] active:translate-y-0";
@@ -1535,13 +1532,11 @@
         });
         actionContainer.appendChild(detailsBtn);
       } else if (currentIndex === 4) {
-        footerInstruction.textContent = "Click below to access formative evaluation rubrics and assessment guidelines:";
         // Session 5: Formative Evaluation external links
         if (page.url) actionContainer.appendChild(createExternalBtn(page.url, "Formative Evaluation"));
         if (page.lessonPlanUrl) actionContainer.appendChild(createExternalBtn(page.lessonPlanUrl, "Evaluation Guidelines"));
         if (page.objectivesUrl) actionContainer.appendChild(createExternalBtn(page.objectivesUrl, "Evaluation Criteria"));
       } else {
-        footerInstruction.textContent = "Click below to explore interactive session resources in the workspace drawer:";
         // Sessions 1 to 4: In-deck modal workspace hub (unified styling & colors)
         if (page.objectivesUrl) {
           actionContainer.appendChild(createModalBtn("Objectives", "objectives", page.objectivesUrl));
