@@ -30,7 +30,7 @@
     a[role="button"],
     .module-buttons-group button,
     #action-links-container a,
-    #ecampus-btn,
+    #action-links-container button,
     #prev-btn,
     #next-btn,
     #deck-icon-box,
@@ -52,7 +52,7 @@
     }
 
     /* Theme transitions */
-    #deck-header, #flight-deck-ribbon, #deck-icon-box, #card-tag-wrapper, #card-heading, #prev-btn, #next-btn, #counter-badge, #ecampus-btn, .module-buttons-group button, #action-links-container a, #program-switcher button {
+    #deck-header, #flight-deck-ribbon, #deck-icon-box, #card-tag-wrapper, #card-heading, #prev-btn, #next-btn, #counter-badge, .module-buttons-group button, #action-links-container a, #action-links-container button, #program-switcher button {
       transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease, transform 0.15s ease;
     }
 
@@ -227,93 +227,24 @@
       transform: rotateY(180deg);
     }
 
-    /* Clean Dark Mode (No High-Contrast Borders) */
-    body.dark-mode {
-      background-color: #0b0f19 !important;
-      background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1.25px, transparent 1.25px) !important;
-      background-size: 20px 20px !important;
-      color: #e2e8f0;
+    /* Smooth AG <-> AAS Track Cross-Dissolve */
+    .track-crossfade-exit {
+      opacity: 0 !important;
+      transform: scale(0.995) translateY(2px) !important;
+      transition: opacity 160ms cubic-bezier(0.4, 0, 0.2, 1), transform 160ms cubic-bezier(0.4, 0, 0.2, 1) !important;
     }
-    body.dark-mode .moodle-deck-canvas {
-      background-color: #151d2c !important;
-      border-color: #334155 !important;
-      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.4) !important;
+    .track-crossfade-enter {
+      opacity: 1 !important;
+      transform: scale(1) translateY(0) !important;
+      transition: opacity 220ms cubic-bezier(0, 0, 0.2, 1), transform 220ms cubic-bezier(0, 0, 0.2, 1) !important;
     }
-    body.dark-mode .sidebar-menu {
-      background-color: #0f172a !important;
-      border-color: #334155 !important;
+
+    /* Concept 1: Aeronautical Flight Strips Navigation */
+    .flight-strip-card {
+      transition: all 0.18s cubic-bezier(0.4, 0, 0.2, 1);
     }
-    body.dark-mode .sidebar-menu > div:first-child {
-      background-color: #1e293b !important;
-      color: #94a3b8 !important;
-      border-color: #334155 !important;
-    }
-    body.dark-mode #deck-menu button {
-      color: #cbd5e1 !important;
-      border-color: #1e293b !important;
-    }
-    body.dark-mode #deck-menu button:hover {
-      background-color: rgba(255, 255, 255, 0.05) !important;
-    }
-    body.dark-mode .content-panel {
-      background-color: #151d2c !important;
-    }
-    body.dark-mode #card-desc {
-      color: #cbd5e1 !important;
-    }
-    body.dark-mode #footer-instruction {
-      color: #94a3b8 !important;
-    }
-    body.dark-mode .vocab-footer {
-      background-color: rgba(15, 23, 42, 0.6) !important;
-      border-color: #334155 !important;
-    }
-    body.dark-mode .vocab-ipa {
-      color: #94a3b8 !important;
-    }
-    body.dark-mode footer.bg-slate-50 {
-      background-color: #0f172a !important;
-      border-color: #334155 !important;
-      color: #94a3b8 !important;
-    }
-    body.dark-mode #footer-status {
-      color: #cbd5e1 !important;
-    }
-    body.dark-mode #deck-modal-drawer {
-      background-color: #151d2c !important;
-      color: #e2e8f0 !important;
-    }
-    body.dark-mode #modal-body {
-      background-color: #0f172a !important;
-    }
-    body.dark-mode #modal-body .bg-white {
-      background-color: #1e293b !important;
-      border-color: #334155 !important;
-      color: #e2e8f0 !important;
-    }
-    body.dark-mode #modal-body h4,
-    body.dark-mode #modal-body h3 {
-      color: #f8fafc !important;
-    }
-    body.dark-mode #modal-body p {
-      color: #cbd5e1 !important;
-    }
-    body.dark-mode #modal-body .bg-slate-50 {
-      background-color: #0f172a !important;
-      border-color: #334155 !important;
-    }
-    body.dark-mode #deck-modal-drawer footer {
-      background-color: #151d2c !important;
-      border-color: #334155 !important;
-      color: #94a3b8 !important;
-    }
-    body.dark-mode #program-switcher {
-      background-color: rgba(0, 0, 0, 0.45) !important;
-      border-color: #334155 !important;
-    }
-    body.dark-mode #flight-deck-ribbon {
-      background-color: #0b1120 !important;
-      border-color: #1e293b !important;
+    .flight-strip-card:hover {
+      transform: translateX(2px);
     }
   </style>
 </head>
@@ -339,13 +270,8 @@
           </div>
         </div>
 
-        <!-- Navigation & Accessibility Controls -->
+        <!-- Navigation Controls -->
         <div class="flex items-center space-x-2">
-          <div class="flex items-center space-x-1 mr-1">
-            <button id="toggle-theme-btn" type="button" title="Toggle Dark / Light Mode" class="px-2.5 py-1 rounded bg-black/20 hover:bg-black/30 text-white/90 text-[11px] font-bold transition-all border border-white/20 cursor-pointer">
-              <span id="theme-btn-label">Dark Mode</span>
-            </button>
-          </div>
           <span id="counter-badge" class="text-xs font-medium text-white bg-[#1f2937] px-2.5 py-1 rounded-md border border-[#111827] mr-1 shadow-md">1 of 6</span>
           <button id="prev-btn" class="flex items-center space-x-1 bg-[#1f2937] hover:bg-[#111827] active:bg-[#0f172a] text-slate-100 px-3 py-1.5 rounded-lg font-semibold text-xs transition-all border border-[#111827] disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer shadow-md" type="button">
             <span class="pointer-events-none">Previous</span>
@@ -356,8 +282,8 @@
         </div>
       </header>
 
-      <!-- Flight Deck Navigation Ribbon (Direction 1) -->
-      <nav id="flight-deck-ribbon" class="bg-[#1f2937] text-white px-3 sm:px-5 py-2 border-b border-[#111827] flex flex-wrap items-center justify-between gap-3 shrink-0 z-10 transition-colors duration-200">
+      <!-- Flight Deck Navigation Ribbon -->
+      <nav id="flight-deck-ribbon" class="bg-[#1f2937] text-white px-3 sm:px-5 py-2 border-b border-[#111827] flex items-center justify-between gap-3 shrink-0 z-10 transition-colors duration-200">
         <!-- Left: Curriculum Track Switcher (AG / AAS) -->
         <div class="flex items-center gap-2 shrink-0">
           <span class="text-[10px] font-black uppercase tracking-wider text-slate-300 hidden sm:inline-block">Track:</span>
@@ -383,24 +309,12 @@
           </div>
         </div>
 
-        <!-- Center: Module Selection Tabs -->
-        <div class="flex items-center gap-2 overflow-x-auto py-0.5">
-          <span class="text-[10px] font-black uppercase tracking-wider text-slate-300 hidden md:inline-block">Module:</span>
-          <div id="module-selector-container" class="module-buttons-group flex items-center gap-1.5">
-            <!-- Populated via script -->
-          </div>
-        </div>
-
-        <!-- Right: eCampus Link Button -->
+        <!-- Right: Module Selection Tabs (01 / 02 / 03) -->
         <div class="flex items-center gap-2 shrink-0">
-          <a id="ecampus-btn"
-             href="https://e-campus.enac.fr/moodle/"
-             target="_blank"
-             rel="noopener noreferrer"
-             aria-label="Visit eCampus Moodle"
-             class="flex items-center space-x-1.5 px-3 py-1 rounded-lg text-xs font-bold tracking-wide transition-all border border-white/20 bg-white/10 hover:bg-white/20 text-white cursor-pointer select-none no-underline shadow-xs">
-            <span>eCampus ↗</span>
-          </a>
+          <span class="text-[10px] font-black uppercase tracking-wider text-slate-300 hidden sm:inline-block">Module:</span>
+          <div id="module-selector-container" class="module-buttons-group flex items-center gap-1.5">
+            <!-- Populated via script: 01, 02, 03 -->
+          </div>
         </div>
       </nav>
 
@@ -411,7 +325,7 @@
           <div class="p-2.5 bg-slate-200/70 border-b border-slate-200 text-[11px] font-bold uppercase tracking-wider text-slate-600">
             Contents Menu
           </div>
-          <div id="deck-menu" class="divide-y divide-slate-200">
+          <div id="deck-menu" class="p-2 space-y-1.5">
             <!-- Populated via script -->
           </div>
         </div>
@@ -909,40 +823,6 @@
       document.getElementById('prev-btn').addEventListener('click', () => stepDeck(-1));
       document.getElementById('next-btn').addEventListener('click', () => stepDeck(1));
 
-      // Theme Toggle (Dark / Light Mode)
-      const themeBtn = document.getElementById('toggle-theme-btn');
-      const themeLabel = document.getElementById('theme-btn-label');
-
-      function setTheme(isDark) {
-        document.body.classList.toggle('dark-mode', isDark);
-        if (themeLabel) themeLabel.textContent = isDark ? 'Light Mode' : 'Dark Mode';
-        if (themeBtn) {
-          // Never force solid white background; keep refined semi-transparent glass styling
-          themeBtn.classList.remove('bg-white', 'text-slate-900');
-          themeBtn.classList.toggle('bg-white/10', isDark);
-          themeBtn.classList.toggle('border-white/30', isDark);
-          themeBtn.classList.toggle('bg-black/20', !isDark);
-          themeBtn.classList.toggle('border-white/20', !isDark);
-        }
-        try {
-          localStorage.setItem('gsea_theme', isDark ? 'dark' : 'light');
-        } catch (e) {}
-      }
-
-      // Restore saved theme preference
-      try {
-        const savedTheme = localStorage.getItem('gsea_theme');
-        if (savedTheme === 'dark') {
-          setTheme(true);
-        }
-      } catch (e) {}
-
-      if (themeBtn) {
-        themeBtn.addEventListener('click', () => {
-          const isCurrentlyDark = document.body.classList.contains('dark-mode');
-          setTheme(!isCurrentlyDark);
-        });
-      }
 
       // Modal Drawer Close triggers
       const modalCloseBtn = document.getElementById('modal-close-btn');
@@ -1162,39 +1042,50 @@
       if (!PROGRAMS_CONFIG[progKey]) return;
       if (progKey === currentProgram && targetMod === null && targetCard === null) return;
 
-      const contentPanel = document.querySelector('.content-panel');
-      if (contentPanel) {
-        contentPanel.style.opacity = '0';
-        contentPanel.style.transform = 'translateY(2px)';
+      const workspace = document.querySelector('.workspace-split');
+      if (workspace) {
+        workspace.classList.remove('track-crossfade-enter');
+        workspace.classList.add('track-crossfade-exit');
       }
 
-      currentProgram = progKey;
-      modulesData = PROGRAMS_CONFIG[currentProgram].modules;
-      updateHeaderIconAndFooter();
-
-      let modToLoad = (targetMod !== null) ? targetMod : currentModuleIndex;
-      let cardToLoad = (targetCard !== null) ? targetCard : 0;
-
-      if (targetMod === null && targetCard === null) {
-        try {
-          const savedProgMod = sessionStorage.getItem(`gsea_${currentProgram}_last_mod`);
-          const savedProgCard = sessionStorage.getItem(`gsea_${currentProgram}_last_card`);
-          if (savedProgMod !== null) {
-            modToLoad = parseInt(savedProgMod, 10);
-            if (savedProgCard !== null) cardToLoad = parseInt(savedProgCard, 10);
-          }
-        } catch (e) {}
+      // Immediate visual feedback on the program switcher buttons
+      const agBtn = document.getElementById('prog-btn-ag');
+      const aasBtn = document.getElementById('prog-btn-aas');
+      if (agBtn && aasBtn) {
+        agBtn.setAttribute('aria-selected', progKey === 'ag' ? 'true' : 'false');
+        aasBtn.setAttribute('aria-selected', progKey === 'aas' ? 'true' : 'false');
       }
-
-      switchModule(modToLoad, cardToLoad);
-      renderProgramSwitcher();
 
       setTimeout(() => {
-        if (contentPanel) {
-          contentPanel.style.opacity = '1';
-          contentPanel.style.transform = 'translateY(0)';
+        currentProgram = progKey;
+        modulesData = PROGRAMS_CONFIG[currentProgram].modules;
+        updateHeaderIconAndFooter();
+
+        let modToLoad = (targetMod !== null) ? targetMod : currentModuleIndex;
+        let cardToLoad = (targetCard !== null) ? targetCard : 0;
+
+        if (targetMod === null && targetCard === null) {
+          try {
+            const savedProgMod = sessionStorage.getItem(`gsea_${currentProgram}_last_mod`);
+            const savedProgCard = sessionStorage.getItem(`gsea_${currentProgram}_last_card`);
+            if (savedProgMod !== null) {
+              modToLoad = parseInt(savedProgMod, 10);
+              if (savedProgCard !== null) cardToLoad = parseInt(savedProgCard, 10);
+            }
+          } catch (e) {}
         }
-      }, 120);
+
+        switchModule(modToLoad, cardToLoad);
+        renderProgramSwitcher();
+
+        if (workspace) {
+          workspace.classList.remove('track-crossfade-exit');
+          workspace.classList.add('track-crossfade-enter');
+          setTimeout(() => {
+            workspace.classList.remove('track-crossfade-enter');
+          }, 240);
+        }
+      }, 160);
     }
 
     function renderModuleSelector() {
@@ -1203,27 +1094,21 @@
       container.innerHTML = '';
       const currentTheme = modulesData[currentModuleIndex];
 
-      const shortTopicLabels = {
-        ag: ["Travel", "Weather", "Tech"],
-        aas: ["Aerodrome", "Aircraft", "Safety"]
-      };
-
       modulesData.forEach((mod, idx) => {
         const isSelected = idx === currentModuleIndex;
         const btn = document.createElement('button');
         btn.type = 'button';
         btn.setAttribute('aria-pressed', isSelected ? 'true' : 'false');
-        btn.setAttribute('aria-label', `Select ${mod.name}`);
-
-        const topic = (shortTopicLabels[currentProgram] && shortTopicLabels[currentProgram][idx]) || mod.name;
+        btn.setAttribute('aria-label', `Module 0${idx + 1}: ${mod.subtitle || mod.name}`);
+        btn.setAttribute('title', `Module 0${idx + 1}: ${mod.subtitle || mod.name}`);
 
         if (isSelected) {
-          // Sharp elevated active micro-tab
+          // Sharp elevated active module tab (01 / 02 / 03)
           btn.style.backgroundColor = currentTheme.accent;
           btn.style.borderColor = currentTheme.accentDark;
           btn.style.color = '#ffffff';
           btn.style.boxShadow = '0 1px 4px rgba(0, 0, 0, 0.25)';
-          btn.className = "flex items-center space-x-1.5 px-3 py-1 rounded-md text-xs font-bold tracking-wide transition-all border cursor-pointer select-none shadow-sm scale-[1.02]";
+          btn.className = "flex items-center justify-center min-w-[34px] px-2.5 py-1 rounded-md text-xs font-black tracking-wider transition-all border cursor-pointer select-none shadow-sm scale-[1.02]";
           btn.onmouseenter = () => {
             btn.style.backgroundColor = currentTheme.accentDark;
           };
@@ -1231,12 +1116,12 @@
             btn.style.backgroundColor = currentTheme.accent;
           };
         } else {
-          // Sleek dark cockpit glass tab
+          // Sleek dark cockpit glass tab (01 / 02 / 03)
           btn.style.backgroundColor = 'rgba(255, 255, 255, 0.08)';
           btn.style.borderColor = 'rgba(255, 255, 255, 0.15)';
           btn.style.color = 'rgba(255, 255, 255, 0.82)';
           btn.style.boxShadow = 'none';
-          btn.className = "flex items-center space-x-1.5 px-3 py-1 rounded-md text-xs font-semibold tracking-wide transition-all border cursor-pointer select-none hover:bg-white/20 hover:text-white";
+          btn.className = "flex items-center justify-center min-w-[34px] px-2.5 py-1 rounded-md text-xs font-semibold tracking-wider transition-all border cursor-pointer select-none hover:bg-white/20 hover:text-white";
           btn.onmouseenter = () => {
             btn.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
             btn.style.color = '#ffffff';
@@ -1247,7 +1132,7 @@
           };
         }
 
-        btn.innerHTML = `<span class="opacity-80 text-[10px] font-mono font-bold">0${idx + 1}</span><span class="hidden sm:inline opacity-60">•</span><span class="hidden sm:inline">${topic}</span>`;
+        btn.innerHTML = `<span class="font-mono font-bold text-xs">0${idx + 1}</span>`;
 
         btn.addEventListener('click', () => {
           switchModule(idx, 0);
@@ -1350,20 +1235,6 @@
         ribbon.style.borderColor = mod.primaryDarker;
       }
 
-      // eCampus button inside ribbon
-      const ecampusBtn = document.getElementById('ecampus-btn');
-      if (ecampusBtn) {
-        ecampusBtn.style.backgroundColor = 'rgba(255, 255, 255, 0.12)';
-        ecampusBtn.style.borderColor = 'rgba(255, 255, 255, 0.22)';
-        ecampusBtn.style.color = '#ffffff';
-        ecampusBtn.onmouseenter = () => {
-          ecampusBtn.style.backgroundColor = 'rgba(255, 255, 255, 0.22)';
-        };
-        ecampusBtn.onmouseleave = () => {
-          ecampusBtn.style.backgroundColor = 'rgba(255, 255, 255, 0.12)';
-        };
-      }
-
       // Dynamic Canvas Backdrop and Floating Card Shadow based on active Module
       const canvasThemes = {
         1: { bg: '#f5f2ee', bgClass: 'bg-canvas-mod1', shadowClass: 'shadow-card-mod1' },
@@ -1372,9 +1243,7 @@
       };
 
       const cTheme = canvasThemes[mod.id] || canvasThemes[1];
-      if (!document.body.classList.contains('dark-mode')) {
-        document.body.style.backgroundColor = cTheme.bg;
-      }
+      document.body.style.backgroundColor = cTheme.bg;
       document.body.classList.remove('bg-canvas-mod1', 'bg-canvas-mod2', 'bg-canvas-mod3');
       document.body.classList.add(cTheme.bgClass);
 
@@ -1394,10 +1263,19 @@
       mod.pages.forEach((page, idx) => {
         const item = document.createElement('button');
         item.type = 'button';
-        item.innerHTML = `<span class="truncate pr-2 pointer-events-none">${page.title}</span><span class="text-[10px] text-slate-400 font-mono pointer-events-none">0${idx + 1}</span>`;
+        item.setAttribute('data-card-idx', idx);
+        item.setAttribute('aria-label', `Navigate to ${page.title}`);
+        item.innerHTML = `
+          <div class="flex items-center gap-2 min-w-0 pr-1 pointer-events-none">
+            <span class="flight-strip-badge font-mono text-[10px] font-bold px-1.5 py-0.5 rounded transition-all">0${idx + 1}</span>
+            <span class="flight-strip-title truncate text-xs transition-all pointer-events-none">${page.title}</span>
+          </div>
+          <svg class="flight-strip-chevron w-3.5 h-3.5 shrink-0 opacity-40 transition-all pointer-events-none" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+        `;
         item.addEventListener('click', () => renderCard(idx));
         menuEl.appendChild(item);
       });
+      updateMenu(currentIndex);
     }
 
     function updateMenu(activeIdx) {
@@ -1408,19 +1286,46 @@
 
       items.forEach((item, idx) => {
         const isActive = idx === activeIdx;
-        item.className = `w-full text-left px-3 py-2 text-xs font-medium transition-all flex items-center justify-between border-b border-slate-100 cursor-pointer ${
-          isActive 
-            ? 'font-bold shadow-md shadow-slate-400/40' 
-            : 'text-slate-700 hover:bg-slate-100'
-        }`;
+        const badge = item.querySelector('.flight-strip-badge');
+        const title = item.querySelector('.flight-strip-title');
+        const chevron = item.querySelector('.flight-strip-chevron');
+
         if (isActive) {
-          item.style.backgroundColor = mod.activeMenuBg;
-          item.style.color = mod.activeMenuText;
-          item.style.borderLeft = `4px solid ${mod.activeMenuBorder}`;
+          item.className = "flight-strip-card group w-full text-left px-2.5 py-2 rounded-lg text-xs font-bold transition-all flex items-center justify-between border cursor-pointer shadow-xs scale-[1.01]";
+          item.style.backgroundColor = mod.activeMenuBg || '#ffffff';
+          item.style.borderColor = mod.accent;
+          item.style.borderLeft = `4px solid ${mod.accent}`;
+          if (title) {
+            title.style.color = mod.activeMenuText || '#0f172a';
+            title.className = "flight-strip-title truncate text-xs font-black transition-all pointer-events-none";
+          }
+          if (badge) {
+            badge.style.backgroundColor = mod.accent;
+            badge.style.color = '#ffffff';
+          }
+          if (chevron) {
+            chevron.style.color = mod.accent;
+            chevron.style.opacity = '1';
+            chevron.style.transform = 'translateX(1px)';
+          }
         } else {
+          item.className = "flight-strip-card group w-full text-left px-2.5 py-2 rounded-lg text-xs font-semibold transition-all flex items-center justify-between border border-slate-200/80 bg-white/70 hover:bg-white hover:border-slate-300 text-slate-700 hover:text-slate-900 hover:shadow-2xs cursor-pointer";
           item.style.backgroundColor = '';
-          item.style.color = '';
-          item.style.borderLeft = '4px solid transparent';
+          item.style.borderColor = '';
+          item.style.borderLeft = '';
+          if (title) {
+            title.style.color = '';
+            title.className = "flight-strip-title truncate text-xs font-medium text-slate-700 group-hover:text-slate-900 transition-all pointer-events-none";
+          }
+          if (badge) {
+            badge.style.backgroundColor = '#f1f5f9';
+            badge.style.color = '#64748b';
+          }
+          if (chevron) {
+            chevron.style.color = '';
+            chevron.style.opacity = '0.35';
+            chevron.style.transform = 'none';
+          }
         }
       });
     }
@@ -1457,11 +1362,11 @@
         footerInstruction.textContent = "Click below to explore the official DD&RS framework matrix in the integrated hub:";
         const detailsBtn = document.createElement('button');
         detailsBtn.type = 'button';
-        detailsBtn.className = "inline-flex items-center space-x-2 text-white px-3.5 py-2 rounded-lg text-xs font-bold shadow-md shadow-slate-400/40 transition-all cursor-pointer";
+        detailsBtn.className = "inline-flex items-center gap-1.5 text-white px-3.5 py-1.5 rounded-lg text-xs font-bold tracking-wide shadow-xs transition-all duration-150 cursor-pointer select-none border border-black/10 hover:shadow-md hover:-translate-y-0.5 active:translate-y-0";
         detailsBtn.style.backgroundColor = mod.primary;
         detailsBtn.onmouseenter = () => detailsBtn.style.backgroundColor = mod.primaryDark;
         detailsBtn.onmouseleave = () => detailsBtn.style.backgroundColor = mod.primary;
-        detailsBtn.innerHTML = "<span>DDRS Framework Matrix</span>";
+        detailsBtn.innerHTML = `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"/></svg><span>DDRS Framework Matrix</span>`;
         detailsBtn.addEventListener('click', () => {
           openModalDrawer('ddrs', mod.id, 6, page.detailsUrl);
         });
@@ -1501,14 +1406,33 @@
 
       footerInstruction.textContent = "Click below to explore interactive session resources in the workspace drawer:";
 
+      const getActionIcon = (type) => {
+        switch (type) {
+          case 'objectives':
+            return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg>`;
+          case 'plan':
+            return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>`;
+          case 'revision':
+            return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>`;
+          case 'materials':
+            return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>`;
+          case 'toeic':
+            return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>`;
+          case 'ddrs':
+            return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"/></svg>`;
+          default:
+            return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>`;
+        }
+      };
+
       const createModalBtn = (label, tabKey, fallbackHref) => {
         const btn = document.createElement('button');
         btn.type = 'button';
-        btn.className = "inline-flex items-center space-x-1.5 text-white px-3.5 py-2 rounded-lg text-xs font-bold shadow-md shadow-slate-400/40 transition-all cursor-pointer hover:scale-[1.02] active:scale-[0.98]";
+        btn.className = "inline-flex items-center gap-1.5 text-white px-3.5 py-1.5 rounded-lg text-xs font-bold tracking-wide shadow-xs transition-all duration-150 cursor-pointer select-none border border-black/10 hover:shadow-md hover:-translate-y-0.5 active:translate-y-0";
         btn.style.backgroundColor = mod.primary;
         btn.onmouseenter = () => btn.style.backgroundColor = mod.primaryDark;
         btn.onmouseleave = () => btn.style.backgroundColor = mod.primary;
-        btn.innerHTML = `<span>${label}</span>`;
+        btn.innerHTML = `${getActionIcon(tabKey)}<span>${label}</span>`;
         btn.addEventListener('click', () => {
           openModalDrawer(tabKey, mod.id, currentIndex + 1, fallbackHref);
         });
@@ -1517,14 +1441,14 @@
 
       const createExternalBtn = (href, label) => {
         const btn = document.createElement('a');
-        btn.className = "inline-flex items-center space-x-1.5 text-white px-3.5 py-2 rounded-lg text-xs font-bold shadow-md shadow-slate-400/40 transition-all cursor-pointer no-underline hover:scale-[1.02] active:scale-[0.98]";
+        btn.className = "inline-flex items-center gap-1.5 text-white px-3.5 py-1.5 rounded-lg text-xs font-bold tracking-wide shadow-xs transition-all duration-150 cursor-pointer select-none no-underline border border-black/10 hover:shadow-md hover:-translate-y-0.5 active:translate-y-0";
         btn.style.backgroundColor = mod.primary;
         btn.onmouseenter = () => btn.style.backgroundColor = mod.primaryDark;
         btn.onmouseleave = () => btn.style.backgroundColor = mod.primary;
         btn.href = href;
         btn.target = "_blank";
         btn.rel = "noopener noreferrer";
-        btn.innerHTML = `<span>${label} ↗</span>`;
+        btn.innerHTML = `${getActionIcon('external')}<span>${label} ↗</span>`;
         return btn;
       };
 
