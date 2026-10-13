@@ -86,12 +86,18 @@ try {
   const cmd = `zip -r -q "${zipOutput}" ${includeList.join(' ')} -x "*.DS_Store" "*node_modules*" "*.git*"`;
   execSync(cmd, { cwd: rootDir, stdio: 'inherit' });
 
+  // Also copy to root folder for convenient access
+  const rootZip = path.join(rootDir, 'GSEA_Semester_1_SCORM.zip');
+  fs.copyFileSync(zipOutput, rootZip);
+
   const stats = fs.statSync(zipOutput);
   const sizeMB = (stats.size / (1024 * 1024)).toFixed(2);
   console.log(`\n✅ Package created successfully!`);
-  console.log(`📍 Output: dist/GSEA_Semester_1_SCORM.zip (${sizeMB} MB)`);
+  console.log(`📍 Output 1: dist/GSEA_Semester_1_SCORM.zip (${sizeMB} MB)`);
+  console.log(`📍 Output 2: ./GSEA_Semester_1_SCORM.zip (${sizeMB} MB)`);
   console.log(`🚀 Ready for upload to ENAC Moodle / eCampus.`);
 } catch (err) {
   console.error('✗ Failed to create zip package:', err.message);
   process.exit(1);
 }
+
