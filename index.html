@@ -39,8 +39,10 @@
     }
 
 
-    /* Dynamic canvas backdrop & deck elevation transitions */
+    /* Dynamic canvas backdrop & tactile textured background behind the main frame */
     body {
+      background-image: radial-gradient(rgba(0, 0, 0, 0.085) 1.25px, transparent 1.25px);
+      background-size: 20px 20px;
       transition: background-color 0.4s ease;
     }
     .moodle-deck-canvas {
@@ -239,18 +241,85 @@
       transform: rotateY(180deg);
     }
 
-    /* Accessibility (WCAG 2.1 AA) */
-    body.dyslexic-mode {
-      font-family: 'OpenDyslexic', 'Comic Sans MS', -apple-system, BlinkMacSystemFont, sans-serif !important;
-      letter-spacing: 0.04em !important;
-      line-height: 1.65 !important;
+    /* Clean Dark Mode (No High-Contrast Borders) */
+    body.dark-mode {
+      background-color: #0b0f19 !important;
+      background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1.25px, transparent 1.25px) !important;
+      background-size: 20px 20px !important;
+      color: #e2e8f0;
     }
-    body.high-contrast-mode {
-      filter: contrast(1.15);
+    body.dark-mode .moodle-deck-canvas {
+      background-color: #151d2c !important;
+      border-color: #334155 !important;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.4) !important;
     }
-    body.high-contrast-mode .moodle-deck-canvas,
-    body.high-contrast-mode #deck-modal-drawer {
-      border: 2px solid #0f172a !important;
+    body.dark-mode .sidebar-menu {
+      background-color: #0f172a !important;
+      border-color: #334155 !important;
+    }
+    body.dark-mode .sidebar-menu > div:first-child {
+      background-color: #1e293b !important;
+      color: #94a3b8 !important;
+      border-color: #334155 !important;
+    }
+    body.dark-mode #deck-menu button {
+      color: #cbd5e1 !important;
+      border-color: #1e293b !important;
+    }
+    body.dark-mode #deck-menu button:hover {
+      background-color: rgba(255, 255, 255, 0.05) !important;
+    }
+    body.dark-mode .content-panel {
+      background-color: #151d2c !important;
+    }
+    body.dark-mode #card-desc {
+      color: #cbd5e1 !important;
+    }
+    body.dark-mode #footer-instruction {
+      color: #94a3b8 !important;
+    }
+    body.dark-mode .vocab-footer {
+      background-color: rgba(15, 23, 42, 0.6) !important;
+      border-color: #334155 !important;
+    }
+    body.dark-mode .vocab-ipa {
+      color: #94a3b8 !important;
+    }
+    body.dark-mode footer.bg-slate-50 {
+      background-color: #0f172a !important;
+      border-color: #334155 !important;
+      color: #94a3b8 !important;
+    }
+    body.dark-mode #footer-status {
+      color: #cbd5e1 !important;
+    }
+    body.dark-mode #deck-modal-drawer {
+      background-color: #151d2c !important;
+      color: #e2e8f0 !important;
+    }
+    body.dark-mode #modal-body {
+      background-color: #0f172a !important;
+    }
+    body.dark-mode #modal-body .bg-white {
+      background-color: #1e293b !important;
+      border-color: #334155 !important;
+      color: #e2e8f0 !important;
+    }
+    body.dark-mode #modal-body h4,
+    body.dark-mode #modal-body h3 {
+      color: #f8fafc !important;
+    }
+    body.dark-mode #modal-body p {
+      color: #cbd5e1 !important;
+    }
+    body.dark-mode #modal-body .bg-slate-50 {
+      background-color: #0f172a !important;
+      border-color: #334155 !important;
+    }
+    body.dark-mode #deck-modal-drawer footer {
+      background-color: #151d2c !important;
+      border-color: #334155 !important;
+      color: #94a3b8 !important;
     }
   </style>
 </head>
@@ -278,12 +347,9 @@
 
         <!-- Navigation & Accessibility Controls -->
         <div class="flex items-center space-x-2">
-          <div class="hidden sm:flex items-center space-x-1 mr-1">
-            <button id="toggle-dyslexic-btn" type="button" title="Toggle Dyslexia-friendly Font" class="px-2 py-1 rounded bg-black/20 hover:bg-black/30 text-white/90 text-[11px] font-bold transition-all border border-white/20 cursor-pointer">
-              Dyslexic Font
-            </button>
-            <button id="toggle-contrast-btn" type="button" title="Toggle High Contrast Mode" class="px-2 py-1 rounded bg-black/20 hover:bg-black/30 text-white/90 text-[11px] font-bold transition-all border border-white/20 cursor-pointer">
-              Contrast 🌓
+          <div class="flex items-center space-x-1 mr-1">
+            <button id="toggle-theme-btn" type="button" title="Toggle Dark / Light Mode" class="px-2.5 py-1 rounded bg-black/20 hover:bg-black/30 text-white/90 text-[11px] font-bold transition-all border border-white/20 cursor-pointer">
+              <span id="theme-btn-label">Dark Mode</span>
             </button>
           </div>
           <span id="counter-badge" class="text-xs font-medium text-white bg-[#a85640] px-2.5 py-1 rounded-md border border-[#924731] mr-1 shadow-md">1 of 6</span>
@@ -407,12 +473,12 @@
 
           <!-- Modal Navigation Tab Strip -->
           <nav id="modal-tab-strip" class="flex items-center gap-1 overflow-x-auto pb-0.5 text-xs select-none">
-            <button data-tab="objectives" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">🎯 Objectives</button>
-            <button data-tab="plan" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">⏱️ Lesson Plan</button>
-            <button data-tab="revision" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">🎴 Flashcards & Review</button>
-            <button data-tab="materials" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">📚 Additional Materials</button>
-            <button data-tab="toeic" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">📝 TOEIC Practice</button>
-            <button data-tab="ddrs" id="modal-tab-ddrs" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer hidden">🌱 DDRS</button>
+            <button data-tab="objectives" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Objectives</button>
+            <button data-tab="plan" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Lesson Plan</button>
+            <button data-tab="revision" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Flashcards &amp; Review</button>
+            <button data-tab="materials" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Additional Materials</button>
+            <button data-tab="toeic" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">TOEIC Practice</button>
+            <button data-tab="ddrs" id="modal-tab-ddrs" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer hidden">DDRS</button>
           </nav>
         </header>
 
