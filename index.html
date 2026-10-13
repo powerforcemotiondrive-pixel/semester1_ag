@@ -382,10 +382,15 @@
             </div>
           </div>
 
-          <!-- Action Link Footer Inside Card -->
-          <div class="pt-4 border-t border-slate-100 flex flex-col gap-2.5 mt-4">
-            <!-- Dynamic Action Links Container -->
-            <div id="action-links-container" class="w-full flex flex-wrap items-center gap-2"></div>
+          <!-- Executive Action Dock (Concept 1: Right-Aligned Control Hub) -->
+          <div id="action-dock" class="pt-3.5 border-t border-slate-200/80 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mt-4">
+            <!-- Left: Subtle Technical Status / Workspace Breadcrumb -->
+            <div id="action-dock-label" class="flex items-center gap-2 shrink-0 select-none">
+              <span id="action-dock-dot" class="w-2 h-2 rounded-full transition-colors duration-200" style="background-color: #374151;"></span>
+              <span id="action-dock-title" class="font-mono text-[11px] font-bold uppercase tracking-wider text-slate-500">Session 01 Interactive Tools</span>
+            </div>
+            <!-- Right: Action Buttons (Right Aligned) -->
+            <div id="action-links-container" class="flex flex-wrap items-center justify-start sm:justify-end gap-2 w-full sm:w-auto"></div>
           </div>
         </div>
       </div>
@@ -1492,13 +1497,31 @@
         }
       };
 
-      const createModalBtn = (label, tabKey, fallbackHref) => {
+      // Update Action Dock Label
+      const dockDot = document.getElementById('action-dock-dot');
+      const dockTitle = document.getElementById('action-dock-title');
+      if (dockDot) dockDot.style.backgroundColor = mod.primary;
+      if (dockTitle) {
+        if (page.detailsUrl || currentIndex === 5) {
+          dockTitle.textContent = "DDRS Regulatory Matrix";
+        } else if (currentIndex === 4) {
+          dockTitle.textContent = `Session 0${currentIndex + 1} Assessment Hub`;
+        } else {
+          dockTitle.textContent = `Session 0${currentIndex + 1} Interactive Tools`;
+        }
+      }
+
+      const createModalBtn = (label, tabKey, fallbackHref, isPrimary = false) => {
         const btn = document.createElement('button');
         btn.type = 'button';
-        btn.className = "inline-flex items-center gap-1.5 text-white px-3.5 py-1.5 rounded-lg text-xs font-bold tracking-wide shadow-xs transition-all duration-150 cursor-pointer select-none border border-black/10 hover:shadow-sm hover:-translate-y-[1px] active:translate-y-0";
-        btn.style.backgroundColor = mod.primary;
-        btn.onmouseenter = () => btn.style.backgroundColor = mod.primaryDark;
-        btn.onmouseleave = () => btn.style.backgroundColor = mod.primary;
+        if (isPrimary) {
+          btn.className = "inline-flex items-center gap-1.5 text-white px-3.5 py-1.5 rounded-lg text-xs font-bold tracking-wide shadow-xs transition-all duration-150 cursor-pointer select-none border border-black/10 hover:shadow-sm hover:-translate-y-[1px] active:translate-y-0";
+          btn.style.backgroundColor = mod.primary;
+          btn.onmouseenter = () => btn.style.backgroundColor = mod.primaryDark;
+          btn.onmouseleave = () => btn.style.backgroundColor = mod.primary;
+        } else {
+          btn.className = "inline-flex items-center gap-1.5 bg-slate-100 hover:bg-slate-200/90 text-slate-700 hover:text-slate-900 border border-slate-300/80 px-3 py-1.5 rounded-lg text-xs font-semibold tracking-wide shadow-2xs hover:shadow-sm hover:-translate-y-[1px] active:translate-y-0 transition-all duration-150 cursor-pointer select-none";
+        }
         btn.innerHTML = `${getActionIcon(tabKey)}<span>${label}</span>`;
         btn.addEventListener('click', () => {
           openModalDrawer(tabKey, mod.id, currentIndex + 1, fallbackHref);
@@ -1506,12 +1529,16 @@
         return btn;
       };
 
-      const createExternalBtn = (href, label) => {
+      const createExternalBtn = (href, label, isPrimary = false) => {
         const btn = document.createElement('a');
-        btn.className = "inline-flex items-center gap-1.5 text-white px-3.5 py-1.5 rounded-lg text-xs font-bold tracking-wide shadow-xs transition-all duration-150 cursor-pointer select-none no-underline border border-black/10 hover:shadow-sm hover:-translate-y-[1px] active:translate-y-0";
-        btn.style.backgroundColor = mod.primary;
-        btn.onmouseenter = () => btn.style.backgroundColor = mod.primaryDark;
-        btn.onmouseleave = () => btn.style.backgroundColor = mod.primary;
+        if (isPrimary) {
+          btn.className = "inline-flex items-center gap-1.5 text-white px-3.5 py-1.5 rounded-lg text-xs font-bold tracking-wide shadow-xs transition-all duration-150 cursor-pointer select-none no-underline border border-black/10 hover:shadow-sm hover:-translate-y-[1px] active:translate-y-0";
+          btn.style.backgroundColor = mod.primary;
+          btn.onmouseenter = () => btn.style.backgroundColor = mod.primaryDark;
+          btn.onmouseleave = () => btn.style.backgroundColor = mod.primary;
+        } else {
+          btn.className = "inline-flex items-center gap-1.5 bg-slate-100 hover:bg-slate-200/90 text-slate-700 hover:text-slate-900 border border-slate-300/80 px-3 py-1.5 rounded-lg text-xs font-semibold tracking-wide shadow-2xs hover:shadow-sm hover:-translate-y-[1px] active:translate-y-0 transition-all duration-150 cursor-pointer select-none no-underline";
+        }
         btn.href = href;
         btn.target = "_blank";
         btn.rel = "noopener noreferrer";
@@ -1520,45 +1547,35 @@
       };
 
       if (page.detailsUrl) {
-        const detailsBtn = document.createElement('button');
-        detailsBtn.type = 'button';
-        detailsBtn.className = "inline-flex items-center gap-1.5 text-white px-3.5 py-1.5 rounded-lg text-xs font-bold tracking-wide shadow-xs transition-all duration-150 cursor-pointer select-none border border-black/10 hover:shadow-sm hover:-translate-y-[1px] active:translate-y-0";
-        detailsBtn.style.backgroundColor = mod.primary;
-        detailsBtn.onmouseenter = () => detailsBtn.style.backgroundColor = mod.primaryDark;
-        detailsBtn.onmouseleave = () => detailsBtn.style.backgroundColor = mod.primary;
-        detailsBtn.innerHTML = `${getActionIcon('ddrs')}<span>DDRS Framework Matrix</span>`;
-        detailsBtn.addEventListener('click', () => {
-          openModalDrawer('ddrs', mod.id, 6, page.detailsUrl);
-        });
-        actionContainer.appendChild(detailsBtn);
+        actionContainer.appendChild(createModalBtn("DDRS Framework Matrix", "ddrs", page.detailsUrl, true));
       } else if (currentIndex === 4) {
         // Session 5: Formative Evaluation external links
-        if (page.url) actionContainer.appendChild(createExternalBtn(page.url, "Formative Evaluation"));
-        if (page.lessonPlanUrl) actionContainer.appendChild(createExternalBtn(page.lessonPlanUrl, "Evaluation Guidelines"));
-        if (page.objectivesUrl) actionContainer.appendChild(createExternalBtn(page.objectivesUrl, "Evaluation Criteria"));
+        if (page.url) actionContainer.appendChild(createExternalBtn(page.url, "Formative Evaluation", true));
+        if (page.lessonPlanUrl) actionContainer.appendChild(createExternalBtn(page.lessonPlanUrl, "Evaluation Guidelines", false));
+        if (page.objectivesUrl) actionContainer.appendChild(createExternalBtn(page.objectivesUrl, "Evaluation Criteria", false));
       } else {
         // Sessions 1 to 4: In-deck modal workspace hub (unified styling & colors)
         if (page.objectivesUrl) {
-          actionContainer.appendChild(createModalBtn("Objectives", "objectives", page.objectivesUrl));
+          actionContainer.appendChild(createModalBtn("Objectives", "objectives", page.objectivesUrl, false));
         }
         if (page.lessonPlanUrl) {
-          actionContainer.appendChild(createModalBtn("Lesson Plan", "plan", page.lessonPlanUrl));
+          actionContainer.appendChild(createModalBtn("Lesson Plan", "plan", page.lessonPlanUrl, false));
         }
         if (page.classReviewUrl) {
-          actionContainer.appendChild(createModalBtn("Vocabulary", "revision", page.classReviewUrl));
+          actionContainer.appendChild(createModalBtn("Vocabulary", "revision", page.classReviewUrl, false));
         }
         const materialsUrl = page.additionalMaterialsUrl || page.url;
         if (materialsUrl) {
           // Additional Materials (In-Deck Modal Drawer - No arrow, opens directly in slide-over overlay)
-          actionContainer.appendChild(createModalBtn("Additional Materials", "materials", materialsUrl));
+          actionContainer.appendChild(createModalBtn("Additional Materials", "materials", materialsUrl, false));
 
-          // TOEIC Practice Diagnostic Drill
-          actionContainer.appendChild(createModalBtn("TOEIC Practice", "toeic", materialsUrl));
+          // TOEIC Practice Diagnostic Drill (Primary action)
+          actionContainer.appendChild(createModalBtn("TOEIC Practice", "toeic", materialsUrl, true));
         }
       }
 
       if (page.pdfUrl && !page.pdfUrl.includes("INSERT_YOUR_PDF_LINK_HERE")) {
-        const pdfBtn = createExternalBtn(page.pdfUrl, "Worksheet");
+        const pdfBtn = createExternalBtn(page.pdfUrl, "Worksheet", false);
         pdfBtn.id = "worksheet-btn";
         actionContainer.appendChild(pdfBtn);
       }
