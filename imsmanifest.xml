@@ -88,6 +88,9 @@
       <!-- Compiled Tailwind CSS stylesheet -->
       <file href="output.css"/>
       
+      <!-- Structured Course Data Architecture -->
+      <file href="data/course-data.js"/>
+      
       <!-- Session 1 Course Pages (Modules 1, 2, 3) -->
       <file href="session1/plan1.html"/>
       <file href="session1/obj1.html"/>

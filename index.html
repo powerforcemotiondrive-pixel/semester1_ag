@@ -6,6 +6,8 @@
   <title>GSEA Semester 1 - Course Modules</title>
   <!-- Tailwind CSS CLI Output -->
   <link rel="stylesheet" href="output.css">
+  <!-- Structured Course Data Engine -->
+  <script src="data/course-data.js"></script>
   <style>
     /* Signature Tactile Micro-Mesh Texture (Deck Header only) */
     .textured-surface,
@@ -200,6 +202,56 @@
       line-height: 1.4 !important;
       letter-spacing: 0.02em;
     }
+
+    /* Modal Drawer & Backdrop transitions */
+    #deck-modal-drawer {
+      transition: transform 0.32s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    #resource-modal-backdrop {
+      transition: opacity 0.28s ease;
+    }
+
+    /* 3D Flip Flashcard */
+    .flashcard-perspective {
+      perspective: 1000px;
+    }
+    .flashcard-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+      transform-style: preserve-3d;
+    }
+    .flashcard-inner.flipped {
+      transform: rotateY(180deg);
+    }
+    .flashcard-front, .flashcard-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      top: 0;
+      left: 0;
+    }
+    .flashcard-back {
+      transform: rotateY(180deg);
+    }
+
+    /* Accessibility (WCAG 2.1 AA) */
+    body.dyslexic-mode {
+      font-family: 'OpenDyslexic', 'Comic Sans MS', -apple-system, BlinkMacSystemFont, sans-serif !important;
+      letter-spacing: 0.04em !important;
+      line-height: 1.65 !important;
+    }
+    body.high-contrast-mode {
+      filter: contrast(1.15);
+    }
+    body.high-contrast-mode .moodle-deck-canvas,
+    body.high-contrast-mode #deck-modal-drawer {
+      border: 2px solid #0f172a !important;
+    }
   </style>
 </head>
 <body class="bg-canvas-mod1 min-h-screen flex items-center justify-center" style="background-color: #f5f2ee;">
@@ -224,8 +276,16 @@
           </div>
         </div>
 
-        <!-- Navigation Controls -->
+        <!-- Navigation & Accessibility Controls -->
         <div class="flex items-center space-x-2">
+          <div class="hidden sm:flex items-center space-x-1 mr-1">
+            <button id="toggle-dyslexic-btn" type="button" title="Toggle Dyslexia-friendly Font" class="px-2 py-1 rounded bg-black/20 hover:bg-black/30 text-white/90 text-[11px] font-bold transition-all border border-white/20 cursor-pointer">
+              Dyslexic Font
+            </button>
+            <button id="toggle-contrast-btn" type="button" title="Toggle High Contrast Mode" class="px-2 py-1 rounded bg-black/20 hover:bg-black/30 text-white/90 text-[11px] font-bold transition-all border border-white/20 cursor-pointer">
+              Contrast 🌓
+            </button>
+          </div>
           <span id="counter-badge" class="text-xs font-medium text-white bg-[#a85640] px-2.5 py-1 rounded-md border border-[#924731] mr-1 shadow-md">1 of 6</span>
           <button id="prev-btn" class="flex items-center space-x-1 bg-[#a85640] hover:bg-[#924731] active:bg-[#853f2c] text-slate-100 px-3 py-1.5 rounded-lg font-semibold text-xs transition-all border border-[#924731] disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer shadow-md" type="button">
             <span class="pointer-events-none">Previous</span>
@@ -316,6 +376,65 @@
         </a>
       </div>
     </div>
+  <!-- Slide-Over Resource Modal Drawer (SCORM In-Deck Hub) -->
+  <div id="deck-resource-modal" class="fixed inset-0 z-50 overflow-hidden hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+    <!-- Backdrop Overlay -->
+    <div id="resource-modal-backdrop" class="fixed inset-0 bg-slate-900/60 backdrop-blur-xs opacity-0 transition-opacity duration-300"></div>
+
+    <div class="fixed inset-y-0 right-0 max-w-full flex pl-2 sm:pl-10">
+      <div id="deck-modal-drawer" class="w-screen max-w-4xl bg-white shadow-2xl flex flex-col transform translate-x-full transition-transform duration-300 ease-in-out">
+        
+        <!-- Drawer Header -->
+        <header id="modal-header" class="textured-surface bg-[#c0684f] text-white px-4 py-3.5 sm:px-6 sm:py-4 flex flex-col gap-3 border-b border-[#a85640] shrink-0">
+          <div class="flex items-center justify-between gap-3">
+            <div class="flex items-center space-x-3 min-w-0">
+              <span id="modal-tag" class="bg-white/20 text-white text-[11px] sm:text-xs font-extrabold px-2.5 py-1 rounded-md tracking-wide shrink-0">Module 1 • Session 1</span>
+              <h2 id="modal-title" class="text-sm sm:text-base font-bold text-white truncate">Session Details</h2>
+            </div>
+            
+            <div class="flex items-center space-x-2 shrink-0">
+              <!-- Open Standalone Page Button -->
+              <a id="modal-standalone-btn" href="#" target="_blank" rel="noopener noreferrer" title="Open in new window" class="text-white/80 hover:text-white bg-white/10 hover:bg-white/20 px-2.5 py-1.5 rounded-lg text-xs font-semibold transition-all flex items-center gap-1.5 no-underline">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                <span class="hidden sm:inline">Pop Out</span>
+              </a>
+              <!-- Close Modal Button -->
+              <button id="modal-close-btn" type="button" aria-label="Close modal" class="text-white hover:text-white bg-black/20 hover:bg-black/35 p-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Modal Navigation Tab Strip -->
+          <nav id="modal-tab-strip" class="flex items-center gap-1 overflow-x-auto pb-0.5 text-xs select-none">
+            <button data-tab="objectives" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">🎯 Objectives</button>
+            <button data-tab="plan" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">⏱️ Lesson Plan</button>
+            <button data-tab="revision" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">🎴 Flashcards & Review</button>
+            <button data-tab="materials" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">🎬 Videos & Media</button>
+            <button data-tab="toeic" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">📝 TOEIC Practice</button>
+            <button data-tab="ddrs" id="modal-tab-ddrs" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer hidden">🌱 DDRS</button>
+          </nav>
+        </header>
+
+        <!-- Drawer Content Area -->
+        <div id="modal-body" class="flex-1 overflow-y-auto p-4 sm:p-6 bg-slate-50 space-y-4">
+          <!-- Populated via script -->
+        </div>
+
+        <!-- Drawer Footer -->
+        <footer class="bg-white border-t border-slate-200 px-4 py-2.5 sm:px-6 sm:py-3 flex items-center justify-between text-xs text-slate-500 shrink-0">
+          <div class="flex items-center gap-2">
+            <span class="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            <span id="modal-scorm-status" class="font-medium">SCORM 1.2 Connected • Active Tracking</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <button id="modal-prev-session" type="button" class="px-2.5 py-1 rounded-md border border-slate-300 hover:bg-slate-100 text-slate-700 font-semibold text-xs transition-all cursor-pointer">← Prev Session</button>
+            <button id="modal-next-session" type="button" class="px-2.5 py-1 rounded-md border border-slate-300 hover:bg-slate-100 text-slate-700 font-semibold text-xs transition-all cursor-pointer">Next Session →</button>
+          </div>
+        </footer>
+
+      </div>
+    </div>
   </div>
 
   <!-- Script Configuration -->
@@ -369,6 +488,17 @@
         }
       }
 
+      let sessionStartTime = Date.now();
+
+      function formatScormTime(ms) {
+        const totalSec = Math.floor(ms / 1000);
+        const hours = Math.floor(totalSec / 3600);
+        const minutes = Math.floor((totalSec % 3600) / 60);
+        const seconds = totalSec % 60;
+        const pad = n => (n < 10 ? '0' : '') + n;
+        return `${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
+      }
+
       function setProgress(locationStr, markCompleted = false) {
         const a = getAPI();
         if (a && isInitialized) {
@@ -384,10 +514,44 @@
         }
       }
 
+      function setScore(score, min = 0, max = 100) {
+        const a = getAPI();
+        if (a && isInitialized) {
+          try {
+            a.LMSSetValue("cmi.core.score.raw", String(score));
+            a.LMSSetValue("cmi.core.score.min", String(min));
+            a.LMSSetValue("cmi.core.score.max", String(max));
+            a.LMSCommit("");
+          } catch (e) {}
+        }
+      }
+
+      function setSuspendData(dataStr) {
+        const a = getAPI();
+        if (a && isInitialized) {
+          try {
+            a.LMSSetValue("cmi.suspend_data", String(dataStr));
+            a.LMSCommit("");
+          } catch (e) {}
+        }
+      }
+
+      function getSuspendData() {
+        const a = getAPI();
+        if (a && isInitialized) {
+          try {
+            return a.LMSGetValue("cmi.suspend_data") || "";
+          } catch (e) {}
+        }
+        return "";
+      }
+
       function finish() {
         const a = getAPI();
         if (a && isInitialized) {
           try {
+            const timeStr = formatScormTime(Date.now() - sessionStartTime);
+            a.LMSSetValue("cmi.core.session_time", timeStr);
             a.LMSCommit("");
             a.LMSFinish("");
             isInitialized = false;
@@ -395,7 +559,7 @@
         }
       }
 
-      return { init, setProgress, finish };
+      return { init, setProgress, setScore, setSuspendData, getSuspendData, finish };
     })();
 
     const createModulePages = (modNumber) => {
@@ -610,10 +774,82 @@
       document.getElementById('prev-btn').addEventListener('click', () => stepDeck(-1));
       document.getElementById('next-btn').addEventListener('click', () => stepDeck(1));
 
-      // Enable keyboard navigation with left/right arrow keys
+      // Accessibility mode buttons
+      const dyslexicBtn = document.getElementById('toggle-dyslexic-btn');
+      if (dyslexicBtn) {
+        dyslexicBtn.addEventListener('click', () => {
+          document.body.classList.toggle('dyslexic-mode');
+          const on = document.body.classList.contains('dyslexic-mode');
+          dyslexicBtn.classList.toggle('bg-white', on);
+          dyslexicBtn.classList.toggle('text-slate-900', on);
+        });
+      }
+
+      const contrastBtn = document.getElementById('toggle-contrast-btn');
+      if (contrastBtn) {
+        contrastBtn.addEventListener('click', () => {
+          document.body.classList.toggle('high-contrast-mode');
+          const on = document.body.classList.contains('high-contrast-mode');
+          contrastBtn.classList.toggle('bg-white', on);
+          contrastBtn.classList.toggle('text-slate-900', on);
+        });
+      }
+
+      // Modal Drawer Close triggers
+      const modalCloseBtn = document.getElementById('modal-close-btn');
+      if (modalCloseBtn) modalCloseBtn.addEventListener('click', closeModalDrawer);
+
+      const modalBackdrop = document.getElementById('resource-modal-backdrop');
+      if (modalBackdrop) modalBackdrop.addEventListener('click', closeModalDrawer);
+
+      // Modal Tab buttons
+      const tabBtns = document.querySelectorAll('.modal-tab-btn');
+      tabBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const tabKey = btn.getAttribute('data-tab');
+          if (tabKey) switchModalTab(tabKey);
+        });
+      });
+
+      // Modal Prev / Next Session Buttons
+      const modalPrev = document.getElementById('modal-prev-session');
+      if (modalPrev) {
+        modalPrev.addEventListener('click', () => {
+          if (modalState.sessionNum > 1) {
+            openModalDrawer(modalState.tab, modalState.modNum, modalState.sessionNum - 1, modalState.standaloneUrl);
+          }
+        });
+      }
+
+      const modalNext = document.getElementById('modal-next-session');
+      if (modalNext) {
+        modalNext.addEventListener('click', () => {
+          if (modalState.sessionNum < 4) {
+            openModalDrawer(modalState.tab, modalState.modNum, modalState.sessionNum + 1, modalState.standaloneUrl);
+          }
+        });
+      }
+
+      // Enhanced keyboard navigation (Deck & Flashcards & Modal Escape)
       document.addEventListener('keydown', (e) => {
-        if (e.key === 'ArrowLeft') stepDeck(-1);
-        if (e.key === 'ArrowRight') stepDeck(1);
+        const modalEl = document.getElementById('deck-resource-modal');
+        const isModalOpen = modalEl && !modalEl.classList.contains('hidden');
+
+        if (e.key === 'Escape' && isModalOpen) {
+          closeModalDrawer();
+          return;
+        }
+
+        if (isModalOpen && modalState.tab === 'revision' && modalState.flashcardMode === 'flashcards') {
+          if (e.key === 'ArrowLeft') { prevFlashcard(); return; }
+          if (e.key === 'ArrowRight') { nextFlashcard(); return; }
+          if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); toggleFlashcardFlip(); return; }
+        }
+
+        if (!isModalOpen) {
+          if (e.key === 'ArrowLeft') stepDeck(-1);
+          if (e.key === 'ArrowRight') stepDeck(1);
+        }
       });
 
       // Hide image container on error to prevent broken image icons
@@ -809,18 +1045,18 @@
         nextBtn.onmouseleave = () => { if (!nextBtn.disabled) nextBtn.style.backgroundColor = mod.accent; };
       }
 
-      // Skills Footer Area with module color harmony
+      // Skills Footer Area with module color harmony & Audio Pronunciation
       const skillsEl = document.getElementById('card-skills');
       if (skillsEl) {
         skillsEl.innerHTML = `
-          <div class="flex flex-col vocab-item"><span class="text-sm font-black italic tracking-wide text-[#c0684f] vocab-word" style="color: #c0684f; font-style: italic;">FLUENCY</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˈfluː.ən.si/</span></div>
-          <div class="flex flex-col vocab-item"><span class="text-xs font-bold uppercase text-[#d6a555] vocab-word" style="color: #d6a555; text-transform: uppercase;">Grammar</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˈɡræm.ər/</span></div>
-          <div class="flex flex-col vocab-item"><span class="text-[11px] font-extrabold normal-case text-slate-700 underline decoration-slate-300 vocab-word" style="color: #334155; text-decoration: underline; text-decoration-color: #cbd5e1;">Technical Vocabulary</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˈtek.nɪ.kəl vəˈkæb/</span></div>
-          <div class="flex flex-col vocab-item"><span class="text-xs font-semibold italic text-[#a85640] vocab-word" style="color: #a85640; font-style: italic;">Pronunciation</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/prəˌnʌn.siˈeɪ.shən/</span></div>
-          <div class="flex flex-col vocab-item"><span class="text-xs font-bold uppercase tracking-wider text-teal-700 vocab-word" style="color: #0f766e; text-transform: uppercase;">Comprehension</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˌkɒm.prɪˈhen.ʃən/</span></div>
-          <div class="flex flex-col vocab-item"><span class="text-sm font-black italic text-sky-700 vocab-word" style="color: #0369a1; font-style: italic;">Discussion</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/dɪˈskʌʃ.ən/</span></div>
-          <div class="flex flex-col vocab-item"><span class="text-xs font-extrabold uppercase text-[#ea5d74] vocab-word" style="color: #ea5d74; text-transform: uppercase;">CORRECTION</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/kəˈrek.ʃən/</span></div>
-          <div class="flex flex-col vocab-item"><span class="text-[11px] font-extrabold tracking-widest text-[#d6a555] vocab-word" style="color: #d6a555; letter-spacing: 0.08em;">INTERACTION</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˌɪn.təˈræk.ʃən/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" onclick="speakWord('Fluency')" title="Click to listen"><span class="text-sm font-black italic tracking-wide text-[#c0684f] vocab-word flex items-center gap-1" style="color: ${mod.primary}; font-style: italic;">FLUENCY <span class="text-[10px] opacity-60 group-hover:opacity-100">🔊</span></span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˈfluː.ən.si/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" onclick="speakWord('Grammar')" title="Click to listen"><span class="text-xs font-bold uppercase text-[#d6a555] vocab-word flex items-center gap-1" style="color: ${mod.accent}; text-transform: uppercase;">Grammar <span class="text-[10px] opacity-60 group-hover:opacity-100">🔊</span></span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˈɡræm.ər/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" onclick="speakWord('Technical Vocabulary')" title="Click to listen"><span class="text-[11px] font-extrabold normal-case text-slate-700 underline decoration-slate-300 vocab-word flex items-center gap-1" style="color: #334155; text-decoration: underline; text-decoration-color: #cbd5e1;">Technical Vocabulary <span class="text-[10px] opacity-60 group-hover:opacity-100">🔊</span></span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˈtek.nɪ.kəl vəˈkæb/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" onclick="speakWord('Pronunciation')" title="Click to listen"><span class="text-xs font-semibold italic text-[#a85640] vocab-word flex items-center gap-1" style="color: ${mod.primaryDark}; font-style: italic;">Pronunciation <span class="text-[10px] opacity-60 group-hover:opacity-100">🔊</span></span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/prəˌnʌn.siˈeɪ.shən/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" onclick="speakWord('Comprehension')" title="Click to listen"><span class="text-xs font-bold uppercase tracking-wider text-teal-700 vocab-word flex items-center gap-1" style="color: #0f766e; text-transform: uppercase;">Comprehension <span class="text-[10px] opacity-60 group-hover:opacity-100">🔊</span></span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˌkɒm.prɪˈhen.ʃən/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" onclick="speakWord('Discussion')" title="Click to listen"><span class="text-sm font-black italic text-sky-700 vocab-word flex items-center gap-1" style="color: #0369a1; font-style: italic;">Discussion <span class="text-[10px] opacity-60 group-hover:opacity-100">🔊</span></span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/dɪˈskʌʃ.ən/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" onclick="speakWord('Correction')" title="Click to listen"><span class="text-xs font-extrabold uppercase text-[#ea5d74] vocab-word flex items-center gap-1" style="color: #ea5d74; text-transform: uppercase;">CORRECTION <span class="text-[10px] opacity-60 group-hover:opacity-100">🔊</span></span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/kəˈrek.ʃən/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" onclick="speakWord('Interaction')" title="Click to listen"><span class="text-[11px] font-extrabold tracking-widest text-[#d6a555] vocab-word flex items-center gap-1" style="color: ${mod.accent}; letter-spacing: 0.08em;">INTERACTION <span class="text-[10px] opacity-60 group-hover:opacity-100">🔊</span></span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˌɪn.təˈræk.ʃən/</span></div>
         `;
       }
 
@@ -934,16 +1170,17 @@
       actionContainer.innerHTML = '';
 
       if (page.detailsUrl) {
-        footerInstruction.textContent = "Click below to view the official government DD&RS framework:";
-        const detailsBtn = document.createElement('a');
+        footerInstruction.textContent = "Click below to explore the official DD&RS framework matrix in the integrated hub:";
+        const detailsBtn = document.createElement('button');
+        detailsBtn.type = 'button';
         detailsBtn.className = "inline-flex items-center space-x-2 text-white px-3.5 py-2 rounded-lg text-xs font-bold shadow-md shadow-slate-400/40 transition-all cursor-pointer";
         detailsBtn.style.backgroundColor = mod.primary;
         detailsBtn.onmouseenter = () => detailsBtn.style.backgroundColor = mod.primaryDark;
         detailsBtn.onmouseleave = () => detailsBtn.style.backgroundColor = mod.primary;
-        detailsBtn.href = page.detailsUrl;
-        detailsBtn.target = "_self";
-        detailsBtn.rel = "noopener noreferrer";
-        detailsBtn.innerHTML = "<span>Details</span>";
+        detailsBtn.innerHTML = "<span>🌱 DDRS Framework Matrix</span>";
+        detailsBtn.addEventListener('click', () => {
+          openModalDrawer('ddrs', mod.id, 6, page.detailsUrl);
+        });
         actionContainer.appendChild(detailsBtn);
 
         const imageContainer = document.getElementById('image-container');
@@ -976,43 +1213,62 @@
         return;
       }
 
-      footerInstruction.textContent = "Click below to open this specific page directly in your workspace tab.";
+      footerInstruction.textContent = "Click below to explore interactive materials in the integrated workspace hub:";
 
-      const createActionBtn = (href, label) => {
-        const btn = document.createElement('a');
-        btn.className = "inline-flex items-center space-x-2 text-white px-3 py-2 rounded-lg text-xs font-bold shadow-md shadow-slate-400/40 transition-all cursor-pointer";
-        btn.style.backgroundColor = mod.primary;
-        btn.onmouseenter = () => btn.style.backgroundColor = mod.primaryDark;
-        btn.onmouseleave = () => btn.style.backgroundColor = mod.primary;
-        btn.href = href;
-        const isExternal = href.startsWith('http://') || href.startsWith('https://');
-        btn.target = isExternal ? "_blank" : "_self";
-        if (isExternal) {
-          btn.rel = "noopener noreferrer";
-        }
+      const createModalBtn = (label, tabKey, fallbackHref, isSpecial = false) => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = `inline-flex items-center space-x-1.5 text-white px-3.5 py-2 rounded-lg text-xs font-bold shadow-md shadow-slate-400/40 transition-all cursor-pointer ${
+          isSpecial ? 'scale-[1.02]' : ''
+        }`;
+        btn.style.backgroundColor = isSpecial ? mod.accent : mod.primary;
+        btn.onmouseenter = () => btn.style.backgroundColor = isSpecial ? mod.accentDark : mod.primaryDark;
+        btn.onmouseleave = () => btn.style.backgroundColor = isSpecial ? mod.accent : mod.primary;
         btn.innerHTML = `<span>${label}</span>`;
+        btn.addEventListener('click', () => {
+          openModalDrawer(tabKey, mod.id, currentIndex + 1, fallbackHref);
+        });
         return btn;
       };
 
-      if (page.lessonPlanUrl) {
-        actionContainer.appendChild(createActionBtn(page.lessonPlanUrl, "Lesson Plan"));
-      }
+      const createExternalBtn = (href, label) => {
+        const btn = document.createElement('a');
+        btn.className = "inline-flex items-center space-x-1.5 text-white px-3 py-2 rounded-lg text-xs font-bold shadow-md shadow-slate-400/40 transition-all cursor-pointer no-underline";
+        btn.style.backgroundColor = mod.primaryDark;
+        btn.onmouseenter = () => btn.style.backgroundColor = mod.primaryDarker;
+        btn.onmouseleave = () => btn.style.backgroundColor = mod.primaryDark;
+        btn.href = href;
+        btn.target = "_blank";
+        btn.rel = "noopener noreferrer";
+        btn.innerHTML = `<span>${label} ↗</span>`;
+        return btn;
+      };
 
-      if (page.objectivesUrl) {
-        actionContainer.appendChild(createActionBtn(page.objectivesUrl, "Objectives"));
-      }
-
-      const materialsUrl = page.additionalMaterialsUrl || page.url;
-      if (materialsUrl) {
-        actionContainer.appendChild(createActionBtn(materialsUrl, "Additional Materials"));
-      }
-
-      if (page.classReviewUrl && !page.classReviewUrl.includes("YOUR_REVIEW_ID")) {
-        actionContainer.appendChild(createActionBtn(page.classReviewUrl, "Revision"));
+      if (currentIndex === 4) {
+        // Session 5: Formative Evaluation external links
+        if (page.url) actionContainer.appendChild(createExternalBtn(page.url, "Formative Evaluation"));
+        if (page.lessonPlanUrl) actionContainer.appendChild(createExternalBtn(page.lessonPlanUrl, "Evaluation Guidelines"));
+        if (page.objectivesUrl) actionContainer.appendChild(createExternalBtn(page.objectivesUrl, "Evaluation Criteria"));
+      } else {
+        // Sessions 1 to 4: Integrated in-deck hub
+        if (page.objectivesUrl) {
+          actionContainer.appendChild(createModalBtn("🎯 Objectives", "objectives", page.objectivesUrl));
+        }
+        if (page.lessonPlanUrl) {
+          actionContainer.appendChild(createModalBtn("⏱️ Lesson Plan", "plan", page.lessonPlanUrl));
+        }
+        if (page.classReviewUrl) {
+          actionContainer.appendChild(createModalBtn("🎴 Flashcards & Review", "revision", page.classReviewUrl, true));
+        }
+        const materialsUrl = page.additionalMaterialsUrl || page.url;
+        if (materialsUrl) {
+          actionContainer.appendChild(createModalBtn("🎬 Videos & Media", "materials", materialsUrl));
+          actionContainer.appendChild(createModalBtn("📝 TOEIC Practice", "toeic", materialsUrl, true));
+        }
       }
 
       if (page.pdfUrl && !page.pdfUrl.includes("INSERT_YOUR_PDF_LINK_HERE")) {
-        const pdfBtn = createActionBtn(page.pdfUrl, "Worksheet");
+        const pdfBtn = createExternalBtn(page.pdfUrl, "Worksheet");
         pdfBtn.id = "worksheet-btn";
         actionContainer.appendChild(pdfBtn);
       }
@@ -1045,6 +1301,547 @@
       if (newIndex >= 0 && newIndex < mod.pages.length) {
         renderCard(newIndex);
       }
+    }
+
+    // --- Audio Pronunciation Engine ---
+    function speakWord(text) {
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+        const clean = text.replace(/[^a-zA-Z\s\-]/g, '').trim();
+        if (!clean) return;
+        const utterance = new SpeechSynthesisUtterance(clean);
+        utterance.lang = 'en-US';
+        utterance.rate = 0.9;
+        window.speechSynthesis.speak(utterance);
+      }
+    }
+
+    // --- Mastered Vocabulary Learning State ---
+    function getMasteredKey(modNum, sessionNum) {
+      return `gsea_m${modNum}_s${sessionNum}_mastered`;
+    }
+
+    function getMasteredTerms(modNum, sessionNum) {
+      try {
+        const raw = localStorage.getItem(getMasteredKey(modNum, sessionNum));
+        return raw ? JSON.parse(raw) : [];
+      } catch (e) {
+        return [];
+      }
+    }
+
+    function toggleMasteredTerm(modNum, sessionNum, term) {
+      const list = getMasteredTerms(modNum, sessionNum);
+      const idx = list.indexOf(term);
+      if (idx >= 0) {
+        list.splice(idx, 1);
+      } else {
+        list.push(term);
+      }
+      try {
+        localStorage.setItem(getMasteredKey(modNum, sessionNum), JSON.stringify(list));
+        ScormAPI.setSuspendData(`m${modNum}_s${sessionNum}_count:${list.length}`);
+      } catch (e) {}
+      return list;
+    }
+
+    // --- Slide-Over Resource Modal State & Controller ---
+    let modalState = {
+      modNum: 1,
+      sessionNum: 1,
+      tab: 'objectives',
+      flashcardIdx: 0,
+      flashcardFlipped: false,
+      flashcardMode: 'flashcards', // 'flashcards' or 'grid'
+      toeicSelected: null,
+      standaloneUrl: '#'
+    };
+
+    function openModalDrawer(tabKey, modNum, sessionNum, standaloneUrl) {
+      modalState.modNum = modNum;
+      modalState.sessionNum = sessionNum;
+      modalState.tab = tabKey;
+      modalState.flashcardIdx = 0;
+      modalState.flashcardFlipped = false;
+      modalState.toeicSelected = null;
+      modalState.standaloneUrl = standaloneUrl || '#';
+
+      const modalEl = document.getElementById('deck-resource-modal');
+      const backdropEl = document.getElementById('resource-modal-backdrop');
+      const drawerEl = document.getElementById('deck-modal-drawer');
+      const headerEl = document.getElementById('modal-header');
+      const tagEl = document.getElementById('modal-tag');
+      const titleEl = document.getElementById('modal-title');
+      const standaloneBtn = document.getElementById('modal-standalone-btn');
+      const ddrsTabBtn = document.getElementById('modal-tab-ddrs');
+
+      const theme = modulesData[modalState.modNum - 1];
+      headerEl.style.backgroundColor = theme.primary;
+      headerEl.style.borderColor = theme.primaryDark;
+
+      if (modalState.sessionNum > 4 || tabKey === 'ddrs') {
+        if (ddrsTabBtn) ddrsTabBtn.classList.remove('hidden');
+        tagEl.textContent = `Module ${modalState.modNum} • Focus`;
+        titleEl.textContent = "DDRS Regulatory Framework";
+      } else {
+        if (ddrsTabBtn) ddrsTabBtn.classList.add('hidden');
+        tagEl.textContent = `Module ${modalState.modNum} • Session ${modalState.sessionNum}`;
+        const titles = {
+          1: ["Intro & Anecdotes", "Evolution of Transport", "Overtourism", "Sustainable Tourism"],
+          2: ["Extreme Weather", "Sustainable Cities", "Building Arguments", "Airport Biodiversity"],
+          3: ["Artificial Intelligence", "Future of Travel", "Debate & Critical Thinking", "Biometrics & Identity"]
+        };
+        titleEl.textContent = (titles[modalState.modNum] && titles[modalState.modNum][modalState.sessionNum - 1]) || `Session ${modalState.sessionNum}`;
+      }
+
+      if (standaloneBtn) {
+        standaloneBtn.href = modalState.standaloneUrl;
+      }
+
+      modalEl.classList.remove('hidden');
+      void modalEl.offsetWidth; // trigger reflow
+      backdropEl.classList.remove('opacity-0');
+      backdropEl.classList.add('opacity-100');
+      drawerEl.classList.remove('translate-x-full');
+
+      switchModalTab(modalState.tab);
+    }
+
+    function closeModalDrawer() {
+      const modalEl = document.getElementById('deck-resource-modal');
+      const backdropEl = document.getElementById('resource-modal-backdrop');
+      const drawerEl = document.getElementById('deck-modal-drawer');
+      if (!modalEl || modalEl.classList.contains('hidden')) return;
+
+      backdropEl.classList.remove('opacity-100');
+      backdropEl.classList.add('opacity-0');
+      drawerEl.classList.add('translate-x-full');
+
+      setTimeout(() => {
+        modalEl.classList.add('hidden');
+        if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+      }, 300);
+    }
+
+    function switchModalTab(tabKey) {
+      modalState.tab = tabKey;
+      const tabBtns = document.querySelectorAll('.modal-tab-btn');
+      tabBtns.forEach(btn => {
+        const isSelected = btn.getAttribute('data-tab') === tabKey;
+        if (isSelected) {
+          btn.className = "modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white bg-white/25 shadow-xs transition-all cursor-pointer";
+        } else {
+          btn.className = "modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer";
+        }
+      });
+
+      renderModalBody();
+    }
+
+    function renderModalBody() {
+      const bodyEl = document.getElementById('modal-body');
+      if (!bodyEl) return;
+      const theme = modulesData[modalState.modNum - 1];
+      const modCourse = (window.COURSE_DATA && window.COURSE_DATA[modalState.modNum]) || {};
+      const sessionData = (modCourse.sessions && modCourse.sessions[modalState.sessionNum]) || {};
+
+      if (modalState.tab === 'objectives') {
+        const obj = sessionData.objectives || { items: [], summary: '' };
+        bodyEl.innerHTML = `
+          <div class="space-y-4">
+            <div class="p-4 bg-white border border-slate-200 rounded-xl shadow-xs">
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Session Objectives Overview</span>
+              <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mt-1">${obj.summary || 'Key competencies targeted in this session.'}</p>
+            </div>
+            <div class="space-y-2.5">
+              ${(obj.items || []).map(item => `
+                <div class="flex items-start gap-3 p-3.5 bg-white border border-slate-200 rounded-xl shadow-xs hover:border-slate-300 transition-all">
+                  <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shrink-0 shadow-xs" style="background-color: ${theme.primary};">${item.num}</span>
+                  <div>
+                    <h4 class="text-xs sm:text-sm font-bold text-slate-800">${item.title}</h4>
+                    <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">${item.description}</p>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      } else if (modalState.tab === 'plan') {
+        const plan = sessionData.lessonPlan || { items: [], summary: '' };
+        bodyEl.innerHTML = `
+          <div class="space-y-4">
+            <div class="p-4 bg-white border border-slate-200 rounded-xl shadow-xs">
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">2-Hour Lesson Outline</span>
+              <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mt-1">${plan.summary || 'Pacing and breakdown across the 2-hour lesson.'}</p>
+            </div>
+            <div class="space-y-2.5">
+              ${(plan.items || []).map((item, idx) => `
+                <div class="grid grid-cols-[68px_1fr] items-center gap-3 p-3 bg-white border border-slate-200 rounded-xl shadow-xs">
+                  <span class="text-white text-xs font-black py-1 rounded-md text-center shrink-0 shadow-xs" style="background-color: ${theme.primary};">${item.time}</span>
+                  <div>
+                    <div class="flex items-center gap-1.5">
+                      <span class="text-xs font-black" style="color: ${theme.accent};">${idx + 1}.</span>
+                      <h4 class="text-xs sm:text-sm font-bold text-slate-800">${item.title}</h4>
+                    </div>
+                    <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">${item.description}</p>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      } else if (modalState.tab === 'revision') {
+        renderRevisionTab(sessionData, theme);
+      } else if (modalState.tab === 'materials') {
+        renderMaterialsTab(sessionData, theme);
+      } else if (modalState.tab === 'toeic') {
+        renderToeicTab(sessionData, theme);
+      } else if (modalState.tab === 'ddrs') {
+        renderDdrsTab(theme);
+      }
+    }
+
+    function renderRevisionTab(sessionData, theme) {
+      const bodyEl = document.getElementById('modal-body');
+      const rev = sessionData.revision || { terms: [], summary: '' };
+      const terms = rev.terms || [];
+      const masteredList = getMasteredTerms(modalState.modNum, modalState.sessionNum);
+      const isGrid = modalState.flashcardMode === 'grid';
+
+      let innerContent = '';
+      if (isGrid) {
+        innerContent = `
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            ${terms.map(t => {
+              const isMastered = masteredList.includes(t.term);
+              return `
+                <div class="bg-white border ${isMastered ? 'border-emerald-300 ring-1 ring-emerald-200' : 'border-slate-200'} rounded-xl p-3 flex flex-col justify-between shadow-xs transition-all">
+                  <div>
+                    <div class="flex items-center justify-between pb-1.5 border-b border-slate-100 gap-1.5">
+                      <div class="flex items-center gap-1.5 truncate">
+                        <button type="button" onclick="speakWord('${t.term.replace(/'/g, "\\'")}')" title="Pronounce word" class="text-xs hover:scale-110 active:scale-95 transition-all text-slate-400 hover:text-slate-700 cursor-pointer">🔊</button>
+                        <h4 class="text-xs sm:text-sm font-bold text-slate-800 truncate">${t.term}</h4>
+                      </div>
+                      <span class="text-white text-[10px] font-bold px-1.5 py-0.5 rounded shrink-0 shadow-xs" style="background-color: ${theme.accent};">${t.num}</span>
+                    </div>
+                    <p class="text-[11px] text-slate-600 leading-relaxed pt-2">${t.definition}</p>
+                  </div>
+                  <div class="pt-2 mt-2 border-t border-slate-100 flex items-center justify-between text-[11px]">
+                    <label class="inline-flex items-center gap-1.5 cursor-pointer text-slate-600 hover:text-slate-900 select-none">
+                      <input type="checkbox" ${isMastered ? 'checked' : ''} onchange="handleMasteredToggle('${t.term.replace(/'/g, "\\'")}')" class="rounded text-emerald-600 focus:ring-emerald-500 cursor-pointer">
+                      <span>${isMastered ? 'Mastered ✓' : 'Mark Learned'}</span>
+                    </label>
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        `;
+      } else {
+        // Flashcard Trainer View
+        if (terms.length === 0) {
+          innerContent = `<div class="p-4 bg-white rounded-xl text-center text-slate-500 text-xs">No terms available.</div>`;
+        } else {
+          const currentTerm = terms[modalState.flashcardIdx] || terms[0];
+          const isMastered = masteredList.includes(currentTerm.term);
+          innerContent = `
+            <div class="flex flex-col items-center gap-4 py-2">
+              <div class="w-full max-w-xl h-64 flashcard-perspective cursor-pointer select-none" onclick="toggleFlashcardFlip()">
+                <div id="flashcard-inner" class="flashcard-inner ${modalState.flashcardFlipped ? 'flipped' : ''}">
+                  
+                  <!-- Front Side -->
+                  <div class="flashcard-front bg-white border border-slate-200 rounded-2xl shadow-lg p-6 flex flex-col justify-between items-center text-center">
+                    <div class="w-full flex justify-between items-center text-xs text-slate-400 font-mono">
+                      <span>Card ${modalState.flashcardIdx + 1} of ${terms.length}</span>
+                      <span class="px-2 py-0.5 rounded text-white font-bold" style="background-color: ${theme.accent};">0${currentTerm.num}</span>
+                    </div>
+                    
+                    <div class="space-y-2 my-auto">
+                      <h3 class="text-2xl font-black text-slate-800 tracking-tight">${currentTerm.term}</h3>
+                      <button type="button" onclick="event.stopPropagation(); speakWord('${currentTerm.term.replace(/'/g, "\\'")}')" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 hover:bg-slate-200 text-slate-700 transition-all cursor-pointer">
+                        <span>🔊 Pronounce</span>
+                      </button>
+                    </div>
+
+                    <div class="text-[11px] text-slate-400 flex items-center gap-1">
+                      <span>Click anywhere to flip ↷</span>
+                    </div>
+                  </div>
+
+                  <!-- Back Side -->
+                  <div class="flashcard-back bg-slate-900 border border-slate-800 text-white rounded-2xl shadow-lg p-6 flex flex-col justify-between items-center text-center">
+                    <div class="w-full flex justify-between items-center text-xs text-slate-400 font-mono">
+                      <span class="text-slate-300 font-bold">${currentTerm.term}</span>
+                      <span class="px-2 py-0.5 rounded bg-white/20 text-white font-bold">Definition</span>
+                    </div>
+
+                    <div class="my-auto px-2">
+                      <p class="text-sm sm:text-base text-slate-100 leading-relaxed font-medium">${currentTerm.definition}</p>
+                    </div>
+
+                    <div class="text-[11px] text-slate-400 flex items-center gap-1">
+                      <span>Click to flip back ↶</span>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <!-- Flashcard Navigation Controls -->
+              <div class="w-full max-w-xl flex items-center justify-between gap-3">
+                <button type="button" onclick="prevFlashcard()" ${modalState.flashcardIdx === 0 ? 'disabled' : ''} class="px-3.5 py-1.5 rounded-lg border border-slate-300 bg-white hover:bg-slate-50 disabled:opacity-30 disabled:cursor-not-allowed text-xs font-bold text-slate-700 transition-all cursor-pointer">
+                  ← Prev
+                </button>
+                <div class="flex items-center gap-2">
+                  <button type="button" onclick="handleMasteredToggle('${currentTerm.term.replace(/'/g, "\\'")}')" class="px-4 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${isMastered ? 'bg-emerald-600 hover:bg-emerald-700 text-white' : 'bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-300'}">
+                    ${isMastered ? '✓ Mastered' : '+ Mark Mastered'}
+                  </button>
+                </div>
+                <button type="button" onclick="nextFlashcard()" ${modalState.flashcardIdx === terms.length - 1 ? 'disabled' : ''} class="px-3.5 py-1.5 rounded-lg border border-slate-300 bg-white hover:bg-slate-50 disabled:opacity-30 disabled:cursor-not-allowed text-xs font-bold text-slate-700 transition-all cursor-pointer">
+                  Next →
+                </button>
+              </div>
+            </div>
+          `;
+        }
+      }
+
+      bodyEl.innerHTML = `
+        <div class="space-y-4">
+          <div class="p-3.5 bg-white border border-slate-200 rounded-xl shadow-xs flex flex-wrap items-center justify-between gap-3">
+            <div>
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Curriculum Vocabulary (18 Terms)</span>
+              <div class="flex items-center gap-2 mt-0.5">
+                <span class="text-xs font-semibold text-slate-700">${masteredList.length} of ${terms.length} mastered</span>
+                <div class="w-24 h-2 bg-slate-200 rounded-full overflow-hidden">
+                  <div class="h-full bg-emerald-500 rounded-full transition-all duration-300" style="width: ${(masteredList.length / (terms.length || 1)) * 100}%"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- View Mode Switch -->
+            <div class="inline-flex rounded-lg border border-slate-200 p-0.5 bg-slate-100 text-xs font-bold select-none">
+              <button type="button" onclick="setFlashcardMode('flashcards')" class="px-3 py-1 rounded-md transition-all cursor-pointer ${!isGrid ? 'bg-white shadow-xs text-slate-900' : 'text-slate-500 hover:text-slate-800'}">🎴 Flashcards</button>
+              <button type="button" onclick="setFlashcardMode('grid')" class="px-3 py-1 rounded-md transition-all cursor-pointer ${isGrid ? 'bg-white shadow-xs text-slate-900' : 'text-slate-500 hover:text-slate-800'}">📋 Full List</button>
+            </div>
+          </div>
+
+          ${innerContent}
+        </div>
+      `;
+    }
+
+    function renderMaterialsTab(sessionData, theme) {
+      const bodyEl = document.getElementById('modal-body');
+      const mat = sessionData.materials || { videos: [], grammar: {}, resources: [] };
+      const vids = mat.videos || [];
+      const grammar = mat.grammar || {};
+      const res = mat.resources || [];
+
+      bodyEl.innerHTML = `
+        <div class="space-y-5">
+          <!-- Curated Videos Grid -->
+          <div>
+            <div class="flex items-center justify-between pb-2 mb-3 border-b border-slate-200">
+              <h3 class="text-xs font-bold uppercase tracking-wider text-slate-700">Curated Video Clips (${vids.length})</h3>
+              <span class="text-[11px] text-slate-500">Subtitled on YouTube</span>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5">
+              ${vids.map((v, i) => `
+                <div class="bg-white border border-slate-200 rounded-xl p-3 flex flex-col justify-between shadow-xs">
+                  <div>
+                    <div class="flex items-center justify-between gap-1 pb-1.5 border-b border-slate-100 text-xs">
+                      <span class="font-bold text-slate-800 truncate" title="${v.title}">Video ${i + 1}</span>
+                      <a href="${v.watchUrl}" target="_blank" rel="noopener noreferrer" class="text-[10px] font-bold text-rose-700 bg-rose-50 border border-rose-200 px-1.5 py-0.5 rounded-full shrink-0 no-underline">Watch ↗</a>
+                    </div>
+                    <div class="aspect-video w-full my-2 bg-slate-900 rounded-lg overflow-hidden border border-slate-200">
+                      <iframe class="w-full h-full" src="${v.embedUrl}" title="${v.title}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <p class="text-[11px] text-slate-600 leading-relaxed">${v.caption}</p>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <!-- Grammar Focus Card -->
+          ${grammar.formula ? `
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-xs space-y-3">
+              <div class="flex items-center justify-between pb-2 border-b border-slate-100">
+                <span class="text-xs font-bold uppercase tracking-wider" style="color: ${theme.primary};">${grammar.title || 'Grammar Focus'}</span>
+                <span class="text-[10px] font-bold bg-amber-100 text-amber-800 px-2 py-0.5 rounded">Core Formula</span>
+              </div>
+              <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-center font-mono font-bold text-xs sm:text-sm" style="color: ${theme.primary};">
+                ${grammar.formula}
+              </div>
+              ${grammar.trap ? `
+                <div class="p-3 bg-amber-50 border border-amber-200 rounded-lg text-xs text-amber-900 leading-relaxed">
+                  <strong>⚠️ Grammar Trap:</strong> ${grammar.trap}
+                </div>
+              ` : ''}
+            </div>
+          ` : ''}
+
+          <!-- Curated Reading Links -->
+          ${res.length > 0 ? `
+            <div>
+              <h3 class="text-xs font-bold uppercase tracking-wider text-slate-700 pb-2 mb-3 border-b border-slate-200">Reference Portals &amp; Articles</h3>
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5">
+                ${res.map(r => `
+                  <a href="${r.url}" target="_blank" rel="noopener noreferrer" class="p-3 bg-white border border-slate-200 hover:border-slate-300 rounded-xl shadow-xs transition-all flex flex-col justify-between group no-underline">
+                    <div>
+                      <div class="flex items-center justify-between text-[10px] font-bold text-slate-400">
+                        <span>${r.tag}</span>
+                        <span class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform">↗</span>
+                      </div>
+                      <h4 class="text-xs font-bold text-slate-800 mt-1">${r.name}</h4>
+                      <p class="text-[11px] text-slate-500 mt-1 line-clamp-2">${r.desc}</p>
+                    </div>
+                  </a>
+                `).join('')}
+              </div>
+            </div>
+          ` : ''}
+        </div>
+      `;
+    }
+
+    function renderToeicTab(sessionData, theme) {
+      const bodyEl = document.getElementById('modal-body');
+      const toeic = (sessionData.materials && sessionData.materials.toeic) || { options: [] };
+      const selected = modalState.toeicSelected;
+      const isAnswered = selected !== null;
+      const isCorrect = selected === toeic.correctLetter;
+
+      bodyEl.innerHTML = `
+        <div class="space-y-4">
+          <div class="p-4 bg-white border border-slate-200 rounded-xl shadow-xs">
+            <div class="flex items-center justify-between text-xs text-slate-500 pb-2 border-b border-slate-100">
+              <span class="font-bold uppercase tracking-wider">TOEIC Diagnostic Practice • Reading Part 5</span>
+              <span class="font-semibold text-slate-600">Pace: ~30 seconds</span>
+            </div>
+            <p class="text-sm font-semibold text-slate-800 leading-relaxed mt-3">${toeic.stem}</p>
+
+            <!-- 4 Multiple Choice Options -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 mt-4">
+              ${(toeic.options || []).map(opt => {
+                let optClass = 'bg-white border-slate-200 hover:border-slate-300 text-slate-700';
+                if (isAnswered) {
+                  if (opt.letter === toeic.correctLetter) {
+                    optClass = 'bg-emerald-50 border-emerald-500 text-emerald-900 font-bold';
+                  } else if (opt.letter === selected) {
+                    optClass = 'bg-rose-50 border-rose-500 text-rose-900 font-bold';
+                  } else {
+                    optClass = 'bg-slate-50 border-slate-200 text-slate-400 opacity-60';
+                  }
+                }
+                return `
+                  <button type="button" onclick="handleToeicSelect('${opt.letter}')" ${isAnswered ? 'disabled' : ''} class="flex items-center gap-2 p-3 rounded-lg border text-left text-xs transition-all cursor-pointer ${optClass}">
+                    <span class="font-bold text-slate-400">(${opt.letter})</span>
+                    <span>${opt.text}</span>
+                  </button>
+                `;
+              }).join('')}
+            </div>
+          </div>
+
+          <!-- Answer Feedback & Analysis -->
+          ${isAnswered ? `
+            <div class="p-4 bg-white border ${isCorrect ? 'border-emerald-200 bg-emerald-50/20' : 'border-amber-200 bg-amber-50/20'} rounded-xl shadow-xs space-y-3">
+              <div class="flex items-center gap-2">
+                <span class="px-2.5 py-0.5 rounded text-xs font-extrabold ${isCorrect ? 'bg-emerald-100 text-emerald-800' : 'bg-rose-100 text-rose-800'}">
+                  ${isCorrect ? '✓ Correct Answer: (' + toeic.correctLetter + ') ' + toeic.correctText : '✗ Incorrect • Correct Answer is (' + toeic.correctLetter + ') ' + toeic.correctText}
+                </span>
+              </div>
+              <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                <strong>Grammar Rationale:</strong> ${toeic.analysis}
+              </p>
+              ${toeic.strategy ? `
+                <div class="p-3 bg-amber-50 border border-amber-200 rounded-lg text-xs text-amber-900 leading-relaxed">
+                  <strong>📌 TOEIC Strategy Rule:</strong> ${toeic.strategy}
+                </div>
+              ` : ''}
+            </div>
+          ` : `
+            <div class="p-3 bg-slate-100 border border-slate-200 rounded-xl text-center text-xs text-slate-500">
+              Select an option above to check your answer and view grammatical analysis.
+            </div>
+          `}
+        </div>
+      `;
+    }
+
+    function renderDdrsTab(theme) {
+      const bodyEl = document.getElementById('modal-body');
+      const ddrs = (window.COURSE_DATA && window.COURSE_DATA[modalState.modNum] && window.COURSE_DATA[modalState.modNum].ddrs) || { axes: [] };
+      const axes = ddrs.axes || [];
+
+      bodyEl.innerHTML = `
+        <div class="space-y-4">
+          <div class="p-4 bg-white border border-slate-200 rounded-xl shadow-xs">
+            <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Official National Framework (Conférence des Grandes Écoles)</span>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mt-1">${ddrs.summary || 'The 5 regulatory axes linking ecological transition and social responsibility in higher education and engineering.'}</p>
+          </div>
+          <div class="space-y-3">
+            ${axes.map(axe => `
+              <div class="p-3.5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-1">
+                <div class="flex items-center gap-2">
+                  <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">${axe.badge || 'AXE'}</span>
+                  <span class="text-xs font-black" style="color: ${theme.primary};">${axe.num}</span>
+                  <h4 class="text-xs sm:text-sm font-bold text-slate-800">${axe.title}</h4>
+                </div>
+                <p class="text-xs text-slate-600 leading-relaxed pl-1">${axe.desc}</p>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+
+    function toggleFlashcardFlip() {
+      modalState.flashcardFlipped = !modalState.flashcardFlipped;
+      const el = document.getElementById('flashcard-inner');
+      if (el) el.classList.toggle('flipped', modalState.flashcardFlipped);
+    }
+
+    function prevFlashcard() {
+      if (modalState.flashcardIdx > 0) {
+        modalState.flashcardIdx--;
+        modalState.flashcardFlipped = false;
+        renderModalBody();
+      }
+    }
+
+    function nextFlashcard() {
+      const modCourse = (window.COURSE_DATA && window.COURSE_DATA[modalState.modNum]) || {};
+      const sessionData = (modCourse.sessions && modCourse.sessions[modalState.sessionNum]) || {};
+      const terms = (sessionData.revision && sessionData.revision.terms) || [];
+      if (modalState.flashcardIdx < terms.length - 1) {
+        modalState.flashcardIdx++;
+        modalState.flashcardFlipped = false;
+        renderModalBody();
+      }
+    }
+
+    function setFlashcardMode(mode) {
+      modalState.flashcardMode = mode;
+      renderModalBody();
+    }
+
+    function handleMasteredToggle(term) {
+      toggleMasteredTerm(modalState.modNum, modalState.sessionNum, term);
+      renderModalBody();
+    }
+
+    function handleToeicSelect(letter) {
+      if (modalState.toeicSelected !== null) return;
+      modalState.toeicSelected = letter;
+      const modCourse = (window.COURSE_DATA && window.COURSE_DATA[modalState.modNum]) || {};
+      const sessionData = (modCourse.sessions && modCourse.sessions[modalState.sessionNum]) || {};
+      const toeic = (sessionData.materials && sessionData.materials.toeic) || {};
+      const isCorrect = (letter === toeic.correctLetter);
+      ScormAPI.setScore(isCorrect ? 100 : 0);
+      renderModalBody();
     }
 
     // Standard DOMContentLoaded listener properly calling initDeck()
