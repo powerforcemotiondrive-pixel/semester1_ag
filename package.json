@@ -1,26 +1,28 @@
 {
-  "name": "tailwind-project",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "gsea-semester1-scorm",
+  "version": "1.1.0",
+  "description": "ENAC GSEA Semester 1 General English Courseware and SCORM 1.2 Package",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "python3 -m http.server 8000",
-    "build:css": "npx @tailwindcss/cli -i ./src/input.css -o ./output.css",
-    "dev:css": "npx @tailwindcss/cli -i ./src/input.css -o ./output.css --watch"
+    "package": "node scripts/package-scorm.js",
+    "build:css": "npx @tailwindcss/cli -i ./src/input.css -o ./output.css --minify",
+    "dev:css": "npx @tailwindcss/cli -i ./src/input.css -o ./output.css --watch",
+    "serve": "python3 -m http.server 8000"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/powerforcemotiondrive-pixel/moodle-assets.git"
+    "url": "git+https://github.com/powerforcemotiondrive-pixel/semester1_ag.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "enac",
+    "gsea",
+    "english",
+    "scorm",
+    "moodle"
+  ],
+  "author": "Phil Parris",
   "license": "ISC",
   "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/powerforcemotiondrive-pixel/moodle-assets/issues"
-  },
-  "homepage": "https://github.com/powerforcemotiondrive-pixel/moodle-assets#readme",
   "dependencies": {
     "@tailwindcss/cli": "^4.3.3",
     "tailwindcss": "^4.3.3"

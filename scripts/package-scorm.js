@@ -1,0 +1,97 @@
+#!/usr/bin/env node
+const fs = require('fs');
+const path = require('path');
+const { execSync } = require('child_process');
+
+const rootDir = path.resolve(__dirname, '..');
+const distDir = path.join(rootDir, 'dist');
+const zipOutput = path.join(distDir, 'GSEA_Semester_1_SCORM.zip');
+
+console.log('📦 Starting GSEA Semester 1 SCORM Packaging...\n');
+
+// 1. Ensure dist directory exists
+if (!fs.existsSync(distDir)) {
+  fs.mkdirSync(distDir, { recursive: true });
+}
+
+// 2. Build minified Tailwind CSS
+console.log('🎨 Compiling Tailwind CSS (minified)...');
+try {
+  execSync('npx @tailwindcss/cli -i ./src/input.css -o ./output.css --minify', {
+    cwd: rootDir,
+    stdio: 'inherit'
+  });
+  console.log('✓ output.css compiled successfully.\n');
+} catch (err) {
+  console.error('✗ Failed to compile Tailwind CSS:', err.message);
+  process.exit(1);
+}
+
+// 3. Validate imsmanifest.xml file references
+console.log('🔍 Validating imsmanifest.xml resources...');
+const manifestPath = path.join(rootDir, 'imsmanifest.xml');
+if (!fs.existsSync(manifestPath)) {
+  console.error('✗ Error: imsmanifest.xml not found!');
+  process.exit(1);
+}
+
+const manifestContent = fs.readFileSync(manifestPath, 'utf8');
+const fileMatches = manifestContent.match(/<file href="([^"]+)"/g) || [];
+let missingFiles = 0;
+
+for (const match of fileMatches) {
+  const filePath = match.replace('<file href="', '').replace('"', '');
+  const absolutePath = path.join(rootDir, filePath);
+  if (!fs.existsSync(absolutePath)) {
+    console.warn(`  ⚠️ Warning: Manifest references missing file: ${filePath}`);
+    missingFiles++;
+  }
+}
+
+if (missingFiles === 0) {
+  console.log(`✓ All ${fileMatches.length} files in imsmanifest.xml verified.\n`);
+} else {
+  console.log(`⚠️ ${missingFiles} file(s) referenced in manifest are missing on disk.\n`);
+}
+
+// 4. Create SCORM Zip archive
+console.log('🗜️  Bundling SCORM package into dist/GSEA_Semester_1_SCORM.zip...');
+if (fs.existsSync(zipOutput)) {
+  fs.unlinkSync(zipOutput);
+}
+
+// Files and directories to bundle in the SCORM root
+const includeList = [
+  'imsmanifest.xml',
+  'index.html',
+  'output.css',
+  'data',
+  'images',
+  'files',
+  'session1',
+  'session2',
+  'session3',
+  'session4',
+  'session5',
+  'ddrs.html',
+  'ddrs1.html',
+  'ddrs2.html',
+  'ddrs3.html',
+  'agmod1.pdf',
+  'ws1.pdf'
+].filter(item => fs.existsSync(path.join(rootDir, item)));
+
+try {
+  // Use macOS/Linux native zip CLI for fast, zero-dependency packaging
+  const cmd = `zip -r -q "${zipOutput}" ${includeList.join(' ')} -x "*.DS_Store" "*node_modules*" "*.git*"`;
+  execSync(cmd, { cwd: rootDir, stdio: 'inherit' });
+
+  const stats = fs.statSync(zipOutput);
+  const sizeMB = (stats.size / (1024 * 1024)).toFixed(2);
+  console.log(`\n✅ Package created successfully!`);
+  console.log(`📍 Output: dist/GSEA_Semester_1_SCORM.zip (${sizeMB} MB)`);
+  console.log(`🚀 Ready for upload to ENAC Moodle / eCampus.`);
+} catch (err) {
+  console.error('✗ Failed to create zip package:', err.message);
+  process.exit(1);
+}
