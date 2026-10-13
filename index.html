@@ -227,16 +227,41 @@
       transform: rotateY(180deg);
     }
 
-    /* Smooth AG <-> AAS Track Cross-Dissolve */
+    /* Option A: Silky Aerospace AG <-> AAS Track Cross-Dissolve (750ms total) */
     .track-crossfade-exit {
       opacity: 0 !important;
-      transform: scale(0.995) translateY(2px) !important;
-      transition: opacity 160ms cubic-bezier(0.4, 0, 0.2, 1), transform 160ms cubic-bezier(0.4, 0, 0.2, 1) !important;
+      filter: blur(1.5px);
+      transform: scale(0.992) translateY(3px) !important;
+      transition: opacity 300ms cubic-bezier(0.4, 0, 0.2, 1),
+                  filter 300ms cubic-bezier(0.4, 0, 0.2, 1),
+                  transform 300ms cubic-bezier(0.4, 0, 0.2, 1) !important;
+      pointer-events: none;
     }
     .track-crossfade-enter {
       opacity: 1 !important;
+      filter: blur(0px);
       transform: scale(1) translateY(0) !important;
-      transition: opacity 220ms cubic-bezier(0, 0, 0.2, 1), transform 220ms cubic-bezier(0, 0, 0.2, 1) !important;
+      transition: opacity 450ms cubic-bezier(0.16, 1, 0.3, 1),
+                  filter 450ms cubic-bezier(0.16, 1, 0.3, 1),
+                  transform 450ms cubic-bezier(0.16, 1, 0.3, 1) !important;
+    }
+
+    /* Coordinated Header Title & Icon Dissolve */
+    .header-crossfade-exit {
+      opacity: 0 !important;
+      filter: blur(1px);
+      transform: translateY(-2px) !important;
+      transition: opacity 280ms cubic-bezier(0.4, 0, 0.2, 1),
+                  filter 280ms cubic-bezier(0.4, 0, 0.2, 1),
+                  transform 280ms cubic-bezier(0.4, 0, 0.2, 1) !important;
+    }
+    .header-crossfade-enter {
+      opacity: 1 !important;
+      filter: blur(0px);
+      transform: translateY(0) !important;
+      transition: opacity 420ms cubic-bezier(0.16, 1, 0.3, 1),
+                  filter 420ms cubic-bezier(0.16, 1, 0.3, 1),
+                  transform 420ms cubic-bezier(0.16, 1, 0.3, 1) !important;
     }
 
     /* Concept 1: Aeronautical Flight Strips Navigation */
@@ -257,7 +282,7 @@
       
       <!-- Header bar -->
       <header id="deck-header" class="textured-surface bg-[#c0684f] text-white px-4 py-4 sm:px-6 sm:py-5 flex flex-wrap items-center justify-between gap-3 border-b border-[#a85640] shrink-0 relative overflow-hidden">
-        <div class="flex items-center space-x-3 sm:space-x-4">
+        <div id="deck-header-info" class="flex items-center space-x-3 sm:space-x-4">
           <div id="deck-icon-box" class="bg-[#d6a555] p-2.5 rounded-lg text-white shadow-md flex items-center justify-center">
             <!-- Theme Icon -->
             <svg width="20" height="20" style="width: 20px; height: 20px;" class="w-5 h-5 text-white shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -1043,9 +1068,21 @@
       if (progKey === currentProgram && targetMod === null && targetCard === null) return;
 
       const workspace = document.querySelector('.workspace-split');
+      const headerInfo = document.getElementById('deck-header-info');
+      const footerCurriculum = document.getElementById('footer-curriculum-label');
+
+      // Phase 1 (Exit - 300ms): Coordinated optical dissolve out
       if (workspace) {
         workspace.classList.remove('track-crossfade-enter');
         workspace.classList.add('track-crossfade-exit');
+      }
+      if (headerInfo) {
+        headerInfo.classList.remove('header-crossfade-enter');
+        headerInfo.classList.add('header-crossfade-exit');
+      }
+      if (footerCurriculum) {
+        footerCurriculum.classList.remove('header-crossfade-enter');
+        footerCurriculum.classList.add('header-crossfade-exit');
       }
 
       // Immediate visual feedback on the program switcher buttons
@@ -1056,6 +1093,7 @@
         aasBtn.setAttribute('aria-selected', progKey === 'aas' ? 'true' : 'false');
       }
 
+      // Phase 2 (Midpoint data swap at 300ms, then Enter - 450ms)
       setTimeout(() => {
         currentProgram = progKey;
         modulesData = PROGRAMS_CONFIG[currentProgram].modules;
@@ -1081,11 +1119,23 @@
         if (workspace) {
           workspace.classList.remove('track-crossfade-exit');
           workspace.classList.add('track-crossfade-enter');
-          setTimeout(() => {
-            workspace.classList.remove('track-crossfade-enter');
-          }, 240);
         }
-      }, 160);
+        if (headerInfo) {
+          headerInfo.classList.remove('header-crossfade-exit');
+          headerInfo.classList.add('header-crossfade-enter');
+        }
+        if (footerCurriculum) {
+          footerCurriculum.classList.remove('header-crossfade-exit');
+          footerCurriculum.classList.add('header-crossfade-enter');
+        }
+
+        // Clean up enter animation classes once the 450ms ease-in is complete
+        setTimeout(() => {
+          if (workspace) workspace.classList.remove('track-crossfade-enter');
+          if (headerInfo) headerInfo.classList.remove('header-crossfade-enter');
+          if (footerCurriculum) footerCurriculum.classList.remove('header-crossfade-enter');
+        }, 460);
+      }, 300);
     }
 
     function renderModuleSelector() {
