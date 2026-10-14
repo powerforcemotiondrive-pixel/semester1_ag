@@ -802,7 +802,7 @@
         {
           tag: "GSEA26A • 07 Admin",
           title: "07 Admin - Course Administration, Groups & Planning",
-          description: "Welcome to the GSEA26A Course Administration Hub. Access your official class groups (Group A & Group B), teacher assignments, weekly schedules, and 30-minute Formative Evaluation tutorial rotas.<br><br><em>Subject overview:</em> Official Promotion Rota: 19 students organized into 8 pairs and 1 trio for 30-minute oral evaluation slots. Weekly classes run Wednesdays (13h15–15h15) for General English (LV101E) and Fridays (08h00–10h00) for Aeronautical English (LV121E).<br><br>Consult your designated FE timeslots ahead of Week 48 (FE1), Week 3 (FE2), and Week 8 (FE3). Arrive with your partner 5 minutes before your slot with your presentation supports and updated learning portfolio ready.",
+          description: "Welcome to the GSEA26A Course Administration Hub. Access your official class groups (Group A & Group B), teacher assignments, weekly schedules, and dynamic 30-minute Formative Evaluation tutorial rotas.<br><br><em>Subject overview:</em> Official Promotion Structure: 19 students organized into fair, rotating 30-minute oral evaluation slots (Group A: 2 pairs + 2 trios; Group B: 3 pairs + 1 trio = exactly 4 slots of 30 min / 2 hours). Pairings and timeslots rotate across every evaluation (FE1 in W48, FE2 in W03, FE3 in W08). Weekly classes run Wednesdays (13h15–15h15) for General English (LV101E) and Fridays (08h00–10h00) for Aeronautical English (LV121E).<br><br>Consult your designated FE timeslots ahead of Week 48 (FE1), Week 3 (FE2), and Week 8 (FE3). Arrive 5 minutes before your slot with your presentation supports and updated learning portfolio ready.",
           isAdmin: true,
           adminUrl: "admin.html",
           imageUrl: images.card1
@@ -3067,7 +3067,7 @@
               Class Groups, Assigned Teachers &amp; Course Timetables
             </h3>
             <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
-              Official promotion structure for the academic semester. The GSEA26A promotion is divided into <strong>Group A (10 students)</strong> and <strong>Group B (9 students)</strong> for all General English (LV101E) and Aeronautical English (LV121E) classroom sessions.
+              Official promotion structure for the academic semester. The GSEA26A promotion is divided into <strong>Group A (10 students)</strong> and <strong>Group B (9 students)</strong> for all General English (LV101E) and Aeronautical English (LV121E) classroom sessions. For oral Formative Evaluations (FE1, FE2, FE3), students follow dynamic rotating pairings and trios across exactly 4 slots of 30 minutes (2 hours total).
             </p>
           </div>
 
@@ -3134,6 +3134,17 @@
             </div>
           </div>
 
+          <!-- Dynamic Rotation Callout Banner -->
+          <div class="p-3.5 bg-amber-50/80 border border-amber-200 rounded-xl flex items-start gap-3 text-xs text-amber-950 shadow-2xs">
+            <svg class="w-4 h-4 text-amber-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <div class="space-y-1">
+              <span class="font-bold block">Dynamic Formative Evaluation (FE) Rotations:</span>
+              <p class="text-[11px] text-amber-900 leading-relaxed">
+                To maximize pedagogical variety and ensure timeslot fairness, groups do <strong>not</strong> have fixed pairs or trios. Group A rotates across 2 pairs + 2 trios (4 slots = 2h), and Group B rotates across 3 pairs + 1 trio (4 slots = 2h). Every student experiences different peers and rotates between early and late slots across FE1 (W48), FE2 (W03), and FE3 (W08). Switch to the <strong>FE Tutorial Rotas</strong> tab to view your complete evaluation schedule.
+              </p>
+            </div>
+          </div>
+
           <!-- Student Rosters (Side-by-Side Tables) -->
           <div class="space-y-3">
             <div class="flex items-center justify-between">
@@ -3154,7 +3165,7 @@
                     <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
                     <h5 class="text-xs font-bold uppercase tracking-wider">Group A (10 Students)</h5>
                   </div>
-                  <span class="text-[10px] bg-white/20 px-2 py-0.5 rounded font-mono font-bold">5 Pairs</span>
+                  <span class="text-[10px] bg-white/20 px-2 py-0.5 rounded font-mono font-bold">2 Pairs + 2 Trios • 4 Slots</span>
                 </div>
                 <div class="overflow-x-auto">
                   <table class="w-full text-left text-xs border-collapse">
@@ -3163,20 +3174,20 @@
                         <th class="py-2 px-3 w-10 font-bold">#</th>
                         <th class="py-2 px-3 font-bold">Surname</th>
                         <th class="py-2 px-3 font-bold">First Name</th>
-                        <th class="py-2 px-3 font-bold text-right">FE Pair</th>
+                        <th class="py-2 px-3 font-bold text-right">FE Rota</th>
                       </tr>
                     </thead>
                     <tbody class="divide-y divide-slate-100 text-slate-700">
-                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">01</td><td class="py-2 px-3 font-bold text-slate-800">BEDU</td><td class="py-2 px-3">Titouan</td><td class="py-2 px-3 text-right"><span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-600">Pair 1</span></td></tr>
-                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">02</td><td class="py-2 px-3 font-bold text-slate-800">BEN HASSEN</td><td class="py-2 px-3">Ewan</td><td class="py-2 px-3 text-right"><span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-600">Pair 1</span></td></tr>
-                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">03</td><td class="py-2 px-3 font-bold text-slate-800">MEYER</td><td class="py-2 px-3">Alexandre</td><td class="py-2 px-3 text-right"><span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-600">Pair 2</span></td></tr>
-                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">04</td><td class="py-2 px-3 font-bold text-slate-800">LE BRAS</td><td class="py-2 px-3">Aine</td><td class="py-2 px-3 text-right"><span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-600">Pair 2</span></td></tr>
-                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">05</td><td class="py-2 px-3 font-bold text-slate-800">ROBIN</td><td class="py-2 px-3">Louise</td><td class="py-2 px-3 text-right"><span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-600">Pair 3</span></td></tr>
-                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">06</td><td class="py-2 px-3 font-bold text-slate-800">RENARD</td><td class="py-2 px-3">Ruben</td><td class="py-2 px-3 text-right"><span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-600">Pair 3</span></td></tr>
-                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">07</td><td class="py-2 px-3 font-bold text-slate-800">ILPIDE</td><td class="py-2 px-3">Anatole</td><td class="py-2 px-3 text-right"><span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-600">Pair 4</span></td></tr>
-                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">08</td><td class="py-2 px-3 font-bold text-slate-800">RASPILLER</td><td class="py-2 px-3">Thomas</td><td class="py-2 px-3 text-right"><span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-600">Pair 4</span></td></tr>
-                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">09</td><td class="py-2 px-3 font-bold text-slate-800">RENAULT</td><td class="py-2 px-3">Guillaume</td><td class="py-2 px-3 text-right"><span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-600">Pair 5</span></td></tr>
-                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">10</td><td class="py-2 px-3 font-bold text-slate-800">CAMGUILHEM</td><td class="py-2 px-3">Vincent</td><td class="py-2 px-3 text-right"><span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-600">Pair 5</span></td></tr>
+                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">01</td><td class="py-2 px-3 font-bold text-slate-800">BEDU</td><td class="py-2 px-3">Titouan</td><td class="py-2 px-3 text-right"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">Rotates per FE</span></td></tr>
+                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">02</td><td class="py-2 px-3 font-bold text-slate-800">BEN HASSEN</td><td class="py-2 px-3">Ewan</td><td class="py-2 px-3 text-right"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">Rotates per FE</span></td></tr>
+                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">03</td><td class="py-2 px-3 font-bold text-slate-800">MEYER</td><td class="py-2 px-3">Alexandre</td><td class="py-2 px-3 text-right"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">Rotates per FE</span></td></tr>
+                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">04</td><td class="py-2 px-3 font-bold text-slate-800">LE BRAS</td><td class="py-2 px-3">Aine</td><td class="py-2 px-3 text-right"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">Rotates per FE</span></td></tr>
+                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">05</td><td class="py-2 px-3 font-bold text-slate-800">ROBIN</td><td class="py-2 px-3">Louise</td><td class="py-2 px-3 text-right"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">Rotates per FE</span></td></tr>
+                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">06</td><td class="py-2 px-3 font-bold text-slate-800">RENARD</td><td class="py-2 px-3">Ruben</td><td class="py-2 px-3 text-right"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">Rotates per FE</span></td></tr>
+                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">07</td><td class="py-2 px-3 font-bold text-slate-800">ILPIDE</td><td class="py-2 px-3">Anatole</td><td class="py-2 px-3 text-right"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">Rotates per FE</span></td></tr>
+                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">08</td><td class="py-2 px-3 font-bold text-slate-800">RASPILLER</td><td class="py-2 px-3">Thomas</td><td class="py-2 px-3 text-right"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">Rotates per FE</span></td></tr>
+                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">09</td><td class="py-2 px-3 font-bold text-slate-800">RENAULT</td><td class="py-2 px-3">Guillaume</td><td class="py-2 px-3 text-right"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">Rotates per FE</span></td></tr>
+                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">10</td><td class="py-2 px-3 font-bold text-slate-800">CAMGUILHEH</td><td class="py-2 px-3">Vincent</td><td class="py-2 px-3 text-right"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">Rotates per FE</span></td></tr>
                     </tbody>
                   </table>
                 </div>
@@ -3189,7 +3200,7 @@
                     <span class="w-2 h-2 rounded-full bg-amber-400"></span>
                     <h5 class="text-xs font-bold uppercase tracking-wider">Group B (9 Students)</h5>
                   </div>
-                  <span class="text-[10px] bg-white/20 px-2 py-0.5 rounded font-mono font-bold">3 Pairs + 1 Trio</span>
+                  <span class="text-[10px] bg-white/20 px-2 py-0.5 rounded font-mono font-bold">3 Pairs + 1 Trio • 4 Slots</span>
                 </div>
                 <div class="overflow-x-auto">
                   <table class="w-full text-left text-xs border-collapse">
@@ -3198,19 +3209,19 @@
                         <th class="py-2 px-3 w-10 font-bold">#</th>
                         <th class="py-2 px-3 font-bold">Surname</th>
                         <th class="py-2 px-3 font-bold">First Name</th>
-                        <th class="py-2 px-3 font-bold text-right">FE Group</th>
+                        <th class="py-2 px-3 font-bold text-right">FE Rota</th>
                       </tr>
                     </thead>
                     <tbody class="divide-y divide-slate-100 text-slate-700">
-                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">01</td><td class="py-2 px-3 font-bold text-slate-800">SEVIN</td><td class="py-2 px-3">Brian</td><td class="py-2 px-3 text-right"><span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-600">Pair 1</span></td></tr>
-                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">02</td><td class="py-2 px-3 font-bold text-slate-800">BENSMAINE</td><td class="py-2 px-3">Mohamed</td><td class="py-2 px-3 text-right"><span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-600">Pair 1</span></td></tr>
-                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">03</td><td class="py-2 px-3 font-bold text-slate-800">DEBORDE</td><td class="py-2 px-3">Vincent</td><td class="py-2 px-3 text-right"><span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-600">Pair 2</span></td></tr>
-                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">04</td><td class="py-2 px-3 font-bold text-slate-800">VILLAIN</td><td class="py-2 px-3">Maxime</td><td class="py-2 px-3 text-right"><span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-600">Pair 2</span></td></tr>
-                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">05</td><td class="py-2 px-3 font-bold text-slate-800">SELLES</td><td class="py-2 px-3">Eliott</td><td class="py-2 px-3 text-right"><span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-600">Pair 3</span></td></tr>
-                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">06</td><td class="py-2 px-3 font-bold text-slate-800">HAVA</td><td class="py-2 px-3">Peter</td><td class="py-2 px-3 text-right"><span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-600">Pair 3</span></td></tr>
-                      <tr class="hover:bg-amber-50/40 bg-amber-50/20"><td class="py-2 px-3 font-mono text-slate-400">07</td><td class="py-2 px-3 font-bold text-slate-800">MARMANDE</td><td class="py-2 px-3">Justine</td><td class="py-2 px-3 text-right"><span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-amber-100 text-amber-800 border border-amber-200">Trio</span></td></tr>
-                      <tr class="hover:bg-amber-50/40 bg-amber-50/20"><td class="py-2 px-3 font-mono text-slate-400">08</td><td class="py-2 px-3 font-bold text-slate-800">KUHN</td><td class="py-2 px-3">Aurianne</td><td class="py-2 px-3 text-right"><span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-amber-100 text-amber-800 border border-amber-200">Trio</span></td></tr>
-                      <tr class="hover:bg-amber-50/40 bg-amber-50/20"><td class="py-2 px-3 font-mono text-slate-400">09</td><td class="py-2 px-3 font-bold text-slate-800">GADBIN</td><td class="py-2 px-3">Francois</td><td class="py-2 px-3 text-right"><span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-amber-100 text-amber-800 border border-amber-200">Trio</span></td></tr>
+                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">01</td><td class="py-2 px-3 font-bold text-slate-800">SEVIN</td><td class="py-2 px-3">Brian</td><td class="py-2 px-3 text-right"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">Rotates per FE</span></td></tr>
+                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">02</td><td class="py-2 px-3 font-bold text-slate-800">BENSMAINE</td><td class="py-2 px-3">Mohamed</td><td class="py-2 px-3 text-right"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">Rotates per FE</span></td></tr>
+                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">03</td><td class="py-2 px-3 font-bold text-slate-800">DEBORDE</td><td class="py-2 px-3">Vincent</td><td class="py-2 px-3 text-right"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">Rotates per FE</span></td></tr>
+                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">04</td><td class="py-2 px-3 font-bold text-slate-800">VILLAIN</td><td class="py-2 px-3">Maxime</td><td class="py-2 px-3 text-right"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">Rotates per FE</span></td></tr>
+                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">05</td><td class="py-2 px-3 font-bold text-slate-800">SELLES</td><td class="py-2 px-3">Eliott</td><td class="py-2 px-3 text-right"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">Rotates per FE</span></td></tr>
+                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">06</td><td class="py-2 px-3 font-bold text-slate-800">HAVA</td><td class="py-2 px-3">Peter</td><td class="py-2 px-3 text-right"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">Rotates per FE</span></td></tr>
+                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">07</td><td class="py-2 px-3 font-bold text-slate-800">MARMANDE</td><td class="py-2 px-3">Justine</td><td class="py-2 px-3 text-right"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">Rotates per FE</span></td></tr>
+                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">08</td><td class="py-2 px-3 font-bold text-slate-800">KUHN</td><td class="py-2 px-3">Aurianne</td><td class="py-2 px-3 text-right"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">Rotates per FE</span></td></tr>
+                      <tr class="hover:bg-slate-50/60"><td class="py-2 px-3 font-mono text-slate-400">09</td><td class="py-2 px-3 font-bold text-slate-800">GADBIN</td><td class="py-2 px-3">Francois</td><td class="py-2 px-3 text-right"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">Rotates per FE</span></td></tr>
                     </tbody>
                   </table>
                 </div>
@@ -3460,8 +3471,194 @@
       `;
     }
 
+    const ADMIN_ROTA_SCHEDULES = {
+      ag: {
+        code: "LV101E",
+        name: "General English (AG)",
+        dayTime: "Wednesdays 13h15 – 15h15",
+        roomNote: "Wednesday Session • 2 Hours (4 Slots of 30 min)",
+        fes: {
+          1: {
+            title: "FE1 — Module 1 Oral Evaluation",
+            week: "Week 48",
+            dateStr: "Wednesday 26 November 2024",
+            groupA: {
+              teacher: "Geri MIDDLETON",
+              slots: [
+                { num: 1, time: "13h15 – 13h45", type: "pair", students: ["BEDU Titouan", "BEN HASSEN Ewan"] },
+                { num: 2, time: "13h45 – 14h15", type: "pair", students: ["MEYER Alexandre", "LE BRAS Aine"] },
+                { num: 3, time: "14h15 – 14h45", type: "trio", students: ["ROBIN Louise", "RENARD Ruben", "ILPIDE Anatole"] },
+                { num: 4, time: "14h45 – 15h15", type: "trio", students: ["RASPILLER Thomas", "RENAULT Guillaume", "CAMGUILHEM Vincent"] }
+              ]
+            },
+            groupB: {
+              teacher: "Penny WRIGHT",
+              slots: [
+                { num: 1, time: "13h15 – 13h45", type: "pair", students: ["SEVIN Brian", "BENSMAINE Mohamed"] },
+                { num: 2, time: "13h45 – 14h15", type: "pair", students: ["DEBORDE Vincent", "VILLAIN Maxime"] },
+                { num: 3, time: "14h15 – 14h45", type: "pair", students: ["SELLES Eliott", "HAVA Peter"] },
+                { num: 4, time: "14h45 – 15h15", type: "trio", students: ["MARMANDE Justine", "KUHN Aurianne", "GADBIN Francois"] }
+              ]
+            }
+          },
+          2: {
+            title: "FE2 — Module 2 Oral Evaluation",
+            week: "Week 03",
+            dateStr: "Wednesday 21 January 2025",
+            groupA: {
+              teacher: "Geri MIDDLETON",
+              slots: [
+                { num: 1, time: "13h15 – 13h45", type: "trio", students: ["RASPILLER Thomas", "ROBIN Louise", "MEYER Alexandre"] },
+                { num: 2, time: "13h45 – 14h15", type: "pair", students: ["RENAULT Guillaume", "RENARD Ruben"] },
+                { num: 3, time: "14h15 – 14h45", type: "pair", students: ["CAMGUILHEM Vincent", "BEN HASSEN Ewan"] },
+                { num: 4, time: "14h45 – 15h15", type: "trio", students: ["BEDU Titouan", "LE BRAS Aine", "ILPIDE Anatole"] }
+              ]
+            },
+            groupB: {
+              teacher: "Penny WRIGHT",
+              slots: [
+                { num: 1, time: "13h15 – 13h45", type: "pair", students: ["KUHN Aurianne", "SEVIN Brian"] },
+                { num: 2, time: "13h45 – 14h15", type: "trio", students: ["BENSMAINE Mohamed", "DEBORDE Vincent", "SELLES Eliott"] },
+                { num: 3, time: "14h15 – 14h45", type: "pair", students: ["VILLAIN Maxime", "MARMANDE Justine"] },
+                { num: 4, time: "14h45 – 15h15", type: "pair", students: ["HAVA Peter", "GADBIN Francois"] }
+              ]
+            }
+          },
+          3: {
+            title: "FE3 — Module 3 Oral Evaluation",
+            week: "Week 08",
+            dateStr: "Wednesday 25 February 2025",
+            groupA: {
+              teacher: "Geri MIDDLETON",
+              slots: [
+                { num: 1, time: "13h15 – 13h45", type: "pair", students: ["ILPIDE Anatole", "RENAULT Guillaume"] },
+                { num: 2, time: "13h45 – 14h15", type: "trio", students: ["BEDU Titouan", "ROBIN Louise", "CAMGUILHEM Vincent"] },
+                { num: 3, time: "14h15 – 14h45", type: "trio", students: ["BEN HASSEN Ewan", "LE BRAS Aine", "RASPILLER Thomas"] },
+                { num: 4, time: "14h45 – 15h15", type: "pair", students: ["MEYER Alexandre", "RENARD Ruben"] }
+              ]
+            },
+            groupB: {
+              teacher: "Penny WRIGHT",
+              slots: [
+                { num: 1, time: "13h15 – 13h45", type: "pair", students: ["DEBORDE Vincent", "HAVA Peter"] },
+                { num: 2, time: "13h45 – 14h15", type: "trio", students: ["SEVIN Brian", "VILLAIN Maxime", "GADBIN Francois"] },
+                { num: 3, time: "14h15 – 14h45", type: "pair", students: ["BENSMAINE Mohamed", "MARMANDE Justine"] },
+                { num: 4, time: "14h45 – 15h15", type: "pair", students: ["SELLES Eliott", "KUHN Aurianne"] }
+              ]
+            }
+          }
+        }
+      },
+      aas: {
+        code: "LV121E",
+        name: "Aeronautical English (AAS)",
+        dayTime: "Fridays 08h00 – 10h00",
+        roomNote: "Friday Session • 2 Hours (4 Slots of 30 min)",
+        fes: {
+          1: {
+            title: "FE1 — Module 1 Oral Evaluation",
+            week: "Week 48",
+            dateStr: "Friday 28 November 2024",
+            groupA: {
+              teacher: "Tracy NEILL",
+              slots: [
+                { num: 1, time: "08h00 – 08h30", type: "pair", students: ["BEDU Titouan", "MEYER Alexandre"] },
+                { num: 2, time: "08h30 – 09h00", type: "trio", students: ["BEN HASSEN Ewan", "ROBIN Louise", "RASPILLER Thomas"] },
+                { num: 3, time: "09h00 – 09h30", type: "pair", students: ["LE BRAS Aine", "RENARD Ruben"] },
+                { num: 4, time: "09h30 – 10h00", type: "trio", students: ["ILPIDE Anatole", "RENAULT Guillaume", "CAMGUILHEM Vincent"] }
+              ]
+            },
+            groupB: {
+              teacher: "Ally HEWETT",
+              slots: [
+                { num: 1, time: "08h00 – 08h30", type: "pair", students: ["SEVIN Brian", "VILLAIN Maxime"] },
+                { num: 2, time: "08h30 – 09h00", type: "pair", students: ["BENSMAINE Mohamed", "HAVA Peter"] },
+                { num: 3, time: "09h00 – 09h30", type: "pair", students: ["DEBORDE Vincent", "MARMANDE Justine"] },
+                { num: 4, time: "09h30 – 10h00", type: "trio", students: ["SELLES Eliott", "KUHN Aurianne", "GADBIN Francois"] }
+              ]
+            }
+          },
+          2: {
+            title: "FE2 — Module 2 Oral Evaluation",
+            week: "Week 03",
+            dateStr: "Friday 23 January 2025",
+            groupA: {
+              teacher: "Tracy NEILL",
+              slots: [
+                { num: 1, time: "08h00 – 08h30", type: "trio", students: ["RENAULT Guillaume", "BEN HASSEN Ewan", "RENARD Ruben"] },
+                { num: 2, time: "08h30 – 09h00", type: "pair", students: ["CAMGUILHEM Vincent", "LE BRAS Aine"] },
+                { num: 3, time: "09h00 – 09h30", type: "trio", students: ["ILPIDE Anatole", "MEYER Alexandre", "ROBIN Louise"] },
+                { num: 4, time: "09h30 – 10h00", type: "pair", students: ["BEDU Titouan", "RASPILLER Thomas"] }
+              ]
+            },
+            groupB: {
+              teacher: "Ally HEWETT",
+              slots: [
+                { num: 1, time: "08h00 – 08h30", type: "pair", students: ["KUHN Aurianne", "BENSMAINE Mohamed"] },
+                { num: 2, time: "08h30 – 09h00", type: "trio", students: ["GADBIN Francois", "DEBORDE Vincent", "SEVIN Brian"] },
+                { num: 3, time: "09h00 – 09h30", type: "pair", students: ["SELLES Eliott", "MARMANDE Justine"] },
+                { num: 4, time: "09h30 – 10h00", type: "pair", students: ["VILLAIN Maxime", "HAVA Peter"] }
+              ]
+            }
+          },
+          3: {
+            title: "FE3 — Module 3 Oral Evaluation",
+            week: "Week 08",
+            dateStr: "Friday 27 February 2025",
+            groupA: {
+              teacher: "Tracy NEILL",
+              slots: [
+                { num: 1, time: "08h00 – 08h30", type: "pair", students: ["RASPILLER Thomas", "RENARD Ruben"] },
+                { num: 2, time: "08h30 – 09h00", type: "trio", students: ["BEDU Titouan", "CAMGUILHEM Vincent", "ILPIDE Anatole"] },
+                { num: 3, time: "09h00 – 09h30", type: "pair", students: ["BEN HASSEN Ewan", "RENAULT Guillaume"] },
+                { num: 4, time: "09h30 – 10h00", type: "trio", students: ["MEYER Alexandre", "LE BRAS Aine", "ROBIN Louise"] }
+              ]
+            },
+            groupB: {
+              teacher: "Ally HEWETT",
+              slots: [
+                { num: 1, time: "08h00 – 08h30", type: "pair", students: ["MARMANDE Justine", "GADBIN Francois"] },
+                { num: 2, time: "08h30 – 09h00", type: "pair", students: ["SELLES Eliott", "SEVIN Brian"] },
+                { num: 3, time: "09h00 – 09h30", type: "trio", students: ["HAVA Peter", "KUHN Aurianne", "VILLAIN Maxime"] },
+                { num: 4, time: "09h30 – 10h00", type: "pair", students: ["BENSMAINE Mohamed", "DEBORDE Vincent"] }
+              ]
+            }
+          }
+        }
+      }
+    };
+
+    window.adminRotaState = window.adminRotaState || {
+      course: 'ag',
+      fe: 1
+    };
+
+    window.setAdminRotaCourse = function(courseKey) {
+      window.adminRotaState.course = courseKey;
+      const theme = modulesData[modalState.modNum - 1] || MODULE_THEMES[1];
+      renderAdminRotaTab(theme);
+    };
+
+    window.setAdminRotaFe = function(feNum) {
+      window.adminRotaState.fe = Number(feNum);
+      const theme = modulesData[modalState.modNum - 1] || MODULE_THEMES[1];
+      renderAdminRotaTab(theme);
+    };
+
     function renderAdminRotaTab(theme) {
       const bodyEl = document.getElementById('modal-body');
+      const activeCourseKey = window.adminRotaState.course || 'ag';
+      const activeFeNum = window.adminRotaState.fe || 1;
+      const courseSched = ADMIN_ROTA_SCHEDULES[activeCourseKey] || ADMIN_ROTA_SCHEDULES.ag;
+      const feData = courseSched.fes[activeFeNum] || courseSched.fes[1];
+
+      const renderSlotStudents = (students) => {
+        if (students.length === 2) {
+          return `${students[0]} &amp; ${students[1]}`;
+        }
+        return `${students[0]}, ${students[1]} &amp; ${students[2]}`;
+      };
+
       bodyEl.innerHTML = `
         <div class="space-y-6">
           <!-- Overview Card -->
@@ -3469,166 +3666,236 @@
             <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
               <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-black tracking-wide text-white" style="background-color: ${theme.primary};">
                 <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                Official Formative Evaluation Rota
+                Official Formative Evaluation Rota • GSEA26A
               </span>
               <span class="text-xs font-bold px-2.5 py-0.5 rounded-md border" style="color: ${theme.accent}; background-color: ${theme.highlight || '#fff7ed'}; border-color: ${theme.accent}30;">
-                Valid for FE1 (W48), FE2 (W03), FE3 (W08)
+                Dynamic Rotations • 4 Slots of 30 min (2 Hours)
               </span>
             </div>
             <h3 class="text-base sm:text-lg font-bold text-slate-800">
               30-Minute Oral Tutorial Timeslot Matrices
             </h3>
             <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
-              Every student group has an exact <strong>30-minute appointment slot</strong> with their assigned teacher. Group A consists of 5 pairs (10 students). Group B consists of 3 pairs and 1 trio (9 students). All slots run for exactly 30 minutes.
+              Every student group has an exact <strong>30-minute appointment slot</strong> with their assigned teacher. To guarantee fairness, pairings and trios rotate across FE1, FE2, and FE3, alternating early and late slots. Group A consists of <strong>2 pairs + 2 trios (10 students)</strong> and Group B consists of <strong>3 pairs + 1 trio (9 students)</strong>, precisely fitting 4 slots of 30 minutes (2 hours total).
             </p>
           </div>
 
-          <!-- Rota Grid -->
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            <!-- Group A Rota -->
-            <div class="border border-slate-200 rounded-xl overflow-hidden bg-white shadow-2xs">
-              <div class="p-3 text-white flex items-center justify-between" style="background-color: ${theme.primary};">
-                <div>
-                  <h5 class="text-xs font-bold uppercase tracking-wider">Group A FE Tutorial Rota</h5>
-                  <p class="text-[11px] text-white/80">AG: Geri MIDDLETON • AAS: Tracy NEILL</p>
+          <!-- Interactive Filters Strip (Course & FE Switchers) -->
+          <div class="bg-white border border-slate-200 rounded-xl p-3 sm:p-4 shadow-2xs space-y-3">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+              <!-- Course Selector -->
+              <div>
+                <span class="block text-[10px] font-black uppercase tracking-wider text-slate-400 mb-1.5">Select Course Track:</span>
+                <div class="inline-flex rounded-lg border border-slate-200 p-0.5 bg-slate-50">
+                  <button type="button" onclick="setAdminRotaCourse('ag')" class="px-3 py-1.5 rounded-md text-xs font-bold transition-all cursor-pointer ${activeCourseKey === 'ag' ? 'bg-slate-800 text-white shadow-xs' : 'text-slate-600 hover:text-slate-900'}">
+                    General English (AG • LV101E)
+                  </button>
+                  <button type="button" onclick="setAdminRotaCourse('aas')" class="px-3 py-1.5 rounded-md text-xs font-bold transition-all cursor-pointer ${activeCourseKey === 'aas' ? 'bg-orange-600 text-white shadow-xs' : 'text-slate-600 hover:text-slate-900'}">
+                    Aeronautical English (AAS • LV121E)
+                  </button>
                 </div>
-                <span class="text-[10px] bg-white/20 px-2 py-0.5 rounded font-mono font-bold">5 Pairs</span>
               </div>
-              <div class="divide-y divide-slate-100 text-xs">
-                <!-- Slot 1 -->
-                <div class="p-3 hover:bg-slate-50/70">
-                  <div class="flex items-center justify-between mb-1.5">
-                    <span class="px-2 py-0.5 rounded font-mono text-[10px] font-black text-white" style="background-color: ${theme.primary};">Slot 1 (30 min)</span>
-                    <span class="font-mono text-[11px] font-bold text-slate-700">Wed 13h15 – 13h45 | Fri 08h00 – 08h30</span>
-                  </div>
-                  <div class="flex items-center justify-between">
-                    <div class="space-y-0.5">
-                      <span class="font-bold text-slate-800 text-xs block">1. BEDU Titouan &amp; BEN HASSEN Ewan</span>
-                      <span class="text-[11px] text-slate-500">Pair Presentation (12m) + Q&amp;A (6m) + Portfolio (6m) + Feedback (4m)</span>
-                    </div>
-                  </div>
-                </div>
-                <!-- Slot 2 -->
-                <div class="p-3 hover:bg-slate-50/70">
-                  <div class="flex items-center justify-between mb-1.5">
-                    <span class="px-2 py-0.5 rounded font-mono text-[10px] font-black text-white" style="background-color: ${theme.primary};">Slot 2 (30 min)</span>
-                    <span class="font-mono text-[11px] font-bold text-slate-700">Wed 13h45 – 14h15 | Fri 08h30 – 09h00</span>
-                  </div>
-                  <div class="flex items-center justify-between">
-                    <div class="space-y-0.5">
-                      <span class="font-bold text-slate-800 text-xs block">2. MEYER Alexandre &amp; LE BRAS Aine</span>
-                      <span class="text-[11px] text-slate-500">Pair Presentation (12m) + Q&amp;A (6m) + Portfolio (6m) + Feedback (4m)</span>
-                    </div>
-                  </div>
-                </div>
-                <!-- Slot 3 -->
-                <div class="p-3 hover:bg-slate-50/70">
-                  <div class="flex items-center justify-between mb-1.5">
-                    <span class="px-2 py-0.5 rounded font-mono text-[10px] font-black text-white" style="background-color: ${theme.primary};">Slot 3 (30 min)</span>
-                    <span class="font-mono text-[11px] font-bold text-slate-700">Wed 14h15 – 14h45 | Fri 09h00 – 09h30</span>
-                  </div>
-                  <div class="flex items-center justify-between">
-                    <div class="space-y-0.5">
-                      <span class="font-bold text-slate-800 text-xs block">3. ROBIN Louise &amp; RENARD Ruben</span>
-                      <span class="text-[11px] text-slate-500">Pair Presentation (12m) + Q&amp;A (6m) + Portfolio (6m) + Feedback (4m)</span>
-                    </div>
-                  </div>
-                </div>
-                <!-- Slot 4 -->
-                <div class="p-3 hover:bg-slate-50/70">
-                  <div class="flex items-center justify-between mb-1.5">
-                    <span class="px-2 py-0.5 rounded font-mono text-[10px] font-black text-white" style="background-color: ${theme.primary};">Slot 4 (30 min)</span>
-                    <span class="font-mono text-[11px] font-bold text-slate-700">Wed 14h45 – 15h15 | Fri 09h30 – 10h00</span>
-                  </div>
-                  <div class="flex items-center justify-between">
-                    <div class="space-y-0.5">
-                      <span class="font-bold text-slate-800 text-xs block">4. ILPIDE Anatole &amp; RASPILLER Thomas</span>
-                      <span class="text-[11px] text-slate-500">Pair Presentation (12m) + Q&amp;A (6m) + Portfolio (6m) + Feedback (4m)</span>
-                    </div>
-                  </div>
-                </div>
-                <!-- Slot 5 -->
-                <div class="p-3 hover:bg-slate-50/70">
-                  <div class="flex items-center justify-between mb-1.5">
-                    <span class="px-2 py-0.5 rounded font-mono text-[10px] font-black text-white" style="background-color: ${theme.primary};">Slot 5 (30 min)</span>
-                    <span class="font-mono text-[11px] font-bold text-slate-700">Wed 15h15 – 15h45 | Fri 10h00 – 10h30</span>
-                  </div>
-                  <div class="flex items-center justify-between">
-                    <div class="space-y-0.5">
-                      <span class="font-bold text-slate-800 text-xs block">5. RENAULT Guillaume &amp; CAMGUILHEM Vincent</span>
-                      <span class="text-[11px] text-slate-500">Pair Presentation (12m) + Q&amp;A (6m) + Portfolio (6m) + Feedback (4m)</span>
-                    </div>
-                  </div>
+
+              <!-- FE Selector -->
+              <div>
+                <span class="block text-[10px] font-black uppercase tracking-wider text-slate-400 mb-1.5">Select Evaluation Milestone:</span>
+                <div class="inline-flex rounded-lg border border-slate-200 p-0.5 bg-slate-50">
+                  <button type="button" onclick="setAdminRotaFe(1)" class="px-3 py-1.5 rounded-md text-xs font-bold transition-all cursor-pointer ${activeFeNum === 1 ? 'bg-amber-600 text-white shadow-xs' : 'text-slate-600 hover:text-slate-900'}">
+                    FE1 (Week 48)
+                  </button>
+                  <button type="button" onclick="setAdminRotaFe(2)" class="px-3 py-1.5 rounded-md text-xs font-bold transition-all cursor-pointer ${activeFeNum === 2 ? 'bg-amber-600 text-white shadow-xs' : 'text-slate-600 hover:text-slate-900'}">
+                    FE2 (Week 03)
+                  </button>
+                  <button type="button" onclick="setAdminRotaFe(3)" class="px-3 py-1.5 rounded-md text-xs font-bold transition-all cursor-pointer ${activeFeNum === 3 ? 'bg-amber-600 text-white shadow-xs' : 'text-slate-600 hover:text-slate-900'}">
+                    FE3 (Week 08)
+                  </button>
                 </div>
               </div>
             </div>
 
-            <!-- Group B Rota -->
+            <!-- Active Selection Header Banner -->
+            <div class="pt-2.5 border-t border-slate-100 flex flex-wrap items-center justify-between gap-2 text-xs">
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded font-mono font-black text-white text-[11px]" style="background-color: ${activeCourseKey === 'ag' ? theme.primary : theme.accent};">
+                  ${courseSched.code}
+                </span>
+                <span class="font-bold text-slate-800">${courseSched.name}</span>
+                <span class="text-slate-400">•</span>
+                <span class="font-semibold text-slate-600">${courseSched.dayTime}</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded bg-amber-100 text-amber-900 border border-amber-200 font-bold text-[11px]">
+                  ${feData.title} (${feData.week})
+                </span>
+                <span class="text-slate-500 font-medium">${feData.dateStr}</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Active Rota Grid (Side-by-Side Cards) -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <!-- Group A Rota Card -->
+            <div class="border border-slate-200 rounded-xl overflow-hidden bg-white shadow-2xs">
+              <div class="p-3 text-white flex items-center justify-between" style="background-color: ${theme.primary};">
+                <div>
+                  <h5 class="text-xs font-bold uppercase tracking-wider">Group A FE Tutorial Rota</h5>
+                  <p class="text-[11px] text-white/90">Teacher: <strong>${feData.groupA.teacher}</strong> • ${courseSched.dayTime.split(' ')[0]}</p>
+                </div>
+                <span class="text-[10px] bg-white/20 px-2.5 py-0.5 rounded-full font-mono font-bold">2 Pairs + 2 Trios • 4 Slots</span>
+              </div>
+              <div class="divide-y divide-slate-100 text-xs">
+                ${feData.groupA.slots.map(slot => `
+                  <div class="p-3 hover:bg-slate-50/70 transition-colors ${slot.type === 'trio' ? 'bg-amber-50/20 border-l-4 border-amber-500' : ''}">
+                    <div class="flex items-center justify-between mb-1.5">
+                      <div class="flex items-center gap-1.5">
+                        <span class="px-2 py-0.5 rounded font-mono text-[10px] font-black text-white" style="background-color: ${slot.type === 'trio' ? '#d97706' : theme.primary};">
+                          Slot ${slot.num} (30 min)
+                        </span>
+                        <span class="px-1.5 py-0.5 rounded text-[10px] font-bold ${slot.type === 'trio' ? 'bg-amber-100 text-amber-800 border border-amber-200' : 'bg-sky-50 text-sky-700 border border-sky-200'}">
+                          ${slot.type === 'trio' ? 'Trio (3 students)' : 'Pair (2 students)'}
+                        </span>
+                      </div>
+                      <span class="font-mono text-[11px] font-bold text-slate-700">${slot.time}</span>
+                    </div>
+                    <div class="space-y-0.5">
+                      <span class="font-bold text-slate-900 text-xs sm:text-sm block">
+                        ${renderSlotStudents(slot.students)}
+                      </span>
+                      <span class="text-[11px] ${slot.type === 'trio' ? 'text-amber-900' : 'text-slate-500'}">
+                        ${slot.type === 'trio' 
+                          ? 'Trio Presentation: 12 min (~4m each) + Q&amp;A: 6 min + Portfolio: 6 min + Feedback: 4 min' 
+                          : 'Pair Presentation: 12 min (6m each) + Q&amp;A: 6 min + Portfolio: 6 min + Feedback: 4 min'}
+                      </span>
+                    </div>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+
+            <!-- Group B Rota Card -->
             <div class="border border-slate-200 rounded-xl overflow-hidden bg-white shadow-2xs">
               <div class="p-3 text-white flex items-center justify-between" style="background-color: ${theme.accentDark || theme.accent};">
                 <div>
                   <h5 class="text-xs font-bold uppercase tracking-wider">Group B FE Tutorial Rota</h5>
-                  <p class="text-[11px] text-white/80">AG: Penny WRIGHT • AAS: Ally HEWETT</p>
+                  <p class="text-[11px] text-white/90">Teacher: <strong>${feData.groupB.teacher}</strong> • ${courseSched.dayTime.split(' ')[0]}</p>
                 </div>
-                <span class="text-[10px] bg-white/20 px-2 py-0.5 rounded font-mono font-bold">3 Pairs + 1 Trio</span>
+                <span class="text-[10px] bg-white/20 px-2.5 py-0.5 rounded-full font-mono font-bold">3 Pairs + 1 Trio • 4 Slots</span>
               </div>
               <div class="divide-y divide-slate-100 text-xs">
-                <!-- Slot 1 -->
-                <div class="p-3 hover:bg-slate-50/70">
-                  <div class="flex items-center justify-between mb-1.5">
-                    <span class="px-2 py-0.5 rounded font-mono text-[10px] font-black text-white" style="background-color: ${theme.accentDark || theme.accent};">Slot 1 (30 min)</span>
-                    <span class="font-mono text-[11px] font-bold text-slate-700">Wed 13h15 – 13h45 | Fri 08h00 – 08h30</span>
-                  </div>
-                  <div class="flex items-center justify-between">
+                ${feData.groupB.slots.map(slot => `
+                  <div class="p-3 hover:bg-slate-50/70 transition-colors ${slot.type === 'trio' ? 'bg-amber-50/20 border-l-4 border-amber-500' : ''}">
+                    <div class="flex items-center justify-between mb-1.5">
+                      <div class="flex items-center gap-1.5">
+                        <span class="px-2 py-0.5 rounded font-mono text-[10px] font-black text-white" style="background-color: ${slot.type === 'trio' ? '#d97706' : (theme.accentDark || theme.accent)};">
+                          Slot ${slot.num} (30 min)
+                        </span>
+                        <span class="px-1.5 py-0.5 rounded text-[10px] font-bold ${slot.type === 'trio' ? 'bg-amber-100 text-amber-800 border border-amber-200' : 'bg-sky-50 text-sky-700 border border-sky-200'}">
+                          ${slot.type === 'trio' ? 'Trio (3 students)' : 'Pair (2 students)'}
+                        </span>
+                      </div>
+                      <span class="font-mono text-[11px] font-bold text-slate-700">${slot.time}</span>
+                    </div>
                     <div class="space-y-0.5">
-                      <span class="font-bold text-slate-800 text-xs block">1. SEVIN Brian &amp; BENSMAINE Mohamed</span>
-                      <span class="text-[11px] text-slate-500">Pair Presentation (12m) + Q&amp;A (6m) + Portfolio (6m) + Feedback (4m)</span>
+                      <span class="font-bold text-slate-900 text-xs sm:text-sm block">
+                        ${renderSlotStudents(slot.students)}
+                      </span>
+                      <span class="text-[11px] ${slot.type === 'trio' ? 'text-amber-900' : 'text-slate-500'}">
+                        ${slot.type === 'trio' 
+                          ? 'Trio Presentation: 12 min (~4m each) + Q&amp;A: 6 min + Portfolio: 6 min + Feedback: 4 min' 
+                          : 'Pair Presentation: 12 min (6m each) + Q&amp;A: 6 min + Portfolio: 6 min + Feedback: 4 min'}
+                      </span>
                     </div>
                   </div>
-                </div>
-                <!-- Slot 2 -->
-                <div class="p-3 hover:bg-slate-50/70">
-                  <div class="flex items-center justify-between mb-1.5">
-                    <span class="px-2 py-0.5 rounded font-mono text-[10px] font-black text-white" style="background-color: ${theme.accentDark || theme.accent};">Slot 2 (30 min)</span>
-                    <span class="font-mono text-[11px] font-bold text-slate-700">Wed 13h45 – 14h15 | Fri 08h30 – 09h00</span>
-                  </div>
-                  <div class="flex items-center justify-between">
-                    <div class="space-y-0.5">
-                      <span class="font-bold text-slate-800 text-xs block">2. DEBORDE Vincent &amp; VILLAIN Maxime</span>
-                      <span class="text-[11px] text-slate-500">Pair Presentation (12m) + Q&amp;A (6m) + Portfolio (6m) + Feedback (4m)</span>
-                    </div>
-                  </div>
-                </div>
-                <!-- Slot 3 -->
-                <div class="p-3 hover:bg-slate-50/70">
-                  <div class="flex items-center justify-between mb-1.5">
-                    <span class="px-2 py-0.5 rounded font-mono text-[10px] font-black text-white" style="background-color: ${theme.accentDark || theme.accent};">Slot 3 (30 min)</span>
-                    <span class="font-mono text-[11px] font-bold text-slate-700">Wed 14h15 – 14h45 | Fri 09h00 – 09h30</span>
-                  </div>
-                  <div class="flex items-center justify-between">
-                    <div class="space-y-0.5">
-                      <span class="font-bold text-slate-800 text-xs block">3. SELLES Eliott &amp; HAVA Peter</span>
-                      <span class="text-[11px] text-slate-500">Pair Presentation (12m) + Q&amp;A (6m) + Portfolio (6m) + Feedback (4m)</span>
-                    </div>
-                  </div>
-                </div>
-                <!-- Slot 4 (Trio) -->
-                <div class="p-3 hover:bg-amber-50/50 bg-amber-50/20 border-l-4 border-amber-500">
-                  <div class="flex items-center justify-between mb-1.5">
-                    <div class="flex items-center gap-2">
-                      <span class="px-2 py-0.5 rounded font-mono text-[10px] font-black text-white bg-amber-600">Slot 4 (30 min)</span>
-                      <span class="text-[10px] font-bold text-amber-800 bg-amber-100 px-1.5 py-0.5 rounded border border-amber-200">Trio Slot</span>
-                    </div>
-                    <span class="font-mono text-[11px] font-bold text-slate-700">Wed 14h45 – 15h15 | Fri 09h30 – 10h00</span>
-                  </div>
-                  <div class="space-y-1">
-                    <span class="font-bold text-amber-950 text-xs block">4. MARMANDE Justine, KUHN Aurianne &amp; GADBIN Francois</span>
-                    <p class="text-[11px] text-amber-900 leading-relaxed">
-                      <strong>Trio Timing Structure:</strong> Exactly 30 minutes total slot. Each candidate speaks for ~4 minutes during the presentation (~12 mins total presentation), followed by 3-way teacher Q&amp;A (6m), portfolio inspection (6m), and feedback (4m).
-                    </p>
-                  </div>
-                </div>
+                `).join('')}
               </div>
+            </div>
+          </div>
+
+          <!-- Complete Semester 1 Rotation Matrix Table (All 3 FEs At a Glance) -->
+          <div class="border border-slate-200 rounded-xl overflow-hidden bg-white shadow-2xs">
+            <div class="p-3 bg-slate-800 text-white flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-orange-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                <h4 class="text-xs font-bold uppercase tracking-wider">${courseSched.name} — Complete Semester Rota Matrix</h4>
+              </div>
+              <span class="text-[11px] font-mono text-slate-300 font-bold">FE1 (W48) • FE2 (W03) • FE3 (W08)</span>
+            </div>
+            <div class="overflow-x-auto">
+              <table class="w-full text-left text-xs border-collapse">
+                <thead>
+                  <tr class="bg-slate-50 text-slate-600 border-b border-slate-200 text-[11px]">
+                    <th class="py-2.5 px-3 font-bold w-24">Group &amp; Slot</th>
+                    <th class="py-2.5 px-3 font-bold">FE1 (Week 48)</th>
+                    <th class="py-2.5 px-3 font-bold">FE2 (Week 03)</th>
+                    <th class="py-2.5 px-3 font-bold">FE3 (Week 08)</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-slate-100 text-slate-700">
+                  <!-- Group A Rows -->
+                  <tr class="bg-slate-50/80 font-bold text-slate-800 text-[11px]">
+                    <td colspan="4" class="py-2 px-3 tracking-wide uppercase bg-slate-100">
+                      Group A (${activeCourseKey === 'ag' ? 'Wednesdays • Geri MIDDLETON' : 'Fridays • Tracy NEILL'})
+                    </td>
+                  </tr>
+                  ${[0, 1, 2, 3].map(idx => `
+                    <tr class="hover:bg-slate-50/70">
+                      <td class="py-2.5 px-3 font-bold font-mono text-slate-800 whitespace-nowrap">
+                        Slot ${idx + 1} (${courseSched.fes[1].groupA.slots[idx].time.split(' – ')[0]})
+                      </td>
+                      <td class="py-2.5 px-3">
+                        <span class="font-semibold block ${courseSched.fes[1].groupA.slots[idx].type === 'trio' ? 'text-amber-900 font-bold' : 'text-slate-800'}">
+                          ${renderSlotStudents(courseSched.fes[1].groupA.slots[idx].students)}
+                        </span>
+                        <span class="text-[10px] text-slate-400 font-mono">${courseSched.fes[1].groupA.slots[idx].type.toUpperCase()}</span>
+                      </td>
+                      <td class="py-2.5 px-3">
+                        <span class="font-semibold block ${courseSched.fes[2].groupA.slots[idx].type === 'trio' ? 'text-amber-900 font-bold' : 'text-slate-800'}">
+                          ${renderSlotStudents(courseSched.fes[2].groupA.slots[idx].students)}
+                        </span>
+                        <span class="text-[10px] text-slate-400 font-mono">${courseSched.fes[2].groupA.slots[idx].type.toUpperCase()}</span>
+                      </td>
+                      <td class="py-2.5 px-3">
+                        <span class="font-semibold block ${courseSched.fes[3].groupA.slots[idx].type === 'trio' ? 'text-amber-900 font-bold' : 'text-slate-800'}">
+                          ${renderSlotStudents(courseSched.fes[3].groupA.slots[idx].students)}
+                        </span>
+                        <span class="text-[10px] text-slate-400 font-mono">${courseSched.fes[3].groupA.slots[idx].type.toUpperCase()}</span>
+                      </td>
+                    </tr>
+                  `).join('')}
+
+                  <!-- Group B Rows -->
+                  <tr class="bg-slate-50/80 font-bold text-slate-800 text-[11px]">
+                    <td colspan="4" class="py-2 px-3 tracking-wide uppercase bg-slate-100">
+                      Group B (${activeCourseKey === 'ag' ? 'Wednesdays • Penny WRIGHT' : 'Fridays • Ally HEWETT'})
+                    </td>
+                  </tr>
+                  ${[0, 1, 2, 3].map(idx => `
+                    <tr class="hover:bg-slate-50/70">
+                      <td class="py-2.5 px-3 font-bold font-mono text-slate-800 whitespace-nowrap">
+                        Slot ${idx + 1} (${courseSched.fes[1].groupB.slots[idx].time.split(' – ')[0]})
+                      </td>
+                      <td class="py-2.5 px-3">
+                        <span class="font-semibold block ${courseSched.fes[1].groupB.slots[idx].type === 'trio' ? 'text-amber-900 font-bold' : 'text-slate-800'}">
+                          ${renderSlotStudents(courseSched.fes[1].groupB.slots[idx].students)}
+                        </span>
+                        <span class="text-[10px] text-slate-400 font-mono">${courseSched.fes[1].groupB.slots[idx].type.toUpperCase()}</span>
+                      </td>
+                      <td class="py-2.5 px-3">
+                        <span class="font-semibold block ${courseSched.fes[2].groupB.slots[idx].type === 'trio' ? 'text-amber-900 font-bold' : 'text-slate-800'}">
+                          ${renderSlotStudents(courseSched.fes[2].groupB.slots[idx].students)}
+                        </span>
+                        <span class="text-[10px] text-slate-400 font-mono">${courseSched.fes[2].groupB.slots[idx].type.toUpperCase()}</span>
+                      </td>
+                      <td class="py-2.5 px-3">
+                        <span class="font-semibold block ${courseSched.fes[3].groupB.slots[idx].type === 'trio' ? 'text-amber-900 font-bold' : 'text-slate-800'}">
+                          ${renderSlotStudents(courseSched.fes[3].groupB.slots[idx].students)}
+                        </span>
+                        <span class="text-[10px] text-slate-400 font-mono">${courseSched.fes[3].groupB.slots[idx].type.toUpperCase()}</span>
+                      </td>
+                    </tr>
+                  `).join('')}
+                </tbody>
+              </table>
             </div>
           </div>
 
