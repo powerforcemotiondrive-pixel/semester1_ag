@@ -806,6 +806,7 @@
             ? "<strong>Definition:</strong> DDRS (Sustainable Development & Social Responsibility) in aviation represents sustainable aerodrome operations, emissions reduction, noise mitigation, and ethical workforce standards.<br><br><strong>Key areas covered:</strong> Airport decarbonization, green taxiing, SAF distribution infrastructure, and community acoustic protection.<br><br><strong>Why we discuss DDRS in English:</strong> Communicating airport sustainability initiatives in international English prepares aerospace professionals for global regulatory compliance and industry leadership."
             : "<strong>Definition:</strong> DDRS (Sustainable Development & Social Responsibility) is the framework linking environmental protection, social fairness, and ethical decision-making in modern organizations.<br><br><strong>Key areas covered:</strong> Reducing carbon footprints, community wellbeing and inclusion, and responsible innovation.<br><br><strong>Why we discuss DDRS in English:</strong> Discussing DDRS topics builds the vocabulary, critical thinking, and communication skills you need to talk about global environmental and social challenges in professional English.",
           detailsUrl: isAas ? "" : `ddrs${modNumber}.html`,
+          pdfUrl: "",
           imageUrl: images.ddrs,
           isMuted: isAas
         },
@@ -815,6 +816,7 @@
           description: "Welcome to the GSEA26A Course Administration Hub. Access your official class groups (Group A & Group B), teacher assignments, weekly schedules, and dynamic 30-minute Formative Evaluation tutorial rotas.<br><br><em>Subject overview:</em> Official Promotion Structure: 19 students organized into fair, rotating 30-minute oral evaluation slots (Group A: 2 pairs + 2 trios; Group B: 3 pairs + 1 trio = exactly 4 slots of 30 min / 2 hours). Pairings and timeslots rotate across every evaluation (FE1 in W48, FE2 in W03, FE3 in W08). Weekly classes run Wednesdays (13h15–15h15) for General English (LV101E) and Fridays (08h00–10h00) for Aeronautical English (LV121E).<br><br>Consult your designated FE timeslots ahead of Week 48 (FE1), Week 3 (FE2), and Week 8 (FE3). Arrive 5 minutes before your slot with your presentation supports and updated learning portfolio ready.",
           isAdmin: true,
           adminUrl: "admin.html",
+          pdfUrl: "",
           imageUrl: images.card1
         }
       ];
@@ -1768,8 +1770,10 @@
         actionContainer.appendChild(createModalBtn("Class Groups & Teachers", "admin_groups", "admin.html", true));
         actionContainer.appendChild(createModalBtn("Weekly Calendar", "admin_calendar", "admin.html", false));
         actionContainer.appendChild(createModalBtn("FE Tutorial Rotas", "admin_rota", "admin.html", false));
-      } else if (page.detailsUrl) {
-        actionContainer.appendChild(createModalBtn("DDRS Framework Matrix", "ddrs", page.detailsUrl, false));
+      } else if (page.detailsUrl || currentIndex === 5) {
+        if (page.detailsUrl) {
+          actionContainer.appendChild(createModalBtn("DDRS Framework Matrix", "ddrs", page.detailsUrl, false));
+        }
       } else if (currentIndex === 4) {
         // Session 5: Formative Evaluation in-deck slide-over drawer (NO pop outs)
         if (page.lessonPlanUrl) actionContainer.appendChild(createModalBtn("FE Guidelines", "fe_guidelines", page.lessonPlanUrl, true));
@@ -1797,9 +1801,17 @@
       }
 
       // Option C: Update Top Worksheet PDF Link alongside card heading
+      // Strictly suppress/hide Worksheet PDF on DDRS (Card 06) and Course Admin (Card 07)
       const topWorksheetBtn = document.getElementById('card-worksheet-btn');
       if (topWorksheetBtn) {
-        if (page.pdfUrl && !page.pdfUrl.includes("INSERT_YOUR_PDF_LINK_HERE")) {
+        const isDDRSOrAdmin = page.isAdmin || 
+                              page.detailsUrl || 
+                              currentIndex === 5 || 
+                              currentIndex === 6 || 
+                              (page.tag && (page.tag.includes('Admin') || page.tag.includes('Focus'))) || 
+                              (page.title && (page.title.includes('Admin') || page.title.startsWith('DDRS')));
+
+        if (!isDDRSOrAdmin && page.pdfUrl && page.pdfUrl.trim() !== "" && !page.pdfUrl.includes("INSERT_YOUR_PDF_LINK_HERE")) {
           topWorksheetBtn.href = page.pdfUrl;
           topWorksheetBtn.classList.remove('hidden');
         } else {
