@@ -32,7 +32,7 @@
           <title>Focus: DDRS Framework</title>
         </item>
         <item identifier="ITEM_M1_S7" identifierref="RESOURCE_1" parameters="#module1-card7">
-          <title>07 Admin - Course Administration, Groups &amp; Planning</title>
+          <title>Course Admin</title>
         </item>
       </item>
       <item identifier="ITEM_MOD2">
@@ -56,7 +56,7 @@
           <title>Focus: DDRS Framework</title>
         </item>
         <item identifier="ITEM_M2_S7" identifierref="RESOURCE_1" parameters="#module2-card7">
-          <title>07 Admin - Course Administration, Groups &amp; Planning</title>
+          <title>Course Admin</title>
         </item>
       </item>
       <item identifier="ITEM_MOD3">
@@ -80,7 +80,7 @@
           <title>Focus: DDRS Framework</title>
         </item>
         <item identifier="ITEM_M3_S7" identifierref="RESOURCE_1" parameters="#module3-card7">
-          <title>07 Admin - Course Administration, Groups &amp; Planning</title>
+          <title>Course Admin</title>
         </item>
       </item>
     </organization>
