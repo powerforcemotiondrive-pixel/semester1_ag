@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>GSEA Semester 1 - Course Modules</title>
   <!-- Tailwind CSS CLI Output -->
   <link rel="stylesheet" href="output.css">
@@ -448,7 +448,7 @@
         </div>
 
         <!-- Drawer Footer -->
-        <footer class="bg-white border-t border-slate-200 px-4 py-2.5 sm:px-6 sm:py-3 flex items-center justify-between text-xs text-slate-500 shrink-0">
+        <footer class="bg-white border-t border-slate-200 px-4 py-2.5 sm:px-6 sm:py-3 pb-[max(0.625rem,env(safe-area-inset-bottom))] flex items-center justify-between text-xs text-slate-500 shrink-0">
           <div class="flex items-center gap-2">
             <span class="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
             <span id="modal-scorm-status" class="font-medium">SCORM 1.2 Connected • Active Tracking</span>
@@ -849,6 +849,7 @@
     function initDeck() {
       ScormAPI.init();
       window.addEventListener('beforeunload', () => ScormAPI.finish());
+      window.addEventListener('pagehide', () => ScormAPI.finish());
       window.addEventListener('unload', () => ScormAPI.finish());
       document.getElementById('prev-btn').addEventListener('click', () => stepDeck(-1));
       document.getElementById('next-btn').addEventListener('click', () => stepDeck(1));
@@ -1676,6 +1677,9 @@
         const clean = text.replace(/[^a-zA-Z\s\-]/g, '').trim();
         if (!clean) return;
 
+        // Cancel previous speech to prevent hanging utterances on iOS/Android
+        window.speechSynthesis.cancel();
+
         // Unpause if mobile browser paused it
         if (window.speechSynthesis.paused) {
           window.speechSynthesis.resume();
@@ -1705,8 +1709,8 @@
     }
 
     // --- Mastered Vocabulary Learning State ---
-    function getMasteredKey(modNum, sessionNum) {
-      return `gsea_m${modNum}_s${sessionNum}_mastered`;
+    function getMasteredKey(modNum, sessionNum, progKey = (modalState && modalState.program) || currentProgram || 'ag') {
+      return `gsea_${progKey}_m${modNum}_s${sessionNum}_mastered`;
     }
 
     function getMasteredTerms(modNum, sessionNum) {
@@ -1787,6 +1791,7 @@
       }
 
       modalEl.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
       void modalEl.offsetWidth; // trigger reflow
       backdropEl.classList.remove('opacity-0');
       backdropEl.classList.add('opacity-100');
@@ -1804,6 +1809,7 @@
       backdropEl.classList.remove('opacity-100');
       backdropEl.classList.add('opacity-0');
       drawerEl.classList.add('translate-x-full');
+      document.body.style.overflow = '';
 
       setTimeout(() => {
         modalEl.classList.add('hidden');
