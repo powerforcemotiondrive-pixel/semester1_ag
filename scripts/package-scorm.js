@@ -88,6 +88,9 @@ try {
 
   // Also copy to root folder for convenient access
   const rootZip = path.join(rootDir, 'GSEA_Semester_1_SCORM.zip');
+  if (fs.existsSync(rootZip)) {
+    fs.unlinkSync(rootZip);
+  }
   fs.copyFileSync(zipOutput, rootZip);
 
   const stats = fs.statSync(zipOutput);
