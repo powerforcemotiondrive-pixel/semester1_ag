@@ -635,7 +635,7 @@
 
       const images = moduleImages[modNumber] || moduleImages[1];
 
-      const formativeEvaluationNotice = "All our work this module builds progressively toward your Formative Evaluation in Session 5. Tip - review the vocabulary from the vocabulary section on this page before your Formative Evaluation. Review the TOEIC exercises and review your personal portfolio too.";
+      const formativeEvaluationNotice = "All our work this module builds progressively toward your Formative Evaluation in Session 5. Review the vocabulary from the vocabulary section on this page before your evaluation, along with the TOEIC exercises and your personal portfolio.";
 
       const moduleDescriptions = {
         1: {
@@ -1404,7 +1404,7 @@
                 <strong class="font-bold text-slate-900">Definition:</strong> ${defText}
               </p>
               <div class="p-3 bg-slate-50 border border-slate-200/90 rounded-xl flex items-start gap-2.5 shadow-2xs">
-                <span class="text-[10px] font-mono font-black uppercase tracking-wider px-2 py-0.5 rounded bg-slate-200 text-slate-700 shrink-0 mt-0.5">Key Areas</span>
+                <span class="text-[10px] font-mono font-black uppercase tracking-wider px-2 py-0.5 rounded-md bg-slate-200 text-slate-700 shrink-0 mt-0.5">Key Areas</span>
                 <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
                   ${areasText}
                 </p>
@@ -1444,18 +1444,20 @@
             <!-- Tier 2: Subject Focus Box -->
             ${overviewText ? `
               <div class="p-3 bg-slate-50 border border-slate-200/90 rounded-xl flex items-start gap-2.5 shadow-2xs">
-                <span class="text-[10px] font-mono font-black uppercase tracking-wider px-2 py-0.5 rounded bg-slate-200 text-slate-700 shrink-0 mt-0.5">Focus</span>
+                <span class="text-[10px] font-mono font-black uppercase tracking-wider px-2 py-0.5 rounded-md bg-slate-200 text-slate-700 shrink-0 mt-0.5">Focus</span>
                 <p class="text-xs sm:text-sm text-slate-700 leading-relaxed font-medium">
                   ${overviewText}
                 </p>
               </div>
             ` : ''}
 
-            <!-- Tier 3: Evaluation Milestone Telemetry Bar -->
+            <!-- Tier 3: Evaluation Milestone / FE Tip -->
             ${milestoneText ? `
-              <div class="px-3.5 py-2.5 bg-amber-50/70 border border-amber-200/90 rounded-xl flex items-start gap-2.5 shadow-2xs">
-                <span class="w-2 h-2 rounded-full bg-amber-500 shrink-0 mt-1"></span>
-                <span class="text-xs text-amber-900 font-semibold leading-relaxed">${milestoneText}</span>
+              <div class="p-3 bg-amber-50/70 border border-amber-200/90 rounded-xl flex items-start gap-2.5 shadow-2xs">
+                <span class="text-[10px] font-mono font-black uppercase tracking-wider px-2 py-0.5 rounded-md bg-amber-200/90 text-amber-900 shrink-0 mt-0.5">${cardIdx === 4 ? 'FE Target' : 'FE Tip'}</span>
+                <p class="text-xs sm:text-sm text-amber-950 font-medium leading-relaxed">
+                  ${milestoneText}
+                </p>
               </div>
             ` : ''}
           </div>
