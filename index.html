@@ -638,21 +638,27 @@
       const moduleImages = {
         1: {
           card1: isAas ? "images/aas_m1card1.png" : "images/card1.png",
-          card2: "images/card2.png",
-          card3: "images/card3.png",
-          card4: "images/card4.png"
+          card2: isAas ? "images/aas_m1card2.png" : "images/card2.png",
+          card3: isAas ? "images/aas_m1card3.png" : "images/card3.png",
+          card4: isAas ? "images/aas_m1card4.png" : "images/card4.png",
+          fe: isAas ? "images/fe_aas_mod1.png" : "images/card6.png",
+          ddrs: isAas ? "images/ddrs_aas_mod1.png" : "images/card5.png"
         },
         2: {
-          card1: "images/m2card1.png",
-          card2: "images/m2card2.png",
-          card3: "images/m2card3.png",
-          card4: "images/m2card4.png"
+          card1: isAas ? "images/aas_m2card1.png" : "images/m2card1.png",
+          card2: isAas ? "images/aas_m2card2.png" : "images/m2card2.png",
+          card3: isAas ? "images/aas_m2card3.png" : "images/m2card3.png",
+          card4: isAas ? "images/aas_m2card4.png" : "images/m2card4.png",
+          fe: isAas ? "images/fe_aas_mod2.png" : "images/card6.png",
+          ddrs: isAas ? "images/ddrs_aas_mod2.png" : "images/card5.png"
         },
         3: {
           card1: "images/m3card1.png",
           card2: "images/m3card2.png",
-          card3: "images/m3card3.png",
-          card4: "images/m3card4.png"
+          card3: isAas ? "images/aas_m3card3.png" : "images/m3card3.png",
+          card4: "images/m3card4.png",
+          fe: "images/card6.png",
+          ddrs: isAas ? "images/ddrs_aas_mod3.png" : "images/card5.png"
         }
       };
 
@@ -767,7 +773,7 @@
           pdfUrl: defaultPdf,
           lessonPlanUrl: "https://e-campus.enac.fr/moodle/mod/page/view.php?id=267409",
           objectivesUrl: "https://e-campus.enac.fr/moodle/mod/page/view.php?id=266887",
-          imageUrl: "images/card6.png"
+          imageUrl: images.fe
         },
         {
           tag: `Module ${modNumber} • Focus`,
@@ -776,7 +782,7 @@
             ? "<strong>Definition:</strong> DDRS (Sustainable Development & Social Responsibility) in aviation represents sustainable aerodrome operations, emissions reduction, noise mitigation, and ethical workforce standards.<br><br><strong>Key areas covered:</strong> Airport decarbonization, green taxiing, SAF distribution infrastructure, and community acoustic protection.<br><br><strong>Why we discuss DDRS in English:</strong> Communicating airport sustainability initiatives in international English prepares aerospace professionals for global regulatory compliance and industry leadership."
             : "<strong>Definition:</strong> DDRS (Sustainable Development & Social Responsibility) is the framework linking environmental protection, social fairness, and ethical decision-making in modern organizations.<br><br><strong>Key areas covered:</strong> Reducing carbon footprints, community wellbeing and inclusion, and responsible innovation.<br><br><strong>Why we discuss DDRS in English:</strong> Discussing DDRS topics builds the vocabulary, critical thinking, and communication skills you need to talk about global environmental and social challenges in professional English.",
           detailsUrl: `ddrs${modNumber}.html`,
-          imageUrl: "images/card5.png"
+          imageUrl: images.ddrs
         }
       ];
     };
