@@ -104,6 +104,9 @@
       <file href="session1/obj3.html"/>
       <file href="session1/admat3.html"/>
       <file href="session1/rev3.html"/>
+      <!-- Aeronautical English (AAS) Course Pages -->
+      <file href="session1/admat_aas1.html"/>
+      <file href="session1/rev_aas1.html"/>
       
       <!-- Session 2 Course Pages (Modules 1, 2, 3) -->
       <file href="session2/plan1.html"/>
@@ -154,6 +157,7 @@
       <file href="images/card4.png"/>
       <file href="images/card5.png"/>
       <file href="images/card6.png"/>
+      <file href="images/aas_m1card1.png"/>
       
       <!-- Module 2 Card Images -->
       <file href="images/m2card1.png"/>

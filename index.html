@@ -588,8 +588,10 @@
       return { init, setProgress, setScore, setSuspendData, getSuspendData, finish };
     })();
 
-    const createModulePages = (modNumber) => {
-      const sessionTitles = {
+    const createModulePages = (modNumber, programKey = 'ag') => {
+      const isAas = programKey === 'aas';
+
+      const agSessionTitles = {
         1: {
           s1: "Session 1 - Introduction & Travel Anecdotes",
           s2: "Session 2 - Evolution of Transport",
@@ -610,11 +612,32 @@
         }
       };
 
-      const titles = sessionTitles[modNumber] || sessionTitles[1];
+      const aasSessionTitles = {
+        1: {
+          s1: "Session 1 - Introduction & Aviation Survey",
+          s2: "Session 2 - Aerodrome Infrastructure & Layout",
+          s3: "Session 3 - Ground Operations & Turnaround",
+          s4: "Session 4 - Air Traffic Control & Surface Movement"
+        },
+        2: {
+          s1: "Session 1: Principles of Flight",
+          s2: "Session 2: Aircraft Structures & Systems",
+          s3: "Session 3: Propulsion & Avionics",
+          s4: "Session 4: Future Aerodynamics & Electric Flight"
+        },
+        3: {
+          s1: "Session 1: Aviation Safety Management (SMS)",
+          s2: "Session 2: Security & Unlawful Interference",
+          s3: "Session 3: Human Factors & CRM",
+          s4: "Session 4: Emergency Response & Crisis Management"
+        }
+      };
+
+      const titles = (isAas ? aasSessionTitles[modNumber] : agSessionTitles[modNumber]) || (isAas ? aasSessionTitles[1] : agSessionTitles[1]);
 
       const moduleImages = {
         1: {
-          card1: "images/card1.png",
+          card1: isAas ? "images/aas_m1card1.png" : "images/card1.png",
           card2: "images/card2.png",
           card3: "images/card3.png",
           card4: "images/card4.png"
@@ -637,7 +660,7 @@
 
       const formativeEvaluationNotice = "All our work this module builds progressively toward your Formative Evaluation in Session 5. Review the vocabulary from the vocabulary section on this page before your evaluation, along with the TOEIC exercises and your personal portfolio.";
 
-      const moduleDescriptions = {
+      const agDescriptions = {
         1: {
           s1: `Welcome to our module on Travel, Transport & Leisure! In our interactive sessions, we will focus on conversational fluency, vocabulary building, grammar in context, and TOEIC preparation.<br><br><em>Subject overview:</em> An introduction to travel and transport themes alongside personal travel anecdotes.<br><br>${formativeEvaluationNotice}`,
           s2: `Welcome back! Continuing our focus on Travel, Transport & Leisure, we explore how transportation has changed over time and its social and environmental impacts.<br><br><em>Subject overview:</em> Exploring how transport has changed over time, modern transit networks, and switching to greener ways to travel.<br><br>${formativeEvaluationNotice}`,
@@ -658,19 +681,44 @@
         }
       };
 
-      const desc = moduleDescriptions[modNumber] || moduleDescriptions[1];
+      const aasDescriptions = {
+        1: {
+          s1: `Welcome to Aeronautical English Module 1 on Aerodromes! In this opening session, we explore airport operations, aviation security, commercial airline models, and environmental challenges while practicing discussion fluency and technical vocabulary.<br><br><em>Subject overview:</em> In-class survey interviews discussing key aviation themes: alcohol on board, armed pilots and air marshals, low-cost carrier economics, noise abatement, future propulsion, space tourism, airport security, and flight delay passenger rights.<br><br>${formativeEvaluationNotice}`,
+          s2: `Welcome to Session 2! Continuing our aerodrome study, we examine runways, taxiways, apron layouts, and lighting systems essential for safe surface operations.<br><br><em>Subject overview:</em> Runway design, visual navigation aids, taxiway guidance signage, and obstacle limitation surfaces.<br><br>${formativeEvaluationNotice}`,
+          s3: `Welcome to Session 3! In this class, we analyze ground handling workflows, baggage logistics, refueling protocols, and gate turnaround optimization.<br><br><em>Subject overview:</em> Ramp safety, ground support equipment (GSE), slot allocation, and minimizing turnaround time.<br><br>${formativeEvaluationNotice}`,
+          s4: `Welcome to Session 4! We investigate tower control operations, ground radar monitoring, surface movement guidance, and runway incursion prevention.<br><br><em>Subject overview:</em> Surface movement guidance systems (A-SMGCS), runway safety protocols, and standard radiotelephony phraseology.<br><br>${formativeEvaluationNotice}`
+        },
+        2: {
+          s1: `Welcome to Module 2 on Aircraft and Aerodynamics! We examine lift generation, drag types, aerodynamic control surfaces, and stability in flight.<br><br><em>Subject overview:</em> Bernoulli principles, airfoil design, angle of attack, and flight control authority.<br><br>${formativeEvaluationNotice}`,
+          s2: `Welcome to Session 2! We explore structural airframes, fuselage pressurization, hydraulic systems, and landing gear mechanisms.<br><br><em>Subject overview:</em> Composite materials, structural load paths, redundant hydraulics, and flight control actuators.<br><br>${formativeEvaluationNotice}`,
+          s3: `Welcome to Session 3! In this session, we investigate turbofan architectures, fuel injection systems, and modern digital cockpit displays.<br><br><em>Subject overview:</em> Gas turbine cycles, bypass ratios, glass cockpit avionics, and flight management systems.<br><br>${formativeEvaluationNotice}`,
+          s4: `Welcome to Session 4! We study next-generation aircraft concepts, hydrogen combustion, hybrid-electric flight, and eVTOL urban air mobility.<br><br><em>Subject overview:</em> Zero-emission propulsion, aerodynamic drag reduction, and certification of electric aircraft.<br><br>${formativeEvaluationNotice}`
+        },
+        3: {
+          s1: `Welcome to Module 3 on Safety and Security! We explore Safety Management Systems (SMS), risk matrices, and reactive vs. proactive safety cultures.<br><br><em>Subject overview:</em> SMS four pillars, hazard identification, voluntary incident reporting, and safety risk mitigation.<br><br>${formativeEvaluationNotice}`,
+          s2: `Welcome to Session 2! We examine international civil aviation security conventions, passenger screening, and preventing unlawful interference.<br><br><em>Subject overview:</em> ICAO Annex 17, hold baggage screening, biometric identification, and counter-hijacking protocols.<br><br>${formativeEvaluationNotice}`,
+          s3: `Welcome to Session 3! We study Crew Resource Management (CRM), situational awareness, error traps, and effective flight deck communication.<br><br><em>Subject overview:</em> Human factors, threat and error management (TEM), assertive communication, and workload distribution.<br><br>${formativeEvaluationNotice}`,
+          s4: `Welcome to Session 4! We analyze emergency procedures, emergency locator transmitters (ELT), aerodrome emergency plans, and post-accident review.<br><br><em>Subject overview:</em> Airport emergency response, aircraft evacuation standards, search and rescue (SAR), and incident debriefing.<br><br>${formativeEvaluationNotice}`
+        }
+      };
+
+      const desc = (isAas ? aasDescriptions[modNumber] : agDescriptions[modNumber]) || (isAas ? aasDescriptions[1] : agDescriptions[1]);
+
+      const s1AdditionalMaterialsUrl = (isAas && modNumber === 1) ? "session1/admat_aas1.html" : `session1/admat${modNumber}.html`;
+      const s1ClassReviewUrl = (isAas && modNumber === 1) ? "session1/rev_aas1.html" : `session1/rev${modNumber}.html`;
+      const defaultPdf = isAas ? "" : "agmod1.pdf";
 
       return [
         {
           tag: `Module ${modNumber} • Session 1`,
           title: titles.s1,
           description: desc.s1,
-          url: `session1/admat${modNumber}.html`,
-          additionalMaterialsUrl: `session1/admat${modNumber}.html`,
-          pdfUrl: "agmod1.pdf",
+          url: s1AdditionalMaterialsUrl,
+          additionalMaterialsUrl: s1AdditionalMaterialsUrl,
+          pdfUrl: defaultPdf,
           lessonPlanUrl: `session1/plan${modNumber}.html`,
           objectivesUrl: `session1/obj${modNumber}.html`,
-          classReviewUrl: `session1/rev${modNumber}.html`,
+          classReviewUrl: s1ClassReviewUrl,
           imageUrl: images.card1
         },
         {
@@ -679,7 +727,7 @@
           description: desc.s2,
           url: `session2/admat${modNumber}.html`,
           additionalMaterialsUrl: `session2/admat${modNumber}.html`,
-          pdfUrl: "agmod1.pdf",
+          pdfUrl: defaultPdf,
           lessonPlanUrl: `session2/plan${modNumber}.html`,
           objectivesUrl: `session2/obj${modNumber}.html`,
           classReviewUrl: `session2/rev${modNumber}.html`,
@@ -691,7 +739,7 @@
           description: desc.s3,
           url: `session3/admat${modNumber}.html`,
           additionalMaterialsUrl: `session3/admat${modNumber}.html`,
-          pdfUrl: "agmod1.pdf",
+          pdfUrl: defaultPdf,
           lessonPlanUrl: `session3/plan${modNumber}.html`,
           objectivesUrl: `session3/obj${modNumber}.html`,
           classReviewUrl: `session3/rev${modNumber}.html`,
@@ -703,7 +751,7 @@
           description: desc.s4,
           url: `session4/admat${modNumber}.html`,
           additionalMaterialsUrl: `session4/admat${modNumber}.html`,
-          pdfUrl: "agmod1.pdf",
+          pdfUrl: defaultPdf,
           lessonPlanUrl: `session4/plan${modNumber}.html`,
           objectivesUrl: `session4/obj${modNumber}.html`,
           classReviewUrl: `session4/rev${modNumber}.html`,
@@ -712,17 +760,21 @@
         {
           tag: `Module ${modNumber} • Session 5`,
           title: "Session 5 - Formative Evaluation",
-          description: "Welcome to Session 5! Throughout this module, we have worked on discussion, grammar correction, DDRS, and TOEIC-related exercises.<br><br><em>Subject overview:</em> Formative Evaluation — Design an eco-friendly holiday itinerary or compare two cities with different tourism policies + Targets.<br><br>All work in this session contributes directly toward your Formative Evaluation.",
+          description: isAas 
+            ? `Welcome to Session 5! Throughout this module, we have worked on aerodrome operations, technical discussions, DDRS, and TOEIC preparation.<br><br><em>Subject overview:</em> Formative Evaluation — Airport operations assessment and technical oral interview.<br><br>All work in this session contributes directly toward your Formative Evaluation.`
+            : "Welcome to Session 5! Throughout this module, we have worked on discussion, grammar correction, DDRS, and TOEIC-related exercises.<br><br><em>Subject overview:</em> Formative Evaluation — Design an eco-friendly holiday itinerary or compare two cities with different tourism policies + Targets.<br><br>All work in this session contributes directly toward your Formative Evaluation.",
           url: "https://e-campus.enac.fr/moodle/mod/page/view.php?id=266604",
-          pdfUrl: "agmod1.pdf",
+          pdfUrl: defaultPdf,
           lessonPlanUrl: "https://e-campus.enac.fr/moodle/mod/page/view.php?id=267409",
           objectivesUrl: "https://e-campus.enac.fr/moodle/mod/page/view.php?id=266887",
           imageUrl: "images/card6.png"
         },
         {
           tag: `Module ${modNumber} • Focus`,
-          title: "DDRS - Framework & Core Principles",
-          description: "<strong>Definition:</strong> DDRS (Sustainable Development & Social Responsibility) is the framework linking environmental protection, social fairness, and ethical decision-making in modern organizations.<br><br><strong>Key areas covered:</strong> Reducing carbon footprints, community wellbeing and inclusion, and responsible innovation.<br><br><strong>Why we discuss DDRS in English:</strong> Discussing DDRS topics builds the vocabulary, critical thinking, and communication skills you need to talk about global environmental and social challenges in professional English.",
+          title: isAas ? "DDRS - Aerodrome Environmental & Social Framework" : "DDRS - Framework & Core Principles",
+          description: isAas
+            ? "<strong>Definition:</strong> DDRS (Sustainable Development & Social Responsibility) in aviation represents sustainable aerodrome operations, emissions reduction, noise mitigation, and ethical workforce standards.<br><br><strong>Key areas covered:</strong> Airport decarbonization, green taxiing, SAF distribution infrastructure, and community acoustic protection.<br><br><strong>Why we discuss DDRS in English:</strong> Communicating airport sustainability initiatives in international English prepares aerospace professionals for global regulatory compliance and industry leadership."
+            : "<strong>Definition:</strong> DDRS (Sustainable Development & Social Responsibility) is the framework linking environmental protection, social fairness, and ethical decision-making in modern organizations.<br><br><strong>Key areas covered:</strong> Reducing carbon footprints, community wellbeing and inclusion, and responsible innovation.<br><br><strong>Why we discuss DDRS in English:</strong> Discussing DDRS topics builds the vocabulary, critical thinking, and communication skills you need to talk about global environmental and social challenges in professional English.",
           detailsUrl: `ddrs${modNumber}.html`,
           imageUrl: "images/card5.png"
         }
@@ -787,7 +839,7 @@
             subtitle: "Travel, Transport & Leisure",
             supertitle: "GSEA AG SEMESTER 1 - MODULE 1: TRAVEL, TRANSPORT & LEISURE",
             ...MODULE_THEMES[1],
-            pages: createModulePages(1)
+            pages: createModulePages(1, 'ag')
           },
           {
             id: 2,
@@ -795,7 +847,7 @@
             subtitle: "Weather & the Environment",
             supertitle: "GSEA AG SEMESTER 1 - MODULE 2: WEATHER & THE ENVIRONMENT",
             ...MODULE_THEMES[2],
-            pages: createModulePages(2)
+            pages: createModulePages(2, 'ag')
           },
           {
             id: 3,
@@ -803,7 +855,7 @@
             subtitle: "New Technology",
             supertitle: "GSEA AG SEMESTER 1 - MODULE 3: NEW TECHNOLOGY",
             ...MODULE_THEMES[3],
-            pages: createModulePages(3)
+            pages: createModulePages(3, 'ag')
           }
         ]
       },
@@ -819,7 +871,7 @@
             subtitle: "Aerodrome",
             supertitle: "GSEA AAS SEMESTER 1 - MODULE 1: AERODROME",
             ...MODULE_THEMES[1],
-            pages: createModulePages(1)
+            pages: createModulePages(1, 'aas')
           },
           {
             id: 2,
@@ -827,7 +879,7 @@
             subtitle: "Aircraft and Aerodynamics",
             supertitle: "GSEA AAS SEMESTER 1 - MODULE 2: AIRCRAFT & AERODYNAMICS",
             ...MODULE_THEMES[2],
-            pages: createModulePages(2)
+            pages: createModulePages(2, 'aas')
           },
           {
             id: 3,
@@ -835,7 +887,7 @@
             subtitle: "Safety and Security",
             supertitle: "GSEA AAS SEMESTER 1 - MODULE 3: SAFETY & SECURITY",
             ...MODULE_THEMES[3],
-            pages: createModulePages(3)
+            pages: createModulePages(3, 'aas')
           }
         ]
       }

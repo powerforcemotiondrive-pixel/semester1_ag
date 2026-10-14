@@ -1485,6 +1485,9 @@
       --tw-scale-z: 105%;
       scale: var(--tw-scale-x) var(--tw-scale-y);
     }
+    .group-hover\:text-\[\#a85640\]:is(:where(.group):hover *) {
+      color: #a85640;
+    }
     .group-hover\:text-slate-900:is(:where(.group):hover *) {
       color: var(--color-slate-900);
     }
