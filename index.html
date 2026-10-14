@@ -269,7 +269,7 @@
     }
   </style>
 </head>
-<body class="bg-canvas-mod1 min-h-screen flex items-center justify-center" style="background-color: #f5f2ee;">
+<body class="bg-canvas-mod1 min-h-screen flex items-center justify-center" style="background-color: #f1f5f9;">
 
   <!-- Custom Tailwind adjustments -->
   <div class="w-[98%] sm:w-[95%] lg:w-[90%] max-w-[1350px] mx-auto px-2 sm:px-4 py-3 font-sans">
@@ -277,16 +277,16 @@
     <div class="moodle-deck-canvas bg-white rounded-2xl shadow-card-mod1 border border-slate-300 flex flex-col overflow-hidden">
       
       <!-- Header bar -->
-      <header id="deck-header" class="textured-surface bg-[#c0684f] text-white px-4 py-4 sm:px-6 sm:py-5 flex flex-wrap items-center justify-between gap-3 border-b border-[#a85640] shrink-0 relative overflow-hidden">
+      <header id="deck-header" class="textured-surface bg-[#374151] text-white px-4 py-4 sm:px-6 sm:py-5 flex flex-wrap items-center justify-between gap-3 border-b border-[#1f2937] shrink-0 relative overflow-hidden">
         <div id="deck-header-info" class="flex items-center space-x-3 sm:space-x-4">
-          <div id="deck-icon-box" class="bg-[#d6a555] p-2.5 rounded-lg text-white shadow-md flex items-center justify-center">
+          <div id="deck-icon-box" class="bg-[#64748b] p-2.5 rounded-lg text-white shadow-md flex items-center justify-center">
             <!-- Theme Icon -->
             <svg width="20" height="20" style="width: 20px; height: 20px;" class="w-5 h-5 text-white shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
             </svg>
           </div>
           <div>
-            <span id="deck-supertitle" class="block text-xs sm:text-sm md:text-base font-black tracking-wider text-[#fef39e] uppercase">GSEA AG SEMESTER 1 - MODULE 1: TRAVEL, TRANSPORT &amp; LEISURE</span>
+            <span id="deck-supertitle" class="block text-xs sm:text-sm md:text-base font-black tracking-wider text-slate-300 uppercase">GSEA AG SEMESTER 1 - MODULE 1: TRAVEL, TRANSPORT &amp; LEISURE</span>
             <h1 id="deck-title" class="text-sm sm:text-base font-bold text-white mt-0.5">Loading Module...</h1>
           </div>
         </div>
@@ -357,7 +357,14 @@
           <div class="space-y-4">
             <div class="flex flex-col lg:flex-row gap-5 items-start justify-between">
               <div class="space-y-3.5 flex-1 min-w-0">
-                <h2 id="card-heading" class="text-xl sm:text-2xl font-black tracking-tight" style="color: #c0684f;"></h2>
+                <div class="flex flex-wrap items-center justify-between gap-3">
+                  <h2 id="card-heading" class="text-xl sm:text-2xl font-black tracking-tight" style="color: #374151;"></h2>
+                  <!-- Option C: Top Session Document / Worksheet Pill -->
+                  <a id="card-worksheet-btn" href="#" target="_blank" rel="noopener noreferrer" class="hidden shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-100 hover:bg-slate-200/90 text-slate-700 hover:text-slate-900 border border-slate-300/80 shadow-2xs hover:shadow-sm hover:-translate-y-[1px] active:translate-y-0 transition-all select-none no-underline">
+                    <svg class="w-3.5 h-3.5 text-slate-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                    <span>Worksheet PDF ↗</span>
+                  </a>
+                </div>
                 <div id="card-desc" class="space-y-3"></div>
               </div>
               <!-- Image Container: Direction A Widescreen Avionics Display (16:10 / 4:3) -->
@@ -371,14 +378,14 @@
 
             <!-- Stylized Skills Footer Area -->
             <div id="card-skills" class="w-full pt-3 pb-3 px-4 rounded-xl border border-slate-200/60 bg-slate-50/50 grid grid-cols-2 sm:grid-cols-4 gap-y-2.5 gap-x-4 shadow-sm vocab-footer">
-          <div class="flex flex-col vocab-item"><span class="text-sm font-black italic tracking-wide text-[#c0684f] vocab-word" style="color: #c0684f; font-style: italic;">FLUENCY</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˈfluː.ən.si/</span></div>
-          <div class="flex flex-col vocab-item"><span class="text-xs font-bold uppercase text-[#d6a555] vocab-word" style="color: #d6a555; text-transform: uppercase;">Grammar</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˈɡræm.ər/</span></div>
-          <div class="flex flex-col vocab-item"><span class="text-[11px] font-extrabold normal-case text-slate-700 underline decoration-slate-300 vocab-word" style="color: #334155; text-decoration: underline; text-decoration-color: #cbd5e1;">Technical Vocabulary</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˈtek.nɪ.kəl vəˈkæb/</span></div>
-          <div class="flex flex-col vocab-item"><span class="text-xs font-semibold italic text-[#a85640] vocab-word" style="color: #a85640; font-style: italic;">Pronunciation</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/prəˌnʌn.siˈeɪ.shən/</span></div>
-          <div class="flex flex-col vocab-item"><span class="text-xs font-bold uppercase tracking-wider text-teal-700 vocab-word" style="color: #0f766e; text-transform: uppercase;">Comprehension</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˌkɒm.prɪˈhen.ʃən/</span></div>
-          <div class="flex flex-col vocab-item"><span class="text-sm font-black italic text-sky-700 vocab-word" style="color: #0369a1; font-style: italic;">Discussion</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/dɪˈskʌʃ.ən/</span></div>
-          <div class="flex flex-col vocab-item"><span class="text-xs font-extrabold uppercase text-[#ea5d74] vocab-word" style="color: #ea5d74; text-transform: uppercase;">CORRECTION</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/kəˈrek.ʃən/</span></div>
-          <div class="flex flex-col vocab-item"><span class="text-[11px] font-extrabold tracking-widest text-[#d6a555] vocab-word" style="color: #d6a555; letter-spacing: 0.08em;">INTERACTION</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˌɪn.təˈræk.ʃən/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" role="button" tabindex="0" onclick="speakWord('Fluency')" title="Click to listen"><span class="text-sm font-black italic tracking-wide text-slate-700 vocab-word" style="color: #374151; font-style: italic;">FLUENCY</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˈfluː.ən.si/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" role="button" tabindex="0" onclick="speakWord('Grammar')" title="Click to listen"><span class="text-xs font-bold uppercase text-slate-600 vocab-word" style="color: #64748b; text-transform: uppercase;">Grammar</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˈɡræm.ər/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" role="button" tabindex="0" onclick="speakWord('Technical Vocabulary')" title="Click to listen"><span class="text-[11px] font-extrabold normal-case text-slate-700 underline decoration-slate-300 vocab-word" style="color: #334155; text-decoration: underline; text-decoration-color: #cbd5e1;">Technical Vocabulary</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˈtek.nɪ.kəl vəˈkæb/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" role="button" tabindex="0" onclick="speakWord('Pronunciation')" title="Click to listen"><span class="text-xs font-semibold italic text-slate-700 vocab-word" style="color: #1f2937; font-style: italic;">Pronunciation</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/prəˌnʌn.siˈeɪ.shən/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" role="button" tabindex="0" onclick="speakWord('Comprehension')" title="Click to listen"><span class="text-xs font-bold uppercase tracking-wider text-teal-700 vocab-word" style="color: #0f766e; text-transform: uppercase;">Comprehension</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˌkɒm.prɪˈhen.ʃən/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" role="button" tabindex="0" onclick="speakWord('Discussion')" title="Click to listen"><span class="text-sm font-black italic text-sky-700 vocab-word" style="color: #0369a1; font-style: italic;">Discussion</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/dɪˈskʌʃ.ən/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" role="button" tabindex="0" onclick="speakWord('Correction')" title="Click to listen"><span class="text-xs font-extrabold uppercase text-[#ea5d74] vocab-word" style="color: #ea5d74; text-transform: uppercase;">CORRECTION</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/kəˈrek.ʃən/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" role="button" tabindex="0" onclick="speakWord('Interaction')" title="Click to listen"><span class="text-[11px] font-extrabold tracking-widest text-slate-600 vocab-word" style="color: #64748b; letter-spacing: 0.08em;">INTERACTION</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˌɪn.təˈræk.ʃən/</span></div>
             </div>
           </div>
 
@@ -1266,14 +1273,14 @@
       const skillsEl = document.getElementById('card-skills');
       if (skillsEl) {
         skillsEl.innerHTML = `
-          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" onclick="speakWord('Fluency')" title="Click to listen"><span class="text-sm font-black italic tracking-wide text-[#c0684f] vocab-word" style="color: ${mod.primary}; font-style: italic;">FLUENCY</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˈfluː.ən.si/</span></div>
-          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" onclick="speakWord('Grammar')" title="Click to listen"><span class="text-xs font-bold uppercase text-[#d6a555] vocab-word" style="color: ${mod.accent}; text-transform: uppercase;">Grammar</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˈɡræm.ər/</span></div>
-          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" onclick="speakWord('Technical Vocabulary')" title="Click to listen"><span class="text-[11px] font-extrabold normal-case text-slate-700 underline decoration-slate-300 vocab-word" style="color: #334155; text-decoration: underline; text-decoration-color: #cbd5e1;">Technical Vocabulary</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˈtek.nɪ.kəl vəˈkæb/</span></div>
-          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" onclick="speakWord('Pronunciation')" title="Click to listen"><span class="text-xs font-semibold italic text-[#a85640] vocab-word" style="color: ${mod.primaryDark}; font-style: italic;">Pronunciation</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/prəˌnʌn.siˈeɪ.shən/</span></div>
-          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" onclick="speakWord('Comprehension')" title="Click to listen"><span class="text-xs font-bold uppercase tracking-wider text-teal-700 vocab-word" style="color: #0f766e; text-transform: uppercase;">Comprehension</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˌkɒm.prɪˈhen.ʃən/</span></div>
-          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" onclick="speakWord('Discussion')" title="Click to listen"><span class="text-sm font-black italic text-sky-700 vocab-word" style="color: #0369a1; font-style: italic;">Discussion</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/dɪˈskʌʃ.ən/</span></div>
-          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" onclick="speakWord('Correction')" title="Click to listen"><span class="text-xs font-extrabold uppercase text-[#ea5d74] vocab-word" style="color: #ea5d74; text-transform: uppercase;">CORRECTION</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/kəˈrek.ʃən/</span></div>
-          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" onclick="speakWord('Interaction')" title="Click to listen"><span class="text-[11px] font-extrabold tracking-widest text-[#d6a555] vocab-word" style="color: ${mod.accent}; letter-spacing: 0.08em;">INTERACTION</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˌɪn.təˈræk.ʃən/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" role="button" tabindex="0" onclick="speakWord('Fluency')" title="Click to listen"><span class="text-sm font-black italic tracking-wide vocab-word" style="color: ${mod.primary}; font-style: italic;">FLUENCY</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˈfluː.ən.si/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" role="button" tabindex="0" onclick="speakWord('Grammar')" title="Click to listen"><span class="text-xs font-bold uppercase vocab-word" style="color: ${mod.accent}; text-transform: uppercase;">Grammar</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˈɡræm.ər/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" role="button" tabindex="0" onclick="speakWord('Technical Vocabulary')" title="Click to listen"><span class="text-[11px] font-extrabold normal-case text-slate-700 underline decoration-slate-300 vocab-word" style="color: #334155; text-decoration: underline; text-decoration-color: #cbd5e1;">Technical Vocabulary</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˈtek.nɪ.kəl vəˈkæb/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" role="button" tabindex="0" onclick="speakWord('Pronunciation')" title="Click to listen"><span class="text-xs font-semibold italic vocab-word" style="color: ${mod.primaryDark}; font-style: italic;">Pronunciation</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/prəˌnʌn.siˈeɪ.shən/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" role="button" tabindex="0" onclick="speakWord('Comprehension')" title="Click to listen"><span class="text-xs font-bold uppercase tracking-wider text-teal-700 vocab-word" style="color: #0f766e; text-transform: uppercase;">Comprehension</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˌkɒm.prɪˈhen.ʃən/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" role="button" tabindex="0" onclick="speakWord('Discussion')" title="Click to listen"><span class="text-sm font-black italic text-sky-700 vocab-word" style="color: #0369a1; font-style: italic;">Discussion</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/dɪˈskʌʃ.ən/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" role="button" tabindex="0" onclick="speakWord('Correction')" title="Click to listen"><span class="text-xs font-extrabold uppercase text-[#ea5d74] vocab-word" style="color: #ea5d74; text-transform: uppercase;">CORRECTION</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/kəˈrek.ʃən/</span></div>
+          <div class="flex flex-col vocab-item cursor-pointer hover:opacity-80 transition-all select-none group" role="button" tabindex="0" onclick="speakWord('Interaction')" title="Click to listen"><span class="text-[11px] font-extrabold tracking-widest vocab-word" style="color: ${mod.accent}; letter-spacing: 0.08em;">INTERACTION</span><span class="text-[10px] text-slate-500 font-mono vocab-ipa">/ˌɪn.təˈræk.ʃən/</span></div>
         `;
       }
 
@@ -1547,10 +1554,10 @@
       };
 
       if (page.detailsUrl) {
-        actionContainer.appendChild(createModalBtn("DDRS Framework Matrix", "ddrs", page.detailsUrl, true));
+        actionContainer.appendChild(createModalBtn("DDRS Framework Matrix", "ddrs", page.detailsUrl, false));
       } else if (currentIndex === 4) {
         // Session 5: Formative Evaluation external links
-        if (page.url) actionContainer.appendChild(createExternalBtn(page.url, "Formative Evaluation", true));
+        if (page.url) actionContainer.appendChild(createExternalBtn(page.url, "Formative Evaluation", false));
         if (page.lessonPlanUrl) actionContainer.appendChild(createExternalBtn(page.lessonPlanUrl, "Evaluation Guidelines", false));
         if (page.objectivesUrl) actionContainer.appendChild(createExternalBtn(page.objectivesUrl, "Evaluation Criteria", false));
       } else {
@@ -1569,15 +1576,21 @@
           // Additional Materials (In-Deck Modal Drawer - No arrow, opens directly in slide-over overlay)
           actionContainer.appendChild(createModalBtn("Additional Materials", "materials", materialsUrl, false));
 
-          // TOEIC Practice Diagnostic Drill (Primary action)
-          actionContainer.appendChild(createModalBtn("TOEIC Practice", "toeic", materialsUrl, true));
+          // TOEIC Practice Diagnostic Drill (Same colour as other buttons)
+          actionContainer.appendChild(createModalBtn("TOEIC Practice", "toeic", materialsUrl, false));
         }
       }
 
-      if (page.pdfUrl && !page.pdfUrl.includes("INSERT_YOUR_PDF_LINK_HERE")) {
-        const pdfBtn = createExternalBtn(page.pdfUrl, "Worksheet", false);
-        pdfBtn.id = "worksheet-btn";
-        actionContainer.appendChild(pdfBtn);
+      // Option C: Update Top Worksheet PDF Link alongside card heading
+      const topWorksheetBtn = document.getElementById('card-worksheet-btn');
+      if (topWorksheetBtn) {
+        if (page.pdfUrl && !page.pdfUrl.includes("INSERT_YOUR_PDF_LINK_HERE")) {
+          topWorksheetBtn.href = page.pdfUrl;
+          topWorksheetBtn.classList.remove('hidden');
+        } else {
+          topWorksheetBtn.href = "#";
+          topWorksheetBtn.classList.add('hidden');
+        }
       }
 
       const imageContainer = document.getElementById('image-container');
@@ -1624,16 +1637,74 @@
       }
     }
 
-    // --- Audio Pronunciation Engine ---
-    function speakWord(text) {
+    // --- Audio Pronunciation Engine (Mobile / WebKit / Cross-Platform) ---
+    let cachedVoices = [];
+
+    function initSpeechEngine() {
+      if (!('speechSynthesis' in window)) return;
+      try {
+        cachedVoices = window.speechSynthesis.getVoices() || [];
+        if (window.speechSynthesis.onvoiceschanged !== undefined) {
+          window.speechSynthesis.onvoiceschanged = () => {
+            cachedVoices = window.speechSynthesis.getVoices() || [];
+          };
+        }
+        if (window.speechSynthesis.paused) {
+          window.speechSynthesis.resume();
+        }
+      } catch (e) {}
+    }
+
+    // Prime speech synthesis on first touch/click to unlock WebKit audio session on mobile
+    const primeSpeechOnce = () => {
+      initSpeechEngine();
       if ('speechSynthesis' in window) {
-        window.speechSynthesis.cancel();
+        try {
+          if (window.speechSynthesis.paused) {
+            window.speechSynthesis.resume();
+          }
+          const dummy = new SpeechSynthesisUtterance('');
+          dummy.volume = 0;
+          window.speechSynthesis.speak(dummy);
+        } catch (e) {}
+      }
+      document.removeEventListener('touchstart', primeSpeechOnce);
+      document.removeEventListener('click', primeSpeechOnce);
+    };
+    document.addEventListener('touchstart', primeSpeechOnce, { passive: true });
+    document.addEventListener('click', primeSpeechOnce, { passive: true });
+
+    function speakWord(text) {
+      if (!('speechSynthesis' in window)) return;
+      try {
         const clean = text.replace(/[^a-zA-Z\s\-]/g, '').trim();
         if (!clean) return;
+
+        // Unpause if mobile browser paused it
+        if (window.speechSynthesis.paused) {
+          window.speechSynthesis.resume();
+        }
+
         const utterance = new SpeechSynthesisUtterance(clean);
         utterance.lang = 'en-US';
         utterance.rate = 0.9;
+        utterance.pitch = 1.0;
+
+        if (!cachedVoices.length) {
+          cachedVoices = window.speechSynthesis.getVoices() || [];
+        }
+        if (cachedVoices.length) {
+          const enVoice = cachedVoices.find(v => v.lang === 'en-US' || v.lang === 'en-GB' || (v.lang && v.lang.startsWith('en')));
+          if (enVoice) utterance.voice = enVoice;
+        }
+
+        utterance.onerror = (e) => {
+          console.warn('Speech synthesis error:', e);
+        };
+
         window.speechSynthesis.speak(utterance);
+      } catch (e) {
+        console.warn('Speech synthesis exception:', e);
       }
     }
 
