@@ -826,6 +826,51 @@
       }
     };
 
+    const AAS_MODULE_THEMES = {
+      1: {
+        primary: "#152438", // Deep Midnight Navy (Aerodrome Apron at Dusk)
+        primaryDark: "#0d1724",
+        primaryDarker: "#070c14",
+        accent: "#d97706", // Runway Amber / Beacon Gold
+        accentDark: "#b45309",
+        accentDarker: "#92400e",
+        highlight: "#fef3c7",
+        worksheet: "#152438",
+        worksheetDark: "#0d1724",
+        activeMenuBg: "rgba(217, 119, 6, 0.12)",
+        activeMenuText: "#d97706",
+        activeMenuBorder: "#d97706"
+      },
+      2: {
+        primary: "#182b42", // Stratosphere Blue (Flight Physics & Cruising)
+        primaryDark: "#101f31",
+        primaryDarker: "#0a1420",
+        accent: "#0284c7", // Aero Horizon Cyan
+        accentDark: "#0369a1",
+        accentDarker: "#075985",
+        highlight: "#e0f2fe",
+        worksheet: "#182b42",
+        worksheetDark: "#101f31",
+        activeMenuBg: "rgba(2, 132, 199, 0.12)",
+        activeMenuText: "#0284c7",
+        activeMenuBorder: "#0284c7"
+      },
+      3: {
+        primary: "#1a2332", // Stealth Cockpit Charcoal (Safety & Crisis Management)
+        primaryDark: "#121924",
+        primaryDarker: "#0b1018",
+        accent: "#0f766e", // Aviation System Teal / Safe Status
+        accentDark: "#115e59",
+        accentDarker: "#134e4a",
+        highlight: "#ccfbf1",
+        worksheet: "#1a2332",
+        worksheetDark: "#121924",
+        activeMenuBg: "rgba(15, 118, 110, 0.12)",
+        activeMenuText: "#0f766e",
+        activeMenuBorder: "#0f766e"
+      }
+    };
+
     const PROGRAMS_CONFIG = {
       ag: {
         id: "ag",
@@ -870,7 +915,7 @@
             name: "Module 1",
             subtitle: "Aerodrome",
             supertitle: "GSEA AAS SEMESTER 1 - MODULE 1: AERODROME",
-            ...MODULE_THEMES[1],
+            ...AAS_MODULE_THEMES[1],
             pages: createModulePages(1, 'aas')
           },
           {
@@ -878,7 +923,7 @@
             name: "Module 2",
             subtitle: "Aircraft and Aerodynamics",
             supertitle: "GSEA AAS SEMESTER 1 - MODULE 2: AIRCRAFT & AERODYNAMICS",
-            ...MODULE_THEMES[2],
+            ...AAS_MODULE_THEMES[2],
             pages: createModulePages(2, 'aas')
           },
           {
@@ -886,7 +931,7 @@
             name: "Module 3",
             subtitle: "Safety and Security",
             supertitle: "GSEA AAS SEMESTER 1 - MODULE 3: SAFETY & SECURITY",
-            ...MODULE_THEMES[3],
+            ...AAS_MODULE_THEMES[3],
             pages: createModulePages(3, 'aas')
           }
         ]
@@ -1344,12 +1389,18 @@
       }
 
       // Dynamic Canvas Backdrop and Floating Card Shadow based on active Module
-      const canvasThemes = {
+      const agCanvasThemes = {
         1: { bg: '#f5f2ee', bgClass: 'bg-canvas-mod1', shadowClass: 'shadow-card-mod1' },
         2: { bg: '#f1f5f9', bgClass: 'bg-canvas-mod2', shadowClass: 'shadow-card-mod2' },
         3: { bg: '#f1f5f2', bgClass: 'bg-canvas-mod3', shadowClass: 'shadow-card-mod3' }
       };
+      const aasCanvasThemes = {
+        1: { bg: '#f1f5f9', bgClass: 'bg-canvas-mod2', shadowClass: 'shadow-card-mod1' },
+        2: { bg: '#edf4fa', bgClass: 'bg-canvas-mod2', shadowClass: 'shadow-card-mod2' },
+        3: { bg: '#edf5f4', bgClass: 'bg-canvas-mod3', shadowClass: 'shadow-card-mod3' }
+      };
 
+      const canvasThemes = currentProgram === 'aas' ? aasCanvasThemes : agCanvasThemes;
       const cTheme = canvasThemes[mod.id] || canvasThemes[1];
       document.body.style.backgroundColor = cTheme.bg;
       document.body.classList.remove('bg-canvas-mod1', 'bg-canvas-mod2', 'bg-canvas-mod3');

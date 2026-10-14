@@ -649,6 +649,9 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
   }
+  .border-\[\#0d1724\] {
+    border-color: #0d1724;
+  }
   .border-\[\#1f2937\] {
     border-color: #1f2937;
   }
@@ -790,6 +793,9 @@
   .bg-\[\#64748b\] {
     background-color: #64748b;
   }
+  .bg-\[\#152438\] {
+    background-color: #152438;
+  }
   .bg-\[\#374151\] {
     background-color: #374151;
   }
@@ -798,6 +804,9 @@
   }
   .bg-\[\#d6a555\] {
     background-color: #d6a555;
+  }
+  .bg-\[\#d97706\] {
+    background-color: #d97706;
   }
   .bg-amber-50 {
     background-color: var(--color-amber-50);
@@ -1200,6 +1209,9 @@
     --tw-tracking: var(--tracking-widest);
     letter-spacing: var(--tracking-widest);
   }
+  .text-\[\#0d1724\] {
+    color: #0d1724;
+  }
   .text-\[\#87ac6e\] {
     color: #87ac6e;
   }
@@ -1212,6 +1224,9 @@
   .text-\[\#60854b\] {
     color: #60854b;
   }
+  .text-\[\#152438\] {
+    color: #152438;
+  }
   .text-\[\#a85640\] {
     color: #a85640;
   }
@@ -1221,6 +1236,9 @@
   .text-\[\#d6a555\] {
     color: #d6a555;
   }
+  .text-\[\#d97706\] {
+    color: #d97706;
+  }
   .text-\[\#e9f6ff\] {
     color: #e9f6ff;
   }
@@ -1229,6 +1247,9 @@
   }
   .text-\[\#f2fde0\] {
     color: #f2fde0;
+  }
+  .text-\[\#fef3c7\] {
+    color: #fef3c7;
   }
   .text-\[\#fef39e\] {
     color: #fef39e;
@@ -1488,6 +1509,9 @@
     .group-hover\:text-\[\#a85640\]:is(:where(.group):hover *) {
       color: #a85640;
     }
+    .group-hover\:text-\[\#d97706\]:is(:where(.group):hover *) {
+      color: #d97706;
+    }
     .group-hover\:text-slate-900:is(:where(.group):hover *) {
       color: var(--color-slate-900);
     }
@@ -1515,6 +1539,9 @@
     }
     .hover\:bg-\[\#729759\]:hover {
       background-color: #729759;
+    }
+    .hover\:bg-\[\#b45309\]:hover {
+      background-color: #b45309;
     }
     .hover\:bg-\[\#bf8f40\]:hover {
       background-color: #bf8f40;
@@ -1627,6 +1654,9 @@
   }
   .active\:bg-\[\#496f92\]:active {
     background-color: #496f92;
+  }
+  .active\:bg-\[\#92400e\]:active {
+    background-color: #92400e;
   }
   .active\:bg-\[\#334155\]:active {
     background-color: #334155;
