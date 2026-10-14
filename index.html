@@ -3704,133 +3704,30 @@
             </p>
           </div>
 
-          <!-- Interactive Filters Strip (Course & FE Switchers) -->
+          <!-- Interactive Filters Strip (Course Track Switcher) -->
           <div class="bg-white border border-slate-200 rounded-xl p-3 sm:p-4 shadow-2xs space-y-3">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
               <!-- Course Selector -->
               <div>
-                <span class="block text-[10px] font-black uppercase tracking-wider text-slate-400 mb-1.5">Select Course Track:</span>
+                <span class="block text-[10px] font-black uppercase tracking-wider text-slate-400 mb-1.5">Select Course Track Matrix:</span>
                 <div class="inline-flex rounded-lg border border-slate-200 p-0.5 bg-slate-50">
-                  <button type="button" onclick="setAdminRotaCourse('ag')" class="px-3 py-1.5 rounded-md text-xs font-bold transition-all cursor-pointer ${activeCourseKey === 'ag' ? 'bg-slate-800 text-white shadow-xs' : 'text-slate-600 hover:text-slate-900'}">
+                  <button type="button" onclick="setAdminRotaCourse('ag')" class="px-3.5 py-1.5 rounded-md text-xs font-bold transition-all cursor-pointer ${activeCourseKey === 'ag' ? 'bg-slate-800 text-white shadow-xs' : 'text-slate-600 hover:text-slate-900'}">
                     General English (AG • LV101E)
                   </button>
-                  <button type="button" onclick="setAdminRotaCourse('aas')" class="px-3 py-1.5 rounded-md text-xs font-bold transition-all cursor-pointer ${activeCourseKey === 'aas' ? 'bg-orange-600 text-white shadow-xs' : 'text-slate-600 hover:text-slate-900'}">
+                  <button type="button" onclick="setAdminRotaCourse('aas')" class="px-3.5 py-1.5 rounded-md text-xs font-bold transition-all cursor-pointer ${activeCourseKey === 'aas' ? 'bg-orange-600 text-white shadow-xs' : 'text-slate-600 hover:text-slate-900'}">
                     Aeronautical English (AAS • LV121E)
                   </button>
                 </div>
               </div>
 
-              <!-- FE Selector -->
-              <div>
-                <span class="block text-[10px] font-black uppercase tracking-wider text-slate-400 mb-1.5">Select Evaluation Milestone:</span>
-                <div class="inline-flex rounded-lg border border-slate-200 p-0.5 bg-slate-50">
-                  <button type="button" onclick="setAdminRotaFe(1)" class="px-3 py-1.5 rounded-md text-xs font-bold transition-all cursor-pointer ${activeFeNum === 1 ? 'bg-amber-600 text-white shadow-xs' : 'text-slate-600 hover:text-slate-900'}">
-                    FE1 (Week 48)
-                  </button>
-                  <button type="button" onclick="setAdminRotaFe(2)" class="px-3 py-1.5 rounded-md text-xs font-bold transition-all cursor-pointer ${activeFeNum === 2 ? 'bg-amber-600 text-white shadow-xs' : 'text-slate-600 hover:text-slate-900'}">
-                    FE2 (Week 03)
-                  </button>
-                  <button type="button" onclick="setAdminRotaFe(3)" class="px-3 py-1.5 rounded-md text-xs font-bold transition-all cursor-pointer ${activeFeNum === 3 ? 'bg-amber-600 text-white shadow-xs' : 'text-slate-600 hover:text-slate-900'}">
-                    FE3 (Week 08)
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <!-- Active Selection Header Banner -->
-            <div class="pt-2.5 border-t border-slate-100 flex flex-wrap items-center justify-between gap-2 text-xs">
-              <div class="flex items-center gap-2">
-                <span class="px-2 py-0.5 rounded font-mono font-black text-white text-[11px]" style="background-color: ${activeCourseKey === 'ag' ? theme.primary : theme.accent};">
+              <!-- Course Info Badge -->
+              <div class="flex flex-wrap items-center gap-2 text-xs">
+                <span class="px-2.5 py-1 rounded font-mono font-black text-white text-[11px]" style="background-color: ${activeCourseKey === 'ag' ? theme.primary : theme.accent};">
                   ${courseSched.code}
                 </span>
                 <span class="font-bold text-slate-800">${courseSched.name}</span>
                 <span class="text-slate-400">•</span>
                 <span class="font-semibold text-slate-600">${courseSched.dayTime}</span>
-              </div>
-              <div class="flex items-center gap-2">
-                <span class="px-2 py-0.5 rounded bg-amber-100 text-amber-900 border border-amber-200 font-bold text-[11px]">
-                  ${feData.title} (${feData.week})
-                </span>
-                <span class="text-slate-500 font-medium">${feData.dateStr}</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Active Rota Grid (Side-by-Side Cards) -->
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            <!-- Group A Rota Card -->
-            <div class="border border-slate-200 rounded-xl overflow-hidden bg-white shadow-2xs">
-              <div class="p-3 text-white flex items-center justify-between" style="background-color: ${theme.primary};">
-                <div>
-                  <h5 class="text-xs font-bold uppercase tracking-wider">Group A FE Tutorial Rota</h5>
-                  <p class="text-[11px] text-white/90">Teacher: <strong>${feData.groupA.teacher}</strong> • ${courseSched.dayTime.split(' ')[0]}</p>
-                </div>
-                <span class="text-[10px] bg-white/20 px-2.5 py-0.5 rounded-full font-mono font-bold">2 Pairs + 2 Trios • 4 Slots</span>
-              </div>
-              <div class="divide-y divide-slate-100 text-xs">
-                ${feData.groupA.slots.map(slot => `
-                  <div class="p-3 hover:bg-slate-50/70 transition-colors ${slot.type === 'trio' ? 'bg-amber-50/20 border-l-4 border-amber-500' : ''}">
-                    <div class="flex items-center justify-between mb-1.5">
-                      <div class="flex items-center gap-1.5">
-                        <span class="px-2 py-0.5 rounded font-mono text-[10px] font-black text-white" style="background-color: ${slot.type === 'trio' ? '#d97706' : theme.primary};">
-                          Slot ${slot.num} (30 min)
-                        </span>
-                        <span class="px-1.5 py-0.5 rounded text-[10px] font-bold ${slot.type === 'trio' ? 'bg-amber-100 text-amber-800 border border-amber-200' : 'bg-sky-50 text-sky-700 border border-sky-200'}">
-                          ${slot.type === 'trio' ? 'Trio (3 students)' : 'Pair (2 students)'}
-                        </span>
-                      </div>
-                      <span class="font-mono text-[11px] font-bold text-slate-700">${slot.time}</span>
-                    </div>
-                    <div class="space-y-0.5">
-                      <span class="font-bold text-slate-900 text-xs sm:text-sm block">
-                        ${renderSlotStudents(slot.students)}
-                      </span>
-                      <span class="text-[11px] ${slot.type === 'trio' ? 'text-amber-900' : 'text-slate-500'}">
-                        ${slot.type === 'trio' 
-                          ? 'Trio Presentation: 12 min (~4m each) + Q&amp;A: 6 min + Portfolio: 6 min + Feedback: 4 min' 
-                          : 'Pair Presentation: 12 min (6m each) + Q&amp;A: 6 min + Portfolio: 6 min + Feedback: 4 min'}
-                      </span>
-                    </div>
-                  </div>
-                `).join('')}
-              </div>
-            </div>
-
-            <!-- Group B Rota Card -->
-            <div class="border border-slate-200 rounded-xl overflow-hidden bg-white shadow-2xs">
-              <div class="p-3 text-white flex items-center justify-between" style="background-color: ${theme.accentDark || theme.accent};">
-                <div>
-                  <h5 class="text-xs font-bold uppercase tracking-wider">Group B FE Tutorial Rota</h5>
-                  <p class="text-[11px] text-white/90">Teacher: <strong>${feData.groupB.teacher}</strong> • ${courseSched.dayTime.split(' ')[0]}</p>
-                </div>
-                <span class="text-[10px] bg-white/20 px-2.5 py-0.5 rounded-full font-mono font-bold">3 Pairs + 1 Trio • 4 Slots</span>
-              </div>
-              <div class="divide-y divide-slate-100 text-xs">
-                ${feData.groupB.slots.map(slot => `
-                  <div class="p-3 hover:bg-slate-50/70 transition-colors ${slot.type === 'trio' ? 'bg-amber-50/20 border-l-4 border-amber-500' : ''}">
-                    <div class="flex items-center justify-between mb-1.5">
-                      <div class="flex items-center gap-1.5">
-                        <span class="px-2 py-0.5 rounded font-mono text-[10px] font-black text-white" style="background-color: ${slot.type === 'trio' ? '#d97706' : (theme.accentDark || theme.accent)};">
-                          Slot ${slot.num} (30 min)
-                        </span>
-                        <span class="px-1.5 py-0.5 rounded text-[10px] font-bold ${slot.type === 'trio' ? 'bg-amber-100 text-amber-800 border border-amber-200' : 'bg-sky-50 text-sky-700 border border-sky-200'}">
-                          ${slot.type === 'trio' ? 'Trio (3 students)' : 'Pair (2 students)'}
-                        </span>
-                      </div>
-                      <span class="font-mono text-[11px] font-bold text-slate-700">${slot.time}</span>
-                    </div>
-                    <div class="space-y-0.5">
-                      <span class="font-bold text-slate-900 text-xs sm:text-sm block">
-                        ${renderSlotStudents(slot.students)}
-                      </span>
-                      <span class="text-[11px] ${slot.type === 'trio' ? 'text-amber-900' : 'text-slate-500'}">
-                        ${slot.type === 'trio' 
-                          ? 'Trio Presentation: 12 min (~4m each) + Q&amp;A: 6 min + Portfolio: 6 min + Feedback: 4 min' 
-                          : 'Pair Presentation: 12 min (6m each) + Q&amp;A: 6 min + Portfolio: 6 min + Feedback: 4 min'}
-                      </span>
-                    </div>
-                  </div>
-                `).join('')}
               </div>
             </div>
           </div>
