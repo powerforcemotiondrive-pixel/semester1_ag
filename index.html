@@ -777,12 +777,15 @@
         },
         {
           tag: `Module ${modNumber} • Focus`,
-          title: isAas ? "DDRS - Aerodrome Environmental & Social Framework" : "DDRS - Framework & Core Principles",
+          title: isAas 
+            ? (modNumber === 1 ? "DDRS - Aerodrome Environmental & Social Framework" : modNumber === 2 ? "DDRS - Aircraft Decarbonization & Eco-Design" : "DDRS - Safety Culture & Ethical Operations")
+            : "DDRS - Framework & Core Principles",
           description: isAas
             ? "<strong>Definition:</strong> DDRS (Sustainable Development & Social Responsibility) in aviation represents sustainable aerodrome operations, emissions reduction, noise mitigation, and ethical workforce standards.<br><br><strong>Key areas covered:</strong> Airport decarbonization, green taxiing, SAF distribution infrastructure, and community acoustic protection.<br><br><strong>Why we discuss DDRS in English:</strong> Communicating airport sustainability initiatives in international English prepares aerospace professionals for global regulatory compliance and industry leadership."
             : "<strong>Definition:</strong> DDRS (Sustainable Development & Social Responsibility) is the framework linking environmental protection, social fairness, and ethical decision-making in modern organizations.<br><br><strong>Key areas covered:</strong> Reducing carbon footprints, community wellbeing and inclusion, and responsible innovation.<br><br><strong>Why we discuss DDRS in English:</strong> Discussing DDRS topics builds the vocabulary, critical thinking, and communication skills you need to talk about global environmental and social challenges in professional English.",
-          detailsUrl: `ddrs${modNumber}.html`,
-          imageUrl: images.ddrs
+          detailsUrl: isAas ? "" : `ddrs${modNumber}.html`,
+          imageUrl: images.ddrs,
+          isMuted: isAas
         }
       ];
     };
@@ -1429,15 +1432,29 @@
         const item = document.createElement('button');
         item.type = 'button';
         item.setAttribute('data-card-idx', idx);
-        item.setAttribute('aria-label', `Navigate to ${page.title}`);
-        item.innerHTML = `
-          <div class="flex items-center gap-2 min-w-0 pr-1 pointer-events-none">
-            <span class="flight-strip-badge font-mono text-[10px] font-bold px-1.5 py-0.5 rounded transition-all">0${idx + 1}</span>
-            <span class="flight-strip-title truncate text-xs transition-all pointer-events-none">${page.title}</span>
-          </div>
-          <svg class="flight-strip-chevron w-3.5 h-3.5 shrink-0 opacity-40 transition-all pointer-events-none" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
-        `;
-        item.addEventListener('click', () => renderCard(idx));
+
+        if (page.isMuted) {
+          item.setAttribute('aria-label', `${page.title} (Muted)`);
+          item.setAttribute('disabled', 'true');
+          item.className = "flight-strip-card w-full text-left px-2.5 py-2 rounded-lg text-xs font-medium flex items-center justify-between border border-slate-200/60 bg-slate-100/60 text-slate-400 cursor-not-allowed opacity-60 select-none";
+          item.innerHTML = `
+            <div class="flex items-center gap-2 min-w-0 pr-1 pointer-events-none">
+              <span class="flight-strip-badge font-mono text-[10px] font-bold px-1.5 py-0.5 rounded bg-slate-200 text-slate-400 border border-slate-300/50">0${idx + 1}</span>
+              <span class="flight-strip-title truncate text-xs text-slate-400 font-medium pointer-events-none">${page.title}</span>
+            </div>
+            <span class="text-[9px] font-mono uppercase tracking-wider font-semibold px-1.5 py-0.5 rounded bg-slate-200 text-slate-500 border border-slate-300/60 shrink-0">Muted</span>
+          `;
+        } else {
+          item.setAttribute('aria-label', `Navigate to ${page.title}`);
+          item.innerHTML = `
+            <div class="flex items-center gap-2 min-w-0 pr-1 pointer-events-none">
+              <span class="flight-strip-badge font-mono text-[10px] font-bold px-1.5 py-0.5 rounded transition-all">0${idx + 1}</span>
+              <span class="flight-strip-title truncate text-xs transition-all pointer-events-none">${page.title}</span>
+            </div>
+            <svg class="flight-strip-chevron w-3.5 h-3.5 shrink-0 opacity-40 transition-all pointer-events-none" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+          `;
+          item.addEventListener('click', () => renderCard(idx));
+        }
         menuEl.appendChild(item);
       });
       updateMenu(currentIndex);
@@ -1450,6 +1467,9 @@
       const mod = modulesData[currentModuleIndex];
 
       items.forEach((item, idx) => {
+        const page = mod.pages && mod.pages[idx];
+        if (page && page.isMuted) return;
+
         const isActive = idx === activeIdx;
         const badge = item.querySelector('.flight-strip-badge');
         const title = item.querySelector('.flight-strip-title');
@@ -1581,8 +1601,19 @@
       const mod = modulesData[currentModuleIndex];
       const pages = mod.pages;
       if (idx < 0 || idx >= pages.length) return;
-      currentIndex = idx;
 
+      if (pages[idx] && pages[idx].isMuted) {
+        let targetIdx = idx - 1;
+        while (targetIdx >= 0 && pages[targetIdx] && pages[targetIdx].isMuted) {
+          targetIdx--;
+        }
+        if (targetIdx >= 0) {
+          renderCard(targetIdx);
+          return;
+        }
+      }
+
+      currentIndex = idx;
       const page = pages[currentIndex];
 
       // Update card title
@@ -1714,12 +1745,15 @@
         imageContainer.classList.add('hidden');
       }
 
-      document.getElementById('counter-badge').textContent = `${currentIndex + 1} of ${pages.length}`;
+      const accessiblePages = pages.filter(p => !p.isMuted);
+      const isNextDisabled = (currentIndex === pages.length - 1) || (pages[currentIndex + 1] && pages[currentIndex + 1].isMuted);
+
+      document.getElementById('counter-badge').textContent = `${currentIndex + 1} of ${accessiblePages.length}`;
       document.getElementById('deck-title').textContent = page.title;
       document.getElementById('footer-status').textContent = `Active: ${mod.name} - ${page.title}`;
 
       document.getElementById('prev-btn').disabled = (currentIndex === 0);
-      document.getElementById('next-btn').disabled = (currentIndex === pages.length - 1);
+      document.getElementById('next-btn').disabled = isNextDisabled;
 
       updateMenu(currentIndex);
       try {
@@ -1739,6 +1773,7 @@
       const mod = modulesData[currentModuleIndex];
       const newIndex = currentIndex + direction;
       if (newIndex >= 0 && newIndex < mod.pages.length) {
+        if (mod.pages[newIndex] && mod.pages[newIndex].isMuted) return;
         renderCard(newIndex);
       }
     }
@@ -1888,7 +1923,7 @@
 
       const progConfig = PROGRAMS_CONFIG[modalState.program] || PROGRAMS_CONFIG.ag;
 
-      if (modalState.sessionNum > 4 || tabKey === 'ddrs') {
+      if (modalState.program !== 'aas' && (modalState.sessionNum > 4 || tabKey === 'ddrs')) {
         if (ddrsTabBtn) ddrsTabBtn.classList.remove('hidden');
         tagEl.textContent = `${progConfig.code} Module ${modalState.modNum} • Focus`;
         titleEl.textContent = "DDRS Regulatory Framework";
