@@ -5751,19 +5751,19 @@
           "videos": [
             {
               "title": "Video 1: Armed Pilots & Cockpit Defense",
-              "watchUrl": "https://www.youtube.com/watch?v=yYyM3q8o1_4",
+              "watchUrl": "https://www.youtube.com/watch?v=udS812jbAiE",
               "tag": "Security & Policy",
-              "videoId": "yYyM3q8o1_4",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/yYyM3q8o1_4",
+              "videoId": "udS812jbAiE",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/udS812jbAiE",
               "caption": "Focus: Examine the legal debates, psychological screening, and operational safety rules of the Federal Flight Deck Officer (FFDO) armed pilot program."
             },
             {
-              "title": "Video 2: Low-Cost Turnaround Efficiency",
-              "watchUrl": "https://www.youtube.com/watch?v=0h9V6-3y9s4",
+              "title": "Video 2: Aircraft Turnaround Efficiency",
+              "watchUrl": "https://www.youtube.com/watch?v=EiKeGmkX6fY",
               "tag": "Airline Operations",
-              "videoId": "0h9V6-3y9s4",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/0h9V6-3y9s4",
-              "caption": "Focus: Analyze ground handling coordination, boarding speed techniques, and ancillary revenue strategies that keep budget airlines profitable."
+              "videoId": "EiKeGmkX6fY",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/EiKeGmkX6fY",
+              "caption": "Focus: Analyze ramp handling coordination, turnaround sequence choreography, refueling protocols, and rapid passenger deplaning/boarding."
             },
             {
               "title": "Video 3: The Future of Aviation Propulsion",
