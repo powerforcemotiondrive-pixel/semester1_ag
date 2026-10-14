@@ -39,6 +39,10 @@
       background-image: none !important;
     }
 
+    #card-worksheet-btn.hidden,
+    .hidden {
+      display: none !important;
+    }
 
     /* Dynamic canvas backdrop & tactile textured background behind the main frame */
     body {
@@ -370,7 +374,7 @@
                 <div class="flex flex-wrap items-center justify-between gap-3">
                   <h2 id="card-heading" class="text-xl sm:text-2xl font-black tracking-tight" style="color: #374151;"></h2>
                   <!-- Option C: Top Session Document / Worksheet Pill -->
-                  <a id="card-worksheet-btn" href="#" target="_blank" rel="noopener noreferrer" class="hidden shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-100 hover:bg-slate-200/90 text-slate-700 hover:text-slate-900 border border-slate-300/80 shadow-2xs hover:shadow-sm hover:-translate-y-[1px] active:translate-y-0 transition-all select-none no-underline">
+                  <a id="card-worksheet-btn" href="#" target="_blank" rel="noopener noreferrer" style="display: none;" class="hidden shrink-0 items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-100 hover:bg-slate-200/90 text-slate-700 hover:text-slate-900 border border-slate-300/80 shadow-2xs hover:shadow-sm hover:-translate-y-[1px] active:translate-y-0 transition-all select-none no-underline">
                     <svg class="w-3.5 h-3.5 text-slate-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
                     <span>Worksheet PDF ↗</span>
                   </a>
@@ -1817,10 +1821,14 @@
 
         if (!isDDRSOrAdmin && page.pdfUrl && page.pdfUrl.trim() !== "" && !page.pdfUrl.includes("INSERT_YOUR_PDF_LINK_HERE")) {
           topWorksheetBtn.href = page.pdfUrl;
+          topWorksheetBtn.style.display = 'inline-flex';
           topWorksheetBtn.classList.remove('hidden');
+          topWorksheetBtn.classList.add('inline-flex');
         } else {
           topWorksheetBtn.href = "#";
+          topWorksheetBtn.style.display = 'none';
           topWorksheetBtn.classList.add('hidden');
+          topWorksheetBtn.classList.remove('inline-flex');
         }
       }
 
