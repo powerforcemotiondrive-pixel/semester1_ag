@@ -370,9 +370,6 @@
               <!-- Image Container: Direction A Widescreen Avionics Display (16:10 / 4:3) -->
               <div id="image-container" class="w-full sm:w-60 lg:w-64 h-44 sm:h-48 md:h-52 rounded-2xl shrink-0 overflow-hidden shadow-md border border-slate-200/90 relative hidden group bg-slate-100">
                 <img id="card-image" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" alt="Session graphic">
-                <div id="card-image-badge" class="absolute bottom-2.5 right-2.5 bg-black/65 backdrop-blur-xs text-white text-[10px] font-mono font-bold px-2.5 py-0.5 rounded-md border border-white/20 select-none shadow-xs">
-                  SESSION 01
-                </div>
               </div>
             </div>
 
@@ -1412,12 +1409,11 @@
                   ${areasText}
                 </p>
               </div>
-              <div class="px-3.5 py-2.5 bg-slate-100/80 border border-slate-200/90 rounded-xl flex flex-wrap items-center justify-between gap-2 shadow-2xs">
-                <div class="flex items-center gap-2 min-w-0">
-                  <span class="w-2 h-2 rounded-full bg-teal-500 shrink-0"></span>
-                  <span class="text-xs text-slate-800 font-semibold">${whyText}</span>
-                </div>
-                <span class="font-mono font-black text-[10px] px-2 py-0.5 rounded-md bg-teal-100 text-teal-900 shrink-0">FRAMEWORK</span>
+              <div class="p-3 bg-emerald-50/70 border border-emerald-200/80 rounded-xl flex items-start gap-2.5 shadow-2xs">
+                <span class="text-[10px] font-mono font-black uppercase tracking-wider px-2 py-0.5 rounded-md bg-emerald-200/90 text-emerald-900 shrink-0 mt-0.5">Framework</span>
+                <p class="text-xs sm:text-sm text-emerald-950 font-medium leading-relaxed">
+                  ${whyText}
+                </p>
               </div>
             </div>
           `;
@@ -1597,13 +1593,9 @@
 
       const imageContainer = document.getElementById('image-container');
       const imgEl = document.getElementById('card-image');
-      const imgBadge = document.getElementById('card-image-badge');
 
       if (page.imageUrl && page.imageUrl.trim() !== "") {
         imgEl.src = page.imageUrl;
-        if (imgBadge) {
-          imgBadge.textContent = page.detailsUrl ? "DDRS FOCUS" : `SESSION 0${currentIndex + 1}`;
-        }
         imageContainer.classList.remove('hidden');
       } else {
         imgEl.src = "";
