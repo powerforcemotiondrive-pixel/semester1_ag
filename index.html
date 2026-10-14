@@ -279,7 +279,7 @@
       <!-- Header bar -->
       <header id="deck-header" class="textured-surface bg-[#374151] text-white px-4 py-4 sm:px-6 sm:py-5 flex flex-wrap items-center justify-between gap-3 border-b border-[#1f2937] shrink-0 relative overflow-hidden">
         <div id="deck-header-info" class="flex items-center space-x-3 sm:space-x-4">
-          <div id="deck-icon-box" class="bg-[#64748b] p-2.5 rounded-lg text-white shadow-md flex items-center justify-center">
+          <div id="deck-icon-box" class="bg-[#ea580c] p-2.5 rounded-lg text-white shadow-md flex items-center justify-center">
             <!-- Theme Icon -->
             <svg width="20" height="20" style="width: 20px; height: 20px;" class="w-5 h-5 text-white shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
@@ -297,7 +297,7 @@
           <button id="prev-btn" class="flex items-center space-x-1 bg-[#1f2937] hover:bg-[#111827] active:bg-[#0f172a] text-slate-100 px-3 py-1.5 rounded-lg font-semibold text-xs transition-all border border-[#111827] disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer shadow-xs hover:shadow-sm hover:-translate-y-[1px] active:translate-y-0" type="button">
             <span class="pointer-events-none">Previous</span>
           </button>
-          <button id="next-btn" class="flex items-center space-x-1 bg-[#64748b] hover:bg-[#475569] active:bg-[#334155] text-white px-3.5 py-1.5 rounded-lg font-semibold text-xs transition-all shadow-xs hover:shadow-sm disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer hover:-translate-y-[1px] active:translate-y-0" type="button">
+          <button id="next-btn" class="flex items-center space-x-1 bg-[#ea580c] hover:bg-[#c2410c] active:bg-[#9a3412] text-white px-3.5 py-1.5 rounded-lg font-semibold text-xs transition-all shadow-xs hover:shadow-sm disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer hover:-translate-y-[1px] active:translate-y-0" type="button">
             <span class="pointer-events-none">Next</span>
           </button>
         </div>
@@ -792,18 +792,18 @@
 
     const MODULE_THEMES = {
       1: {
-        primary: "#2d3748", // Deep Transit Slate (Travel, Transport & Leisure)
-        primaryDark: "#1a202c",
-        primaryDarker: "#0f141c",
-        accent: "#64748b",
-        accentDark: "#475569",
-        accentDarker: "#334155",
-        highlight: "#f1f5f9",
-        worksheet: "#2d3748",
-        worksheetDark: "#1a202c",
-        activeMenuBg: "rgba(100, 116, 139, 0.12)",
-        activeMenuText: "#334155",
-        activeMenuBorder: "#64748b"
+        primary: "#1e293b", // Deep Transit Slate (Travel, Transport & Leisure)
+        primaryDark: "#0f172a",
+        primaryDarker: "#090d16",
+        accent: "#ea580c", // Vibrant Sunset Coral / Warm Terracotta
+        accentDark: "#c2410c",
+        accentDarker: "#9a3412",
+        highlight: "#ffedd5", // Warm Apricot Glow
+        worksheet: "#1e293b",
+        worksheetDark: "#0f172a",
+        activeMenuBg: "rgba(234, 88, 12, 0.12)",
+        activeMenuText: "#c2410c",
+        activeMenuBorder: "#ea580c"
       },
       2: {
         primary: "#1b382b", // Deep Evergreen Forest (Weather & Environment)
@@ -1399,7 +1399,7 @@
 
       // Dynamic Canvas Backdrop and Floating Card Shadow based on active Module
       const agCanvasThemes = {
-        1: { bg: '#f5f2ee', bgClass: 'bg-canvas-mod1', shadowClass: 'shadow-card-mod1' },
+        1: { bg: '#fffaf5', bgClass: 'bg-canvas-mod1', shadowClass: 'shadow-card-mod1' },
         2: { bg: '#f0fdf4', bgClass: 'bg-canvas-mod3', shadowClass: 'shadow-card-mod3' },
         3: { bg: '#f1f5f9', bgClass: 'bg-canvas-mod2', shadowClass: 'shadow-card-mod2' }
       };
