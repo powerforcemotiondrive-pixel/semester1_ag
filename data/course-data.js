@@ -5831,73 +5831,74 @@
             }
           ],
           "grammar": {
-            "title": "The Present Perfect in Aviation Operations",
+            "title": "Modal Verbs of Obligation, Permission & Prohibition",
             "badge": "B1\u2013B2 Grammar Focus",
-            "patternTitle": "Sentence Pattern",
-            "formula": "Subject + have / has + Past Participle (V3)",
-            "rulesTitle": "When to Use It",
+            "patternTitle": "Regulatory Formula",
+            "formula": "Subject + Modal / Semi-Modal + Base Verb (Infinitive)",
+            "rulesTitle": "Core Regulatory Rules",
             "rules": [
-              "<strong style=\"color: #1e293b;\">1. Recent actions with current impact:</strong> The action happened recently and its result determines the immediate flight status (<em>\"Ground staff have completed refueling, so the plane is ready for departure.\"</em>).",
-              "<strong style=\"color: #1e293b;\">2. Continuing industry trends:</strong> Started in the past and still true today, signaled by <span style=\"font-weight: 700; color: #c0684f;\">since</span> (+ starting point, e.g., <em>since 2010</em>) or <span style=\"font-weight: 700; color: #c0684f;\">for</span> (+ duration, e.g., <em>for twenty years</em>).",
-              "<strong style=\"color: #1e293b;\">3. Recent status updates:</strong> Signaled by words like <span style=\"font-weight: 600; color: #334155;\">already</span>, <span style=\"font-weight: 600; color: #334155;\">yet</span>, <span style=\"font-weight: 600; color: #334155;\">recently</span>, or <span style=\"font-weight: 600; color: #334155;\">just</span>."
+              "<strong style=\"color: #1e293b;\">1. Strict Obligation (Must / Have to / Be required to):</strong> Mandatory safety rules (<em>\"All commercial aircrew <strong>must carry</strong> government credentials\"</em> / <em>\"Passengers <strong>are required to follow</strong> crew instructions\"</em>).",
+              "<strong style=\"color: #1e293b;\">2. Strict Prohibition (Must not / May not / Be prohibited from):</strong> Unlawful actions (<em>\"Travelers <strong>are strictly prohibited from entering</strong> the flight deck without authorization\"</em>).",
+              "<strong style=\"color: #1e293b;\">3. Official Permission (May / Can / Be authorized to):</strong> Legal authorization (<em>\"Deputized Federal Flight Deck Officers <strong>are authorized to carry</strong> defensive equipment in flight\"</em>).",
+              "<strong style=\"color: #1e293b;\">4. Operational Recommendations (Should / Be advised to):</strong> Best practice guidelines (<em>\"Carriers <strong>should notify</strong> passengers of schedule revisions in advance\"</em>)."
             ],
-            "trap": "<strong>\u26a0\ufe0f The #1 Aviation Grammar Trap:</strong> Never use <em>have / has + V3</em> with a specific completed past time marker (such as <em>at 07:15 UTC</em>, <em>yesterday</em>, or <em>two hours ago</em>). When an exact finished time is given, always choose the <strong>Past Simple</strong>!",
-            "examplesTitle": "Aerodrome & Airline Examples",
+            "trap": "<strong>\u26a0\ufe0f TOEIC Part 5 Verb Pattern Alert:</strong> Pure modals (<em>must, may, should, can</em>) are always followed directly by the bare infinitive (no \"to\"). Regulatory semi-modals require <strong>to + verb</strong> (<em>is required to submit</em>, <em>is authorized to board</em>) or preposition + gerund (<em>prohibited from smoking</em>).",
+            "examplesTitle": "Aerodrome & Security Examples",
             "examples": [
-              "<em>\"Airports <strong>have introduced</strong> biometric facial recognition across international departure gates.\"</em>",
-              "<em>\"Airlines <strong>have reduced</strong> short-haul flights on routes where high-speed trains operate.\"</em>"
+              "<em>\"Flight attendants <strong>must verify</strong> that all overhead compartments are securely latched before taxi.\"</em>",
+              "<em>\"Under EU261 regulations, delayed travelers <strong>are entitled to receive</strong> meals and hotel accommodation.\"</em>"
             ]
           },
           "toeic": {
-            "stem": "The regional airline ________ several new noise abatement flight paths around the city over the past six months.",
+            "stem": "Under revised flight deck defense protocols, certified airline captains are officially authorized ________ defensive equipment exclusively inside the cockpit.",
             "options": [
               {
                 "letter": "A",
-                "text": "introduces"
+                "text": "carry"
               },
               {
                 "letter": "B",
-                "text": "was introduced"
+                "text": "to carry"
               },
               {
                 "letter": "C",
-                "text": "has introduced"
+                "text": "carrying"
               },
               {
                 "letter": "D",
-                "text": "will introduce"
+                "text": "carried"
               }
             ],
-            "correctLetter": "C",
-            "correctText": "has introduced",
-            "analysis": "The phrase \"over the past six months\" describes an action that started in the past and connects directly into the present, requiring the Present Perfect (has / have + past participle).",
-            "strategy": "Time markers like \"over the past [period]\", \"since [date]\", \"lately\", and \"so far\" are primary clues in TOEIC Part 5 that signal have / has + past participle."
+            "correctLetter": "B",
+            "correctText": "to carry",
+            "analysis": "The passive semi-modal construction \"be authorized + to-infinitive\" governs official permissions in workplace safety and TOEIC Part 5 grammar.",
+            "strategy": "Memorize the three regulatory verb patterns: (1) modal + bare verb, (2) be required/authorized + to + verb, and (3) be prohibited from + -ing."
           },
           "toeicQuestions": [
             {
-              "stem": "The regional airline ________ several new noise abatement flight paths around the city over the past six months.",
+              "stem": "Under revised flight deck defense protocols, certified airline captains are officially authorized ________ defensive equipment exclusively inside the cockpit.",
               "options": [
                 {
                   "letter": "A",
-                  "text": "introduces"
+                  "text": "carry"
                 },
                 {
                   "letter": "B",
-                  "text": "was introduced"
+                  "text": "to carry"
                 },
                 {
                   "letter": "C",
-                  "text": "has introduced"
+                  "text": "carrying"
                 },
                 {
                   "letter": "D",
-                  "text": "will introduce"
+                  "text": "carried"
                 }
               ],
-              "correctLetter": "C",
-              "correctText": "has introduced",
-              "analysis": "The phrase \"over the past six months\" describes an action starting in the past and continuing up to the present, requiring the Present Perfect.",
-              "strategy": "Primary clue: \"over the past [period]\" + have/has + V3."
+              "correctLetter": "B",
+              "correctText": "to carry",
+              "analysis": "The passive semi-modal construction \"be authorized + to-infinitive\" governs official permissions.",
+              "strategy": "Look for passive permission adjectives (authorized, permitted, allowed) which take to-infinitives."
             },
             {
               "stem": "All passenger carry-on baggage must ________ by security screening personnel before travelers enter the gate lounge.",
@@ -6006,436 +6007,429 @@
       "2": {
         "session": 2,
         "objectives": {
-          "title": "Session 2 - The Evolution of Transport & Sustainable Mobility Objectives",
-          "summary": "By the end of this session, you will be able to analyze multi-modal transport infrastructure, express complex cause and effect relationships, apply TOEIC workplace strategies, and formulate modal-shift recommendations.",
+          "title": "Session 2 Objectives - The Passenger Journey & Airfield Movement Areas",
+          "summary": "By the end of this session, you will be able to describe terminal passenger facilitation from landside to airside, navigate airport movement areas and taxiway guidance markings, explain the mathematics of runway numbering, and apply directional prepositions accurately in TOEIC Part 5.",
           "items": [
             {
               "num": 1,
-              "title": "Analyze Multi-Modal Transport (DDRS)",
-              "description": "Compare trains, flights, and road travel along a 600 km corridor, balancing travel time, emissions, and fair transport access for all regions."
+              "title": "Analyze Terminal Passenger Flow & Wayfinding",
+              "description": "Trace the step-by-step traveler journey through check-in kiosks, automated bag drops, security screening checkpoints, airside dwell areas, and boarding gates."
             },
             {
               "num": 2,
-              "title": "Express Cause, Effect & Comparisons (Grammar)",
-              "description": "Accurately use formal cause-and-effect words (owing to, as a result of) and double comparatives (The more..., the less...) in professional discussions."
+              "title": "Differentiate Airside Movement Areas",
+              "description": "Contrast the apron/ramp (ground handling, pushback tugs, marshallers, and FOD control) with the manoeuvring area (taxiways and runways strictly governed by ATC)."
             },
             {
               "num": 3,
-              "title": "Master TOEIC Workplace Strategies",
-              "description": "Identify high-frequency transport collocations and sentence patterns under timed reading conditions."
+              "title": "Decode Airfield Markings & Runway Designators",
+              "description": "Interpret yellow taxiway centerlines, mandatory runway-holding positions, and runway magnetic headings (09/27 pairs and L/C/R parallel designators)."
             },
             {
               "num": 4,
-              "title": "Resolve Real-World Mobility Dilemmas",
-              "description": "Review business travel routes and propose practical green travel options that balance time, cost, and carbon footprints."
-            },
-            {
-              "num": 5,
-              "title": "Track Formative Evaluation (FE) Readiness",
-              "description": "Build speaking fluency by practicing how to describe words and ideas without hesitating, and set study goals for Session 5."
-            },
-            {
-              "num": 6,
-              "title": "Integrate DD&RS Principles into Professional Travel",
-              "description": "Connect global travel scenarios to concepts of sustainable mobility, cultural respect, and responsible tourism."
-            },
-            {
-              "num": 7,
-              "title": "Prepare for the Class 5 Formative Evaluation (FE)",
-              "description": "Understand the exact assessment criteria\u2014vocabulary, fluency, grammar, and TOEIC-readiness\u2014for your Session 5 speaking evaluation, graded against official communication criteria."
+              "title": "Master Prepositions of Place, Direction & Movement",
+              "description": "Accurately deploy spatial (at, in, on) and dynamic (along, across, through, into) prepositions in aviation operational reports and TOEIC items."
             }
           ]
         },
         "lessonPlan": {
-          "title": "Session 2 Lesson Plan (2 Hours)",
-          "summary": "A 2-hour session investigating how travel has evolved, comparing trains and flights along key routes, cause-and-effect grammar, TOEIC reading practice, and vocabulary fluency games.",
+          "title": "Session 2 Lesson Plan - The Passenger Journey & Airfield Movement",
+          "summary": "A 2-hour session investigating terminal passenger flow architecture, airside apron operations, taxiway navigation, runway numbering systems, preposition clinics, and TOEIC diagnostics.",
           "items": [
             {
-              "time": "0-15",
-              "title": "Part 1: Warm-Up & Rapid Retrieval \u2014 The Timeline Clash (15 mins)",
-              "description": "In pairs, students analyze 4 historical transport phases (1830s steam railways, 1950s post-war jet/car boom, 1980s containerization, Present\u20132030+ electrification and SAF) to weigh economic gains against environmental costs."
+              "time": "20 min",
+              "title": "Landside to Airside: The Passenger Experience",
+              "description": "Analyzing terminal layout design, self-service kiosks, security wait-time bottlenecks, and the commercial dwell hour."
             },
             {
-              "time": "15-40",
-              "title": "Part 2: Media & Critical Analysis \u2014 The Multi-Modal Pitch (25 mins)",
-              "description": "Analyzing the European Commission's High-Speed Rail plan. Teams pitch trains vs. flights using travel time, total carbon footprint, and fair transport access for all regions."
+              "time": "30 min",
+              "title": "Apron Operations & Ground Movement Areas",
+              "description": "Exploring ramp logistics, pushback procedures, marshalling signals, FOD management, and manoeuvring area regulations."
             },
             {
-              "time": "40-60",
-              "title": "Part 3: Grammar in Context \u2014 Cause, Effect & Complex Comparison (20 mins)",
-              "description": "Replacing basic linkers with formal cause/result prepositions (owing to, as a consequence of, resulted in) and double comparatives (The more efficiently... the less...)."
+              "time": "25 min",
+              "title": "Runway Designators & Ground Markings Workshop",
+              "description": "Calculating magnetic runway numbers, reciprocal 180° thresholds, parallel runway letters, and holding point stop lines."
             },
             {
-              "time": "60-80",
-              "title": "Part 4: TOEIC Workplace Application (20 mins)",
-              "description": "Timed reading practice and transport vocabulary in Parts 5 & 7 (accelerate, owing to, sentence patterns, greenhouse gas emissions)."
+              "time": "25 min",
+              "title": "Grammar Clinic: Airport Prepositions in Action",
+              "description": "Interactive drills contrasting static positions (at, in, on) with traversal motion (across, along, through) in operational phraseology."
             },
             {
-              "time": "80-95",
-              "title": "Part 5: DDRS Case Discussion \u2014 The Decarbonisation Dilemma (15 mins)",
-              "description": "\"The ENAC Transit Audit\" \u2014 Auditing corporate travel dilemmas (50-minute domestic flights vs. 3h15 TGV producing 6\u20138x fewer emissions) and formulating spoken policy recommendations."
-            },
-            {
-              "time": "95-110",
-              "title": "Part 6: Vocabulary Speaking Game \u2014 Taboo (15 mins)",
-              "description": "45-second fluency game where students describe key concepts without saying forbidden words: Modal Shift, Carbon Footprint, High-Speed Rail, Lifecycle, and Sustainable Aviation Fuel (SAF)."
-            },
-            {
-              "time": "110-120",
-              "title": "Part 7: Class Wrap-Up & Self-Study Plan (10 mins)",
-              "description": "Review key learnings, note grammar to practice for Session 5, and review homework assignments."
+              "time": "20 min",
+              "title": "TOEIC Part 5 Diagnostic & Session Review",
+              "description": "Timed reading test on preposition traps, peer error analysis, vocabulary pronunciation practice, and portfolio logging."
             }
           ]
         },
         "revision": {
-          "title": "Session 2: Evolution of Transport",
-          "summary": "Review the 18 key terms for Evolution of Transport to build your fluency in discussions, professional reading, and TOEIC practice.",
+          "title": "Session 2 Revision - Passenger Flow & Airfield Movement Areas",
+          "summary": "Master the 18 key technical vocabulary terms covering passenger terminal flow, airside movement areas, ground markings, and runway numbering.",
           "terms": [
             {
               "num": "01",
-              "term": "Modal Shift",
-              "definition": "Encouraging travelers or cargo to switch from high-carbon transport (like cars or planes) to greener options (like trains or buses)."
+              "term": "Landside",
+              "definition": "The public areas of an airport terminal (ticketing, check-in, arrivals hall) accessible without a boarding pass."
             },
             {
               "num": "02",
-              "term": "High-Speed Rail (HSR)",
-              "definition": "Electrified passenger trains operating over 250 km/h, providing a low-carbon competitor to domestic flights."
+              "term": "Self-Service Kiosk",
+              "definition": "Automated touchscreens where passengers check in, print boarding passes, and generate baggage tags independently."
             },
             {
               "num": "03",
-              "term": "Life-Cycle Emissions",
-              "definition": "The total greenhouse gas emissions generated throughout vehicle manufacturing, operation, maintenance, and disposal."
+              "term": "Automated Bag Drop",
+              "definition": "A conveyor system where ticketed travelers scan luggage tags and deposit checked bags without agent help."
             },
             {
               "num": "04",
-              "term": "Territorial Equity",
-              "definition": "Ensuring that rural and remote areas have fair access to reliable, affordable public transport\u2014not just big cities."
+              "term": "Security Screening Checkpoint",
+              "definition": "The inspection point using metal detectors, body scanners, and X-ray machines to examine carry-on luggage."
             },
             {
               "num": "05",
-              "term": "Intermodal Hub",
-              "definition": "A transit node seamlessly integrating rail, metro, bus, shared mobility, and pedestrian corridors."
+              "term": "Airside",
+              "definition": "The secure airport zone beyond security, including departure lounges, duty-free retail, gates, and aircraft stands."
             },
             {
               "num": "06",
-              "term": "Decarbonization",
-              "definition": "The process of eliminating carbon dioxide emissions from transportation fuels and propulsion systems."
+              "term": "Dwell Time",
+              "definition": "The duration passengers spend in the terminal between clearing security and boarding, driving retail revenue."
             },
             {
               "num": "07",
-              "term": "Electrification",
-              "definition": "Converting transit lines from fossil fuels to electric power supplied by renewable grids."
+              "term": "Boarding Gate",
+              "definition": "The concourse doorway and service counter through which ticketed travelers present passes to board."
             },
             {
               "num": "08",
-              "term": "Active Mobility",
-              "definition": "Human-powered travel modes, primarily cycling and walking, producing zero operational emissions."
+              "term": "Jet Bridge (Airbridge)",
+              "definition": "An enclosed, movable telescopic bridge linking the airport departure gate directly to the airplane door."
             },
             {
               "num": "09",
-              "term": "Corridor Capacity",
-              "definition": "The maximum passenger or freight volume that a transit route can transport within a given timeframe."
+              "term": "Apron (Ramp)",
+              "definition": "The designated paved area where aircraft park to load passengers, refuel, load baggage, and undergo servicing."
             },
             {
               "num": "10",
-              "term": "Fleet Modernization",
-              "definition": "Systematic replacement of aging vehicles with energy-efficient, low-emission models."
+              "term": "Movement Area",
+              "definition": "The aerodrome surface comprising runways, taxiways, and aprons used for aircraft surface movement."
             },
             {
               "num": "11",
-              "term": "Containerisation",
-              "definition": "The standardized shipping container system developed in the late 20th century that transformed global trade."
+              "term": "Manoeuvring Area",
+              "definition": "The runways and taxiways strictly controlled by the air traffic tower, excluding terminal aprons."
             },
             {
               "num": "12",
-              "term": "Point-to-Point Transit",
-              "definition": "A network architecture where vehicles travel directly between origin and destination without intermediate hubs."
+              "term": "Pushback Tug",
+              "definition": "A specialized heavy vehicle used to push aircraft backward out of their parking stands into taxi lanes."
             },
             {
               "num": "13",
-              "term": "Sustainable Aviation Fuel (SAF)",
-              "definition": "Non-petroleum-based drop-in aviation fuel derived from waste oils, agricultural residues, or captured carbon."
+              "term": "Marshaller",
+              "definition": "Ground handling personnel using illuminated wands to guide pilots precisely into an apron parking stand."
             },
             {
               "num": "14",
-              "term": "Traffic Congestion",
-              "definition": "Gridlock conditions when traffic volume exceeds roadway capacity, causing delays and excess idling emissions."
+              "term": "Foreign Object Debris (FOD)",
+              "definition": "Loose items, trash, or metal fragments on taxiways or runways capable of damaging aircraft engines or tires."
             },
             {
               "num": "15",
-              "term": "Micro-Mobility",
-              "definition": "Small, lightweight transportation devices operating at low speeds, such as e-scooters and e-bikes."
+              "term": "Taxiway Centerline",
+              "definition": "A solid yellow line painted on taxiway pavement that pilots align with nose gear to ensure wingtip obstacle clearance."
             },
             {
               "num": "16",
-              "term": "Induced Demand",
-              "definition": "The phenomenon where increasing roadway capacity results in increased vehicular traffic rather than congestion relief."
+              "term": "Runway-Holding Position",
+              "definition": "A mandatory painted marking (two solid and two dashed yellow lines) and red sign where aircraft must stop short."
             },
             {
               "num": "17",
-              "term": "Modal Split",
-              "definition": "The percentage of total passenger journeys completed using each transport mode within a given region."
+              "term": "Runway Incursion",
+              "definition": "Any unauthorized presence of an aircraft, vehicle, or pedestrian on a protected runway surface designated for takeoff or landing."
             },
             {
               "num": "18",
-              "term": "Low-Emission Zone (LEZ)",
-              "definition": "A designated geographic area where access by polluting vehicles is restricted or subject to penalty fees."
+              "term": "Runway Designator (Numbering)",
+              "definition": "The two-digit number painted on a runway end representing its magnetic azimuth rounded to the nearest 10 degrees."
             }
           ]
         },
         "materials": {
           "videos": [
             {
-              "title": "Video 1: Transport Evolution",
-              "watchUrl": "https://www.youtube.com/watch?v=FaLCQo8NJFA",
-              "tag": "History & Shifts",
-              "videoId": "FaLCQo8NJFA",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/FaLCQo8NJFA",
-              "caption": "Focus: Trace key technological milestones from early steam and combustion engines to interconnected multimodal hubs."
+              "title": "Video 1: Passenger Flow Architecture",
+              "watchUrl": "https://www.youtube.com/watch?v=oeJcvKZG2w8",
+              "tag": "Landside Design",
+              "videoId": "oeJcvKZG2w8",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/oeJcvKZG2w8",
+              "caption": "Focus: Examine terminal wayfinding psychology, queue mitigation at security checkpoints, and concourse commercial layouts shaping the airside dwell hour."
             },
             {
-              "title": "Video 2: High-Speed Rail",
-              "watchUrl": "https://www.youtube.com/watch?v=KrCnJjW0qp0",
-              "tag": "Modal Shift",
-              "videoId": "KrCnJjW0qp0",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/KrCnJjW0qp0",
-              "caption": "Focus: The European Commission's plan to expand high-speed rail corridors, reduce regional flight emissions, and drive modal shift across the EU."
+              "title": "Video 2: Taxi & Line-Up Procedures",
+              "watchUrl": "https://www.youtube.com/watch?v=XeUxBxDUGCk",
+              "tag": "Airside Taxi",
+              "videoId": "XeUxBxDUGCk",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/XeUxBxDUGCk",
+              "caption": "Focus: Follow cockpit taxi procedures from gate stand to runway: yellow centerline tracking, taxiway speed rules, holding short at threshold lines, and lining up."
             },
             {
-              "title": "Video 3: Future Decarbonization",
-              "watchUrl": "https://www.youtube.com/watch?v=7KkBE0HgNJQ",
-              "tag": "Case Study",
-              "videoId": "7KkBE0HgNJQ",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/7KkBE0HgNJQ",
-              "caption": "Focus: Analyze fleet renewal economics, hydrogen/electric propulsion, and the business case for sustainable corporate mobility."
+              "title": "Video 3: Runway Numbers & Markings",
+              "watchUrl": "https://www.youtube.com/watch?v=H701DOaQvDM",
+              "tag": "Ground Guidance",
+              "videoId": "H701DOaQvDM",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/H701DOaQvDM",
+              "caption": "Focus: Learn how magnetic bearings determine runway numbers (09/27), parallel designations (L, C, R), and the meaning of piano key threshold markings."
+            }
+          ],
+          "articles": [
+            {
+              "topic": "Terminal Facilitation",
+              "sourceTag": "ACI World Insights",
+              "heading": "Airport Passenger Journey Continuity: Building Trust Across Touchpoints",
+              "snippet": "Airports Council International explores integrated passenger flows from curb to gate, evaluating self-service bag drop, biometric checkpoints, and dwell time optimization in international terminals.",
+              "readTime": "Estimated read: 6 mins",
+              "url": "https://blog.aci.aero/customer-experience/airport-passenger-journey-continuity/"
+            },
+            {
+              "topic": "Aerodrome Infrastructure",
+              "sourceTag": "SKYbrary Aviation Safety",
+              "heading": "Movement Area Safety & Aerodrome Operations (ICAO Annex 14)",
+              "snippet": "A regulatory breakdown contrasting the manoeuvring area (runways and taxiways strictly controlled by ATC Tower/Ground) with the apron, establishing operational boundaries and safety management protocols.",
+              "readTime": "Estimated read: 7 mins",
+              "url": "https://skybrary.aero/articles/movement-area"
+            },
+            {
+              "topic": "Navigation Technology",
+              "sourceTag": "Simple Flying Tech",
+              "heading": "How Do Airports Number Their Runways? A Technical Guide",
+              "snippet": "An accessible engineering explanation of magnetic compass azimuths, 180-degree reciprocal ends, parallel runway letters, and why shifting magnetic poles force airports to repaint numbers over time.",
+              "readTime": "Estimated read: 5 mins",
+              "url": "https://simpleflying.com/runways-naming/"
+            },
+            {
+              "topic": "Surface Safety",
+              "sourceTag": "SKYbrary Safety Matrix",
+              "heading": "Taxiway Surface Markings, Mandatory Signs & Holding Positions",
+              "snippet": "Visual safety guidelines covering yellow taxiway centerlines, enhanced markings, runway holding positions (two solid and two dashed yellow lines), and illuminated stop bars designed to prevent runway incursions.",
+              "readTime": "Estimated read: 8 mins",
+              "url": "https://skybrary.aero/articles/taxiway-surface-markings-and-signs"
+            }
+          ],
+          "resources": [
+            {
+              "url": "https://www.icao.int/safety/airnavigation/Pages/aerodromes.aspx",
+              "tag": "01 • Global Standards",
+              "name": "ICAO Aerodromes Portal",
+              "desc": "Official international standards for runway dimensions, pavement visual aids, ground lighting, and aerodrome safety certificates."
+            },
+            {
+              "url": "https://skybrary.aero/articles/taxiway-surface-markings-and-signs",
+              "tag": "02 • Safety Encyclopedia",
+              "name": "SKYbrary Surface Markings",
+              "desc": "Comprehensive illustrated directory of airport pavement markings, holding position lines, and mandatory instruction signs."
+            },
+            {
+              "url": "https://www.flightradar24.com",
+              "tag": "03 • Live Ground Tracking",
+              "name": "Flightradar24 Surface Radar",
+              "desc": "Real-time interactive radar tracking showing commercial airliners taxiing from gate stands across taxiways to active runways worldwide."
+            },
+            {
+              "url": "https://www.faa.gov/airports/runway_safety",
+              "tag": "04 • Incursion Prevention",
+              "name": "FAA Runway Safety Office",
+              "desc": "Interactive airfield diagram quizzes, surface navigation animations, and training resources aimed at eliminating runway incursions."
+            },
+            {
+              "url": "https://aci.aero",
+              "tag": "05 • Airport Management",
+              "name": "Airports Council International (ACI)",
+              "desc": "Global association benchmark reports on terminal efficiency, baggage automation, and Airport Service Quality (ASQ) metrics."
+            },
+            {
+              "url": "https://aircraft.airbus.com",
+              "tag": "06 • Aircraft Engineering",
+              "name": "Airbus Safety & Ground Operations",
+              "desc": "Manufacturer briefings on runway braking friction, Runway Overrun Prevention Systems (ROPS), and aircraft apron maneuvering dynamics."
             }
           ],
           "grammar": {
-            "title": "The \"Past Before the Past\"",
-            "badge": "B1\u2013B2 Grammar Focus",
-            "patternTitle": "Sentence Pattern",
-            "formula": "Subject + had + Past Participle (V3)",
-            "rulesTitle": "When to Use It",
+            "title": "Prepositions of Place, Direction & Movement",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "Spatial Matrix",
+            "formula": "AT (Point/Gate) • IN (Enclosed Room) • ON (Surface/Apron) • ACROSS / ALONG (Movement)",
+            "rulesTitle": "Static Positions vs. Dynamic Direction",
             "rules": [
-              "<strong style=\"color: #1e293b;\">1. Two past events in order:</strong> The <strong>earlier</strong> event uses <span style=\"font-weight: 700; color: #c0684f;\">had + past participle</span> (*had dominated*), while the <strong>later</strong> event uses the <strong>Past Simple</strong> (*entered service*).",
-              "<strong style=\"color: #1e293b;\">2. Finished before a past deadline:</strong> Look for time connectors like <span style=\"font-weight: 700; color: #c0684f;\">by the time</span>, <span style=\"font-weight: 700; color: #c0684f;\">before</span>, <span style=\"font-weight: 600; color: #334155;\">already</span>, and <span style=\"font-weight: 600; color: #334155;\">until</span> (*\"By the time the inspectors arrived, the crew had already fixed the issue\"*)."
+              "<strong style=\"color: #1e293b;\">1. AT (Specific Service Points &amp; Nodes):</strong> Counters, desks, and intersections (<em>\"Check in <strong>at</strong> the automated kiosk\"</em> / <em>\"Hold <strong>at</strong> Holding Point Alpha\"</em> / <em>\"Board <strong>at</strong> Gate B22\"</em>).",
+              "<strong style=\"color: #1e293b;\">2. IN (Enclosed Volumes &amp; Concourse Halls):</strong> Inside rooms or buildings (<em>\"Wait <strong>in</strong> the departure lounge\"</em> / <em>\"Shop <strong>in</strong> duty-free\"</em> / <em>\"Inspect engines <strong>in</strong> Hangar 2\"</em>).",
+              "<strong style=\"color: #1e293b;\">3. ON (Pavement Surfaces &amp; Movement Lines):</strong> Flat operational ground (<em>\"Parked <strong>on</strong> the apron\"</em> / <em>\"Taxiing <strong>on</strong> Taxiway Bravo\"</em> / <em>\"Aligning <strong>on</strong> Runway 09L\"</em> / <em>\"Centered <strong>on</strong> the yellow line\"</em>).",
+              "<strong style=\"color: #1e293b;\">4. Directional Prepositions (Through / Along / Across):</strong> Path and transit (<em>\"Walk <strong>through</strong> security screening\"</em> / <em>\"Taxi <strong>along</strong> the centerline\"</em> / <em>\"Never drive <strong>across</strong> an active runway\"</em>)."
             ],
-            "trap": "<strong>\u26a0\ufe0f Past vs. Present Perfect Trap:</strong> If a sentence already talks about a past moment (like <em>By the time they arrived...</em>), you cannot use <em>has / have</em>. You must look backward into the past with <strong>had + past participle</strong>!",
-            "examplesTitle": "Transport Evolution Examples",
+            "trap": "<strong>⚠️ TOEIC Part 5 Preposition Trap:</strong> Beware of verb collocations! Static locations use <em>at, in, on</em> (<em>wait at the gate</em>). Motion towards a destination requires <em>to, into, onto, across</em> (<em>proceed to the gate</em>, <em>walk onto the jet bridge</em>). Don't confuse stationary states with directional transit!",
+            "examplesTitle": "Airfield & Concourse Examples",
             "examples": [
-              "<em>\"By the time commercial jetliners entered service in the late 1950s, transcontinental rail networks <strong>had dominated</strong> international passenger travel for half a century.\"</em>",
-              "<em>\"The regional carrier <strong>had already phased out</strong> its older turboprop fleet before new carbon regulations took effect.\"</em>"
+              "<em>\"Passengers must pass <strong>through</strong> security before entering the retail concourse.\"</em>",
+              "<em>\"Flight 840 is cleared to taxi <strong>along</strong> Taxiway Juliet and hold short <strong>at</strong> Runway 27.\"</em>"
             ]
           },
           "toeic": {
-            "stem": "All international passenger flight manifests must ________ to the border security agency at least thirty minutes prior to departure.",
+            "stem": "Ground vehicles servicing aircraft on the terminal apron are strictly forbidden from driving ________ the marked runway boundary lines without obtaining direct clearance from air traffic control.",
             "options": [
               {
                 "letter": "A",
-                "text": "submit"
+                "text": "across"
               },
               {
                 "letter": "B",
-                "text": "be submitted"
+                "text": "into"
               },
               {
                 "letter": "C",
-                "text": "been submitted"
+                "text": "along"
               },
               {
                 "letter": "D",
-                "text": "being submitted"
+                "text": "between"
               }
             ],
-            "correctLetter": "B",
-            "correctText": "be submitted",
-            "analysis": "The modal auxiliary \"must\" requires the passive infinitive \"be + past participle\" (\"be submitted\") because manifests receive the action.",
-            "strategy": "Modal passive pattern: modal (must/should/can/will) + be + V3. Verify whether the subject performs or receives the action."
+            "correctLetter": "A",
+            "correctText": "across",
+            "analysis": "The preposition \"across\" denotes transverse motion from one side of a surface boundary to the other (driving across a line or runway). In TOEIC Part 5, spatial prepositions of traversal (across) are frequently tested against parallel motion (along) or interior motion (into).",
+            "strategy": "Always check whether the verb denotes traversal (crossing over: across), linear alignment (parallel to: along), or entry into an enclosed space (into / through)."
           },
-          "resources": [
-            {
-              "url": "https://www.itf-oecd.org",
-              "tag": "01 \u2022 Global Policy",
-              "name": "ITF / OECD International Transport Forum",
-              "desc": "Access global transport outlook models, carbon abatement pathways, and policy research on infrastructure life-cycle sustainability."
-            },
-            {
-              "url": "https://www.eea.europa.eu/themes/transport",
-              "tag": "02 \u2022 Emissions Data",
-              "name": "European Environment Agency (EEA) Transport Hub",
-              "desc": "Review empirical greenhouse gas inventory datasets comparing passenger-kilometer emissions between rail, road, and commercial aviation."
-            },
-            {
-              "url": "https://uic.org/passenger/highspeed/",
-              "tag": "03 \u2022 Rail Infrastructure",
-              "name": "UIC International Union of Railways",
-              "desc": "Explore technical benchmarks on high-speed rail corridors, signaling modernization (ERTMS), and rail decarbonization strategies."
-            },
-            {
-              "url": "https://www.icao.int/environmental-protection/CORSIA/Pages/default.aspx",
-              "tag": "04 \u2022 Aviation Policy",
-              "name": "ICAO Environmental Protection & CORSIA",
-              "desc": "Official International Civil Aviation Organization framework governing aviation emissions standards, CORSIA, and SAF targets."
-            },
-            {
-              "url": "https://ourworldindata.org/co2-emissions-from-transport",
-              "tag": "05 \u2022 Interactive Data",
-              "name": "Our World in Data: Transport Emissions",
-              "desc": "Interactive charts illustrating the historical evolution of mobility emissions and per-capita travel carbon intensity since 1950."
-            },
-            {
-              "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 \u2022 Exam Prep",
-              "name": "Official ETS TOEIC Practice Hub",
-              "desc": "Practice timed workplace transport reading comprehension, corporate travel memos, and correlative inversion sentence completions."
-            }
-          ],
-          "pageUrl": "session2/admat1.html",
-          "articles": [
-            {
-              "topic": "Modal Shift &amp; Rail Policy",
-              "sourceTag": "Industry Press",
-              "heading": "The European Rail Revival: Banning Short-Haul Domestic Flights Where Rail Alternatives Exist",
-              "snippet": "European policymakers have implemented statutory restrictions on domestic short-haul flights connecting cities with high-speed rail links under 2.5 hours. Explore how airlines are restructuring their feeder networks, forming intermodal partnerships, and auditing corporate travel emissions.",
-              "readTime": "Estimated read: 5 mins",
-              "url": "https://www.railtech.com"
-            },
-            {
-              "topic": "European Commission Policy",
-              "sourceTag": "EU Mobility Hub",
-              "heading": "Reshaping the European Transport Network: The High-Speed Rail Action Plan",
-              "snippet": "Examine the European Commission&#39;s strategic blueprint for expanding cross-border high-speed passenger rail, tripling HSR traffic by 2030, and accelerating the decarbonization of European transport corridors.",
-              "readTime": "Estimated read: 4 mins",
-              "url": "https://transport.ec.europa.eu/transport-modes/rail/high-speed-rail-plan_en"
-            }
-          ],
           "toeicQuestions": [
             {
-              "stem": "All international passenger flight manifests must ________ to the border security agency at least thirty minutes prior to departure.",
+              "stem": "Ground vehicles servicing aircraft on the terminal apron are strictly forbidden from driving ________ the marked runway boundary lines without obtaining direct clearance from air traffic control.",
               "options": [
                 {
                   "letter": "A",
-                  "text": "submit"
+                  "text": "across"
                 },
                 {
                   "letter": "B",
-                  "text": "be submitted"
+                  "text": "into"
                 },
                 {
                   "letter": "C",
-                  "text": "been submitted"
+                  "text": "along"
                 },
                 {
                   "letter": "D",
-                  "text": "being submitted"
+                  "text": "between"
                 }
               ],
-              "correctLetter": "B",
-              "correctText": "be submitted",
-              "analysis": "The modal auxiliary \"must\" requires the passive infinitive \"be + past participle\" (\"be submitted\") because manifests receive the action.",
-              "strategy": "Modal passive pattern: modal (must/should/can/will) + be + V3. Verify whether the subject performs or receives the action."
+              "correctLetter": "A",
+              "correctText": "across",
+              "analysis": "The preposition \"across\" denotes transverse motion from one side of a boundary to the other.",
+              "strategy": "Check traversal motion vs. parallel or interior movement."
             },
             {
-              "stem": "High-speed rail track inspections are ________ conducted by certified technicians every four thousand kilometers of service.",
+              "stem": "Departing passengers must present their boarding passes to airline gate agents ________ Gate B14 prior to boarding the aircraft.",
               "options": [
                 {
                   "letter": "A",
-                  "text": "routine"
+                  "text": "at"
                 },
                 {
                   "letter": "B",
-                  "text": "routinely"
+                  "text": "in"
                 },
                 {
                   "letter": "C",
-                  "text": "routinize"
+                  "text": "on"
                 },
                 {
                   "letter": "D",
-                  "text": "routineness"
+                  "text": "onto"
                 }
               ],
-              "correctLetter": "B",
-              "correctText": "routinely",
-              "analysis": "The space between the auxiliary \"are\" and the past participle \"conducted\" requires an adverb (\"routinely\") to modify the verb.",
-              "strategy": "Classic TOEIC Part 5 structure: [Be-verb] + [ADVERB] + [Past Participle]. Look for words ending in -ly to fill the middle gap."
+              "correctLetter": "A",
+              "correctText": "at",
+              "analysis": "Specific gates, counters, and designated service points take the preposition \"at\" (at Gate B14, at the check-in desk).",
+              "strategy": "Use \"at\" for exact locations, stations, and numbered service points."
             },
             {
-              "stem": "The trans-European rail freight corridor was ________ by the European Infrastructure Bank to encourage modal shift away from highway trucking.",
+              "stem": "After clearing security screening, international travelers walked ________ the duty-free retail concourse before reaching their departure lounge.",
               "options": [
                 {
                   "letter": "A",
-                  "text": "financial"
+                  "text": "through"
                 },
                 {
                   "letter": "B",
-                  "text": "finances"
+                  "text": "at"
                 },
                 {
                   "letter": "C",
-                  "text": "financed"
+                  "text": "onto"
                 },
                 {
                   "letter": "D",
-                  "text": "financing"
+                  "text": "between"
                 }
               ],
-              "correctLetter": "C",
-              "correctText": "financed",
-              "analysis": "Passive construction with \"was\" followed by the agent \"by the European Infrastructure Bank\" requires the past participle \"financed\".",
-              "strategy": "When you see was/were followed later by \"by [agent]\", choose the past participle (V3)."
+              "correctLetter": "A",
+              "correctText": "through",
+              "analysis": "\"Walk through\" describes passing from one end of an enclosed area or retail corridor to the other.",
+              "strategy": "Enclosed corridors, security checkpoints, and shopping zones take \"through\" when traversed."
             },
             {
-              "stem": "Passengers are ________ that carry-on luggage dimensions strictly conform to cabin storage restrictions.",
+              "stem": "The Boeing 737 taxied slowly ________ the yellow taxiway centerline to maintain safe separation from parked aircraft.",
               "options": [
                 {
                   "letter": "A",
-                  "text": "are reminded"
+                  "text": "along"
                 },
                 {
                   "letter": "B",
-                  "text": "reminded"
+                  "text": "into"
                 },
                 {
                   "letter": "C",
-                  "text": "reminding"
+                  "text": "across"
                 },
                 {
                   "letter": "D",
-                  "text": "have reminded"
+                  "text": "at"
                 }
               ],
-              "correctLetter": "B",
-              "correctText": "reminded",
-              "analysis": "\"Passengers are [V3] that...\" requires the passive past participle \"reminded\".",
-              "strategy": "Watch out for repeated auxiliary verbs in options. Since \"are\" already appears in the sentence stem, only \"reminded\" is grammatically sound."
+              "correctLetter": "A",
+              "correctText": "along",
+              "analysis": "Motion following a linear path or guidance line takes the preposition \"along\" (along the centerline, along the corridor).",
+              "strategy": "When movement follows a continuous line or path, choose \"along\"."
             },
             {
-              "stem": "New zero-emission electric shuttle buses ________ at Toulouse-Blagnac Airport early next quarter.",
+              "stem": "Pilots are instructed to hold short ________ the painted runway-holding position markings until receiving explicit takeoff clearance from the tower.",
               "options": [
                 {
                   "letter": "A",
-                  "text": "will introduce"
+                  "text": "at"
                 },
                 {
                   "letter": "B",
-                  "text": "will be introduced"
+                  "text": "along"
                 },
                 {
                   "letter": "C",
-                  "text": "were introduced"
+                  "text": "into"
                 },
                 {
                   "letter": "D",
-                  "text": "have introduced"
+                  "text": "across"
                 }
               ],
-              "correctLetter": "B",
-              "correctText": "will be introduced",
-              "analysis": "The time clue \"next quarter\" indicates future, and buses receive the action, requiring future passive: will be + past participle.",
-              "strategy": "Check both tense clue (next quarter = future) and voice (buses are introduced, they do not introduce themselves)."
+              "correctLetter": "A",
+              "correctText": "at",
+              "analysis": "\"Hold short at [location]\" is standard aviation phraseology for coming to a complete stop at a designated holding point.",
+              "strategy": "Stationary holding points and intersections require \"at\"."
             }
-          ]
+          ],
+          "pageUrl": "session2/admat_aas1.html"
         }
       },
       "3": {
