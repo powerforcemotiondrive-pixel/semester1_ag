@@ -77,6 +77,7 @@ const includeList = [
   'ddrs1.html',
   'ddrs2.html',
   'ddrs3.html',
+  'admin.html',
   'agmod1.pdf',
   'ws1.pdf'
 ].filter(item => fs.existsSync(path.join(rootDir, item)));
