@@ -773,10 +773,10 @@
           description: isAas 
             ? `Welcome to Session 5! Throughout this module, we have worked on aerodrome operations, technical discussions, DDRS, and TOEIC preparation.<br><br><em>Subject overview:</em> Formative Evaluation — Airport operations assessment and technical oral interview.<br><br>All work in this session contributes directly toward your Formative Evaluation.`
             : "Welcome to Session 5! Throughout this module, we have worked on discussion, grammar correction, DDRS, and TOEIC-related exercises.<br><br><em>Subject overview:</em> Formative Evaluation — Design an eco-friendly holiday itinerary or compare two cities with different tourism policies + Targets.<br><br>All work in this session contributes directly toward your Formative Evaluation.",
-          url: "https://e-campus.enac.fr/moodle/mod/page/view.php?id=266604",
+          url: `session5/criteria${modNumber}.html`,
           pdfUrl: defaultPdf,
-          lessonPlanUrl: "https://e-campus.enac.fr/moodle/mod/page/view.php?id=267409",
-          objectivesUrl: "https://e-campus.enac.fr/moodle/mod/page/view.php?id=266887",
+          lessonPlanUrl: `session5/guidelines${modNumber}.html`,
+          objectivesUrl: `session5/obj${modNumber}.html`,
           imageUrl: images.fe
         },
         {
@@ -1703,10 +1703,10 @@
       if (page.detailsUrl) {
         actionContainer.appendChild(createModalBtn("DDRS Framework Matrix", "ddrs", page.detailsUrl, false));
       } else if (currentIndex === 4) {
-        // Session 5: Formative Evaluation external links
-        if (page.url) actionContainer.appendChild(createExternalBtn(page.url, "Formative Evaluation", false));
-        if (page.lessonPlanUrl) actionContainer.appendChild(createExternalBtn(page.lessonPlanUrl, "Evaluation Guidelines", false));
-        if (page.objectivesUrl) actionContainer.appendChild(createExternalBtn(page.objectivesUrl, "Evaluation Criteria", false));
+        // Session 5: Formative Evaluation links
+        if (page.lessonPlanUrl) actionContainer.appendChild(createExternalBtn(page.lessonPlanUrl, "FE Guidelines", true));
+        if (page.objectivesUrl) actionContainer.appendChild(createExternalBtn(page.objectivesUrl, "FE Objectives", false));
+        if (page.url) actionContainer.appendChild(createExternalBtn(page.url, "FE Marking Criteria", false));
       } else {
         // Sessions 1 to 4: In-deck modal workspace hub (unified styling & colors)
         if (page.objectivesUrl) {
