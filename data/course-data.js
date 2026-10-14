@@ -10,7 +10,7 @@
     root.COURSE_DATA = factory();
   }
 })(typeof self !== 'undefined' ? self : this, function () {
-  return {
+  const agData = {
   "1": {
     "id": 1,
     "name": "Module 1",
@@ -49,6 +49,92 @@
           "num": "5.",
           "title": "Politique Sociale et Inclusion",
           "desc": "Engagement institutionnel pour la responsabilité sociétale : égalité professionnelle femmes-hommes, inclusion et accessibilité des personnes en situation de handicap, égalité des chances, amélioration de la qualité de vie et santé globale, et prévention de toute forme de discrimination."
+        }
+      ],
+      "items": [
+        {
+          "badge": "Axe 1",
+          "num": "1.",
+          "title": "Gouvernance et Stratégie",
+          "desc": "Intégration du développement durable dans la vision, le projet d'établissement et le pilotage décisionnel. Dialogue continu avec les parties prenantes (étudiants, personnels, collectivités, partenaires), allocation de budgets dédiés et suivi d'indicateurs d'impact mesurables.",
+          "isMuted": false
+        },
+        {
+          "badge": "Axe 2",
+          "num": "2.",
+          "title": "Formation et Pédagogie",
+          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-écologique (limites planétaires, climat, biodiversité). Intégration transversale des compétences DD&amp;RS (rapport Jouzel / socle MESR) pour préparer les ingénieurs à la prise de décision éthique et responsable.",
+          "isMuted": false
+        },
+        {
+          "badge": "Axe 3",
+          "num": "3.",
+          "title": "Recherche et Innovation",
+          "desc": "Orientation et valorisation de l'activité scientifique et technologique en réponse aux Objectifs de Développement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, éco-conception et transfert de technologies vertes au service de la société.",
+          "isMuted": false
+        },
+        {
+          "badge": "Axe 4",
+          "num": "4.",
+          "title": "Gestion Environnementale",
+          "desc": "Maîtrise et réduction continue des impacts écologiques directs : décarbonation des mobilités pendulaires et professionnelles, efficacité et sobriété énergétique du patrimoine bâti, gestion circulaire des déchets, préservation de la biodiversité sur site et achats publics responsables.",
+          "isMuted": false
+        },
+        {
+          "badge": "Axe 5",
+          "num": "5.",
+          "title": "Politique Sociale et Inclusion",
+          "desc": "Engagement institutionnel pour la responsabilité sociétale : égalité professionnelle femmes-hommes, inclusion et accessibilité des personnes en situation de handicap, égalité des chances, amélioration de la qualité de vie et santé globale, et prévention de toute forme de discrimination.",
+          "isMuted": true
+        },
+        {
+          "badge": "Tag",
+          "num": "6.",
+          "title": "Mobilité Durable &amp; Report Modal (Sustainable Mobility)",
+          "desc": "Stratégie d'optimisation des transports articulée autour de la hiérarchie « Éviter - Transférer - Améliorer » (ASI). Promotion active du report modal vers le ferroviaire, les transports en commun et les mobilités douces face à l'autosolisme et aux vols court-courriers.",
+          "isMuted": true
+        },
+        {
+          "badge": "Tag",
+          "num": "7.",
+          "title": "Bilan d'Émissions de GES (BEGES / Bilan Carbone)",
+          "desc": "Comptabilisation réglementaire des gaz à effet de serre (méthode ADEME / ISO 14064) sur les trois périmètres : Scope 1 (émissions directes), Scope 2 (émissions indirectes énergétiques) et Scope 3 (émissions indirectes amont/aval : déplacements, achats, logistique et cycle de vie).",
+          "isMuted": false
+        },
+        {
+          "badge": "Tag",
+          "num": "8.",
+          "title": "Sobriété Énergétique &amp; Efficacité",
+          "desc": "Démarche articulant la sobriété (questionnement et réduction des consommations par la modification des comportements et des usages collectifs) et l'efficacité (optimisation technique des rendements énergétiques pour un même niveau de service).",
+          "isMuted": false
+        },
+        {
+          "badge": "Tag",
+          "num": "9.",
+          "title": "Préservation de la Biodiversité &amp; Zéro Artificialisation Nette (ZAN)",
+          "desc": "Protection des écosystèmes et des continuités écologiques (trames vertes et bleues). Application des exigences légales (loi Climat et Résilience) visant à stopper la disparition nette d'espaces naturels et agricoles causée par les infrastructures et l'aménagement.",
+          "isMuted": true
+        },
+        {
+          "badge": "Tag",
+          "num": "10.",
+          "title": "Équité Territoriale &amp; Accessibilité (Territorial Equity)",
+          "desc": "Principe de justice spatiale garantissant un accès universel, abordable et sécurisé aux réseaux de transport et aux services d'intérêt général pour l'ensemble des territoires (urbains, périurbains et ruraux), luttant contre la fracture et la précarité mobilité.",
+          "isMuted": false
+        },
+        {
+          "badge": "Tag",
+          "num": "11.",
+          "title": "Achats Responsables &amp; Analyse du Cycle de Vie (ACV / LCA)",
+          "desc": "Intégration systématique de critères environnementaux et sociaux dans la commande publique et privée. Évaluation globale des impacts de chaque produit, infrastructure ou service de son extraction jusqu'à son recyclage ou élimination finale.",
+          "isMuted": false
+        },
+        {
+          "badge": "Tag",
+          "num": "12.",
+          "title": "Objectifs de Développement Durable (ODD - Agenda 2030)",
+          "desc": "Cadre universel des Nations Unies comprenant 17 objectifs interdépendants pour concilier prospérité économique, progrès social et protection de la biosphère. Les politiques de transport et d'ingénierie s'articulent principalement autour des ODD 9, 11, 12 et 13.",
+          "isMuted": false
         }
       ]
     },
@@ -247,8 +333,21 @@
           ],
           "grammar": {
             "title": "How to Use the Present Perfect",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "Sentence Pattern",
             "formula": "Subject + have / has + Past Participle (V3)",
-            "trap": "Never use <em>have / has + V3</em> with finished past dates or times (like <em>yesterday</em>, <em>in 2020</em>, <em>two hours ago</em>, or <em>last year</em>). When you see a specific completed time, always choose the <strong>Past Simple</strong> (*introduced*, *allocated*)!"
+            "rulesTitle": "When to Use It",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Actions continuing now:</strong> Started in the past and continue into the present, signaled by <span style=\"font-weight: 700; color: #c0684f;\">since</span> (+ starting point, e.g., <em>since 2021</em>) or <span style=\"font-weight: 700; color: #c0684f;\">for</span> (+ duration, e.g., <em>for three years</em>).",
+              "<strong style=\"color: #1e293b;\">2. Past action with a present result:</strong> The exact past time is not mentioned; what matters is the result right now (*\"We have updated our safety procedures\"*).",
+              "<strong style=\"color: #1e293b;\">3. Recent updates:</strong> Marked by signal words like <span style=\"font-weight: 600; color: #334155;\">already</span>, <span style=\"font-weight: 600; color: #334155;\">yet</span>, <span style=\"font-weight: 600; color: #334155;\">recently</span>, <span style=\"font-weight: 600; color: #334155;\">just</span>, or <span style=\"font-weight: 600; color: #334155;\">lately</span>."
+            ],
+            "trap": "<strong>⚠️ The #1 Past vs. Present Perfect Trap:</strong> Never use <em>have / has + V3</em> with finished past dates or times (like <em>yesterday</em>, <em>in 2020</em>, <em>two hours ago</em>, or <em>last year</em>). When you see a specific completed time, always choose the <strong>Past Simple</strong> (*introduced*, *allocated*)!",
+            "examplesTitle": "Workplace & Transit Examples",
+            "examples": [
+              "<em>\"The European Commission <strong>has allocated</strong> new funding for high-speed rail corridors <strong>since 2021</strong>.\"</em>",
+              "<em>\"Airport ground staff <strong>have not finalized</strong> the passenger rebooking procedures <strong>yet</strong>.\"</em>"
+            ]
           },
           "toeic": {
             "stem": "The European Transport Commission ________ several new high-speed rail corridors across member states over the past three years.",
@@ -272,8 +371,8 @@
             ],
             "correctLetter": "C",
             "correctText": "has introduced",
-            "analysis": "The phrase <strong>\"over the past three years\"</strong> is a major clue: it describes a time period starting in the past and continuing up to right now. An action that stretches into the present requires the <strong>Present Perfect: have / has + past participle</strong> (<em>has introduced</em>).",
-            "strategy": "Time markers such as <em>over the past/last [period]</em>, <em>since [date]</em>, <em>lately</em>, and <em>so far</em> are primary clues in TOEIC Part 5 that signal the need for <code>have / has + past participle</code>."
+            "analysis": "The phrase \"over the past three years\" describes an action starting in the past and continuing up to the present. An action stretching into the present requires the Present Perfect (have / has + past participle).",
+            "strategy": "Time markers such as \"over the past/last [period]\", \"since [date]\", \"lately\", and \"so far\" are primary TOEIC Part 5 clues that signal have / has + V3."
           },
           "resources": [
             {
@@ -313,7 +412,152 @@
               "desc": "International Civil Aviation Organization carbon offsetting and reduction scheme policies for international aviation."
             }
           ],
-          "pageUrl": "session1/admat1.html"
+          "pageUrl": "session1/admat1.html",
+          "articles": [
+            {
+              "topic": "Travel &amp; Communication",
+              "sourceTag": "Cultural Insights",
+              "heading": "The Art of the Travel Anecdote: Why Personal Journeys Build Spoken Fluency",
+              "snippet": "Sharing personal travel anecdotes and navigating unexpected transit disruptions provides the ideal foundation for natural narrative tenses, descriptive vocabulary, and conversational confidence in English.",
+              "readTime": "Estimated read: 4 mins",
+              "url": "https://www.bbc.com/travel"
+            },
+            {
+              "topic": "Exam Preparation",
+              "sourceTag": "ETS Global Insights",
+              "heading": "Understanding the Global TOEIC Benchmark: Essential Strategies for B2 Learners",
+              "snippet": "Learn how the 990-point scaled scoring system maps to CEFR B2 and C1 competencies, and why time management pacing in Parts 5, 6, and 7 is decisive for overall test success.",
+              "readTime": "Estimated read: 5 mins",
+              "url": "https://www.etsglobal.org/fr/fr"
+            }
+          ],
+          "toeicQuestions": [
+            {
+              "stem": "The European Transport Commission ________ several new high-speed rail corridors across member states over the past three years.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "introduces"
+                },
+                {
+                  "letter": "B",
+                  "text": "was introduced"
+                },
+                {
+                  "letter": "C",
+                  "text": "has introduced"
+                },
+                {
+                  "letter": "D",
+                  "text": "is introducing"
+                }
+              ],
+              "correctLetter": "C",
+              "correctText": "has introduced",
+              "analysis": "The phrase \"over the past three years\" describes an action starting in the past and continuing up to the present. An action stretching into the present requires the Present Perfect (have / has + past participle).",
+              "strategy": "Time markers such as \"over the past/last [period]\", \"since [date]\", \"lately\", and \"so far\" are primary TOEIC Part 5 clues that signal have / has + V3."
+            },
+            {
+              "stem": "The regional railway operator ________ new electric locomotives last November to replace aging diesel units on suburban commuter lines.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "has purchased"
+                },
+                {
+                  "letter": "B",
+                  "text": "purchased"
+                },
+                {
+                  "letter": "C",
+                  "text": "purchases"
+                },
+                {
+                  "letter": "D",
+                  "text": "is purchasing"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "purchased",
+              "analysis": "The specific completed past time marker \"last November\" requires the Past Simple (\"purchased\"). Never use the Present Perfect with finished past dates or times.",
+              "strategy": "When you see specific completed time markers like yesterday, last [month/year], in [year], or [time] ago, immediately rule out have/has + V3."
+            },
+            {
+              "stem": "Airport ground handling staff ________ the updated passenger rebooking procedures yet, so flight boarding remains temporarily delayed.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "has not finalized"
+                },
+                {
+                  "letter": "B",
+                  "text": "did not finalize"
+                },
+                {
+                  "letter": "C",
+                  "text": "have not finalized"
+                },
+                {
+                  "letter": "D",
+                  "text": "will not finalize"
+                }
+              ],
+              "correctLetter": "C",
+              "correctText": "have not finalized",
+              "analysis": "\"Staff\" in this context takes plural agreement, and the adverb \"yet\" is a signature marker for negative Present Perfect sentences.",
+              "strategy": "The word \"yet\" at the end of a clause strongly points to negative Present Perfect (have not / has not + V3)."
+            },
+            {
+              "stem": "Mr. Dupont ________ for the civil aviation agency since he graduated from the National School of Civil Aviation in 2018.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "works"
+                },
+                {
+                  "letter": "B",
+                  "text": "worked"
+                },
+                {
+                  "letter": "C",
+                  "text": "has worked"
+                },
+                {
+                  "letter": "D",
+                  "text": "was working"
+                }
+              ],
+              "correctLetter": "C",
+              "correctText": "has worked",
+              "analysis": "The preposition \"since\" followed by a past event (\"since he graduated\") indicates an action that began in the past and continues into the present, requiring the Present Perfect.",
+              "strategy": "Formula: Present Perfect + since + Past Simple point in time. Look for \"since\" as an immediate trigger for have / has + V3."
+            },
+            {
+              "stem": "The airline customer service center ________ more than five thousand compensation claims during the flight attendant strike last week.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "has processed"
+                },
+                {
+                  "letter": "B",
+                  "text": "processed"
+                },
+                {
+                  "letter": "C",
+                  "text": "processes"
+                },
+                {
+                  "letter": "D",
+                  "text": "had been processed"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "processed",
+              "analysis": "The time expression \"during the strike last week\" refers to a completed past duration, demanding the Past Simple tense (\"processed\").",
+              "strategy": "Actions completed within a finished past period (last week, during the conference) require the simple past, not the present perfect."
+            }
+          ]
         }
       },
       "2": {
@@ -525,33 +769,45 @@
           ],
           "grammar": {
             "title": "The \"Past Before the Past\"",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "Sentence Pattern",
             "formula": "Subject + had + Past Participle (V3)",
-            "trap": "If a sentence already talks about a past moment (like <em>By the time they arrived...</em>), you cannot use <em>has / have</em>. You must look backward into the past with <strong>had + past participle</strong>!"
+            "rulesTitle": "When to Use It",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Two past events in order:</strong> The <strong>earlier</strong> event uses <span style=\"font-weight: 700; color: #c0684f;\">had + past participle</span> (*had dominated*), while the <strong>later</strong> event uses the <strong>Past Simple</strong> (*entered service*).",
+              "<strong style=\"color: #1e293b;\">2. Finished before a past deadline:</strong> Look for time connectors like <span style=\"font-weight: 700; color: #c0684f;\">by the time</span>, <span style=\"font-weight: 700; color: #c0684f;\">before</span>, <span style=\"font-weight: 600; color: #334155;\">already</span>, and <span style=\"font-weight: 600; color: #334155;\">until</span> (*\"By the time the inspectors arrived, the crew had already fixed the issue\"*)."
+            ],
+            "trap": "<strong>⚠️ Past vs. Present Perfect Trap:</strong> If a sentence already talks about a past moment (like <em>By the time they arrived...</em>), you cannot use <em>has / have</em>. You must look backward into the past with <strong>had + past participle</strong>!",
+            "examplesTitle": "Transport Evolution Examples",
+            "examples": [
+              "<em>\"By the time commercial jetliners entered service in the late 1950s, transcontinental rail networks <strong>had dominated</strong> international passenger travel for half a century.\"</em>",
+              "<em>\"The regional carrier <strong>had already phased out</strong> its older turboprop fleet before new carbon regulations took effect.\"</em>"
+            ]
           },
           "toeic": {
-            "stem": "By the time the civil aviation board published its updated sustainability directives, the airport authority ________ several energy-saving modifications across its terminals.",
+            "stem": "All international passenger flight manifests must ________ to the border security agency at least thirty minutes prior to departure.",
             "options": [
               {
                 "letter": "A",
-                "text": "implements"
+                "text": "submit"
               },
               {
                 "letter": "B",
-                "text": "had implemented"
+                "text": "be submitted"
               },
               {
                 "letter": "C",
-                "text": "will implement"
+                "text": "been submitted"
               },
               {
                 "letter": "D",
-                "text": "has implemented"
+                "text": "being submitted"
               }
             ],
             "correctLetter": "B",
-            "correctText": "had implemented",
-            "analysis": "The sentence begins with <strong>\"By the time the board published...\"</strong> (a finished event in the past). Because the airport authority finished the modifications <em>before</em> that publication happened, you need the <strong>Past Perfect: had + past participle</strong> (<em>had implemented</em>).",
-            "strategy": "Sentences opening with <em>\"By the time + [Past Simple clause]\"</em> almost always require the <strong>Past Perfect</strong> (<code>had + past participle</code>) in the main clause."
+            "correctText": "be submitted",
+            "analysis": "The modal auxiliary \"must\" requires the passive infinitive \"be + past participle\" (\"be submitted\") because manifests receive the action.",
+            "strategy": "Modal passive pattern: modal (must/should/can/will) + be + V3. Verify whether the subject performs or receives the action."
           },
           "resources": [
             {
@@ -591,7 +847,152 @@
               "desc": "Practice timed workplace transport reading comprehension, corporate travel memos, and correlative inversion sentence completions."
             }
           ],
-          "pageUrl": "session2/admat1.html"
+          "pageUrl": "session2/admat1.html",
+          "articles": [
+            {
+              "topic": "Modal Shift &amp; Rail Policy",
+              "sourceTag": "Industry Press",
+              "heading": "The European Rail Revival: Banning Short-Haul Domestic Flights Where Rail Alternatives Exist",
+              "snippet": "European policymakers have implemented statutory restrictions on domestic short-haul flights connecting cities with high-speed rail links under 2.5 hours. Explore how airlines are restructuring their feeder networks, forming intermodal partnerships, and auditing corporate travel emissions.",
+              "readTime": "Estimated read: 5 mins",
+              "url": "https://www.railtech.com"
+            },
+            {
+              "topic": "European Commission Policy",
+              "sourceTag": "EU Mobility Hub",
+              "heading": "Reshaping the European Transport Network: The High-Speed Rail Action Plan",
+              "snippet": "Examine the European Commission&#39;s strategic blueprint for expanding cross-border high-speed passenger rail, tripling HSR traffic by 2030, and accelerating the decarbonization of European transport corridors.",
+              "readTime": "Estimated read: 4 mins",
+              "url": "https://transport.ec.europa.eu/transport-modes/rail/high-speed-rail-plan_en"
+            }
+          ],
+          "toeicQuestions": [
+            {
+              "stem": "All international passenger flight manifests must ________ to the border security agency at least thirty minutes prior to departure.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "submit"
+                },
+                {
+                  "letter": "B",
+                  "text": "be submitted"
+                },
+                {
+                  "letter": "C",
+                  "text": "been submitted"
+                },
+                {
+                  "letter": "D",
+                  "text": "being submitted"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "be submitted",
+              "analysis": "The modal auxiliary \"must\" requires the passive infinitive \"be + past participle\" (\"be submitted\") because manifests receive the action.",
+              "strategy": "Modal passive pattern: modal (must/should/can/will) + be + V3. Verify whether the subject performs or receives the action."
+            },
+            {
+              "stem": "High-speed rail track inspections are ________ conducted by certified technicians every four thousand kilometers of service.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "routine"
+                },
+                {
+                  "letter": "B",
+                  "text": "routinely"
+                },
+                {
+                  "letter": "C",
+                  "text": "routinize"
+                },
+                {
+                  "letter": "D",
+                  "text": "routineness"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "routinely",
+              "analysis": "The space between the auxiliary \"are\" and the past participle \"conducted\" requires an adverb (\"routinely\") to modify the verb.",
+              "strategy": "Classic TOEIC Part 5 structure: [Be-verb] + [ADVERB] + [Past Participle]. Look for words ending in -ly to fill the middle gap."
+            },
+            {
+              "stem": "The trans-European rail freight corridor was ________ by the European Infrastructure Bank to encourage modal shift away from highway trucking.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "financial"
+                },
+                {
+                  "letter": "B",
+                  "text": "finances"
+                },
+                {
+                  "letter": "C",
+                  "text": "financed"
+                },
+                {
+                  "letter": "D",
+                  "text": "financing"
+                }
+              ],
+              "correctLetter": "C",
+              "correctText": "financed",
+              "analysis": "Passive construction with \"was\" followed by the agent \"by the European Infrastructure Bank\" requires the past participle \"financed\".",
+              "strategy": "When you see was/were followed later by \"by [agent]\", choose the past participle (V3)."
+            },
+            {
+              "stem": "Passengers are ________ that carry-on luggage dimensions strictly conform to cabin storage restrictions.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "are reminded"
+                },
+                {
+                  "letter": "B",
+                  "text": "reminded"
+                },
+                {
+                  "letter": "C",
+                  "text": "reminding"
+                },
+                {
+                  "letter": "D",
+                  "text": "have reminded"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "reminded",
+              "analysis": "\"Passengers are [V3] that...\" requires the passive past participle \"reminded\".",
+              "strategy": "Watch out for repeated auxiliary verbs in options. Since \"are\" already appears in the sentence stem, only \"reminded\" is grammatically sound."
+            },
+            {
+              "stem": "New zero-emission electric shuttle buses ________ at Toulouse-Blagnac Airport early next quarter.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "will introduce"
+                },
+                {
+                  "letter": "B",
+                  "text": "will be introduced"
+                },
+                {
+                  "letter": "C",
+                  "text": "were introduced"
+                },
+                {
+                  "letter": "D",
+                  "text": "have introduced"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "will be introduced",
+              "analysis": "The time clue \"next quarter\" indicates future, and buses receive the action, requiring future passive: will be + past participle.",
+              "strategy": "Check both tense clue (next quarter = future) and voice (buses are introduced, they do not introduce themselves)."
+            }
+          ]
         }
       },
       "3": {
@@ -803,36 +1204,232 @@
           ],
           "grammar": {
             "title": "Modal Verbs & Meanings",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "The Golden Rule",
             "formula": "Subject + Modal (must / should / can / may) + Base Verb (V1 without \"to\")",
-            "trap": "A modal verb (<em>must, should, can, could, will, would, may, might</em>) is <strong>always</strong> followed by the simple <strong>base verb</strong> (V1) with NO <em>-s</em>, NO <em>-ing</em>, NO <em>-ed</em>, and NO <em>to</em> (e.g., <em>must submit</em>, never <em>must to submit</em> or <em>must submitting</em>)!"
+            "rulesTitle": "Core Meanings",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Obligation &amp; Rules (Must / Have to):</strong> Something is mandatory by law or safety regulation (*\"Carriers <strong>must submit</strong> their manifests\"*).",
+              "<strong style=\"color: #1e293b;\">2. Advice &amp; Recommendations (Should / Ought to):</strong> Suggesting the best thing to do (*\"Authorities <strong>should encourage</strong> off-peak travel\"*).",
+              "<strong style=\"color: #1e293b;\">3. Permission &amp; Bans (May / Must not):</strong> <em>May</em> means you are allowed to; <em>must not</em> means something is strictly forbidden.",
+              "<strong style=\"color: #1e293b;\">4. Possibility &amp; Ability (Can / Could / Might):</strong> Stating what is possible or capable of happening."
+            ],
+            "trap": "<strong>⚠️ The #1 Modal Rule in TOEIC:</strong> A modal verb (<em>must, should, can, could, will, would, may, might</em>) is <strong>always</strong> followed by the simple <strong>base verb</strong> (V1) with NO <em>-s</em>, NO <em>-ing</em>, NO <em>-ed</em>, and NO <em>to</em> (e.g., <em>must submit</em>, never <em>must to submit</em> or <em>must submitting</em>)!",
+            "examplesTitle": "Carrying Capacity Examples",
+            "examples": [
+              "<em>\"To protect fragile canal banks, maritime authorities <strong>must regulate</strong> daily cruise disembarkation tallies.\"</em>",
+              "<em>\"Regional transit boards <strong>should promote</strong> off-peak rail incentives to disperse peak crowd density.\"</em>"
+            ]
           },
           "toeic": {
-            "stem": "In accordance with municipal preservation bylaws, all international cruise ship operators must ________ their passenger manifests to harbor authorities prior to docking.",
+            "stem": "Due to severe visitor overcrowding in historic quarters, city officials ________ impose strict daily tourist caps next season.",
             "options": [
               {
                 "letter": "A",
-                "text": "submitting"
+                "text": "must"
               },
               {
                 "letter": "B",
-                "text": "submit"
+                "text": "had to"
               },
               {
                 "letter": "C",
-                "text": "submitted"
+                "text": "should have"
               },
               {
                 "letter": "D",
-                "text": "to submit"
+                "text": "were able to"
               }
             ],
-            "correctLetter": "B",
-            "correctText": "submit",
-            "analysis": "The blank comes directly after the modal verb <strong>must</strong>. Under English grammar rules, a modal verb must be followed immediately by the <strong>base form of the verb</strong> with no endings (<em>submit</em>).",
-            "strategy": "Whenever a blank immediately succeeds a modal verb (<em>must</em>, <em>should</em>, <em>can</em>, <em>could</em>, <em>may</em>, <em>might</em>, <em>will</em>, <em>would</em>) in TOEIC Part 5, always select the <strong>uninflected base verb</strong>."
+            "correctLetter": "A",
+            "correctText": "must",
+            "analysis": "The modal \"must\" expresses necessary future action, fitting the time marker \"next season\". \"Had to\" and \"should have\" are past forms.",
+            "strategy": "Match modal tense with time clues: \"next season\" requires a present/future modal (must, will have to), never a past modal form."
           },
-          "resources": [],
-          "pageUrl": "session3/admat1.html"
+          "resources": [
+            {
+              "url": "https://www.unwto.org/sustainable-development",
+              "tag": "01 • Global Policy",
+              "name": "UN Tourism (UNWTO)",
+              "desc": "United Nations agency dedicated to responsible, sustainable, and accessible tourism."
+            },
+            {
+              "url": "https://www.gstcouncil.org",
+              "tag": "02 • Destination Standards",
+              "name": "GSTC Global Criteria",
+              "desc": "Global Sustainable Tourism Council baseline standards for destinations."
+            },
+            {
+              "url": "https://cda.ve.it",
+              "tag": "03 • Ecological Impact",
+              "name": "EEA Tourism & Nature",
+              "desc": "European Environment Agency briefs on tourism pressures on biodiversity."
+            },
+            {
+              "url": "https://cda.ve.it",
+              "tag": "04 • Municipal Access Portal",
+              "name": "Venice Access Fee Official",
+              "desc": "Municipal overview of city access regulations and reservation mechanics."
+            },
+            {
+              "url": "https://ourworldindata.org/tourism",
+              "tag": "05 • Data & Trends",
+              "name": "Our World in Data",
+              "desc": "Global trends in international arrivals, travel expenditure, and tourism growth."
+            },
+            {
+              "url": "https://www.etsglobal.org/fr/fr",
+              "tag": "06 • TOEIC Reading",
+              "name": "ETS Global TOEIC",
+              "desc": "Advanced reading strategies for regulatory announcements and policy documents."
+            }
+          ],
+          "pageUrl": "session3/admat1.html",
+          "articles": [
+            {
+              "topic": "UN Tourism Policy Brief",
+              "sourceTag": "Industry Analysis",
+              "heading": "Carrying Capacity Indicators in European Heritage Centers",
+              "snippet": "A comparative framework analyzing visitor ratios, local resident sentiment, and infrastructure strain.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://www.unwto.org/sustainable-development"
+            },
+            {
+              "topic": "Journal of Sustainable Tourism",
+              "sourceTag": "Industry Analysis",
+              "heading": "The Economics of Tourist Taxation &amp; Crowd Dispersal",
+              "snippet": "Evaluating whether dynamic pricing diverts crowds or merely generates municipal revenue.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://cda.ve.it"
+            }
+          ],
+          "toeicQuestions": [
+            {
+              "stem": "Due to severe visitor overcrowding in historic quarters, city officials ________ impose strict daily tourist caps next season.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "must"
+                },
+                {
+                  "letter": "B",
+                  "text": "had to"
+                },
+                {
+                  "letter": "C",
+                  "text": "should have"
+                },
+                {
+                  "letter": "D",
+                  "text": "were able to"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "must",
+              "analysis": "The modal \"must\" expresses necessary future action, fitting the time marker \"next season\". \"Had to\" and \"should have\" are past forms.",
+              "strategy": "Match modal tense with time clues: \"next season\" requires a present/future modal (must, will have to), never a past modal form."
+            },
+            {
+              "stem": "Venice dynamic access fee ________ collected directly through accommodation bookings rather than physical turnstiles.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "ought to be"
+                },
+                {
+                  "letter": "B",
+                  "text": "ought be"
+                },
+                {
+                  "letter": "C",
+                  "text": "ought to being"
+                },
+                {
+                  "letter": "D",
+                  "text": "ought"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "ought to be",
+              "analysis": "\"Ought\" must always be followed by \"to\" plus the base form. In passive voice: \"ought to be + V3\".",
+              "strategy": "\"Ought\" always takes \"to\". Never choose \"ought + base verb\" without \"to\"."
+            },
+            {
+              "stem": "If fragile historical landmarks sustain further erosion, local authorities ________ reduce daily admission quotas even further.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "could"
+                },
+                {
+                  "letter": "B",
+                  "text": "had"
+                },
+                {
+                  "letter": "C",
+                  "text": "would have been"
+                },
+                {
+                  "letter": "D",
+                  "text": "were"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "could",
+              "analysis": "In a real/possible conditional (First Conditional), the modal \"could\" expresses future consequence/possibility in the main clause.",
+              "strategy": "In If-clauses with Present Simple (\"sustain\"), the main clause takes will/can/could/may + base verb."
+            },
+            {
+              "stem": "There were significantly ________ international tourists visiting the alpine valley following the introduction of mandatory transit permits.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "fewer"
+                },
+                {
+                  "letter": "B",
+                  "text": "less"
+                },
+                {
+                  "letter": "C",
+                  "text": "least"
+                },
+                {
+                  "letter": "D",
+                  "text": "little"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "fewer",
+              "analysis": "\"Tourists\" is a countable plural noun. Use \"fewer\" with countable nouns and \"less\" with uncountable nouns.",
+              "strategy": "Rule: Countable nouns (tourists, flights, tickets) take \"fewer\"; uncountable nouns (traffic, luggage, fuel) take \"less\"."
+            },
+            {
+              "stem": "The municipal council ________ introduced stricter short-term rental limits years ago before the housing shortage escalated.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "must"
+                },
+                {
+                  "letter": "B",
+                  "text": "should have"
+                },
+                {
+                  "letter": "C",
+                  "text": "can"
+                },
+                {
+                  "letter": "D",
+                  "text": "might"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "should have",
+              "analysis": "\"Should have + past participle\" expresses regret or a recommendation that was not followed in the past.",
+              "strategy": "When a sentence expresses past criticism or missed opportunity (\"years ago before...\"), look for should have + V3."
+            }
+          ]
         }
       },
       "4": {
@@ -1044,36 +1641,232 @@
           ],
           "grammar": {
             "title": "AT, IN, and ON for Places",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "The Three Place Prepositions",
             "formula": "AT (Point / Desk) • IN (Enclosed Room / City) • ON (Surface / Floor / Line)",
-            "trap": "Watch out for movement words! Static places use <em>at</em>, <em>in</em>, or <em>on</em>. Movement uses <em>to</em>, <em>into</em>, <em>onto</em>, or <em>toward</em>. If the action is stationary (e.g., <em>purchase</em>, <em>wait</em>, <em>meet</em>, <em>sit</em>), do not choose movement words!"
+            "rulesTitle": "Core Rules",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. AT (Specific Points &amp; Desks):</strong> Exact service counters, meeting points, and transit stops (<span style=\"font-weight: 700; color: #c0684f;\">at the desk</span>, <span style=\"font-weight: 700; color: #c0684f;\">at the solar charging hub</span>, <span style=\"font-weight: 700; color: #c0684f;\">at the gate</span>).",
+              "<strong style=\"color: #1e293b;\">2. IN (Enclosed Spaces &amp; Areas):</strong> Rooms, buildings, cities, and regions (<span style=\"font-weight: 700; color: #c0684f;\">in the terminal</span>, <span style=\"font-weight: 700; color: #c0684f;\">in the national park</span>, <span style=\"font-weight: 700; color: #c0684f;\">in Copenhagen</span>).",
+              "<strong style=\"color: #1e293b;\">3. ON (Surfaces, Floors &amp; Public Transport):</strong> Flat surfaces, specific floors, and public transit (<span style=\"font-weight: 600; color: #334155;\">on the roof</span>, <span style=\"font-weight: 600; color: #334155;\">on the second floor</span>, <span style=\"font-weight: 600; color: #334155;\">on the train</span>).",
+              "<strong style=\"color: #1e293b;\">4. Relational Words:</strong> <span style=\"font-weight: 600; color: #334155;\">next to</span> / <span style=\"font-weight: 600; color: #334155;\">adjacent to</span> (beside), <span style=\"font-weight: 600; color: #334155;\">between</span> (between two points), and <span style=\"font-weight: 600; color: #334155;\">throughout</span> (all across an area)."
+            ],
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> Watch out for movement words! Static places use <em>at</em>, <em>in</em>, or <em>on</em>. Movement uses <em>to</em>, <em>into</em>, <em>onto</em>, or <em>toward</em>. If the action is stationary (e.g., <em>purchase</em>, <em>wait</em>, <em>meet</em>, <em>sit</em>), do not choose movement words!",
+            "examplesTitle": "Green Tourism & Transit Examples",
+            "examples": [
+              "<em>\"Visitors can collect reusable guidebooks <strong>at</strong> the eco-tourism kiosk located in the primary lobby.\"</em>",
+              "<em>\"Electric shuttle buses run continuously <strong>between</strong> the high-speed rail terminus and the regional biosphere reserve.\"</em>"
+            ]
           },
           "toeic": {
-            "stem": "Visitors attending the Green Mobility Exhibition may purchase discounted electric shuttle passes ________ the information desk in the central arrivals concourse.",
+            "stem": "If large corporations ________ corporate business travel by twenty percent, their overall carbon footprint would decline noticeably.",
             "options": [
               {
                 "letter": "A",
-                "text": "at"
+                "text": "reduce"
               },
               {
                 "letter": "B",
-                "text": "into"
+                "text": "reduced"
               },
               {
                 "letter": "C",
-                "text": "onto"
+                "text": "will reduce"
               },
               {
                 "letter": "D",
-                "text": "toward"
+                "text": "have reduced"
               }
             ],
-            "correctLetter": "A",
-            "correctText": "at",
-            "analysis": "",
-            "strategy": ""
+            "correctLetter": "B",
+            "correctText": "reduced",
+            "analysis": "Second conditional: If + Past Simple in the condition, would + base verb in the result (\"would decline\").",
+            "strategy": "Second conditional formula: If + [Past Simple] ..., [would/could/might + base verb]. Spot \"would decline\" to pick \"reduced\"."
           },
-          "resources": [],
-          "pageUrl": "session4/admat1.html"
+          "resources": [
+            {
+              "url": "https://www.gstcouncil.org",
+              "tag": "01 • Global Accreditation",
+              "name": "Global Sustainable Tourism Council",
+              "desc": "Authoritative international standards for sustainable travel and ecotourism."
+            },
+            {
+              "url": "https://www.greenkey.global",
+              "tag": "02 • Hospitality Eco-Label",
+              "name": "Green Key International",
+              "desc": "Leading international eco-label award for accommodations and hospitality."
+            },
+            {
+              "url": "https://www.eea.europa.eu",
+              "tag": "03 • Environmental Audits",
+              "name": "EEA Environmental Management",
+              "desc": "European guidance on corporate environmental auditing and EMAS compliance."
+            },
+            {
+              "url": "https://www.unwto.org",
+              "tag": "04 • Climate Action",
+              "name": "UN Tourism Decarbonization",
+              "desc": "Glasgow Declaration on Climate Action in Tourism frameworks and commitments."
+            },
+            {
+              "url": "https://ourworldindata.org",
+              "tag": "05 • Transport Intensity",
+              "name": "Our World in Data",
+              "desc": "Comparative data on transportation carbon intensity per passenger-kilometer."
+            },
+            {
+              "url": "https://www.etsglobal.org/fr/fr",
+              "tag": "06 • Evaluation Rubrics",
+              "name": "ETS Global TOEIC",
+              "desc": "Official TOEIC Speaking & Writing evaluation benchmarks and sample responses."
+            }
+          ],
+          "pageUrl": "session4/admat1.html",
+          "articles": [
+            {
+              "topic": "Harvard Business Review",
+              "sourceTag": "Industry Analysis",
+              "heading": "Auditing Corporate Travel: The Scope 3 Emissions Challenge",
+              "snippet": "How international corporations measure and reduce business travel emissions through clear guidelines.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://hbr.org"
+            },
+            {
+              "topic": "Stanford Social Innovation Review",
+              "sourceTag": "Industry Analysis",
+              "heading": "The Rise of Regenerative Tourism",
+              "snippet": "Shifting the paradigm from &#x27;leaving no trace&#x27; to actively restoring degraded ecosystems and supporting communities.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://ssir.org"
+            }
+          ],
+          "toeicQuestions": [
+            {
+              "stem": "If large corporations ________ corporate business travel by twenty percent, their overall carbon footprint would decline noticeably.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "reduce"
+                },
+                {
+                  "letter": "B",
+                  "text": "reduced"
+                },
+                {
+                  "letter": "C",
+                  "text": "will reduce"
+                },
+                {
+                  "letter": "D",
+                  "text": "have reduced"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "reduced",
+              "analysis": "Second conditional: If + Past Simple in the condition, would + base verb in the result (\"would decline\").",
+              "strategy": "Second conditional formula: If + [Past Simple] ..., [would/could/might + base verb]. Spot \"would decline\" to pick \"reduced\"."
+            },
+            {
+              "stem": "The corporate travel policy will not authorize business-class flights ________ written justification is submitted by the department vice-president.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "unless"
+                },
+                {
+                  "letter": "B",
+                  "text": "without"
+                },
+                {
+                  "letter": "C",
+                  "text": "despite"
+                },
+                {
+                  "letter": "D",
+                  "text": "although"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "unless",
+              "analysis": "\"Unless\" is a conjunction meaning \"if not\", introducing the conditional clause with a subject and verb (\"written justification is submitted\").",
+              "strategy": "\"Unless\" introduces a full clause (subject + verb); \"without\" and \"despite\" are prepositions and must be followed only by a noun/gerund."
+            },
+            {
+              "stem": "Provided that regional trains ________ punctual and affordable, corporate travelers will choose rail over domestic flights.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "remain"
+                },
+                {
+                  "letter": "B",
+                  "text": "remained"
+                },
+                {
+                  "letter": "C",
+                  "text": "will remain"
+                },
+                {
+                  "letter": "D",
+                  "text": "have remained"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "remain",
+              "analysis": "\"Provided that\" functions like \"if\" in a First Conditional, taking the Present Simple (\"remain\") while the main clause uses \"will choose\".",
+              "strategy": "Conjunctions of condition (provided that, as long as, if) take the present tense when the main clause has \"will + verb\"."
+            },
+            {
+              "stem": "If the national carrier ________ in sustainable aviation fuel supply chains earlier, it would have met its 2025 decarbonization target.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "invests"
+                },
+                {
+                  "letter": "B",
+                  "text": "invested"
+                },
+                {
+                  "letter": "C",
+                  "text": "had invested"
+                },
+                {
+                  "letter": "D",
+                  "text": "would invest"
+                }
+              ],
+              "correctLetter": "C",
+              "correctText": "had invested",
+              "analysis": "Third conditional: If + Past Perfect (\"had invested\"), would have + past participle (\"would have met\").",
+              "strategy": "Third conditional formula: If + [had + V3], [would have + V3]. Look at \"would have met\" to immediately identify \"had invested\"."
+            },
+            {
+              "stem": "Corporate sustainability guidelines require employees to calculate transit emissions ________ booking multi-leg international flights.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "prior to"
+                },
+                {
+                  "letter": "B",
+                  "text": "except"
+                },
+                {
+                  "letter": "C",
+                  "text": "in spite of"
+                },
+                {
+                  "letter": "D",
+                  "text": "since"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "prior to",
+              "analysis": "\"Prior to\" is a compound preposition meaning \"before\", properly taking the gerund \"booking\".",
+              "strategy": "\"Prior to\" + gerund (-ing) is a high-frequency business English synonym for \"before\" in TOEIC Part 5."
+            }
+          ]
         }
       }
     }
@@ -1116,6 +1909,92 @@
           "num": "5.",
           "title": "Politique Sociale et Inclusion",
           "desc": "Engagement institutionnel pour la responsabilité sociétale : égalité professionnelle femmes-hommes, inclusion et accessibilité des personnes en situation de handicap, égalité des chances, amélioration de la qualité de vie et santé globale, et prévention de toute forme de discrimination."
+        }
+      ],
+      "items": [
+        {
+          "badge": "Axe 1",
+          "num": "1.",
+          "title": "Gouvernance et Stratégie",
+          "desc": "Intégration du développement durable dans la vision, le projet d'établissement et le pilotage décisionnel. Dialogue continu avec les parties prenantes (étudiants, personnels, collectivités, partenaires), allocation de budgets dédiés et suivi d'indicateurs d'impact mesurables.",
+          "isMuted": true
+        },
+        {
+          "badge": "Axe 2",
+          "num": "2.",
+          "title": "Formation et Pédagogie",
+          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-écologique (limites planétaires, climat, biodiversité). Intégration transversale des compétences DD&amp;RS (rapport Jouzel / socle MESR) pour préparer les ingénieurs à la prise de décision éthique et responsable.",
+          "isMuted": false
+        },
+        {
+          "badge": "Axe 3",
+          "num": "3.",
+          "title": "Recherche et Innovation",
+          "desc": "Orientation et valorisation de l'activité scientifique et technologique en réponse aux Objectifs de Développement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, éco-conception et transfert de technologies vertes au service de la société.",
+          "isMuted": false
+        },
+        {
+          "badge": "Axe 4",
+          "num": "4.",
+          "title": "Gestion Environnementale",
+          "desc": "Maîtrise et réduction continue des impacts écologiques directs : décarbonation des mobilités pendulaires et professionnelles, efficacité et sobriété énergétique du patrimoine bâti, gestion circulaire des déchets, préservation de la biodiversité sur site et achats publics responsables.",
+          "isMuted": false
+        },
+        {
+          "badge": "Axe 5",
+          "num": "5.",
+          "title": "Politique Sociale et Inclusion",
+          "desc": "Engagement institutionnel pour la responsabilité sociétale : égalité professionnelle femmes-hommes, inclusion et accessibilité des personnes en situation de handicap, égalité des chances, amélioration de la qualité de vie et santé globale, et prévention de toute forme de discrimination.",
+          "isMuted": false
+        },
+        {
+          "badge": "Tag",
+          "num": "6.",
+          "title": "Mobilité Durable &amp; Report Modal (Sustainable Mobility)",
+          "desc": "Stratégie d'optimisation des transports articulée autour de la hiérarchie « Éviter - Transférer - Améliorer » (ASI). Promotion active du report modal vers le ferroviaire, les transports en commun et les mobilités douces face à l'autosolisme et aux vols court-courriers.",
+          "isMuted": true
+        },
+        {
+          "badge": "Tag",
+          "num": "7.",
+          "title": "Bilan d'Émissions de GES (BEGES / Bilan Carbone)",
+          "desc": "Comptabilisation réglementaire des gaz à effet de serre (méthode ADEME / ISO 14064) sur les trois périmètres : Scope 1 (émissions directes), Scope 2 (émissions indirectes énergétiques) et Scope 3 (émissions indirectes amont/aval : déplacements, achats, logistique et cycle de vie).",
+          "isMuted": false
+        },
+        {
+          "badge": "Tag",
+          "num": "8.",
+          "title": "Sobriété Énergétique &amp; Efficacité",
+          "desc": "Démarche articulant la sobriété (questionnement et réduction des consommations par la modification des comportements et des usages collectifs) et l'efficacité (optimisation technique des rendements énergétiques pour un même niveau de service).",
+          "isMuted": false
+        },
+        {
+          "badge": "Tag",
+          "num": "9.",
+          "title": "Préservation de la Biodiversité &amp; Zéro Artificialisation Nette (ZAN)",
+          "desc": "Protection des écosystèmes et des continuités écologiques (trames vertes et bleues). Application des exigences légales (loi Climat et Résilience) visant à stopper la disparition nette d'espaces naturels et agricoles causée par les infrastructures et l'aménagement.",
+          "isMuted": false
+        },
+        {
+          "badge": "Tag",
+          "num": "10.",
+          "title": "Équité Territoriale &amp; Accessibilité (Territorial Equity)",
+          "desc": "Principe de justice spatiale garantissant un accès universel, abordable et sécurisé aux réseaux de transport et aux services d'intérêt général pour l'ensemble des territoires (urbains, périurbains et ruraux), luttant contre la fracture et la précarité mobilité.",
+          "isMuted": false
+        },
+        {
+          "badge": "Tag",
+          "num": "11.",
+          "title": "Achats Responsables &amp; Analyse du Cycle de Vie (ACV / LCA)",
+          "desc": "Intégration systématique de critères environnementaux et sociaux dans la commande publique et privée. Évaluation globale des impacts de chaque produit, infrastructure ou service de son extraction jusqu'à son recyclage ou élimination finale.",
+          "isMuted": false
+        },
+        {
+          "badge": "Tag",
+          "num": "12.",
+          "title": "Objectifs de Développement Durable (ODD - Agenda 2030)",
+          "desc": "Cadre universel des Nations Unies comprenant 17 objectifs interdépendants pour concilier prospérité économique, progrès social et protection de la biosphère. Les politiques de transport et d'ingénierie s'articulent principalement autour des ODD 9, 11, 12 et 13.",
+          "isMuted": false
         }
       ]
     },
@@ -1309,11 +2188,25 @@
           ],
           "grammar": {
             "title": "Word Endings & Sentence Positions",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "Common Endings & Word Types",
             "formula": "Noun (-tion, -ment) • Adj (-able, -ive) • Adv (-ly) • Verb (-ate, -ify)",
-            "trap": "If a sentence already has a complete verb (e.g., <em>dropped</em>), and the blank explains how it happened, you need an <strong>adverb ending in -ly</strong> (<em>dropped significantly</em>)!"
+            "rulesTitle": "Core Rules",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Nouns (-tion, -ment, -ance, -ity):</strong> Names of things, people, or concepts. They come after <em>a</em>, <em>an</em>, <em>the</em> or adjectives (<span style=\"font-weight: 700; color: #49739a;\">prediction</span>, <span style=\"font-weight: 700; color: #49739a;\">severity</span>).",
+              "<strong style=\"color: #1e293b;\">2. Adjectives (-able, -ive, -al, -ous):</strong> Words that describe nouns. They come before nouns or after verbs like <em>be</em>, <em>remain</em>, <em>seem</em> (<span style=\"font-weight: 700; color: #49739a;\">predictable</span>, <span style=\"font-weight: 700; color: #49739a;\">severe</span>).",
+              "<strong style=\"color: #1e293b;\">3. Adverbs (-ly):</strong> Words that describe how or how much an action happens. They describe verbs, adjectives, or full sentences (<span style=\"font-weight: 600; color: #334155;\">significantly</span>, <span style=\"font-weight: 600; color: #334155;\">rapidly</span>).",
+              "<strong style=\"color: #1e293b;\">4. Verbs (-ate, -ify, -ize):</strong> Action words. They follow the subject (<span style=\"font-weight: 600; color: #334155;\">predict</span>, <span style=\"font-weight: 600; color: #334155;\">signify</span>)."
+            ],
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> If a sentence already has a complete verb (e.g., <em>dropped</em>), and the blank explains how it happened, you need an <strong>adverb ending in -ly</strong> (<em>dropped significantly</em>)!",
+            "examplesTitle": "Meteorology & Operations Examples",
+            "examples": [
+              "<em>\"Meteorologists must monitor barometric pressure <strong>continuously</strong> to ensure flight safety.\"</em>",
+              "<em>\"The sudden drop in altitude caused by wind shear was <strong>extremely</strong> dangerous.\"</em>"
+            ]
           },
           "toeic": {
-            "stem": "Meteorologists reported that barometric pressure across the northern flight corridor dropped ________ overnight, resulting in gale-force crosswinds.",
+            "stem": "The frequency of Mediterranean heatwave events was ________ higher this decade than during any previously recorded ten-year span.",
             "options": [
               {
                 "letter": "A",
@@ -1321,24 +2214,206 @@
               },
               {
                 "letter": "B",
-                "text": "significance"
-              },
-              {
-                "letter": "C",
                 "text": "significantly"
               },
               {
+                "letter": "C",
+                "text": "significance"
+              },
+              {
                 "letter": "D",
-                "text": "signify"
+                "text": "significate"
               }
             ],
-            "correctLetter": "C",
+            "correctLetter": "B",
             "correctText": "significantly",
-            "analysis": "",
-            "strategy": ""
+            "analysis": "The comparative adjective \"higher\" must be modified by an adverb of degree (\"significantly higher\").",
+            "strategy": "Comparative adjectives (higher, faster, cheaper) are modified by adverbs (significantly, substantially, slightly), not adjectives."
           },
-          "resources": [],
-          "pageUrl": "session1/admat2.html"
+          "resources": [
+            {
+              "url": "https://public.wmo.int",
+              "tag": "01 • Global Weather Authority",
+              "name": "World Meteorological Organization",
+              "desc": "Global authority on atmospheric science, severe storm warnings, and climate metrics."
+            },
+            {
+              "url": "https://climate.copernicus.eu",
+              "tag": "02 • Satellite Earth Observation",
+              "name": "Copernicus Climate Change Service",
+              "desc": "European satellite data tracking global surface temperatures, wildfires, and extreme storms."
+            },
+            {
+              "url": "https://www.undrr.org",
+              "tag": "03 • Emergency Preparedness",
+              "name": "UN Disaster Risk Reduction (UNDRR)",
+              "desc": "Global frameworks, early warning initiatives, and community resilience guidelines."
+            },
+            {
+              "url": "https://www.eea.europa.eu",
+              "tag": "04 • European Climate Portal",
+              "name": "European Environment Agency Hazards",
+              "desc": "Interactive mapping of European heatwaves, drought risks, and flood vulnerability."
+            },
+            {
+              "url": "https://ourworldindata.org/natural-disasters",
+              "tag": "05 • Empirical Datasets",
+              "name": "Our World in Data: Natural Disasters",
+              "desc": "Long-term statistical datasets and interactive charts tracking extreme weather trends."
+            },
+            {
+              "url": "https://www.etsglobal.org/fr/fr",
+              "tag": "06 • TOEIC Listening & Reading",
+              "name": "ETS Global TOEIC Preparation",
+              "desc": "Weather advisory and emergency briefing listening practice for technical professionals."
+            }
+          ],
+          "pageUrl": "session1/admat2.html",
+          "articles": [
+            {
+              "topic": "WMO Global Climate Observatory",
+              "sourceTag": "International Report",
+              "heading": "State of the Global Climate: Extreme Events &amp; Frequency",
+              "snippet": "World Meteorological Organization empirical analysis tracking rising global temperatures, severe heatwaves, and unprecedented precipitation extremes.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://public.wmo.int"
+            },
+            {
+              "topic": "UNDRR Risk Reduction Briefing",
+              "sourceTag": "Economic Analysis",
+              "heading": "The Escalating Economic Toll of Extreme Weather Disasters",
+              "snippet": "Assessing financial losses, supply-chain disruptions, and critical infrastructure vulnerabilities caused by climate-driven severe weather shocks.",
+              "readTime": "Estimated read: 6-8 mins",
+              "url": "https://www.undrr.org"
+            }
+          ],
+          "toeicQuestions": [
+            {
+              "stem": "The frequency of Mediterranean heatwave events was ________ higher this decade than during any previously recorded ten-year span.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "significant"
+                },
+                {
+                  "letter": "B",
+                  "text": "significantly"
+                },
+                {
+                  "letter": "C",
+                  "text": "significance"
+                },
+                {
+                  "letter": "D",
+                  "text": "significate"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "significantly",
+              "analysis": "The comparative adjective \"higher\" must be modified by an adverb of degree (\"significantly higher\").",
+              "strategy": "Comparative adjectives (higher, faster, cheaper) are modified by adverbs (significantly, substantially, slightly), not adjectives."
+            },
+            {
+              "stem": "Last July recorded the ________ monthly surface temperatures ever documented by the World Meteorological Organization.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "hot"
+                },
+                {
+                  "letter": "B",
+                  "text": "hotter"
+                },
+                {
+                  "letter": "C",
+                  "text": "hottest"
+                },
+                {
+                  "letter": "D",
+                  "text": "most hot"
+                }
+              ],
+              "correctLetter": "C",
+              "correctText": "hottest",
+              "analysis": "The definite article \"the\" combined with \"ever documented\" calls for the superlative form of a one-syllable adjective (\"hottest\").",
+              "strategy": "Formulas with \"the\" + [adjective] + \"ever\" require the superlative (-est or most + adj)."
+            },
+            {
+              "stem": "Last winter severe ice storms caused ________ more flight cancellations than the five-year seasonal average.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "far"
+                },
+                {
+                  "letter": "B",
+                  "text": "very"
+                },
+                {
+                  "letter": "C",
+                  "text": "too"
+                },
+                {
+                  "letter": "D",
+                  "text": "so"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "far",
+              "analysis": "\"Far\" acts as an intensifying adverb before comparative structures (\"far more\"). \"Very\" cannot directly modify a comparative adjective or \"more\".",
+              "strategy": "Never use \"very\" before comparatives (very taller / very more). Use \"much\", \"far\", \"way\", or \"significantly\"."
+            },
+            {
+              "stem": "Runway heating systems installed in northern airports are twice as ________ as conventional chemical de-icing trucks.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "efficiently"
+                },
+                {
+                  "letter": "B",
+                  "text": "efficient"
+                },
+                {
+                  "letter": "C",
+                  "text": "more efficient"
+                },
+                {
+                  "letter": "D",
+                  "text": "efficiency"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "efficient",
+              "analysis": "In the equative construction \"as [adjective] as\", the base adjective form is required because the linking verb \"are\" takes an adjective complement.",
+              "strategy": "Pattern: as + [BASE ADJECTIVE] + as. Do not put comparatives (-er, more) between \"as... as\"."
+            },
+            {
+              "stem": "Airport climate vulnerability assessments must be conducted ________ in regions exposed to flash flooding.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "frequent"
+                },
+                {
+                  "letter": "B",
+                  "text": "frequently"
+                },
+                {
+                  "letter": "C",
+                  "text": "frequency"
+                },
+                {
+                  "letter": "D",
+                  "text": "more frequent"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "frequently",
+              "analysis": "An adverb (\"frequently\") is required to modify the passive verb phrase \"must be conducted\".",
+              "strategy": "Identify the word modified: if modifying how an action is done (conducted), select the -ly adverb."
+            }
+          ]
         }
       },
       "2": {
@@ -1530,36 +2605,231 @@
           ],
           "grammar": {
             "title": "Matching Subjects & Verbs",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "Basic Rule",
             "formula": "Main Subject [Singular] + (words in between) + Verb with -s [Singular]",
-            "trap": "The test often puts plural nouns right in front of the blank (e.g., <em>\"...corridors into hubs [ _____ ]\"</em>) to fool you. Ignore the words inside <em>\"of...\"</em> or <em>\"in...\"</em> and match the verb to the very first main noun!"
+            "rulesTitle": "Core Rules",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Words in Between (The \"of / in / with\" trap):</strong> In <em>\"The integration of light-rail corridors\"</em>, the real subject is <span style=\"font-weight: 700; color: #49739a;\">integration</span> (singular), not <em>corridors</em> (plural). The verb must be singular (<em>reduces</em>).",
+              "<strong style=\"color: #1e293b;\">2. Companies &amp; Organizations:</strong> Words like <em>the committee</em>, <em>the transit board</em>, or <em>the municipality</em> count as one single unit and take a singular verb.",
+              "<strong style=\"color: #1e293b;\">3. Words like Each / Every / One of:</strong> Phrases like <em>Each of the hubs</em> or <em>One of the passengers</em> always take a <span style=\"font-weight: 600; color: #334155;\">singular verb</span>."
+            ],
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> The test often puts plural nouns right in front of the blank (e.g., <em>\"...corridors into hubs [ _____ ]\"</em>) to fool you. Ignore the words inside <em>\"of...\"</em> or <em>\"in...\"</em> and match the verb to the very first main noun!",
+            "examplesTitle": "Urban Mobility Examples",
+            "examples": [
+              "<em>\"The expansion of electric tramways into suburban districts <strong>has improved</strong> regional air quality.\"</em>",
+              "<em>\"Each of the city's shared mobility hubs <strong>provides</strong> free solar battery recharging.\"</em>"
+            ]
           },
           "toeic": {
-            "stem": "The integration of autonomous light-rail corridors into regional transit hubs ________ commuter congestion by nearly forty percent.",
+            "stem": "European metropolitan areas ________ invest heavily in protected cycling infrastructure report substantial reductions in transport emissions.",
             "options": [
               {
                 "letter": "A",
-                "text": "reduces"
+                "text": "that"
               },
               {
                 "letter": "B",
-                "text": "reduce"
+                "text": "whom"
               },
               {
                 "letter": "C",
-                "text": "reducing"
+                "text": "where"
               },
               {
                 "letter": "D",
-                "text": "are reducing"
+                "text": "what"
               }
             ],
             "correctLetter": "A",
-            "correctText": "reduces",
-            "analysis": "",
-            "strategy": ""
+            "correctText": "that",
+            "analysis": "\"Areas\" is a non-human antecedent acting as the subject of the defining relative clause, requiring \"that\" (or \"which\").",
+            "strategy": "Use \"that\" or \"which\" for things and entities; \"who/whom\" for people; \"where\" for locations acting as adverbs (where + S + V)."
           },
-          "resources": [],
-          "pageUrl": "session2/admat2.html"
+          "resources": [
+            {
+              "url": "https://www.c40.org",
+              "tag": "01 • Urban Climate Leadership",
+              "name": "C40 Cities Network",
+              "desc": "Mayors leading the urban fight against climate change through progressive mobility and clean air zones."
+            },
+            {
+              "url": "https://www.uitp.org",
+              "tag": "02 • Public Transit Federation",
+              "name": "UITP Urban Transit Association",
+              "desc": "International Association of Public Transport global reports and transit benchmarks."
+            },
+            {
+              "url": "https://www.itdp.org",
+              "tag": "03 • Sustainable Transport Institute",
+              "name": "ITDP Sustainable Transport",
+              "desc": "Institute for Transportation and Development Policy BRT and cycling standards."
+            },
+            {
+              "url": "https://transport.ec.europa.eu",
+              "tag": "04 • EU Mobility Framework",
+              "name": "European Commission Urban Mobility",
+              "desc": "EU framework for Sustainable Urban Mobility Plans (SUMP) and city decarbonization."
+            },
+            {
+              "url": "https://ourworldindata.org/urbanization",
+              "tag": "05 • Urbanization Statistics",
+              "name": "Our World in Data: Urbanization",
+              "desc": "Global statistical datasets on metropolitan density, transit usage, and urban sprawl."
+            },
+            {
+              "url": "https://www.etsglobal.org/fr/fr",
+              "tag": "06 • TOEIC Business Context",
+              "name": "ETS Global TOEIC Preparation",
+              "desc": "Vocabulary exercises for municipal tenders, urban planning proposals, and contracts."
+            }
+          ],
+          "pageUrl": "session2/admat2.html",
+          "articles": [
+            {
+              "topic": "C40 Cities Climate Leadership",
+              "sourceTag": "Urban Policy",
+              "heading": "Urban Mobility Transition Index",
+              "snippet": "Comparative scoring of 50 global cities on public transit share, air quality improvements, and active mobility network integration.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://www.c40.org"
+            },
+            {
+              "topic": "OECD Urban Studies",
+              "sourceTag": "Economic Analysis",
+              "heading": "The Economics of Low-Emission Zones and Public Health",
+              "snippet": "Empirical assessment of health outcomes, commercial vitality, and emissions reductions following the implementation of urban clean-air zones.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://www.oecd.org"
+            }
+          ],
+          "toeicQuestions": [
+            {
+              "stem": "European metropolitan areas ________ invest heavily in protected cycling infrastructure report substantial reductions in transport emissions.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "that"
+                },
+                {
+                  "letter": "B",
+                  "text": "whom"
+                },
+                {
+                  "letter": "C",
+                  "text": "where"
+                },
+                {
+                  "letter": "D",
+                  "text": "what"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "that",
+              "analysis": "\"Areas\" is a non-human antecedent acting as the subject of the defining relative clause, requiring \"that\" (or \"which\").",
+              "strategy": "Use \"that\" or \"which\" for things and entities; \"who/whom\" for people; \"where\" for locations acting as adverbs (where + S + V)."
+            },
+            {
+              "stem": "The Ultra Low Emission Zone, ________ was launched in central London in 2019, has dramatically reduced harmful nitrogen dioxide concentrations.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "that"
+                },
+                {
+                  "letter": "B",
+                  "text": "which"
+                },
+                {
+                  "letter": "C",
+                  "text": "who"
+                },
+                {
+                  "letter": "D",
+                  "text": "where"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "which",
+              "analysis": "In non-defining relative clauses set off by commas, always use \"which\" for things, never \"that\".",
+              "strategy": "Golden TOEIC Rule: Never use \"that\" directly after a comma in relative clauses. Choose \"which\"."
+            },
+            {
+              "stem": "Urban transport planners are studying Zurich, ________ integrated public transport network achieves exceptional punctuality rates.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "whose"
+                },
+                {
+                  "letter": "B",
+                  "text": "who"
+                },
+                {
+                  "letter": "C",
+                  "text": "which"
+                },
+                {
+                  "letter": "D",
+                  "text": "where"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "whose",
+              "analysis": "The possessive relative pronoun \"whose\" shows that the transit network belongs to Zurich (\"Zurich integrated public transport network\").",
+              "strategy": "\"Whose\" + noun indicates possession for both people and entities/cities."
+            },
+            {
+              "stem": "The maintenance depot ________ battery-electric buses recharge overnight is supplied entirely by renewable solar energy.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "which"
+                },
+                {
+                  "letter": "B",
+                  "text": "where"
+                },
+                {
+                  "letter": "C",
+                  "text": "whose"
+                },
+                {
+                  "letter": "D",
+                  "text": "when"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "where",
+              "analysis": "\"Where\" is the relative adverb of place modifying \"maintenance depot\", followed by a complete clause (\"buses recharge overnight\").",
+              "strategy": "When the location is followed by subject + verb doing an action in that location, use \"where\"."
+            },
+            {
+              "stem": "Municipal sustainability regulations mandate solar panels on all commercial facilities ________ total surface area exceeds six hundred square meters.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "whose"
+                },
+                {
+                  "letter": "B",
+                  "text": "which"
+                },
+                {
+                  "letter": "C",
+                  "text": "where"
+                },
+                {
+                  "letter": "D",
+                  "text": "that"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "whose",
+              "analysis": "\"Whose\" connects \"commercial facilities\" with their \"total surface area\" in a possessive relationship.",
+              "strategy": "Test for \"whose\": Can you say \"[antecedent] [noun]\"? (facilities surface area = whose surface area)."
+            }
+          ]
         }
       },
       "3": {
@@ -1751,36 +3021,231 @@
           ],
           "grammar": {
             "title": "Verbs with -ing vs. to + Verb",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "Two Different Verb Patterns",
             "formula": "Verb + -ing | Verb + to + Verb | Preposition + -ing",
-            "trap": "In French, people say <em>\"recommander de faire\"</em> with an infinitive. But in English, you <strong>cannot</strong> say <em>\"recommend to do\"</em>. You must say <strong>recommend doing (-ing)</strong>!"
+            "rulesTitle": "Core Rules",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Verbs Followed by -ing:</strong> <span style=\"font-weight: 700; color: #49739a;\">recommend</span>, <span style=\"font-weight: 700; color: #49739a;\">suggest</span>, <span style=\"font-weight: 700; color: #49739a;\">consider</span>, <em>avoid</em>, <em>postpone</em>, <em>delay</em> (*recommend implementing*).",
+              "<strong style=\"color: #1e293b;\">2. Verbs Followed by to + Verb:</strong> <span style=\"font-weight: 700; color: #49739a;\">decide</span>, <span style=\"font-weight: 700; color: #49739a;\">agree</span>, <span style=\"font-weight: 700; color: #49739a;\">aim</span>, <em>plan</em>, <em>refuse</em>, <em>promise</em>, <em>hesitate</em> (*agree to invest*).",
+              "<strong style=\"color: #1e293b;\">3. Prepositions Always Take -ing:</strong> Any verb after a preposition (<em>in</em>, <em>by</em>, <em>for</em>, <em>committed to</em>, <em>look forward to</em>) must end in <span style=\"font-weight: 600; color: #334155;\">-ing</span>."
+            ],
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> In French, people say <em>\"recommander de faire\"</em> with an infinitive. But in English, you <strong>cannot</strong> say <em>\"recommend to do\"</em>. You must say <strong>recommend doing (-ing)</strong>!",
+            "examplesTitle": "Climate Policy & Debate Examples",
+            "examples": [
+              "<em>\"European transport ministers suggested <strong>capping</strong> carbon subsidies for short-haul flights.\"</em>",
+              "<em>\"The airline coalition agreed <strong>to invest</strong> in hydrogen fuel cell prototypes.\"</em>"
+            ]
           },
           "toeic": {
-            "stem": "Environmental delegates at the summit strongly recommended ________ strict carbon emission quotas on regional cargo airlines.",
+            "stem": "High-speed rail ticket prices remain elevated; ________, passenger ridership has expanded steadily across major European corridors.",
             "options": [
               {
                 "letter": "A",
-                "text": "implement"
+                "text": "furthermore"
               },
               {
                 "letter": "B",
-                "text": "implementing"
+                "text": "nevertheless"
               },
               {
                 "letter": "C",
-                "text": "to implement"
+                "text": "therefore"
               },
               {
                 "letter": "D",
-                "text": "implemented"
+                "text": "because"
               }
             ],
             "correctLetter": "B",
-            "correctText": "implementing",
-            "analysis": "",
-            "strategy": ""
+            "correctText": "nevertheless",
+            "analysis": "\"Nevertheless\" is a transition adverb of concession/contrast meaning \"in spite of that\", connecting two independent clauses separated by a semicolon.",
+            "strategy": "Look at the logical connection: elevated prices vs expanding ridership = contrast. \"Nevertheless\" expresses contrast; \"furthermore\" adds info; \"therefore\" shows cause/effect."
           },
-          "resources": [],
-          "pageUrl": "session3/admat2.html"
+          "resources": [
+            {
+              "url": "https://www.ipcc.ch",
+              "tag": "01 • Climate Policy Evidence",
+              "name": "IPCC Working Group III",
+              "desc": "Intergovernmental Panel on Climate Change reports on transport mitigation options and policy mechanisms."
+            },
+            {
+              "url": "https://www.transportenvironment.org",
+              "tag": "02 • Clean Transport Campaign",
+              "name": "Transport & Environment (T&E)",
+              "desc": "Europe's leading clean transport campaign group with detailed empirical reports on aviation and rail."
+            },
+            {
+              "url": "https://oxfordunion.org",
+              "tag": "03 • Formal Debate Protocols",
+              "name": "Oxford Union Debate Archives",
+              "desc": "World-renowned debate society archives demonstrating formal argumentation protocols and rebuttal tactics."
+            },
+            {
+              "url": "https://plato.stanford.edu",
+              "tag": "04 • Critical Thinking & Logic",
+              "name": "Stanford Encyclopedia of Philosophy",
+              "desc": "Peer-reviewed analysis of formal logic, argumentation schemes, fallacies, and cognitive biases."
+            },
+            {
+              "url": "https://ourworldindata.org",
+              "tag": "05 • Global Policy Datasets",
+              "name": "Our World in Data: Policy & Regulation",
+              "desc": "Long-term data tracking global environmental regulations, public sentiment, and statutory mandates."
+            },
+            {
+              "url": "https://www.etsglobal.org/fr/fr",
+              "tag": "06 • TOEIC Argument Comprehension",
+              "name": "ETS Global TOEIC Preparation",
+              "desc": "Listening comprehension strategies for identifying disagreement and speaker attitude in business discussions."
+            }
+          ],
+          "pageUrl": "session3/admat2.html",
+          "articles": [
+            {
+              "topic": "Oxford Review of Economic Policy",
+              "sourceTag": "Policy Analysis",
+              "heading": "The Rhetoric of Climate Policy Negotiations",
+              "snippet": "Analyzing discourse markers, persuasive framing, and consensus-building strategies in international climate accords and environmental diplomacy.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://academic.oup.com"
+            },
+            {
+              "topic": "Centre for European Policy Studies (CEPS)",
+              "sourceTag": "Economic Briefing",
+              "heading": "Economic Trade-Offs in Transport Carbon Taxation",
+              "snippet": "A balanced policy briefing modeling passenger demand elasticity, modal shift potential, and economic impacts under escalating carbon levies.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://www.ceps.eu"
+            }
+          ],
+          "toeicQuestions": [
+            {
+              "stem": "High-speed rail ticket prices remain elevated; ________, passenger ridership has expanded steadily across major European corridors.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "furthermore"
+                },
+                {
+                  "letter": "B",
+                  "text": "nevertheless"
+                },
+                {
+                  "letter": "C",
+                  "text": "therefore"
+                },
+                {
+                  "letter": "D",
+                  "text": "because"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "nevertheless",
+              "analysis": "\"Nevertheless\" is a transition adverb of concession/contrast meaning \"in spite of that\", connecting two independent clauses separated by a semicolon.",
+              "strategy": "Look at the logical connection: elevated prices vs expanding ridership = contrast. \"Nevertheless\" expresses contrast; \"furthermore\" adds info; \"therefore\" shows cause/effect."
+            },
+            {
+              "stem": "Aviation carbon taxes were raised significantly; ________, airline executives accelerated investments into fuel-efficient aircraft fleets.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "consequently"
+                },
+                {
+                  "letter": "B",
+                  "text": "although"
+                },
+                {
+                  "letter": "C",
+                  "text": "whereas"
+                },
+                {
+                  "letter": "D",
+                  "text": "despite"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "consequently",
+              "analysis": "\"Consequently\" expresses a cause-and-effect result (taxes raised $\rightarrow$ investments accelerated).",
+              "strategy": "Connecting semicolon + [TRANSITION] + comma with a cause/effect link requires \"consequently\", \"therefore\", or \"as a result\"."
+            },
+            {
+              "stem": "Domestic short-haul flights produce heavy per-passenger carbon emissions, ________ high-speed trains emit up to ninety percent less carbon.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "whereas"
+                },
+                {
+                  "letter": "B",
+                  "text": "despite"
+                },
+                {
+                  "letter": "C",
+                  "text": "in order that"
+                },
+                {
+                  "letter": "D",
+                  "text": "so that"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "whereas",
+              "analysis": "\"Whereas\" is a subordinating conjunction of contrast linking two contrasting factual clauses.",
+              "strategy": "\"Whereas\" directly links two contrasting clauses (Clause A, whereas Clause B). \"Despite\" cannot be followed by a full clause."
+            },
+            {
+              "stem": "The municipal transport authority expanded pedestrian zones; ________, it introduced discounted monthly transit passes for all students.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "in addition"
+                },
+                {
+                  "letter": "B",
+                  "text": "instead"
+                },
+                {
+                  "letter": "C",
+                  "text": "nevertheless"
+                },
+                {
+                  "letter": "D",
+                  "text": "unless"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "in addition",
+              "analysis": "\"In addition\" adds another positive measure to the first (additive logical relationship).",
+              "strategy": "When the second idea reinforces or supplements the first, choose an additive transition: \"in addition\", \"furthermore\", or \"moreover\"."
+            },
+            {
+              "stem": "Public criticism of the urban road pricing project was vocal; ________, vehicle congestion dropped by eighteen percent within the first quarter.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "even though"
+                },
+                {
+                  "letter": "B",
+                  "text": "however"
+                },
+                {
+                  "letter": "C",
+                  "text": "so that"
+                },
+                {
+                  "letter": "D",
+                  "text": "due to"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "however",
+              "analysis": "\"However\" is a transitional conjunctive adverb indicating contrast between initial opposition and subsequent positive outcomes.",
+              "strategy": "Notice punctuation: [semicolon] + [However] + [comma]. Subordinating conjunctions like \"even though\" cannot take this punctuation."
+            }
+          ]
         }
       },
       "4": {
@@ -1972,36 +3437,232 @@
           ],
           "grammar": {
             "title": "Pronouns & Possessives in Business",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "Key Business Rule",
             "formula": "Company / Authority / Organization = ITS (Singular, not \"their\")",
-            "trap": "<strong>its</strong> vs. <strong>it's</strong>! <em>Its</em> (no apostrophe) shows possession (<em>its report</em>). <em>It's</em> (with apostrophe) means <em>it is</em> or <em>it has</em>. In TOEIC Part 5, almost every blank before a noun needs <strong>its</strong>!"
+            "rulesTitle": "Core Rules",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Companies &amp; Authorities use ITS:</strong> A company, airport, or committee is one single organization. Always use <span style=\"font-weight: 700; color: #49739a;\">its</span>, not <em>their</em> (<em>\"The authority released <strong>its</strong> report\"</em>).",
+              "<strong style=\"color: #1e293b;\">2. Before a Noun vs. Alone:</strong> Use <span style=\"font-weight: 700; color: #49739a;\">its</span> or <em>their</em> right before a noun (<em>their plan</em>). Use <em>theirs</em> or <em>mine</em> only when there is NO noun after it.",
+              "<strong style=\"color: #1e293b;\">3. -self words (itself / themselves):</strong> Use <span style=\"font-weight: 600; color: #334155;\">itself</span> when the subject does something to or by itself (<em>by itself</em>).",
+              "<strong style=\"color: #1e293b;\">4. Determiners:</strong> <em>Each</em> / <em>every</em> take singular nouns; <em>other</em> takes plural nouns (<em>other airports</em>); <em>another</em> takes a single noun (<em>another terminal</em>)."
+            ],
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> <strong>its</strong> vs. <strong>it's</strong>! <em>Its</em> (no apostrophe) shows possession (<em>its report</em>). <em>It's</em> (with apostrophe) means <em>it is</em> or <em>it has</em>. In TOEIC Part 5, almost every blank before a noun needs <strong>its</strong>!",
+            "examplesTitle": "Airport Biodiversity Examples",
+            "examples": [
+              "<em>\"The civil aviation commission updated <strong>its</strong> environmental impact charter for green perimeter zones.\"</em>",
+              "<em>\"Urban planners designed the green corridor so that wildlife could navigate the transit hub by <strong>itself</strong>.\"</em>"
+            ]
           },
           "toeic": {
-            "stem": "The international airport authority will release ________ annual biodiversity report detailing wildlife management initiatives next Tuesday.",
+            "stem": "Commercial flight operations continued without interruption ________ dense snow accumulation on taxiways throughout the early morning.",
             "options": [
               {
                 "letter": "A",
-                "text": "its"
+                "text": "although"
               },
               {
                 "letter": "B",
-                "text": "their"
+                "text": "despite"
               },
               {
                 "letter": "C",
-                "text": "itself"
+                "text": "even though"
               },
               {
                 "letter": "D",
-                "text": "theirs"
+                "text": "whereas"
               }
             ],
-            "correctLetter": "A",
-            "correctText": "its",
-            "analysis": "",
-            "strategy": ""
+            "correctLetter": "B",
+            "correctText": "despite",
+            "analysis": "\"Despite\" is a preposition followed by a noun phrase (\"dense snow accumulation\"). \"Although\" and \"even though\" must be followed by subject + verb.",
+            "strategy": "Classic TOEIC Trap: Preposition vs. Conjunction. If followed by Noun Phrase only $\rightarrow$ despite / in spite of. If followed by Subject + Verb $\rightarrow$ although / even though."
           },
-          "resources": [],
-          "pageUrl": "session4/admat2.html"
+          "resources": [
+            {
+              "url": "https://www.icao.int",
+              "tag": "01 • Aviation Safety Database",
+              "name": "ICAO Wildlife Strike Hazard Database",
+              "desc": "International Civil Aviation Organization official data on bird strike prevention and reporting standards."
+            },
+            {
+              "url": "https://www.iucnredlist.org",
+              "tag": "02 • Global Conservation Union",
+              "name": "IUCN Red List of Threatened Species",
+              "desc": "International Union for Conservation of Nature global species extinction risk metrics and habitat data."
+            },
+            {
+              "url": "https://aci.aero",
+              "tag": "03 • Airport Sustainability",
+              "name": "Airports Council International (ACI World)",
+              "desc": "ACI World Sustainability and Environmental Management guidelines for commercial airports."
+            },
+            {
+              "url": "https://www.birdlife.org",
+              "tag": "04 • Avian Conservation Network",
+              "name": "BirdLife International",
+              "desc": "Global partnership protecting bird populations, migratory flyways, and critical conservation areas."
+            },
+            {
+              "url": "https://www.eea.europa.eu",
+              "tag": "05 • European Biodiversity Data",
+              "name": "European Environment Agency Nature Portal",
+              "desc": "State of European nature reports and protected Natura 2000 network conservation data."
+            },
+            {
+              "url": "https://www.etsglobal.org/fr/fr",
+              "tag": "06 • TOEIC Scientific Reading",
+              "name": "ETS Global TOEIC Preparation",
+              "desc": "Technical reading practice with scientific environmental impact assessments and conservation reports."
+            }
+          ],
+          "pageUrl": "session4/admat2.html",
+          "articles": [
+            {
+              "topic": "European Environment Agency (EEA)",
+              "sourceTag": "Environmental Briefing",
+              "heading": "Urban Greening and Biodiversity in European Cities",
+              "snippet": "Assessing how tree canopy expansion, rooftop gardens, and urban wetlands enhance ecological resilience and mitigate heat stress across metropolitan regions.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://www.eea.europa.eu"
+            },
+            {
+              "topic": "Airport World Technical Review",
+              "sourceTag": "Aviation Ecology",
+              "heading": "Balancing Airfield Safety Standards with Habitat Conservation",
+              "snippet": "Operational guidelines for airport environmental managers reconciling mandatory wildlife hazard controls with local biodiversity net gain objectives.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://airport-world.com"
+            }
+          ],
+          "toeicQuestions": [
+            {
+              "stem": "Commercial flight operations continued without interruption ________ dense snow accumulation on taxiways throughout the early morning.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "although"
+                },
+                {
+                  "letter": "B",
+                  "text": "despite"
+                },
+                {
+                  "letter": "C",
+                  "text": "even though"
+                },
+                {
+                  "letter": "D",
+                  "text": "whereas"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "despite",
+              "analysis": "\"Despite\" is a preposition followed by a noun phrase (\"dense snow accumulation\"). \"Although\" and \"even though\" must be followed by subject + verb.",
+              "strategy": "Classic TOEIC Trap: Preposition vs. Conjunction. If followed by Noun Phrase only $\rightarrow$ despite / in spite of. If followed by Subject + Verb $\rightarrow$ although / even though."
+            },
+            {
+              "stem": "The airport environment team constructed wildflower habitats around airfields ________ local bird nesting could be diverted safely away from flight paths.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "so that"
+                },
+                {
+                  "letter": "B",
+                  "text": "in order to"
+                },
+                {
+                  "letter": "C",
+                  "text": "because of"
+                },
+                {
+                  "letter": "D",
+                  "text": "despite"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "so that",
+              "analysis": "\"So that\" introduces a clause of purpose containing subject + modal verb (\"could be diverted\"). \"In order to\" must be followed directly by a base verb.",
+              "strategy": "Purpose structure: \"so that\" + [Subject + modal + verb]; \"in order to\" + [base verb]."
+            },
+            {
+              "stem": "Several incoming flights were diverted to alternate airfields ________ severe crosswinds exceeding forty-five knots.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "because"
+                },
+                {
+                  "letter": "B",
+                  "text": "owing to"
+                },
+                {
+                  "letter": "C",
+                  "text": "although"
+                },
+                {
+                  "letter": "D",
+                  "text": "whereas"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "owing to",
+              "analysis": "\"Owing to\" is a preposition meaning \"because of\", followed by a noun phrase (\"severe crosswinds\").",
+              "strategy": "\"Because of\", \"owing to\", and \"due to\" take noun phrases. \"Because\" must take a full clause with subject and verb."
+            },
+            {
+              "stem": "________ the airport expanded its passenger terminal capacity, it succeeded in maintaining net-zero airfield carbon neutrality.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "Despite"
+                },
+                {
+                  "letter": "B",
+                  "text": "Even though"
+                },
+                {
+                  "letter": "C",
+                  "text": "Because of"
+                },
+                {
+                  "letter": "D",
+                  "text": "In spite of"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "Even though",
+              "analysis": "\"Even though\" is a subordinating conjunction followed by a full clause with subject (\"the airport\") and verb (\"expanded\").",
+              "strategy": "Check what follows: \"the airport expanded\" is Subject + Verb $\rightarrow$ choose \"Even though\" (conjunction), not \"Despite\" (preposition)."
+            },
+            {
+              "stem": "Biological retention ponds were built across the airport perimeter ________ prevent de-icing fluid runoff from infiltrating local river systems.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "in order to"
+                },
+                {
+                  "letter": "B",
+                  "text": "so that"
+                },
+                {
+                  "letter": "C",
+                  "text": "because"
+                },
+                {
+                  "letter": "D",
+                  "text": "owing to"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "in order to",
+              "analysis": "\"In order to\" expresses purpose and is followed directly by the base verb \"prevent\".",
+              "strategy": "Formula: \"in order to\" + [base verb]. Never choose \"so that\" directly before a bare infinitive."
+            }
+          ]
         }
       }
     }
@@ -2044,6 +3705,92 @@
           "num": "5.",
           "title": "Politique Sociale et Inclusion",
           "desc": "Engagement institutionnel pour la responsabilité sociétale : égalité professionnelle femmes-hommes, inclusion et accessibilité des personnes en situation de handicap, égalité des chances, amélioration de la qualité de vie et santé globale, et prévention de toute forme de discrimination."
+        }
+      ],
+      "items": [
+        {
+          "badge": "Axe 1",
+          "num": "1.",
+          "title": "Gouvernance et Stratégie",
+          "desc": "Intégration du développement durable dans la vision, le projet d'établissement et le pilotage décisionnel. Dialogue continu avec les parties prenantes (étudiants, personnels, collectivités, partenaires), allocation de budgets dédiés et suivi d'indicateurs d'impact mesurables.",
+          "isMuted": false
+        },
+        {
+          "badge": "Axe 2",
+          "num": "2.",
+          "title": "Formation et Pédagogie",
+          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-écologique (limites planétaires, climat, biodiversité). Intégration transversale des compétences DD&amp;RS (rapport Jouzel / socle MESR) pour préparer les ingénieurs à la prise de décision éthique et responsable.",
+          "isMuted": false
+        },
+        {
+          "badge": "Axe 3",
+          "num": "3.",
+          "title": "Recherche et Innovation",
+          "desc": "Orientation et valorisation de l'activité scientifique et technologique en réponse aux Objectifs de Développement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, éco-conception et transfert de technologies vertes au service de la société.",
+          "isMuted": false
+        },
+        {
+          "badge": "Axe 4",
+          "num": "4.",
+          "title": "Gestion Environnementale",
+          "desc": "Maîtrise et réduction continue des impacts écologiques directs : décarbonation des mobilités pendulaires et professionnelles, efficacité et sobriété énergétique du patrimoine bâti, gestion circulaire des déchets, préservation de la biodiversité sur site et achats publics responsables.",
+          "isMuted": false
+        },
+        {
+          "badge": "Axe 5",
+          "num": "5.",
+          "title": "Politique Sociale et Inclusion",
+          "desc": "Engagement institutionnel pour la responsabilité sociétale : égalité professionnelle femmes-hommes, inclusion et accessibilité des personnes en situation de handicap, égalité des chances, amélioration de la qualité de vie et santé globale, et prévention de toute forme de discrimination.",
+          "isMuted": true
+        },
+        {
+          "badge": "Tag",
+          "num": "6.",
+          "title": "Mobilité Durable &amp; Report Modal (Sustainable Mobility)",
+          "desc": "Stratégie d'optimisation des transports articulée autour de la hiérarchie « Éviter - Transférer - Améliorer » (ASI). Promotion active du report modal vers le ferroviaire, les transports en commun et les mobilités douces face à l'autosolisme et aux vols court-courriers.",
+          "isMuted": true
+        },
+        {
+          "badge": "Tag",
+          "num": "7.",
+          "title": "Bilan d'Émissions de GES (BEGES / Bilan Carbone)",
+          "desc": "Comptabilisation réglementaire des gaz à effet de serre (méthode ADEME / ISO 14064) sur les trois périmètres : Scope 1 (émissions directes), Scope 2 (émissions indirectes énergétiques) et Scope 3 (émissions indirectes amont/aval : déplacements, achats, logistique et cycle de vie).",
+          "isMuted": false
+        },
+        {
+          "badge": "Tag",
+          "num": "8.",
+          "title": "Sobriété Énergétique &amp; Efficacité",
+          "desc": "Démarche articulant la sobriété (questionnement et réduction des consommations par la modification des comportements et des usages collectifs) et l'efficacité (optimisation technique des rendements énergétiques pour un même niveau de service).",
+          "isMuted": false
+        },
+        {
+          "badge": "Tag",
+          "num": "9.",
+          "title": "Préservation de la Biodiversité &amp; Zéro Artificialisation Nette (ZAN)",
+          "desc": "Protection des écosystèmes et des continuités écologiques (trames vertes et bleues). Application des exigences légales (loi Climat et Résilience) visant à stopper la disparition nette d'espaces naturels et agricoles causée par les infrastructures et l'aménagement.",
+          "isMuted": true
+        },
+        {
+          "badge": "Tag",
+          "num": "10.",
+          "title": "Équité Territoriale &amp; Accessibilité (Territorial Equity)",
+          "desc": "Principe de justice spatiale garantissant un accès universel, abordable et sécurisé aux réseaux de transport et aux services d'intérêt général pour l'ensemble des territoires (urbains, périurbains et ruraux), luttant contre la fracture et la précarité mobilité.",
+          "isMuted": false
+        },
+        {
+          "badge": "Tag",
+          "num": "11.",
+          "title": "Achats Responsables &amp; Analyse du Cycle de Vie (ACV / LCA)",
+          "desc": "Intégration systématique de critères environnementaux et sociaux dans la commande publique et privée. Évaluation globale des impacts de chaque produit, infrastructure ou service de son extraction jusqu'à son recyclage ou élimination finale.",
+          "isMuted": false
+        },
+        {
+          "badge": "Tag",
+          "num": "12.",
+          "title": "Objectifs de Développement Durable (ODD - Agenda 2030)",
+          "desc": "Cadre universel des Nations Unies comprenant 17 objectifs interdépendants pour concilier prospérité économique, progrès social et protection de la biosphère. Les politiques de transport et d'ingénierie s'articulent principalement autour des ODD 9, 11, 12 et 13.",
+          "isMuted": false
         }
       ]
     },
@@ -2237,36 +3984,231 @@
           ],
           "grammar": {
             "title": "Active vs. Passive Voice",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "How Both Voices Work",
             "formula": "Active: Subject + Action + Object | Passive: Receiver + [be] + Past Participle (V3)",
-            "trap": "Check who does the action! If the subject is an object that cannot act on its own (like source code, a report, or equipment), and is followed by <em>\"by...\"</em>, you need the <strong>passive voice ([be] + V3)</strong>!"
+            "rulesTitle": "Core Distinction",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Active Voice (Subject does the action):</strong> Use when you want to focus on who or what does the work (<span style=\"font-weight: 700; color: #60854b;\">\"Engineers test the software\"</span>).",
+              "<strong style=\"color: #1e293b;\">2. Passive Voice (Subject receives the action):</strong> Formed with <span style=\"font-weight: 700; color: #60854b;\">[be] + Past Participle (V3)</span>. Very common in aviation manuals and safety reports when the result is more important than who did it (<em>\"The software is tested\"</em>).",
+              "<strong style=\"color: #1e293b;\">3. Passive with Modal Verbs:</strong> Formed with <span style=\"font-weight: 600; color: #334155;\">modal + be + Past Participle</span> (e.g., <em>must be tested</em>, <em>should be updated</em>, <em>can be operated</em>)."
+            ],
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> Check who does the action! If the subject is an object that cannot act on its own (like source code, a report, or equipment), and is followed by <em>\"by...\"</em>, you need the <strong>passive voice ([be] + V3)</strong>!",
+            "examplesTitle": "Aviation & AI Examples",
+            "examples": [
+              "<em>\"Flight telemetry data <strong>is analyzed</strong> by deep learning models in real time.\" (Passive)</em>",
+              "<em>\"Avionics engineers <strong>calibrated</strong> the autopilot sensor array before takeoff.\" (Active)</em>"
+            ]
           },
           "toeic": {
-            "stem": "Before an automated flight control algorithm is deployed across the commercial fleet, all source code and neural network models ________ by senior avionics certification inspectors.",
+            "stem": "By the end of this fiscal year, automated baggage tracking systems ________ at three major international hub terminals.",
             "options": [
               {
                 "letter": "A",
-                "text": "review"
+                "text": "will install"
               },
               {
                 "letter": "B",
-                "text": "were reviewing"
+                "text": "will have been installed"
               },
               {
                 "letter": "C",
-                "text": "must be reviewed"
+                "text": "were installed"
               },
               {
                 "letter": "D",
-                "text": "to review"
+                "text": "have installed"
               }
             ],
-            "correctLetter": "C",
-            "correctText": "must be reviewed",
-            "analysis": "",
-            "strategy": ""
+            "correctLetter": "B",
+            "correctText": "will have been installed",
+            "analysis": "The time expression \"By the end of [future time]\" requires the Future Perfect (\"will have been + V3\"), especially in passive voice.",
+            "strategy": "Time marker \"By + future point\" triggers the Future Perfect (will have + V3). Add \"been\" when the subject receives the action."
           },
-          "resources": [],
-          "pageUrl": "session1/admat3.html"
+          "resources": [
+            {
+              "url": "https://partnershiponai.org",
+              "tag": "01 • Global AI Ethics",
+              "name": "Partnership on AI",
+              "desc": "Global non-profit multi-stakeholder organization developing best practices and ethical standards for artificial intelligence."
+            },
+            {
+              "url": "https://digital-strategy.ec.europa.eu",
+              "tag": "02 • EU Regulatory Framework",
+              "name": "European Commission AI Act",
+              "desc": "The world's first comprehensive legal framework regulating high-risk AI applications and transparency mandates."
+            },
+            {
+              "url": "https://www.computer.org",
+              "tag": "03 • Computing Research Society",
+              "name": "IEEE Computer Society",
+              "desc": "Leading technical community for computing professionals developing standards for machine learning and systems engineering."
+            },
+            {
+              "url": "https://hai.stanford.edu",
+              "tag": "04 • Stanford AI Index",
+              "name": "Stanford Institute for Human-Centered AI (HAI)",
+              "desc": "Interdisciplinary research institute tracking annual metrics on AI capabilities, ethics, investment, and societal impacts."
+            },
+            {
+              "url": "https://ourworldindata.org/artificial-intelligence",
+              "tag": "05 • Technological Change Data",
+              "name": "Our World in Data: Artificial Intelligence",
+              "desc": "Comprehensive empirical datasets and interactive visualizations tracking global AI development, compute costs, and performance."
+            },
+            {
+              "url": "https://www.etsglobal.org/fr/fr",
+              "tag": "06 • TOEIC Passive Voice Reading",
+              "name": "ETS Global TOEIC Preparation",
+              "desc": "Business English reading and listening comprehension practice with office automation notices and technical procedure memos."
+            }
+          ],
+          "pageUrl": "session1/admat3.html",
+          "articles": [
+            {
+              "topic": "MIT Technology Review",
+              "sourceTag": "Industry Analysis",
+              "heading": "Generative AI and the Transformation of Modern Workplaces",
+              "snippet": "Analyzing how enterprise deployment of generative AI tools reshapes professional productivity, human-in-the-loop workflows, and ethical benchmarks.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://www.technologyreview.com"
+            },
+            {
+              "topic": "International Energy Agency (IEA)",
+              "sourceTag": "Environmental Briefing",
+              "heading": "The Compute Carbon Footprint: Data Centers and Energy Demands",
+              "snippet": "Assessing the soaring electrical energy and water cooling demands required to train and deploy modern large-scale artificial intelligence models.",
+              "readTime": "Estimated read: 6-8 mins",
+              "url": "https://www.iea.org"
+            }
+          ],
+          "toeicQuestions": [
+            {
+              "stem": "By the end of this fiscal year, automated baggage tracking systems ________ at three major international hub terminals.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "will install"
+                },
+                {
+                  "letter": "B",
+                  "text": "will have been installed"
+                },
+                {
+                  "letter": "C",
+                  "text": "were installed"
+                },
+                {
+                  "letter": "D",
+                  "text": "have installed"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "will have been installed",
+              "analysis": "The time expression \"By the end of [future time]\" requires the Future Perfect (\"will have been + V3\"), especially in passive voice.",
+              "strategy": "Time marker \"By + future point\" triggers the Future Perfect (will have + V3). Add \"been\" when the subject receives the action."
+            },
+            {
+              "stem": "Predictive maintenance algorithms ________ aircraft technical teams to identify component wear before mechanical faults develop.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "enable"
+                },
+                {
+                  "letter": "B",
+                  "text": "enabling"
+                },
+                {
+                  "letter": "C",
+                  "text": "enabler"
+                },
+                {
+                  "letter": "D",
+                  "text": "ably"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "enable",
+              "analysis": "The sentence requires a finite verb in the present tense matching plural subject \"algorithms\" (\"enable someone to do something\").",
+              "strategy": "Every English sentence requires a finite verb. Gerunds (-ing) without auxiliaries and nouns cannot act as main verbs."
+            },
+            {
+              "stem": "Autonomous electric ramp tractors ________ into routine cargo operations at Lyon-Saint Exupéry Airport by 2028.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "are integrating"
+                },
+                {
+                  "letter": "B",
+                  "text": "will be integrated"
+                },
+                {
+                  "letter": "C",
+                  "text": "were integrating"
+                },
+                {
+                  "letter": "D",
+                  "text": "has integrated"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "will be integrated",
+              "analysis": "Future timeframe (\"by 2028\") and passive voice (tractors do not integrate themselves) require future passive \"will be integrated\".",
+              "strategy": "Check time (2028 = future) + voice (tractors are integrated = passive). Pick will be + V3."
+            },
+            {
+              "stem": "The engineering team will initiate automated drone runway sweeps as soon as European aviation safety clearance ________ received.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "is"
+                },
+                {
+                  "letter": "B",
+                  "text": "will be"
+                },
+                {
+                  "letter": "C",
+                  "text": "was"
+                },
+                {
+                  "letter": "D",
+                  "text": "has been"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "is",
+              "analysis": "In time clauses introduced by \"as soon as\", \"when\", or \"until\", use the Present Simple tense even when the main clause refers to the future.",
+              "strategy": "Rule: Never use \"will\" in a time clause (when, as soon as, once, after). Use Present Simple: \"as soon as clearance is received\"."
+            },
+            {
+              "stem": "Within the next five years, machine learning models ________ flight flight-altitude planning to minimize contrail formation.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "optimize"
+                },
+                {
+                  "letter": "B",
+                  "text": "will optimize"
+                },
+                {
+                  "letter": "C",
+                  "text": "were optimizing"
+                },
+                {
+                  "letter": "D",
+                  "text": "have optimized"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "will optimize",
+              "analysis": "The future time frame \"Within the next five years\" requires a simple future prediction: \"will optimize\".",
+              "strategy": "\"Within the next [years/months]\" refers to future events $\rightarrow$ choose \"will + base verb\"."
+            }
+          ]
         }
       },
       "2": {
@@ -2458,36 +4400,231 @@
           ],
           "grammar": {
             "title": "Comparing Things & Degree Words",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "Comparison Rules",
             "formula": "Comparative: [much / considerably] + [more + adj / -er] + than | Superlative: the + [most + adj / -est]",
-            "trap": "Never put <strong>very</strong> in front of a comparative (NOT <em>very more expensive</em> ❌)! When you see <em>than</em> after the blank, you must use a comparative (<em>more costly</em>), never a superlative (<em>most costly</em>)."
+            "rulesTitle": "Core Rules",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Comparing Two Things (Comparative):</strong> Compare two items using <span style=\"font-weight: 700; color: #60854b;\">-er / more ... than</span> (e.g., <em>faster than</em>, <em>more efficient than</em>).",
+              "<strong style=\"color: #1e293b;\">2. Degree Words (How much bigger or smaller):</strong> Use words like <span style=\"font-weight: 600; color: #334155;\">much, considerably, far, significantly, slightly</span> before comparatives (e.g., <em>considerably more costly</em>, <em>significantly higher</em>).",
+              "<strong style=\"color: #1e293b;\">3. The Top of a Group (Superlative):</strong> Use <span style=\"font-weight: 700; color: #60854b;\">the + -est / the most + adjective</span> for three or more things (e.g., <em>the most viable solution</em>, <em>the cheapest option</em>)."
+            ],
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> Never put <strong>very</strong> in front of a comparative (NOT <em>very more expensive</em> ❌)! When you see <em>than</em> after the blank, you must use a comparative (<em>more costly</em>), never a superlative (<em>most costly</em>).",
+            "examplesTitle": "Propulsion & Energy Examples",
+            "examples": [
+              "<em>\"Hydrogen yields <strong>significantly higher</strong> gravimetric energy density than battery cells.\" (Comparative)</em>",
+              "<em>\"Hybrid turboprops represent <strong>the most viable</strong> interim solution for regional carriers.\" (Superlative)</em>"
+            ]
           },
           "toeic": {
-            "stem": "Although sustainable aviation fuel (SAF) is considerably ________ to produce than conventional kerosene, it offers the most immediate route to reducing commercial flight emissions.",
+            "stem": "Rarely ________ airline dispatch teams encountered such extensive cloud infrastructure outages across European air control centers.",
             "options": [
               {
                 "letter": "A",
-                "text": "costly"
+                "text": "have"
               },
               {
                 "letter": "B",
-                "text": "more costly"
+                "text": "had"
               },
               {
                 "letter": "C",
-                "text": "costliest"
+                "text": "did"
               },
               {
                 "letter": "D",
-                "text": "most costly"
+                "text": "were"
               }
             ],
-            "correctLetter": "B",
-            "correctText": "more costly",
-            "analysis": "",
-            "strategy": ""
+            "correctLetter": "A",
+            "correctText": "have",
+            "analysis": "When a sentence starts with a restrictive or negative adverb (\"Rarely\", \"Seldom\", \"Never\"), subject-auxiliary inversion occurs: Rarely + have + subject + past participle.",
+            "strategy": "Negative Inversion Formula: [Negative adverb] + [auxiliary verb] + [Subject] + [Main verb]. Look for have/has before the subject."
           },
-          "resources": [],
-          "pageUrl": "session2/admat3.html"
+          "resources": [
+            {
+              "url": "https://www.cer.be",
+              "tag": "01 • European Rail Network",
+              "name": "Community of European Railway & Infrastructure (CER)",
+              "desc": "Representing European passenger and freight railway operators advocating for cross-border high-speed rail connections."
+            },
+            {
+              "url": "https://www.clean-aviation.eu",
+              "tag": "02 • Clean Aviation Alliance",
+              "name": "Clean Aviation Joint Undertaking",
+              "desc": "European Union public-private partnership developing disruptive zero-emission aircraft technologies by 2035."
+            },
+            {
+              "url": "https://theicct.org",
+              "tag": "03 • Clean Transport Research",
+              "name": "International Council on Clean Transportation (ICCT)",
+              "desc": "Independent research organization providing first-rate technical and scientific analysis to environmental regulators."
+            },
+            {
+              "url": "https://www.itdp.org",
+              "tag": "04 • Sustainable Transit Institute",
+              "name": "Institute for Transportation & Development Policy (ITDP)",
+              "desc": "Global non-profit organization promoting sustainable, equitable, and integrated public transportation systems."
+            },
+            {
+              "url": "https://ourworldindata.org/transport",
+              "tag": "05 • Energy Transition Data",
+              "name": "Our World in Data: Energy & Transport",
+              "desc": "Empirical metrics tracking global greenhouse gas emissions by transport mode, electric vehicle adoption, and energy intensity."
+            },
+            {
+              "url": "https://www.etsglobal.org/fr/fr",
+              "tag": "06 • TOEIC Comparative Reading",
+              "name": "ETS Global TOEIC Preparation",
+              "desc": "Reading comprehension practice analyzing comparative travel options, service schedules, and infrastructure investment tenders."
+            }
+          ],
+          "pageUrl": "session2/admat3.html",
+          "articles": [
+            {
+              "topic": "International Council on Clean Transportation (ICCT)",
+              "sourceTag": "Policy Analysis",
+              "heading": "The European Rail Renaissance: Can High-Speed Rail Replace Regional Flights?",
+              "snippet": "Comparative modeling of travel times, carbon savings, and infrastructure investment required to achieve competitive rail alternatives across European corridors.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://theicct.org"
+            },
+            {
+              "topic": "McKinsey Transport &amp; Logistics Review",
+              "sourceTag": "Industry Forecast",
+              "heading": "The Next Decade of Sustainable Mobility &amp; Clean Fuels",
+              "snippet": "Assessing commercial scaling timelines for electric fleets, hydrogen fuel cells, autonomous shuttles, and net-zero passenger transport.",
+              "readTime": "Estimated read: 6-8 mins",
+              "url": "https://www.mckinsey.com"
+            }
+          ],
+          "toeicQuestions": [
+            {
+              "stem": "Rarely ________ airline dispatch teams encountered such extensive cloud infrastructure outages across European air control centers.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "have"
+                },
+                {
+                  "letter": "B",
+                  "text": "had"
+                },
+                {
+                  "letter": "C",
+                  "text": "did"
+                },
+                {
+                  "letter": "D",
+                  "text": "were"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "have",
+              "analysis": "When a sentence starts with a restrictive or negative adverb (\"Rarely\", \"Seldom\", \"Never\"), subject-auxiliary inversion occurs: Rarely + have + subject + past participle.",
+              "strategy": "Negative Inversion Formula: [Negative adverb] + [auxiliary verb] + [Subject] + [Main verb]. Look for have/has before the subject."
+            },
+            {
+              "stem": "Not only ________ the biometric boarding gate accelerate passenger boarding, but it also eliminated boarding pass fraud.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "did"
+                },
+                {
+                  "letter": "B",
+                  "text": "does"
+                },
+                {
+                  "letter": "C",
+                  "text": "has"
+                },
+                {
+                  "letter": "D",
+                  "text": "had"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "did",
+              "analysis": "Negative inversion with \"Not only\". Since the parallel clause uses past simple (\"eliminated\"), the auxiliary must be past (\"did... accelerate\").",
+              "strategy": "Formula: Not only + did + S + base verb ..., but [S] also + past verb."
+            },
+            {
+              "stem": "Under no circumstances ________ international passengers bypass biometric verification gates without presenting their digital credentials.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "should"
+                },
+                {
+                  "letter": "B",
+                  "text": "ought"
+                },
+                {
+                  "letter": "C",
+                  "text": "must have"
+                },
+                {
+                  "letter": "D",
+                  "text": "were"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "should",
+              "analysis": "Negative inversion after \"Under no circumstances\": modal auxiliary (\"should\") precedes the subject \"international passengers\".",
+              "strategy": "\"Under no circumstances\" + modal (should / can) + Subject + base verb."
+            },
+            {
+              "stem": "Modern automated self-service check-in kiosks must be rapid, reliable, and ________ for all arriving travelers.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "accessible"
+                },
+                {
+                  "letter": "B",
+                  "text": "accessibility"
+                },
+                {
+                  "letter": "C",
+                  "text": "accessing"
+                },
+                {
+                  "letter": "D",
+                  "text": "accessibly"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "accessible",
+              "analysis": "Parallel grammatical structure requires an adjective to match \"rapid\" and \"reliable\" in the series: [adj], [adj], and [adj].",
+              "strategy": "Parallelism rule: In a series connected by \"and\" or \"or\", items must share the same part of speech (rapid, reliable, and accessible)."
+            },
+            {
+              "stem": "Hardly had the high-speed electric train ________ the terminal when diagnostic sensors transmitted telemetry to the dispatch center.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "left"
+                },
+                {
+                  "letter": "B",
+                  "text": "leave"
+                },
+                {
+                  "letter": "C",
+                  "text": "leaving"
+                },
+                {
+                  "letter": "D",
+                  "text": "leaves"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "left",
+              "analysis": "The structure \"Hardly had [subject] [past participle] when [past clause]\" requires the past participle form \"left\".",
+              "strategy": "Inversion formula: Hardly had + S + [V3] ... when + [Past Simple]."
+            }
+          ]
         }
       },
       "3": {
@@ -2679,36 +4816,231 @@
           ],
           "grammar": {
             "title": "Connecting Sentences & Ideas",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "Connecting Words",
             "formula": "Conjunction: [Although / Because] + Subject + Verb | Preposition: [Despite / Due to] + Noun",
-            "trap": "The <em>\"Although vs. Despite\"</em> trap! If you see a <strong>Subject and a Verb</strong> after the blank, choose <em>Although / Even though</em>. If you see only a noun phrase, choose <em>Despite / In spite of</em>!"
+            "rulesTitle": "Core Rules",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Conjunctions (Although, Even though, Because, Since):</strong> Followed by a complete sentence with a <span style=\"font-weight: 700; color: #60854b;\">Subject and a Verb</span> (<em>\"Although the model worked...\"</em>).",
+              "<strong style=\"color: #1e293b;\">2. Prepositions (Despite, In spite of, Because of, Due to):</strong> Followed only by a <span style=\"font-weight: 700; color: #60854b;\">noun or an -ing word</span>, never a full subject + verb (<em>\"Despite high accuracy...\"</em>).",
+              "<strong style=\"color: #1e293b;\">3. Transition Words (However, Therefore, Furthermore):</strong> Start a new sentence after a period or semicolon, usually followed by a comma (<span style=\"font-weight: 600; color: #334155;\">\"However, regulators hesitated.\"</span>)."
+            ],
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> The <em>\"Although vs. Despite\"</em> trap! If you see a <strong>Subject and a Verb</strong> after the blank, choose <em>Although / Even though</em>. If you see only a noun phrase, choose <em>Despite / In spite of</em>!",
+            "examplesTitle": "Governance & Ethics Examples",
+            "examples": [
+              "<em>\"<strong>Although</strong> the model demonstrated accuracy, bias audits remained mandatory.\" (+ Clause)</em>",
+              "<em>\"<strong>Despite</strong> high statistical accuracy, public deployment was delayed.\" (+ Noun Phrase)</em>"
+            ]
           },
           "toeic": {
-            "stem": "________ the algorithmic predictive policing system demonstrated high statistical precision in pilot tests, municipal regulators suspended its deployment due to civil liberty concerns.",
+            "stem": "European air transport regulators recommend that every commercial AI guidance system ________ audited by human flight safety panels.",
             "options": [
               {
                 "letter": "A",
-                "text": "Despite"
+                "text": "is"
               },
               {
                 "letter": "B",
-                "text": "Although"
+                "text": "be"
               },
               {
                 "letter": "C",
-                "text": "However"
+                "text": "was"
               },
               {
                 "letter": "D",
-                "text": "In spite of"
+                "text": "been"
               }
             ],
             "correctLetter": "B",
-            "correctText": "Although",
-            "analysis": "",
-            "strategy": ""
+            "correctText": "be",
+            "analysis": "The verb \"recommend that\" requires the mandative subjunctive mood, which uses the base form of the verb (\"be audited\"), regardless of the singular subject.",
+            "strategy": "Subjunctive triggers: recommend that, require that, demand that, suggest that $\rightarrow$ always choose the BASE verb (be, go, submit)."
           },
-          "resources": [],
-          "pageUrl": "session3/admat3.html"
+          "resources": [
+            {
+              "url": "https://hai.stanford.edu",
+              "tag": "01 • AI Ethics & Governance",
+              "name": "Stanford Human-Centered AI (HAI)",
+              "desc": "Advancing AI research, education, and policy to benefit humanity through interdisciplinary scholarship."
+            },
+            {
+              "url": "https://www.acm.org/code-of-ethics",
+              "tag": "02 • Human-Computer Ethics",
+              "name": "ACM Code of Ethics & Professional Conduct",
+              "desc": "Foundational ethical guidelines established by the Association for Computing Machinery to govern responsible technological stewardship."
+            },
+            {
+              "url": "https://www.criticalthinking.org",
+              "tag": "03 • Critical Thinking Foundation",
+              "name": "Foundation for Critical Thinking",
+              "desc": "Global non-profit educational organization advancing essential critical thinking tools, Socratic questioning, and logical evaluation."
+            },
+            {
+              "url": "https://www.eff.org",
+              "tag": "04 • Public Interest Tech",
+              "name": "Electronic Frontier Foundation (EFF)",
+              "desc": "Leading non-profit defending civil liberties, algorithmic transparency, privacy rights, and user autonomy in the digital world."
+            },
+            {
+              "url": "https://ourworldindata.org/technological-change",
+              "tag": "05 • Technological Change Data",
+              "name": "Our World in Data: Technological Change",
+              "desc": "Global historical data tracking rates of technological diffusion, workplace productivity, and societal adaptation."
+            },
+            {
+              "url": "https://www.etsglobal.org/fr/fr",
+              "tag": "06 • TOEIC Argument Analysis",
+              "name": "ETS Global TOEIC Preparation",
+              "desc": "Business English listening and reading comprehension strategies for identifying speaker stance, counter-claims, and concession markers."
+            }
+          ],
+          "pageUrl": "session3/admat3.html",
+          "articles": [
+            {
+              "topic": "Stanford Center for Human-Centered AI",
+              "sourceTag": "Academic Briefing",
+              "heading": "Critical Thinking in the Age of Automated Algorithms",
+              "snippet": "Analyzing how human operators can maintain situational awareness, recognize cognitive complacency, and challenge flawed automated outputs.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://hai.stanford.edu"
+            },
+            {
+              "topic": "Harvard Law Review Digital Governance",
+              "sourceTag": "Legal &amp; Policy Review",
+              "heading": "Allocating Legal Liability for Automated Decisions",
+              "snippet": "Exploring legal doctrines and ethical frameworks for attributing fault when autonomous vehicles, AI models, or automated systems cause harm.",
+              "readTime": "Estimated read: 6-8 mins",
+              "url": "https://harvardlawreview.org"
+            }
+          ],
+          "toeicQuestions": [
+            {
+              "stem": "European air transport regulators recommend that every commercial AI guidance system ________ audited by human flight safety panels.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "is"
+                },
+                {
+                  "letter": "B",
+                  "text": "be"
+                },
+                {
+                  "letter": "C",
+                  "text": "was"
+                },
+                {
+                  "letter": "D",
+                  "text": "been"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "be",
+              "analysis": "The verb \"recommend that\" requires the mandative subjunctive mood, which uses the base form of the verb (\"be audited\"), regardless of the singular subject.",
+              "strategy": "Subjunctive triggers: recommend that, require that, demand that, suggest that $\rightarrow$ always choose the BASE verb (be, go, submit)."
+            },
+            {
+              "stem": "It is essential that passenger biometric identification records ________ strictly encrypted during data transmission.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "remain"
+                },
+                {
+                  "letter": "B",
+                  "text": "remains"
+                },
+                {
+                  "letter": "C",
+                  "text": "remained"
+                },
+                {
+                  "letter": "D",
+                  "text": "will remain"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "remain",
+              "analysis": "The impersonal construction \"It is essential that\" demands the subjunctive base form (\"remain\"), without third-person -s.",
+              "strategy": "Pattern: It is essential/imperative/vital that + Subject + [BASE VERB] (no -s, no ed, no will)."
+            },
+            {
+              "stem": "The digital privacy board insisted that automated profiling systems ________ subject to independent human review upon passenger request.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "be"
+                },
+                {
+                  "letter": "B",
+                  "text": "are"
+                },
+                {
+                  "letter": "C",
+                  "text": "was"
+                },
+                {
+                  "letter": "D",
+                  "text": "were"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "be",
+              "analysis": "\"Insisted that\" triggers the mandative subjunctive, requiring the uninflected base verb \"be\".",
+              "strategy": "Verbs of demand or insistence (insist, demand, urge that) trigger base verb subjunctive: \"insisted that S be...\"."
+            },
+            {
+              "stem": "Civil aviation authority members debated ________ the new algorithm met international safety redundancy certifications.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "whether"
+                },
+                {
+                  "letter": "B",
+                  "text": "that"
+                },
+                {
+                  "letter": "C",
+                  "text": "which"
+                },
+                {
+                  "letter": "D",
+                  "text": "what"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "whether",
+              "analysis": "\"Debated whether\" introduces an indirect question noun clause expressing an issue with two possibilities (whether or not).",
+              "strategy": "After verbs of discussion, uncertainty, or debate (debate, wonder, doubt), use \"whether\" rather than \"that\"."
+            },
+            {
+              "stem": "It is imperative that the aerospace engineering contractor ________ international data privacy covenants during software updates.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "follows"
+                },
+                {
+                  "letter": "B",
+                  "text": "follow"
+                },
+                {
+                  "letter": "C",
+                  "text": "followed"
+                },
+                {
+                  "letter": "D",
+                  "text": "will follow"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "follow",
+              "analysis": "\"It is imperative that\" takes the subjunctive base form \"follow\", even though the subject \"contractor\" is singular.",
+              "strategy": "Never add -s to the verb after \"It is imperative / crucial / necessary that\"."
+            }
+          ]
         }
       },
       "4": {
@@ -2900,39 +5232,247 @@
           ],
           "grammar": {
             "title": "Words That Go Together (Collocations)",
+            "badge": "B1–B2 Grammar Focus",
+            "patternTitle": "Key Word Pairs",
             "formula": "Verb + Preposition: comply with / adhere to | Verb + Noun: meet standards / conduct an audit",
-            "trap": "Pay close attention to the preposition right after the blank! If you see <em>with</em>, you cannot pick <em>meet</em>, <em>follow</em>, or <em>observe</em> (they don't use <em>with</em>). You must pick <strong>comply with</strong>!"
+            "rulesTitle": "Core Rules",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Verbs with Fixed Prepositions:</strong> <span style=\"font-weight: 700; color: #60854b;\">comply with</span> (rules), <span style=\"font-weight: 700; color: #60854b;\">adhere to</span> (policies), <span style=\"font-weight: 700; color: #60854b;\">participate in</span> (events), <span style=\"font-weight: 700; color: #60854b;\">account for</span> (a percentage).",
+              "<strong style=\"color: #1e293b;\">2. Verbs with NO Preposition:</strong> <span style=\"font-weight: 600; color: #334155;\">meet standards</span> (NOT <em>meet with standards</em>), <span style=\"font-weight: 600; color: #334155;\">follow rules</span>, <span style=\"font-weight: 600; color: #334155;\">observe regulations</span>.",
+              "<strong style=\"color: #1e293b;\">3. Natural Business Pairs:</strong> <span style=\"font-weight: 600; color: #334155;\">conduct an audit</span>, <span style=\"font-weight: 600; color: #334155;\">grant clearance</span>, <span style=\"font-weight: 600; color: #334155;\">implement measures</span>, <span style=\"font-weight: 600; color: #334155;\">strict confidentiality</span>."
+            ],
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> Pay close attention to the preposition right after the blank! If you see <em>with</em>, you cannot pick <em>meet</em>, <em>follow</em>, or <em>observe</em> (they don't use <em>with</em>). You must pick <strong>comply with</strong>!",
+            "examplesTitle": "Biometrics & Security Examples",
+            "examples": [
+              "<em>\"Border control e-gates must <strong>comply with</strong> international encryption protocols.\" (Verb + Prep)</em>",
+              "<em>\"The airport authority will <strong>conduct a comprehensive audit</strong> of its facial scanner feeds.\" (Verb + Noun)</em>"
+            ]
           },
           "toeic": {
-            "stem": "To guarantee the security of decentralized passenger credentials, all biometric scanning hardware installed at border e-gates must ________ with international encryption standards.",
+            "stem": "________ their digital identity tokens at the self-service terminal, passengers proceed seamlessly through automated biometric boarding lanes.",
             "options": [
               {
                 "letter": "A",
-                "text": "comply"
+                "text": "Verified"
               },
               {
                 "letter": "B",
-                "text": "observe"
+                "text": "Having verified"
               },
               {
                 "letter": "C",
-                "text": "meet"
+                "text": "Verification"
               },
               {
                 "letter": "D",
-                "text": "follow"
+                "text": "Verifies"
               }
             ],
-            "correctLetter": "A",
-            "correctText": "comply",
-            "analysis": "",
-            "strategy": ""
+            "correctLetter": "B",
+            "correctText": "Having verified",
+            "analysis": "The perfect active participle (\"Having verified\") indicates that the action of verifying tokens occurred before the main action (\"proceed\").",
+            "strategy": "Perfect Participle Formula: Having + V3 indicates an action completed before the main clause action."
           },
-          "resources": [],
-          "pageUrl": "session4/admat3.html"
+          "resources": [
+            {
+              "url": "https://www.icao.int",
+              "tag": "01 • Digital Travel Standards",
+              "name": "ICAO Digital Travel Credential (DTC)",
+              "desc": "International Civil Aviation Organization technical specifications for secure digital travel credentials on mobile devices."
+            },
+            {
+              "url": "https://www.nist.gov",
+              "tag": "02 • Biometric Accuracy Benchmarks",
+              "name": "NIST Face Recognition Vendor Test (FRVT)",
+              "desc": "National Institute of Standards and Technology official ongoing evaluations measuring algorithmic accuracy and demographic fairness."
+            },
+            {
+              "url": "https://edpb.europa.eu",
+              "tag": "03 • European Privacy Authority",
+              "name": "European Data Protection Board (EDPB)",
+              "desc": "Independent European body ensuring the consistent application of GDPR rules regarding personal biometric data processing."
+            },
+            {
+              "url": "https://www.iata.org",
+              "tag": "04 • Passenger Identity Initiative",
+              "name": "IATA One ID Initiative",
+              "desc": "Global air transport initiative working to create a seamless, paperless airport journey using collaborative biometric identity tokens."
+            },
+            {
+              "url": "https://www.eff.org",
+              "tag": "05 • Digital Civil Liberties",
+              "name": "Electronic Frontier Foundation (EFF) Biometrics",
+              "desc": "Public interest legal analysis and campaign resources defending individual privacy against mass surveillance and biometric overreach."
+            },
+            {
+              "url": "https://www.etsglobal.org/fr/fr",
+              "tag": "06 • TOEIC Collocation Practice",
+              "name": "ETS Global TOEIC Preparation",
+              "desc": "Vocabulary drills focusing on professional tech collocations, data security policy statements, and passenger service agreements."
+            }
+          ],
+          "pageUrl": "session4/admat3.html",
+          "articles": [
+            {
+              "topic": "NIST / European Data Protection Board",
+              "sourceTag": "Scientific Evaluation",
+              "heading": "Facial Recognition at the Border: Privacy Safeguards and Demographic Fairness",
+              "snippet": "Technical evaluation of automated border e-Gates examining false match rates, demographic performance parity, and strict GDPR privacy compliance.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://www.nist.gov"
+            },
+            {
+              "topic": "International Air Transport Association (IATA)",
+              "sourceTag": "Industry Whitepaper",
+              "heading": "The Rise of Digital Passports &amp; Self-Sovereign Identity in Travel",
+              "snippet": "Evaluating the transition from physical passports to encrypted digital credentials, contactless boarding tokens, and passenger consent protocols.",
+              "readTime": "Estimated read: 5-7 mins",
+              "url": "https://www.iata.org"
+            }
+          ],
+          "toeicQuestions": [
+            {
+              "stem": "________ their digital identity tokens at the self-service terminal, passengers proceed seamlessly through automated biometric boarding lanes.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "Verified"
+                },
+                {
+                  "letter": "B",
+                  "text": "Having verified"
+                },
+                {
+                  "letter": "C",
+                  "text": "Verification"
+                },
+                {
+                  "letter": "D",
+                  "text": "Verifies"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "Having verified",
+              "analysis": "The perfect active participle (\"Having verified\") indicates that the action of verifying tokens occurred before the main action (\"proceed\").",
+              "strategy": "Perfect Participle Formula: Having + V3 indicates an action completed before the main clause action."
+            },
+            {
+              "stem": "________ with high-resolution infrared biometric sensors, the smart e-gate authenticates traveler identities in under three seconds.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "Equipped"
+                },
+                {
+                  "letter": "B",
+                  "text": "Equipping"
+                },
+                {
+                  "letter": "C",
+                  "text": "Equipment"
+                },
+                {
+                  "letter": "D",
+                  "text": "Equip"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "Equipped",
+              "analysis": "The past participle (\"Equipped\") functions as a passive participial adjective modifying the subject \"smart e-gate\" (the e-gate is equipped).",
+              "strategy": "Passive participial clause: [Past Participle V3] ..., [Subject]. The e-gate is equipped with sensors."
+            },
+            {
+              "stem": "When ________ physical travel passports, border control agents cross-examine embedded cryptographic chip signatures.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "inspect"
+                },
+                {
+                  "letter": "B",
+                  "text": "inspecting"
+                },
+                {
+                  "letter": "C",
+                  "text": "inspected"
+                },
+                {
+                  "letter": "D",
+                  "text": "inspection"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "inspecting",
+              "analysis": "After temporal prepositions and conjunctions like \"When\" or \"While\", active participial clauses take the -ing form (\"When inspecting\").",
+              "strategy": "Formula: When/While + [V-ing] + [Object] when the subject of both clauses is the same agent (border agents inspect)."
+            },
+            {
+              "stem": "Digital travel credentials, ________ mutually across all twenty-seven European member states, will standardize passenger border processing.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "recognized"
+                },
+                {
+                  "letter": "B",
+                  "text": "recognizing"
+                },
+                {
+                  "letter": "C",
+                  "text": "recognize"
+                },
+                {
+                  "letter": "D",
+                  "text": "recognition"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "recognized",
+              "analysis": "Reduced relative clause with passive meaning: credentials [which are] recognized mutually across states.",
+              "strategy": "Participial modifier: When modifying a noun passively (credentials are recognized), use the past participle (recognized)."
+            },
+            {
+              "stem": "________ to prevent unauthorized digital identity cloning, border IT departments implemented zero-trust quantum-resistant encryption.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "Seeking"
+                },
+                {
+                  "letter": "B",
+                  "text": "Sought"
+                },
+                {
+                  "letter": "C",
+                  "text": "Seek"
+                },
+                {
+                  "letter": "D",
+                  "text": "Seekingly"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "Seeking",
+              "analysis": "The present active participle clause (\"Seeking to prevent...\") indicates the reason or purpose of the main subject (\"border IT departments\").",
+              "strategy": "Active participial clause showing intent or motive: [V-ing] to + verb ..., [Subject] + [main verb]."
+            }
+          ]
         }
       }
     }
   }
 };
+
+  const aasData = JSON.parse(JSON.stringify(agData));
+  aasData["1"].title = "Aerodrome";
+  aasData["2"].title = "Aircraft and Aerodynamics";
+  aasData["3"].title = "Safety and Security";
+
+  return {
+    ag: agData,
+    aas: aasData,
+    "1": agData["1"],
+    "2": agData["2"],
+    "3": agData["3"]
+  };
 });
