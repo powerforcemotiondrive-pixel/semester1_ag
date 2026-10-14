@@ -435,12 +435,16 @@
 
           <!-- Modal Navigation Tab Strip -->
           <nav id="modal-tab-strip" class="flex items-center gap-1 overflow-x-auto pb-0.5 text-xs select-none">
-            <button data-tab="objectives" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Objectives</button>
-            <button data-tab="plan" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Lesson Plan</button>
-            <button data-tab="revision" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Vocabulary</button>
-            <button data-tab="materials" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Additional Materials</button>
-            <button data-tab="toeic" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">TOEIC Practice</button>
+            <button data-tab="objectives" class="modal-tab-btn modal-tab-standard flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Objectives</button>
+            <button data-tab="plan" class="modal-tab-btn modal-tab-standard flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Lesson Plan</button>
+            <button data-tab="revision" class="modal-tab-btn modal-tab-standard flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Vocabulary</button>
+            <button data-tab="materials" class="modal-tab-btn modal-tab-standard flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Additional Materials</button>
+            <button data-tab="toeic" class="modal-tab-btn modal-tab-standard flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">TOEIC Practice</button>
             <button data-tab="ddrs" id="modal-tab-ddrs" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer hidden">DDRS</button>
+            <!-- Formative Evaluation Tabs -->
+            <button data-tab="fe_guidelines" id="modal-tab-fe-guidelines" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer hidden">FE Guidelines</button>
+            <button data-tab="fe_objectives" id="modal-tab-fe-objectives" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer hidden">FE Objectives</button>
+            <button data-tab="fe_criteria" id="modal-tab-fe-criteria" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer hidden">FE Marking Criteria</button>
           </nav>
         </header>
 
@@ -1635,8 +1639,11 @@
       const getActionIcon = (type) => {
         switch (type) {
           case 'objectives':
+          case 'fe_objectives':
             return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg>`;
           case 'plan':
+          case 'fe_guidelines':
+          case 'guidelines':
             return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>`;
           case 'revision':
             return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>`;
@@ -1646,6 +1653,9 @@
             return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>`;
           case 'ddrs':
             return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"/></svg>`;
+          case 'fe_criteria':
+          case 'criteria':
+            return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>`;
           default:
             return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>`;
         }
@@ -1703,10 +1713,10 @@
       if (page.detailsUrl) {
         actionContainer.appendChild(createModalBtn("DDRS Framework Matrix", "ddrs", page.detailsUrl, false));
       } else if (currentIndex === 4) {
-        // Session 5: Formative Evaluation links
-        if (page.lessonPlanUrl) actionContainer.appendChild(createExternalBtn(page.lessonPlanUrl, "FE Guidelines", true));
-        if (page.objectivesUrl) actionContainer.appendChild(createExternalBtn(page.objectivesUrl, "FE Objectives", false));
-        if (page.url) actionContainer.appendChild(createExternalBtn(page.url, "FE Marking Criteria", false));
+        // Session 5: Formative Evaluation in-deck slide-over drawer (NO pop outs)
+        if (page.lessonPlanUrl) actionContainer.appendChild(createModalBtn("FE Guidelines", "fe_guidelines", page.lessonPlanUrl, true));
+        if (page.objectivesUrl) actionContainer.appendChild(createModalBtn("FE Objectives", "fe_objectives", page.objectivesUrl, false));
+        if (page.url) actionContainer.appendChild(createModalBtn("FE Marking Criteria", "fe_criteria", page.url, false));
       } else {
         // Sessions 1 to 4: In-deck modal workspace hub (unified styling & colors)
         if (page.objectivesUrl) {
@@ -1928,13 +1938,39 @@
       headerEl.style.borderColor = theme.primaryDark;
 
       const progConfig = PROGRAMS_CONFIG[modalState.program] || PROGRAMS_CONFIG.ag;
+      const isFeSession = modalState.sessionNum === 5 || tabKey.startsWith('fe_');
+      const isDdrsSession = tabKey === 'ddrs' || modalState.sessionNum === 6;
 
-      if (modalState.program !== 'aas' && (modalState.sessionNum > 4 || tabKey === 'ddrs')) {
+      const feGuidelinesTab = document.getElementById('modal-tab-fe-guidelines');
+      const feObjectivesTab = document.getElementById('modal-tab-fe-objectives');
+      const feCriteriaTab = document.getElementById('modal-tab-fe-criteria');
+      const standardTabs = document.querySelectorAll('.modal-tab-standard');
+
+      if (isFeSession) {
+        if (ddrsTabBtn) ddrsTabBtn.classList.add('hidden');
+        standardTabs.forEach(t => t.classList.add('hidden'));
+        if (feGuidelinesTab) feGuidelinesTab.classList.remove('hidden');
+        if (feObjectivesTab) feObjectivesTab.classList.remove('hidden');
+        if (feCriteriaTab) feCriteriaTab.classList.remove('hidden');
+
+        tagEl.textContent = `${progConfig.code} Module ${modalState.modNum} • Session 5`;
+        titleEl.textContent = "Session 5 - Formative Evaluation";
+      } else if (isDdrsSession) {
         if (ddrsTabBtn) ddrsTabBtn.classList.remove('hidden');
+        standardTabs.forEach(t => t.classList.add('hidden'));
+        if (feGuidelinesTab) feGuidelinesTab.classList.add('hidden');
+        if (feObjectivesTab) feObjectivesTab.classList.add('hidden');
+        if (feCriteriaTab) feCriteriaTab.classList.add('hidden');
+
         tagEl.textContent = `${progConfig.code} Module ${modalState.modNum} • Focus`;
         titleEl.textContent = "DDRS Regulatory Framework";
       } else {
         if (ddrsTabBtn) ddrsTabBtn.classList.add('hidden');
+        if (feGuidelinesTab) feGuidelinesTab.classList.add('hidden');
+        if (feObjectivesTab) feObjectivesTab.classList.add('hidden');
+        if (feCriteriaTab) feCriteriaTab.classList.add('hidden');
+        standardTabs.forEach(t => t.classList.remove('hidden'));
+
         tagEl.textContent = `${progConfig.code} Module ${modalState.modNum} • Session ${modalState.sessionNum}`;
         const activeMod = modulesData[modalState.modNum - 1];
         titleEl.textContent = (activeMod && activeMod.pages && activeMod.pages[modalState.sessionNum - 1] && activeMod.pages[modalState.sessionNum - 1].title) || `Session ${modalState.sessionNum}`;
@@ -1973,9 +2009,11 @@
       tabBtns.forEach(btn => {
         const isSelected = btn.getAttribute('data-tab') === tabKey;
         if (isSelected) {
-          btn.className = "modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white bg-white/25 shadow-xs transition-all cursor-pointer";
+          btn.classList.add('text-white', 'bg-white/25', 'shadow-xs');
+          btn.classList.remove('text-white/80', 'hover:bg-white/10');
         } else {
-          btn.className = "modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer";
+          btn.classList.remove('text-white', 'bg-white/25', 'shadow-xs');
+          btn.classList.add('text-white/80', 'hover:bg-white/10');
         }
       });
 
@@ -1996,7 +2034,13 @@
       const modCourse = getActiveModalCourseData();
       const sessionData = (modCourse.sessions && modCourse.sessions[modalState.sessionNum]) || {};
 
-      if (modalState.tab === 'objectives') {
+      if (modalState.tab === 'fe_guidelines') {
+        renderFeGuidelinesTab(modalState.modNum, theme);
+      } else if (modalState.tab === 'fe_objectives') {
+        renderFeObjectivesTab(modalState.modNum, theme);
+      } else if (modalState.tab === 'fe_criteria') {
+        renderFeCriteriaTab(modalState.modNum, theme);
+      } else if (modalState.tab === 'objectives') {
         const obj = sessionData.objectives || { items: [], summary: '' };
         bodyEl.innerHTML = `
           <div class="space-y-4">
@@ -2554,6 +2598,381 @@
                 `;
               }
             }).join('')}
+          </div>
+        </div>
+      `;
+    }
+
+    function renderFeGuidelinesTab(modNum, theme) {
+      const bodyEl = document.getElementById('modal-body');
+      bodyEl.innerHTML = `
+        <div class="space-y-6">
+          <!-- Executive Overview Card -->
+          <div class="bg-gradient-to-r from-slate-50 to-orange-50/40 border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-black tracking-wide text-white" style="background-color: ${theme.primary};">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                30-Minute Oral Tutorial Slot • In Pairs
+              </span>
+              <span class="text-xs font-bold px-2.5 py-0.5 rounded-md border" style="color: ${theme.accent}; background-color: ${theme.highlight || '#fff7ed'}; border-color: ${theme.accent}30;">
+                Graded out of 20 Points • Contributes to Semester FE
+              </span>
+            </div>
+            <h3 class="text-base sm:text-lg font-bold text-slate-800">
+              How the Formative Evaluation Works
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
+              The Formative Evaluation takes place in <strong>pairs</strong> during a dedicated <strong>30-minute tutorial slot</strong>. You and your partner will present your prepared task using visual supports, participate in a spontaneous Q&amp;A discussion with your teacher, present evidence of your ongoing portfolio and TOEIC study, and discuss your personal strong and weak points.
+            </p>
+          </div>
+
+          <!-- 30-Minute Roadmap (5 Stages) -->
+          <div class="space-y-3">
+            <div class="flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full" style="background-color: ${theme.accent};"></span>
+              <h4 class="text-xs sm:text-sm font-bold text-slate-800 uppercase tracking-wide">
+                The 30-Minute Oral Tutorial Roadmap
+              </h4>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
+              <!-- Stage 1 -->
+              <div class="border border-slate-200 rounded-xl p-3 bg-white flex flex-col justify-between shadow-2xs">
+                <div>
+                  <div class="flex items-center justify-between pb-1.5 border-b border-slate-100">
+                    <span class="text-[10px] font-black uppercase text-slate-400">Stage 1</span>
+                    <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold" style="background-color: ${theme.primary};">0–2 min</span>
+                  </div>
+                  <h5 class="text-xs font-bold text-slate-800 mt-2">Welcome &amp; Setup</h5>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Connect laptop or visual aids. Teacher introduces the session and confirms topic.</p>
+                </div>
+                <div class="mt-2 pt-2 border-t border-slate-100 text-[10px] text-slate-400 font-semibold">Get settled &amp; relaxed</div>
+              </div>
+
+              <!-- Stage 2 -->
+              <div class="border border-slate-200 rounded-xl p-3 bg-white flex flex-col justify-between shadow-2xs">
+                <div>
+                  <div class="flex items-center justify-between pb-1.5 border-b border-slate-100">
+                    <span class="text-[10px] font-black uppercase text-slate-400">Stage 2</span>
+                    <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold" style="background-color: ${theme.accent};">2–14 min</span>
+                  </div>
+                  <h5 class="text-xs font-bold text-slate-800 mt-2">Pair Presentation</h5>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Deliver prepared task with visuals. Equal 50/50 talking time (~6 mins each). <em>No reading!</em></p>
+                </div>
+                <div class="mt-2 pt-2 border-t border-slate-100 text-[10px] font-semibold" style="color: ${theme.accent};">Equal 50/50 speaking time</div>
+              </div>
+
+              <!-- Stage 3 -->
+              <div class="border border-slate-200 rounded-xl p-3 bg-white flex flex-col justify-between shadow-2xs">
+                <div>
+                  <div class="flex items-center justify-between pb-1.5 border-b border-slate-100">
+                    <span class="text-[10px] font-black uppercase text-slate-400">Stage 3</span>
+                    <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold" style="background-color: ${theme.primary};">14–20 min</span>
+                  </div>
+                  <h5 class="text-xs font-bold text-slate-800 mt-2">Teacher Q&amp;A</h5>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Spontaneous questions testing comprehension, justifying choices, and defending ideas.</p>
+                </div>
+                <div class="mt-2 pt-2 border-t border-slate-100 text-[10px] text-slate-400 font-semibold">Spontaneous dialogue</div>
+              </div>
+
+              <!-- Stage 4 -->
+              <div class="border border-slate-200 rounded-xl p-3 bg-white flex flex-col justify-between shadow-2xs">
+                <div>
+                  <div class="flex items-center justify-between pb-1.5 border-b border-slate-100">
+                    <span class="text-[10px] font-black uppercase text-slate-400">Stage 4</span>
+                    <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold bg-emerald-700">20–26 min</span>
+                  </div>
+                  <h5 class="text-xs font-bold text-slate-800 mt-2">Portfolio Check</h5>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Show vocabulary log and TOEIC logs. Discuss your personal strong &amp; weak points.</p>
+                </div>
+                <div class="mt-2 pt-2 border-t border-slate-100 text-[10px] text-emerald-700 font-semibold">Self-evaluation ready</div>
+              </div>
+
+              <!-- Stage 5 -->
+              <div class="border border-slate-200 rounded-xl p-3 bg-white flex flex-col justify-between shadow-2xs">
+                <div>
+                  <div class="flex items-center justify-between pb-1.5 border-b border-slate-100">
+                    <span class="text-[10px] font-black uppercase text-slate-400">Stage 5</span>
+                    <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold" style="background-color: ${theme.primary};">26–30 min</span>
+                  </div>
+                  <h5 class="text-xs font-bold text-slate-800 mt-2">Feedback &amp; Targets</h5>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Receive concise teacher feedback on strengths and 1–2 practical action steps.</p>
+                </div>
+                <div class="mt-2 pt-2 border-t border-slate-100 text-[10px] text-slate-400 font-semibold">Mark out of 20 awarded</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Module Task Briefing -->
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full" style="background-color: ${theme.accent};"></span>
+                <h4 class="text-xs sm:text-sm font-bold text-slate-800 uppercase tracking-wide">
+                  Module ${modNum} Task: Choose Option A or Option B
+                </h4>
+              </div>
+              <span class="text-[11px] text-slate-400">Prepare with your partner before evaluation</span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+              <!-- Option A -->
+              <div class="border border-slate-200 rounded-xl p-4 bg-white shadow-xs">
+                <div class="flex items-center justify-between mb-2">
+                  <span class="px-2.5 py-0.5 rounded-full text-white text-[10px] font-bold tracking-wide" style="background-color: ${theme.primary};">OPTION A</span>
+                  <span class="text-[10px] font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">Sustainable Travel</span>
+                </div>
+                <h5 class="text-sm font-bold text-slate-800">Design an Eco-Friendly Holiday Itinerary</h5>
+                <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">
+                  Create a realistic 4-to-7-day sustainable travel itinerary for a family or group of students that actively minimizes carbon impact and respects local communities.
+                </p>
+                <ul class="text-xs text-slate-600 space-y-1 mt-2.5 list-disc pl-4">
+                  <li><strong>Green Transport:</strong> Rail, public transit, shared electric mobility (avoid short domestic flights).</li>
+                  <li><strong>Eco-Certified Lodging:</strong> Hotels or eco-lodges with verified green standards.</li>
+                  <li><strong>Responsible Activities:</strong> Nature conservation, zero-km dining, cultural heritage.</li>
+                  <li><strong>DDRS Impact:</strong> Estimate how your itinerary reduces carbon footprint.</li>
+                </ul>
+              </div>
+
+              <!-- Option B -->
+              <div class="border border-slate-200 rounded-xl p-4 bg-white shadow-xs">
+                <div class="flex items-center justify-between mb-2">
+                  <span class="px-2.5 py-0.5 rounded-full text-white text-[10px] font-bold tracking-wide" style="background-color: ${theme.primary};">OPTION B</span>
+                  <span class="text-[10px] font-bold text-sky-700 bg-sky-50 px-2 py-0.5 rounded border border-sky-200">Tourism Policies</span>
+                </div>
+                <h5 class="text-sm font-bold text-slate-800">Compare Two Cities with Different Tourism Policies</h5>
+                <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">
+                  Analyze two popular international cities with contrasting approaches to managing tourist congestion, resident quality of life, and historic preservation.
+                </p>
+                <ul class="text-xs text-slate-600 space-y-1 mt-2.5 list-disc pl-4">
+                  <li><strong>City Pairings:</strong> E.g., <em>Amsterdam vs. Copenhagen</em>, <em>Venice vs. Ljubljana</em>.</li>
+                  <li><strong>Policy Analysis:</strong> Contrast visitor caps, tourist taxes, cruise bans, and rental limits.</li>
+                  <li><strong>Local Impact:</strong> Effects on housing affordability, crowding, and local culture.</li>
+                  <li><strong>Your Evaluation:</strong> Which policy is more effective? Propose solutions.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Track Requirements Callout -->
+          <div class="p-3.5 bg-slate-100/80 rounded-xl border border-slate-200 space-y-2">
+            <h5 class="text-xs font-bold text-slate-800 uppercase tracking-wide">Track-Specific Focus (AG vs. AAS)</h5>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-2.5 text-xs text-slate-600">
+              <div class="p-2.5 bg-white rounded-lg border border-slate-200">
+                <strong class="text-slate-800 block mb-0.5" style="color: ${theme.accent};">General English (AG):</strong>
+                Focus on complex grammar (conditionals, passives, relative clauses) and sustainable tourism lexis.
+              </div>
+              <div class="p-2.5 bg-white rounded-lg border border-slate-200">
+                <strong class="text-slate-800 block mb-0.5" style="color: #152438;">Aeronautical English (AAS):</strong>
+                Focus on active use of required aeronautical terminology (aerodrome movement areas, apron safety, runway numbering) and modal verbs.
+              </div>
+            </div>
+          </div>
+
+          <!-- Visual Supports Guidance -->
+          <div class="p-3.5 bg-white rounded-xl border border-slate-200 space-y-2">
+            <h5 class="text-xs font-bold text-slate-800 uppercase tracking-wide">Visual Supports Guidelines</h5>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+              <div class="p-2.5 bg-emerald-50/50 border border-emerald-200 rounded-lg text-slate-700">
+                <strong class="text-emerald-800 block mb-1">✅ DO:</strong>
+                Use 4–6 clean slides, an infographic, or itinerary map with photos and short cue bullet points. Make eye contact!
+              </div>
+              <div class="p-2.5 bg-rose-50/50 border border-rose-200 rounded-lg text-slate-700">
+                <strong class="text-rose-800 block mb-1">❌ DO NOT:</strong>
+                Never put full paragraphs on slides, and never read aloud from notes or screens. Reading directly is penalized.
+              </div>
+            </div>
+          </div>
+
+          <!-- Student Success Tips -->
+          <div class="p-4 rounded-xl border space-y-2.5" style="background-color: ${theme.highlight || '#fff7ed'}; border-color: ${theme.accent}40;">
+            <div class="flex items-center gap-1.5 font-bold text-xs" style="color: ${theme.accent};">
+              <span>💡</span>
+              <span class="uppercase tracking-wide">B2 Student Success Tips</span>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-xs text-slate-700">
+              <div class="p-2.5 bg-white rounded-lg border border-slate-200 shadow-2xs">
+                <strong>1. 50/50 Rule:</strong> Practice smooth handovers with your partner. Equal speaking time is part of the grade.
+              </div>
+              <div class="p-2.5 bg-white rounded-lg border border-slate-200 shadow-2xs">
+                <strong>2. Plant Words:</strong> Choose 4 to 6 terms from the course revision lists and use them naturally in context.
+              </div>
+              <div class="p-2.5 bg-white rounded-lg border border-slate-200 shadow-2xs">
+                <strong>3. Come Prepared:</strong> Have your portfolio open and arrive ready to discuss your strong and weak points.
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderFeObjectivesTab(modNum, theme) {
+      const bodyEl = document.getElementById('modal-body');
+      bodyEl.innerHTML = `
+        <div class="space-y-6">
+          <!-- Overview Card -->
+          <div class="bg-gradient-to-r from-slate-50 to-orange-50/40 border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs">
+            <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Target Competencies • B2 CEFR Level</span>
+            <h3 class="text-base sm:text-lg font-bold text-slate-800 mt-1">Formative Evaluation Objectives</h3>
+            <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
+              Demonstrate collaborative spoken production, spontaneous dialogue in teacher Q&amp;A, activation of target lexis from this site, grammatical control, and autonomous learning habits through your portfolio.
+            </p>
+          </div>
+
+          <!-- 5 Core Objectives -->
+          <div class="space-y-3">
+            <div class="flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full" style="background-color: ${theme.accent};"></span>
+              <h4 class="text-xs sm:text-sm font-bold text-slate-800 uppercase tracking-wide">
+                5 Core Learning Objectives
+              </h4>
+            </div>
+
+            <div class="space-y-2.5">
+              <div class="flex items-start gap-3 p-3.5 bg-white border border-slate-200 rounded-xl shadow-xs">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shrink-0 shadow-xs" style="background-color: ${theme.primary};">01</span>
+                <div>
+                  <h5 class="text-xs sm:text-sm font-bold text-slate-800">Deliver a Structured Oral Presentation</h5>
+                  <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
+                    Present your itinerary or comparative city analysis over 10–12 minutes without reading written paragraphs. Use visual aids effectively, connect ideas with logical discourse markers, and share talking time equally.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3 p-3.5 bg-white border border-slate-200 rounded-xl shadow-xs">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shrink-0 shadow-xs" style="background-color: ${theme.primary};">02</span>
+                <div>
+                  <h5 class="text-xs sm:text-sm font-bold text-slate-800">Engage in Spontaneous Dialogue (Teacher Q&amp;A)</h5>
+                  <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
+                    Answer teacher follow-up questions spontaneously. Justify choices, evaluate trade-offs, and comfortably build on your partner's points without switching languages.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3 p-3.5 bg-white border border-slate-200 rounded-xl shadow-xs">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shrink-0 shadow-xs" style="background-color: ${theme.primary};">03</span>
+                <div>
+                  <h5 class="text-xs sm:text-sm font-bold text-slate-800">Activate Specialized Platform Vocabulary</h5>
+                  <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
+                    Naturally integrate 4 to 6 specific vocabulary terms from the module revision lists into your speech. Use accurate collocations and pronounce technical words correctly.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3 p-3.5 bg-white border border-slate-200 rounded-xl shadow-xs">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shrink-0 shadow-xs" style="background-color: ${theme.primary};">04</span>
+                <div>
+                  <h5 class="text-xs sm:text-sm font-bold text-slate-800">Demonstrate Grammatical Accuracy &amp; Range</h5>
+                  <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
+                    <strong>AG Track:</strong> Complex grammar (conditionals, passives, relative clauses).<br>
+                    <strong>AAS Track:</strong> Modal verbs of obligation, permission, and prohibition, and precise prepositions.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3 p-3.5 bg-white border border-slate-200 rounded-xl shadow-xs">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shrink-0 shadow-xs" style="background-color: ${theme.primary};">05</span>
+                <div>
+                  <h5 class="text-xs sm:text-sm font-bold text-slate-800">Exhibit Portfolio Habits &amp; Self-Critique</h5>
+                  <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
+                    Present an organized portfolio with recorded session terms and TOEIC drill logs. Arrive ready to discuss personal strong points and weak points constructively.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderFeCriteriaTab(modNum, theme) {
+      const bodyEl = document.getElementById('modal-body');
+      bodyEl.innerHTML = `
+        <div class="space-y-6">
+          <!-- Overview Card -->
+          <div class="bg-gradient-to-r from-slate-50 to-orange-50/40 border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Official Rubric</span>
+              <span class="text-xs font-bold px-2.5 py-0.5 rounded-md text-white font-mono shadow-xs" style="background-color: ${theme.primary};">
+                Total: 20 Points • B2 Standard
+              </span>
+            </div>
+            <h3 class="text-base sm:text-lg font-bold text-slate-800">
+              Formative Evaluation Marking Criteria
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
+              Assessment is criteria-referenced across 6 core communication and autonomous study skills. Your score out of 20 contributes directly to your semester grade.
+            </p>
+          </div>
+
+          <!-- Rubric Table -->
+          <div class="overflow-x-auto rounded-xl border border-slate-200 shadow-2xs">
+            <table class="w-full text-left border-collapse text-xs">
+              <thead>
+                <tr class="bg-slate-100 text-slate-700 border-b border-slate-200">
+                  <th class="p-3 font-bold w-1/3">Criterion</th>
+                  <th class="p-3 font-bold w-16 text-center">Pts</th>
+                  <th class="p-3 font-bold">Examiner Expectations (B2)</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-100 bg-white">
+                <tr class="hover:bg-slate-50/60">
+                  <td class="p-3 font-bold text-slate-800">1. Fluency &amp; Coherence</td>
+                  <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
+                  <td class="p-3 text-slate-600">Speech flows naturally without long hesitations. Ideas linked smoothly with discourse markers. No reading!</td>
+                </tr>
+                <tr class="hover:bg-slate-50/60">
+                  <td class="p-3 font-bold text-slate-800">2. Pronunciation &amp; Articulation</td>
+                  <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">3</td>
+                  <td class="p-3 text-slate-600">Intelligible pronunciation and correct word stress on technical and course vocabulary.</td>
+                </tr>
+                <tr class="hover:bg-slate-50/60">
+                  <td class="p-3 font-bold text-slate-800">3. Grammar &amp; Sentence Structure</td>
+                  <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
+                  <td class="p-3 text-slate-600"><strong>AG:</strong> Accurate complex grammar (conditionals, passives). <strong>AAS:</strong> Precise modal verbs and prepositions.</td>
+                </tr>
+                <tr class="hover:bg-slate-50/60">
+                  <td class="p-3 font-bold text-slate-800">4. Vocabulary &amp; Topic Lexis</td>
+                  <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
+                  <td class="p-3 text-slate-600">Active, accurate deployment of at least 4 to 6 specific terms from the platform revision lists.</td>
+                </tr>
+                <tr class="hover:bg-slate-50/60">
+                  <td class="p-3 font-bold text-slate-800">5. Interaction &amp; Teamwork</td>
+                  <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">2.5</td>
+                  <td class="p-3 text-slate-600">Equal 50/50 balance between partners, smooth handovers, and spontaneous, thoughtful Q&amp;A responses.</td>
+                </tr>
+                <tr class="hover:bg-slate-50/60">
+                  <td class="p-3 font-bold text-slate-800">6. Portfolio &amp; TOEIC Evidence</td>
+                  <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">2.5</td>
+                  <td class="p-3 text-slate-600">Updated vocabulary entries, documented TOEIC drill logs, and mature self-critique of strong and weak points.</td>
+                </tr>
+                <tr class="bg-slate-50 font-bold border-t-2 border-slate-300">
+                  <td class="p-3 uppercase">Total Score</td>
+                  <td class="p-3 text-center font-mono text-white rounded" style="background-color: ${theme.accent};">20</td>
+                  <td class="p-3 text-slate-700">Contributes directly to your official Formative Evaluation grade.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Performance Bands -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 text-xs">
+            <div class="p-3 bg-emerald-50 border border-emerald-200 rounded-xl">
+              <strong class="text-emerald-800 block font-bold mb-1">Exemplary (18–20 pts)</strong>
+              <p class="text-slate-600">Confident, spontaneous, rich vocabulary, high grammar accuracy, 50/50 teamwork, portfolio fully updated.</p>
+            </div>
+            <div class="p-3 bg-blue-50 border border-blue-200 rounded-xl">
+              <strong class="text-blue-800 block font-bold mb-1">Solid B2 (14–17 pts)</strong>
+              <p class="text-slate-600">Clear presentation, good course vocabulary, good grammar control, balanced teamwork, portfolio maintained.</p>
+            </div>
+            <div class="p-3 bg-amber-50 border border-amber-200 rounded-xl">
+              <strong class="text-amber-800 block font-bold mb-1">Developing (10–13 pts)</strong>
+              <p class="text-slate-600">Frequent pauses, limited lexis, grammar slips, unequal speaking time, incomplete portfolio.</p>
+            </div>
+            <div class="p-3 bg-rose-50 border border-rose-200 rounded-xl">
+              <strong class="text-rose-800 block font-bold mb-1">Needs Imp. (&lt;10 pts)</strong>
+              <p class="text-slate-600">Reads presentation directly, severe barriers, one partner silent, missing portfolio or TOEIC logs.</p>
+            </div>
           </div>
         </div>
       `;

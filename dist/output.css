@@ -359,6 +359,12 @@
   .mr-1 {
     margin-right: var(--spacing);
   }
+  .mb-0 {
+    margin-bottom: 0px;
+  }
+  .mb-0\.5 {
+    margin-bottom: calc(var(--spacing) * 0.5);
+  }
   .mb-1 {
     margin-bottom: var(--spacing);
   }
@@ -440,6 +446,9 @@
   .w-1 {
     width: var(--spacing);
   }
+  .w-1\/3 {
+    width: calc(1 / 3 * 100%);
+  }
   .w-1\/4 {
     width: calc(1 / 4 * 100%);
   }
@@ -460,6 +469,9 @@
   }
   .w-5\.5 {
     width: calc(var(--spacing) * 5.5);
+  }
+  .w-16 {
+    width: calc(var(--spacing) * 16);
   }
   .w-20 {
     width: calc(var(--spacing) * 20);
@@ -1464,6 +1476,10 @@
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
   }
+  .text-base {
+    font-size: var(--text-base);
+    line-height: var(--tw-leading, var(--text-base--line-height));
+  }
   .text-lg {
     font-size: var(--text-lg);
     line-height: var(--tw-leading, var(--text-lg--line-height));
@@ -2129,6 +2145,9 @@
     .sm\:grid-cols-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+    .sm\:grid-cols-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
     .sm\:grid-cols-4 {
       grid-template-columns: repeat(4, minmax(0, 1fr));
     }
@@ -2186,6 +2205,10 @@
     .sm\:text-base {
       font-size: var(--text-base);
       line-height: var(--tw-leading, var(--text-base--line-height));
+    }
+    .sm\:text-lg {
+      font-size: var(--text-lg);
+      line-height: var(--tw-leading, var(--text-lg--line-height));
     }
     .sm\:text-sm {
       font-size: var(--text-sm);
@@ -2249,6 +2272,9 @@
     }
     .lg\:grid-cols-4 {
       grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+    .lg\:grid-cols-5 {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
     }
     .lg\:flex-row {
       flex-direction: row;
