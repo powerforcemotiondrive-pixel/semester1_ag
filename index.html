@@ -739,10 +739,10 @@
       const s2AdditionalMaterialsUrl = (isAas && modNumber === 1) ? "session2/admat_aas1.html" : `session2/admat${modNumber}.html`;
       const s2ClassReviewUrl = (isAas && modNumber === 1) ? "session2/rev_aas1.html" : `session2/rev${modNumber}.html`;
       const isAgMod1 = !isAas && modNumber === 1;
-      const s1Pdf = isAgMod1 ? "agmod1.pdf#page=1" : "";
-      const s2Pdf = isAgMod1 ? "agmod1.pdf#page=21" : "";
-      const s3Pdf = isAgMod1 ? "agmod1.pdf#page=35" : "";
-      const s4Pdf = isAgMod1 ? "agmod1.pdf#page=51" : "";
+      const s1Pdf = isAgMod1 ? "agmod1.pdf#page=1" : "agmod1.pdf";
+      const s2Pdf = isAgMod1 ? "agmod1.pdf#page=21" : "agmod1.pdf";
+      const s3Pdf = isAgMod1 ? "agmod1.pdf#page=35" : "agmod1.pdf";
+      const s4Pdf = isAgMod1 ? "agmod1.pdf#page=51" : "agmod1.pdf";
 
       return [
         {
@@ -1809,9 +1809,10 @@
       }
 
       // Option C: Update Top Worksheet PDF Link alongside card heading
-      // Strictly suppress/hide Worksheet PDF on DDRS (Card 06) and Course Admin (Card 07)
+      // Instate on ALL session cards 1-4 across all modules; strictly hide on FE (Card 05), DDRS (Card 06) and Course Admin (Card 07)
       const topWorksheetBtn = document.getElementById('card-worksheet-btn');
       if (topWorksheetBtn) {
+        const isSession1to4 = currentIndex >= 0 && currentIndex <= 3;
         const isDDRSOrAdmin = page.isAdmin || 
                               page.detailsUrl || 
                               currentIndex === 5 || 
@@ -1819,7 +1820,7 @@
                               (page.tag && (page.tag.includes('Admin') || page.tag.includes('Focus'))) || 
                               (page.title && (page.title.includes('Admin') || page.title.startsWith('DDRS')));
 
-        if (!isDDRSOrAdmin && page.pdfUrl && page.pdfUrl.trim() !== "" && !page.pdfUrl.includes("INSERT_YOUR_PDF_LINK_HERE")) {
+        if (isSession1to4 && !isDDRSOrAdmin && page.pdfUrl && page.pdfUrl.trim() !== "" && !page.pdfUrl.includes("INSERT_YOUR_PDF_LINK_HERE")) {
           topWorksheetBtn.href = page.pdfUrl;
           topWorksheetBtn.style.display = 'inline-flex';
           topWorksheetBtn.classList.remove('hidden');
