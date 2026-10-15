@@ -3396,21 +3396,31 @@
                   </button>
                 </div>
               </div>
-
-              <!-- Course Info Badge -->
-              <div class="flex flex-wrap items-center gap-2 text-xs">
-                <span class="px-2.5 py-1 rounded font-mono font-black text-white text-[11px]" style="background-color: ${activeCalKey === 'ag' ? theme.primary : theme.accent};">
-                  ${calSched.code}
-                </span>
-                <span class="font-bold text-slate-800">${calSched.name}</span>
-                <span class="text-slate-400">•</span>
-                <span class="font-semibold text-slate-600">${calSched.dayTime}</span>
-              </div>
             </div>
           </div>
 
           <!-- Timeline Grid -->
           <div class="space-y-4">
+            <!-- Active Track Schedule & Faculty Banner -->
+            <div class="bg-slate-800 text-white p-3.5 sm:p-4 rounded-xl flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-xs border border-slate-700/60">
+              <div class="flex items-center gap-3">
+                <span class="px-2.5 py-1 rounded font-mono font-black text-xs ${activeCalKey === 'ag' ? 'bg-slate-700 text-amber-300 border border-amber-300/30' : 'bg-orange-700 text-amber-200 border border-amber-300/30'}">
+                  ${calSched.code}
+                </span>
+                <div>
+                  <h3 class="text-sm font-bold text-white">
+                    ${calSched.name} — Weekly Schedule &amp; Milestones
+                  </h3>
+                  <p class="text-xs text-slate-300 mt-0.5">
+                    ${calSched.dayTime} • Faculty: ${calSched.faculty}
+                  </p>
+                </div>
+              </div>
+              <span class="self-start sm:self-auto px-2.5 py-1 rounded text-[11px] font-mono font-bold bg-white/10 text-slate-200 border border-white/15">
+                Weeks 44 – 08 • 3 Modules + 3 FEs
+              </span>
+            </div>
+
             ${calSched.modules.map(mod => `
               <div class="border border-slate-200 rounded-xl overflow-hidden bg-white shadow-2xs">
                 <div class="p-3 text-white flex items-center justify-between" style="background-color: ${mod.headerBg};">
