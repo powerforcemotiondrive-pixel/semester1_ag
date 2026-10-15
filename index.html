@@ -303,7 +303,7 @@
             </svg>
           </div>
           <div class="flex flex-col justify-center min-h-[40px] max-h-[40px] overflow-hidden">
-            <h1 id="deck-main-title" class="text-[13.5px] sm:text-[15px] font-semibold text-white tracking-wide uppercase leading-[19px] truncate">GSEA SEMESTER 1 GENERAL ENGLISH</h1>
+            <h1 id="deck-main-title" class="text-[13.5px] sm:text-[15px] font-semibold text-white tracking-wide uppercase leading-[19px] truncate">GSEA SEMESTER 1 AG</h1>
             <p id="deck-subtitle" class="text-[11.5px] sm:text-[12px] font-medium leading-[16px] truncate text-slate-300 mt-0.5">Module 1 - Travel, Transport &amp; Leisure</p>
           </div>
         </div>
@@ -530,7 +530,7 @@
             <div class="min-w-0">
               <div class="flex items-center gap-2 flex-wrap">
                 <h2 id="portfolio-drawer-title" class="text-xs sm:text-sm font-bold text-white uppercase tracking-wide truncate">
-                  GSEA SEMESTER 1 GENERAL ENGLISH
+                  GSEA SEMESTER 1 AG
                 </h2>
                 <span id="portfolio-drawer-track-pill" class="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 shrink-0">
                   AG TRACK
@@ -1272,7 +1272,7 @@
       }
       const mainTitle = document.getElementById('deck-main-title');
       if (mainTitle) {
-        mainTitle.textContent = currentProgram === 'aas' ? 'GSEA SEMESTER 1 AERONAUTICAL ENGLISH' : 'GSEA SEMESTER 1 GENERAL ENGLISH';
+        mainTitle.textContent = currentProgram === 'aas' ? 'GSEA SEMESTER 1 AAS' : 'GSEA SEMESTER 1 AG';
       }
       const footerCurriculum = document.getElementById('footer-curriculum-label');
       if (footerCurriculum && PROGRAMS_CONFIG[currentProgram]) {
@@ -1511,7 +1511,7 @@
       // Header Main Title & Subheader
       const mainTitle = document.getElementById('deck-main-title');
       if (mainTitle) {
-        mainTitle.textContent = currentProgram === 'aas' ? 'GSEA SEMESTER 1 AERONAUTICAL ENGLISH' : 'GSEA SEMESTER 1 GENERAL ENGLISH';
+        mainTitle.textContent = currentProgram === 'aas' ? 'GSEA SEMESTER 1 AAS' : 'GSEA SEMESTER 1 AG';
       }
 
       const subtitle = document.getElementById('deck-subtitle');
@@ -2206,7 +2206,7 @@
         if (iconBox) iconBox.className = "w-8 h-8 rounded-lg flex items-center justify-center shrink-0 text-white bg-emerald-600 shadow-xs";
         if (iconAg) iconAg.classList.remove("hidden");
         if (iconAas) iconAas.classList.add("hidden");
-        if (titleEl) titleEl.innerText = "GSEA SEMESTER 1 GENERAL ENGLISH";
+        if (titleEl) titleEl.innerText = "GSEA SEMESTER 1 AG";
         if (subtitleEl) subtitleEl.innerText = "General English (LV101E) • Formative Learning Portfolio & Self-Evaluation Log";
         if (pillEl) {
           pillEl.innerText = "AG TRACK";
@@ -2218,7 +2218,7 @@
         if (iconBox) iconBox.className = "w-8 h-8 rounded-lg flex items-center justify-center shrink-0 text-white bg-blue-600 shadow-xs";
         if (iconAg) iconAg.classList.add("hidden");
         if (iconAas) iconAas.classList.remove("hidden");
-        if (titleEl) titleEl.innerText = "GSEA SEMESTER 1 AERONAUTICAL ENGLISH";
+        if (titleEl) titleEl.innerText = "GSEA SEMESTER 1 AAS";
         if (subtitleEl) subtitleEl.innerText = "Aeronautical English (LV121E) • Formative Learning Portfolio & Aeronautical Operations Log";
         if (pillEl) {
           pillEl.innerText = "AAS TRACK";
