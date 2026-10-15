@@ -282,7 +282,7 @@
         </div>
 
         <!-- Return to Course Deck Link -->
-        <a href="index.html" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-black/45 hover:bg-black/60 text-slate-100 hover:text-white border border-white/15 text-xs font-semibold transition-all no-underline shadow-inner hover:-translate-y-[1px]" title="Return to Main Course Deck">
+        <a id="return-deck-link" href="index.html" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-black/45 hover:bg-black/60 text-slate-100 hover:text-white border border-white/15 text-xs font-semibold transition-all no-underline shadow-inner hover:-translate-y-[1px]" title="Return to Main Course Deck">
           <span>Deck ↗</span>
         </a>
 
@@ -697,6 +697,12 @@
       restoreSavedCredentials();
       setupAutoSaveListeners();
       checkBackendPing();
+
+      // If embedded in course deck slide-over drawer, hide redundant 'Return to Deck' button
+      if (window.self !== window.top) {
+        const deckLink = document.getElementById("return-deck-link");
+        if (deckLink) deckLink.classList.add("hidden");
+      }
     });
 
     // ============================================================================

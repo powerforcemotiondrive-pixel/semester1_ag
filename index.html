@@ -310,10 +310,10 @@
 
         <!-- Navigation Controls -->
         <div class="flex items-center space-x-2">
-          <a id="deck-portfolio-btn" href="portfolio.html?track=ag" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-1.5 bg-[#1f2937] hover:bg-[#111827] active:bg-[#0f172a] text-slate-100 px-2.5 sm:px-3 py-1.5 rounded-lg font-semibold text-xs transition-all border border-[#111827] shadow-xs hover:shadow-sm hover:-translate-y-[1px] active:translate-y-0 cursor-pointer no-underline mr-1" title="Open Formative Learning Portfolio">
+          <button id="deck-portfolio-btn" type="button" onclick="openPortfolioDrawer()" class="flex items-center space-x-1.5 bg-[#1f2937] hover:bg-[#111827] active:bg-[#0f172a] text-slate-100 px-2.5 sm:px-3 py-1.5 rounded-lg font-semibold text-xs transition-all border border-[#111827] shadow-xs hover:shadow-sm hover:-translate-y-[1px] active:translate-y-0 cursor-pointer mr-1" title="Open Formative Learning Portfolio Drawer">
             <span id="deck-port-dot" class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
             <span id="deck-port-label">AG Portfolio</span>
-          </a>
+          </button>
           <span id="counter-badge" class="text-xs font-medium text-white bg-[#1f2937] px-2.5 py-1 rounded-md border border-[#111827] mr-1 shadow-md">1 of 6</span>
           <button id="prev-btn" class="flex items-center space-x-1 bg-[#1f2937] hover:bg-[#111827] active:bg-[#0f172a] text-slate-100 px-3 py-1.5 rounded-lg font-semibold text-xs transition-all border border-[#111827] disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer shadow-xs hover:shadow-sm hover:-translate-y-[1px] active:translate-y-0" type="button">
             <span class="pointer-events-none">Previous</span>
@@ -503,6 +503,78 @@
             <button id="modal-next-session" type="button" class="px-2.5 py-1 rounded-md border border-slate-300 hover:bg-slate-100 text-slate-700 font-semibold text-xs transition-all cursor-pointer">Next Session →</button>
           </div>
         </footer>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide-Over Portfolio Modal Drawer (In-Deck Formative Portfolio Hub) -->
+  <div id="deck-portfolio-modal" class="fixed inset-0 z-50 overflow-hidden hidden" aria-labelledby="portfolio-drawer-title" role="dialog" aria-modal="true">
+    <!-- Backdrop Overlay -->
+    <div id="portfolio-modal-backdrop" class="fixed inset-0 bg-slate-900/60 backdrop-blur-xs opacity-0 transition-opacity duration-300"></div>
+
+    <div class="fixed inset-y-0 right-0 max-w-full flex pl-2 sm:pl-10">
+      <div id="deck-portfolio-drawer" class="w-screen max-w-5xl bg-white shadow-2xl flex flex-col transform translate-x-full transition-transform duration-300 ease-in-out">
+        
+        <!-- Drawer Header -->
+        <header id="portfolio-drawer-header" class="textured-surface bg-[#1f2937] text-white px-3.5 py-3 sm:px-6 sm:py-3.5 flex items-center justify-between border-b border-[#111827] shrink-0 gap-3">
+          <div class="flex items-center space-x-2.5 sm:space-x-3 min-w-0">
+            <div id="portfolio-drawer-icon" class="w-8 h-8 rounded-lg flex items-center justify-center shrink-0 text-white bg-emerald-600 shadow-xs">
+              <svg id="portfolio-drawer-icon-ag" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+              </svg>
+              <svg id="portfolio-drawer-icon-aas" class="w-4 h-4 hidden" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
+              </svg>
+            </div>
+            <div class="min-w-0">
+              <div class="flex items-center gap-2 flex-wrap">
+                <h2 id="portfolio-drawer-title" class="text-xs sm:text-sm font-bold text-white uppercase tracking-wide truncate">
+                  GSEA SEMESTER 1 GENERAL ENGLISH
+                </h2>
+                <span id="portfolio-drawer-track-pill" class="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 shrink-0">
+                  AG TRACK
+                </span>
+              </div>
+              <p id="portfolio-drawer-subtitle" class="text-[11px] text-slate-300 truncate mt-0.5">
+                General English (LV101E) • Formative Learning Portfolio &amp; Self-Evaluation Log
+              </p>
+            </div>
+          </div>
+
+          <!-- Drawer Action Controls (Track switcher, Popout, Close) -->
+          <div class="flex items-center space-x-1.5 sm:space-x-2 shrink-0">
+            <!-- In-Drawer Track Switcher -->
+            <div class="hidden sm:inline-flex items-center bg-black/40 p-0.5 rounded-lg border border-white/15 shadow-inner">
+              <button id="drawer-tab-btn-ag" type="button" onclick="setDrawerTrack('ag')" class="px-2 py-1 rounded text-[11px] font-black transition-all cursor-pointer text-white bg-emerald-600 shadow-xs">
+                AG
+              </button>
+              <button id="drawer-tab-btn-aas" type="button" onclick="setDrawerTrack('aas')" class="px-2 py-1 rounded text-[11px] font-semibold transition-all cursor-pointer text-white/70 hover:text-white hover:bg-white/10">
+                AAS
+              </button>
+            </div>
+
+            <!-- Open in New Window Button -->
+            <a id="portfolio-drawer-popout-btn" href="portfolio.html?track=ag" target="_blank" rel="noopener noreferrer" title="Open portfolio in a new window" class="text-slate-200 hover:text-white bg-white/10 hover:bg-white/20 px-2 sm:px-2.5 py-1.5 rounded-lg text-xs font-semibold transition-all flex items-center gap-1.5 no-underline">
+              <span class="hidden sm:inline">New Window</span>
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+              </svg>
+            </a>
+
+            <!-- Close Drawer Button -->
+            <button id="portfolio-modal-close-btn" type="button" onclick="closePortfolioDrawer()" aria-label="Close portfolio drawer" class="text-white hover:text-white bg-black/25 hover:bg-black/40 p-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+              </svg>
+            </button>
+          </div>
+        </header>
+
+        <!-- Drawer Content Area (Embedded Iframe) -->
+        <div class="flex-1 w-full h-full bg-slate-100 overflow-hidden relative">
+          <iframe id="portfolio-drawer-iframe" src="about:blank" title="Formative Learning Portfolio" class="w-full h-full border-0 absolute inset-0"></iframe>
+        </div>
 
       </div>
     </div>
@@ -1029,6 +1101,9 @@
       const modalBackdrop = document.getElementById('resource-modal-backdrop');
       if (modalBackdrop) modalBackdrop.addEventListener('click', closeModalDrawer);
 
+      const portModalBackdrop = document.getElementById('portfolio-modal-backdrop');
+      if (portModalBackdrop) portModalBackdrop.addEventListener('click', closePortfolioDrawer);
+
       // Modal Tab buttons
       const tabBtns = document.querySelectorAll('.modal-tab-btn');
       tabBtns.forEach(btn => {
@@ -1069,6 +1144,14 @@
 
       // Enhanced keyboard navigation (Deck & Flashcards & Modal Escape)
       document.addEventListener('keydown', (e) => {
+        const portModalEl = document.getElementById('deck-portfolio-modal');
+        const isPortModalOpen = portModalEl && !portModalEl.classList.contains('hidden');
+
+        if (e.key === 'Escape' && isPortModalOpen) {
+          closePortfolioDrawer();
+          return;
+        }
+
         const modalEl = document.getElementById('deck-resource-modal');
         const isModalOpen = modalEl && !modalEl.classList.contains('hidden');
 
@@ -1083,7 +1166,7 @@
           if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); toggleFlashcardFlip(); return; }
         }
 
-        if (!isModalOpen) {
+        if (!isModalOpen && !isPortModalOpen) {
           if (e.key === 'ArrowLeft') stepDeck(-1);
           if (e.key === 'ArrowRight') stepDeck(1);
         }
@@ -1252,11 +1335,14 @@
       // Synchronize Course Deck Portfolio launch button with active track
       const deckPortBtn = document.getElementById('deck-portfolio-btn');
       if (deckPortBtn) {
-        deckPortBtn.href = `portfolio.html?track=${currentProgram}`;
+        deckPortBtn.setAttribute('data-track', currentProgram);
         const dot = document.getElementById('deck-port-dot');
         const label = document.getElementById('deck-port-label');
         if (dot) dot.className = isAg ? "w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" : "w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse";
         if (label) label.innerText = isAg ? "AG Portfolio" : "AAS Portfolio";
+      }
+      if (typeof syncPortfolioDrawerTrack === 'function') {
+        syncPortfolioDrawerTrack(currentProgram);
       }
     }
 
@@ -2095,6 +2181,120 @@
         if ('speechSynthesis' in window) window.speechSynthesis.cancel();
       }, 300);
     }
+
+    window.openPortfolioDrawer = function(trackKey) {
+      const activeTrack = trackKey || currentProgram || 'ag';
+      const isAg = (activeTrack === 'ag');
+      const targetUrl = `portfolio.html?track=${activeTrack}`;
+
+      const modalEl = document.getElementById('deck-portfolio-modal');
+      const backdropEl = document.getElementById('portfolio-modal-backdrop');
+      const drawerEl = document.getElementById('deck-portfolio-drawer');
+      const iframeEl = document.getElementById('portfolio-drawer-iframe');
+      const popoutBtn = document.getElementById('portfolio-drawer-popout-btn');
+      const iconBox = document.getElementById('portfolio-drawer-icon');
+      const iconAg = document.getElementById('portfolio-drawer-icon-ag');
+      const iconAas = document.getElementById('portfolio-drawer-icon-aas');
+      const titleEl = document.getElementById('portfolio-drawer-title');
+      const subtitleEl = document.getElementById('portfolio-drawer-subtitle');
+      const pillEl = document.getElementById('portfolio-drawer-track-pill');
+      const drawerBtnAg = document.getElementById('drawer-tab-btn-ag');
+      const drawerBtnAas = document.getElementById('drawer-tab-btn-aas');
+
+      if (!modalEl || !drawerEl || !iframeEl) return;
+
+      // Close session resource modal if open
+      const resModal = document.getElementById('deck-resource-modal');
+      if (resModal && !resModal.classList.contains('hidden')) {
+        closeModalDrawer();
+      }
+
+      // Update Header branding & popout link
+      if (popoutBtn) popoutBtn.href = targetUrl;
+      if (isAg) {
+        if (iconBox) iconBox.className = "w-8 h-8 rounded-lg flex items-center justify-center shrink-0 text-white bg-emerald-600 shadow-xs";
+        if (iconAg) iconAg.classList.remove("hidden");
+        if (iconAas) iconAas.classList.add("hidden");
+        if (titleEl) titleEl.innerText = "GSEA SEMESTER 1 GENERAL ENGLISH";
+        if (subtitleEl) subtitleEl.innerText = "General English (LV101E) • Formative Learning Portfolio & Self-Evaluation Log";
+        if (pillEl) {
+          pillEl.innerText = "AG TRACK";
+          pillEl.className = "text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 shrink-0";
+        }
+        if (drawerBtnAg) drawerBtnAg.className = "px-2 py-1 rounded text-[11px] font-black transition-all cursor-pointer text-white bg-emerald-600 shadow-xs";
+        if (drawerBtnAas) drawerBtnAas.className = "px-2 py-1 rounded text-[11px] font-semibold transition-all cursor-pointer text-white/70 hover:text-white hover:bg-white/10";
+      } else {
+        if (iconBox) iconBox.className = "w-8 h-8 rounded-lg flex items-center justify-center shrink-0 text-white bg-blue-600 shadow-xs";
+        if (iconAg) iconAg.classList.add("hidden");
+        if (iconAas) iconAas.classList.remove("hidden");
+        if (titleEl) titleEl.innerText = "GSEA SEMESTER 1 AERONAUTICAL ENGLISH";
+        if (subtitleEl) subtitleEl.innerText = "Aeronautical English (LV121E) • Formative Learning Portfolio & Aeronautical Operations Log";
+        if (pillEl) {
+          pillEl.innerText = "AAS TRACK";
+          pillEl.className = "text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-blue-500/20 text-blue-300 border border-blue-500/30 shrink-0";
+        }
+        if (drawerBtnAg) drawerBtnAg.className = "px-2 py-1 rounded text-[11px] font-semibold transition-all cursor-pointer text-white/70 hover:text-white hover:bg-white/10";
+        if (drawerBtnAas) drawerBtnAas.className = "px-2 py-1 rounded text-[11px] font-black transition-all cursor-pointer text-white bg-blue-600 shadow-xs";
+      }
+
+      // Sync iframe content
+      const loadedTrack = iframeEl.getAttribute('data-loaded-track');
+      if (loadedTrack !== activeTrack || iframeEl.src === 'about:blank' || !iframeEl.src) {
+        iframeEl.src = targetUrl;
+        iframeEl.setAttribute('data-loaded-track', activeTrack);
+      } else {
+        try {
+          if (iframeEl.contentWindow && typeof iframeEl.contentWindow.switchTrack === 'function') {
+            iframeEl.contentWindow.switchTrack(activeTrack, false);
+          }
+        } catch (e) {
+          // ignore cross-frame errors
+        }
+      }
+
+      modalEl.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+      void modalEl.offsetWidth; // trigger reflow
+
+      backdropEl.classList.remove('opacity-0');
+      backdropEl.classList.add('opacity-100');
+      drawerEl.classList.remove('translate-x-full');
+    };
+
+    window.closePortfolioDrawer = function() {
+      const modalEl = document.getElementById('deck-portfolio-modal');
+      const backdropEl = document.getElementById('portfolio-modal-backdrop');
+      const drawerEl = document.getElementById('deck-portfolio-drawer');
+      if (!modalEl || modalEl.classList.contains('hidden')) return;
+
+      backdropEl.classList.remove('opacity-100');
+      backdropEl.classList.add('opacity-0');
+      drawerEl.classList.add('translate-x-full');
+      document.body.style.overflow = '';
+
+      setTimeout(() => {
+        modalEl.classList.add('hidden');
+      }, 300);
+    };
+
+    window.setDrawerTrack = function(trackKey) {
+      if (trackKey !== 'ag' && trackKey !== 'aas') return;
+      openPortfolioDrawer(trackKey);
+      if (typeof switchProgram === 'function' && trackKey !== currentProgram) {
+        switchProgram(trackKey);
+      }
+    };
+
+    window.syncPortfolioDrawerTrack = function(trackKey) {
+      const modalEl = document.getElementById('deck-portfolio-modal');
+      const isOpen = modalEl && !modalEl.classList.contains('hidden');
+      if (isOpen) {
+        openPortfolioDrawer(trackKey);
+      } else {
+        const popoutBtn = document.getElementById('portfolio-drawer-popout-btn');
+        if (popoutBtn) popoutBtn.href = `portfolio.html?track=${trackKey}`;
+      }
+    };
 
     function switchModalTab(tabKey) {
       modalState.tab = tabKey;
