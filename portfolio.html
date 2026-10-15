@@ -134,7 +134,27 @@
       font-size: 0.875rem;
       color: var(--input-text);
       outline: none;
+      box-sizing: border-box;
       transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    input.form-input,
+    select.form-input {
+      height: 2.75rem !important; /* 44px uniform height matching buttons */
+      min-height: 2.75rem !important;
+      box-sizing: border-box;
+    }
+
+    select.form-input {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%2364748b' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3E%3C/svg%3E");
+      background-position: right 0.75rem center;
+      background-repeat: no-repeat;
+      background-size: 1.25rem 1.25rem;
+      padding-right: 2.5rem;
+      cursor: pointer;
     }
 
     .form-input:focus {
@@ -236,12 +256,13 @@
         </div>
         
         <div>
-          <div class="flex items-center gap-2">
+          <div class="flex items-center gap-2 flex-wrap">
             <h1 id="header-title" class="text-sm sm:text-base font-extrabold text-white tracking-wide uppercase">
               GSEA SEMESTER 1 GENERAL ENGLISH
             </h1>
-            <span id="track-indicator-pill" class="text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-full font-mono theme-badge">
-              AG TRACK
+            <span id="track-indicator-pill" class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-black/45 border border-white/20 text-[10px] font-mono font-black tracking-wider uppercase text-slate-200 shrink-0 whitespace-nowrap shadow-inner">
+              <span id="track-badge-dot" class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+              <span id="track-badge-text">AG TRACK</span>
             </span>
           </div>
           <p id="header-subtitle" class="text-xs text-slate-300 font-medium mt-0.5">
@@ -317,13 +338,6 @@
               <option value="Aurianne KUHN">Aurianne KUHN</option>
               <option value="Francois GADBIN">Francois GADBIN</option>
             </optgroup>
-            <optgroup label="Testing & Demonstration Accounts">
-              <option value="Dave">Dave</option>
-              <option value="Steve">Steve</option>
-              <option value="Alice">Alice</option>
-              <option value="Mike">Mike</option>
-              <option value="Sally">Sally</option>
-            </optgroup>
           </select>
         </div>
 
@@ -333,10 +347,10 @@
         </div>
 
         <div class="grid grid-cols-2 gap-2.5">
-          <button id="btnLoad" type="button" onclick="fetchHistory()" class="w-full btn-submit font-bold h-10 px-3 rounded-lg text-sm transition flex items-center justify-center">
+          <button id="btnLoad" type="button" onclick="fetchHistory()" class="w-full btn-submit font-bold h-11 px-3 rounded-lg text-sm transition flex items-center justify-center">
             Load Logs
           </button>
-          <button id="btnSignOut" type="button" onclick="signOut()" class="w-full bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-300 font-semibold h-10 px-3 rounded-lg text-sm transition flex items-center justify-center">
+          <button id="btnSignOut" type="button" onclick="signOut()" class="w-full bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-300 font-semibold h-11 px-3 rounded-lg text-sm transition flex items-center justify-center">
             Sign Out
           </button>
         </div>
@@ -706,7 +720,15 @@
       // 2. Update Header branding
       document.getElementById("header-title").innerText = config.title;
       document.getElementById("header-subtitle").innerText = config.subtitle;
-      document.getElementById("track-indicator-pill").innerText = config.pillText;
+      
+      const badgeText = document.getElementById("track-badge-text");
+      const badgeDot = document.getElementById("track-badge-dot");
+      if (badgeText) badgeText.innerText = config.pillText;
+      if (badgeDot) {
+        badgeDot.className = (trackKey === "ag") 
+          ? "w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" 
+          : "w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse";
+      }
 
       const agIcon = document.getElementById("header-icon-ag");
       const aasIcon = document.getElementById("header-icon-aas");
@@ -1427,3 +1449,4 @@
   </script>
 </body>
 </html>
+
