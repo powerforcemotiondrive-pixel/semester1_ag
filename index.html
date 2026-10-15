@@ -449,8 +449,8 @@
     <!-- Backdrop Overlay -->
     <div id="resource-modal-backdrop" class="fixed inset-0 bg-slate-900/60 backdrop-blur-xs opacity-0 transition-opacity duration-300"></div>
 
-    <div class="fixed inset-y-0 right-0 max-w-full flex pl-2 sm:pl-10">
-      <div id="deck-modal-drawer" class="w-screen max-w-4xl bg-white shadow-2xl flex flex-col transform translate-x-full transition-transform duration-300 ease-in-out">
+    <div class="fixed inset-y-0 right-0 max-w-full flex pl-0 sm:pl-10">
+      <div id="deck-modal-drawer" class="w-screen max-w-4xl h-full bg-white shadow-2xl flex flex-col transform translate-x-full transition-transform duration-300 ease-in-out">
         
         <!-- Drawer Header -->
         <header id="modal-header" class="textured-surface bg-[#374151] text-white px-4 py-3.5 sm:px-6 sm:py-4 flex flex-col gap-3 border-b border-[#1f2937] shrink-0">
@@ -513,8 +513,8 @@
     <!-- Backdrop Overlay -->
     <div id="portfolio-modal-backdrop" class="fixed inset-0 bg-slate-900/60 backdrop-blur-xs opacity-0 transition-opacity duration-300"></div>
 
-    <div class="fixed inset-y-0 right-0 max-w-full flex pl-2 sm:pl-10">
-      <div id="deck-portfolio-drawer" class="w-screen max-w-5xl bg-white shadow-2xl flex flex-col transform translate-x-full transition-transform duration-300 ease-in-out">
+    <div class="fixed inset-y-0 right-0 max-w-full flex pl-0 sm:pl-10">
+      <div id="deck-portfolio-drawer" class="w-screen max-w-5xl h-full bg-white shadow-2xl flex flex-col transform translate-x-full transition-transform duration-300 ease-in-out">
         
         <!-- Drawer Header -->
         <header id="portfolio-drawer-header" class="textured-surface bg-[#1f2937] text-white px-3.5 py-3 sm:px-6 sm:py-3.5 flex items-center justify-between border-b border-[#111827] shrink-0 gap-3">
@@ -565,7 +565,7 @@
         </header>
 
         <!-- Drawer Content Area (Embedded Iframe) -->
-        <div class="flex-1 w-full h-full bg-slate-100 overflow-hidden relative">
+        <div class="flex-1 w-full h-full min-h-0 bg-slate-100 overflow-hidden relative">
           <iframe id="portfolio-drawer-iframe" src="about:blank" title="Formative Learning Portfolio" class="w-full h-full border-0 absolute inset-0"></iframe>
         </div>
 
@@ -2066,6 +2066,12 @@
       modalState.toeicAnswers = {};
       modalState.toeicSelected = null;
       modalState.standaloneUrl = standaloneUrl || '#';
+
+      // Close portfolio drawer if open
+      const portModal = document.getElementById('deck-portfolio-modal');
+      if (portModal && !portModal.classList.contains('hidden')) {
+        closePortfolioDrawer();
+      }
 
       const modalEl = document.getElementById('deck-resource-modal');
       const backdropEl = document.getElementById('resource-modal-backdrop');
