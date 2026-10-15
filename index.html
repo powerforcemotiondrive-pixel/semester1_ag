@@ -554,13 +554,6 @@
               </button>
             </div>
 
-            <!-- Open in New Window Button -->
-            <a id="portfolio-drawer-popout-btn" href="portfolio.html?track=ag" target="_blank" rel="noopener noreferrer" title="Open portfolio in a new window" class="text-slate-200 hover:text-white bg-white/10 hover:bg-white/20 px-2 sm:px-2.5 py-1.5 rounded-lg text-xs font-semibold transition-all flex items-center gap-1.5 no-underline">
-              <span class="hidden sm:inline">New Window</span>
-              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-              </svg>
-            </a>
 
             <!-- Close Drawer Button -->
             <button id="portfolio-modal-close-btn" type="button" onclick="closePortfolioDrawer()" aria-label="Close portfolio drawer" class="text-white hover:text-white bg-black/25 hover:bg-black/40 p-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer">
@@ -2191,7 +2184,6 @@
       const backdropEl = document.getElementById('portfolio-modal-backdrop');
       const drawerEl = document.getElementById('deck-portfolio-drawer');
       const iframeEl = document.getElementById('portfolio-drawer-iframe');
-      const popoutBtn = document.getElementById('portfolio-drawer-popout-btn');
       const iconBox = document.getElementById('portfolio-drawer-icon');
       const iconAg = document.getElementById('portfolio-drawer-icon-ag');
       const iconAas = document.getElementById('portfolio-drawer-icon-aas');
@@ -2209,8 +2201,7 @@
         closeModalDrawer();
       }
 
-      // Update Header branding & popout link
-      if (popoutBtn) popoutBtn.href = targetUrl;
+      // Update Header branding
       if (isAg) {
         if (iconBox) iconBox.className = "w-8 h-8 rounded-lg flex items-center justify-center shrink-0 text-white bg-emerald-600 shadow-xs";
         if (iconAg) iconAg.classList.remove("hidden");
@@ -2290,9 +2281,6 @@
       const isOpen = modalEl && !modalEl.classList.contains('hidden');
       if (isOpen) {
         openPortfolioDrawer(trackKey);
-      } else {
-        const popoutBtn = document.getElementById('portfolio-drawer-popout-btn');
-        if (popoutBtn) popoutBtn.href = `portfolio.html?track=${trackKey}`;
       }
     };
 
