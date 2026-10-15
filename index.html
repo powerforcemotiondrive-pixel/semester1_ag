@@ -334,14 +334,18 @@
           </div>
         </div>
 
-        <!-- Center: Flight Deck HUD Promotion Callsign Badge -->
+        <!-- Center: Flight Deck HUD Promotion Callsign Badge (Link to e-Campus) -->
         <div class="flex items-center justify-center shrink-0">
-          <div id="promo-callsign-badge"
-               class="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-0.5 sm:py-1 rounded-full bg-black/45 backdrop-blur-xs border border-white/15 shadow-inner transition-all duration-300 select-none group cursor-default"
-               title="Official Promotion: GSEA 26A">
+          <a id="promo-callsign-badge"
+             href="https://e-campus.enac.fr"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-0.5 sm:py-1 rounded-full bg-black/45 backdrop-blur-xs border border-white/15 shadow-inner transition-all duration-300 select-none group cursor-pointer hover:border-white/40 hover:bg-black/60 hover:-translate-y-[1px] active:translate-y-0 no-underline"
+             title="Return to ENAC e-Campus (https://e-campus.enac.fr) ↗">
             <span id="promo-badge-dot" class="w-1.5 h-1.5 rounded-full bg-orange-500 animate-pulse transition-all duration-300"></span>
-            <span id="promo-badge-text" class="text-[10px] sm:text-[11px] font-mono font-black tracking-wider text-slate-100 uppercase transition-colors duration-300">GSEA 26A</span>
-          </div>
+            <span id="promo-badge-text" class="text-[10px] sm:text-[11px] font-mono font-black tracking-wider text-slate-100 uppercase transition-colors duration-300 group-hover:text-white">GSEA 26A</span>
+            <svg class="w-2.5 h-2.5 text-slate-400 group-hover:text-white opacity-0 group-hover:opacity-100 -ml-0.5 transition-all duration-200 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"/></svg>
+          </a>
         </div>
 
         <!-- Right: Module Selection Tabs (01 / 02 / 03) -->
@@ -1470,6 +1474,14 @@
         if (promoText) {
           promoText.style.color = '#ffffff';
         }
+        promoBadge.onmouseenter = () => {
+          promoBadge.style.borderColor = mod.accent;
+          promoBadge.style.boxShadow = `0 0 18px ${mod.accent}60, inset 0 1px 0 rgba(255, 255, 255, 0.25)`;
+        };
+        promoBadge.onmouseleave = () => {
+          promoBadge.style.borderColor = `${mod.accent}55`;
+          promoBadge.style.boxShadow = `0 0 14px ${mod.accent}25, inset 0 1px 0 rgba(255, 255, 255, 0.12)`;
+        };
       }
 
       // Dynamic Canvas Backdrop and Floating Card Shadow based on active Module

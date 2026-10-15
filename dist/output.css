@@ -367,6 +367,12 @@
   .mb-3 {
     margin-bottom: calc(var(--spacing) * 3);
   }
+  .-ml-0 {
+    margin-left: 0px;
+  }
+  .-ml-0\.5 {
+    margin-left: calc(var(--spacing) * -0.5);
+  }
   .line-clamp-2 {
     overflow: hidden;
     display: -webkit-box;
@@ -2003,6 +2009,12 @@
     .group-hover\:text-slate-900:is(:where(.group):hover *) {
       color: var(--color-slate-900);
     }
+    .group-hover\:text-white:is(:where(.group):hover *) {
+      color: var(--color-white);
+    }
+    .group-hover\:opacity-100:is(:where(.group):hover *) {
+      opacity: 100%;
+    }
     .hover\:-translate-y-\[1px\]:hover {
       --tw-translate-y: calc(1px * -1);
       translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -2018,6 +2030,14 @@
     }
     .hover\:border-slate-300:hover {
       border-color: var(--color-slate-300);
+    }
+    .hover\:border-white\/40:hover {
+      border-color: color-mix(in srgb, #fff 40%, transparent);
+    }
+    @supports (color: color-mix(in lab, red, red)) {
+      .hover\:border-white\/40:hover {
+        border-color: color-mix(in oklab, var(--color-white) 40%, transparent);
+      }
     }
     .hover\:bg-\[\#2563eb\]:hover {
       background-color: #2563eb;
@@ -2043,6 +2063,14 @@
     @supports (color: color-mix(in lab, red, red)) {
       .hover\:bg-black\/35:hover {
         background-color: color-mix(in oklab, var(--color-black) 35%, transparent);
+      }
+    }
+    .hover\:bg-black\/60:hover {
+      background-color: color-mix(in srgb, #000 60%, transparent);
+    }
+    @supports (color: color-mix(in lab, red, red)) {
+      .hover\:bg-black\/60:hover {
+        background-color: color-mix(in oklab, var(--color-black) 60%, transparent);
       }
     }
     .hover\:bg-emerald-700:hover {
