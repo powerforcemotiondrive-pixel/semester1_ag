@@ -310,6 +310,10 @@
 
         <!-- Navigation Controls -->
         <div class="flex items-center space-x-2">
+          <a id="deck-portfolio-btn" href="portfolio.html?track=ag" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-1.5 bg-[#1f2937] hover:bg-[#111827] active:bg-[#0f172a] text-slate-100 px-2.5 sm:px-3 py-1.5 rounded-lg font-semibold text-xs transition-all border border-[#111827] shadow-xs hover:shadow-sm hover:-translate-y-[1px] active:translate-y-0 cursor-pointer no-underline mr-1" title="Open Formative Learning Portfolio">
+            <span id="deck-port-dot" class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+            <span id="deck-port-label">AG Portfolio</span>
+          </a>
           <span id="counter-badge" class="text-xs font-medium text-white bg-[#1f2937] px-2.5 py-1 rounded-md border border-[#111827] mr-1 shadow-md">1 of 6</span>
           <button id="prev-btn" class="flex items-center space-x-1 bg-[#1f2937] hover:bg-[#111827] active:bg-[#0f172a] text-slate-100 px-3 py-1.5 rounded-lg font-semibold text-xs transition-all border border-[#111827] disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer shadow-xs hover:shadow-sm hover:-translate-y-[1px] active:translate-y-0" type="button">
             <span class="pointer-events-none">Previous</span>
@@ -1243,6 +1247,16 @@
         agBtn.className = "px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded-md text-[11px] sm:text-xs font-semibold transition-all cursor-pointer flex items-center gap-1 opacity-75 hover:opacity-100 hover:text-white border hover:-translate-y-[1px] active:translate-y-0";
         agBtn.onmouseenter = () => { agBtn.style.backgroundColor = 'rgba(255, 255, 255, 0.15)'; agBtn.style.color = '#ffffff'; };
         agBtn.onmouseleave = () => { agBtn.style.backgroundColor = 'transparent'; agBtn.style.color = 'rgba(255, 255, 255, 0.75)'; };
+      }
+
+      // Synchronize Course Deck Portfolio launch button with active track
+      const deckPortBtn = document.getElementById('deck-portfolio-btn');
+      if (deckPortBtn) {
+        deckPortBtn.href = `portfolio.html?track=${currentProgram}`;
+        const dot = document.getElementById('deck-port-dot');
+        const label = document.getElementById('deck-port-label');
+        if (dot) dot.className = isAg ? "w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" : "w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse";
+        if (label) label.innerText = isAg ? "AG Portfolio" : "AAS Portfolio";
       }
     }
 

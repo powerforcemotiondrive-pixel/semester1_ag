@@ -78,6 +78,8 @@ const includeList = [
   'ddrs2.html',
   'ddrs3.html',
   'admin.html',
+  'portfolio.html',
+  'GoogleAppsScript_Backend.js',
   'agmod1.pdf',
   'ws1.pdf'
 ].filter(item => fs.existsSync(path.join(rootDir, item)));
