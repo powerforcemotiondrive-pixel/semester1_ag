@@ -388,6 +388,17 @@
         </span>
       </div>
 
+      <!-- Edit Mode Banner (Visible only when actively editing an existing entry) -->
+      <div id="editModeBanner" class="hidden text-xs p-3.5 rounded-xl border border-sky-300 bg-sky-50 text-sky-900 flex items-center justify-between gap-3">
+        <div class="flex items-center gap-2 min-w-0">
+          <span class="text-base shrink-0">✏️</span>
+          <span class="truncate"><strong>Editing Mode:</strong> Updating logged reflection for <strong id="editModeTarget">Module 1 • Session 1</strong>.</span>
+        </div>
+        <button type="button" onclick="cancelEditingEntry()" class="px-2.5 py-1 rounded-md text-xs font-bold text-slate-700 bg-white hover:bg-slate-100 border border-slate-300 transition cursor-pointer shrink-0 shadow-2xs">
+          Cancel Edit
+        </button>
+      </div>
+
       <!-- Module and Session Selection -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
@@ -398,7 +409,7 @@
         </div>
         <div>
           <label for="sessionSelect" class="field-label">Session Number</label>
-          <select id="sessionSelect" required class="form-input">
+          <select id="sessionSelect" onchange="updateSessionAvailability()" required class="form-input">
             <option value="Session 1">Session 1</option>
             <option value="Session 2">Session 2</option>
             <option value="Session 3">Session 3</option>
@@ -408,8 +419,8 @@
         </div>
       </div>
 
-      <!-- Duplicate Session Completion Banner -->
-      <div id="moduleCompletedBanner" class="hidden text-xs p-3.5 rounded-xl border border-amber-500/40 bg-amber-50 text-amber-900 flex items-center gap-2.5">
+      <!-- Module Completed Banner (Only displayed when all 5 sessions in module are completed) -->
+      <div id="moduleCompletedBanner" class="hidden text-xs p-3.5 rounded-xl border border-blue-500/30 bg-blue-50/80 text-blue-900 flex items-center gap-2.5">
       </div>
 
       <!-- Question 1: Key Vocabulary -->
@@ -547,9 +558,12 @@
       </div>
 
       <!-- Form Submission Controls -->
-      <div class="pt-2">
-        <button type="submit" id="btnSubmit" class="w-full btn-submit font-bold h-11 py-2 rounded-xl text-sm transition flex items-center justify-center gap-2">
+      <div class="pt-2 flex items-center gap-3">
+        <button type="submit" id="btnSubmit" class="flex-1 btn-submit font-bold h-11 py-2 rounded-xl text-sm transition flex items-center justify-center gap-2">
           <span>Submit Portfolio Entry</span>
+        </button>
+        <button type="button" id="btnCancelEdit" onclick="cancelEditingEntry()" class="hidden px-4 h-11 rounded-xl text-sm font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 border border-slate-300 transition cursor-pointer">
+          Cancel
         </button>
       </div>
     </form>
@@ -704,7 +718,9 @@
 
     let currentTrack = "ag";
     let currentLoadedLogs = [];
+    let currentFilteredLogs = [];
     let currentFilterModule = "all";
+    let editingEntry = null;
 
     // Detect track from URL query parameter (e.g. ?track=aas)
     document.addEventListener("DOMContentLoaded", () => {
@@ -1028,8 +1044,17 @@
 
         if (data.success) {
           sessionStorage.setItem("gsea_student", student);
-          sessionStorage.setItem("gsea_pin", pin);
-          currentLoadedLogs = data.logs || [];
+          // Deduplicate logs by (track, moduleKey, sessionNum) — keeping the latest revision
+          const rawLogs = data.logs || [];
+          const logMap = new Map();
+          rawLogs.forEach(entry => {
+            const tr = (entry.track || currentTrack).toUpperCase();
+            const mk = getModuleKey(entry.module);
+            const sn = formatSessionNum(entry.session);
+            const key = `${tr}_${mk}_${sn}`;
+            logMap.set(key, entry);
+          });
+          currentLoadedLogs = Array.from(logMap.values());
 
           document.getElementById("authStatusPill").innerText = `Signed In: ${student}`;
           document.getElementById("authStatusPill").className = "text-xs font-mono font-bold px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-300";
@@ -1075,7 +1100,8 @@
         return;
       }
 
-      // Protection: Check if already completed
+      // Protection: Check if already completed (bypassed if in editing mode)
+      const isEdit = (editingEntry !== null);
       const modKey = getModuleKey(mod);
       const isAlreadyCompleted = currentLoadedLogs.some(l => 
         (l.track || currentTrack).toUpperCase() === currentTrack.toUpperCase() &&
@@ -1083,13 +1109,13 @@
         formatSessionNum(l.session) === formatSessionNum(ses)
       );
 
-      if (isAlreadyCompleted) {
-        showAuthStatus(`Session ${ses} for ${modKey} is already recorded in your portfolio. Duplicate entries are blocked.`, true);
+      if (isAlreadyCompleted && !isEdit) {
+        showAuthStatus(`Session ${ses} for ${modKey} is already recorded in your portfolio. Click 'Edit' below on that reflection to modify it.`, true);
         return;
       }
 
       const btn = document.getElementById("btnSubmit");
-      btn.innerText = "Encrypting & Submitting...";
+      btn.innerText = isEdit ? "Updating Reflection..." : "Encrypting & Submitting...";
       btn.disabled = true;
 
       const isAas = (currentTrack === "aas");
@@ -1164,8 +1190,7 @@
       }
 
       if (success) {
-        // Optimistic UI append
-        currentLoadedLogs.push({
+        const newEntry = {
           timestamp: new Date().toISOString().replace("T", " ").substring(0, 16),
           track: currentTrack.toUpperCase(),
           module: payload.module,
@@ -1177,10 +1202,29 @@
           evalRating: payload.evalRating,
           toeicPrep: payload.toeicPrep,
           toeicRating: payload.toeicRating
-        });
+        };
 
-        showAuthStatus("✓ Portfolio entry submitted and recorded successfully!", false);
-        resetFormInputs();
+        if (isEdit) {
+          const targetModKey = getModuleKey(payload.module);
+          const targetSesNum = formatSessionNum(payload.session);
+          const existIdx = currentLoadedLogs.findIndex(l =>
+            (l.track || currentTrack).toUpperCase() === currentTrack.toUpperCase() &&
+            getModuleKey(l.module) === targetModKey &&
+            formatSessionNum(l.session) === targetSesNum
+          );
+          if (existIdx !== -1) {
+            currentLoadedLogs[existIdx] = newEntry;
+          } else {
+            currentLoadedLogs.push(newEntry);
+          }
+          cancelEditingEntry();
+          showAuthStatus("✓ Reflection updated and recorded successfully!", false);
+        } else {
+          currentLoadedLogs.push(newEntry);
+          showAuthStatus("✓ Portfolio entry submitted and recorded successfully!", false);
+          resetFormInputs();
+        }
+
         renderChecklist();
         renderHistoryLogs();
         updateSessionAvailability();
@@ -1191,7 +1235,7 @@
         showAuthStatus("Submission error: unable to reach recording database. Please check connection and retry.", true);
       }
 
-      btn.innerText = "Submit Portfolio Entry";
+      btn.innerText = editingEntry ? "Update & Save Reflection" : "Submit Portfolio Entry";
       btn.disabled = false;
     }
 
@@ -1258,31 +1302,178 @@
     }
 
     function updateSessionAvailability() {
-      const mod = document.getElementById("moduleSelect").value;
-      const ses = document.getElementById("sessionSelect").value;
+      const modSelect = document.getElementById("moduleSelect");
+      const sesSelect = document.getElementById("sessionSelect");
       const banner = document.getElementById("moduleCompletedBanner");
       const submitBtn = document.getElementById("btnSubmit");
 
-      const modKey = getModuleKey(mod);
-      const isDone = currentLoadedLogs.some(l => 
-        (l.track || currentTrack).toUpperCase() === currentTrack.toUpperCase() &&
-        getModuleKey(l.module) === modKey && 
-        formatSessionNum(l.session) === formatSessionNum(ses)
-      );
+      if (!modSelect || !sesSelect) return;
 
-      if (isDone) {
-        banner.innerHTML = `
-          <span class="text-base">⚠️</span>
-          <span><strong>Protection Alert:</strong> ${escapeHtml(ses)} for <strong>${escapeHtml(modKey)}</strong> is already completed. Duplicate entries are blocked.</span>
-        `;
-        banner.classList.remove("hidden");
-        submitBtn.disabled = true;
-        submitBtn.classList.add("opacity-50", "cursor-not-allowed");
+      const mod = modSelect.value;
+      const modKey = getModuleKey(mod);
+      const options = sesSelect.options;
+      let firstAvailableValue = null;
+      let hasAvailable = false;
+
+      for (let i = 0; i < options.length; i++) {
+        const opt = options[i];
+        if (!opt.dataset.baseValue) {
+          opt.dataset.baseValue = opt.value;
+        }
+        const baseVal = opt.dataset.baseValue;
+        const sesNum = formatSessionNum(baseVal);
+
+        // Check if this session is already completed by the student
+        const isCompleted = currentLoadedLogs.some(l => 
+          (l.track || currentTrack).toUpperCase() === currentTrack.toUpperCase() &&
+          getModuleKey(l.module) === modKey && 
+          formatSessionNum(l.session) === sesNum
+        );
+
+        // If we are currently editing this specific session, allow it!
+        const isCurrentlyBeingEdited = editingEntry && 
+          (editingEntry.track || currentTrack).toUpperCase() === currentTrack.toUpperCase() &&
+          getModuleKey(editingEntry.module) === modKey && 
+          formatSessionNum(editingEntry.session) === sesNum;
+
+        if (isCompleted && !isCurrentlyBeingEdited) {
+          opt.disabled = true;
+          opt.innerText = `${baseVal} (✓ Completed)`;
+          opt.classList.add("text-slate-400", "italic");
+        } else {
+          opt.disabled = false;
+          opt.innerText = baseVal;
+          opt.classList.remove("text-slate-400", "italic");
+          if (!firstAvailableValue) {
+            firstAvailableValue = baseVal;
+          }
+          hasAvailable = true;
+        }
+      }
+
+      // If the currently selected option is disabled, auto-advance to the first open session
+      if (sesSelect.selectedOptions[0] && sesSelect.selectedOptions[0].disabled) {
+        if (firstAvailableValue) {
+          sesSelect.value = firstAvailableValue;
+        }
+      }
+
+      // All sessions completed in this module?
+      if (!hasAvailable && currentLoadedLogs.length > 0 && !editingEntry) {
+        if (banner) {
+          banner.classList.remove("hidden");
+          banner.innerHTML = `
+            <span class="text-base shrink-0">🛡️</span>
+            <div><strong>Module Completed:</strong> All 5 sessions for <strong>${escapeHtml(modKey)}</strong> have been completed and recorded. Select another module above to log new entries.</div>
+          `;
+        }
+        if (submitBtn) {
+          submitBtn.disabled = true;
+          submitBtn.classList.add("opacity-50", "cursor-not-allowed");
+          submitBtn.innerText = "All Sessions in this Module Completed";
+        }
       } else {
-        banner.classList.add("hidden");
+        if (banner) banner.classList.add("hidden");
+        if (submitBtn) {
+          submitBtn.disabled = false;
+          submitBtn.classList.remove("opacity-50", "cursor-not-allowed");
+          submitBtn.innerText = editingEntry ? "Update & Save Reflection" : "Submit Portfolio Entry";
+        }
+      }
+    }
+
+    function startEditingEntry(idx) {
+      const entry = (currentFilteredLogs && currentFilteredLogs[idx]) || currentLoadedLogs[idx];
+      if (!entry) return;
+
+      editingEntry = entry;
+
+      // 1. Switch to matching track if not already active
+      const entryTrack = (entry.track || currentTrack).toLowerCase();
+      if (entryTrack !== currentTrack.toLowerCase()) {
+        switchTrack(entryTrack, false);
+      }
+
+      // 2. Select matching module in dropdown
+      const modSelect = document.getElementById("moduleSelect");
+      const targetModKey = getModuleKey(entry.module);
+      for (let i = 0; i < modSelect.options.length; i++) {
+        if (getModuleKey(modSelect.options[i].value) === targetModKey) {
+          modSelect.selectedIndex = i;
+          break;
+        }
+      }
+
+      // 3. Update session availability so this session can be selected
+      updateSessionAvailability();
+
+      // 4. Select matching session in dropdown
+      const sesSelect = document.getElementById("sessionSelect");
+      const targetSesNum = formatSessionNum(entry.session);
+      for (let i = 0; i < sesSelect.options.length; i++) {
+        const baseVal = sesSelect.options[i].dataset.baseValue || sesSelect.options[i].value;
+        if (formatSessionNum(baseVal) === targetSesNum) {
+          sesSelect.selectedIndex = i;
+          break;
+        }
+      }
+
+      // 5. Populate form input fields with existing reflection text
+      document.getElementById("vocab").value = entry.vocab || "";
+      document.getElementById("contentReview").value = entry.contentReview || "";
+      document.getElementById("workOn").value = entry.workOn || "";
+      document.getElementById("evalHelp").value = entry.evalHelp || "";
+      setRating("evalRating", parseInt(entry.evalRating, 10) || 7);
+
+      const isAas = (currentTrack === "aas");
+      if (!isAas) {
+        if (document.getElementById("toeicPrep")) {
+          document.getElementById("toeicPrep").value = entry.toeicPrep || "";
+        }
+        if (document.getElementById("toeicRating")) {
+          setRating("toeicRating", parseInt(entry.toeicRating, 10) || 7);
+        }
+      }
+
+      // 6. Show Edit Mode Banner & update buttons
+      const banner = document.getElementById("editModeBanner");
+      const targetSpan = document.getElementById("editModeTarget");
+      const cancelBtn = document.getElementById("btnCancelEdit");
+      const submitBtn = document.getElementById("btnSubmit");
+
+      if (banner && targetSpan) {
+        targetSpan.innerText = `${targetModKey} • ${entry.session}`;
+        banner.classList.remove("hidden");
+      }
+      if (cancelBtn) cancelBtn.classList.remove("hidden");
+      if (submitBtn) {
+        submitBtn.innerHTML = `<span>💾</span> <span>Update &amp; Save Reflection</span>`;
         submitBtn.disabled = false;
         submitBtn.classList.remove("opacity-50", "cursor-not-allowed");
       }
+
+      // 7. Smooth scroll to form
+      const formEl = document.getElementById("portfolioForm");
+      if (formEl) {
+        formEl.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }
+
+    function cancelEditingEntry() {
+      editingEntry = null;
+
+      const banner = document.getElementById("editModeBanner");
+      const cancelBtn = document.getElementById("btnCancelEdit");
+      const submitBtn = document.getElementById("btnSubmit");
+
+      if (banner) banner.classList.add("hidden");
+      if (cancelBtn) cancelBtn.classList.add("hidden");
+      if (submitBtn) {
+        submitBtn.innerHTML = `<span>Submit Portfolio Entry</span>`;
+      }
+
+      resetFormInputs();
+      updateSessionAvailability();
     }
 
     // ============================================================================
@@ -1318,6 +1509,8 @@
         return getModuleKey(l.module) === currentFilterModule;
       });
 
+      currentFilteredLogs = filtered;
+
       if (filtered.length === 0) {
         container.innerHTML = `
           <div class="text-center py-8 text-slate-400 text-xs font-medium">
@@ -1342,9 +1535,15 @@
                   ${escapeHtml(entry.session)}
                 </span>
               </div>
-              <span class="text-[11px] font-mono text-slate-400">
-                ${escapeHtml(entry.timestamp || "")}
-              </span>
+              <div class="flex items-center gap-2 self-end sm:self-auto">
+                <span class="text-[11px] font-mono text-slate-400">
+                  ${escapeHtml(entry.timestamp || "")}
+                </span>
+                <button type="button" onclick="startEditingEntry(${idx})" class="no-print inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-xs font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 border border-slate-300 transition cursor-pointer shadow-2xs hover:border-slate-400" title="Edit this logged reflection">
+                  <svg class="w-3.5 h-3.5 text-slate-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+                  <span>Edit</span>
+                </button>
+              </div>
             </div>
 
             <!-- Vocabulary Block -->
