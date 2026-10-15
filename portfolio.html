@@ -875,8 +875,8 @@
 
     function restoreSavedCredentials() {
       try {
-        const savedStudent = sessionStorage.getItem("gsea_student");
-        const savedPin = sessionStorage.getItem("gsea_pin");
+        const savedStudent = localStorage.getItem("gsea_student") || sessionStorage.getItem("gsea_student");
+        const savedPin = localStorage.getItem("gsea_pin") || sessionStorage.getItem("gsea_pin");
         if (savedStudent) {
           document.getElementById("studentSelect").value = savedStudent;
           if (savedPin) {
@@ -891,8 +891,12 @@
       const pinInput = document.getElementById("studentPin");
       if (pinInput) pinInput.value = "";
 
-      sessionStorage.removeItem("gsea_student");
-      sessionStorage.removeItem("gsea_pin");
+      try {
+        localStorage.removeItem("gsea_student");
+        localStorage.removeItem("gsea_pin");
+        sessionStorage.removeItem("gsea_student");
+        sessionStorage.removeItem("gsea_pin");
+      } catch (e) {}
 
       currentLoadedLogs = [];
       renderChecklist();
@@ -902,8 +906,12 @@
     }
 
     function signOut() {
-      sessionStorage.removeItem("gsea_student");
-      sessionStorage.removeItem("gsea_pin");
+      try {
+        localStorage.removeItem("gsea_student");
+        localStorage.removeItem("gsea_pin");
+        sessionStorage.removeItem("gsea_student");
+        sessionStorage.removeItem("gsea_pin");
+      } catch (e) {}
       document.getElementById("studentSelect").value = "";
       document.getElementById("studentPin").value = "";
       currentLoadedLogs = [];
@@ -928,7 +936,7 @@
     }
 
     // ============================================================================
-    // DRAFT AUTO-SAVE & RESTORATION (Session-Scoped per student & track)
+    // DRAFT AUTO-SAVE & RESTORATION (Persistent per student & track via localStorage)
     // ============================================================================
 
     function getDraftStorageKey() {
@@ -949,6 +957,7 @@
     }
 
     function saveDraft() {
+      if (editingEntry) return; // Do not overwrite regular drafts while in active editing mode
       const key = getDraftStorageKey();
       if (!key) return;
 
@@ -965,14 +974,16 @@
       };
 
       try {
-        sessionStorage.setItem(key, JSON.stringify(draft));
+        localStorage.setItem(key, JSON.stringify(draft));
         const ind = document.getElementById("draftSavedIndicator");
         if (ind) {
           ind.classList.remove("hidden");
           clearTimeout(window._draftTimer);
           window._draftTimer = setTimeout(() => { ind.classList.add("hidden"); }, 2000);
         }
-      } catch (e) {}
+      } catch (e) {
+        try { sessionStorage.setItem(key, JSON.stringify(draft)); } catch (se) {}
+      }
     }
 
     function restoreDraft() {
@@ -980,7 +991,7 @@
       if (!key) return;
 
       try {
-        const raw = sessionStorage.getItem(key);
+        const raw = localStorage.getItem(key) || sessionStorage.getItem(key);
         if (!raw) return;
         const draft = JSON.parse(raw);
 
@@ -1004,7 +1015,10 @@
 
     function clearDraft() {
       const key = getDraftStorageKey();
-      if (key) sessionStorage.removeItem(key);
+      if (key) {
+        try { localStorage.removeItem(key); } catch (e) {}
+        try { sessionStorage.removeItem(key); } catch (e) {}
+      }
     }
 
     function resetFormInputs() {
@@ -1043,7 +1057,12 @@
         const data = await res.json();
 
         if (data.success) {
-          sessionStorage.setItem("gsea_student", student);
+          try {
+            localStorage.setItem("gsea_student", student);
+            localStorage.setItem("gsea_pin", pin);
+            sessionStorage.setItem("gsea_student", student);
+            sessionStorage.setItem("gsea_pin", pin);
+          } catch (e) {}
           // Deduplicate logs by (track, moduleKey, sessionNum) — keeping the latest revision
           const rawLogs = data.logs || [];
           const logMap = new Map();
