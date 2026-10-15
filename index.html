@@ -63,10 +63,23 @@
       transition: background-color 0.25s ease, border-color 0.25s ease;
     }
 
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
     .module-buttons-group {
       display: flex;
       align-items: center;
-      gap: 6px;
+      gap: 4px;
+    }
+    @media (min-width: 640px) {
+      .module-buttons-group {
+        gap: 6px;
+      }
     }
     /* Rock-Solid Static Deck Geometry - Zero Vertical Shifting & Zero Edge Clipping */
     .moodle-deck-canvas {
@@ -308,9 +321,9 @@
       </header>
 
       <!-- Flight Deck Navigation Ribbon -->
-      <nav id="flight-deck-ribbon" class="bg-[#1f2937] text-white px-3 sm:px-5 py-2 border-b border-[#111827] flex items-center justify-between gap-2 sm:gap-3 shrink-0 z-10 transition-colors duration-200">
+      <nav id="flight-deck-ribbon" class="bg-[#1f2937] text-white px-2 sm:px-5 py-1.5 sm:py-2 border-b border-[#111827] flex items-center justify-between gap-1 sm:gap-3 shrink-0 z-10 transition-colors duration-200 overflow-x-auto no-scrollbar">
         <!-- Left: Curriculum Track Switcher (AG / AAS) -->
-        <div class="flex items-center gap-2 shrink-0">
+        <div class="flex items-center gap-1.5 sm:gap-2 shrink-0">
           <span class="text-[10px] font-black uppercase tracking-wider text-slate-300 hidden sm:inline-block">Track:</span>
           <div id="program-switcher" class="inline-flex items-center bg-black/40 p-0.5 rounded-lg border border-white/15 shadow-inner" role="tablist" aria-label="Curriculum Track">
             <button id="prog-btn-ag"
@@ -318,7 +331,7 @@
                     role="tab"
                     aria-selected="true"
                     title="General English (AG)"
-                    class="px-2.5 py-1 rounded-md text-xs font-black transition-all cursor-pointer flex items-center gap-1.5 text-white shadow-xs">
+                    class="px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded-md text-[11px] sm:text-xs font-black transition-all cursor-pointer flex items-center gap-1 sm:gap-1.5 text-white shadow-xs">
               <svg width="13" height="13" class="w-3.5 h-3.5 shrink-0 opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
               <span>AG</span>
             </button>
@@ -327,7 +340,7 @@
                     role="tab"
                     aria-selected="false"
                     title="Aeronautical English (AAS)"
-                    class="px-2.5 py-1 rounded-md text-xs font-semibold transition-all cursor-pointer flex items-center gap-1.5 text-white/70 hover:text-white hover:bg-white/10">
+                    class="px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded-md text-[11px] sm:text-xs font-semibold transition-all cursor-pointer flex items-center gap-1 sm:gap-1.5 text-white/70 hover:text-white hover:bg-white/10">
               <svg width="13" height="13" class="w-3.5 h-3.5 shrink-0 opacity-90" viewBox="0 0 24 24" fill="currentColor"><path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg>
               <span>AAS</span>
             </button>
@@ -340,7 +353,7 @@
              href="https://e-campus.enac.fr"
              target="_blank"
              rel="noopener noreferrer"
-             class="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-0.5 sm:py-1 rounded-full bg-black/45 backdrop-blur-xs border border-white/15 shadow-inner transition-all duration-300 select-none group cursor-pointer hover:border-white/40 hover:bg-black/60 hover:-translate-y-[1px] active:translate-y-0 no-underline"
+             class="inline-flex items-center gap-1 sm:gap-1.5 px-2 sm:px-3 py-0.5 sm:py-1 rounded-full bg-black/45 backdrop-blur-xs border border-white/15 shadow-inner transition-all duration-300 select-none group cursor-pointer hover:border-white/40 hover:bg-black/60 hover:-translate-y-[1px] active:translate-y-0 no-underline"
              title="Return to ENAC e-Campus (https://e-campus.enac.fr) ↗">
             <span id="promo-badge-dot" class="w-1.5 h-1.5 rounded-full bg-orange-500 animate-pulse transition-all duration-300"></span>
             <span id="promo-badge-text" class="text-[10px] sm:text-[11px] font-mono font-black tracking-wider text-slate-100 uppercase transition-colors duration-300 group-hover:text-white">GSEA 26A</span>
@@ -349,9 +362,9 @@
         </div>
 
         <!-- Right: Module Selection Tabs (01 / 02 / 03) -->
-        <div class="flex items-center gap-2 shrink-0">
+        <div class="flex items-center gap-1.5 sm:gap-2 shrink-0">
           <span class="text-[10px] font-black uppercase tracking-wider text-slate-300 hidden sm:inline-block">Module:</span>
-          <div id="module-selector-container" class="module-buttons-group flex items-center gap-1.5">
+          <div id="module-selector-container" class="module-buttons-group flex items-center">
             <!-- Populated via script: 01, 02, 03 -->
           </div>
         </div>
@@ -1203,7 +1216,7 @@
         agBtn.style.borderColor = currentTheme.accentDark;
         agBtn.style.color = '#ffffff';
         agBtn.style.boxShadow = '0 1px 3px rgba(0, 0, 0, 0.2)';
-        agBtn.className = "px-2.5 py-1 rounded-md text-xs font-bold transition-all cursor-pointer flex items-center gap-1 border shadow-xs hover:-translate-y-[1px] active:translate-y-0";
+        agBtn.className = "px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded-md text-[11px] sm:text-xs font-bold transition-all cursor-pointer flex items-center gap-1 border shadow-xs hover:-translate-y-[1px] active:translate-y-0";
         agBtn.onmouseenter = () => { agBtn.style.backgroundColor = currentTheme.accentDark; };
         agBtn.onmouseleave = () => { agBtn.style.backgroundColor = currentTheme.accent; };
 
@@ -1211,7 +1224,7 @@
         aasBtn.style.borderColor = 'transparent';
         aasBtn.style.color = 'rgba(255, 255, 255, 0.75)';
         aasBtn.style.boxShadow = 'none';
-        aasBtn.className = "px-2.5 py-1 rounded-md text-xs font-semibold transition-all cursor-pointer flex items-center gap-1 opacity-75 hover:opacity-100 hover:text-white border hover:-translate-y-[1px] active:translate-y-0";
+        aasBtn.className = "px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded-md text-[11px] sm:text-xs font-semibold transition-all cursor-pointer flex items-center gap-1 opacity-75 hover:opacity-100 hover:text-white border hover:-translate-y-[1px] active:translate-y-0";
         aasBtn.onmouseenter = () => { aasBtn.style.backgroundColor = 'rgba(255, 255, 255, 0.15)'; aasBtn.style.color = '#ffffff'; };
         aasBtn.onmouseleave = () => { aasBtn.style.backgroundColor = 'transparent'; aasBtn.style.color = 'rgba(255, 255, 255, 0.75)'; };
       } else {
@@ -1219,7 +1232,7 @@
         aasBtn.style.borderColor = currentTheme.accentDark;
         aasBtn.style.color = '#ffffff';
         aasBtn.style.boxShadow = '0 1px 3px rgba(0, 0, 0, 0.2)';
-        aasBtn.className = "px-2.5 py-1 rounded-md text-xs font-bold transition-all cursor-pointer flex items-center gap-1 border shadow-xs hover:-translate-y-[1px] active:translate-y-0";
+        aasBtn.className = "px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded-md text-[11px] sm:text-xs font-bold transition-all cursor-pointer flex items-center gap-1 border shadow-xs hover:-translate-y-[1px] active:translate-y-0";
         aasBtn.onmouseenter = () => { aasBtn.style.backgroundColor = currentTheme.accentDark; };
         aasBtn.onmouseleave = () => { aasBtn.style.backgroundColor = currentTheme.accent; };
 
@@ -1227,7 +1240,7 @@
         agBtn.style.borderColor = 'transparent';
         agBtn.style.color = 'rgba(255, 255, 255, 0.75)';
         agBtn.style.boxShadow = 'none';
-        agBtn.className = "px-2.5 py-1 rounded-md text-xs font-semibold transition-all cursor-pointer flex items-center gap-1 opacity-75 hover:opacity-100 hover:text-white border hover:-translate-y-[1px] active:translate-y-0";
+        agBtn.className = "px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded-md text-[11px] sm:text-xs font-semibold transition-all cursor-pointer flex items-center gap-1 opacity-75 hover:opacity-100 hover:text-white border hover:-translate-y-[1px] active:translate-y-0";
         agBtn.onmouseenter = () => { agBtn.style.backgroundColor = 'rgba(255, 255, 255, 0.15)'; agBtn.style.color = '#ffffff'; };
         agBtn.onmouseleave = () => { agBtn.style.backgroundColor = 'transparent'; agBtn.style.color = 'rgba(255, 255, 255, 0.75)'; };
       }
@@ -1328,7 +1341,7 @@
           btn.style.borderColor = currentTheme.accentDark;
           btn.style.color = '#ffffff';
           btn.style.boxShadow = '0 1px 3px rgba(0, 0, 0, 0.2)';
-          btn.className = "flex items-center justify-center min-w-[34px] px-2.5 py-1 rounded-md text-xs font-bold tracking-wider transition-all border cursor-pointer select-none shadow-xs hover:-translate-y-[1px] active:translate-y-0";
+          btn.className = "flex items-center justify-center min-w-[28px] sm:min-w-[34px] px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded-md text-[11px] sm:text-xs font-bold tracking-wider transition-all border cursor-pointer select-none shadow-xs hover:-translate-y-[1px] active:translate-y-0";
           btn.onmouseenter = () => {
             btn.style.backgroundColor = currentTheme.accentDark;
           };
@@ -1341,7 +1354,7 @@
           btn.style.borderColor = 'rgba(255, 255, 255, 0.15)';
           btn.style.color = 'rgba(255, 255, 255, 0.82)';
           btn.style.boxShadow = 'none';
-          btn.className = "flex items-center justify-center min-w-[34px] px-2.5 py-1 rounded-md text-xs font-semibold tracking-wider transition-all border cursor-pointer select-none hover:bg-white/20 hover:text-white hover:-translate-y-[1px] active:translate-y-0";
+          btn.className = "flex items-center justify-center min-w-[28px] sm:min-w-[34px] px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded-md text-[11px] sm:text-xs font-semibold tracking-wider transition-all border cursor-pointer select-none hover:bg-white/20 hover:text-white hover:-translate-y-[1px] active:translate-y-0";
           btn.onmouseenter = () => {
             btn.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
             btn.style.color = '#ffffff';
@@ -1352,7 +1365,7 @@
           };
         }
 
-        btn.innerHTML = `<span class="font-mono font-bold text-xs">0${idx + 1}</span>`;
+        btn.innerHTML = `<span class="font-mono font-bold text-[11px] sm:text-xs">0${idx + 1}</span>`;
 
         btn.addEventListener('click', () => {
           switchModule(idx, 0);
