@@ -236,11 +236,32 @@
       .print-page-break { page-break-after: always; }
       .drop-shadow-box { box-shadow: none !important; border: 1px solid #cbd5e1 !important; }
     }
+
+    /* In-Drawer Embedded Mode (when loaded in deck slide-over drawer) */
+    html.in-drawer-mode header.header-banner,
+    body.in-drawer-mode header.header-banner {
+      display: none !important;
+    }
+    html.in-drawer-mode body,
+    body.in-drawer-mode {
+      min-height: auto !important;
+    }
+    html.in-drawer-mode .portfolio-container,
+    body.in-drawer-mode .portfolio-container {
+      max-width: 100% !important;
+      padding-top: 1rem !important;
+      padding-bottom: 2.5rem !important;
+    }
   </style>
+  <script>
+    if (window.self !== window.top) {
+      document.documentElement.classList.add('in-drawer-mode');
+    }
+  </script>
 </head>
 <body class="theme-ag antialiased selection:bg-emerald-500/20 selection:text-emerald-900">
 
-  <div class="max-w-4xl mx-auto px-3 sm:px-4 py-4 sm:py-6 space-y-5">
+  <div class="portfolio-container max-w-4xl mx-auto px-3 sm:px-4 py-4 sm:py-6 space-y-5">
     
     <!-- Top Flight-Deck Navigation & Branding Header -->
     <header class="header-banner textured-surface px-4 py-3.5 sm:px-6 sm:py-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
@@ -698,8 +719,9 @@
       setupAutoSaveListeners();
       checkBackendPing();
 
-      // If embedded in course deck slide-over drawer, hide redundant 'Return to Deck' button
+      // If embedded in course deck slide-over drawer, activate in-drawer mode
       if (window.self !== window.top) {
+        document.body.classList.add("in-drawer-mode");
         const deckLink = document.getElementById("return-deck-link");
         if (deckLink) deckLink.classList.add("hidden");
       }
@@ -715,7 +737,8 @@
       const config = TRACK_CONFIGS[trackKey];
 
       // 1. Update body class & CSS variables
-      document.body.className = `${config.themeClass} antialiased selection:bg-emerald-500/20 selection:text-emerald-900`;
+      const inDrawer = (window.self !== window.top) || document.documentElement.classList.contains('in-drawer-mode');
+      document.body.className = `${config.themeClass} ${inDrawer ? 'in-drawer-mode ' : ''}antialiased selection:bg-emerald-500/20 selection:text-emerald-900`;
 
       // 2. Update Header branding
       document.getElementById("header-title").innerText = config.title;
@@ -787,6 +810,17 @@
       renderHistoryLogs();
       updateSessionAvailability();
       restoreDraft();
+
+      // 8. Bidirectionally sync with parent drawer header if embedded
+      if (window.parent && window.parent !== window) {
+        try {
+          if (typeof window.parent.syncPortfolioDrawerHeader === 'function') {
+            window.parent.syncPortfolioDrawerHeader(trackKey);
+          }
+        } catch (e) {
+          // ignore cross-origin if any
+        }
+      }
     }
 
     // ============================================================================

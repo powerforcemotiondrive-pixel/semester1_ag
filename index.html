@@ -514,7 +514,7 @@
     <div id="portfolio-modal-backdrop" class="fixed inset-0 bg-slate-900/60 backdrop-blur-xs opacity-0 transition-opacity duration-300"></div>
 
     <div class="fixed inset-y-0 right-0 max-w-full flex pl-0 sm:pl-10">
-      <div id="deck-portfolio-drawer" class="w-screen max-w-5xl h-full bg-white shadow-2xl flex flex-col transform translate-x-full transition-transform duration-300 ease-in-out">
+      <div id="deck-portfolio-drawer" class="w-screen max-w-4xl h-full bg-white shadow-2xl flex flex-col transform translate-x-full transition-transform duration-300 ease-in-out">
         
         <!-- Drawer Header -->
         <header id="portfolio-drawer-header" class="textured-surface bg-[#1f2937] text-white px-3.5 py-3 sm:px-6 sm:py-3.5 flex items-center justify-between border-b border-[#111827] shrink-0 gap-3">
@@ -528,24 +528,19 @@
               </svg>
             </div>
             <div class="min-w-0">
-              <div class="flex items-center gap-2 flex-wrap">
-                <h2 id="portfolio-drawer-title" class="text-xs sm:text-sm font-bold text-white uppercase tracking-wide truncate">
-                  GSEA SEMESTER 1 AG
-                </h2>
-                <span id="portfolio-drawer-track-pill" class="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 shrink-0">
-                  AG TRACK
-                </span>
-              </div>
+              <h2 id="portfolio-drawer-title" class="text-xs sm:text-sm font-bold text-white uppercase tracking-wide truncate">
+                GSEA SEMESTER 1 AG
+              </h2>
               <p id="portfolio-drawer-subtitle" class="text-[11px] text-slate-300 truncate mt-0.5">
                 General English (LV101E) • Formative Learning Portfolio &amp; Self-Evaluation Log
               </p>
             </div>
           </div>
 
-          <!-- Drawer Action Controls (Track switcher, Popout, Close) -->
+          <!-- Drawer Action Controls (Track switcher, Live Status, Close) -->
           <div class="flex items-center space-x-1.5 sm:space-x-2 shrink-0">
             <!-- In-Drawer Track Switcher -->
-            <div class="hidden sm:inline-flex items-center bg-black/40 p-0.5 rounded-lg border border-white/15 shadow-inner">
+            <div class="inline-flex items-center bg-black/40 p-0.5 rounded-lg border border-white/15 shadow-inner">
               <button id="drawer-tab-btn-ag" type="button" onclick="setDrawerTrack('ag')" class="px-2 py-1 rounded text-[11px] font-black transition-all cursor-pointer text-white bg-emerald-600 shadow-xs">
                 AG
               </button>
@@ -554,6 +549,11 @@
               </button>
             </div>
 
+            <!-- Live DB Beacon -->
+            <div class="hidden sm:inline-flex items-center gap-1.5 px-2 py-0.5 rounded-md bg-black/40 border border-white/15 text-[10px] font-mono font-bold text-slate-200">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+              <span>Live</span>
+            </div>
 
             <!-- Close Drawer Button -->
             <button id="portfolio-modal-close-btn" type="button" onclick="closePortfolioDrawer()" aria-label="Close portfolio drawer" class="text-white hover:text-white bg-black/25 hover:bg-black/40 p-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer">
@@ -2181,23 +2181,44 @@
       }, 300);
     }
 
+    window.syncPortfolioDrawerHeader = function(trackKey) {
+      const activeTrack = trackKey || 'ag';
+      const isAg = (activeTrack === 'ag');
+      const iconBox = document.getElementById('portfolio-drawer-icon');
+      const iconAg = document.getElementById('portfolio-drawer-icon-ag');
+      const iconAas = document.getElementById('portfolio-drawer-icon-aas');
+      const titleEl = document.getElementById('portfolio-drawer-title');
+      const subtitleEl = document.getElementById('portfolio-drawer-subtitle');
+      const drawerBtnAg = document.getElementById('drawer-tab-btn-ag');
+      const drawerBtnAas = document.getElementById('drawer-tab-btn-aas');
+
+      if (isAg) {
+        if (iconBox) iconBox.className = "w-8 h-8 rounded-lg flex items-center justify-center shrink-0 text-white bg-emerald-600 shadow-xs";
+        if (iconAg) iconAg.classList.remove("hidden");
+        if (iconAas) iconAas.classList.add("hidden");
+        if (titleEl) titleEl.innerText = "GSEA SEMESTER 1 AG";
+        if (subtitleEl) subtitleEl.innerText = "General English (LV101E) • Formative Learning Portfolio & Self-Evaluation Log";
+        if (drawerBtnAg) drawerBtnAg.className = "px-2 py-1 rounded text-[11px] font-black transition-all cursor-pointer text-white bg-emerald-600 shadow-xs";
+        if (drawerBtnAas) drawerBtnAas.className = "px-2 py-1 rounded text-[11px] font-semibold transition-all cursor-pointer text-white/70 hover:text-white hover:bg-white/10";
+      } else {
+        if (iconBox) iconBox.className = "w-8 h-8 rounded-lg flex items-center justify-center shrink-0 text-white bg-blue-600 shadow-xs";
+        if (iconAg) iconAg.classList.add("hidden");
+        if (iconAas) iconAas.classList.remove("hidden");
+        if (titleEl) titleEl.innerText = "GSEA SEMESTER 1 AAS";
+        if (subtitleEl) subtitleEl.innerText = "Aeronautical English (LV121E) • Formative Learning Portfolio & Aeronautical Operations Log";
+        if (drawerBtnAg) drawerBtnAg.className = "px-2 py-1 rounded text-[11px] font-semibold transition-all cursor-pointer text-white/70 hover:text-white hover:bg-white/10";
+        if (drawerBtnAas) drawerBtnAas.className = "px-2 py-1 rounded text-[11px] font-black transition-all cursor-pointer text-white bg-blue-600 shadow-xs";
+      }
+    };
+
     window.openPortfolioDrawer = function(trackKey) {
       const activeTrack = trackKey || currentProgram || 'ag';
-      const isAg = (activeTrack === 'ag');
       const targetUrl = `portfolio.html?track=${activeTrack}`;
 
       const modalEl = document.getElementById('deck-portfolio-modal');
       const backdropEl = document.getElementById('portfolio-modal-backdrop');
       const drawerEl = document.getElementById('deck-portfolio-drawer');
       const iframeEl = document.getElementById('portfolio-drawer-iframe');
-      const iconBox = document.getElementById('portfolio-drawer-icon');
-      const iconAg = document.getElementById('portfolio-drawer-icon-ag');
-      const iconAas = document.getElementById('portfolio-drawer-icon-aas');
-      const titleEl = document.getElementById('portfolio-drawer-title');
-      const subtitleEl = document.getElementById('portfolio-drawer-subtitle');
-      const pillEl = document.getElementById('portfolio-drawer-track-pill');
-      const drawerBtnAg = document.getElementById('drawer-tab-btn-ag');
-      const drawerBtnAas = document.getElementById('drawer-tab-btn-aas');
 
       if (!modalEl || !drawerEl || !iframeEl) return;
 
@@ -2208,31 +2229,7 @@
       }
 
       // Update Header branding
-      if (isAg) {
-        if (iconBox) iconBox.className = "w-8 h-8 rounded-lg flex items-center justify-center shrink-0 text-white bg-emerald-600 shadow-xs";
-        if (iconAg) iconAg.classList.remove("hidden");
-        if (iconAas) iconAas.classList.add("hidden");
-        if (titleEl) titleEl.innerText = "GSEA SEMESTER 1 AG";
-        if (subtitleEl) subtitleEl.innerText = "General English (LV101E) • Formative Learning Portfolio & Self-Evaluation Log";
-        if (pillEl) {
-          pillEl.innerText = "AG TRACK";
-          pillEl.className = "text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 shrink-0";
-        }
-        if (drawerBtnAg) drawerBtnAg.className = "px-2 py-1 rounded text-[11px] font-black transition-all cursor-pointer text-white bg-emerald-600 shadow-xs";
-        if (drawerBtnAas) drawerBtnAas.className = "px-2 py-1 rounded text-[11px] font-semibold transition-all cursor-pointer text-white/70 hover:text-white hover:bg-white/10";
-      } else {
-        if (iconBox) iconBox.className = "w-8 h-8 rounded-lg flex items-center justify-center shrink-0 text-white bg-blue-600 shadow-xs";
-        if (iconAg) iconAg.classList.add("hidden");
-        if (iconAas) iconAas.classList.remove("hidden");
-        if (titleEl) titleEl.innerText = "GSEA SEMESTER 1 AAS";
-        if (subtitleEl) subtitleEl.innerText = "Aeronautical English (LV121E) • Formative Learning Portfolio & Aeronautical Operations Log";
-        if (pillEl) {
-          pillEl.innerText = "AAS TRACK";
-          pillEl.className = "text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-blue-500/20 text-blue-300 border border-blue-500/30 shrink-0";
-        }
-        if (drawerBtnAg) drawerBtnAg.className = "px-2 py-1 rounded text-[11px] font-semibold transition-all cursor-pointer text-white/70 hover:text-white hover:bg-white/10";
-        if (drawerBtnAas) drawerBtnAas.className = "px-2 py-1 rounded text-[11px] font-black transition-all cursor-pointer text-white bg-blue-600 shadow-xs";
-      }
+      window.syncPortfolioDrawerHeader(activeTrack);
 
       // Sync iframe content
       const loadedTrack = iframeEl.getAttribute('data-loaded-track');
@@ -2276,7 +2273,13 @@
 
     window.setDrawerTrack = function(trackKey) {
       if (trackKey !== 'ag' && trackKey !== 'aas') return;
-      openPortfolioDrawer(trackKey);
+      window.syncPortfolioDrawerHeader(trackKey);
+      const iframeEl = document.getElementById('portfolio-drawer-iframe');
+      if (iframeEl && iframeEl.contentWindow && typeof iframeEl.contentWindow.switchTrack === 'function') {
+        try {
+          iframeEl.contentWindow.switchTrack(trackKey, true);
+        } catch (e) {}
+      }
       if (typeof switchProgram === 'function' && trackKey !== currentProgram) {
         switchProgram(trackKey);
       }
@@ -2286,7 +2289,7 @@
       const modalEl = document.getElementById('deck-portfolio-modal');
       const isOpen = modalEl && !modalEl.classList.contains('hidden');
       if (isOpen) {
-        openPortfolioDrawer(trackKey);
+        window.setDrawerTrack(trackKey);
       }
     };
 
