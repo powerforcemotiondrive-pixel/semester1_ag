@@ -402,15 +402,15 @@
             </div>
           </div>
 
-          <!-- Executive Action Dock (Concept 1: Right-Aligned Control Hub) -->
-          <div id="action-dock" class="pt-3.5 border-t border-slate-200/80 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mt-4">
+          <!-- Executive Action Dock: Label on Left, Open Resources on Right -->
+          <div id="action-dock" class="pt-3.5 border-t border-slate-200/80 flex items-center justify-between gap-3 mt-4 w-full">
             <!-- Left: Subtle Technical Status / Workspace Breadcrumb -->
             <div id="action-dock-label" class="flex items-center gap-2 shrink-0 select-none">
               <span id="action-dock-dot" class="w-2 h-2 rounded-full transition-colors duration-200" style="background-color: #374151;"></span>
-              <span id="action-dock-title" class="font-mono text-[11px] font-bold uppercase tracking-wider text-slate-500">Session 01 Interactive Tools</span>
+              <span id="action-dock-title" class="font-mono text-[11px] font-bold uppercase tracking-wider text-slate-500">Session 01 Study Resources</span>
             </div>
-            <!-- Right: Action Buttons (Right Aligned) -->
-            <div id="action-links-container" class="flex flex-wrap items-center justify-start sm:justify-end gap-2 w-full sm:w-auto"></div>
+            <!-- Right: Single Access CTA Button (Right Aligned) -->
+            <div id="action-links-container" class="flex items-center justify-end shrink-0"></div>
           </div>
         </div>
       </div>
@@ -1692,36 +1692,7 @@
       const actionContainer = document.getElementById('action-links-container');
       actionContainer.innerHTML = '';
 
-      const getActionIcon = (type) => {
-        switch (type) {
-          case 'objectives':
-          case 'fe_objectives':
-            return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg>`;
-          case 'plan':
-          case 'fe_guidelines':
-          case 'guidelines':
-            return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>`;
-          case 'revision':
-            return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>`;
-          case 'materials':
-            return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>`;
-          case 'toeic':
-            return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>`;
-          case 'ddrs':
-            return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"/></svg>`;
-          case 'fe_criteria':
-          case 'criteria':
-            return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>`;
-          case 'admin_groups':
-            return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>`;
-          case 'admin_calendar':
-            return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>`;
-          case 'admin_rota':
-            return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>`;
-          default:
-            return `<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>`;
-        }
-      };
+
 
       // Update Action Dock Label
       const dockDot = document.getElementById('action-dock-dot');
@@ -1739,73 +1710,31 @@
         }
       }
 
-      const createModalBtn = (label, tabKey, fallbackHref, isPrimary = false) => {
+      const createThemedCTA = (label, tabKey, fallbackHref) => {
         const btn = document.createElement('button');
         btn.type = 'button';
-        if (isPrimary) {
-          btn.className = "inline-flex items-center gap-1.5 text-white px-3.5 py-1.5 rounded-lg text-xs font-bold tracking-wide shadow-xs transition-all duration-150 cursor-pointer select-none border border-black/10 hover:shadow-sm hover:-translate-y-[1px] active:translate-y-0";
-          btn.style.backgroundColor = mod.primary;
-          btn.onmouseenter = () => btn.style.backgroundColor = mod.primaryDark;
-          btn.onmouseleave = () => btn.style.backgroundColor = mod.primary;
-        } else {
-          btn.className = "inline-flex items-center gap-1.5 bg-slate-100 hover:bg-slate-200/90 text-slate-700 hover:text-slate-900 border border-slate-300/80 px-3 py-1.5 rounded-lg text-xs font-semibold tracking-wide shadow-2xs hover:shadow-sm hover:-translate-y-[1px] active:translate-y-0 transition-all duration-150 cursor-pointer select-none";
-        }
-        btn.innerHTML = `${getActionIcon(tabKey)}<span>${label}</span>`;
+        btn.className = "inline-flex items-center gap-2 text-white px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs font-bold tracking-wide shadow-xs transition-all duration-150 cursor-pointer select-none border border-black/10 hover:shadow-md hover:-translate-y-[1px] active:translate-y-0";
+        btn.style.backgroundColor = mod.primary;
+        btn.onmouseenter = () => btn.style.backgroundColor = mod.primaryDark;
+        btn.onmouseleave = () => btn.style.backgroundColor = mod.primary;
+        btn.innerHTML = `<span>${label}</span> <span class="font-bold text-sm leading-none" aria-hidden="true">⇥</span>`;
         btn.addEventListener('click', () => {
           openModalDrawer(tabKey, mod.id, currentIndex + 1, fallbackHref);
         });
         return btn;
       };
 
-      const createExternalBtn = (href, label, isPrimary = false) => {
-        const btn = document.createElement('a');
-        if (isPrimary) {
-          btn.className = "inline-flex items-center gap-1.5 text-white px-3.5 py-1.5 rounded-lg text-xs font-bold tracking-wide shadow-xs transition-all duration-150 cursor-pointer select-none border border-black/10 hover:shadow-sm hover:-translate-y-[1px] active:translate-y-0";
-          btn.style.backgroundColor = mod.primary;
-          btn.onmouseenter = () => btn.style.backgroundColor = mod.primaryDark;
-          btn.onmouseleave = () => btn.style.backgroundColor = mod.primary;
-        } else {
-          btn.className = "inline-flex items-center gap-1.5 bg-slate-100 hover:bg-slate-200/90 text-slate-700 hover:text-slate-900 border border-slate-300/80 px-3 py-1.5 rounded-lg text-xs font-semibold tracking-wide shadow-2xs hover:shadow-sm hover:-translate-y-[1px] active:translate-y-0 transition-all duration-150 cursor-pointer select-none no-underline";
-        }
-        btn.href = href;
-        btn.target = "_blank";
-        btn.rel = "noopener noreferrer";
-        btn.innerHTML = `${getActionIcon('external')}<span>${label} ↗</span>`;
-        return btn;
-      };
-
       if (page.isAdmin || currentIndex === 6) {
-        actionContainer.appendChild(createModalBtn("Class Groups & Teachers", "admin_groups", "admin.html", true));
-        actionContainer.appendChild(createModalBtn("Weekly Calendar", "admin_calendar", "admin.html", false));
-        actionContainer.appendChild(createModalBtn("FE Tutorial Rotas", "admin_rota", "admin.html", false));
+        actionContainer.appendChild(createThemedCTA("Open Resources", "admin_groups", "admin.html"));
       } else if (page.detailsUrl || currentIndex === 5) {
-        if (page.detailsUrl) {
-          actionContainer.appendChild(createModalBtn("DDRS Framework Matrix", "ddrs", page.detailsUrl, false));
-        }
+        actionContainer.appendChild(createThemedCTA("Open Resources", "ddrs", page.detailsUrl || "ddrs1.html"));
       } else if (currentIndex === 4) {
-        // Session 5: Formative Evaluation in-deck slide-over drawer (NO pop outs)
-        if (page.lessonPlanUrl) actionContainer.appendChild(createModalBtn("FE Guidelines", "fe_guidelines", page.lessonPlanUrl, true));
-        if (page.objectivesUrl) actionContainer.appendChild(createModalBtn("FE Objectives", "fe_objectives", page.objectivesUrl, false));
-        if (page.url) actionContainer.appendChild(createModalBtn("FE Marking Criteria", "fe_criteria", page.url, false));
+        actionContainer.appendChild(createThemedCTA("Open Resources", "fe_guidelines", page.lessonPlanUrl || page.url || ""));
       } else {
-        // Sessions 1 to 4: In-deck modal workspace hub (unified styling & colors)
-        if (page.objectivesUrl) {
-          actionContainer.appendChild(createModalBtn("Objectives", "objectives", page.objectivesUrl, false));
-        }
-        if (page.lessonPlanUrl) {
-          actionContainer.appendChild(createModalBtn("Lesson Plan", "plan", page.lessonPlanUrl, false));
-        }
-        if (page.classReviewUrl) {
-          actionContainer.appendChild(createModalBtn("Vocabulary", "revision", page.classReviewUrl, false));
-        }
-        const materialsUrl = page.additionalMaterialsUrl || page.url;
-        if (materialsUrl) {
-          // Additional Materials (In-Deck Modal Drawer - No arrow, opens directly in slide-over overlay)
-          actionContainer.appendChild(createModalBtn("Additional Materials", "materials", materialsUrl, false));
-
-          // TOEIC Practice Diagnostic Drill (Same colour as other buttons)
-          actionContainer.appendChild(createModalBtn("TOEIC Practice", "toeic", materialsUrl, false));
-        }
+        // Sessions 1 to 4: In-deck modal workspace hub (single themed CTA to open resources drawer)
+        const initialTab = page.objectivesUrl ? 'objectives' : (page.lessonPlanUrl ? 'plan' : 'materials');
+        const fallback = page.additionalMaterialsUrl || page.url || page.lessonPlanUrl || '';
+        actionContainer.appendChild(createThemedCTA("Open Resources", initialTab, fallback));
       }
 
       // Option C: Update Top Worksheet PDF Link alongside card heading
