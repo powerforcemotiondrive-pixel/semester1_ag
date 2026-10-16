@@ -237,6 +237,29 @@
       .drop-shadow-box { box-shadow: none !important; border: 1px solid #cbd5e1 !important; }
     }
 
+    .portfolio-container {
+      padding-bottom: 5.5rem !important; /* Clearance for fixed flight-deck footer */
+    }
+
+    /* Fixed Flight-Deck Portfolio Footer */
+    .portfolio-fixed-footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 40;
+      background-color: #1f2937 !important;
+      background-image: 
+        radial-gradient(circle at 50% 100%, rgba(255, 255, 255, 0.14) 0%, transparent 75%),
+        linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(0deg, rgba(255, 255, 255, 0.06) 0%, rgba(0, 0, 0, 0.22) 100%) !important;
+      background-size: 100% 100%, 16px 16px, 16px 16px, 100% 100% !important;
+      border-top: 1px solid #111827 !important;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18), 0 -4px 16px rgba(0, 0, 0, 0.3) !important;
+      transition: all 0.25s ease;
+    }
+
     /* In-Drawer Embedded Mode (when loaded in deck slide-over drawer) */
     html.in-drawer-mode header.header-banner,
     body.in-drawer-mode header.header-banner {
@@ -250,7 +273,7 @@
     body.in-drawer-mode .portfolio-container {
       max-width: 100% !important;
       padding-top: 1rem !important;
-      padding-bottom: 2.5rem !important;
+      padding-bottom: 5.5rem !important;
     }
   </style>
   <script>
@@ -619,13 +642,22 @@
       </div>
     </div>
 
-    <!-- Portfolio Footer -->
-    <footer class="pt-3 pb-6 text-center text-xs text-slate-400 no-print flex flex-col sm:flex-row items-center justify-between gap-1 border-t border-slate-200/60 mt-8">
-      <span>GSEA Semester 1 Formative Learning Portfolio</span>
-      <span class="font-medium text-slate-600">Phil PARRIS (LH/LAN) • <span class="font-mono text-slate-500 font-bold">v1.0.0</span></span>
-    </footer>
-
   </div>
+
+  <!-- Fixed Flight-Deck Portfolio Footer -->
+  <footer id="portfolio-fixed-footer" class="portfolio-fixed-footer no-print">
+    <div class="max-w-4xl mx-auto px-3 sm:px-6 py-2.5 flex items-center justify-between text-xs text-slate-300">
+      <div class="flex items-center gap-2 min-w-0">
+        <span id="footer-track-badge" class="px-2 py-0.5 rounded text-[10px] font-mono font-bold text-white bg-emerald-600 shadow-xs shrink-0">AG • LV101E</span>
+        <span id="footer-course-title" class="font-bold text-white tracking-wide truncate text-[11px] sm:text-xs">GSEA Semester 1 General English (AG)</span>
+      </div>
+      <div class="flex items-center gap-2 shrink-0">
+        <span class="text-slate-300 hidden sm:inline text-[11px] sm:text-xs">Phil PARRIS <span class="text-slate-400 font-mono text-[10px] sm:text-[11px]">(LH/LAN)</span></span>
+        <span class="text-slate-500 hidden sm:inline">•</span>
+        <span id="footer-version-badge" class="font-mono text-emerald-400 font-bold bg-black/40 px-2 py-0.5 rounded border border-white/10 text-[10px] sm:text-xs">v1.0.0</span>
+      </div>
+    </div>
+  </footer>
 
   <!-- Application Logic -->
   <script>
@@ -833,7 +865,25 @@
       updateSessionAvailability();
       restoreDraft();
 
-      // 8. Bidirectionally sync with parent drawer header if embedded
+      // 8. Update Fixed Flight-Deck Footer Track Branding
+      const footerBadge = document.getElementById("footer-track-badge");
+      const footerTitle = document.getElementById("footer-course-title");
+      const footerVersion = document.getElementById("footer-version-badge");
+      if (footerBadge && footerTitle) {
+        if (trackKey === "ag") {
+          footerBadge.innerText = "AG • LV101E";
+          footerBadge.className = "px-2 py-0.5 rounded text-[10px] font-mono font-bold text-white bg-emerald-600 shadow-xs shrink-0";
+          footerTitle.innerText = "GSEA Semester 1 General English (AG)";
+          if (footerVersion) footerVersion.className = "font-mono text-emerald-400 font-bold bg-black/40 px-2 py-0.5 rounded border border-white/10 text-[10px] sm:text-xs";
+        } else {
+          footerBadge.innerText = "AAS • LV121E";
+          footerBadge.className = "px-2 py-0.5 rounded text-[10px] font-mono font-bold text-white bg-blue-600 shadow-xs shrink-0";
+          footerTitle.innerText = "GSEA Semester 1 Aeronautical English (AAS)";
+          if (footerVersion) footerVersion.className = "font-mono text-blue-400 font-bold bg-black/40 px-2 py-0.5 rounded border border-white/10 text-[10px] sm:text-xs";
+        }
+      }
+
+      // 9. Bidirectionally sync with parent drawer header if embedded
       if (window.parent && window.parent !== window) {
         try {
           if (typeof window.parent.syncPortfolioDrawerHeader === 'function') {
