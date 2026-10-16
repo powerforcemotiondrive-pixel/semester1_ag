@@ -69,9 +69,6 @@
       <button onclick="switchAdminTab('rota')" id="tab-btn-rota" class="px-3.5 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">
         FE Tutorial Rotas
       </button>
-      <button onclick="switchAdminTab('refonte')" id="tab-btn-refonte" class="px-3.5 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">
-        Refonte Report
-      </button>
     </div>
 
     <!-- Main Content Container -->
@@ -82,13 +79,20 @@
         <!-- Overview Card -->
         <div class="bg-gradient-to-r from-slate-50 to-orange-50/40 border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs">
           <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
-            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-black tracking-wide text-white bg-slate-800">
-              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-              Promotion: GSEA26A • 19 Students
-            </span>
-            <span class="text-xs font-bold px-2.5 py-0.5 rounded-md border border-orange-200 bg-orange-50 text-orange-700">
-              Official Rosters &amp; Faculty Assignments
-            </span>
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-black tracking-wide text-white bg-slate-800">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                Promotion: GSEA26A • 19 Students
+              </span>
+              <span class="text-xs font-bold px-2.5 py-0.5 rounded-md border border-orange-200 bg-orange-50 text-orange-700">
+                Official Rosters &amp; Faculty Assignments
+              </span>
+            </div>
+            <a href="report.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold text-white shadow-xs transition-all cursor-pointer hover:shadow-md hover:-translate-y-0.5 active:translate-y-0 bg-orange-600 hover:bg-orange-700" title="Author: Phil PARRIS (LH/LAN)">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"></path></svg>
+              <span>Refonte Report (PDF)</span>
+              <span class="text-white/80 text-[10px]">↗</span>
+            </a>
           </div>
           <h2 class="text-base sm:text-lg font-bold text-slate-800">
             Class Groups, Assigned Teachers &amp; Course Timetables
@@ -373,165 +377,6 @@
               <strong class="text-slate-800 block font-bold mb-1">4. Self-Critique Ready</strong>
               <p class="text-slate-600">Arrive with your personal strong points and weak points clearly thought through to discuss.</p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Section 4: Refonte Report -->
-      <section id="section-refonte" class="space-y-6 hidden">
-        <!-- Executive Document Header Card -->
-        <div class="bg-gradient-to-r from-slate-900 to-slate-800 text-white rounded-2xl p-5 sm:p-6 shadow-md border border-slate-700/80">
-          <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
-            <div class="flex items-center gap-2">
-              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-black tracking-wider text-white uppercase bg-orange-600">
-                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                ENAC • DÉPARTEMENT LH/LAN
-              </span>
-              <span class="text-[11px] font-mono font-bold px-2.5 py-1 rounded-md bg-white/10 text-slate-300 border border-white/15">
-                Octobre 2026 • 9 Pages
-              </span>
-            </div>
-            <div class="flex items-center gap-2">
-              <a href="refonte_report_s1.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold text-white shadow-xs transition-all cursor-pointer hover:shadow-md hover:-translate-y-0.5 active:translate-y-0 bg-orange-600 hover:bg-orange-700">
-                <span>Open Fullscreen</span>
-                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"></path></svg>
-              </a>
-              <a href="refonte_report_s1.pdf" download="ENAC_GSEA_S1_Refonte_Pedagogique.pdf" class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold text-slate-200 bg-white/10 hover:bg-white/20 border border-white/20 transition-all cursor-pointer">
-                <span>Download PDF</span>
-                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"></path></svg>
-              </a>
-            </div>
-          </div>
-
-          <h2 class="text-base sm:text-xl font-black text-white tracking-tight leading-snug">
-            Rapport Pédagogique : Programme d'Anglais — GSEA Semestre 1
-          </h2>
-          <p class="text-xs sm:text-sm text-slate-300 mt-1.5 leading-relaxed">
-            Cadre de refonte et d'orientation pédagogique pour la formation GSEA, établissant le renouvellement intégral des supports, l'ancrage DDRS, l'exploitation des retours de terrain à Toulouse-Blagnac, et le dispositif d'évaluation continue (GO / NO GO).
-          </p>
-
-          <!-- Metadata Box: Author & Recipients -->
-          <div class="mt-4 pt-4 border-t border-slate-700/80 grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
-            <div class="p-3 rounded-xl bg-white/5 border border-white/10 flex items-start gap-3">
-              <div class="w-8 h-8 rounded-lg flex items-center justify-center shrink-0 text-white font-black text-xs shadow-xs bg-orange-600">
-                PP
-              </div>
-              <div>
-                <span class="block text-[10px] font-bold uppercase tracking-wider text-amber-300">Document Author &amp; Referent Lecturer:</span>
-                <strong class="text-white text-sm font-black">Phil PARRIS</strong>
-                <span class="block text-slate-300 text-[11px]">Professeur Référent • Département LH / LAN</span>
-              </div>
-            </div>
-
-            <div class="p-3 rounded-xl bg-white/5 border border-white/10 flex items-start gap-3">
-              <div class="w-8 h-8 rounded-lg flex items-center justify-center shrink-0 text-slate-300 bg-white/10 font-black text-xs shadow-xs">
-                EN
-              </div>
-              <div class="min-w-0">
-                <span class="block text-[10px] font-bold uppercase tracking-wider text-slate-400">Document Recipients / Teaching Team:</span>
-                <p class="text-slate-200 text-[11px] leading-snug truncate font-medium">
-                  Etienne DEBORDE, Sandrine FOURNIER, Bruno GARNIER, Philippe SIMON, Dominique COSTES, Laurent FOURNIER, Michel RASQUIN
-                </p>
-                <span class="block text-slate-400 text-[10px] mt-0.5">Équipe Pédagogique Anglais &amp; Direction des Études GSEA</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- 3 Pillars of Refonte S1 -->
-        <div class="space-y-3">
-          <div class="flex items-center gap-2">
-            <span class="w-2.5 h-2.5 rounded-full bg-orange-600"></span>
-            <h3 class="text-xs sm:text-sm font-bold text-slate-800 uppercase tracking-wide">
-              Axes Majeurs de la Refonte Pédagogique S1
-            </h3>
-          </div>
-
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
-            <!-- Pillar 1 -->
-            <div class="p-4 bg-white border border-slate-200 rounded-xl shadow-2xs space-y-2">
-              <div class="flex items-center gap-2">
-                <span class="px-2 py-0.5 rounded text-[10px] font-bold text-emerald-800 bg-emerald-100 border border-emerald-200">Axe 1</span>
-                <h4 class="font-bold text-slate-900">Alignement DDRS</h4>
-              </div>
-              <p class="text-slate-600 leading-relaxed text-[11.5px]">
-                Intégration systématique des thématiques nationales de Développement Durable et Responsabilité Sociétale (mobilités décarbonées, résilience urbaine, dérèglement climatique, transition écologique).
-              </p>
-            </div>
-
-            <!-- Pillar 2 -->
-            <div class="p-4 bg-white border border-slate-200 rounded-xl shadow-2xs space-y-2">
-              <div class="flex items-center gap-2">
-                <span class="px-2 py-0.5 rounded text-[10px] font-bold text-blue-800 bg-blue-100 border border-blue-200">Axe 2</span>
-                <h4 class="font-bold text-slate-900">Réalités Aéroportuaires</h4>
-              </div>
-              <p class="text-slate-600 leading-relaxed text-[11.5px]">
-                Exploitation directe des retours d'entretiens de terrain menés auprès de professionnels TSEEAC à Toulouse-Blagnac, garantissant un lexique technique en phase avec les opérations côté piste (airside).
-              </p>
-            </div>
-
-            <!-- Pillar 3 -->
-            <div class="p-4 bg-white border border-slate-200 rounded-xl shadow-2xs space-y-2">
-              <div class="flex items-center gap-2">
-                <span class="px-2 py-0.5 rounded text-[10px] font-bold text-amber-800 bg-amber-100 border border-amber-200">Axe 3</span>
-                <h4 class="font-bold text-slate-900">Pédagogie Hybride &amp; e-Portfolio</h4>
-              </div>
-              <p class="text-slate-600 leading-relaxed text-[11.5px]">
-                Progression continue articulant entraînements TOEIC GlobalExam (~30 h autonomie), 3 tutorats FE de 30 min, et consignation hebdomadaire sur l'e-Portfolio numérique pour la validation finale GO / NO GO.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Document Embedded Viewer Container -->
-        <div class="space-y-3">
-          <div class="flex items-center justify-between gap-3">
-            <div class="flex items-center gap-2">
-              <span class="w-2.5 h-2.5 rounded-full bg-slate-800"></span>
-              <h3 class="text-xs sm:text-sm font-bold text-slate-800 uppercase tracking-wide">
-                Document Officiel Intégral (9 Pages)
-              </h3>
-            </div>
-            <span class="text-[11px] text-slate-500 font-medium hidden sm:inline">
-              Navigation autonome et zoom intégrés
-            </span>
-          </div>
-
-          <div class="relative w-full rounded-2xl overflow-hidden border border-slate-300 shadow-md bg-slate-900 flex flex-col">
-            <!-- Top embedded frame toolbar -->
-            <div class="bg-slate-800 text-slate-300 px-4 py-2 flex items-center justify-between text-xs border-b border-slate-700">
-              <div class="flex items-center gap-2">
-                <svg class="w-4 h-4 text-amber-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"></path></svg>
-                <span class="font-mono font-bold text-white text-[11px]">refonte_report_s1.pdf</span>
-                <span class="text-slate-400 text-[10px] hidden sm:inline">(218 KB • 9 Pages)</span>
-              </div>
-              <div class="flex items-center gap-3">
-                <a href="refonte_report_s1.pdf" target="_blank" rel="noopener noreferrer" class="text-amber-400 hover:text-amber-300 font-bold underline text-[11px] flex items-center gap-1">
-                  <span>Fullscreen ↗</span>
-                </a>
-              </div>
-            </div>
-
-            <!-- Iframe PDF Viewport -->
-            <iframe 
-              src="refonte_report_s1.pdf#toolbar=1&navpanes=0" 
-              class="w-full h-[650px] sm:h-[800px] border-0 bg-white" 
-              title="ENAC Rapport Pédagogique - Programme d'Anglais GSEA Semestre 1">
-              <div class="p-8 text-center text-white space-y-3">
-                <p class="text-sm">Votre navigateur ne prend pas en charge l'affichage direct des PDF dans un cadre.</p>
-                <a href="refonte_report_s1.pdf" target="_blank" class="inline-block px-4 py-2 rounded-lg bg-orange-600 text-white font-bold text-xs shadow-md">
-                  Ouvrir le rapport en plein écran ↗
-                </a>
-              </div>
-            </iframe>
-          </div>
-
-          <!-- Mobile / Sandbox Fallback Advice -->
-          <div class="p-3 bg-slate-100 rounded-xl border border-slate-200 flex items-center justify-between text-xs text-slate-600">
-            <span class="font-medium text-[11px] sm:text-xs">
-              💡 <strong>Conseil d'affichage :</strong> Si votre navigateur LMS restreint l'aperçu dynamique du PDF, utilisez le bouton <strong>Open Fullscreen</strong> pour ouvrir le visualiseur natif avec recherche et zoom.
-            </span>
-            <a href="refonte_report_s1.pdf" target="_blank" rel="noopener noreferrer" class="font-bold text-slate-800 hover:underline shrink-0 ml-2">Ouvrir ↗</a>
           </div>
         </div>
       </section>
@@ -1064,14 +909,12 @@
     const sections = {
       groups: document.getElementById('section-groups'),
       calendar: document.getElementById('section-calendar'),
-      rota: document.getElementById('section-rota'),
-      refonte: document.getElementById('section-refonte')
+      rota: document.getElementById('section-rota')
     };
     const btns = {
       groups: document.getElementById('tab-btn-groups'),
       calendar: document.getElementById('tab-btn-calendar'),
-      rota: document.getElementById('tab-btn-rota'),
-      refonte: document.getElementById('tab-btn-refonte')
+      rota: document.getElementById('tab-btn-rota')
     };
 
     Object.keys(sections).forEach(key => {
@@ -1098,12 +941,12 @@
     }
   }
 
-  // Handle URL hash if provided (#groups, #calendar, #rota, #refonte)
+  // Handle URL hash if provided (#groups, #calendar, #rota)
   window.addEventListener('DOMContentLoaded', () => {
     renderStandaloneCalendar();
     renderStandaloneRota();
     const hash = window.location.hash.replace('#', '');
-    if (hash === 'calendar' || hash === 'rota' || hash === 'groups' || hash === 'refonte') {
+    if (hash === 'calendar' || hash === 'rota' || hash === 'groups') {
       switchAdminTab(hash);
     }
   });
