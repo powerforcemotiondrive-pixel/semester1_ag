@@ -484,7 +484,7 @@
             <button data-tab="admin_groups" id="modal-tab-admin-groups" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer hidden">Class Groups &amp; Teachers</button>
             <button data-tab="admin_calendar" id="modal-tab-admin-calendar" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer hidden">Weekly Calendar</button>
             <button data-tab="admin_rota" id="modal-tab-admin-rota" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer hidden">FE Tutorial Rotas</button>
-            <!-- Language Immersion Tabs -->
+            <!-- English Immersion Tabs -->
             <button data-tab="immersion_overview" id="modal-tab-immersion-overview" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer hidden">Immersion Overview</button>
             <button data-tab="immersion_cities" id="modal-tab-immersion-cities" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer hidden">6 Destination Guides</button>
           </nav>
@@ -937,8 +937,8 @@
       if (!isAas && modNumber === 3) {
         pages.push({
           tag: "General English • S2 Milestone",
-          title: "Language Immersion Program (End of S2)",
-          description: "At the end of Semester 2, GSEA students participate in an intensive 4-week language and cultural immersion program in an English-speaking destination: Cork, Dublin, Manchester, Leeds, Liverpool, or Shoreham.<br><br><em>Academic & cultural goals:</em> Enhance daily conversational fluency and complete intensive TOEIC preparation for Semester 3. Students attend morning and afternoon language school sessions, cultural excursions, and aviation-specific visits (airport, aerospace company, or museum, subject to availability).<br><br><em>Accommodation:</em> Homestay with vetted local host families (strictly 1 ENAC student per host family) for 100% linguistic immersion.",
+          title: "English Immersion (End of S2)",
+          description: "At the end of Semester 2, GSEA students participate in an intensive 4-week English immersion program in an English-speaking destination: Cork, Dublin, Manchester, Leeds, Liverpool, or Shoreham.<br><br><em>Academic & cultural goals:</em> Enhance daily conversational fluency and complete intensive TOEIC preparation for Semester 3. Students attend morning and afternoon language school sessions, cultural excursions, and aviation-specific visits (airport, aerospace company, or museum, subject to availability).<br><br><em>Accommodation:</em> Homestay with vetted local host families (strictly 1 ENAC student per host family) for 100% linguistic immersion.",
           isImmersion: true,
           immersionUrl: "immersion.html",
           pdfUrl: "",
@@ -1831,7 +1831,7 @@
       if (dockDot) dockDot.style.backgroundColor = mod.primary;
       if (dockTitle) {
         if (page.isImmersion || currentIndex === 7) {
-          dockTitle.textContent = "Language Immersion & Destinations";
+          dockTitle.textContent = "English Immersion & Destinations";
         } else if (page.isAdmin || currentIndex === 6) {
           dockTitle.textContent = "GSEA26A Administration Hub";
         } else if (page.detailsUrl || currentIndex === 5) {
@@ -2123,7 +2123,7 @@
         if (immersionCitiesTab) immersionCitiesTab.classList.remove('hidden');
 
         tagEl.textContent = "General English • S2 Milestone";
-        titleEl.textContent = "Language Immersion Program & Destination Guides (End of S2)";
+        titleEl.textContent = "English Immersion & Destination Guides (End of S2)";
       } else if (isAdminSession) {
         if (immersionOverviewTab) immersionOverviewTab.classList.add('hidden');
         if (immersionCitiesTab) immersionCitiesTab.classList.add('hidden');
@@ -4237,10 +4237,10 @@
               </span>
             </div>
             <h3 class="text-base sm:text-xl font-bold tracking-tight text-white">
-              GSEA Language &amp; Cultural Immersion Program
+              GSEA English Immersion Program
             </h3>
             <p class="text-xs sm:text-sm text-slate-300 mt-2 leading-relaxed">
-              At the conclusion of Semester 2, all GSEA students participate in an intensive 4-week language and cultural immersion program in the United Kingdom or Ireland. This trip serves as the capstone linguistic transition toward the official TOEIC examination scheduled at the start of Semester 3.
+              At the conclusion of Semester 2, all GSEA students participate in an intensive 4-week English immersion program in the United Kingdom or Ireland. This trip serves as the capstone linguistic transition toward the official TOEIC examination scheduled at the start of Semester 3.
             </p>
           </div>
 
