@@ -86,3 +86,4 @@ When onboarding a new cohort or scaling up from 2 groups to 3 groups (Group A, G
      ```
 3. **Validate & Build**:
    - Run `npm run package` to ensure Tailwind styles and asset manifests remain 100% verified.
+
