@@ -484,6 +484,9 @@
             <button data-tab="admin_groups" id="modal-tab-admin-groups" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer hidden">Class Groups &amp; Teachers</button>
             <button data-tab="admin_calendar" id="modal-tab-admin-calendar" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer hidden">Weekly Calendar</button>
             <button data-tab="admin_rota" id="modal-tab-admin-rota" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer hidden">FE Tutorial Rotas</button>
+            <!-- Language Immersion Tabs -->
+            <button data-tab="immersion_overview" id="modal-tab-immersion-overview" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer hidden">Immersion Overview</button>
+            <button data-tab="immersion_cities" id="modal-tab-immersion-cities" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer hidden">6 Destination Guides</button>
           </nav>
         </header>
 
@@ -930,6 +933,20 @@
           imageUrl: images.admin
         }
       ];
+
+      if (!isAas && modNumber === 3) {
+        pages.push({
+          tag: "General English • S2 Milestone",
+          title: "Language Immersion Program (End of S2)",
+          description: "At the end of Semester 2, GSEA students participate in an intensive 4-week language and cultural immersion program in an English-speaking destination: Cork, Dublin, Manchester, Leeds, Liverpool, or Shoreham.<br><br><em>Academic & cultural goals:</em> Enhance daily conversational fluency and complete intensive TOEIC preparation for Semester 3. Students attend morning and afternoon language school sessions, cultural excursions, and aviation-specific visits (airport, aerospace company, or museum, subject to availability).<br><br><em>Accommodation:</em> Homestay with vetted local host families (strictly 1 ENAC student per host family) for 100% linguistic immersion.",
+          isImmersion: true,
+          immersionUrl: "immersion.html",
+          pdfUrl: "",
+          imageUrl: "images/immersion_card.png"
+        });
+      }
+
+      return pages;
     };
 
     const MODULE_THEMES = {
@@ -1793,7 +1810,7 @@
             <!-- Tier 3: Evaluation Milestone / FE Tip -->
             ${milestoneText ? `
               <div class="p-3 bg-amber-50/70 border border-amber-200/90 rounded-xl flex items-start gap-2.5 shadow-2xs">
-                <span class="text-[10px] font-mono font-black uppercase tracking-wider px-2 py-0.5 rounded-md bg-amber-200/90 text-amber-900 shrink-0 mt-0.5">${cardIdx === 4 ? 'FE Target' : (cardIdx === 6 || (page && page.isAdmin) ? 'Admin Action' : 'FE Tip')}</span>
+                <span class="text-[10px] font-mono font-black uppercase tracking-wider px-2 py-0.5 rounded-md bg-amber-200/90 text-amber-900 shrink-0 mt-0.5">${cardIdx === 4 ? 'FE Target' : (cardIdx === 6 || (page && page.isAdmin) ? 'Admin Action' : (page && page.isImmersion ? 'Homestay' : 'FE Tip'))}</span>
                 <p class="text-xs sm:text-sm text-amber-950 font-medium leading-relaxed">
                   ${milestoneText}
                 </p>
@@ -1842,7 +1859,9 @@
       const dockTitle = document.getElementById('action-dock-title');
       if (dockDot) dockDot.style.backgroundColor = mod.primary;
       if (dockTitle) {
-        if (page.isAdmin || currentIndex === 6) {
+        if (page.isImmersion || currentIndex === 7) {
+          dockTitle.textContent = "Language Immersion & Destinations";
+        } else if (page.isAdmin || currentIndex === 6) {
           dockTitle.textContent = "GSEA26A Administration Hub";
         } else if (page.detailsUrl || currentIndex === 5) {
           dockTitle.textContent = "DDRS Sustainability Guide";
@@ -1867,7 +1886,9 @@
         return btn;
       };
 
-      if (page.isAdmin || currentIndex === 6) {
+      if (page.isImmersion || currentIndex === 7) {
+        actionContainer.appendChild(createThemedCTA("Open Immersion Guide", "immersion_overview", "immersion.html"));
+      } else if (page.isAdmin || currentIndex === 6) {
         actionContainer.appendChild(createThemedCTA("Open Resources", "admin_groups", "admin.html"));
       } else if (page.detailsUrl || currentIndex === 5) {
         actionContainer.appendChild(createThemedCTA("Open Resources", "ddrs", page.detailsUrl || "ddrs1.html"));
@@ -1881,16 +1902,16 @@
       }
 
       // Option C: Update Top Worksheet PDF Link alongside card heading
-      // Instate on ALL session cards 1-4 across all modules; strictly hide on FE (Card 05), DDRS (Card 06) and Course Admin (Card 07)
+      // Instate on ALL session cards 1-4 across all modules; strictly hide on FE (Card 05), DDRS (Card 06), Course Admin (Card 07), and Immersion (Card 08)
       const topWorksheetBtn = document.getElementById('card-worksheet-btn');
       if (topWorksheetBtn) {
         const isSession1to4 = currentIndex >= 0 && currentIndex <= 3;
         const isDDRSOrAdmin = page.isAdmin || 
+                              page.isImmersion ||
                               page.detailsUrl || 
-                              currentIndex === 5 || 
-                              currentIndex === 6 || 
-                              (page.tag && (page.tag.includes('Admin') || page.tag.includes('Focus'))) || 
-                              (page.title && (page.title.includes('Admin') || page.title.startsWith('DDRS')));
+                              currentIndex >= 4 || 
+                              (page.tag && (page.tag.includes('Admin') || page.tag.includes('Focus') || page.tag.includes('Milestone'))) || 
+                              (page.title && (page.title.includes('Admin') || page.title.startsWith('DDRS') || page.title.includes('Immersion')));
 
         if (isSession1to4 && !isDDRSOrAdmin && page.pdfUrl && page.pdfUrl.trim() !== "" && !page.pdfUrl.includes("INSERT_YOUR_PDF_LINK_HERE")) {
           topWorksheetBtn.href = page.pdfUrl;
@@ -2102,9 +2123,10 @@
       headerEl.style.borderColor = theme.primaryDark;
 
       const progConfig = PROGRAMS_CONFIG[modalState.program] || PROGRAMS_CONFIG.ag;
-      const isAdminSession = modalState.sessionNum === 7 || tabKey.startsWith('admin_');
-      const isFeSession = !isAdminSession && (modalState.sessionNum === 5 || tabKey.startsWith('fe_'));
-      const isDdrsSession = !isAdminSession && (tabKey === 'ddrs' || modalState.sessionNum === 6);
+      const isImmersionSession = tabKey === 'immersion' || tabKey.startsWith('immersion_') || modalState.sessionNum === 8;
+      const isAdminSession = !isImmersionSession && (modalState.sessionNum === 7 || tabKey.startsWith('admin_'));
+      const isFeSession = !isImmersionSession && !isAdminSession && (modalState.sessionNum === 5 || tabKey.startsWith('fe_'));
+      const isDdrsSession = !isImmersionSession && !isAdminSession && (tabKey === 'ddrs' || modalState.sessionNum === 6);
 
       const feGuidelinesTab = document.getElementById('modal-tab-fe-guidelines');
       const feObjectivesTab = document.getElementById('modal-tab-fe-objectives');
@@ -2112,9 +2134,28 @@
       const adminGroupsTab = document.getElementById('modal-tab-admin-groups');
       const adminCalendarTab = document.getElementById('modal-tab-admin-calendar');
       const adminRotaTab = document.getElementById('modal-tab-admin-rota');
+      const immersionOverviewTab = document.getElementById('modal-tab-immersion-overview');
+      const immersionCitiesTab = document.getElementById('modal-tab-immersion-cities');
       const standardTabs = document.querySelectorAll('.modal-tab-standard');
 
-      if (isAdminSession) {
+      if (isImmersionSession) {
+        if (ddrsTabBtn) ddrsTabBtn.classList.add('hidden');
+        if (feGuidelinesTab) feGuidelinesTab.classList.add('hidden');
+        if (feObjectivesTab) feObjectivesTab.classList.add('hidden');
+        if (feCriteriaTab) feCriteriaTab.classList.add('hidden');
+        if (adminGroupsTab) adminGroupsTab.classList.add('hidden');
+        if (adminCalendarTab) adminCalendarTab.classList.add('hidden');
+        if (adminRotaTab) adminRotaTab.classList.add('hidden');
+        standardTabs.forEach(t => t.classList.add('hidden'));
+
+        if (immersionOverviewTab) immersionOverviewTab.classList.remove('hidden');
+        if (immersionCitiesTab) immersionCitiesTab.classList.remove('hidden');
+
+        tagEl.textContent = "General English • S2 Milestone";
+        titleEl.textContent = "Language Immersion Program & Destination Guides (End of S2)";
+      } else if (isAdminSession) {
+        if (immersionOverviewTab) immersionOverviewTab.classList.add('hidden');
+        if (immersionCitiesTab) immersionCitiesTab.classList.add('hidden');
         if (ddrsTabBtn) ddrsTabBtn.classList.add('hidden');
         if (feGuidelinesTab) feGuidelinesTab.classList.add('hidden');
         if (feObjectivesTab) feObjectivesTab.classList.add('hidden');
@@ -2128,6 +2169,8 @@
         tagEl.textContent = "GSEA26A • Course Admin";
         titleEl.textContent = "Course Admin — Class Groups, Teachers, Weekly Calendar & FE Rotas";
       } else if (isFeSession) {
+        if (immersionOverviewTab) immersionOverviewTab.classList.add('hidden');
+        if (immersionCitiesTab) immersionCitiesTab.classList.add('hidden');
         if (adminGroupsTab) adminGroupsTab.classList.add('hidden');
         if (adminCalendarTab) adminCalendarTab.classList.add('hidden');
         if (adminRotaTab) adminRotaTab.classList.add('hidden');
@@ -2140,6 +2183,8 @@
         tagEl.textContent = `${progConfig.code} Module ${modalState.modNum} • Session 5`;
         titleEl.textContent = "Session 5 - Formative Evaluation";
       } else if (isDdrsSession) {
+        if (immersionOverviewTab) immersionOverviewTab.classList.add('hidden');
+        if (immersionCitiesTab) immersionCitiesTab.classList.add('hidden');
         if (adminGroupsTab) adminGroupsTab.classList.add('hidden');
         if (adminCalendarTab) adminCalendarTab.classList.add('hidden');
         if (adminRotaTab) adminRotaTab.classList.add('hidden');
@@ -2152,6 +2197,8 @@
         tagEl.textContent = `${progConfig.code} Module ${modalState.modNum} • Focus`;
         titleEl.textContent = "DDRS Regulatory Framework";
       } else {
+        if (immersionOverviewTab) immersionOverviewTab.classList.add('hidden');
+        if (immersionCitiesTab) immersionCitiesTab.classList.add('hidden');
         if (adminGroupsTab) adminGroupsTab.classList.add('hidden');
         if (adminCalendarTab) adminCalendarTab.classList.add('hidden');
         if (adminRotaTab) adminRotaTab.classList.add('hidden');
@@ -2174,8 +2221,9 @@
       drawerEl.classList.remove('translate-x-full');
       const modalPrev = document.getElementById('modal-prev-session');
       const modalNext = document.getElementById('modal-next-session');
+      const currentModulePages = modulesData[modalState.modNum - 1]?.pages || [];
       if (modalPrev) modalPrev.disabled = (modalState.sessionNum <= 1);
-      if (modalNext) modalNext.disabled = (modalState.sessionNum >= 7);
+      if (modalNext) modalNext.disabled = (modalState.sessionNum >= currentModulePages.length);
 
       switchModalTab(modalState.tab);
     }
@@ -2356,7 +2404,11 @@
       const modCourse = getActiveModalCourseData();
       const sessionData = (modCourse.sessions && modCourse.sessions[modalState.sessionNum]) || {};
 
-      if (modalState.tab === 'admin_groups') {
+      if (modalState.tab === 'immersion_overview' || modalState.tab === 'immersion') {
+        renderImmersionOverviewTab(theme);
+      } else if (modalState.tab === 'immersion_cities') {
+        renderImmersionCitiesTab(theme);
+      } else if (modalState.tab === 'admin_groups') {
         renderAdminGroupsTab(theme);
       } else if (modalState.tab === 'admin_calendar') {
         renderAdminCalendarTab(theme);
@@ -4087,6 +4139,316 @@
               <div class="p-3 bg-white border border-slate-200 rounded-lg">
                 <strong class="text-slate-800 block font-bold mb-1">4. Self-Critique Ready</strong>
                 <p class="text-slate-600">Arrive with your personal strong points and weak points clearly thought through to discuss.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    const IMMERSION_CITIES = {
+      cork: {
+        id: 'cork',
+        name: 'Cork',
+        country: 'Ireland',
+        tagline: 'The Rebel City & Ireland’s Culinary Capital',
+        airportCode: 'ORK',
+        airportName: 'Cork Airport',
+        badgeColor: 'bg-emerald-700',
+        flag: '🇮🇪',
+        summary: 'Situated on the River Lee in Southwest Ireland, Cork is Ireland’s vibrant second-largest city. Renowned for its independent spirit, lively traditional music sessions in warm pubs, and friendly community atmosphere.',
+        history: 'Founded in the 6th century by Saint Finbarr as a monastic settlement, Cork evolved through Viking raids and Anglo-Norman dominance into a fortified trading hub. The nearby port of Cobh was famously the final port of call for the Titanic in April 1912.',
+        culture: 'Brimming with arts centers, live music, and Victorian architectural character. Home to University College Cork (UCC) with a rich student atmosphere and the famous Shandon Bells at St Anne’s Church.',
+        food: 'The culinary capital of Ireland, anchored by the legendary 18th-century English Market. Famous for artisanal farm cheeses, spiced beef, fresh Atlantic oysters, and warm homemade soda bread with salted butter.',
+        aviation: '<strong>Cork Airport (ORK):</strong> The principal international air gateway to Southern Ireland. Hosts modern terminal infrastructure and vital air traffic surveillance radars tracking westbound North Atlantic flight paths.',
+        hostFamilyTip: 'Cork locals speak with a melodious, rising intonation and are celebrated for their warmth. A cup of tea is offered on arrival and throughout the day—always accept!'
+      },
+      dublin: {
+        id: 'dublin',
+        name: 'Dublin',
+        country: 'Ireland',
+        tagline: 'Historic Fair City & Global Aerospace Leasing Capital',
+        airportCode: 'DUB',
+        airportName: 'Dublin Airport',
+        badgeColor: 'bg-blue-700',
+        flag: '🇮🇪',
+        summary: 'Ireland’s historic capital city, straddling the River Liffey between Dublin Bay and the Dublin Mountains. A UNESCO City of Literature brimming with history, modern tech innovation, and bustling cultural life.',
+        history: 'Established by Norse Vikings in 841 AD as a trading base, Dublin evolved into the center of British administration before becoming the capital of the Republic of Ireland. Home to Trinity College (founded in 1592) and the Book of Kells.',
+        culture: 'Rich literary heritage honoring James Joyce, Oscar Wilde, and Samuel Beckett. Historic Georgian townhouses with iconic brightly painted doors, street buskers on Grafton Street, and historic pubs in Temple Bar.',
+        food: 'Traditional Irish stew, Dublin coddle (slow-cooked sausages, bacon, and potatoes), soda farls, smoked salmon, and a cutting-edge contemporary cafe culture.',
+        aviation: '<strong>Dublin Airport (DUB):</strong> The corporate headquarters of Ryanair and Aer Lingus, and the undisputed global capital of aircraft leasing (managing over 50% of the world’s leased passenger airliner fleet). Features high-volume transatlantic pre-clearance and major MRO hangars.',
+        hostFamilyTip: 'Public transport via the DART coastal train and Dublin Bus is seamless. Irish politeness is legendary—saying "Thank you" to the bus driver when stepping off is an essential local habit!'
+      },
+      manchester: {
+        id: 'manchester',
+        name: 'Manchester',
+        country: 'United Kingdom',
+        tagline: 'Capital of the North, Industrial Heritage & Music Legend',
+        airportCode: 'MAN',
+        airportName: 'Manchester Airport & Runway Visitor Park',
+        badgeColor: 'bg-rose-700',
+        flag: '🇬🇧',
+        summary: 'Located in North West England, Manchester is a dynamic metropolis celebrated worldwide for its industrial past, revolutionary engineering, passionate football heritage, and ground-breaking music scene.',
+        history: 'The world’s first industrialized city ("Cottonopolis"). Site of the world’s first inter-city passenger railway (1830), the splitting of the atom by Ernest Rutherford in 1917, and the creation of the world’s first stored-program computer in 1948.',
+        culture: 'World-famous musical birthplace of Oasis, The Smiths, Joy Division, and The Stone Roses. Home to the Science and Industry Museum, the National Football Museum, and the fierce rivalry between Manchester City and Manchester United.',
+        food: 'Traditional Sunday roasts with Yorkshire puddings, Eccles cakes, Manchester Tart (pastry with raspberry jam, custard, and coconut), and the vibrant multicultural cuisine of the Curry Mile.',
+        aviation: '<strong>Manchester Airport (MAN):</strong> The UK’s busiest airport outside London, with twin parallel runways. Home to the Runway Visitor Park housing the preserved British Airways supersonic Concorde (G-BOAC) and RAF Nimrod maritime patrol aircraft.',
+        hostFamilyTip: 'Mancunians are renowned for their quick wit, hospitality, and down-to-earth conversation. The yellow Metrolink tram network makes navigating between neighborhoods effortless.'
+      },
+      leeds: {
+        id: 'leeds',
+        name: 'Leeds',
+        country: 'United Kingdom',
+        tagline: 'Victorian Grandeur & The Cultural Heart of Yorkshire',
+        airportCode: 'LBA',
+        airportName: 'Leeds Bradford Airport',
+        badgeColor: 'bg-indigo-700',
+        flag: '🇬🇧',
+        summary: 'The commercial and cultural engine of West Yorkshire, set along the River Aire with the rugged Yorkshire Dales national park right on its doorstep. A thriving university hub known for shopping, arts, and friendly northern character.',
+        history: 'Transformed during the Industrial Revolution from a medieval market town into a global leader in wool production, flax mills, and heavy locomotive manufacturing. Historic Kirkgate Market is where Marks & Spencer was founded as a penny bazaar in 1884.',
+        culture: 'Magnificent Victorian architecture with ornate glass-canopied shopping arcades (Victoria Quarter), the world-class Royal Armouries national museum collection, Leeds Art Gallery, and a lively live music and theatre scene.',
+        food: 'Authentic Yorkshire pudding, Wensleydale cheese, traditional fish & chips with mushy peas, and steaming mugs of Yorkshire Gold tea.',
+        aviation: '<strong>Leeds Bradford Airport (LBA):</strong> The highest commercial airport in the UK (elevation 681 feet / 208 m). Known for demanding meteorology and crosswind runway operations, and an active training hub for commercial flight academies and aeronautical apprentices.',
+        hostFamilyTip: 'People in Yorkshire are famously honest, direct, and proud of their county ("God’s Own County"). A warm smile and polite greeting to shopkeepers and neighbors is standard etiquette.'
+      },
+      liverpool: {
+        id: 'liverpool',
+        name: 'Liverpool',
+        country: 'United Kingdom',
+        tagline: 'World Capital of Pop, Maritime Gateway & Royal Docks',
+        airportCode: 'LPL',
+        airportName: 'Liverpool John Lennon Airport',
+        badgeColor: 'bg-amber-700',
+        flag: '🇬🇧',
+        summary: 'Situated on the eastern side of the Mersey Estuary in North West England, Liverpool is an iconic maritime city renowned for its historic waterfront, maritime trade legacy, and unrivalled musical pedigree.',
+        history: 'During the 18th and 19th centuries, Liverpool was one of the world’s preeminent trading ports, handling up to 40% of global mercantile commerce. Millions of European emigrants departed through Liverpool for the Americas.',
+        culture: 'The official Guinness World Records "World Capital City of Pop"—the home of The Beatles, The Cavern Club, and the Merseybeat explosion. Features more museums and galleries than any UK city outside London, including Tate Liverpool.',
+        food: 'Traditional "Scouse" (a hearty slow-cooked beef or lamb stew brought by Scandinavian sailors), Liverpool gin, artisan waterfront bakeries, and fresh seafood.',
+        aviation: '<strong>Liverpool John Lennon Airport (LPL):</strong> One of the UK’s oldest airports (formerly Speke Airport). The original 1930s Art Deco terminal and control tower have been preserved as a heritage aviation hotel with vintage propliners on the former apron.',
+        hostFamilyTip: 'Liverpudlians ("Scousers") have an infectious sense of humor, distinct accent, and legendary friendliness. You’ll frequently hear "Sound" used to mean good, great, or okay!'
+      },
+      shoreham: {
+        id: 'shoreham',
+        name: 'Shoreham-by-Sea',
+        country: 'United Kingdom',
+        tagline: 'Historic Seaside Haven & Home of the UK’s Oldest Airport',
+        airportCode: 'ESH',
+        airportName: 'Brighton City Airport (Shoreham Airport)',
+        badgeColor: 'bg-teal-700',
+        flag: '🇬🇧',
+        summary: 'A charming coastal town in West Sussex nestled between the rolling chalk hills of the South Downs National Park and the English Channel, just 10 minutes west of vibrant Brighton.',
+        history: 'An ancient port dating to Norman times with the 11th-century church of St Mary de Haura. Features historic houseboats lining the River Adur estuary and Victorian coastal fortifications.',
+        culture: 'Relaxed coastal lifestyle with pebble beaches, windsurfing, kitesurfing, riverside cafes, and easy access to Brighton’s bohemian arts festivals, the Royal Pavilion, and pier.',
+        food: 'Fresh English Channel seafood (Sussex crab, sea bass, Dover sole), traditional seaside cream teas with warm scones, strawberry jam, and clotted cream.',
+        aviation: '<strong>Brighton City Airport / Shoreham Airport (ESH):</strong> <em>The oldest continuously operating commercial airport in the United Kingdom</em>, founded in 1910! Features a stunning, world-renowned Grade II* listed Art Deco terminal building opened in 1936, active flight academies, and aircraft restoration facilities.',
+        hostFamilyTip: 'A quiet, safe, and welcoming community with strong family traditions. Excellent direct train links to Brighton (12 minutes) and central London Victoria (70 minutes).'
+      }
+    };
+
+    window.activeImmersionCity = window.activeImmersionCity || 'cork';
+
+    window.setImmersionCity = function(cityKey) {
+      window.activeImmersionCity = cityKey;
+      const theme = modulesData[modalState.modNum - 1] || MODULE_THEMES[3];
+      renderImmersionCitiesTab(theme);
+    };
+
+    function renderImmersionOverviewTab(theme) {
+      const bodyEl = document.getElementById('modal-body');
+      if (!bodyEl) return;
+
+      bodyEl.innerHTML = `
+        <div class="space-y-6">
+          <!-- Overview Card -->
+          <div class="bg-gradient-to-r from-slate-900 via-slate-800 to-indigo-950 text-white rounded-2xl p-5 sm:p-6 shadow-md border border-slate-700/80">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-black tracking-wide text-white bg-indigo-600/90 shadow-2xs">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                End of Semester 2 • 4-Week Immersion
+              </span>
+              <span class="text-xs font-mono font-bold px-2.5 py-0.5 rounded-md bg-white/10 text-indigo-200 border border-white/15">
+                TOEIC S3 Preparation
+              </span>
+            </div>
+            <h3 class="text-base sm:text-xl font-bold tracking-tight text-white">
+              GSEA Language &amp; Cultural Immersion Program
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-300 mt-2 leading-relaxed">
+              At the conclusion of Semester 2, all GSEA students participate in an intensive 4-week language and cultural immersion program in the United Kingdom or Ireland. This trip serves as the capstone linguistic transition toward the official TOEIC examination scheduled at the start of Semester 3.
+            </p>
+          </div>
+
+          <!-- 4 Core Pillars Grid -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <!-- Pillar 1: Academic Pacing -->
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-2xs hover:shadow-xs transition-all">
+              <div class="flex items-center gap-2.5 mb-2.5 pb-2 border-b border-slate-100">
+                <div class="w-8 h-8 rounded-lg bg-indigo-50 border border-indigo-100 flex items-center justify-center text-indigo-600 shrink-0 font-black text-sm">
+                  📚
+                </div>
+                <div>
+                  <h4 class="text-xs sm:text-sm font-bold text-slate-900">Intensive Language Classes</h4>
+                  <span class="text-[10px] text-slate-400 font-medium">Mornings &amp; Afternoons</span>
+                </div>
+              </div>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Daily sessions in certified native partner language schools. Instruction targets advanced grammar in use, spontaneous conversation fluency, and systematic strategies for the upcoming <strong>TOEIC test</strong>.
+              </p>
+            </div>
+
+            <!-- Pillar 2: Host Family Immersion -->
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-2xs hover:shadow-xs transition-all">
+              <div class="flex items-center gap-2.5 mb-2.5 pb-2 border-b border-slate-100">
+                <div class="w-8 h-8 rounded-lg bg-amber-50 border border-amber-100 flex items-center justify-center text-amber-600 shrink-0 font-black text-sm">
+                  🏠
+                </div>
+                <div>
+                  <h4 class="text-xs sm:text-sm font-bold text-slate-900">Host Family Homestay</h4>
+                  <span class="text-[10px] font-bold text-amber-700 bg-amber-100 px-1.5 py-0.5 rounded">1 ENAC Student per Family</span>
+                </div>
+              </div>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Students are accommodated with vetted local host families. Strict policy of <strong>one ENAC student per household</strong> guarantees non-stop English conversation at breakfast, dinner, and during family life.
+              </p>
+            </div>
+
+            <!-- Pillar 3: Cultural Excursions -->
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-2xs hover:shadow-xs transition-all">
+              <div class="flex items-center gap-2.5 mb-2.5 pb-2 border-b border-slate-100">
+                <div class="w-8 h-8 rounded-lg bg-emerald-50 border border-emerald-100 flex items-center justify-center text-emerald-600 shrink-0 font-black text-sm">
+                  🎭
+                </div>
+                <div>
+                  <h4 class="text-xs sm:text-sm font-bold text-slate-900">Cultural Immersion &amp; Visits</h4>
+                  <span class="text-[10px] text-slate-400 font-medium">Heritage, History &amp; Society</span>
+                </div>
+              </div>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Guided city walking tours, museums, historic castles, live concerts, and regional excursions. Deepens practical vocabulary and socio-cultural awareness of modern Ireland and the United Kingdom.
+              </p>
+            </div>
+
+            <!-- Pillar 4: Aviation Specific Visits -->
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-2xs hover:shadow-xs transition-all">
+              <div class="flex items-center gap-2.5 mb-2.5 pb-2 border-b border-slate-100">
+                <div class="w-8 h-8 rounded-lg bg-blue-50 border border-blue-100 flex items-center justify-center text-blue-600 shrink-0 font-black text-sm">
+                  ✈️
+                </div>
+                <div>
+                  <h4 class="text-xs sm:text-sm font-bold text-slate-900">Aviation Specific Visits</h4>
+                  <span class="text-[10px] text-slate-400 font-medium">Airports, Companies &amp; Museums</span>
+                </div>
+              </div>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Subject to local operational availability: behind-the-scenes tours of regional airports, aircraft maintenance facilities, flight academies, or aerospace heritage sites (such as Concorde in Manchester or the Art Deco terminal in Shoreham).
+              </p>
+            </div>
+          </div>
+
+          <!-- Direct CTA to Destination Guides -->
+          <div class="p-4 rounded-xl border border-indigo-200 bg-indigo-50/70 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-2xs">
+            <div>
+              <h5 class="text-xs sm:text-sm font-bold text-indigo-950">Explore Your 6 Potential Host Destinations</h5>
+              <p class="text-xs text-indigo-800 mt-0.5">Discover the culture, history, food, and aviation links of Cork, Dublin, Manchester, Leeds, Liverpool, and Shoreham.</p>
+            </div>
+            <button type="button" onclick="switchModalTab('immersion_cities')" class="px-4 py-2 rounded-lg text-xs font-bold text-white bg-indigo-600 hover:bg-indigo-700 transition-all cursor-pointer shadow-xs self-start sm:self-auto shrink-0 flex items-center gap-1.5">
+              <span>View City Guides</span>
+              <span class="text-sm">→</span>
+            </button>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderImmersionCitiesTab(theme) {
+      const bodyEl = document.getElementById('modal-body');
+      if (!bodyEl) return;
+
+      const activeKey = window.activeImmersionCity || 'cork';
+      const city = IMMERSION_CITIES[activeKey] || IMMERSION_CITIES.cork;
+
+      bodyEl.innerHTML = `
+        <div class="space-y-5">
+          <!-- City Selector Bar -->
+          <div class="bg-white border border-slate-200 rounded-xl p-2.5 sm:p-3 shadow-2xs">
+            <span class="block text-[10px] font-black uppercase tracking-wider text-slate-400 mb-2">Select Immersion Destination:</span>
+            <div class="flex flex-wrap gap-1.5">
+              ${Object.keys(IMMERSION_CITIES).map(key => {
+                const c = IMMERSION_CITIES[key];
+                const isActive = (key === activeKey);
+                return `
+                  <button type="button" onclick="setImmersionCity('${key}')" class="px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${isActive ? 'bg-slate-800 text-white shadow-xs' : 'bg-slate-100 text-slate-700 hover:bg-slate-200 hover:text-slate-900'}">
+                    <span>${c.flag}</span>
+                    <span>${c.name}</span>
+                  </button>
+                `;
+              }).join('')}
+            </div>
+          </div>
+
+          <!-- Active City Showcase Card -->
+          <div class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-xs">
+            <!-- Header Banner -->
+            <div class="p-4 sm:p-6 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white border-b border-slate-700">
+              <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+                <div class="flex items-center gap-2">
+                  <span class="text-xl">${city.flag}</span>
+                  <span class="text-xs font-black tracking-widest uppercase text-slate-300 font-mono">${city.country}</span>
+                </div>
+                <span class="px-2.5 py-1 rounded font-mono font-black text-xs bg-white/15 text-amber-300 border border-white/20">
+                  ${city.airportCode} • ${city.airportName}
+                </span>
+              </div>
+              <h3 class="text-lg sm:text-2xl font-bold tracking-tight text-white">${city.name}</h3>
+              <p class="text-xs sm:text-sm text-slate-300 font-medium mt-1">${city.tagline}</p>
+              <p class="text-xs sm:text-sm text-slate-200/90 mt-3 leading-relaxed max-w-3xl">${city.summary}</p>
+            </div>
+
+            <!-- Content Grid (History, Culture, Food, Aviation) -->
+            <div class="p-4 sm:p-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+              <!-- History -->
+              <div class="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1.5">
+                <div class="flex items-center gap-2 text-slate-800 font-bold text-xs uppercase tracking-wider">
+                  <span class="text-base">🏛️</span>
+                  <span>History &amp; Heritage</span>
+                </div>
+                <p class="text-xs text-slate-600 leading-relaxed">${city.history}</p>
+              </div>
+
+              <!-- Culture -->
+              <div class="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1.5">
+                <div class="flex items-center gap-2 text-slate-800 font-bold text-xs uppercase tracking-wider">
+                  <span class="text-base">🎭</span>
+                  <span>Culture &amp; Daily Life</span>
+                </div>
+                <p class="text-xs text-slate-600 leading-relaxed">${city.culture}</p>
+              </div>
+
+              <!-- Food -->
+              <div class="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1.5">
+                <div class="flex items-center gap-2 text-slate-800 font-bold text-xs uppercase tracking-wider">
+                  <span class="text-base">🍲</span>
+                  <span>Food, Markets &amp; Traditions</span>
+                </div>
+                <p class="text-xs text-slate-600 leading-relaxed">${city.food}</p>
+              </div>
+
+              <!-- Aviation Connection -->
+              <div class="p-4 rounded-xl bg-blue-50/70 border border-blue-200/80 space-y-1.5">
+                <div class="flex items-center gap-2 text-blue-950 font-bold text-xs uppercase tracking-wider">
+                  <span class="text-base">✈️</span>
+                  <span>Aviation &amp; Aerospace Connection</span>
+                </div>
+                <p class="text-xs text-blue-900 leading-relaxed">${city.aviation}</p>
+              </div>
+            </div>
+
+            <!-- Host Family Homestay Callout -->
+            <div class="mx-4 sm:mx-6 mb-4 sm:mb-6 p-4 rounded-xl bg-amber-50 border border-amber-200/90 flex items-start gap-3">
+              <span class="text-xl shrink-0 mt-0.5">🏠</span>
+              <div class="text-xs">
+                <strong class="text-amber-950 block font-bold mb-0.5">Homestay &amp; Living with Your Local Host Family:</strong>
+                <p class="text-amber-900 leading-relaxed">${city.hostFamilyTip} Remember: <strong>strictly 1 ENAC student per host family</strong> to ensure genuine linguistic immersion!</p>
               </div>
             </div>
           </div>

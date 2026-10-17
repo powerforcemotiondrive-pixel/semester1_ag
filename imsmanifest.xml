@@ -82,6 +82,9 @@
         <item identifier="ITEM_M3_S7" identifierref="RESOURCE_1" parameters="#module3-card7">
           <title>Course Admin</title>
         </item>
+        <item identifier="ITEM_M3_S8" identifierref="RESOURCE_1" parameters="#ag-module3-card8">
+          <title>Language Immersion Program (End of S2)</title>
+        </item>
       </item>
     </organization>
   </organizations>
@@ -91,6 +94,7 @@
       <file href="index.html"/>
       <file href="portfolio.html"/>
       <file href="admin.html"/>
+      <file href="immersion.html"/>
       <file href="ddrs.html"/>
       <file href="ddrs1.html"/>
       <file href="ddrs2.html"/>
@@ -198,6 +202,7 @@
       <file href="images/ag_m3card3.png"/>
       <file href="images/ag_m3card4.png"/>
       <file href="images/ddrs_ag_mod3.png"/>
+      <file href="images/immersion_card.png"/>
       <file href="images/m2card1.png"/>
       <file href="images/m2card2.png"/>
       <file href="images/m2card3.png"/>

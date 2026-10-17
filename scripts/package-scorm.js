@@ -77,6 +77,7 @@ const includeList = [
   'ddrs2.html',
   'ddrs3.html',
   'admin.html',
+  'immersion.html',
   'portfolio.html',
   'agmod1.pdf',
   'ws1.pdf'
