@@ -501,10 +501,10 @@
             <span class="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
             <span id="modal-scorm-status" class="font-medium">SCORM 1.2 Connected • Active Tracking</span>
           </div>
-          <div class="flex items-center gap-2">
-            <button id="modal-prev-session" type="button" class="px-2.5 py-1 rounded-md border border-slate-300 hover:bg-slate-100 text-slate-700 font-semibold text-xs transition-all cursor-pointer">← Prev Session</button>
-            <button id="modal-next-session" type="button" class="px-2.5 py-1 rounded-md border border-slate-300 hover:bg-slate-100 text-slate-700 font-semibold text-xs transition-all cursor-pointer">Next Session →</button>
-          </div>
+          <button type="button" onclick="closeModalDrawer()" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-300 bg-white hover:bg-slate-100 active:bg-slate-200 text-slate-700 font-bold text-xs shadow-2xs hover:shadow-xs transition-all cursor-pointer">
+            <span>Close Drawer</span>
+            <kbd class="font-mono text-[10px] text-slate-400 bg-slate-100 px-1.5 py-0.5 rounded border border-slate-200">Esc</kbd>
+          </button>
         </footer>
 
       </div>
@@ -1138,35 +1138,6 @@
           if (tabKey) switchModalTab(tabKey);
         });
       });
-
-      // Modal Prev / Next Session Buttons
-      const modalPrev = document.getElementById('modal-prev-session');
-      if (modalPrev) {
-        modalPrev.addEventListener('click', () => {
-          if (modalState.sessionNum === 7) {
-            openModalDrawer('ddrs', modalState.modNum, 6, '');
-          } else if (modalState.sessionNum === 6) {
-            openModalDrawer('fe_guidelines', modalState.modNum, 5, '');
-          } else if (modalState.sessionNum > 1) {
-            openModalDrawer(modalState.tab, modalState.modNum, modalState.sessionNum - 1, modalState.standaloneUrl);
-          }
-        });
-      }
-
-      const modalNext = document.getElementById('modal-next-session');
-      if (modalNext) {
-        modalNext.addEventListener('click', () => {
-          if (modalState.sessionNum === 4) {
-            openModalDrawer('fe_guidelines', modalState.modNum, 5, '');
-          } else if (modalState.sessionNum === 5) {
-            openModalDrawer('ddrs', modalState.modNum, 6, '');
-          } else if (modalState.sessionNum === 6) {
-            openModalDrawer('admin_groups', modalState.modNum, 7, 'admin.html');
-          } else if (modalState.sessionNum < 4) {
-            openModalDrawer(modalState.tab, modalState.modNum, modalState.sessionNum + 1, modalState.standaloneUrl);
-          }
-        });
-      }
 
       // Enhanced keyboard navigation (Deck & Flashcards & Modal Escape)
       document.addEventListener('keydown', (e) => {
@@ -2219,11 +2190,6 @@
       backdropEl.classList.remove('opacity-0');
       backdropEl.classList.add('opacity-100');
       drawerEl.classList.remove('translate-x-full');
-      const modalPrev = document.getElementById('modal-prev-session');
-      const modalNext = document.getElementById('modal-next-session');
-      const currentModulePages = modulesData[modalState.modNum - 1]?.pages || [];
-      if (modalPrev) modalPrev.disabled = (modalState.sessionNum <= 1);
-      if (modalNext) modalNext.disabled = (modalState.sessionNum >= currentModulePages.length);
 
       switchModalTab(modalState.tab);
     }

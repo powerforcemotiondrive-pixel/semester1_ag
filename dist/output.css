@@ -2587,6 +2587,9 @@
   .active\:bg-\[\#a8782f\]:active {
     background-color: #a8782f;
   }
+  .active\:bg-slate-200:active {
+    background-color: var(--color-slate-200);
+  }
   .disabled\:cursor-not-allowed:disabled {
     cursor: not-allowed;
   }
