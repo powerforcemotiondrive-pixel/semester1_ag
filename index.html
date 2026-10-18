@@ -284,6 +284,29 @@
     .flight-strip-card {
       transition: background-color 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease, color 0.18s ease;
     }
+
+    @media print {
+      body * {
+        visibility: hidden !important;
+      }
+      #modal-body, #modal-body * {
+        visibility: visible !important;
+      }
+      #modal-body {
+        position: absolute !important;
+        left: 0 !important;
+        top: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        overflow: visible !important;
+        padding: 8mm !important;
+        margin: 0 !important;
+        background: white !important;
+      }
+      .no-print {
+        display: none !important;
+      }
+    }
   </style>
 </head>
 <body class="bg-canvas-mod1 min-h-screen flex items-center justify-center" style="background-color: #f1f5f9;">
@@ -470,11 +493,13 @@
 
           <!-- Modal Navigation Tab Strip -->
           <nav id="modal-tab-strip" class="flex items-center gap-1 overflow-x-auto pb-0.5 text-xs select-none">
-            <button data-tab="objectives" class="modal-tab-btn modal-tab-standard flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Objectives</button>
-            <button data-tab="plan" class="modal-tab-btn modal-tab-standard flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Lesson Plan</button>
-            <button data-tab="revision" class="modal-tab-btn modal-tab-standard flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Vocabulary</button>
-            <button data-tab="materials" class="modal-tab-btn modal-tab-standard flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Additional Materials</button>
-            <button data-tab="toeic" class="modal-tab-btn modal-tab-standard flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">TOEIC Practice</button>
+            <button data-tab="objectives" id="modal-tab-objectives" class="modal-tab-btn modal-tab-standard flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Objectives</button>
+            <button data-tab="plan" id="modal-tab-plan" class="modal-tab-btn modal-tab-standard flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Lesson Plan</button>
+            <button data-tab="plan_obj" id="modal-tab-plan-obj" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer hidden">Lesson Plan / Objectives</button>
+            <button data-tab="content" id="modal-tab-content" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer hidden">Lesson Content</button>
+            <button data-tab="revision" id="modal-tab-revision" class="modal-tab-btn modal-tab-standard flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Vocabulary</button>
+            <button data-tab="materials" id="modal-tab-materials" class="modal-tab-btn modal-tab-standard flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">Additional Materials</button>
+            <button data-tab="toeic" id="modal-tab-toeic" class="modal-tab-btn modal-tab-standard flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer">TOEIC Practice</button>
             <button data-tab="ddrs" id="modal-tab-ddrs" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer hidden">DDRS</button>
             <!-- Formative Evaluation Tabs -->
             <button data-tab="fe_guidelines" id="modal-tab-fe-guidelines" class="modal-tab-btn flex items-center gap-1 px-3 py-1.5 rounded-lg font-bold text-white/80 hover:text-white hover:bg-white/10 transition-all cursor-pointer hidden">FE Guidelines</button>
@@ -1884,13 +1909,33 @@
                               (page.tag && (page.tag.includes('Admin') || page.tag.includes('Focus') || page.tag.includes('Milestone'))) || 
                               (page.title && (page.title.includes('Admin') || page.title.startsWith('DDRS') || page.title.includes('Immersion')));
 
-        if (isSession1to4 && !isDDRSOrAdmin && page.pdfUrl && page.pdfUrl.trim() !== "" && !page.pdfUrl.includes("INSERT_YOUR_PDF_LINK_HERE")) {
-          topWorksheetBtn.href = page.pdfUrl;
+        const rootCourse = window.COURSE_DATA || {};
+        const activeTrackData = (rootCourse[currentProgram] || {})[mod.id] || {};
+        const activeSess = (activeTrackData.sessions && activeTrackData.sessions[currentIndex + 1]) || {};
+        const hasDigitalContent = Boolean(activeSess.lessonContent);
+
+        if (isSession1to4 && !isDDRSOrAdmin && hasDigitalContent) {
+          topWorksheetBtn.href = "javascript:void(0)";
+          topWorksheetBtn.onclick = (e) => {
+            e.preventDefault();
+            openModalDrawer('content', mod.id, currentIndex + 1);
+          };
           topWorksheetBtn.style.display = 'inline-flex';
           topWorksheetBtn.classList.remove('hidden');
           topWorksheetBtn.classList.add('inline-flex');
+          const btnSpan = topWorksheetBtn.querySelector('span');
+          if (btnSpan) btnSpan.textContent = "Lesson Content ⇥";
+        } else if (isSession1to4 && !isDDRSOrAdmin && page.pdfUrl && page.pdfUrl.trim() !== "" && !page.pdfUrl.includes("INSERT_YOUR_PDF_LINK_HERE")) {
+          topWorksheetBtn.href = page.pdfUrl;
+          topWorksheetBtn.onclick = null;
+          topWorksheetBtn.style.display = 'inline-flex';
+          topWorksheetBtn.classList.remove('hidden');
+          topWorksheetBtn.classList.add('inline-flex');
+          const btnSpan = topWorksheetBtn.querySelector('span');
+          if (btnSpan) btnSpan.textContent = "Worksheet PDF ↗";
         } else {
           topWorksheetBtn.href = "#";
+          topWorksheetBtn.onclick = null;
           topWorksheetBtn.style.display = 'none';
           topWorksheetBtn.classList.add('hidden');
           topWorksheetBtn.classList.remove('inline-flex');
@@ -2107,7 +2152,14 @@
       const adminRotaTab = document.getElementById('modal-tab-admin-rota');
       const immersionOverviewTab = document.getElementById('modal-tab-immersion-overview');
       const immersionCitiesTab = document.getElementById('modal-tab-immersion-cities');
+      const tabPlanObj = document.getElementById('modal-tab-plan-obj');
+      const tabContent = document.getElementById('modal-tab-content');
+      const tabObjectives = document.getElementById('modal-tab-objectives');
+      const tabPlan = document.getElementById('modal-tab-plan');
       const standardTabs = document.querySelectorAll('.modal-tab-standard');
+
+      if (tabPlanObj) tabPlanObj.classList.add('hidden');
+      if (tabContent) tabContent.classList.add('hidden');
 
       if (isImmersionSession) {
         if (ddrsTabBtn) ddrsTabBtn.classList.add('hidden');
@@ -2177,7 +2229,30 @@
         if (feGuidelinesTab) feGuidelinesTab.classList.add('hidden');
         if (feObjectivesTab) feObjectivesTab.classList.add('hidden');
         if (feCriteriaTab) feCriteriaTab.classList.add('hidden');
+
+        const activeModCourse = getActiveModalCourseData();
+        const activeSessionData = (activeModCourse.sessions && activeModCourse.sessions[modalState.sessionNum]) || {};
+        const hasLessonContent = Boolean(activeSessionData.lessonContent);
+
         standardTabs.forEach(t => t.classList.remove('hidden'));
+
+        if (hasLessonContent) {
+          if (tabObjectives) tabObjectives.classList.add('hidden');
+          if (tabPlan) tabPlan.classList.add('hidden');
+          if (tabPlanObj) tabPlanObj.classList.remove('hidden');
+          if (tabContent) tabContent.classList.remove('hidden');
+          if (modalState.tab === 'objectives' || modalState.tab === 'plan') {
+            modalState.tab = 'plan_obj';
+          }
+        } else {
+          if (tabPlanObj) tabPlanObj.classList.add('hidden');
+          if (tabContent) tabContent.classList.add('hidden');
+          if (tabObjectives) tabObjectives.classList.remove('hidden');
+          if (tabPlan) tabPlan.classList.remove('hidden');
+          if (modalState.tab === 'plan_obj') {
+            modalState.tab = 'objectives';
+          }
+        }
 
         tagEl.textContent = `${progConfig.code} Module ${modalState.modNum} • Session ${modalState.sessionNum}`;
         const activeMod = modulesData[modalState.modNum - 1];
@@ -2431,6 +2506,10 @@
             </div>
           </div>
         `;
+      } else if (modalState.tab === 'plan_obj') {
+        renderLessonPlanObjectivesTab(sessionData, theme);
+      } else if (modalState.tab === 'content') {
+        renderLessonContentTab(sessionData, theme);
       } else if (modalState.tab === 'revision') {
         renderRevisionTab(sessionData, theme);
       } else if (modalState.tab === 'materials') {
@@ -2441,6 +2520,449 @@
         renderDdrsTab(theme);
       }
     }
+
+    function renderLessonPlanObjectivesTab(sessionData, theme) {
+      const bodyEl = document.getElementById('modal-body');
+      if (!bodyEl) return;
+      const obj = sessionData.objectives || { items: [], summary: '' };
+      const plan = sessionData.lessonPlan || { items: [], summary: '' };
+
+      bodyEl.innerHTML = `
+        <div class="space-y-6">
+          <!-- Session Header / Summary Card -->
+          <div class="p-4 sm:p-5 bg-white border border-slate-200 rounded-xl shadow-xs">
+            <div class="flex items-center justify-between gap-3 mb-2">
+              <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-[11px] font-bold text-white uppercase tracking-wider shadow-xs" style="background-color: ${theme.primary};">
+                2-Hour Session Plan &amp; Learning Targets
+              </span>
+              <button onclick="switchModalTab('content')" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs font-bold text-white shadow-xs hover:shadow-md transition-all cursor-pointer" style="background-color: ${theme.accent};">
+                <span>View Lesson Content</span>
+                <span aria-hidden="true">&rarr;</span>
+              </button>
+            </div>
+            <h3 class="text-base sm:text-lg font-black text-slate-800">${obj.title || 'Ground Operations & Turnaround'}</h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mt-1.5">${obj.summary || ''}</p>
+          </div>
+
+          <!-- Competencies & Language Objectives -->
+          <div class="space-y-3">
+            <div class="flex items-center gap-2 border-b border-slate-200 pb-2">
+              <div class="w-2 h-4 rounded-xs" style="background-color: ${theme.primary};"></div>
+              <h4 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-700">Target Competencies &amp; Language Focus</h4>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+              ${(obj.items || []).map(item => `
+                <div class="flex items-start gap-3 p-3.5 bg-white border border-slate-200 rounded-xl shadow-xs hover:border-slate-300 transition-all">
+                  <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shrink-0 shadow-xs" style="background-color: ${theme.primary};">${item.num}</span>
+                  <div>
+                    <h5 class="text-xs sm:text-sm font-bold text-slate-800">${item.title}</h5>
+                    <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-1">${item.description}</p>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <!-- 2-Hour Pacing Timeline -->
+          <div class="space-y-3">
+            <div class="flex items-center gap-2 border-b border-slate-200 pb-2">
+              <div class="w-2 h-4 rounded-xs" style="background-color: ${theme.accent};"></div>
+              <h4 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-700">2-Hour Pacing &amp; Lesson Breakdown</h4>
+            </div>
+            <div class="space-y-2.5">
+              ${(plan.items || []).map((item, idx) => `
+                <div class="grid grid-cols-[68px_1fr] items-center gap-3 p-3.5 bg-white border border-slate-200 rounded-xl shadow-xs">
+                  <span class="text-white text-xs font-black py-1.5 rounded-md text-center shrink-0 shadow-xs" style="background-color: ${theme.primary};">${item.time}</span>
+                  <div>
+                    <div class="flex items-center gap-1.5">
+                      <span class="text-xs font-black" style="color: ${theme.accent};">${idx + 1}.</span>
+                      <h5 class="text-xs sm:text-sm font-bold text-slate-800">${item.title}</h5>
+                    </div>
+                    <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-1">${item.description}</p>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <!-- Bottom Action Switcher -->
+          <div class="p-4 bg-slate-100 rounded-xl border border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3">
+            <div>
+              <p class="text-xs font-bold text-slate-700">Ready to proceed to classroom activities?</p>
+              <p class="text-[11px] text-slate-500">Access the interactive vehicle cards, turnaround clock, and role-play simulations.</p>
+            </div>
+            <button onclick="switchModalTab('content')" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg text-xs font-bold text-white shadow-xs hover:shadow-md transition-all cursor-pointer" style="background-color: ${theme.primary};">
+              <span>Open Lesson Content</span>
+              <span aria-hidden="true">&rarr;</span>
+            </button>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderLessonContentTab(sessionData, theme) {
+      const bodyEl = document.getElementById('modal-body');
+      if (!bodyEl) return;
+      const content = sessionData.lessonContent || {};
+      const hero = content.hero || {};
+      const clock = content.turnaroundClock || {};
+      const vehicles = content.vehicles || [];
+      const delays = content.safetyDelays || {};
+      const simulation = content.simulation || {};
+      const briefing = content.briefing || {};
+
+      bodyEl.innerHTML = `
+        <div class="space-y-6 printable-lesson-container">
+          <!-- Printable Action Bar -->
+          <div class="no-print flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4 bg-white border border-slate-200 rounded-xl shadow-xs">
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
+                <span class="text-xs font-bold text-slate-700">AAS Module 1 • Session 3</span>
+              </div>
+              <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">Ground Operations &amp; Turnaround Management</h3>
+            </div>
+            <button type="button" onclick="window.printLessonContent()" class="inline-flex items-center justify-center gap-2 px-3.5 py-2 rounded-lg text-xs font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 border border-slate-300 shadow-xs transition-all cursor-pointer shrink-0">
+              <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4H7v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+              <span>Print / Save Lesson PDF</span>
+            </button>
+          </div>
+
+          <!-- Hero Banner & Context -->
+          <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-xs">
+            <div class="relative">
+              <img src="${hero.image || 'images/turnaround_apron.jpg'}" alt="${hero.title || 'Apron Turnaround'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/aas_m1card3.png'">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent flex flex-col justify-end p-4 sm:p-5">
+                <span class="text-[11px] font-bold text-amber-300 uppercase tracking-wider">Apron Servicing Envelope</span>
+                <h2 class="text-base sm:text-xl font-black text-white mt-0.5">${hero.title || 'Ground Operations &amp; Turnaround Management'}</h2>
+                <p class="text-xs text-white/90 mt-1 max-w-2xl">${hero.subtitle || 'Coordinating critical ground handling operations in a 35 to 45-minute servicing window.'}</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Activity 1: The Turnaround Clock -->
+          <div class="bg-white border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs space-y-4">
+            <div class="flex items-center justify-between pb-2 border-b border-slate-100">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">01</span>
+                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${clock.title || 'Activity 1: The Turnaround Clock (15 mins)'}</h3>
+              </div>
+              <span class="text-[11px] font-semibold text-slate-500">Pacing &amp; Tenses</span>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">${clock.summary || ''}</p>
+
+            <!-- Turnaround Timeline -->
+            <div class="space-y-2 pt-1">
+              ${(clock.milestones || []).map(m => `
+                <div class="grid grid-cols-[85px_1fr] sm:grid-cols-[100px_1fr] items-start gap-3 p-3 rounded-lg bg-slate-50 border border-slate-200/80">
+                  <span class="text-[11px] font-black font-mono px-2 py-1 rounded text-center text-white shrink-0 shadow-2xs" style="background-color: ${theme.primary};">${m.time}</span>
+                  <div>
+                    <h5 class="text-xs sm:text-sm font-bold text-slate-800">${m.phase}</h5>
+                    <p class="text-[11px] sm:text-xs text-slate-600 mt-0.5 leading-relaxed">${m.desc}</p>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+
+            <!-- Discussion & Grammar Box -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5 pt-2">
+              <div class="p-3.5 rounded-lg bg-amber-50/70 border border-amber-200">
+                <span class="text-[11px] font-bold text-amber-900 uppercase tracking-wider">Spoken Pair Discussion</span>
+                <ul class="space-y-2 mt-2 text-xs text-amber-950">
+                  ${(clock.discussionPrompts || []).map(q => `
+                    <li class="flex items-start gap-1.5">
+                      <span class="font-bold text-amber-700">&rarr;</span>
+                      <span>${q}</span>
+                    </li>
+                  `).join('')}
+                </ul>
+              </div>
+
+              <div class="p-3.5 rounded-lg bg-indigo-50/70 border border-indigo-200">
+                <span class="text-[11px] font-bold text-indigo-900 uppercase tracking-wider">${(clock.grammarBox && clock.grammarBox.title) || 'Grammar Focus'}</span>
+                <p class="text-[11px] text-indigo-950 mt-1 leading-relaxed">${(clock.grammarBox && clock.grammarBox.rule) || ''}</p>
+                <div class="space-y-1.5 mt-2 pt-2 border-t border-indigo-200/60 text-[11px] text-indigo-950">
+                  ${((clock.grammarBox && clock.grammarBox.examples) || []).map(ex => `
+                    <div><span class="font-bold text-indigo-800">${ex.type}:</span> ${ex.text}</div>
+                  `).join('')}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Activity 2: The 10 Airside Vehicles (GSE) Master Index & Defining Game -->
+          <div class="bg-white border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between pb-2 border-b border-slate-100 gap-2">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">02</span>
+                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">Activity 2: Airside Vehicles (GSE) Master Index &amp; Defining Game (30 mins)</h3>
+              </div>
+              <div class="no-print flex items-center gap-1.5">
+                <button type="button" onclick="window.toggleAllVehicles(true)" class="text-[11px] font-bold px-2 py-1 rounded bg-slate-100 hover:bg-slate-200 text-slate-700 transition-all cursor-pointer">Show All Answers</button>
+                <button type="button" onclick="window.toggleAllVehicles(false)" class="text-[11px] font-bold px-2 py-1 rounded bg-slate-100 hover:bg-slate-200 text-slate-700 transition-all cursor-pointer">Show All Clues</button>
+              </div>
+            </div>
+            
+            <div class="p-3 bg-slate-50 rounded-lg border border-slate-200 text-xs text-slate-700 leading-relaxed">
+              <span class="font-bold text-slate-800">Pair Work Task:</span> Student A views the vehicle clues and describes its operational role using defining language (e.g. <em>"This vehicle is designed to...", "Handlers connect it to..."</em>) without stating the vehicle's name. Student B listens and identifies the correct vehicle. Click <strong>Reveal Vehicle</strong> to verify pronunciation and model sentence.
+            </div>
+
+            <!-- 10 Vehicle Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+              ${vehicles.map(v => `
+                <div id="vehicle-card-${v.id}" class="bg-white border border-slate-200 rounded-xl p-3.5 flex flex-col justify-between shadow-2xs hover:border-slate-300 transition-all">
+                  <div>
+                    <div class="flex items-center justify-between gap-2 border-b border-slate-100 pb-2 mb-2.5">
+                      <div class="flex items-center gap-2">
+                        <span class="text-white text-xs font-black px-2 py-0.5 rounded-md shadow-2xs" style="background-color: ${theme.primary};">
+                          ${v.id < 10 ? '0' + v.id : v.id}
+                        </span>
+                        <span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md bg-slate-100 text-slate-700">
+                          ${v.category}
+                        </span>
+                      </div>
+                      <button type="button" onclick="window.toggleVehicleCardView(${v.id})" id="vehicle-toggle-btn-${v.id}" class="no-print inline-flex items-center gap-1 text-[11px] font-bold px-2.5 py-1 rounded-md bg-slate-100 hover:bg-slate-200 text-slate-700 transition-all cursor-pointer">
+                        <span>Reveal Vehicle</span> &rarr;
+                      </button>
+                    </div>
+
+                    <!-- Clue View (Default) -->
+                    <div id="vehicle-clue-${v.id}" class="space-y-2">
+                      <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Functional Clues:</span>
+                      <ul class="space-y-1 text-xs text-slate-700">
+                        ${v.clues.map(c => `
+                          <li class="flex items-start gap-1.5">
+                            <span class="text-slate-400 font-bold shrink-0">&bull;</span>
+                            <span>${c}</span>
+                          </li>
+                        `).join('')}
+                      </ul>
+                      <div class="pt-2 border-t border-slate-100 text-[11px]">
+                        <span class="font-bold text-slate-500">Sentence Starter: </span>
+                        <span class="italic text-slate-700">"${v.sentenceStarters[0]}"</span>
+                      </div>
+                    </div>
+
+                    <!-- Revealed View (Initially Hidden) -->
+                    <div id="vehicle-reveal-${v.id}" class="hidden space-y-2">
+                      <div class="flex items-start justify-between gap-2">
+                        <div>
+                          <h5 class="text-sm font-black text-slate-900">${v.name}</h5>
+                          <span class="text-xs font-mono text-slate-500">${v.phonetic}</span>
+                        </div>
+                        <button type="button" onclick="speakWord('${v.name.replace(/'/g, "\\'")}')" class="p-1 rounded bg-slate-100 hover:bg-slate-200 text-slate-600 transition-all cursor-pointer" title="Listen to pronunciation">
+                          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.536 8.464a5 5 0 010 7.072M18.364 5.636a9 9 0 010 12.728M11 5L6 9H2v6h4l5 4V5z"/></svg>
+                        </button>
+                      </div>
+                      <div class="p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-xs text-slate-700 leading-relaxed">
+                        <span class="font-bold text-slate-800">Operational Purpose: </span>${v.modelSentence}
+                      </div>
+                      <div class="text-[11px] text-slate-600 italic">
+                        <span class="font-bold not-italic text-slate-700">Model Definition: </span>"${v.definingPractice}"
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <!-- Activity 3: Apron Safety & Cause-Effect Linkers -->
+          <div class="bg-white border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs space-y-4">
+            <div class="flex items-center justify-between pb-2 border-b border-slate-100">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">03</span>
+                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${delays.title || 'Activity 3: Apron Safety &amp; Cause-Effect Linkers (30 mins)'}</h3>
+              </div>
+              <span class="text-[11px] font-semibold text-slate-500">Formal Grammar</span>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">${delays.summary || ''}</p>
+
+            <!-- Linkers Summary Table -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+              ${(delays.linkers || []).map(l => `
+                <div class="p-3 rounded-lg bg-slate-50 border border-slate-200">
+                  <span class="text-[11px] font-bold text-slate-800 uppercase tracking-wider">${l.category}</span>
+                  <p class="text-xs font-mono text-slate-600 font-semibold mt-1">${l.pattern}</p>
+                  <p class="text-[11px] text-slate-600 italic mt-1.5 leading-snug">${l.example}</p>
+                </div>
+              `).join('')}
+            </div>
+
+            <!-- 4 Ramp Scenarios -->
+            <div class="space-y-3 pt-2">
+              <span class="text-xs font-bold text-slate-700 uppercase tracking-wider">Ramp Incident Case Scenarios:</span>
+              ${(delays.scenarios || []).map(sc => `
+                <div class="p-3.5 rounded-xl border border-slate-200 bg-white shadow-2xs space-y-2">
+                  <div class="flex items-center justify-between gap-2 border-b border-slate-100 pb-1.5">
+                    <h5 class="text-xs sm:text-sm font-bold text-slate-800">${sc.title}</h5>
+                    <button type="button" onclick="window.toggleScenarioModel(${sc.id})" id="scenario-btn-${sc.id}" class="no-print text-[11px] font-bold text-indigo-600 hover:text-indigo-800 transition-all cursor-pointer">
+                      <span>Show Target Model</span> &rarr;
+                    </button>
+                  </div>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                    <div class="p-2 rounded bg-rose-50/60 border border-rose-200/60">
+                      <span class="font-bold text-rose-900 text-[10px] uppercase tracking-wider block">Root Cause</span>
+                      <p class="text-rose-950 mt-0.5">${sc.cause}</p>
+                    </div>
+                    <div class="p-2 rounded bg-amber-50/60 border border-amber-200/60">
+                      <span class="font-bold text-amber-900 text-[10px] uppercase tracking-wider block">Operational Consequence</span>
+                      <p class="text-amber-950 mt-0.5">${sc.consequence}</p>
+                    </div>
+                  </div>
+                  <div class="text-[11px] text-slate-600 font-medium pt-1">
+                    <span class="font-bold text-slate-700">Speaking Task: </span>${sc.spokenTask}
+                  </div>
+                  <div id="scenario-model-${sc.id}" class="hidden p-2.5 rounded bg-slate-50 border border-slate-200 text-xs text-slate-700 italic">
+                    <span class="font-bold not-italic text-slate-800">Target Model Sentence: </span>"${sc.spokenTask.includes('due to') ? 'Due to a ruptured hydraulic hose on the pushback tractor, fluid was spilled on stand, which resulted in a 25-minute movement suspension.' : (sc.spokenTask.includes('owing to') ? 'Owing to foreign object debris located on Taxiway Mike, arrivals were halted; consequently, airport safety teams completed an emergency inspection.' : (sc.spokenTask.includes('because of') ? 'Because of severe ice accumulation on the wing slats, the captain requested remote de-icing, which led to a fifteen-minute slot delay.' : 'As a result of an unauthorized contractor van parked behind the aircraft, the catering hi-lift was unable to reverse; therefore, pushback was held.'))}"
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <!-- Activity 4: TSEEAC Operations Simulation -->
+          <div class="bg-white border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs space-y-4">
+            <div class="flex items-center justify-between pb-2 border-b border-slate-100">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">04</span>
+                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${simulation.title || 'Activity 4: Operations Simulation (30 mins)'}</h3>
+              </div>
+              <span class="text-[11px] font-semibold text-slate-500">Collaborative Role-Play</span>
+            </div>
+            
+            <div class="p-3.5 bg-slate-50 rounded-lg border border-slate-200 text-xs text-slate-700 leading-relaxed">
+              <span class="font-bold text-slate-900 block mb-1">Operational Situation Report:</span>
+              ${simulation.context || ''}
+            </div>
+
+            <!-- Bottlenecks Grid -->
+            <div class="space-y-2">
+              <span class="text-xs font-bold text-slate-700 uppercase tracking-wider">3 Simultaneous Ramp Bottlenecks:</span>
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                ${(simulation.bottlenecks || []).map(b => `
+                  <div class="p-3 rounded-lg bg-rose-50/50 border border-rose-200 text-xs">
+                    <div class="flex items-center gap-1.5 font-bold text-rose-900 mb-1">
+                      <span class="w-4 h-4 rounded-full bg-rose-200 text-rose-800 flex items-center justify-center text-[10px]">${b.id}</span>
+                      <span>${b.title}</span>
+                    </div>
+                    <p class="text-rose-950 text-[11px] leading-relaxed">${b.desc}</p>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+
+            <!-- Role Cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-1">
+              ${(simulation.roles || []).map(r => `
+                <div class="p-3.5 rounded-xl border border-slate-200 bg-white shadow-2xs">
+                  <h5 class="text-xs font-bold uppercase tracking-wider text-slate-900 pb-1 border-b border-slate-100">${r.role}</h5>
+                  <p class="text-xs text-slate-600 mt-2 leading-relaxed">${r.mission}</p>
+                </div>
+              `).join('')}
+            </div>
+
+            <div class="p-3 bg-amber-50 rounded-lg border border-amber-200 text-xs text-amber-950 leading-relaxed">
+              <span class="font-bold text-amber-900">Task: </span>${simulation.recoveryInstructions}
+            </div>
+          </div>
+
+          <!-- Activity 5: The 60-Second Shift Handover Briefing -->
+          <div class="bg-white border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs space-y-4">
+            <div class="flex items-center justify-between pb-2 border-b border-slate-100">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">05</span>
+                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${briefing.title || 'Activity 5: The 60-Second Shift Handover Briefing (15 mins)'}</h3>
+              </div>
+              <span class="text-[11px] font-semibold text-slate-500">Spoken Fluency</span>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">${briefing.summary || ''}</p>
+
+            <!-- 4-Part Structure -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+              ${(briefing.structure || []).map(st => `
+                <div class="p-3 rounded-lg bg-slate-50 border border-slate-200 text-xs">
+                  <span class="font-bold text-slate-900 text-xs block mb-1">${st.step}</span>
+                  <p class="text-[11px] text-slate-600 mb-1.5">${st.desc}</p>
+                  <p class="text-[11px] text-indigo-700 italic border-t border-slate-200/80 pt-1.5 leading-snug">${st.phrase}</p>
+                </div>
+              `).join('')}
+            </div>
+
+            <!-- Authentic Spoken Handover Model -->
+            <div class="p-4 rounded-xl bg-slate-900 text-slate-100 space-y-2.5">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold uppercase tracking-wider text-amber-400">Authentic Spoken Model Briefing:</span>
+                <button type="button" onclick="speakWord(document.getElementById('model-handover-text').innerText)" class="no-print inline-flex items-center gap-1.5 px-3 py-1 rounded bg-slate-800 hover:bg-slate-700 text-white text-xs font-bold transition-all cursor-pointer">
+                  <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.536 8.464a5 5 0 010 7.072M18.364 5.636a9 9 0 010 12.728M11 5L6 9H2v6h4l5 4V5z"/></svg>
+                  <span>Listen to Model</span>
+                </button>
+              </div>
+              <p id="model-handover-text" class="text-xs sm:text-sm text-slate-200 leading-relaxed italic border-l-2 border-amber-400 pl-3">
+                ${briefing.spokenModel || ''}
+              </p>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    window.toggleVehicleCardView = function(id) {
+      const clueEl = document.getElementById(`vehicle-clue-${id}`);
+      const revealEl = document.getElementById(`vehicle-reveal-${id}`);
+      const btn = document.getElementById(`vehicle-toggle-btn-${id}`);
+      if (!clueEl || !revealEl || !btn) return;
+      const isHidden = revealEl.classList.contains('hidden');
+      if (isHidden) {
+        revealEl.classList.remove('hidden');
+        clueEl.classList.add('hidden');
+        btn.innerHTML = '<span>Show Clues</span> &larr;';
+        btn.classList.add('bg-slate-200');
+      } else {
+        revealEl.classList.add('hidden');
+        clueEl.classList.remove('hidden');
+        btn.innerHTML = '<span>Reveal Vehicle</span> &rarr;';
+        btn.classList.remove('bg-slate-200');
+      }
+    };
+
+    window.toggleAllVehicles = function(showAll) {
+      for (let i = 1; i <= 10; i++) {
+        const clueEl = document.getElementById(`vehicle-clue-${i}`);
+        const revealEl = document.getElementById(`vehicle-reveal-${i}`);
+        const btn = document.getElementById(`vehicle-toggle-btn-${i}`);
+        if (!clueEl || !revealEl || !btn) continue;
+        if (showAll) {
+          revealEl.classList.remove('hidden');
+          clueEl.classList.add('hidden');
+          btn.innerHTML = '<span>Show Clues</span> &larr;';
+          btn.classList.add('bg-slate-200');
+        } else {
+          revealEl.classList.add('hidden');
+          clueEl.classList.remove('hidden');
+          btn.innerHTML = '<span>Reveal Vehicle</span> &rarr;';
+          btn.classList.remove('bg-slate-200');
+        }
+      }
+    };
+
+    window.toggleScenarioModel = function(id) {
+      const el = document.getElementById(`scenario-model-${id}`);
+      const btn = document.getElementById(`scenario-btn-${id}`);
+      if (!el || !btn) return;
+      const isHidden = el.classList.contains('hidden');
+      if (isHidden) {
+        el.classList.remove('hidden');
+        btn.innerHTML = '<span>Hide Model</span> &larr;';
+      } else {
+        el.classList.add('hidden');
+        btn.innerHTML = '<span>Show Target Model</span> &rarr;';
+      }
+    };
+
+    window.printLessonContent = function() {
+      window.print();
+    };
 
     function renderRevisionTab(sessionData, theme) {
       const bodyEl = document.getElementById('modal-body');

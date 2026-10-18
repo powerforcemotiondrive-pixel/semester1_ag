@@ -6435,436 +6435,769 @@
       "3": {
         "session": 3,
         "objectives": {
-          "title": "Session 3 - Overtourism Objectives",
-          "summary": "By the end of this session, you will be able to discuss mass tourism challenges with confidence, explain city regulations clearly, balance opposing viewpoints using contrast words, and take part in group debates.",
+          "title": "Session 3 - Ground Operations & Turnaround Objectives",
+          "summary": "By the end of this session, you will be able to clearly describe airside vehicles and their functions, sequence turnaround operations using precise time linkers, explain ramp delays using formal cause-and-effect structures, collaborate in operational problem-solving, and deliver a concise 60-second shift handover briefing.",
           "items": [
             {
               "num": 1,
-              "title": "Use Key Overtourism Terms (Vocabulary)",
-              "description": "Accurately use essential terms related to mass tourism (tourist tax, visitor limits, de-marketing, water shortages) in speaking and writing."
+              "title": "Identify & Describe Airside Vehicles (Fluency & Defining Language)",
+              "description": "Accurately explain the purpose of Ground Support Equipment (GSE) using relative clauses (which / that) and purpose structures (used for + -ing, designed to + base verb) without relying on technical jargon."
             },
             {
               "num": 2,
-              "title": "Describe Tourism Challenges in Your Own Words (Fluency & Paraphrasing)",
-              "description": "Explain tourism problems clearly under time pressure using synonyms, examples, and descriptions when you cannot recall an exact word."
+              "title": "Sequence Turnaround Milestones (Sequencing & Time Linkers)",
+              "description": "Chronologically order simultaneous apron tasks (deboarding, fueling, catering, baggage handling, boarding) using time connectors such as meanwhile, simultaneously, as soon as, and prior to pushback."
             },
             {
               "num": 3,
-              "title": "Explain City Rules (Grammar: have / make / get)",
-              "description": "Use structures like \"The city had the cruise terminal moved\" or \"Officials made operators adjust schedules\" to explain municipal regulations."
+              "title": "Express Cause & Consequence in Ramp Delays (Grammar: Cause & Effect)",
+              "description": "Construct clear spoken sentences explaining turnaround delays and knock-on effects using formal linkers including due to, owing to, as a result of, consequently, and led to."
             },
             {
               "num": 4,
-              "title": "Balance Two Sides of an Argument (Grammar: despite / in spite of)",
-              "description": "Construct clear sentences that balance economic benefits with environmental protection using contrast words like despite and in spite of."
+              "title": "Navigate Spoken Ramp Coordination Scenarios (Interaction & Decision-Making)",
+              "description": "Participate in collaborative peer discussions to resolve unexpected apron events (GPU failure, catering road blockage, fueling safety holds), balancing passenger safety with schedule adherence."
             },
             {
               "num": 5,
-              "title": "Pronounce Long Tourism Words Clearly (Pronunciation)",
-              "description": "Place stress on the correct syllable and pronounce vowel sounds clearly in key policy words (reg-u-la-to-ry, sat-u-ra-tion, sus-tain-a-ble, ca-pa-ci-ty)."
+              "title": "Deliver a Concise Operational Shift Handover (Structured Spoken Briefing)",
+              "description": "Structure and deliver a fluent 60-second verbal briefing summarizing aircraft status, root cause of delays, and pending ramp actions for an incoming controller."
             },
             {
               "num": 6,
-              "title": "Defend Stakeholder Solutions in a Group Debate (Fluency & Interaction)",
-              "description": "Participate in a role-play discussion balancing local jobs with destination protection, defending your point of view and responding to opposing opinions smoothly."
-            },
-            {
-              "num": 7,
-              "title": "Spot Common Grammar Traps in Business Contexts (TOEIC Practice)",
-              "description": "Identify common test traps and wrong answer choices (especially causative verbs and contrast words) in TOEIC Parts 5 & 6, and log your mistakes to improve your score."
+              "title": "Master Ground Operations Grammar Traps (TOEIC Reading Practice)",
+              "description": "Identify prepositional patterns, participle modifiers, and passive voice structures in ground handling bulletins, operational notices, and TOEIC Parts 5 & 6 items."
             }
           ]
         },
         "lessonPlan": {
           "title": "Session 3 Lesson Plan (2 Hours)",
-          "summary": "A 2-hour session exploring visitor limits for popular destinations, city regulations against overcrowding, grammar for contrast and rules, TOEIC practice, and a group debate on sustainable island tourism.",
+          "summary": "A 2-hour communicative session covering the turnaround timeline, airside vehicle functions, ramp safety and cause-effect language, collaborative crisis simulations, and professional shift handover briefings.",
           "items": [
             {
-              "time": "0-15",
-              "title": "Part 1: Warm-Up Discussion \u2014 How Crowded Is Too Crowded? (15 mins)",
-              "description": "Compare visitor numbers with local populations in famous destinations (Venice, Dubrovnik, Maya Bay) to identify when crowding harms everyday life and natural sites."
+              "time": "00-15",
+              "title": "Part 1: The Turnaround Clock & Apron Narrative Warm-Up (15 mins)",
+              "description": "Explore the critical 35-to-45-minute turnaround window. Contrast Past Simple and Present Perfect to describe completed vs. pending ramp milestones (e.g. \"Flight AF1288 landed at 14:10, but handlers have not unloaded the cargo yet\")."
             },
             {
-              "time": "15-40",
-              "title": "Part 2: Case Study & Pitch \u2014 New City Tourism Rules (25 mins)",
-              "description": "Teams choose and pitch a municipal policy to the mayor (Venice entry fee, cruise ship bans, or campaigns discouraging rowdy crowds), anticipating business criticisms and delivering counterarguments."
+              "time": "15-45",
+              "title": "Part 2: Airside Vehicles (GSE) Master Index & Defining Game (30 mins)",
+              "description": "Examine the 10 core ground support vehicles. Students practice communicative defining language using relative clauses and purpose frames (designed to, fitted with, used for) in an interactive paired mystery vehicle challenge."
             },
             {
-              "time": "40-60",
-              "title": "Part 3: Grammar in Context \u2014 Causatives & Contrast Words (20 mins)",
-              "description": "Structuring formal municipal rules using structures like have/make/get someone do something, and contrasting benefits with local impacts using words like despite and in spite of."
+              "time": "45-75",
+              "title": "Part 3: Apron Safety, Turnaround Bottlenecks & Cause-Effect Linkers (30 mins)",
+              "description": "Analyze common ramp delays (fuel spills, FOD, belt loader breakdowns). Build high-yield B2 cause and effect statements using due to, owing to, as a result, consequently, and led to."
             },
             {
-              "time": "60-80",
-              "title": "Part 4: TOEIC Practice & Error Logging \u2014 Parts 5 & 6 (20 mins)",
-              "description": "Timed practice on incomplete sentences and text completion regarding tourism management; analyzing common wrong answer choices and updating the study log."
+              "time": "75-105",
+              "title": "Part 4: TSEEAC Operations Simulation — Turnaround Crisis at Stand Charlie-4 (30 mins)",
+              "description": "Paired role-play simulation: Ground Coordinator and Ramp Controller resolve three simultaneous operational bottlenecks under time pressure, negotiating a 3-step recovery priority plan."
             },
             {
-              "time": "80-95",
-              "title": "Part 5: DDRS Case Discussion \u2014 Setting Limits for Sustainable Tourism: Isla Serena (15 mins)",
-              "description": "4-role simulation resolving an acute summer water crisis (320% surge) vs. airport runway expansion. Roles: Town Mayor, Hotel Association President, Organic Farmer, Environmental Regulator. Teams agree on a 3-point policy resolution."
-            },
-            {
-              "time": "95-110",
-              "title": "Part 6: Vocabulary Speaking Game \u2014 Taboo (15 mins)",
-              "description": "Fast-paced fluency challenge where students describe key concepts without saying forbidden words: tourist tax, overcrowding, de-marketing, seasonal limits, and cruise ship ban."
-            },
-            {
-              "time": "110-120",
-              "title": "Part 7: Class Wrap-Up & Portfolio Check (10 mins)",
-              "description": "Continuous assessment entry, personal study goals, and FE portfolio review."
+              "time": "105-120",
+              "title": "Part 5: The 60-Second Shift Handover & Portfolio Reflection (15 mins)",
+              "description": "Deliver a structured spoken briefing to the incoming shift using a 4-point operational template. Complete TOEIC ground operations review and self-assessment."
             }
           ]
         },
+        "lessonContent": {
+          "hero": {
+            "image": "images/turnaround_apron.jpg",
+            "title": "Ground Operations & Turnaround Management",
+            "subtitle": "Apron Servicing Envelope & Communicative Ramp Coordination"
+          },
+          "turnaroundClock": {
+            "title": "Activity 1: The Turnaround Clock (15 mins)",
+            "summary": "The turnaround is the critical period between an aircraft parking at the gate (chocks-on) and departing for its next flight (chocks-off). Modern regional and short-haul turnarounds typically target a 35 to 45-minute servicing window where multiple teams work simultaneously.",
+            "milestones": [
+              {
+                "time": "T+00 to T+05",
+                "phase": "Arrival & Chocks-On",
+                "desc": "Engines spool down, anti-collision beacons switched off, wheel chocks inserted, boarding bridge or airstairs connected, deboarding commences."
+              },
+              {
+                "time": "T+05 to T+20",
+                "phase": "Parallel Ground Servicing",
+                "desc": "Belt loaders position at forward/aft cargo doors; catering hi-lift connects to service doors; GPU supplies 400Hz electricity; potable water and lavatory trucks service underside ports."
+              },
+              {
+                "time": "T+15 to T+30",
+                "phase": "Aircraft Refueling",
+                "desc": "Fuel bowser or hydrant dispenser connects to wing underwing nozzles; fueling is coordinated with cabin safety protocols."
+              },
+              {
+                "time": "T+25 to T+35",
+                "phase": "Boarding & Final Loading",
+                "desc": "Outbound passengers board; outbound baggage loaded and cargo hold secured; final loadsheet and passenger manifest verified."
+              },
+              {
+                "time": "T+35 to T+45",
+                "phase": "Stand Clearance & Pushback",
+                "desc": "Doors closed and cross-checked, jet bridge disconnected, tug connected via bypass pin, ATC pushback clearance approved, chocks removed."
+              }
+            ],
+            "discussionPrompts": [
+              "Why must ground servicing tasks occur in parallel rather than in a linear sequence?",
+              "What safety communication must take place between the ramp coordinator and the flight crew before passenger boarding can begin during refueling?"
+            ],
+            "grammarBox": {
+              "title": "Grammar Focus: Past Simple vs. Present Perfect on the Ramp",
+              "rule": "Use Past Simple for completed actions with a finished time marker (e.g. at 14:10, 10 minutes ago). Use Present Perfect for actions connected to the present, completed recently, or still pending (using already, yet, just).",
+              "examples": [
+                {
+                  "type": "Past Simple",
+                  "text": "\"Flight BA342 <strong>landed</strong> at 14:15, and the marshals <strong>placed</strong> the chocks five minutes later.\""
+                },
+                {
+                  "type": "Present Perfect",
+                  "text": "\"The catering crew <strong>have already loaded</strong> the forward galleys, but the baggage handlers <strong>have not closed</strong> the aft cargo door yet.\""
+                }
+              ]
+            }
+          },
+          "vehicles": [
+            {
+              "id": 1,
+              "name": "Pushback Tug (Tractor)",
+              "phonetic": "/ˈpʊʃ.bæk tʌɡ/",
+              "category": "Motive Power",
+              "color": "amber",
+              "clues": [
+                "Low-profile, extremely heavy vehicle with four-wheel drive and heavy ballasts.",
+                "Connects to the nose landing gear using a heavy metal towbar or a towbarless cradle lift.",
+                "Used to push the aircraft backwards away from the passenger gate into the taxi lane."
+              ],
+              "sentenceStarters": [
+                "This vehicle is designed to...",
+                "Handlers attach it to the nose gear so that..."
+              ],
+              "modelSentence": "The pushback tug is a heavy, low-profile vehicle that pushes aircraft backward away from the terminal gate into the taxi lane.",
+              "definingPractice": "It is a heavy vehicle which connects to the nose gear to move the aircraft backwards when main engines cannot provide reverse thrust."
+            },
+            {
+              "id": 2,
+              "name": "Ground Power Unit (GPU)",
+              "phonetic": "/ɡraʊnd ˈpaʊ.ər ˈjuː.nɪt/",
+              "category": "Electrical Systems",
+              "color": "blue",
+              "clues": [
+                "Mobile diesel-powered generator or fixed electric cable boom attached to the gate.",
+                "Supplies 115V / 400Hz alternating current through a thick, heavy yellow electrical cable.",
+                "Provides electricity for cabin lighting, air conditioning, and avionics while jet engines are shut down."
+              ],
+              "sentenceStarters": [
+                "This unit is used for...",
+                "Ground staff connect it to the forward fuselage in order to..."
+              ],
+              "modelSentence": "The Ground Power Unit is an external mobile generator that supplies electrical power to the aircraft systems while the main engines and auxiliary power unit are turned off.",
+              "definingPractice": "It is an external power source which supplies electricity to cabin lights and cockpit instruments while on stand."
+            },
+            {
+              "id": 3,
+              "name": "Belt Loader",
+              "phonetic": "/bɛlt ˈloʊ.dər/",
+              "category": "Baggage & Cargo",
+              "color": "emerald",
+              "clues": [
+                "Vehicle fitted with an adjustable, motor-driven inclined conveyor belt.",
+                "Positions directly against the lower cargo door sill of narrow-body aircraft.",
+                "Used by baggage handlers to transfer loose passenger luggage and postal sacks into the hold."
+              ],
+              "sentenceStarters": [
+                "This vehicle is equipped with...",
+                "Ramp handlers rely on it to..."
+              ],
+              "modelSentence": "The belt loader is a motorized conveyor ramp used to load and unload loose passenger baggage and freight into the lower cargo hold.",
+              "definingPractice": "It is a motorized conveyor which allows ramp agents to transfer suitcases into the aircraft belly quickly and safely."
+            },
+            {
+              "id": 4,
+              "name": "Aviation Refueler Truck (Bowser)",
+              "phonetic": "/ˌeɪ.viˈeɪ.ʃən rɪˈfjuː.ə.lər trʌk/",
+              "category": "Aircraft Fueling",
+              "color": "rose",
+              "clues": [
+                "Large tanker truck carrying thousands of liters of Jet A-1 kerosene, or a hydrant dispenser.",
+                "Connects high-pressure delivery hoses directly to refueling intake valves under the wings.",
+                "Equipped with emergency shut-off valves, grounding cables, and fuel filtration meters."
+              ],
+              "sentenceStarters": [
+                "This tanker is designed to...",
+                "Before pumping fuel, operators must ground it so that..."
+              ],
+              "modelSentence": "The aviation refueler is a specialized tanker vehicle designed to pump kerosene into aircraft wing tanks under high pressure.",
+              "definingPractice": "It is a tanker or hydrant vehicle that supplies aviation kerosene directly into the wings while adhering to strict fire safety protocols."
+            },
+            {
+              "id": 5,
+              "name": "Passenger Boarding Stairs (Airstairs)",
+              "phonetic": "/ˈpæs.ən.dʒər ˈbɔːr.dɪŋ steərz/",
+              "category": "Passenger Access",
+              "color": "indigo",
+              "clues": [
+                "Mobile wheeled stairway mounted on a truck chassis or towed manually.",
+                "Elevates to match the sill height of aircraft passenger doors (forward and aft).",
+                "Enables safe boarding and deboarding when an aircraft is parked on a remote parking stand."
+              ],
+              "sentenceStarters": [
+                "This mobile staircase allows passengers to...",
+                "It is driven up to the aircraft doors when..."
+              ],
+              "modelSentence": "Passenger boarding stairs provide an adjustable mobile staircase that allows passengers to embark and disembark safely on remote apron stands.",
+              "definingPractice": "It is a mobile staircase which connects to the cabin doors when a telescopic jet bridge is unavailable."
+            },
+            {
+              "id": 6,
+              "name": "Catering Hi-Lift Truck",
+              "phonetic": "/ˈkeɪ.tər.ɪŋ ˈhaɪ.lɪft trʌk/",
+              "category": "Cabin Servicing",
+              "color": "purple",
+              "clues": [
+                "Large box truck equipped with an electro-hydraulic scissor-lift mechanism.",
+                "Raises the insulated van body up to cabin door level so staff can walk directly inside.",
+                "Transports food meal carts, beverage drawers, and duty-free supplies for galley replenishment."
+              ],
+              "sentenceStarters": [
+                "This vehicle is fitted with a scissor lift so that...",
+                "Catering personnel use it to..."
+              ],
+              "modelSentence": "The catering hi-lift truck is equipped with a hydraulic scissor lift that raises meal carts and galley supplies directly to cabin door height.",
+              "definingPractice": "It is a specialized van which elevates to cabin level to replenish galley trolleys, meals, and beverages between flights."
+            },
+            {
+              "id": 7,
+              "name": "Potable Water Truck",
+              "phonetic": "/ˈpoʊ.tə.bəl ˈwɔː.tər trʌk/",
+              "category": "Sanitary Utilities",
+              "color": "cyan",
+              "clues": [
+                "Sanitary stainless-steel tanker vehicle with dedicated filtration hoses.",
+                "Hooks into the fresh water servicing panel located under the rear fuselage.",
+                "Refills the aircraft drinking water tanks used for lavatory washbasins and hot galley water."
+              ],
+              "sentenceStarters": [
+                "This sanitary tanker is used to...",
+                "It connects to the underside panel in order to..."
+              ],
+              "modelSentence": "The potable water truck is a dedicated sanitary vehicle that replenishes the aircraft tanks with fresh drinking water for lavatory washbasins and galley brewing.",
+              "definingPractice": "It is a stainless-steel service vehicle that pumps purified drinking water into the aircraft storage tanks."
+            },
+            {
+              "id": 8,
+              "name": "Lavatory Service Truck (Waste Servicing)",
+              "phonetic": "/ˈlæv.ə.tɔːr.i ˈsɜːr.vɪs trʌk/",
+              "category": "Waste Disposal",
+              "color": "slate",
+              "clues": [
+                "Specialized vehicle equipped with a heavy-duty suction hose and disinfectant flushing tank.",
+                "Attaches to the toilet waste drainage port on the lower rear fuselage.",
+                "Empties the aircraft vacuum waste holding tanks and rinses them with blue deodorizing chemical."
+              ],
+              "sentenceStarters": [
+                "This vehicle is responsible for...",
+                "Ground staff operate this unit to..."
+              ],
+              "modelSentence": "The lavatory service truck empties the aircraft waste holding tanks and flushes the system with sanitizing chemical fluid during ground turnaround.",
+              "definingPractice": "It is a specialized utility vehicle which drains, vacuums, and disinfects aircraft toilet tanks between scheduled flights."
+            },
+            {
+              "id": 9,
+              "name": "De-icing / Anti-icing Rig",
+              "phonetic": "/diːˈaɪ.sɪŋ rɪɡ/",
+              "category": "Winter Operations",
+              "color": "teal",
+              "clues": [
+                "Heavy truck equipped with a telescoping hydraulic boom and enclosed operator cab.",
+                "Heats and sprays glycol-based de-icing and anti-icing fluids under high pressure.",
+                "Removes frost, snow, and slush from wings and tail surfaces, preventing critical aerodynamic loss."
+              ],
+              "sentenceStarters": [
+                "This rig is deployed whenever...",
+                "The operator in the elevated bucket sprays fluid to..."
+              ],
+              "modelSentence": "The de-icing rig features an elevated cherry-picker bucket from which operators spray heated glycol fluid to remove snow, frost, and ice from wings and tail planes.",
+              "definingPractice": "It is a heavy winter-operations vehicle which sprays heated glycol fluid onto control surfaces to ensure safe aerodynamic lift during takeoff."
+            },
+            {
+              "id": 10,
+              "name": "Follow-Me Car",
+              "phonetic": "/ˈfɑː.loʊ miː kɑːr/",
+              "category": "Airfield Guidance",
+              "color": "amber",
+              "clues": [
+                "Distinctive high-visibility vehicle with yellow-and-black checkered markings and flashing amber beacons.",
+                "Features an illuminated digital display on the roof reading 'FOLLOW ME' or navigational arrows.",
+                "Guides landing aircraft safely across complex taxiway intersections to their designated parking stands."
+              ],
+              "sentenceStarters": [
+                "This vehicle leads aircraft when...",
+                "Airfield controllers dispatch it to..."
+              ],
+              "modelSentence": "The Follow-Me car is a high-visibility guidance vehicle with flashing roof beacons that escorts taxiing aircraft to their assigned stands during low visibility or complex taxi routing.",
+              "definingPractice": "It is a brightly marked safety vehicle which leads arriving aircraft across the taxiway system directly to their parking gate."
+            }
+          ],
+          "safetyDelays": {
+            "title": "Activity 3: Apron Safety & Cause-Effect Linkers (30 mins)",
+            "summary": "Every minute on the ramp is strictly accounted for. When an unexpected incident occurs, TSEEAC controllers and ramp coordinators must communicate the root cause and immediate consequence clearly using formal linkers.",
+            "linkers": [
+              {
+                "category": "Expressing Cause",
+                "pattern": "due to + noun phrase / owing to + noun phrase / because of + noun phrase",
+                "example": "<strong>Owing to a sudden hydraulic failure</strong> on the belt loader, baggage unloading was paused."
+              },
+              {
+                "category": "Expressing Consequence",
+                "pattern": "Consequently, ... / As a result, ... / resulted in + gerund / led to + noun",
+                "example": "The fueling truck arrived late; <strong>consequently</strong>, the flight missed its assigned departure slot."
+              },
+              {
+                "category": "Expressing Operational Conditions",
+                "pattern": "If + Present Simple, [Subject] + will / must + Base Verb",
+                "example": "<strong>If the catering hi-lift does not clear the safety zone</strong>, the pushback tug <strong>cannot attach</strong> the towbar."
+              }
+            ],
+            "scenarios": [
+              {
+                "id": 1,
+                "title": "Scenario 1: Hydraulic Fluid Spillage on Stand 12",
+                "cause": "A ruptured high-pressure hose on the pushback tractor spilled hydraulic fluid across the aircraft nose-gear area.",
+                "consequence": "Ramp safety teams were summoned to deploy absorbent granules, suspending all aircraft movements for 25 minutes.",
+                "spokenTask": "Explain this delay to a supervisor using 'due to' and 'resulted in'."
+              },
+              {
+                "id": 2,
+                "title": "Scenario 2: Foreign Object Debris (FOD) on Taxiway Mike",
+                "cause": "A metal cargo container latch snapped off a baggage trailer and lay on the centerline.",
+                "consequence": "Ground control halted arriving traffic until a Follow-Me safety vehicle completed a sweep and removed the debris.",
+                "spokenTask": "Explain this incident to the control tower using 'owing to' and 'consequently'."
+              },
+              {
+                "id": 3,
+                "title": "Scenario 3: Severe Wing Contamination in Freezing Fog",
+                "cause": "Sub-zero temperatures and high humidity produced clear ice along the aircraft leading-edge slats.",
+                "consequence": "The captain requested remote anti-icing, requiring a slot revision and an extra 15-minute taxi delay.",
+                "spokenTask": "Explain this operational decision using 'because of' and 'led to'."
+              },
+              {
+                "id": 4,
+                "title": "Scenario 4: Unauthorized Service Vehicle in the Reversing Zone",
+                "cause": "A maintenance contractor van parked directly inside the red no-parking corridor behind the aircraft tail.",
+                "consequence": "The catering hi-lift driver was unable to reverse away from door 2R, blocking ground clearance.",
+                "spokenTask": "Describe the safety hazard using 'as a result of' and 'therefore'."
+              }
+            ]
+          },
+          "simulation": {
+            "title": "Activity 4: TSEEAC Operations Simulation — Stand Charlie-4 (30 mins)",
+            "context": "Flight BA342 (Airbus A320) is scheduled for a tight 40-minute turnaround. The aircraft arrived on stand at 14:15. Target off-blocks time (pushback) is 14:55. It is currently 14:32. Three simultaneous operational complications have just occurred on the ramp.",
+            "bottlenecks": [
+              {
+                "id": "A",
+                "title": "Electrical Power Trip (GPU)",
+                "desc": "The mobile Ground Power Unit tripped its circuit breaker. The cabin has lost auxiliary power, lighting, and ventilation during warm weather."
+              },
+              {
+                "id": "B",
+                "title": "Baggage Conveyor Jam",
+                "desc": "The aft belt loader jammed while unloading 50 heavy transit bags. The replacement belt loader is currently stationed at the remote maintenance hangar."
+              },
+              {
+                "id": "C",
+                "title": "Refueling Safety Hold",
+                "desc": "The refueler arrived 12 minutes late. Ground safety rules strictly forbid fuel pumping while passengers are deboarding unless rescue fire crews are stationed on stand."
+              }
+            ],
+            "roles": [
+              {
+                "role": "Student A: Ramp Coordinator (Apron Operations)",
+                "mission": "Assess immediate physical safety on the stand. Coordinate ground handling personnel, dispatch replacement equipment, and establish a realistic recovery sequence."
+              },
+              {
+                "role": "Student B: TSEEAC Ground Movement Controller",
+                "mission": "Monitor departure slot adherence (CTOT). Liaise with ATC regarding a possible 15-minute slot delay, verify fire safety regulations, and prioritize passenger boarding."
+              }
+            ],
+            "recoveryInstructions": "Work together in pairs to agree on a prioritized 3-step action plan using modal verbs of necessity and obligation (must, should, have to, need to). Prepare to defend your sequence to the class."
+          },
+          "briefing": {
+            "title": "Activity 5: The 60-Second Shift Handover Briefing (15 mins)",
+            "summary": "Professional aviation operations depend on clear, concise spoken handovers. When handing over responsibility to the next shift, TSEEAC controllers follow a four-part briefing structure:",
+            "structure": [
+              {
+                "step": "1. Identification",
+                "desc": "State the stand number, airline, flight number, and aircraft type.",
+                "phrase": "\"Stand Charlie-4 is currently handling Flight BA342, an Airbus A320 inbound from London.\""
+              },
+              {
+                "step": "2. Operational Status",
+                "desc": "Report what has been completed and what is currently in progress.",
+                "phrase": "\"Deboarding concluded at 14:26; however, cargo unloading and refueling have encountered delays.\""
+              },
+              {
+                "step": "3. Root Cause of Delay",
+                "desc": "Explain the delay using precise cause-and-effect connectors.",
+                "phrase": "\"Due to an electrical trip on the GPU and a late-arriving fuel dispenser, the turnaround is running 15 minutes behind schedule.\""
+              },
+              {
+                "step": "4. Action & Revised ETD",
+                "desc": "State the mitigation in progress and the revised departure time.",
+                "phrase": "\"A backup belt loader is now on stand, and refueling has commenced. Revised off-blocks is 15:15. Slot revision has been approved by ATC.\""
+              }
+            ],
+            "spokenModel": "\"Stand Charlie-4 is currently servicing Flight BA342 to London Heathrow. Passenger deboarding concluded on schedule at 14:25; however, cargo loading and refueling have been disrupted. Due to an electrical trip on the GPU and an overheated conveyor on the aft belt loader, handlers were forced to request replacement equipment. Consequently, the turnaround is running 15 minutes behind schedule. The replacement loader has just arrived on stand, and fueling is underway. We have coordinated with ATC for a revised departure slot at 15:15. Please monitor the final pushback clearance.\""
+          }
+        },
         "revision": {
-          "title": "Session 3: Overtourism",
-          "summary": "Review the 18 key terms for Overtourism to build your fluency in discussions, professional reading, and TOEIC practice.",
+          "title": "Session 3: Ground Operations & Turnaround",
+          "summary": "Review the 18 essential B2 vocabulary terms for airport turnaround and Ground Support Equipment (GSE) to build fluency in operational discussions, shift briefings, and TOEIC comprehension.",
           "terms": [
             {
               "num": "01",
-              "term": "Carrying Capacity",
-              "definition": "The maximum number of visitors an area or historic city can welcome without damaging nature, local culture, or public infrastructure."
+              "term": "Turnaround Time (TAT)",
+              "definition": "The total duration an aircraft remains stationary on stand between its arrival (chocks-on) and its next departure (chocks-off)."
             },
             {
               "num": "02",
-              "term": "Overtourism",
-              "definition": "Excessive tourist numbers resulting in environmental harm, resident displacement, and diminished visitor experiences."
+              "term": "Ground Support Equipment (GSE)",
+              "definition": "The specialized fleet of vehicles, tugs, conveyors, and units that service an aircraft on the airport apron."
             },
             {
               "num": "03",
-              "term": "Visitor Dispersal",
-              "definition": "Encouraging tourists to visit less crowded areas or travel during off-peak seasons to spread economic benefits and avoid crowding."
+              "term": "Chocks-On / Chocks-Off",
+              "definition": "The precise operational times when wooden or rubber wedges are placed against or removed from aircraft landing wheels."
             },
             {
               "num": "04",
-              "term": "Tourist Tax",
-              "definition": "A municipal levy assessed on overnight lodging or day visitors to fund public infrastructure and sanitation."
+              "term": "Pushback Tractor (Tug)",
+              "definition": "A heavy, low-profile vehicle used to push an aircraft backwards from the terminal gate into the taxiway lane."
             },
             {
               "num": "05",
-              "term": "De-Marketing",
-              "definition": "Campaigns that discourage too many tourists or target respectful travelers instead of rowdy party crowds (e.g. Amsterdam's \"Stay Away\" campaign)."
+              "term": "Ground Power Unit (GPU)",
+              "definition": "A mobile external generator or gate connection that supplies 115V/400Hz electricity to the aircraft while main engines are off."
             },
             {
               "num": "06",
-              "term": "Resident Displacement",
-              "definition": "The pricing out of long-term local residents caused by short-term vacation rental conversions."
+              "term": "Belt Loader",
+              "definition": "An inclined mobile conveyor belt vehicle used for loading and unloading loose baggage and cargo into the lower aircraft hold."
             },
             {
               "num": "07",
-              "term": "Heritage Conservation",
-              "definition": "The scientific and policy preservation of historical monuments and archaeological sites against tourist wear."
+              "term": "Refueling Hydrant Dispenser",
+              "definition": "A ramp vehicle that connects underground fuel pipelines to aircraft wing tanks under regulated pressure."
             },
             {
               "num": "08",
-              "term": "Advance Reservation",
-              "definition": "A mandatory timed-entry booking system used by museums and national parks to control hourly crowd density."
+              "term": "Catering Hi-Lift Truck",
+              "definition": "A specialized truck with an elevated scissor-lift body that raises meal and beverage carts directly to cabin galley doors."
             },
             {
               "num": "09",
-              "term": "Cruise Ship Ceiling",
-              "definition": "A statutory limit placed on the number of large cruise vessels allowed to berth at a port daily."
+              "term": "Potable Water Truck",
+              "definition": "A dedicated sanitary tanker vehicle that replenishes the aircraft tanks with fresh drinking water for galley and washbasin use."
             },
             {
               "num": "10",
-              "term": "Seasonal Compression",
-              "definition": "The high concentration of visitor traffic into a brief summer or holiday window, straining local resources."
+              "term": "Lavatory Service Unit",
+              "definition": "A ground servicing vehicle that empties, flushes, and sanitizes the aircraft toilet waste holding tanks."
             },
             {
               "num": "11",
-              "term": "Spatial Saturation",
-              "definition": "Severe physical overcrowding where visitor numbers overwhelm streets, historic sites, and public amenities."
+              "term": "De-icing / Anti-icing Rig",
+              "definition": "A specialized boom truck that sprays heated glycol-water mixtures onto wings and control surfaces to remove frost and ice."
             },
             {
               "num": "12",
-              "term": "Community Stewardship",
-              "definition": "Local resident participation in formulating municipal tourism guidelines and revenue allocations."
+              "term": "Follow-Me Car",
+              "definition": "A high-visibility safety vehicle with amber flashing lights and illuminated signs that escorts taxiing aircraft to their gate."
             },
             {
               "num": "13",
-              "term": "Dynamic Pricing",
-              "definition": "Fluctuating ticket tariffs calibrated to demand to incentivize off-peak visiting hours."
+              "term": "Foreign Object Debris (FOD)",
+              "definition": "Any loose item, tool, fragment, or trash on the apron or taxiway that could be ingested by an engine or damage an aircraft tire."
             },
             {
               "num": "14",
-              "term": "Infrastructure Strain",
-              "definition": "The overwhelming of sewage, potable water, waste collection, and electrical grids during high season."
+              "term": "Airside Service Road",
+              "definition": "Marked roadway corridors on the ramp reserved strictly for authorized ground support equipment and airport vehicles."
             },
             {
               "num": "15",
-              "term": "Short-Term Vacation Rental (STVR)",
-              "definition": "Furnished residential apartments rented to tourists on a nightly basis through digital booking platforms."
+              "term": "Passenger Boarding Bridge (Jet Bridge)",
+              "definition": "An enclosed, movable elevated corridor connecting the terminal gate directly to the forward passenger door of the aircraft."
             },
             {
               "num": "16",
-              "term": "Authenticity Erosion",
-              "definition": "The transformation of genuine residential neighborhoods into commercialized souvenir corridors."
+              "term": "Baggage Tug & Dolly Train",
+              "definition": "A small motorized towing tractor pulling a train of wheeled carts (dollies) transporting baggage containers or loose luggage."
             },
             {
               "num": "17",
-              "term": "Zoning Ordinance",
-              "definition": "Municipal legal statutes establishing where commercial hospitality establishments may legally operate."
+              "term": "Slot Adherence (CTOT)",
+              "definition": "Departing strictly within the assigned Calculated Take-Off Time window to maintain air traffic flow management compliance."
             },
             {
               "num": "18",
-              "term": "Aquifer Depletion",
-              "definition": "The severe loss of underground freshwater reserves caused by summer tourism demand and resort overuse."
+              "term": "Stand Clearance",
+              "definition": "The formal safety confirmation that all vehicles, equipment, and ramp personnel have retreated behind safety lines before pushback."
             }
           ]
         },
         "materials": {
           "videos": [
             {
-              "title": "Video 1: Managing Overtourism",
+              "title": "Video 1: Anatomy of a 35-Minute Turnaround",
               "watchUrl": "https://www.youtube.com/watch?v=8yJ3O_9zLCA",
-              "tag": "Policy",
+              "tag": "Ground Handling",
               "videoId": "8yJ3O_9zLCA",
               "embedUrl": "https://www.youtube-nocookie.com/embed/8yJ3O_9zLCA",
-              "caption": "Focus: How European destinations like Barcelona and Amsterdam enforce tourist caps, short-term rental bans, and visitor controls."
+              "caption": "Focus: Real-time airside coordination during a rapid commercial airliner turnaround from chocks-on to pushback clearance."
             },
             {
-              "title": "Video 2: Carrying Capacity & Balance",
+              "title": "Video 2: Ground Support Equipment on the Apron",
               "watchUrl": "https://www.youtube.com/watch?v=l1WJsGNqoeo",
-              "tag": "Environment",
+              "tag": "Vehicle Operations",
               "videoId": "l1WJsGNqoeo",
               "embedUrl": "https://www.youtube-nocookie.com/embed/l1WJsGNqoeo",
-              "caption": "Focus: Measuring ecological carrying capacity, visitor dispersal strategies, and infrastructure limits across popular tourist hotspots."
+              "caption": "Focus: Identifying airside vehicle movements, safety clearances, and positioning around wide-body and narrow-body aircraft."
             },
             {
-              "title": "Video 3: Visitor Fees & Regulation",
+              "title": "Video 3: Ramp Safety & Apron Hazard Prevention",
               "watchUrl": "https://www.youtube.com/watch?v=tb8dz6Rr0Vk",
-              "tag": "Policy Action",
+              "tag": "Safety Culture",
               "videoId": "tb8dz6Rr0Vk",
               "embedUrl": "https://www.youtube-nocookie.com/embed/tb8dz6Rr0Vk",
-              "caption": "Focus: Examine municipal access ticket systems, entry gate turnstiles, and legal strategies to manage peak day-tripper visitor flows."
+              "caption": "Focus: Preventing ramp collisions, managing service road traffic, and enforcing FOD prevention standards."
             }
           ],
           "grammar": {
-            "title": "Modal Verbs & Meanings",
-            "badge": "B1\u2013B2 Grammar Focus",
-            "patternTitle": "The Golden Rule",
-            "formula": "Subject + Modal (must / should / can / may) + Base Verb (V1 without \"to\")",
-            "rulesTitle": "Core Meanings",
+            "title": "Cause, Effect & Relative Clauses in Ground Operations",
+            "badge": "B2 Professional Grammar Focus",
+            "patternTitle": "The Cause & Effect Framework",
+            "formula": "Due to / Owing to + [Noun Phrase], [Subject] + [Verb]  |  [Cause] + led to / resulted in + [Noun / Gerund]",
+            "rulesTitle": "Operational Usage Rules",
             "rules": [
-              "<strong style=\"color: #1e293b;\">1. Obligation &amp; Rules (Must / Have to):</strong> Something is mandatory by law or safety regulation (*\"Carriers <strong>must submit</strong> their manifests\"*).",
-              "<strong style=\"color: #1e293b;\">2. Advice &amp; Recommendations (Should / Ought to):</strong> Suggesting the best thing to do (*\"Authorities <strong>should encourage</strong> off-peak travel\"*).",
-              "<strong style=\"color: #1e293b;\">3. Permission &amp; Bans (May / Must not):</strong> <em>May</em> means you are allowed to; <em>must not</em> means something is strictly forbidden.",
-              "<strong style=\"color: #1e293b;\">4. Possibility &amp; Ability (Can / Could / Might):</strong> Stating what is possible or capable of happening."
+              "<strong style=\"color: #1e293b;\">1. Formal Prepositional Causes (Due to / Owing to):</strong> Followed strictly by a noun phrase or gerund, never by a full subject+verb clause (*\"<strong>Due to heavy ramp congestion</strong>, the refueler was delayed\"*).",
+              "<strong style=\"color: #1e293b;\">2. Result Verbs (Led to / Resulted in):</strong> Express the direct outcome of an event (*\"An overheated conveyor <strong>resulted in</strong> a 15-minute baggage delay\"*).",
+              "<strong style=\"color: #1e293b;\">3. Defining Relative Clauses (Which / That):</strong> Used to clearly define airside vehicles and technical equipment without jargon (*\"The GPU is a mobile generator <strong>that supplies electricity</strong> to the cabin\"*).",
+              "<strong style=\"color: #1e293b;\">4. Transitional Connectors (Consequently / As a result):</strong> Placed at the start of a sentence followed by a comma to introduce a consequence."
             ],
-            "trap": "<strong>\u26a0\ufe0f The #1 Modal Rule in TOEIC:</strong> A modal verb (<em>must, should, can, could, will, would, may, might</em>) is <strong>always</strong> followed by the simple <strong>base verb</strong> (V1) with NO <em>-s</em>, NO <em>-ing</em>, NO <em>-ed</em>, and NO <em>to</em> (e.g., <em>must submit</em>, never <em>must to submit</em> or <em>must submitting</em>)!",
-            "examplesTitle": "Carrying Capacity Examples",
+            "trap": "<strong>⚠️ The Common Grammar Trap:</strong> Do not write <em>due to because</em> or follow <em>due to</em> with a full sentence! Say <em>\"Due to the storm\"</em> (noun phrase), NOT <em>\"Due to the storm was bad\"</em>. For full clauses, use <em>\"Because the storm was severe...\"</em>.",
+            "examplesTitle": "Ground Handling Examples",
             "examples": [
-              "<em>\"To protect fragile canal banks, maritime authorities <strong>must regulate</strong> daily cruise disembarkation tallies.\"</em>",
-              "<em>\"Regional transit boards <strong>should promote</strong> off-peak rail incentives to disperse peak crowd density.\"</em>"
+              "<em>\"<strong>Owing to a mechanical defect</strong> on the pushback tractor, stand clearance was postponed by ten minutes.\"</em>",
+              "<em>\"The belt loader experienced an electrical failure, <strong>which prevented handlers</strong> from unloading the forward hold on schedule.\"</em>"
             ]
           },
           "toeic": {
-            "stem": "Due to severe visitor overcrowding in historic quarters, city officials ________ impose strict daily tourist caps next season.",
+            "stem": "Due to a temporary failure of the mobile ground power unit, cabin air conditioning ________ until the auxiliary system was activated.",
             "options": [
               {
                 "letter": "A",
-                "text": "must"
+                "text": "was suspended"
               },
               {
                 "letter": "B",
-                "text": "had to"
+                "text": "to suspend"
               },
               {
                 "letter": "C",
-                "text": "should have"
+                "text": "suspending"
               },
               {
                 "letter": "D",
-                "text": "were able to"
+                "text": "suspends"
               }
             ],
             "correctLetter": "A",
-            "correctText": "must",
-            "analysis": "The modal \"must\" expresses necessary future action, fitting the time marker \"next season\". \"Had to\" and \"should have\" are past forms.",
-            "strategy": "Match modal tense with time clues: \"next season\" requires a present/future modal (must, will have to), never a past modal form."
+            "correctText": "was suspended",
+            "analysis": "The sentence requires a past passive finite verb: the air conditioning was suspended by ground crew until power was restored.",
+            "strategy": "Identify the passive receiver of the action (\"air conditioning\") and the past context (\"was activated\"), requiring was + past participle."
           },
           "resources": [
             {
-              "url": "https://www.unwto.org/sustainable-development",
-              "tag": "01 \u2022 Global Policy",
-              "name": "UN Tourism (UNWTO)",
-              "desc": "United Nations agency dedicated to responsible, sustainable, and accessible tourism."
+              "url": "https://www.icao.int",
+              "tag": "01 • Regulatory Standard",
+              "name": "ICAO Annex 14 (Aerodromes)",
+              "desc": "International Standards and Recommended Practices for aerodrome design, apron management, and visual aids."
             },
             {
-              "url": "https://www.gstcouncil.org",
-              "tag": "02 \u2022 Destination Standards",
-              "name": "GSTC Global Criteria",
-              "desc": "Global Sustainable Tourism Council baseline standards for destinations."
+              "url": "https://www.iata.org",
+              "tag": "02 • Ramp Operations Manual",
+              "name": "IATA Airport Handling Manual (AHM)",
+              "desc": "Global industry baseline procedures for safe and efficient ground handling operations and GSE standards."
             },
             {
-              "url": "https://cda.ve.it",
-              "tag": "03 \u2022 Ecological Impact",
-              "name": "EEA Tourism & Nature",
-              "desc": "European Environment Agency briefs on tourism pressures on biodiversity."
+              "url": "https://www.easa.europa.eu",
+              "tag": "03 • European Safety Guidance",
+              "name": "EASA Ground Handling Safety Hub",
+              "desc": "Safety promotion bulletins addressing ramp collision prevention, turnaround hazards, and human factors."
             },
             {
-              "url": "https://cda.ve.it",
-              "tag": "04 \u2022 Municipal Access Portal",
-              "name": "Venice Access Fee Official",
-              "desc": "Municipal overview of city access regulations and reservation mechanics."
+              "url": "https://www.aci.aero",
+              "tag": "04 • Apron Best Practices",
+              "name": "ACI World Apron Safety Guidelines",
+              "desc": "Airports Council International recommendations on apron markings, service vehicle routing, and FOD management."
             },
             {
-              "url": "https://ourworldindata.org/tourism",
-              "tag": "05 \u2022 Data & Trends",
-              "name": "Our World in Data",
-              "desc": "Global trends in international arrivals, travel expenditure, and tourism growth."
+              "url": "https://www.skybrary.aero",
+              "tag": "05 • Safety Knowledge Network",
+              "name": "SKYbrary Aviation Safety: Ground Operations",
+              "desc": "Peer-reviewed aviation safety repository detailing turnaround incident analysis and mitigation strategies."
             },
             {
               "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 \u2022 TOEIC Reading",
-              "name": "ETS Global TOEIC",
-              "desc": "Advanced reading strategies for regulatory announcements and policy documents."
+              "tag": "06 • TOEIC Listening & Reading",
+              "name": "ETS Global Professional English",
+              "desc": "Practice materials for workplace and transportation logistics reading comprehension."
             }
           ],
-          "pageUrl": "session3/admat1.html",
+          "pageUrl": "session3/admat_aas1.html",
           "articles": [
             {
-              "topic": "UN Tourism Policy Brief",
-              "sourceTag": "Industry Analysis",
-              "heading": "Carrying Capacity Indicators in European Heritage Centers",
-              "snippet": "A comparative framework analyzing visitor ratios, local resident sentiment, and infrastructure strain.",
+              "topic": "IATA Operational Safety Briefing",
+              "sourceTag": "Industry Safety Report",
+              "heading": "Managing Parallel Servicing Hazards during Fast-Turnaround Operations",
+              "snippet": "An analysis of simultaneous ground servicing workflows, vehicle clearance corridors, and communication protocols between cockpit and apron crews.",
               "readTime": "Estimated read: 5-7 mins",
-              "url": "https://www.unwto.org/sustainable-development"
+              "url": "https://www.iata.org"
             },
             {
-              "topic": "Journal of Sustainable Tourism",
-              "sourceTag": "Industry Analysis",
-              "heading": "The Economics of Tourist Taxation &amp; Crowd Dispersal",
-              "snippet": "Evaluating whether dynamic pricing diverts crowds or merely generates municipal revenue.",
+              "topic": "Aerodrome Operations Journal",
+              "sourceTag": "Decarbonization & Innovation",
+              "heading": "Electrification of Ground Support Equipment on European Aprons",
+              "snippet": "Examining the transition from diesel-powered tugs and belt loaders to zero-emission battery electric GSE across major hub airports.",
               "readTime": "Estimated read: 5-7 mins",
-              "url": "https://cda.ve.it"
+              "url": "https://www.aci.aero"
             }
           ],
           "toeicQuestions": [
             {
-              "stem": "Due to severe visitor overcrowding in historic quarters, city officials ________ impose strict daily tourist caps next season.",
+              "stem": "Due to a temporary failure of the mobile ground power unit, cabin air conditioning ________ until the auxiliary system was activated.",
               "options": [
                 {
                   "letter": "A",
-                  "text": "must"
+                  "text": "was suspended"
                 },
                 {
                   "letter": "B",
-                  "text": "had to"
+                  "text": "to suspend"
                 },
                 {
                   "letter": "C",
-                  "text": "should have"
+                  "text": "suspending"
                 },
                 {
                   "letter": "D",
-                  "text": "were able to"
+                  "text": "suspends"
                 }
               ],
               "correctLetter": "A",
-              "correctText": "must",
-              "analysis": "The modal \"must\" expresses necessary future action, fitting the time marker \"next season\". \"Had to\" and \"should have\" are past forms.",
-              "strategy": "Match modal tense with time clues: \"next season\" requires a present/future modal (must, will have to), never a past modal form."
+              "correctText": "was suspended",
+              "analysis": "The sentence requires a past passive finite verb: the air conditioning was suspended by ground crew until power was restored.",
+              "strategy": "Identify the passive receiver of the action (\"air conditioning\") and the past context (\"was activated\"), requiring was + past participle."
             },
             {
-              "stem": "Venice dynamic access fee ________ collected directly through accommodation bookings rather than physical turnstiles.",
+              "stem": "The ramp coordinator requested an additional belt loader ________ the ground crew could complete baggage loading before the departure slot expired.",
               "options": [
                 {
                   "letter": "A",
-                  "text": "ought to be"
+                  "text": "so that"
                 },
                 {
                   "letter": "B",
-                  "text": "ought be"
+                  "text": "despite"
                 },
                 {
                   "letter": "C",
-                  "text": "ought to being"
+                  "text": "in order"
                 },
                 {
                   "letter": "D",
-                  "text": "ought"
+                  "text": "because of"
                 }
               ],
               "correctLetter": "A",
-              "correctText": "ought to be",
-              "analysis": "\"Ought\" must always be followed by \"to\" plus the base form. In passive voice: \"ought to be + V3\".",
-              "strategy": "\"Ought\" always takes \"to\". Never choose \"ought + base verb\" without \"to\"."
+              "correctText": "so that",
+              "analysis": "\"So that\" introduces a clause of purpose followed by a subject and modal verb (\"the ground crew could complete\").",
+              "strategy": "Look for a full clause with a modal verb (could/can) following the blank to select the purpose conjunction \"so that\"."
             },
             {
-              "stem": "If fragile historical landmarks sustain further erosion, local authorities ________ reduce daily admission quotas even further.",
+              "stem": "Ground handlers must verify that all service vehicles are parked behind the safety line ________ authorizing the pushback tug to commence movement.",
               "options": [
                 {
                   "letter": "A",
-                  "text": "could"
+                  "text": "prior to"
                 },
                 {
                   "letter": "B",
+                  "text": "subsequently"
+                },
+                {
+                  "letter": "C",
+                  "text": "ahead"
+                },
+                {
+                  "letter": "D",
+                  "text": "unless"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "prior to",
+              "analysis": "\"Prior to\" is a formal preposition meaning \"before\", correctly followed by the gerund \"authorizing\".",
+              "strategy": "Notice the gerund \"authorizing\" after the blank; \"prior to\" functions as a preposition requiring a noun or -ing form."
+            },
+            {
+              "stem": "Hydraulic fluid that ________ leaked from the towing tractor was promptly cleaned by airport emergency response units.",
+              "options": [
+                {
+                  "letter": "A",
                   "text": "had"
                 },
                 {
+                  "letter": "B",
+                  "text": "was"
+                },
+                {
                   "letter": "C",
-                  "text": "would have been"
+                  "text": "did"
                 },
                 {
                   "letter": "D",
-                  "text": "were"
+                  "text": "has"
                 }
               ],
               "correctLetter": "A",
-              "correctText": "could",
-              "analysis": "In a real/possible conditional (First Conditional), the modal \"could\" expresses future consequence/possibility in the main clause.",
-              "strategy": "In If-clauses with Present Simple (\"sustain\"), the main clause takes will/can/could/may + base verb."
+              "correctText": "had",
+              "analysis": "The past perfect \"had leaked\" expresses an action completed before another past event (\"was promptly cleaned\").",
+              "strategy": "Sequence past events: the leakage happened before the cleaning, requiring Past Perfect (had + V3)."
             },
             {
-              "stem": "There were significantly ________ international tourists visiting the alpine valley following the introduction of mandatory transit permits.",
+              "stem": "The airline avoided significant slot delay penalties ________ the exceptional coordination between the gate agent and the ramp marshal.",
               "options": [
                 {
                   "letter": "A",
-                  "text": "fewer"
+                  "text": "owing to"
                 },
                 {
                   "letter": "B",
-                  "text": "less"
+                  "text": "even though"
                 },
                 {
                   "letter": "C",
-                  "text": "least"
+                  "text": "whereas"
                 },
                 {
                   "letter": "D",
-                  "text": "little"
+                  "text": "consequently"
                 }
               ],
               "correctLetter": "A",
-              "correctText": "fewer",
-              "analysis": "\"Tourists\" is a countable plural noun. Use \"fewer\" with countable nouns and \"less\" with uncountable nouns.",
-              "strategy": "Rule: Countable nouns (tourists, flights, tickets) take \"fewer\"; uncountable nouns (traffic, luggage, fuel) take \"less\"."
-            },
-            {
-              "stem": "The municipal council ________ introduced stricter short-term rental limits years ago before the housing shortage escalated.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "must"
-                },
-                {
-                  "letter": "B",
-                  "text": "should have"
-                },
-                {
-                  "letter": "C",
-                  "text": "can"
-                },
-                {
-                  "letter": "D",
-                  "text": "might"
-                }
-              ],
-              "correctLetter": "B",
-              "correctText": "should have",
-              "analysis": "\"Should have + past participle\" expresses regret or a recommendation that was not followed in the past.",
-              "strategy": "When a sentence expresses past criticism or missed opportunity (\"years ago before...\"), look for should have + V3."
+              "correctText": "owing to",
+              "analysis": "\"Owing to\" is a prepositional linker followed by the noun phrase \"the exceptional coordination\", expressing cause.",
+              "strategy": "Check whether the blank is followed by a noun phrase or a full clause. A noun phrase requires a preposition like \"owing to\"."
             }
           ]
         }
