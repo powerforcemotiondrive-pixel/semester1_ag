@@ -21,11 +21,28 @@ Course administration (student lists, teacher assignments, weekly schedules, and
 > **CRITICAL RULE**: Whenever changes are made to timetables, session dates, room allocations, student pairings, or teacher assignments, both `index.html` and `admin.html` **must** be updated simultaneously to maintain complete parity.
 
 ### C. Build & Deployment Runbook
+- **Source Architecture**:
+  - The human-editable code lives cleanly in modular source files under `src/`:
+    - `src/template.html`: Base application HTML shell
+    - `src/js/01-scorm-engine.js`: SCORM 1.2 runtime API
+    - `src/js/02-config.js`: Course & program configuration
+    - `src/js/03-core-deck.js`: Navigation, deck state, themes, and audio controllers
+    - `src/js/04-templates-dispatcher.js`: Lesson content & activity instruction dispatcher
+    - `src/js/05-templates-mod1.js`: Module 1 lesson content (AAS & AG)
+    - `src/js/06-templates-ag2.js`: Module 2 General English lesson content
+    - `src/js/07-templates-ag3.js`: Module 3 General English lesson content
+    - `src/js/08-templates-aas2.js`: Module 2 Aeronautical English lesson content
+    - `src/js/09-templates-materials-ddrs.js`: Vocabulary revision, study materials, TOEIC, and DDRS tabs
+    - `src/js/10-fe-guidelines.js`: Formative evaluation guidelines, rubrics, and criteria
+    - `src/js/11-admin-hub.js`: Promotion rosters, timetables, rota schedules, and immersion hub
+    - `src/js/12-footer-init.js`: Interactive quiz handlers and DOMContentLoaded initialization
 - **Build & Package**:
+  - `npm run build`: Compiles `src/` modules into `index.html` and builds minified CSS.
+  - `npm run package`:
   ```bash
   npm run package
   ```
-  *(Runs Tailwind CSS v4 minified compilation, validates manifest integrity, and outputs the SCORM zip).*
+  *(Compiles `src/` into `index.html`, compiles Tailwind CSS v4 minified, validates manifest integrity, and outputs the SCORM zip).*
 - **Release Versioning**:
   - Main production code lives on branch `main`.
   - Production releases are tagged with `v1.0.0-live` (or semantic version increments) and pushed with:

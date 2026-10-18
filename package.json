@@ -4,8 +4,10 @@
   "description": "ENAC GSEA Semester 1 General English Courseware and SCORM 1.2 Package",
   "main": "index.html",
   "scripts": {
-    "package": "node scripts/package-scorm.js",
+    "build:html": "node scripts/build-html.js",
     "build:css": "npx @tailwindcss/cli -i ./src/input.css -o ./output.css --minify",
+    "build": "node scripts/build-html.js && npx @tailwindcss/cli -i ./src/input.css -o ./output.css --minify",
+    "package": "node scripts/package-scorm.js",
     "dev:css": "npx @tailwindcss/cli -i ./src/input.css -o ./output.css --watch",
     "serve": "python3 -m http.server 8000"
   },

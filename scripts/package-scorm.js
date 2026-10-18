@@ -14,7 +14,11 @@ if (!fs.existsSync(distDir)) {
   fs.mkdirSync(distDir, { recursive: true });
 }
 
-// 2. Build minified Tailwind CSS
+// 2. Compile self-contained index.html from src/ modules
+const buildHtml = require('./build-html');
+buildHtml();
+
+// 3. Build minified Tailwind CSS
 console.log('🎨 Compiling Tailwind CSS (minified)...');
 try {
   execSync('npx @tailwindcss/cli -i ./src/input.css -o ./output.css --minify', {
