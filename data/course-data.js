@@ -6247,61 +6247,318 @@
       "2": {
         "session": 2,
         "objectives": {
-          "title": "Session 2 Objectives - The Passenger Journey & Airfield Movement Areas",
-          "summary": "By the end of this session, you will be able to describe terminal passenger facilitation from landside to airside, navigate airport movement areas and taxiway guidance markings, explain the mathematics of runway numbering, and apply directional prepositions accurately in TOEIC Part 5.",
+          "title": "Session 2 - Passenger Journey & Airfield Movement Objectives",
+          "summary": "By the end of this session, you will be able to discuss aviation news and review core lexis, map terminal facilitation from landside to airside, master prepositions of place and movement, coordinate airside intercept and de-escalation role-play, decode airfield ground markings, deliver a concise 60-second spoken briefing, and consolidate key aeronautical lexis.",
           "items": [
             {
               "num": 1,
-              "title": "Analyze Terminal Passenger Flow & Wayfinding",
-              "description": "Trace the step-by-step traveler journey through check-in kiosks, automated bag drops, security screening checkpoints, airside dwell areas, and boarding gates."
+              "title": "Discuss Aviation Headlines & Catch-Up Review (Fluency & Spontaneous Speech)",
+              "description": "Engage in an opening discussion on current airport passenger technology headlines, followed by rapid spot-checking of Session 1 foundational terms."
             },
             {
               "num": 2,
-              "title": "Differentiate Airside Movement Areas",
-              "description": "Contrast the apron/ramp (ground handling, pushback tugs, marshallers, and FOD control) with the manoeuvring area (taxiways and runways strictly governed by ATC)."
+              "title": "Map Passenger Terminal Flow & Wayfinding (Facilitation & Dilemmas)",
+              "description": "Trace travelers through 5 concourse touchpoints and evaluate dilemmas regarding biometric e-gates, automated bag drops, and passenger accessibility."
             },
             {
               "num": 3,
-              "title": "Decode Airfield Markings & Runway Designators",
-              "description": "Interpret yellow taxiway centerlines, mandatory runway-holding positions, and runway magnetic headings (09/27 pairs and L/C/R parallel designators)."
+              "title": "Master Spatial Prepositions of Place & Movement (Grammar & Operational Clarity)",
+              "description": "Accurately deploy prepositions of point (at), volume (in), surface (on), and directional transit (along, across, through, onto) in aerodrome contexts."
             },
             {
               "num": 4,
-              "title": "Master Prepositions of Place, Direction & Movement",
-              "description": "Accurately deploy spatial (at, in, on) and dynamic (along, across, through, into) prepositions in aviation operational reports and TOEIC items."
+              "title": "Manage Unauthorized Airside Access & De-escalation (Interactive Role-Play)",
+              "description": "Collaborate in a paired simulation between an Aerodrome Ground Liaison / AFISO Trainee and a Ramp Service Lead resolving an apron access breach."
+            },
+            {
+              "num": 5,
+              "title": "Decode Airfield Markings & Deliver a 60-Second Briefing (Summary & Presentation)",
+              "description": "Analyze runway magnetic designators, yellow taxiway centerlines, and holding positions, delivering a structured verbal briefing model."
+            },
+            {
+              "num": 6,
+              "title": "Consolidate Core Vocabulary & Syllable Stress (Phonology & Review)",
+              "description": "Consolidate the 18 essential technical terms, practice primary word stress patterns, and update personal portfolio learning logs."
             }
           ]
         },
         "lessonPlan": {
-          "title": "Session 2 Lesson Plan - The Passenger Journey & Airfield Movement",
-          "summary": "A 2-hour session investigating terminal passenger flow architecture, airside apron operations, taxiway navigation, runway numbering systems, preposition clinics, and TOEIC diagnostics.",
+          "title": "Session 2 Lesson Plan (2 Hours)",
+          "summary": "A 2-hour communicative session exploring passenger terminal architecture, airside movement areas, directional prepositions, apron safety role-play, airfield markings, and a 10-minute vocabulary consolidation.",
           "items": [
             {
-              "time": "20 min",
-              "title": "Landside to Airside: The Passenger Experience",
-              "description": "Analyzing terminal layout design, self-service kiosks, security wait-time bottlenecks, and the commercial dwell hour."
+              "time": "00-10",
+              "title": "Part 1: Aviation News & Session 1 Catch-Up Spot-Check (10 mins)",
+              "description": "Opening 10-minute warm-up: discuss recent international airport technology headlines, followed by rapid paired recall of Session 1 key lexis (unruly passenger, ancillary revenue, EU261, TAT)."
             },
             {
-              "time": "30 min",
-              "title": "Apron Operations & Ground Movement Areas",
-              "description": "Exploring ramp logistics, pushback procedures, marshalling signals, FOD management, and manoeuvring area regulations."
+              "time": "10-35",
+              "title": "Part 2: Passenger Terminal Flow & Facilitation Dilemmas (25 mins)",
+              "description": "Trace the 5-stage passenger journey from curb to gate, followed by paired discussion and agreement scoring on biometric screening ethics and baggage automation."
             },
             {
-              "time": "25 min",
-              "title": "Runway Designators & Ground Markings Workshop",
-              "description": "Calculating magnetic runway numbers, reciprocal 180° thresholds, parallel runway letters, and holding point stop lines."
+              "time": "35-60",
+              "title": "Part 3: Language Clinic: Prepositions of Place, Direction & Movement (25 mins)",
+              "description": "Contrast static positions (at, in, on) with traversal motion (across, along, through, onto). Practice with an interactive 'Spot the Preposition Flaw' challenge."
             },
             {
-              "time": "25 min",
-              "title": "Grammar Clinic: Airport Prepositions in Action",
-              "description": "Interactive drills contrasting static positions (at, in, on) with traversal motion (across, along, through) in operational phraseology."
+              "time": "60-85",
+              "title": "Part 4: Operational Case Study: Unauthorized Apron Access (25 mins)",
+              "description": "Airside radio role-play: Aerodrome Ground Liaison / AFISO Trainee and Ramp Service Lead coordinate to intercept and de-escalate a disoriented passenger on the active apron."
             },
             {
-              "time": "20 min",
-              "title": "TOEIC Part 5 Diagnostic & Session Review",
-              "description": "Timed reading test on preposition traps, peer error analysis, vocabulary pronunciation practice, and portfolio logging."
+              "time": "85-110",
+              "title": "Part 5: Airfield Guidance Markings & Spoken Briefing (25 mins)",
+              "description": "Workshop on runway magnetic headings (09/27), taxiway centerlines, and holding points. Small groups deliver a structured 60-second verbal safety briefing."
+            },
+            {
+              "time": "110-120",
+              "title": "Part 6: Vocabulary Review, Pronunciation & Class Wrap-Up (10 mins)",
+              "description": "Final 10-minute consolidation: rapid recall of the 18 terms, word stress and syllable drill, personal learning reflection, and portfolio logging."
             }
           ]
+        },
+        "lessonContent": {
+          "hero": {
+            "image": "images/aas_m1card2.png",
+            "title": "Passenger Journey & Airfield Movement",
+            "subtitle": "Terminal Facilitation, Spatial Prepositions & Airside Guidance Systems"
+          },
+          "openingSession": {
+            "title": "Activity 1: Aviation News & Session 1 Catch-Up Spot-Check (10 mins)",
+            "summary": "Every class begins with a 10-minute professional opening: analyzing current airport technology headlines and spot-checking vocabulary from our previous session.",
+            "newsPrompts": [
+              "What recent airport terminal innovations (biometric facial recognition e-gates, CT carry-on scanners, automated baggage drops) have appeared in global travel news?",
+              "How are modern international aerodromes managing rising passenger volumes while maintaining short queue times at security screening?"
+            ],
+            "catchUpSpotCheck": {
+              "title": "Session 1 Catch-Up Spot-Check: Rapid Terminology Recall",
+              "instructions": "Discuss each question with your partner, then click 'Reveal Answer' to verify your operational understanding.",
+              "questions": [
+                {
+                  "id": 1,
+                  "term": "Unruly Passenger",
+                  "q": "What is an 'Unruly Passenger', and what operational consequences can disruptive cabin behavior cause?",
+                  "answer": "An unruly passenger is a traveler who fails to respect crew instructions or disrupts cabin safety. Operational consequences include flight diversions, heavy airline fuel and rescheduling costs, police intervention upon landing, and potential flight bans."
+                },
+                {
+                  "id": 2,
+                  "term": "Ancillary Revenue",
+                  "q": "How does 'Ancillary Revenue' drive low-cost carrier business models, and where can it create boarding gate delays?",
+                  "answer": "Ancillary revenue is income generated from non-ticket sales (carry-on bags, seat selection, priority boarding). At the boarding gate, measuring oversized carry-on luggage and charging last-minute fees can slow passenger processing and increase turnaround time."
+                },
+                {
+                  "id": 3,
+                  "term": "Passenger Rights (EU261)",
+                  "q": "Under EU261 regulations, what immediate duty of care must an airline provide during a 4-hour departure delay?",
+                  "answer": "The carrier is obligated to provide free meal and refreshment vouchers, two free telephone calls or emails, and overnight hotel accommodation with ground transport if the departure is postponed to the following day."
+                },
+                {
+                  "id": 4,
+                  "term": "Turnaround Time (TAT)",
+                  "q": "What is 'Turnaround Time (TAT)', and why is it critical for airport ground operations?",
+                  "answer": "TAT is the duration an aircraft remains parked at an apron stand between arrival and departure. Fast turnarounds maximize aircraft utilization and daily flight hours while optimizing apron stand and gate capacity."
+                }
+              ]
+            }
+          },
+          "terminalJourney": {
+            "title": "Activity 2: Passenger Terminal Flow & Facilitation Dilemmas (25 mins)",
+            "summary": "Examine the 5 sequential touchpoints of the passenger journey from landside to airside, followed by paired debate on passenger automation dilemmas.",
+            "stages": [
+              {
+                "num": "01",
+                "title": "Landside Check-In & Bag Drop",
+                "area": "Landside Public Zone",
+                "desc": "Passengers use self-service kiosks to print boarding passes and baggage tags, then deposit luggage at automated conveyor bag drops."
+              },
+              {
+                "num": "02",
+                "title": "Security Screening Checkpoint",
+                "area": "Boundary Transition",
+                "desc": "Carry-on luggage passes through X-ray or CT scanners while travelers proceed through walk-through metal detectors or body scanners."
+              },
+              {
+                "num": "03",
+                "title": "Airside Concourse & Dwell Time",
+                "area": "Airside Secure Zone",
+                "desc": "Ticketed passengers spend their dwell hour in duty-free retail, dining areas, and gate lounges while monitoring Flight Information Displays (FIDS)."
+              },
+              {
+                "num": "04",
+                "title": "Boarding Gate & Jet Bridge",
+                "area": "Airside Departure Gate",
+                "desc": "Gate agents scan boarding passes and verify passports before passengers cross the jet bridge (airbridge) onto the aircraft."
+              },
+              {
+                "num": "05",
+                "title": "Special Assistance (PRM)",
+                "area": "Terminal-Wide Service",
+                "desc": "Dedicated ground teams facilitate Passengers with Reduced Mobility (PRM) via electric buggies, specialized lifts, and priority access."
+              }
+            ],
+            "dilemmas": [
+              {
+                "id": 1,
+                "badge": "Biometric E-Gates vs Privacy",
+                "statement": "Should international airports implement 100% contactless biometric facial recognition at all checkpoints, replacing physical passports and boarding passes?",
+                "pro": "Biometrics dramatically reduces queue times, eliminates fraudulent documents, and accelerates passenger boarding by over 30%.",
+                "con": "Centralized storage of passenger facial templates poses cyber-security risks, raises civil privacy concerns, and risks algorithmic bias.",
+                "prompt": "Interview your partner: How do you balance passenger processing speed with biometric data privacy?"
+              },
+              {
+                "id": 2,
+                "badge": "Fully Automated Bag Drop vs Staffing",
+                "statement": "Should airports replace traditional staffed check-in counters entirely with automated bag-drop conveyor machines?",
+                "pro": "Self-service bag drop cuts airline labor costs, operates 24/7 without shift gaps, and reduces terminal floor space requirements.",
+                "con": "Elderly, disabled, or infrequent travelers struggle with self-tagging, generating passenger stress and kiosk congestion when luggage tags tear.",
+                "prompt": "Interview your partner: What customer assistance protocols should ground operations maintain when check-in is automated?"
+              }
+            ]
+          },
+          "prepositionsClinic": {
+            "title": "Activity 3: Language Clinic: Prepositions of Place, Direction & Movement (25 mins)",
+            "summary": "Master the spatial grammar of aerodrome navigation. Distinguish fixed nodes (AT) from enclosed halls (IN), flat operational surfaces (ON), and linear traversal (ALONG, ACROSS, THROUGH).",
+            "rules": [
+              {
+                "title": "1. AT (Specific Nodes & Points)",
+                "rule": "Counters, gates, holding lines, and exact service stations.",
+                "example": "Passengers must assemble <strong>at Gate B14</strong> twenty minutes prior to departure."
+              },
+              {
+                "title": "2. IN (Enclosed Volumes & Rooms)",
+                "rule": "Interior terminal spaces, lounges, and covered hangars.",
+                "example": "Travelers may wait comfortably <strong>in the departure lounge</strong> or browse duty-free."
+              },
+              {
+                "title": "3. ON (Operational Surfaces & Lines)",
+                "rule": "Pavement, aprons, taxiways, runways, and centerlines.",
+                "example": "The regional aircraft is parked <strong>on Stand 06</strong> on the terminal apron."
+              },
+              {
+                "title": "4. Directional Motion (Through / Along / Across)",
+                "rule": "Traversal path, boundary crossing, and linear tracking.",
+                "example": "The aircraft taxied <strong>along Taxiway Alpha</strong> and held short <strong>of Runway 27</strong>."
+              }
+            ],
+            "challenge": {
+              "title": "Interactive Spatial Challenge: Spot the Correct Preposition",
+              "instructions": "Select the correct spatial preposition for each operational airport scenario, then click 'Verify Rationale' to inspect the rule.",
+              "questions": [
+                {
+                  "id": 1,
+                  "context": "Passenger Security Screening",
+                  "sentence": "Departing passengers must walk ________ the millimeter-wave body scanner before entering airside.",
+                  "options": ["A) through", "B) across", "C) at"],
+                  "correct": "A) through",
+                  "explanation": "Traversal through an enclosed 3D threshold or portal requires the preposition 'through'."
+                },
+                {
+                  "id": 2,
+                  "context": "Apron Pushback Procedure",
+                  "sentence": "The pushback tug slowly moved the passenger aircraft backward ________ the active apron transit lane.",
+                  "options": ["A) onto", "B) into", "C) at"],
+                  "correct": "A) onto",
+                  "explanation": "Movement towards and positioning upon an open, flat operational pavement surface uses 'onto'."
+                },
+                {
+                  "id": 3,
+                  "context": "Ground Vehicular Traffic Crossing",
+                  "sentence": "Baggage tractor drivers must never drive ________ the active taxiway without visual verification and clearance.",
+                  "options": ["A) across", "B) along", "C) in"],
+                  "correct": "A) across",
+                  "explanation": "Motion from one side of a surface boundary or linear corridor to the opposite side requires 'across'."
+                },
+                {
+                  "id": 4,
+                  "context": "Boarding Gate Assembly",
+                  "sentence": "Passenger assistance agents are stationed ________ the automated boarding gate to assist travelers with infants.",
+                  "options": ["A) at", "B) on", "C) in"],
+                  "correct": "A) at",
+                  "explanation": "Specific service counters, numbered gates, and operational checkpoints take the preposition 'at'."
+                }
+              ]
+            }
+          },
+          "airsideCaseStudy": {
+            "title": "Activity 4: Operational Case Study: Unauthorized Apron Access (25 mins)",
+            "summary": "A disoriented passenger who missed their boarding call pushed through an emergency exit door onto the terminal apron looking for their plane, triggering a ramp safety alert.",
+            "roles": [
+              {
+                "role": "Role A: Aerodrome Ground Liaison / AFISO Trainee",
+                "mission": "Broadcast a clear VHF alert to ground vehicles. Give precise spatial coordinates of the passenger using accurate prepositions. Coordinate with the ramp service team to intercept the traveler calmly without causing a panic, and escort them back through the secure airside door.",
+                "keyPhrases": [
+                  "\"All apron vehicles on Service Road Bravo, hold position immediately.\"",
+                  "\"We have an unauthorized passenger on the apron, 30 meters from Stand 4, walking towards Taxiway Alpha.\"",
+                  "\"Ramp Escort Team, please proceed along the yellow safety walkway to intercept the individual.\"",
+                  "\"Sir, please remain at your current position; our ground operations team is escorting you back into the terminal concourse.\""
+                ]
+              },
+              {
+                "role": "Role B: Ramp Service Escort Lead",
+                "mission": "Acknowledge the alert; confirm your vehicle or foot position; intercept the traveler courteously; explain the severe danger of active jet engines, prop wash, and service vehicles; guide them safely back inside the terminal building.",
+                "keyPhrases": [
+                  "\"Ground Liaison, Ramp Escort 2 copies; I have visual contact on the passenger near the fueling hydrant cart.\"",
+                  "\"Approaching the traveler on foot along Stand 4 boundary line now.\"",
+                  "\"Good afternoon sir; this apron area is strictly restricted to authorized staff due to moving aircraft. Please follow me back into the lounge.\"",
+                  "\"Ground Liaison, individual secured and escorted back into Gate B12 lounge. Apron Stand 4 clear to resume operations.\""
+                ]
+              }
+            ],
+            "task": "Conduct a 4-minute spoken VHF radio exchange and de-escalation role-play. Focus on spatial precision, professional composure, and clear prepositions. Then swap roles."
+          },
+          "guidanceWorkshop": {
+            "title": "Activity 5: Airfield Guidance Markings & Spoken Briefing (25 mins)",
+            "summary": "Analyze the visual aids, taxiway guidance lines, and runway designators that ensure safe ground navigation, then deliver a 60-second spoken safety briefing.",
+            "markings": [
+              {
+                "id": 1,
+                "badge": "Magnetic Heading",
+                "title": "Runway Designators (Numbers & Letters)",
+                "desc": "A two-digit number painted on runway thresholds indicating magnetic azimuth to the nearest 10 degrees. Runway 09 points 090° (East); reciprocal threshold 27 points 270° (West). Parallel runways add L (Left), C (Center), or R (Right)."
+              },
+              {
+                "id": 2,
+                "badge": "Taxiway Guidance",
+                "title": "Taxiway Centerline & Boundary Lines",
+                "desc": "A continuous solid yellow line along the center of a taxiway that pilots track with nose gear to ensure wingtip obstacle clearance. Double dashed yellow edge lines denote apron taxi lane boundaries."
+              },
+              {
+                "id": 3,
+                "badge": "Mandatory Stop Line",
+                "title": "Runway-Holding Position Markings",
+                "desc": "Consists of two solid yellow lines and two dashed yellow lines painted across the taxiway. Aircraft approaching the runway must stop before the solid lines until cleared to enter or cross."
+              },
+              {
+                "id": 4,
+                "badge": "Incursion Defense",
+                "title": "Stop Bars & Red Mandatory Signs",
+                "desc": "A row of flush red lights embedded across the taxiway pavement accompanied by red signs with white lettering (e.g., 09-27). When illuminated, no vehicle or aircraft may cross."
+              }
+            ],
+            "spokenHandoverModel": {
+              "title": "60-Second Airfield Safety Briefing Model",
+              "text": "\"Good morning team. Here is our daily airfield pavement inspection summary for Runway 09/27 and its associated taxiway network. Pavement friction levels along Runway 09 Left are within nominal safety thresholds, but recent repaving near Holding Point Bravo has temporarily obscured the double solid holding position lines. A NOTAM has been issued, and maintenance crews will repaint the mandatory markings tonight at 2300 hours. In the interim, all ground vehicle operators must exercise heightened vigilance when holding short at Bravo, and verify taxiway centerline alignment on Taxiway Alpha due to ongoing apron stand expansion. Thank you.\""
+            }
+          },
+          "closingReview": {
+            "title": "Activity 6: 10-Minute Vocabulary Review, Pronunciation & Class Wrap-Up (10 mins)",
+            "summary": "Consolidate today's 18 technical vocabulary terms, practice syllable stress, and update your personal English learning portfolio.",
+            "reviewPrompts": [
+              {
+                "title": "Rapid Operational Distinction",
+                "desc": "Can you explain the practical difference between Movement Area and Manoeuvring Area, and between Dwell Time and TAT?"
+              },
+              {
+                "title": "Word Stress & Pronunciation Spot-Check",
+                "desc": "Check syllable stress: fa-CI-li-ta-tion (5 syllables), ma-NOEU-vring (3 syllables), in-CUR-sion (3 syllables), de-SIG-na-tor (4 syllables)."
+              },
+              {
+                "title": "Personal Portfolio Reflection",
+                "desc": "Record two spatial prepositions and one operational radio phrase you practiced during today's apron case study into your learning log."
+              }
+            ]
+          }
         },
         "revision": {
           "title": "Session 2 Revision - Passenger Flow & Airfield Movement Areas",
@@ -6360,7 +6617,7 @@
             {
               "num": "11",
               "term": "Manoeuvring Area",
-              "definition": "The runways and taxiways strictly controlled by the air traffic tower, excluding terminal aprons."
+              "definition": "The runways and taxiways strictly managed for aircraft surface movements, distinct from terminal servicing aprons."
             },
             {
               "num": "12",
