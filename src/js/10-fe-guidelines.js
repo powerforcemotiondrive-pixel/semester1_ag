@@ -473,6 +473,8 @@
         </div>
         `;
         return;
+      }
+
       if (isAas && modNum === 3) {
         bodyEl.innerHTML = `
         <div class="space-y-6">
@@ -1758,6 +1760,9 @@
           </div>
         </div>
         `;
+        return;
+      }
+
       if (isAas && modNum === 3) {
         bodyEl.innerHTML = `
         <div class="space-y-6">
@@ -2165,6 +2170,11 @@
               <p class="text-slate-600">Reads presentation directly, severe communication barriers, one partner silent, missing vocabulary log.</p>
             </div>
           </div>
+        </div>
+        `;
+        return;
+      }
+
       if (isAas && modNum === 3) {
         bodyEl.innerHTML = `
         <div class="space-y-6">
