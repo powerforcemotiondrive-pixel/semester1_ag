@@ -458,6 +458,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening &amp; Catch-Up</span>
             </div>
 
+            ${renderActivityInstructions(opening, theme)}
+
             <!-- News Prompts -->
             <div class="p-4 bg-amber-50/70 border border-amber-200 rounded-xl space-y-2">
               <div class="flex items-center gap-2">
@@ -511,6 +513,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Journey Mapping</span>
             </div>
+
+            ${renderActivityInstructions(journey, theme)}
 
             <!-- 5 Sequential Touchpoints -->
             <div class="space-y-2">
@@ -588,6 +592,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Grammar &amp; Precision</span>
             </div>
 
+            ${renderActivityInstructions(preps, theme)}
+
             <!-- 4 Rule Cards -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
               ${(preps.rules || []).map((r, i) => {
@@ -659,6 +665,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Airside Intercept Role-Play</span>
             </div>
 
+            ${renderActivityInstructions(caseStudy, theme)}
+
             <!-- Role Cards -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               ${(caseStudy.roles || []).map((r, rIdx) => {
@@ -704,6 +712,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Ground Guidance Systems</span>
             </div>
 
+            ${renderActivityInstructions(guidance, theme)}
+
             <!-- 4 Guidance Markings Cards -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
               ${(guidance.markings || []).map(m => `
@@ -747,6 +757,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Closing Consolidation</span>
             </div>
+
+            ${renderActivityInstructions(closing, theme)}
 
             <!-- Review Prompts -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
@@ -2142,6 +2154,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
             </div>
 
+            ${renderActivityInstructions(opening, theme)}
+
             <!-- News Prompts -->
             <div class="p-4 bg-amber-50/70 border border-amber-200 rounded-xl space-y-2">
               <div class="flex items-center gap-2">
@@ -2196,6 +2210,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Historical Analysis</span>
             </div>
 
+            ${renderActivityInstructions(timeline, theme)}
+
             <!-- 4 Epochs Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5">
               ${(timeline.epochs || []).map(ep => `
@@ -2240,6 +2256,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Corridor Pitch</span>
             </div>
 
+            ${renderActivityInstructions(corridor, theme)}
+
             <!-- Corridors Grid -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5">
               ${(corridor.corridors || []).map(c => `
@@ -2278,6 +2296,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Grammar in Context</span>
             </div>
+
+            ${renderActivityInstructions(grammar, theme)}
 
             <!-- Rules Grid -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
@@ -2334,6 +2354,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">DDRS Audit</span>
             </div>
 
+            ${renderActivityInstructions(caseStudy, theme)}
+
             <div class="p-3.5 bg-amber-50/70 border border-amber-200 rounded-xl text-xs text-amber-950 leading-relaxed">
               <strong>Scenario:</strong> ${caseStudy.scenario}
             </div>
@@ -2369,6 +2391,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Wrap-Up &amp; Fluency Game</span>
             </div>
+
+            ${renderActivityInstructions(closing, theme)}
 
             <!-- Vocabulary Rapid Audio Drill -->
             <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5">
@@ -2485,6 +2509,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
             </div>
+
+            ${renderActivityInstructions(opening, theme)}
 
             <!-- News Prompts -->
             <div class="p-4 bg-amber-50/70 border border-amber-200 rounded-xl space-y-2">
@@ -2605,6 +2631,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Grammar in Context</span>
             </div>
 
+            ${renderActivityInstructions(grammar, theme)}
+
             <!-- Rules Grid -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
               ${(grammar.rules || []).map(r => `
@@ -2686,6 +2714,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Wrap-Up &amp; Fluency Game</span>
             </div>
+
+            ${renderActivityInstructions(closing, theme)}
 
             <!-- Vocabulary Rapid Audio Drill -->
             <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5">
@@ -2803,6 +2833,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
             </div>
 
+            ${renderActivityInstructions(opening, theme)}
+
             <!-- News Prompts -->
             <div class="p-4 bg-amber-50/70 border border-amber-200 rounded-xl space-y-2">
               <div class="flex items-center gap-2">
@@ -2896,6 +2928,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Grammar in Context</span>
             </div>
+
+            ${renderActivityInstructions(grammar, theme)}
 
             <!-- Rules Grid -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3">

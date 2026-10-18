@@ -16,124 +16,124 @@
     "name": "Module 1",
     "title": "Travel, Transport & Leisure",
     "ddrs": {
-      "title": "D\u00e9veloppement Durable & Responsabilit\u00e9 Soci\u00e9tale : Tags et D\u00e9finitions Officielles",
-      "summary": "Le R\u00e9f\u00e9rentiel National DD&RS de l'Enseignement Sup\u00e9rieur et de la Recherche (Label DD&RS) structure les engagements \u00e9cologiques, soci\u00e9taux et \u00e9thiques des \u00e9tablissements et des grands projets de transport selon 5 axes strat\u00e9giques et leurs domaines transversaux d'application.",
+      "title": "Développement Durable & Responsabilité Sociétale : Tags et Définitions Officielles",
+      "summary": "Le Référentiel National DD&RS de l'Enseignement Supérieur et de la Recherche (Label DD&RS) structure les engagements écologiques, sociétaux et éthiques des établissements et des grands projets de transport selon 5 axes stratégiques et leurs domaines transversaux d'application.",
       "pageUrl": "ddrs1.html",
       "axes": [
         {
           "badge": "Axe 1",
           "num": "1.",
-          "title": "Gouvernance et Strat\u00e9gie",
-          "desc": "Int\u00e9gration du d\u00e9veloppement durable dans la vision, le projet d'\u00e9tablissement et le pilotage d\u00e9cisionnel. Dialogue continu avec les parties prenantes (\u00e9tudiants, personnels, collectivit\u00e9s, partenaires), allocation de budgets d\u00e9di\u00e9s et suivi d'indicateurs d'impact mesurables."
+          "title": "Gouvernance et Stratégie",
+          "desc": "Intégration du développement durable dans la vision, le projet d'établissement et le pilotage décisionnel. Dialogue continu avec les parties prenantes (étudiants, personnels, collectivités, partenaires), allocation de budgets dédiés et suivi d'indicateurs d'impact mesurables."
         },
         {
           "badge": "Axe 2",
           "num": "2.",
-          "title": "Formation et P\u00e9dagogie",
-          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-\u00e9cologique (limites plan\u00e9taires, climat, biodiversit\u00e9). Int\u00e9gration transversale des comp\u00e9tences DD&RS (rapport Jouzel / socle MESR) pour pr\u00e9parer les ing\u00e9nieurs \u00e0 la prise de d\u00e9cision \u00e9thique et responsable."
+          "title": "Formation et Pédagogie",
+          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-écologique (limites planétaires, climat, biodiversité). Intégration transversale des compétences DD&RS (rapport Jouzel / socle MESR) pour préparer les ingénieurs à la prise de décision éthique et responsable."
         },
         {
           "badge": "Axe 3",
           "num": "3.",
           "title": "Recherche et Innovation",
-          "desc": "Orientation et valorisation de l'activit\u00e9 scientifique et technologique en r\u00e9ponse aux Objectifs de D\u00e9veloppement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, \u00e9co-conception et transfert de technologies vertes au service de la soci\u00e9t\u00e9."
+          "desc": "Orientation et valorisation de l'activité scientifique et technologique en réponse aux Objectifs de Développement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, éco-conception et transfert de technologies vertes au service de la société."
         },
         {
           "badge": "Axe 4",
           "num": "4.",
           "title": "Gestion Environnementale",
-          "desc": "Ma\u00eetrise et r\u00e9duction continue des impacts \u00e9cologiques directs : d\u00e9carbonation des mobilit\u00e9s pendulaires et professionnelles, efficacit\u00e9 et sobri\u00e9t\u00e9 \u00e9nerg\u00e9tique du patrimoine b\u00e2ti, gestion circulaire des d\u00e9chets, pr\u00e9servation de la biodiversit\u00e9 sur site et achats publics responsables."
+          "desc": "Maîtrise et réduction continue des impacts écologiques directs : décarbonation des mobilités pendulaires et professionnelles, efficacité et sobriété énergétique du patrimoine bâti, gestion circulaire des déchets, préservation de la biodiversité sur site et achats publics responsables."
         },
         {
           "badge": "Axe 5",
           "num": "5.",
           "title": "Politique Sociale et Inclusion",
-          "desc": "Engagement institutionnel pour la responsabilit\u00e9 soci\u00e9tale : \u00e9galit\u00e9 professionnelle femmes-hommes, inclusion et accessibilit\u00e9 des personnes en situation de handicap, \u00e9galit\u00e9 des chances, am\u00e9lioration de la qualit\u00e9 de vie et sant\u00e9 globale, et pr\u00e9vention de toute forme de discrimination."
+          "desc": "Engagement institutionnel pour la responsabilité sociétale : égalité professionnelle femmes-hommes, inclusion et accessibilité des personnes en situation de handicap, égalité des chances, amélioration de la qualité de vie et santé globale, et prévention de toute forme de discrimination."
         }
       ],
       "items": [
         {
           "badge": "Axe 1",
           "num": "1.",
-          "title": "Gouvernance et Strat\u00e9gie",
-          "desc": "Int\u00e9gration du d\u00e9veloppement durable dans la vision, le projet d'\u00e9tablissement et le pilotage d\u00e9cisionnel. Dialogue continu avec les parties prenantes (\u00e9tudiants, personnels, collectivit\u00e9s, partenaires), allocation de budgets d\u00e9di\u00e9s et suivi d'indicateurs d'impact mesurables.",
+          "title": "Gouvernance et Stratégie",
+          "desc": "Intégration du développement durable dans la vision, le projet d'établissement et le pilotage décisionnel. Dialogue continu avec les parties prenantes (étudiants, personnels, collectivités, partenaires), allocation de budgets dédiés et suivi d'indicateurs d'impact mesurables.",
           "isMuted": false
         },
         {
           "badge": "Axe 2",
           "num": "2.",
-          "title": "Formation et P\u00e9dagogie",
-          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-\u00e9cologique (limites plan\u00e9taires, climat, biodiversit\u00e9). Int\u00e9gration transversale des comp\u00e9tences DD&amp;RS (rapport Jouzel / socle MESR) pour pr\u00e9parer les ing\u00e9nieurs \u00e0 la prise de d\u00e9cision \u00e9thique et responsable.",
+          "title": "Formation et Pédagogie",
+          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-écologique (limites planétaires, climat, biodiversité). Intégration transversale des compétences DD&amp;RS (rapport Jouzel / socle MESR) pour préparer les ingénieurs à la prise de décision éthique et responsable.",
           "isMuted": false
         },
         {
           "badge": "Axe 3",
           "num": "3.",
           "title": "Recherche et Innovation",
-          "desc": "Orientation et valorisation de l'activit\u00e9 scientifique et technologique en r\u00e9ponse aux Objectifs de D\u00e9veloppement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, \u00e9co-conception et transfert de technologies vertes au service de la soci\u00e9t\u00e9.",
+          "desc": "Orientation et valorisation de l'activité scientifique et technologique en réponse aux Objectifs de Développement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, éco-conception et transfert de technologies vertes au service de la société.",
           "isMuted": false
         },
         {
           "badge": "Axe 4",
           "num": "4.",
           "title": "Gestion Environnementale",
-          "desc": "Ma\u00eetrise et r\u00e9duction continue des impacts \u00e9cologiques directs : d\u00e9carbonation des mobilit\u00e9s pendulaires et professionnelles, efficacit\u00e9 et sobri\u00e9t\u00e9 \u00e9nerg\u00e9tique du patrimoine b\u00e2ti, gestion circulaire des d\u00e9chets, pr\u00e9servation de la biodiversit\u00e9 sur site et achats publics responsables.",
+          "desc": "Maîtrise et réduction continue des impacts écologiques directs : décarbonation des mobilités pendulaires et professionnelles, efficacité et sobriété énergétique du patrimoine bâti, gestion circulaire des déchets, préservation de la biodiversité sur site et achats publics responsables.",
           "isMuted": false
         },
         {
           "badge": "Axe 5",
           "num": "5.",
           "title": "Politique Sociale et Inclusion",
-          "desc": "Engagement institutionnel pour la responsabilit\u00e9 soci\u00e9tale : \u00e9galit\u00e9 professionnelle femmes-hommes, inclusion et accessibilit\u00e9 des personnes en situation de handicap, \u00e9galit\u00e9 des chances, am\u00e9lioration de la qualit\u00e9 de vie et sant\u00e9 globale, et pr\u00e9vention de toute forme de discrimination.",
+          "desc": "Engagement institutionnel pour la responsabilité sociétale : égalité professionnelle femmes-hommes, inclusion et accessibilité des personnes en situation de handicap, égalité des chances, amélioration de la qualité de vie et santé globale, et prévention de toute forme de discrimination.",
           "isMuted": true
         },
         {
           "badge": "Tag",
           "num": "6.",
-          "title": "Mobilit\u00e9 Durable &amp; Report Modal (Sustainable Mobility)",
-          "desc": "Strat\u00e9gie d'optimisation des transports articul\u00e9e autour de la hi\u00e9rarchie \u00ab \u00c9viter - Transf\u00e9rer - Am\u00e9liorer \u00bb (ASI). Promotion active du report modal vers le ferroviaire, les transports en commun et les mobilit\u00e9s douces face \u00e0 l'autosolisme et aux vols court-courriers.",
+          "title": "Mobilité Durable &amp; Report Modal (Sustainable Mobility)",
+          "desc": "Stratégie d'optimisation des transports articulée autour de la hiérarchie « Éviter - Transférer - Améliorer » (ASI). Promotion active du report modal vers le ferroviaire, les transports en commun et les mobilités douces face à l'autosolisme et aux vols court-courriers.",
           "isMuted": true
         },
         {
           "badge": "Tag",
           "num": "7.",
-          "title": "Bilan d'\u00c9missions de GES (BEGES / Bilan Carbone)",
-          "desc": "Comptabilisation r\u00e9glementaire des gaz \u00e0 effet de serre (m\u00e9thode ADEME / ISO 14064) sur les trois p\u00e9rim\u00e8tres : Scope 1 (\u00e9missions directes), Scope 2 (\u00e9missions indirectes \u00e9nerg\u00e9tiques) et Scope 3 (\u00e9missions indirectes amont/aval : d\u00e9placements, achats, logistique et cycle de vie).",
+          "title": "Bilan d'Émissions de GES (BEGES / Bilan Carbone)",
+          "desc": "Comptabilisation réglementaire des gaz à effet de serre (méthode ADEME / ISO 14064) sur les trois périmètres : Scope 1 (émissions directes), Scope 2 (émissions indirectes énergétiques) et Scope 3 (émissions indirectes amont/aval : déplacements, achats, logistique et cycle de vie).",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "8.",
-          "title": "Sobri\u00e9t\u00e9 \u00c9nerg\u00e9tique &amp; Efficacit\u00e9",
-          "desc": "D\u00e9marche articulant la sobri\u00e9t\u00e9 (questionnement et r\u00e9duction des consommations par la modification des comportements et des usages collectifs) et l'efficacit\u00e9 (optimisation technique des rendements \u00e9nerg\u00e9tiques pour un m\u00eame niveau de service).",
+          "title": "Sobriété Énergétique &amp; Efficacité",
+          "desc": "Démarche articulant la sobriété (questionnement et réduction des consommations par la modification des comportements et des usages collectifs) et l'efficacité (optimisation technique des rendements énergétiques pour un même niveau de service).",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "9.",
-          "title": "Pr\u00e9servation de la Biodiversit\u00e9 &amp; Z\u00e9ro Artificialisation Nette (ZAN)",
-          "desc": "Protection des \u00e9cosyst\u00e8mes et des continuit\u00e9s \u00e9cologiques (trames vertes et bleues). Application des exigences l\u00e9gales (loi Climat et R\u00e9silience) visant \u00e0 stopper la disparition nette d'espaces naturels et agricoles caus\u00e9e par les infrastructures et l'am\u00e9nagement.",
+          "title": "Préservation de la Biodiversité &amp; Zéro Artificialisation Nette (ZAN)",
+          "desc": "Protection des écosystèmes et des continuités écologiques (trames vertes et bleues). Application des exigences légales (loi Climat et Résilience) visant à stopper la disparition nette d'espaces naturels et agricoles causée par les infrastructures et l'aménagement.",
           "isMuted": true
         },
         {
           "badge": "Tag",
           "num": "10.",
-          "title": "\u00c9quit\u00e9 Territoriale &amp; Accessibilit\u00e9 (Territorial Equity)",
-          "desc": "Principe de justice spatiale garantissant un acc\u00e8s universel, abordable et s\u00e9curis\u00e9 aux r\u00e9seaux de transport et aux services d'int\u00e9r\u00eat g\u00e9n\u00e9ral pour l'ensemble des territoires (urbains, p\u00e9riurbains et ruraux), luttant contre la fracture et la pr\u00e9carit\u00e9 mobilit\u00e9.",
+          "title": "Équité Territoriale &amp; Accessibilité (Territorial Equity)",
+          "desc": "Principe de justice spatiale garantissant un accès universel, abordable et sécurisé aux réseaux de transport et aux services d'intérêt général pour l'ensemble des territoires (urbains, périurbains et ruraux), luttant contre la fracture et la précarité mobilité.",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "11.",
           "title": "Achats Responsables &amp; Analyse du Cycle de Vie (ACV / LCA)",
-          "desc": "Int\u00e9gration syst\u00e9matique de crit\u00e8res environnementaux et sociaux dans la commande publique et priv\u00e9e. \u00c9valuation globale des impacts de chaque produit, infrastructure ou service de son extraction jusqu'\u00e0 son recyclage ou \u00e9limination finale.",
+          "desc": "Intégration systématique de critères environnementaux et sociaux dans la commande publique et privée. Évaluation globale des impacts de chaque produit, infrastructure ou service de son extraction jusqu'à son recyclage ou élimination finale.",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "12.",
-          "title": "Objectifs de D\u00e9veloppement Durable (ODD - Agenda 2030)",
-          "desc": "Cadre universel des Nations Unies comprenant 17 objectifs interd\u00e9pendants pour concilier prosp\u00e9rit\u00e9 \u00e9conomique, progr\u00e8s social et protection de la biosph\u00e8re. Les politiques de transport et d'ing\u00e9nierie s'articulent principalement autour des ODD 9, 11, 12 et 13.",
+          "title": "Objectifs de Développement Durable (ODD - Agenda 2030)",
+          "desc": "Cadre universel des Nations Unies comprenant 17 objectifs interdépendants pour concilier prospérité économique, progrès social et protection de la biosphère. Les politiques de transport et d'ingénierie s'articulent principalement autour des ODD 9, 11, 12 et 13.",
           "isMuted": false
         }
       ]
@@ -168,7 +168,7 @@
             {
               "num": 5,
               "title": "Prepare for the Class 5 Formative Evaluation (FE)",
-              "description": "Understand the exact assessment criteria\u2014vocabulary, fluency, grammar, and TOEIC-readiness\u2014for your Session 5 speaking evaluation, graded against official communication criteria."
+              "description": "Understand the exact assessment criteria—vocabulary, fluency, grammar, and TOEIC-readiness—for your Session 5 speaking evaluation, graded against official communication criteria."
             }
           ]
         },
@@ -180,32 +180,32 @@
               "time": "0-10",
               "title": "Part 1: Travel News & Course Entry Diagnostic (10 mins)",
               "description": "Discussing current travel headlines and checking foundational travel distinctions (layover vs. stopover, baggage allowance, direct flights) with partner recall."
-                      },
-                      {
+            },
+            {
               "time": "10-35",
               "title": "Part 2: TOEIC Diagnostic & Exam Strategy Workshop (25 mins)",
               "description": "Breakdown of the 200-question Listening & Reading exam, scaled scoring (10–990), time management pacing benchmarks (Parts 5 & 6 in 20–22 mins; 10-second listening rule)."
-                      },
-                      {
+            },
+            {
               "time": "35-55",
               "title": "Part 3: Essential Travel Collocations & Idioms (20 mins)",
               "description": "Mastering high-frequency B2 collocations (book in advance, clear customs, miss a connection) and common idioms (off the beaten track, hit the road, in the driver's seat)."
-                      },
-                      {
+            },
+            {
               "time": "55-80",
               "title": "Part 4: Grammar Clinic — Narrative Tenses & Storytelling Inversions (25 mins)",
               "description": "Combining Past Simple and Past Continuous for setting scenes, and using high-impact inversions (Hardly had I... when... / No sooner had we... than...) for dramatic storytelling."
-                      },
-                      {
+            },
+            {
               "time": "80-110",
               "title": "Part 5: Travel Disruptions Role-Play & DDRS Sustainable Mobility (30 mins)",
               "description": "De-escalating flight delays and missed connections in pairs, followed by analyzing carbon footprints across European travel modes (rail vs. air)."
-                      },
-                      {
+            },
+            {
               "time": "110-120",
               "title": "Part 6: 10-Minute Vocabulary Wrap-Up & Exit Ticket (10 mins)",
               "description": "Consolidation of the 18 introductory terms with audio pronunciation drill, word stress practice, and personal study log reflection."
-                      }
+            }
           ]
         },
         "revision": {
@@ -333,7 +333,7 @@
           ],
           "grammar": {
             "title": "How to Use the Present Perfect",
-            "badge": "B1\u2013B2 Grammar Focus",
+            "badge": "B1–B2 Grammar Focus",
             "patternTitle": "Sentence Pattern",
             "formula": "Subject + have / has + Past Participle (V3)",
             "rulesTitle": "When to Use It",
@@ -342,7 +342,7 @@
               "<strong style=\"color: #1e293b;\">2. Past action with a present result:</strong> The exact past time is not mentioned; what matters is the result right now (*\"We have updated our safety procedures\"*).",
               "<strong style=\"color: #1e293b;\">3. Recent updates:</strong> Marked by signal words like <span style=\"font-weight: 600; color: #334155;\">already</span>, <span style=\"font-weight: 600; color: #334155;\">yet</span>, <span style=\"font-weight: 600; color: #334155;\">recently</span>, <span style=\"font-weight: 600; color: #334155;\">just</span>, or <span style=\"font-weight: 600; color: #334155;\">lately</span>."
             ],
-            "trap": "<strong>\u26a0\ufe0f The #1 Past vs. Present Perfect Trap:</strong> Never use <em>have / has + V3</em> with finished past dates or times (like <em>yesterday</em>, <em>in 2020</em>, <em>two hours ago</em>, or <em>last year</em>). When you see a specific completed time, always choose the <strong>Past Simple</strong> (*introduced*, *allocated*)!",
+            "trap": "<strong>⚠️ The #1 Past vs. Present Perfect Trap:</strong> Never use <em>have / has + V3</em> with finished past dates or times (like <em>yesterday</em>, <em>in 2020</em>, <em>two hours ago</em>, or <em>last year</em>). When you see a specific completed time, always choose the <strong>Past Simple</strong> (*introduced*, *allocated*)!",
             "examplesTitle": "Workplace & Transit Examples",
             "examples": [
               "<em>\"The European Commission <strong>has allocated</strong> new funding for high-speed rail corridors <strong>since 2021</strong>.\"</em>",
@@ -377,37 +377,37 @@
           "resources": [
             {
               "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "01 \u2022 Exam Prep",
+              "tag": "01 • Exam Prep",
               "name": "Official ETS TOEIC Hub",
               "desc": "Review sample test questions, test timing rubrics, and the official score mapping guide for B2/C1 levels."
             },
             {
               "url": "https://www.iata.org/en/programs/sustainability/",
-              "tag": "02 \u2022 Sustainability",
+              "tag": "02 • Sustainability",
               "name": "IATA NetZero & Aviation Sustainability",
               "desc": "Authoritative data on the international airline industry's roadmap to net-zero carbon emissions by 2050."
             },
             {
               "url": "https://www.unwto.org/sustainable-development",
-              "tag": "03 \u2022 DD&RS Guidelines",
+              "tag": "03 • DD&RS Guidelines",
               "name": "UN Tourism Sustainable Development",
               "desc": "Global framework policies outlining sustainable destination management and community-based tourism (CBT)."
             },
             {
               "url": "https://dictionary.cambridge.org",
-              "tag": "04 \u2022 Collocations",
+              "tag": "04 • Collocations",
               "name": "Cambridge English Collocations & Idioms",
               "desc": "Check high-frequency B2/C1 travel combinations, prepositions with transit verbs, and formal business phrases."
             },
             {
               "url": "https://www.bbc.com/travel",
-              "tag": "05 \u2022 Travel Anecdotes",
+              "tag": "05 • Travel Anecdotes",
               "name": "BBC Travel Features & Culture",
               "desc": "Engaging journalistic articles and personal narrative essays to inspire your Session 1 travel anecdotes."
             },
             {
               "url": "https://www.icao.int/environmental-protection/CORSIA/Pages/default.aspx",
-              "tag": "06 \u2022 Environmental Policy",
+              "tag": "06 • Environmental Policy",
               "name": "ICAO CORSIA & Climate Action",
               "desc": "International Civil Aviation Organization carbon offsetting and reduction scheme policies for international aviation."
             }
@@ -560,314 +560,342 @@
           ]
         },
         "lessonContent": {
-                  "overview": {
-                            "image": "images/ag_m1card1.png",
-                            "title": "Introduction & Travel Anecdotes",
-                            "subtitle": "Travel Stories, Flight Disruptions & Sustainable Mobility",
-                            "badge": "Session Overview • Travel & Transport"
-                  },
-                  "hero": {
-                            "image": "images/ag_m1card1.png",
-                            "title": "Introduction & Travel Anecdotes",
-                            "subtitle": "Travel Stories, Flight Disruptions & Sustainable Mobility",
-                            "badge": "Session Overview • Travel & Transport"
-                  },
-                  "openingSession": {
-                    "modeBadges": ["👥 Pair Recall","⏱️ 5 min pairs + 5 min plenary","🗣️ Spoken Spot-Check"],
-                    "instructions": [
-                      "Step 1 (Headlines - 3 mins): In pairs, ask each other: \"What major travel or transit news caught your eye this week?\" Share one headline and its significance.",
-                      "Step 2 (Diagnostic Recall - 4 mins): Take turns testing each other on the 4 foundational travel distinctions below without looking at the answers.",
-                      "Step 3 (Verify - 3 mins): Click \"Reveal Answer\" to check your reasoning. Identify which distinction is easiest to confuse in spoken conversations."
-                    ],
-                    "deliverable": "Accurately articulate one travel distinction during the teacher spot-check.",
-                    "teacherNotes": "Cold-call 2 random pairs to define \"Layover vs. Stopover\" and \"Direct vs. Non-stop\". Clarify why airlines and booking portals define these differently. Board high-frequency collocations.",
-                            "title": "Activity 1: Travel News & Course Entry Diagnostic (10 mins)",
-                            "summary": "Every class begins with a 10-minute opening: discussing current travel headlines and checking our understanding of foundational travel terms.",
-                            "newsPrompts": [
-                    "What recent travel, transport, or tourism stories have you noticed in the headlines this week?",
-                    "How are high-speed rail lines and airlines competing for travelers on popular European routes?"
-                            ],
-                            "diagnostic": {
-                    "title": "Course Entry Diagnostic: Travel Vocabulary Check",
-                    "instructions": "Discuss each distinction in pairs, then click 'Reveal Answer' to verify your reasoning.",
-                    "questions": [
-            {
-                      "id": 1,
-                      "q": "What is the practical difference between a Layover and a Stopover?",
-                      "answer": "A layover is a brief stop between connecting flights (usually under 24 hours for international flights). A stopover is a planned, longer stay of 24 hours or more in the transit city before continuing to your final destination."
-            },
-            {
-                      "id": 2,
-                      "q": "What distinguishes a Direct Flight from a Non-Stop Flight?",
-                      "answer": "A non-stop flight flies from your departure airport to your destination without landing anywhere in between. A direct flight keeps the same flight number and aircraft, but may make a brief intermediate stop to refuel or pick up passengers."
-            },
-            {
-                      "id": 3,
-                      "q": "What is the difference between Baggage Allowance and Excess Baggage?",
-                      "answer": "Baggage allowance is the specific weight and dimensions of checked and carry-on luggage included free with your ticket. Excess baggage refers to any bags exceeding those limits, requiring extra fees at check-in."
-            },
-            {
-                      "id": 4,
-                      "q": "What is the difference between Peak Season and Off-Peak (Low) Season?",
-                      "answer": "Peak season is the time of year when tourist demand is highest (summer holidays, festivals), bringing crowded destinations and high prices. Off-peak season offers lower prices, fewer crowds, and quieter travel conditions."
+          "overview": {
+            "image": "images/ag_m1card1.png",
+            "title": "Introduction & Travel Anecdotes",
+            "subtitle": "Travel Stories, Flight Disruptions & Sustainable Mobility",
+            "badge": "Session Overview • Travel & Transport"
+          },
+          "hero": {
+            "image": "images/ag_m1card1.png",
+            "title": "Introduction & Travel Anecdotes",
+            "subtitle": "Travel Stories, Flight Disruptions & Sustainable Mobility",
+            "badge": "Session Overview • Travel & Transport"
+          },
+          "openingSession": {
+            "modeBadges": [
+              "👥 Pair Recall",
+              "⏱️ 5 min pairs + 5 min plenary",
+              "🗣️ Spoken Spot-Check"
+            ],
+            "instructions": [
+              "Step 1 (Headlines - 3 mins): In pairs, ask each other: \"What major travel or transit news caught your eye this week?\" Share one headline and its significance.",
+              "Step 2 (Diagnostic Recall - 4 mins): Take turns testing each other on the 4 foundational travel distinctions below without looking at the answers.",
+              "Step 3 (Verify - 3 mins): Click \"Reveal Answer\" to check your reasoning. Identify which distinction is easiest to confuse in spoken conversations."
+            ],
+            "deliverable": "Accurately articulate one travel distinction during the teacher spot-check.",
+            "teacherNotes": "Cold-call 2 random pairs to define \"Layover vs. Stopover\" and \"Direct vs. Non-stop\". Clarify why airlines and booking portals define these differently. Board high-frequency collocations.",
+            "title": "Activity 1: Travel News & Course Entry Diagnostic (10 mins)",
+            "summary": "Every class begins with a 10-minute opening: discussing current travel headlines and checking our understanding of foundational travel terms.",
+            "newsPrompts": [
+              "What recent travel, transport, or tourism stories have you noticed in the headlines this week?",
+              "How are high-speed rail lines and airlines competing for travelers on popular European routes?"
+            ],
+            "diagnostic": {
+              "title": "Course Entry Diagnostic: Travel Vocabulary Check",
+              "instructions": "Discuss each distinction in pairs, then click 'Reveal Answer' to verify your reasoning.",
+              "questions": [
+                {
+                  "id": 1,
+                  "q": "What is the practical difference between a Layover and a Stopover?",
+                  "answer": "A layover is a brief stop between connecting flights (usually under 24 hours for international flights). A stopover is a planned, longer stay of 24 hours or more in the transit city before continuing to your final destination."
+                },
+                {
+                  "id": 2,
+                  "q": "What distinguishes a Direct Flight from a Non-Stop Flight?",
+                  "answer": "A non-stop flight flies from your departure airport to your destination without landing anywhere in between. A direct flight keeps the same flight number and aircraft, but may make a brief intermediate stop to refuel or pick up passengers."
+                },
+                {
+                  "id": 3,
+                  "q": "What is the difference between Baggage Allowance and Excess Baggage?",
+                  "answer": "Baggage allowance is the specific weight and dimensions of checked and carry-on luggage included free with your ticket. Excess baggage refers to any bags exceeding those limits, requiring extra fees at check-in."
+                },
+                {
+                  "id": 4,
+                  "q": "What is the difference between Peak Season and Off-Peak (Low) Season?",
+                  "answer": "Peak season is the time of year when tourist demand is highest (summer holidays, festivals), bringing crowded destinations and high prices. Off-peak season offers lower prices, fewer crowds, and quieter travel conditions."
+                }
+              ]
             }
-                    ]
-                            }
-                  },
-                  "survey": {
-                    "modeBadges": ["👥 Speed-Dating Rotation","⏱️ 4 min per dilemma","🗣️ Spoken Debate","🎯 Agreement Signposts"],
-                    "instructions": [
-                      "Step 1 (Pair Setup): Partner A defends the statement; Partner B provides the counter-argument using the Support/Counter prompts.",
-                      "Step 2 (Timed Debate - 3 mins/topic): Speak for 90 seconds each. You MUST incorporate at least one target conversation signpost from the reference box below.",
-                      "Step 3 (Consensus & Rotate): Agree on a compromise position, record your partner's key point, and rotate to the next dilemma."
-                    ],
-                    "deliverable": "Summarize your partner's most convincing counter-argument during the class roundup.",
-                    "teacherNotes": "Enforce active speed-dating rotation: call \"Switch roles!\" every 4 minutes. Circulate to check usage of polite disagreement signposts (\"While I see your point, ...\"). Board 2 exceptional student phrases.",
-                            "title": "Activity 2: Global Travel Dilemmas: Speed Discussion (25 mins)",
-                            "summary": "Conduct structured speed-dating interviews on 4 prominent travel dilemmas. Practice expressing clear agreement or disagreement, providing concrete reasons, and using polite conversation signposts.",
-                            "signposts": [
-                    "\"In my view, travelers should definitely...\"",
-                    "\"While I understand the cost advantage, I believe that...\"",
-                    "\"We need to balance passenger comfort with environmental responsibility.\"",
-                    "\"From my personal travel experience, ...\""
-                            ],
-                            "topics": [
-                    {
-            "id": 1,
-            "badge": "Short Flights vs. High-Speed Rail",
-            "statement": "Should governments ban domestic flights when a direct train journey takes under 2.5 hours?",
-            "pro": "Trains emit up to 85% less carbon per passenger than airplanes, arrive directly in city centers, and do not require long security lines.",
-            "con": "Regional airports and airlines rely on domestic feeder flights to connect passengers to long-haul international flights.",
-            "prompt": "Interview your partner: Do you support banning short domestic flights? How could rail connections be improved?"
-                    },
-                    {
-            "id": 2,
-            "badge": "Hand Luggage Fees & Low-Cost Flights",
-            "statement": "Should budget airlines be banned from charging extra fees for standard cabin wheelie bags in the overhead lockers?",
-            "pro": "Including a carry-on bag is an essential passenger right; hidden fees mislead travelers and create frustration at the boarding gate.",
-            "con": "Unbundled pricing allows travelers who pack light to pay lower base fares and speeds up cabin boarding times.",
-            "prompt": "Interview your partner: How do baggage fees affect your travel budget and packing habits?"
-                    },
-                    {
-            "id": 3,
-            "badge": "Digital Passports & Biometrics",
-            "statement": "Should airports replace paper passports and boarding passes with mandatory facial recognition scanning?",
-            "pro": "Biometric e-gates reduce queues, eliminate boarding pass checks, and speed up airport departures significantly.",
-            "con": "Collecting biometric facial data creates privacy concerns, potential data breaches, and algorithmic errors.",
-            "prompt": "Interview your partner: Would you prefer faster airport queues if it required sharing your facial scan?"
-                    },
-                    {
-            "id": 4,
-            "badge": "Overtourism & Daily Visitor Fees",
-            "statement": "Should world-famous tourist cities (like Venice or Amsterdam) charge all day-trippers an entry fee to enter the historic center?",
-            "pro": "Entry fees generate funds to maintain historic streets, clean public spaces, and discourage disruptive day-trip crowds.",
-            "con": "Charging an entry fee turns public historical cities into theme parks and makes city culture less accessible for low-income visitors.",
-            "prompt": "Interview your partner: Is a daily tourist tax effective, or does it simply favor wealthy travelers?"
-                    }
-                            ]
-                  },
-                  "collocationsClinic": {
-                    "modeBadges": ["👥 Pair Challenge","⏱️ 10 min study + 10 min quiz","📝 Lexis Practice","🎯 B2 Collocations"],
-                    "instructions": [
-                      "Step 1 (Contextualize - 8 mins): Read each collocation and its workplace example with your partner. Create an original sentence using \"clear customs\" and \"miss a connection\".",
-                      "Step 2 (Quiz Challenge - 8 mins): Complete the 4-question interactive diagnostic challenge individually without looking at notes.",
-                      "Step 3 (Peer Review - 4 mins): Compare answers with your partner, click \"Check Answer\", and analyze why the distractors are incorrect."
-                    ],
-                    "deliverable": "Achieve 4/4 on the diagnostic quiz and record one new collocation in your personal study log.",
-                    "teacherNotes": "Emphasize prepositional dependency: \"book in advance\", \"off the beaten track\". In the quiz, highlight TOEIC Part 5 distractor patterns (e.g. adverbs modifying participle clauses).",
-                            "title": "Activity 3: Language Clinic: Essential Travel Collocations & Idioms (20 mins)",
-                            "summary": "Master high-frequency B2 collocations and common idioms used in travel, tourism, and everyday transport contexts.",
-                            "items": [
-                    {
-            "term": "Book in advance",
-            "type": "Collocation",
-            "meaning": "To reserve a flight, train seat, or hotel room before your travel date to secure availability and lower prices.",
-            "example": "To get the best rail fares across France, travelers should always <strong>book in advance</strong>."
-                    },
-                    {
-            "term": "Clear customs",
-            "type": "Collocation",
-            "meaning": "To pass through official government inspection checks when entering another country.",
-            "example": "It took only fifteen minutes to <strong>clear customs</strong> at the new international terminal."
-                    },
-                    {
-            "term": "Miss a connection",
-            "type": "Collocation",
-            "meaning": "To arrive too late for a scheduled connecting train, bus, or flight because of a previous delay.",
-            "example": "Because our first flight was delayed by fog, we <strong>missed our connection</strong> in Munich."
-                    },
-                    {
-            "term": "Off the beaten track",
-            "type": "Idiom",
-            "meaning": "Visiting quiet, unusual, or isolated places far away from crowded tourist hotspots.",
-            "example": "We preferred hiking <strong>off the beaten track</strong> in the Pyrenees rather than visiting crowded beach resorts."
-                    },
-                    {
-            "term": "Hit the road",
-            "type": "Idiom",
-            "meaning": "To start a journey or leave on a trip.",
-            "example": "We packed the car early in the morning so we could <strong>hit the road</strong> before the highway traffic built up."
-                    },
-                    {
-            "term": "In the driver's seat",
-            "type": "Idiom",
-            "meaning": "In full control of a situation, project, or travel plan.",
-            "example": "With online booking apps, independent travelers are completely <strong>in the driver's seat</strong>."
-                    }
-                            ],
-                            "challenge": {
-                    "title": "Travel Collocations Challenge: Choose the Right Phrase",
-                    "instructions": "Select the correct phrase to complete each sentence, then check the explanation.",
-                    "questions": [
-            {
-                      "id": 1,
-                      "sentence": "If your first train arrives late in Paris, you might ________ your TGV connection to Bordeaux.",
-                      "options": [
-                                "A) lose a connection",
-                                "B) miss a connection",
-                                "C) fail a connection"
-                      ],
-                      "correct": "B) miss a connection",
-                      "explanation": "The standard English collocation for arriving too late for transport is 'miss a connection' (not 'lose' or 'fail')."
-            },
-            {
-                      "id": 2,
-                      "sentence": "Instead of staying at an all-inclusive beach resort, they rented a cabin ________ in the countryside.",
-                      "options": [
-                                "A) off the beaten track",
-                                "B) out of the main street",
-                                "C) away from the tracks"
-                      ],
-                      "correct": "A) off the beaten track",
-                      "explanation": "'Off the beaten track' is the classic idiom for secluded, uncrowded destinations."
-            },
-            {
-                      "id": 3,
-                      "sentence": "International travelers carrying commercial merchandise are required to ________ before exiting the terminal.",
-                      "options": [
-                                "A) declare customs",
-                                "B) clear customs",
-                                "C) verify customs"
-                      ],
-                      "correct": "B) clear customs",
-                      "explanation": "The official collocation is 'clear customs' (pass through the border control and customs checkpoint)."
+          },
+          "survey": {
+            "modeBadges": [
+              "👥 Speed-Dating Rotation",
+              "⏱️ 4 min per dilemma",
+              "🗣️ Spoken Debate",
+              "🎯 Agreement Signposts"
+            ],
+            "instructions": [
+              "Step 1 (Pair Setup): Partner A defends the statement; Partner B provides the counter-argument using the Support/Counter prompts.",
+              "Step 2 (Timed Debate - 3 mins/topic): Speak for 90 seconds each. You MUST incorporate at least one target conversation signpost from the reference box below.",
+              "Step 3 (Consensus & Rotate): Agree on a compromise position, record your partner's key point, and rotate to the next dilemma."
+            ],
+            "deliverable": "Summarize your partner's most convincing counter-argument during the class roundup.",
+            "teacherNotes": "Enforce active speed-dating rotation: call \"Switch roles!\" every 4 minutes. Circulate to check usage of polite disagreement signposts (\"While I see your point, ...\"). Board 2 exceptional student phrases.",
+            "title": "Activity 2: Global Travel Dilemmas: Speed Discussion (25 mins)",
+            "summary": "Conduct structured speed-dating interviews on 4 prominent travel dilemmas. Practice expressing clear agreement or disagreement, providing concrete reasons, and using polite conversation signposts.",
+            "signposts": [
+              "\"In my view, travelers should definitely...\"",
+              "\"While I understand the cost advantage, I believe that...\"",
+              "\"We need to balance passenger comfort with environmental responsibility.\"",
+              "\"From my personal travel experience, ...\""
+            ],
+            "topics": [
+              {
+                "id": 1,
+                "badge": "Short Flights vs. High-Speed Rail",
+                "statement": "Should governments ban domestic flights when a direct train journey takes under 2.5 hours?",
+                "pro": "Trains emit up to 85% less carbon per passenger than airplanes, arrive directly in city centers, and do not require long security lines.",
+                "con": "Regional airports and airlines rely on domestic feeder flights to connect passengers to long-haul international flights.",
+                "prompt": "Interview your partner: Do you support banning short domestic flights? How could rail connections be improved?"
+              },
+              {
+                "id": 2,
+                "badge": "Hand Luggage Fees & Low-Cost Flights",
+                "statement": "Should budget airlines be banned from charging extra fees for standard cabin wheelie bags in the overhead lockers?",
+                "pro": "Including a carry-on bag is an essential passenger right; hidden fees mislead travelers and create frustration at the boarding gate.",
+                "con": "Unbundled pricing allows travelers who pack light to pay lower base fares and speeds up cabin boarding times.",
+                "prompt": "Interview your partner: How do baggage fees affect your travel budget and packing habits?"
+              },
+              {
+                "id": 3,
+                "badge": "Digital Passports & Biometrics",
+                "statement": "Should airports replace paper passports and boarding passes with mandatory facial recognition scanning?",
+                "pro": "Biometric e-gates reduce queues, eliminate boarding pass checks, and speed up airport departures significantly.",
+                "con": "Collecting biometric facial data creates privacy concerns, potential data breaches, and algorithmic errors.",
+                "prompt": "Interview your partner: Would you prefer faster airport queues if it required sharing your facial scan?"
+              },
+              {
+                "id": 4,
+                "badge": "Overtourism & Daily Visitor Fees",
+                "statement": "Should world-famous tourist cities (like Venice or Amsterdam) charge all day-trippers an entry fee to enter the historic center?",
+                "pro": "Entry fees generate funds to maintain historic streets, clean public spaces, and discourage disruptive day-trip crowds.",
+                "con": "Charging an entry fee turns public historical cities into theme parks and makes city culture less accessible for low-income visitors.",
+                "prompt": "Interview your partner: Is a daily tourist tax effective, or does it simply favor wealthy travelers?"
+              }
+            ]
+          },
+          "collocationsClinic": {
+            "modeBadges": [
+              "👥 Pair Challenge",
+              "⏱️ 10 min study + 10 min quiz",
+              "📝 Lexis Practice",
+              "🎯 B2 Collocations"
+            ],
+            "instructions": [
+              "Step 1 (Contextualize - 8 mins): Read each collocation and its workplace example with your partner. Create an original sentence using \"clear customs\" and \"miss a connection\".",
+              "Step 2 (Quiz Challenge - 8 mins): Complete the 4-question interactive diagnostic challenge individually without looking at notes.",
+              "Step 3 (Peer Review - 4 mins): Compare answers with your partner, click \"Check Answer\", and analyze why the distractors are incorrect."
+            ],
+            "deliverable": "Achieve 4/4 on the diagnostic quiz and record one new collocation in your personal study log.",
+            "teacherNotes": "Emphasize prepositional dependency: \"book in advance\", \"off the beaten track\". In the quiz, highlight TOEIC Part 5 distractor patterns (e.g. adverbs modifying participle clauses).",
+            "title": "Activity 3: Language Clinic: Essential Travel Collocations & Idioms (20 mins)",
+            "summary": "Master high-frequency B2 collocations and common idioms used in travel, tourism, and everyday transport contexts.",
+            "items": [
+              {
+                "term": "Book in advance",
+                "type": "Collocation",
+                "meaning": "To reserve a flight, train seat, or hotel room before your travel date to secure availability and lower prices.",
+                "example": "To get the best rail fares across France, travelers should always <strong>book in advance</strong>."
+              },
+              {
+                "term": "Clear customs",
+                "type": "Collocation",
+                "meaning": "To pass through official government inspection checks when entering another country.",
+                "example": "It took only fifteen minutes to <strong>clear customs</strong> at the new international terminal."
+              },
+              {
+                "term": "Miss a connection",
+                "type": "Collocation",
+                "meaning": "To arrive too late for a scheduled connecting train, bus, or flight because of a previous delay.",
+                "example": "Because our first flight was delayed by fog, we <strong>missed our connection</strong> in Munich."
+              },
+              {
+                "term": "Off the beaten track",
+                "type": "Idiom",
+                "meaning": "Visiting quiet, unusual, or isolated places far away from crowded tourist hotspots.",
+                "example": "We preferred hiking <strong>off the beaten track</strong> in the Pyrenees rather than visiting crowded beach resorts."
+              },
+              {
+                "term": "Hit the road",
+                "type": "Idiom",
+                "meaning": "To start a journey or leave on a trip.",
+                "example": "We packed the car early in the morning so we could <strong>hit the road</strong> before the highway traffic built up."
+              },
+              {
+                "term": "In the driver's seat",
+                "type": "Idiom",
+                "meaning": "In full control of a situation, project, or travel plan.",
+                "example": "With online booking apps, independent travelers are completely <strong>in the driver's seat</strong>."
+              }
+            ],
+            "challenge": {
+              "title": "Travel Collocations Challenge: Choose the Right Phrase",
+              "instructions": "Select the correct phrase to complete each sentence, then check the explanation.",
+              "questions": [
+                {
+                  "id": 1,
+                  "sentence": "If your first train arrives late in Paris, you might ________ your TGV connection to Bordeaux.",
+                  "options": [
+                    "A) lose a connection",
+                    "B) miss a connection",
+                    "C) fail a connection"
+                  ],
+                  "correct": "B) miss a connection",
+                  "explanation": "The standard English collocation for arriving too late for transport is 'miss a connection' (not 'lose' or 'fail')."
+                },
+                {
+                  "id": 2,
+                  "sentence": "Instead of staying at an all-inclusive beach resort, they rented a cabin ________ in the countryside.",
+                  "options": [
+                    "A) off the beaten track",
+                    "B) out of the main street",
+                    "C) away from the tracks"
+                  ],
+                  "correct": "A) off the beaten track",
+                  "explanation": "'Off the beaten track' is the classic idiom for secluded, uncrowded destinations."
+                },
+                {
+                  "id": 3,
+                  "sentence": "International travelers carrying commercial merchandise are required to ________ before exiting the terminal.",
+                  "options": [
+                    "A) declare customs",
+                    "B) clear customs",
+                    "C) verify customs"
+                  ],
+                  "correct": "B) clear customs",
+                  "explanation": "The official collocation is 'clear customs' (pass through the border control and customs checkpoint)."
+                }
+              ]
             }
-                    ]
-                            }
-                  },
-                  "grammarClinic": {
-                    "modeBadges": ["👤 Individual Prep + 👥 Spoken Exchange","⏱️ 10 min rules + 15 min storytelling","🎯 Past Perfect & Inversions"],
-                    "instructions": [
-                      "Step 1 (Rule Master - 8 mins): Review the 3 narrative formulas: scene-setting (Past Continuous), sequence (Past Simple), and background trigger (Past Perfect).",
-                      "Step 2 (Sentence Inversion - 7 mins): Complete the sentence inversion practice prompts. Click \"Show Model Answer\" to verify subject-auxiliary word order.",
-                      "Step 3 (Storytelling Practice - 10 mins): In pairs, tell a 90-second personal travel anecdote about a flight delay, train mix-up, or lost item. Include at least one dramatic inversion (\"Hardly had I... when...\")."
-                    ],
-                    "deliverable": "Deliver a 90-second travel anecdote incorporating one negative inversion structure.",
-                    "teacherNotes": "Watch for the common French false friend inversion error: ensure auxiliary verb precedes the subject (\"Hardly had I arrived...\", NOT \"Hardly I had arrived...\"). Invite one student with a dramatic anecdote to share with the whole class.",
-                            "title": "Activity 4: Grammar Clinic: Narrative Tenses & Storytelling Inversions (25 mins)",
-                            "summary": "Use Past Simple and Past Continuous together to set scenes and describe sudden events. Then use inversion structures to tell dramatic travel stories.",
-                            "rules": [
-                    {
-            "title": "1. Setting the Scene (Past Continuous + Past Simple)",
-            "formula": "While / As + Past Continuous (background action), Past Simple (interrupting event)",
-            "example": "While we <strong>were waiting</strong> at the departure gate, the ground staff <strong>announced</strong> a gate change."
-                    },
-                    {
-            "title": "2. High-Impact Inversion: 'Hardly had... when...'",
-            "formula": "Hardly + had + Subject + V3 (Past Participle) + when + Past Simple",
-            "example": "<strong>Hardly had we stepped</strong> off the train <strong>when</strong> heavy rain began to fall."
-                    },
-                    {
-            "title": "3. High-Impact Inversion: 'No sooner had... than...'",
-            "formula": "No sooner + had + Subject + V3 (Past Participle) + than + Past Simple",
-            "example": "<strong>No sooner had I cleared</strong> security <strong>than</strong> I realized I had left my passport at the café."
-                    }
-                            ],
-                            "practice": [
-                    {
-            "id": 1,
-            "prompt": "Rewrite this sentence with inversion: 'As soon as we arrived at the hotel, the power went out.'",
-            "answer": "Hardly had we arrived at the hotel when the power went out. / No sooner had we arrived at the hotel than the power went out."
-                    },
-                    {
-            "id": 2,
-            "prompt": "Rewrite this sentence with inversion: 'I had just sat down in my seat when the captain made an announcement.'",
-            "answer": "No sooner had I sat down in my seat than the captain made an announcement."
-                    }
-                            ]
-                  },
-                  "rolePlay": {
-                    "modeBadges": ["🎭 Pair Simulation","⏱️ 5 min prep + 15 min simulation + 10 min debrief","👥 Passenger vs. Station Agent","🎯 De-escalation Lexis"],
-                    "instructions": [
-                      "Step 1 (Role Prep - 5 mins): Person A = Passenger with tight Tokyo connection; Person B = Airline Customer Service Agent. Read your role card and plan 3 key phrases.",
-                      "Step 2 (Live Simulation - 15 mins): Conduct the interaction in real time. Passenger expresses urgency without shouting; Agent remains empathetic, cites EU261 duty of care, and negotiates rebooking.",
-                      "Step 3 (Role Swap & Debrief - 10 mins): Swap roles and repeat. Conclude by rating each other on diplomatic tone and clear explanation."
-                    ],
-                    "deliverable": "Formulate a mutually agreed rebooking and meal voucher compensation agreement.",
-                    "teacherNotes": "Act as the Station Operations Director. Circulate and intervene with unexpected injects: \"Announcement: The Tokyo flight departure is delayed by 45 minutes; you now have a 50-minute window.\" Observe how students adjust their negotiation strategy.",
-                            "title": "Activity 5: Role-Play Simulation: Flight Delay & Missing a Connection (30 mins)",
-                            "summary": "Practice de-escalating customer frustration and explaining options calmly during a travel disruption.",
-                            "scenario": "Flight LH2214 from Toulouse to Munich is delayed by 2.5 hours because of bad weather and technical checks. Several passengers have tight onward connections to Tokyo and Chicago.",
-                            "roles": [
-                    {
-            "role": "Role A: Airport Passenger Service Agent",
-            "instructions": "Be polite, patient, and professional. Explain the delay honestly. Offer meal vouchers, rebooking on the next flight, and hotel accommodation if necessary. Clarify that safety comes first.",
-            "usefulPhrases": [
-                      "\"I completely understand your frustration, and I am here to help you.\"",
-                      "\"Our team is already looking at rebooking options for your connecting flight.\"",
-                      "\"Here is a refreshment voucher while we confirm your new departure gate.\"",
-                      "\"Safety is our absolute priority, which is why the maintenance check was necessary.\""
+          },
+          "grammarClinic": {
+            "modeBadges": [
+              "👤 Individual Prep + 👥 Spoken Exchange",
+              "⏱️ 10 min rules + 15 min storytelling",
+              "🎯 Past Perfect & Inversions"
+            ],
+            "instructions": [
+              "Step 1 (Rule Master - 8 mins): Review the 3 narrative formulas: scene-setting (Past Continuous), sequence (Past Simple), and background trigger (Past Perfect).",
+              "Step 2 (Sentence Inversion - 7 mins): Complete the sentence inversion practice prompts. Click \"Show Model Answer\" to verify subject-auxiliary word order.",
+              "Step 3 (Storytelling Practice - 10 mins): In pairs, tell a 90-second personal travel anecdote about a flight delay, train mix-up, or lost item. Include at least one dramatic inversion (\"Hardly had I... when...\")."
+            ],
+            "deliverable": "Deliver a 90-second travel anecdote incorporating one negative inversion structure.",
+            "teacherNotes": "Watch for the common French false friend inversion error: ensure auxiliary verb precedes the subject (\"Hardly had I arrived...\", NOT \"Hardly I had arrived...\"). Invite one student with a dramatic anecdote to share with the whole class.",
+            "title": "Activity 4: Grammar Clinic: Narrative Tenses & Storytelling Inversions (25 mins)",
+            "summary": "Use Past Simple and Past Continuous together to set scenes and describe sudden events. Then use inversion structures to tell dramatic travel stories.",
+            "rules": [
+              {
+                "title": "1. Setting the Scene (Past Continuous + Past Simple)",
+                "formula": "While / As + Past Continuous (background action), Past Simple (interrupting event)",
+                "example": "While we <strong>were waiting</strong> at the departure gate, the ground staff <strong>announced</strong> a gate change."
+              },
+              {
+                "title": "2. High-Impact Inversion: 'Hardly had... when...'",
+                "formula": "Hardly + had + Subject + V3 (Past Participle) + when + Past Simple",
+                "example": "<strong>Hardly had we stepped</strong> off the train <strong>when</strong> heavy rain began to fall."
+              },
+              {
+                "title": "3. High-Impact Inversion: 'No sooner had... than...'",
+                "formula": "No sooner + had + Subject + V3 (Past Participle) + than + Past Simple",
+                "example": "<strong>No sooner had I cleared</strong> security <strong>than</strong> I realized I had left my passport at the café."
+              }
+            ],
+            "practice": [
+              {
+                "id": 1,
+                "prompt": "Rewrite this sentence with inversion: 'As soon as we arrived at the hotel, the power went out.'",
+                "answer": "Hardly had we arrived at the hotel when the power went out. / No sooner had we arrived at the hotel than the power went out."
+              },
+              {
+                "id": 2,
+                "prompt": "Rewrite this sentence with inversion: 'I had just sat down in my seat when the captain made an announcement.'",
+                "answer": "No sooner had I sat down in my seat than the captain made an announcement."
+              }
             ]
-                    },
-                    {
-            "role": "Role B: Stressed International Passenger",
-            "instructions": "You have an important business meeting or family event tomorrow morning. You are worried about missing your connection. Ask specific questions about your luggage, hotel, and alternative flights.",
-            "usefulPhrases": [
-                      "\"My connection in Munich is only 50 minutes; will I still make my flight?\"",
-                      "\"What happens to my checked luggage if I have to switch airlines?\"",
-                      "\"Are you providing hotel accommodation if the next flight is tomorrow morning?\"",
-                      "\"Can you rebook me on an alternative route through Zurich or Paris?\""
+          },
+          "rolePlay": {
+            "modeBadges": [
+              "🎭 Pair Simulation",
+              "⏱️ 5 min prep + 15 min simulation + 10 min debrief",
+              "👥 Passenger vs. Station Agent",
+              "🎯 De-escalation Lexis"
+            ],
+            "instructions": [
+              "Step 1 (Role Prep - 5 mins): Person A = Passenger with tight Tokyo connection; Person B = Airline Customer Service Agent. Read your role card and plan 3 key phrases.",
+              "Step 2 (Live Simulation - 15 mins): Conduct the interaction in real time. Passenger expresses urgency without shouting; Agent remains empathetic, cites EU261 duty of care, and negotiates rebooking.",
+              "Step 3 (Role Swap & Debrief - 10 mins): Swap roles and repeat. Conclude by rating each other on diplomatic tone and clear explanation."
+            ],
+            "deliverable": "Formulate a mutually agreed rebooking and meal voucher compensation agreement.",
+            "teacherNotes": "Act as the Station Operations Director. Circulate and intervene with unexpected injects: \"Announcement: The Tokyo flight departure is delayed by 45 minutes; you now have a 50-minute window.\" Observe how students adjust their negotiation strategy.",
+            "title": "Activity 5: Role-Play Simulation: Flight Delay & Missing a Connection (30 mins)",
+            "summary": "Practice de-escalating customer frustration and explaining options calmly during a travel disruption.",
+            "scenario": "Flight LH2214 from Toulouse to Munich is delayed by 2.5 hours because of bad weather and technical checks. Several passengers have tight onward connections to Tokyo and Chicago.",
+            "roles": [
+              {
+                "role": "Role A: Airport Passenger Service Agent",
+                "instructions": "Be polite, patient, and professional. Explain the delay honestly. Offer meal vouchers, rebooking on the next flight, and hotel accommodation if necessary. Clarify that safety comes first.",
+                "usefulPhrases": [
+                  "\"I completely understand your frustration, and I am here to help you.\"",
+                  "\"Our team is already looking at rebooking options for your connecting flight.\"",
+                  "\"Here is a refreshment voucher while we confirm your new departure gate.\"",
+                  "\"Safety is our absolute priority, which is why the maintenance check was necessary.\""
+                ]
+              },
+              {
+                "role": "Role B: Stressed International Passenger",
+                "instructions": "You have an important business meeting or family event tomorrow morning. You are worried about missing your connection. Ask specific questions about your luggage, hotel, and alternative flights.",
+                "usefulPhrases": [
+                  "\"My connection in Munich is only 50 minutes; will I still make my flight?\"",
+                  "\"What happens to my checked luggage if I have to switch airlines?\"",
+                  "\"Are you providing hotel accommodation if the next flight is tomorrow morning?\"",
+                  "\"Can you rebook me on an alternative route through Zurich or Paris?\""
+                ]
+              }
+            ],
+            "task": "Work with your partner for 4 minutes per role, then switch roles. Focus on polite phrases, clear explanations, and active listening."
+          },
+          "closingReview": {
+            "modeBadges": [
+              "👤 Individual Self-Assessment",
+              "⏱️ 10 mins",
+              "📝 Exit Ticket",
+              "🎯 Pronunciation Drill"
+            ],
+            "instructions": [
+              "Step 1 (Rapid Drill - 4 mins): Read the 18 session vocabulary items aloud with correct word stress and syllabic emphasis.",
+              "Step 2 (Personal Selection - 3 mins): Star 3 words that are completely new to you and write a personal workplace sentence for each.",
+              "Step 3 (Exit Ticket - 3 mins): Complete the digital study log reflection prompt before leaving the session."
+            ],
+            "deliverable": "Submit your completed 3-sentence exit ticket and study log entry.",
+            "teacherNotes": "Lead a choral pronunciation drill focusing on difficult phonemes: \"itinerary\" /aɪˈtɪnərəri/, \"infrastructure\", \"scheduled\". Collect quick verbal exit tickets at the door.",
+            "title": "Activity 6: 10-Minute Vocabulary Wrap-Up & Exit Ticket (10 mins)",
+            "summary": "Consolidate today's learning: review the pronunciation of all 18 key terms, check your word stress, and write one reflection in your study log.",
+            "vocabWords": [
+              "Itinerary",
+              "Layover",
+              "Catch the Travel Bug",
+              "Baggage Allowance",
+              "Off the Beaten Track",
+              "Round-Trip",
+              "Hit the Road",
+              "Miss a Connection",
+              "All-Inclusive",
+              "Extend a Stay",
+              "In the Driver's Seat",
+              "Customs Declaration",
+              "Boarding Pass",
+              "Direct Flight",
+              "Peak Season",
+              "Red-Eye Flight",
+              "Eco-Tourism",
+              "Carbon Footprint"
+            ],
+            "reflectionPrompts": [
+              "Which travel collocation or idiom from today will you use in your next conversation?",
+              "Write one sentence using narrative inversion ('Hardly had I...' or 'No sooner had we...') about a past trip."
             ]
-                    }
-                            ],
-                            "task": "Work with your partner for 4 minutes per role, then switch roles. Focus on polite phrases, clear explanations, and active listening."
-                  },
-                  "closingReview": {
-                    "modeBadges": ["👤 Individual Self-Assessment","⏱️ 10 mins","📝 Exit Ticket","🎯 Pronunciation Drill"],
-                    "instructions": [
-                      "Step 1 (Rapid Drill - 4 mins): Read the 18 session vocabulary items aloud with correct word stress and syllabic emphasis.",
-                      "Step 2 (Personal Selection - 3 mins): Star 3 words that are completely new to you and write a personal workplace sentence for each.",
-                      "Step 3 (Exit Ticket - 3 mins): Complete the digital study log reflection prompt before leaving the session."
-                    ],
-                    "deliverable": "Submit your completed 3-sentence exit ticket and study log entry.",
-                    "teacherNotes": "Lead a choral pronunciation drill focusing on difficult phonemes: \"itinerary\" /aɪˈtɪnərəri/, \"infrastructure\", \"scheduled\". Collect quick verbal exit tickets at the door.",
-                            "title": "Activity 6: 10-Minute Vocabulary Wrap-Up & Exit Ticket (10 mins)",
-                            "summary": "Consolidate today's learning: review the pronunciation of all 18 key terms, check your word stress, and write one reflection in your study log.",
-                            "vocabWords": [
-                    "Itinerary",
-                    "Layover",
-                    "Catch the Travel Bug",
-                    "Baggage Allowance",
-                    "Off the Beaten Track",
-                    "Round-Trip",
-                    "Hit the Road",
-                    "Miss a Connection",
-                    "All-Inclusive",
-                    "Extend a Stay",
-                    "In the Driver's Seat",
-                    "Customs Declaration",
-                    "Boarding Pass",
-                    "Direct Flight",
-                    "Peak Season",
-                    "Red-Eye Flight",
-                    "Eco-Tourism",
-                    "Carbon Footprint"
-                            ],
-                            "reflectionPrompts": [
-                    "Which travel collocation or idiom from today will you use in your next conversation?",
-                    "Write one sentence using narrative inversion ('Hardly had I...' or 'No sooner had we...') about a past trip."
-                            ]
-                  }
+          }
         }
       },
       "2": {
@@ -909,7 +937,7 @@
             {
               "num": 7,
               "title": "Prepare for the Class 5 Formative Evaluation (FE)",
-              "description": "Understand the exact assessment criteria\u2014vocabulary, fluency, grammar, and TOEIC-readiness\u2014for your Session 5 speaking evaluation, graded against official communication criteria."
+              "description": "Understand the exact assessment criteria—vocabulary, fluency, grammar, and TOEIC-readiness—for your Session 5 speaking evaluation, graded against official communication criteria."
             }
           ]
         },
@@ -921,32 +949,32 @@
               "time": "0-10",
               "title": "Part 1: Green Transport News & Session 1 Review (10 mins)",
               "description": "Discussing recent green transport headlines and checking memory of Session 1 travel vocabulary (itinerary, layover, off the beaten track, carbon footprint)."
-                      },
-                      {
+            },
+            {
               "time": "10-35",
               "title": "Part 2: The Timeline Clash — 4 Epochs of Transport (25 mins)",
               "description": "Analyzing 4 historical transport phases (1830s steam rail, 1950s post-war jet/car boom, 1980s containerization/TGV, 2030+ electrification and SAF) to weigh speed against emissions."
-                      },
-                      {
+            },
+            {
               "time": "35-60",
               "title": "Part 3: The Multi-Modal Corridor Pitch — Rail vs. Air (25 mins)",
               "description": "Pitching high-speed rail versus regional flights on key European routes (Paris–Barcelona, London–Amsterdam, Toulouse–Paris) using journey time and kg CO₂ metrics."
-                      },
-                      {
+            },
+            {
               "time": "60-80",
               "title": "Part 4: Grammar Clinic — Cause, Effect & Complex Comparisons (20 mins)",
               "description": "Replacing basic linkers with formal cause/result prepositions (owing to, as a result of, resulted in) and double comparatives (The more convenient... the less...)."
-                      },
-                      {
+            },
+            {
               "time": "80-110",
               "title": "Part 5: DDRS Case Study — The ENAC Campus Mobility Audit (30 mins)",
               "description": "\"The ENAC Transit Audit\" — Auditing institutional travel dilemmas (flights vs. day TGV vs. night sleeper train) and formulating spoken policy recommendations."
-                      },
-                      {
+            },
+            {
               "time": "110-120",
               "title": "Part 6: 10-Minute Vocabulary Wrap-Up & Taboo Fluency Challenge (10 mins)",
               "description": "Consolidation of the 18 transport terms with audio pronunciation and 45-second Taboo fluency game without using forbidden words."
-                      }
+            }
           ]
         },
         "revision": {
@@ -971,7 +999,7 @@
             {
               "num": "04",
               "term": "Territorial Equity",
-              "definition": "Ensuring that rural and remote areas have fair access to reliable, affordable public transport\u2014not just big cities."
+              "definition": "Ensuring that rural and remote areas have fair access to reliable, affordable public transport—not just big cities."
             },
             {
               "num": "05",
@@ -1074,7 +1102,7 @@
           ],
           "grammar": {
             "title": "The \"Past Before the Past\"",
-            "badge": "B1\u2013B2 Grammar Focus",
+            "badge": "B1–B2 Grammar Focus",
             "patternTitle": "Sentence Pattern",
             "formula": "Subject + had + Past Participle (V3)",
             "rulesTitle": "When to Use It",
@@ -1082,7 +1110,7 @@
               "<strong style=\"color: #1e293b;\">1. Two past events in order:</strong> The <strong>earlier</strong> event uses <span style=\"font-weight: 700; color: #c0684f;\">had + past participle</span> (*had dominated*), while the <strong>later</strong> event uses the <strong>Past Simple</strong> (*entered service*).",
               "<strong style=\"color: #1e293b;\">2. Finished before a past deadline:</strong> Look for time connectors like <span style=\"font-weight: 700; color: #c0684f;\">by the time</span>, <span style=\"font-weight: 700; color: #c0684f;\">before</span>, <span style=\"font-weight: 600; color: #334155;\">already</span>, and <span style=\"font-weight: 600; color: #334155;\">until</span> (*\"By the time the inspectors arrived, the crew had already fixed the issue\"*)."
             ],
-            "trap": "<strong>\u26a0\ufe0f Past vs. Present Perfect Trap:</strong> If a sentence already talks about a past moment (like <em>By the time they arrived...</em>), you cannot use <em>has / have</em>. You must look backward into the past with <strong>had + past participle</strong>!",
+            "trap": "<strong>⚠️ Past vs. Present Perfect Trap:</strong> If a sentence already talks about a past moment (like <em>By the time they arrived...</em>), you cannot use <em>has / have</em>. You must look backward into the past with <strong>had + past participle</strong>!",
             "examplesTitle": "Transport Evolution Examples",
             "examples": [
               "<em>\"By the time commercial jetliners entered service in the late 1950s, transcontinental rail networks <strong>had dominated</strong> international passenger travel for half a century.\"</em>",
@@ -1117,37 +1145,37 @@
           "resources": [
             {
               "url": "https://www.itf-oecd.org",
-              "tag": "01 \u2022 Global Policy",
+              "tag": "01 • Global Policy",
               "name": "ITF / OECD International Transport Forum",
               "desc": "Access global transport outlook models, carbon abatement pathways, and policy research on infrastructure life-cycle sustainability."
             },
             {
               "url": "https://www.eea.europa.eu/themes/transport",
-              "tag": "02 \u2022 Emissions Data",
+              "tag": "02 • Emissions Data",
               "name": "European Environment Agency (EEA) Transport Hub",
               "desc": "Review empirical greenhouse gas inventory datasets comparing passenger-kilometer emissions between rail, road, and commercial aviation."
             },
             {
               "url": "https://uic.org/passenger/highspeed/",
-              "tag": "03 \u2022 Rail Infrastructure",
+              "tag": "03 • Rail Infrastructure",
               "name": "UIC International Union of Railways",
               "desc": "Explore technical benchmarks on high-speed rail corridors, signaling modernization (ERTMS), and rail decarbonization strategies."
             },
             {
               "url": "https://www.icao.int/environmental-protection/CORSIA/Pages/default.aspx",
-              "tag": "04 \u2022 Aviation Policy",
+              "tag": "04 • Aviation Policy",
               "name": "ICAO Environmental Protection & CORSIA",
               "desc": "Official International Civil Aviation Organization framework governing aviation emissions standards, CORSIA, and SAF targets."
             },
             {
               "url": "https://ourworldindata.org/co2-emissions-from-transport",
-              "tag": "05 \u2022 Interactive Data",
+              "tag": "05 • Interactive Data",
               "name": "Our World in Data: Transport Emissions",
               "desc": "Interactive charts illustrating the historical evolution of mobility emissions and per-capita travel carbon intensity since 1950."
             },
             {
               "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 \u2022 Exam Prep",
+              "tag": "06 • Exam Prep",
               "name": "Official ETS TOEIC Practice Hub",
               "desc": "Practice timed workplace transport reading comprehension, corporate travel memos, and correlative inversion sentence completions."
             }
@@ -1300,272 +1328,350 @@
           ]
         },
         "lessonContent": {
-                  "overview": {
-                            "image": "images/ag_m1card2.png",
-                            "title": "Evolution of Transport & Sustainable Mobility",
-                            "subtitle": "Modal Shift, High-Speed Rail & Lower Carbon Journeys",
-                            "badge": "Session Overview • Transport Evolution & Green Mobility"
-                  },
-                  "hero": {
-                            "image": "images/ag_m1card2.png",
-                            "title": "Evolution of Transport & Sustainable Mobility",
-                            "subtitle": "Modal Shift, High-Speed Rail & Lower Carbon Journeys",
-                            "badge": "Session Overview • Transport Evolution & Green Mobility"
-                  },
-                  "openingSession": {
-                            "title": "Activity 1: Green Transport News & Session 1 Review (10 mins)",
-                            "summary": "10-minute opening: discuss recent headlines on green transport innovations and check your memory of Session 1 travel vocabulary.",
-                            "newsPrompts": [
-                    "What new green transit initiatives (night trains, electric bus fleets, cycling highways) have you heard about recently?",
-                    "How are European countries encouraging travelers to switch from airplanes to trains?"
-                            ],
-                            "diagnostic": {
-                    "title": "Session 1 Lexis Spot-Check: Vocabulary Retrieval",
-                    "instructions": "Discuss each term in pairs, give a clear definition and example sentence, then click 'Reveal Answer' to verify.",
-                    "questions": [
-            {
-                      "id": 1,
-                      "q": "What is an 'Itinerary' and why is it important for travelers?",
-                      "answer": "An itinerary is a detailed planned route or schedule for a journey, listing transport connections, dates, flight or train numbers, and planned activities."
+          "overview": {
+            "image": "images/ag_m1card2.png",
+            "title": "Evolution of Transport & Sustainable Mobility",
+            "subtitle": "Modal Shift, High-Speed Rail & Lower Carbon Journeys",
+            "badge": "Session Overview • Transport Evolution & Green Mobility"
+          },
+          "hero": {
+            "image": "images/ag_m1card2.png",
+            "title": "Evolution of Transport & Sustainable Mobility",
+            "subtitle": "Modal Shift, High-Speed Rail & Lower Carbon Journeys",
+            "badge": "Session Overview • Transport Evolution & Green Mobility"
+          },
+          "openingSession": {
+            "title": "Activity 1: Green Transport News & Session 1 Review (10 mins)",
+            "summary": "10-minute opening: discuss recent headlines on green transport innovations and check your memory of Session 1 travel vocabulary.",
+            "newsPrompts": [
+              "What new green transit initiatives (night trains, electric bus fleets, cycling highways) have you heard about recently?",
+              "How are European countries encouraging travelers to switch from airplanes to trains?"
+            ],
+            "diagnostic": {
+              "title": "Session 1 Lexis Spot-Check: Vocabulary Retrieval",
+              "instructions": "Discuss each term in pairs, give a clear definition and example sentence, then click 'Reveal Answer' to verify.",
+              "questions": [
+                {
+                  "id": 1,
+                  "q": "What is an 'Itinerary' and why is it important for travelers?",
+                  "answer": "An itinerary is a detailed planned route or schedule for a journey, listing transport connections, dates, flight or train numbers, and planned activities."
+                },
+                {
+                  "id": 2,
+                  "q": "What does traveling 'Off the Beaten Track' mean?",
+                  "answer": "It means traveling to quiet, uncrowded, or remote destinations far away from standard tourist hotspots, giving travelers a more authentic local experience."
+                },
+                {
+                  "id": 3,
+                  "q": "What is a 'Layover'?",
+                  "answer": "A layover is a scheduled wait between two connecting flights or legs of a journey, typically lasting anywhere from 1 to 23 hours."
+                },
+                {
+                  "id": 4,
+                  "q": "How is a traveler's 'Carbon Footprint' calculated?",
+                  "answer": "It is the total amount of greenhouse gases (especially CO₂) produced directly and indirectly by their travel choices (mode of transport, distance, accommodation, and food)."
+                }
+              ]
             },
-            {
-                      "id": 2,
-                      "q": "What does traveling 'Off the Beaten Track' mean?",
-                      "answer": "It means traveling to quiet, uncrowded, or remote destinations far away from standard tourist hotspots, giving travelers a more authentic local experience."
+            "modeBadges": [
+              "👥 Pair Recall",
+              "⏱️ 5 min pairs + 5 min plenary",
+              "🗣️ Spoken Retrieval",
+              "🌿 Green Mobility"
+            ],
+            "instructions": [
+              "Step 1 (Headlines - 3 mins): In pairs, discuss the two Green Mobility news prompts. Ask your partner: \"Which modal shift initiative seems most viable in our region?\"",
+              "Step 2 (Diagnostic Recall - 4 mins): Without looking at previous notes, recall and verbally explain 2 key travel distinctions from Session 1 (e.g. Layover vs Stopover, Direct vs Non-stop).",
+              "Step 3 (Spot-Check - 3 mins): Click \"Reveal Answer\" to check your operational distinction. Be ready for the instructor's plenary spot-check."
+            ],
+            "deliverable": "Spoken explanation of one Green Mobility headline and one accurate Session 1 vocabulary definition.",
+            "teacherNotes": "Cold-call 2 random pairs to summarize modal shift initiatives in European rail. Check pronunciation of 'infrastructure', 'subsidized', and 'intermodality'."
+          },
+          "timelineClash": {
+            "title": "Activity 2: The Timeline Clash: 4 Epochs of Transport (25 mins)",
+            "summary": "Compare 4 key eras of modern transport. Examine how travel speed, comfort, and greenhouse gas emissions have changed over time.",
+            "epochs": [
+              {
+                "id": 1,
+                "era": "1830s–1900",
+                "title": "The Steam Railway Revolution",
+                "speed": "30–80 km/h",
+                "emissions": "High local smoke (coal-fired)",
+                "impact": "First mass land transit in history; connected distant towns, created standard time zones, and enabled ordinary citizens to travel long distances affordably."
+              },
+              {
+                "id": 2,
+                "era": "1950s–1970s",
+                "title": "The Post-War Jet & Automobile Boom",
+                "speed": "100–900 km/h",
+                "emissions": "High oil dependency & rising CO₂",
+                "impact": "Commercial jet travel (Boeing 707) and personal car ownership transformed society. Long-distance travel became fast, but fossil fuel consumption surged."
+              },
+              {
+                "id": 3,
+                "era": "1980s–2010s",
+                "title": "Containerization & High-Speed Rail",
+                "speed": "250–320 km/h (Rail)",
+                "emissions": "Moderate to high (Globalized supply chains)",
+                "impact": "Standardized shipping containers cut trade costs by 90%. High-speed train networks (TGV, ICE, Shinkansen) proved that electric rail could compete directly with domestic aviation."
+              },
+              {
+                "id": 4,
+                "era": "Present–2030+",
+                "title": "Electrification, SAF & Modal Shift",
+                "speed": "20–350 km/h",
+                "emissions": "Net-Zero target & renewable power",
+                "impact": "Electric urban fleets, night train renaissance, sustainable aviation fuels (SAF), and digital mobility apps connecting bikes, trains, and electric shuttles into seamless journeys."
+              }
+            ],
+            "discussionQuestions": [
+              "Which transport epoch brought the greatest improvement to human mobility?",
+              "Can high-speed rail completely replace short-haul aviation across Europe by 2040?"
+            ],
+            "modeBadges": [
+              "👥 Speed-Dating Pairs",
+              "⏱️ 10 min prep + 15 min debate",
+              "🗣️ Epoch Defense",
+              "⏳ Historical Modal Shift"
+            ],
+            "instructions": [
+              "Step 1 (Epoch Analysis - 4 mins): Examine the 4 Epochs of Transport (Canal & Steam, Rail Dominance, Automobile Expansion, High-Speed & Decarbonized).",
+              "Step 2 (Timed Debate - 4 mins per topic): Partner A defends why their assigned epoch represented the greatest societal transformation; Partner B counters with its long-term environmental consequences.",
+              "Step 3 (Rotate & Synthesize - 2 mins): Switch partners to debate a second epoch. Note your partner's key comparative arguments."
+            ],
+            "deliverable": "Construct and deliver a 45-second comparative argument using cause-effect linkers ('triggered by', 'led to a surge in', 'in stark contrast to').",
+            "teacherNotes": "Ensure students do not simply read dates. Encourage rapid turn-taking and formal comparative structures ('Far more consequential than...', 'Resulted in an unprecedented rise in...')."
+          },
+          "corridorPitch": {
+            "title": "Activity 3: The Multi-Modal Corridor Pitch: Rail vs. Air (25 mins)",
+            "summary": "In teams, pitch high-speed rail versus regional flights on popular European travel corridors. Compare total travel time, carbon emissions, and passenger convenience.",
+            "corridors": [
+              {
+                "id": 1,
+                "route": "Corridor 1: Paris to Barcelona",
+                "distance": "1,070 km",
+                "train": "TGV: 6h30 door-to-door (city center to city center), ~4.8 kg CO₂ per passenger, free Wi-Fi and working space.",
+                "flight": "Flight: 4h00 door-to-door (including airport security and transfers), ~140 kg CO₂ per passenger.",
+                "prompt": "How would you convince business travelers to take the 6h30 train instead of the flight?"
+              },
+              {
+                "id": 2,
+                "route": "Corridor 2: London to Amsterdam",
+                "distance": "540 km",
+                "train": "Eurostar: 4h00 direct city center, ~5.5 kg CO₂ per passenger, no liquid restrictions, spacious seating.",
+                "flight": "Flight: 3h45 door-to-door (Heathrow to Schiphol + security), ~62 kg CO₂ per passenger.",
+                "prompt": "Why has Eurostar captured over 70% of the leisure travel market on this route?"
+              },
+              {
+                "id": 3,
+                "route": "Corridor 3: Toulouse to Paris",
+                "distance": "680 km",
+                "train": "TGV: 4h20 downtown Matabiau to Montparnasse, ~3.2 kg CO₂ per passenger.",
+                "flight": "Flight: 3h15 door-to-door (Blagnac to Orly), ~85 kg CO₂ per passenger (shuttle flights operate hourly).",
+                "prompt": "What infrastructure upgrades (like the planned Toulouse-Bordeaux high-speed line) are needed to trigger a complete modal shift?"
+              }
+            ],
+            "modeBadges": [
+              "🎭 Pair Negotiation Pitch",
+              "⏱️ 10 min prep + 15 min pitches",
+              "🗣️ High-Speed Rail vs Air",
+              "💼 Policy Defense"
+            ],
+            "instructions": [
+              "Step 1 (Corridor Selection - 3 mins): Choose one European corridor: Paris–Barcelona (6h30 rail vs 1h45 air), London–Edinburgh (4h20 rail vs 1h20 air), or Frankfurt–Milan (7h30 rail vs 1h15 air).",
+              "Step 2 (Role Allocation & Prep - 7 mins): Partner A represents the High-Speed Rail operator pitching total door-to-door productivity, zero security dwell time, and 90% CO2 reduction. Partner B represents the Regional Airline defending turnaround efficiency, urgent time-value, and route flexibility.",
+              "Step 3 (Spoken Pitch & Compromise - 5 mins): Deliver your 2-minute pitch to each other and negotiate an agreed multi-modal policy compromise."
+            ],
+            "deliverable": "A 60-second spoken summary of your agreed corridor policy and passenger carbon trade-off.",
+            "teacherNotes": "Write key evaluation criteria on the board: Door-to-door transit time, carbon footprint per passenger-km, and productive working time. Enforce strict time limits on pitches."
+          },
+          "grammarClinic": {
+            "title": "Activity 4: Grammar Clinic: Cause, Effect & Complex Comparisons (20 mins)",
+            "summary": "Replace basic linkers ('because', 'so') with formal prepositions of cause and effect, and use double comparatives to describe linked trends.",
+            "rules": [
+              {
+                "title": "1. Expressing Cause (Owing to / Due to / As a result of + Noun)",
+                "formula": "Owing to / Due to / As a result of + noun phrase",
+                "example": "Passenger numbers on the rail corridor surged <strong>owing to frequent departures</strong> and competitive fares."
+              },
+              {
+                "title": "2. Expressing Effect (Result in / Lead to + Noun)",
+                "formula": "Subject + resulted in / led to + noun phrase",
+                "example": "Expanding high-speed rail infrastructure <strong>resulted in a 40% reduction</strong> in domestic short-haul flights."
+              },
+              {
+                "title": "3. Double Comparatives (The + comparative..., the + comparative...)",
+                "formula": "The + [comparative adjective/adverb], the + [comparative adjective/adverb]",
+                "example": "<strong>The faster</strong> and more reliable train connections become, <strong>the less</strong> reliant travelers are on private cars."
+              }
+            ],
+            "challenge": {
+              "title": "Interactive Cause & Effect Challenge",
+              "questions": [
+                {
+                  "id": 1,
+                  "sentence": "Domestic air passenger traffic dropped by 25% ________ improved high-speed rail links between the two capitals.",
+                  "options": [
+                    "A) owing to",
+                    "B) despite",
+                    "C) so that"
+                  ],
+                  "correct": "A) owing to",
+                  "explanation": "'Owing to' (+ noun phrase) correctly expresses the cause of the drop."
+                },
+                {
+                  "id": 2,
+                  "sentence": "The ________ convenient public transit is, the ________ traffic congestion cities experience.",
+                  "options": [
+                    "A) more / less",
+                    "B) most / least",
+                    "C) much / little"
+                  ],
+                  "correct": "A) more / less",
+                  "explanation": "Double comparative structure: 'The more [convenient]..., the less [congestion]...'."
+                }
+              ]
             },
-            {
-                      "id": 3,
-                      "q": "What is a 'Layover'?",
-                      "answer": "A layover is a scheduled wait between two connecting flights or legs of a journey, typically lasting anywhere from 1 to 23 hours."
-            },
-            {
-                      "id": 4,
-                      "q": "How is a traveler's 'Carbon Footprint' calculated?",
-                      "answer": "It is the total amount of greenhouse gases (especially CO₂) produced directly and indirectly by their travel choices (mode of transport, distance, accommodation, and food)."
-            }
-                    ]
-                            }
-                  },
-                  "timelineClash": {
-                            "title": "Activity 2: The Timeline Clash: 4 Epochs of Transport (25 mins)",
-                            "summary": "Compare 4 key eras of modern transport. Examine how travel speed, comfort, and greenhouse gas emissions have changed over time.",
-                            "epochs": [
-                    {
-            "id": 1,
-            "era": "1830s–1900",
-            "title": "The Steam Railway Revolution",
-            "speed": "30–80 km/h",
-            "emissions": "High local smoke (coal-fired)",
-            "impact": "First mass land transit in history; connected distant towns, created standard time zones, and enabled ordinary citizens to travel long distances affordably."
-                    },
-                    {
-            "id": 2,
-            "era": "1950s–1970s",
-            "title": "The Post-War Jet & Automobile Boom",
-            "speed": "100–900 km/h",
-            "emissions": "High oil dependency & rising CO₂",
-            "impact": "Commercial jet travel (Boeing 707) and personal car ownership transformed society. Long-distance travel became fast, but fossil fuel consumption surged."
-                    },
-                    {
-            "id": 3,
-            "era": "1980s–2010s",
-            "title": "Containerization & High-Speed Rail",
-            "speed": "250–320 km/h (Rail)",
-            "emissions": "Moderate to high (Globalized supply chains)",
-            "impact": "Standardized shipping containers cut trade costs by 90%. High-speed train networks (TGV, ICE, Shinkansen) proved that electric rail could compete directly with domestic aviation."
-                    },
-                    {
-            "id": 4,
-            "era": "Present–2030+",
-            "title": "Electrification, SAF & Modal Shift",
-            "speed": "20–350 km/h",
-            "emissions": "Net-Zero target & renewable power",
-            "impact": "Electric urban fleets, night train renaissance, sustainable aviation fuels (SAF), and digital mobility apps connecting bikes, trains, and electric shuttles into seamless journeys."
-                    }
-                            ],
-                            "discussionQuestions": [
-                    "Which transport epoch brought the greatest improvement to human mobility?",
-                    "Can high-speed rail completely replace short-haul aviation across Europe by 2040?"
-                            ]
-                  },
-                  "corridorPitch": {
-                            "title": "Activity 3: The Multi-Modal Corridor Pitch: Rail vs. Air (25 mins)",
-                            "summary": "In teams, pitch high-speed rail versus regional flights on popular European travel corridors. Compare total travel time, carbon emissions, and passenger convenience.",
-                            "corridors": [
-                    {
-            "id": 1,
-            "route": "Corridor 1: Paris to Barcelona",
-            "distance": "1,070 km",
-            "train": "TGV: 6h30 door-to-door (city center to city center), ~4.8 kg CO₂ per passenger, free Wi-Fi and working space.",
-            "flight": "Flight: 4h00 door-to-door (including airport security and transfers), ~140 kg CO₂ per passenger.",
-            "prompt": "How would you convince business travelers to take the 6h30 train instead of the flight?"
-                    },
-                    {
-            "id": 2,
-            "route": "Corridor 2: London to Amsterdam",
-            "distance": "540 km",
-            "train": "Eurostar: 4h00 direct city center, ~5.5 kg CO₂ per passenger, no liquid restrictions, spacious seating.",
-            "flight": "Flight: 3h45 door-to-door (Heathrow to Schiphol + security), ~62 kg CO₂ per passenger.",
-            "prompt": "Why has Eurostar captured over 70% of the leisure travel market on this route?"
-                    },
-                    {
-            "id": 3,
-            "route": "Corridor 3: Toulouse to Paris",
-            "distance": "680 km",
-            "train": "TGV: 4h20 downtown Matabiau to Montparnasse, ~3.2 kg CO₂ per passenger.",
-            "flight": "Flight: 3h15 door-to-door (Blagnac to Orly), ~85 kg CO₂ per passenger (shuttle flights operate hourly).",
-            "prompt": "What infrastructure upgrades (like the planned Toulouse-Bordeaux high-speed line) are needed to trigger a complete modal shift?"
-                    }
-                            ]
-                  },
-                  "grammarClinic": {
-                            "title": "Activity 4: Grammar Clinic: Cause, Effect & Complex Comparisons (20 mins)",
-                            "summary": "Replace basic linkers ('because', 'so') with formal prepositions of cause and effect, and use double comparatives to describe linked trends.",
-                            "rules": [
-                    {
-            "title": "1. Expressing Cause (Owing to / Due to / As a result of + Noun)",
-            "formula": "Owing to / Due to / As a result of + noun phrase",
-            "example": "Passenger numbers on the rail corridor surged <strong>owing to frequent departures</strong> and competitive fares."
-                    },
-                    {
-            "title": "2. Expressing Effect (Result in / Lead to + Noun)",
-            "formula": "Subject + resulted in / led to + noun phrase",
-            "example": "Expanding high-speed rail infrastructure <strong>resulted in a 40% reduction</strong> in domestic short-haul flights."
-                    },
-                    {
-            "title": "3. Double Comparatives (The + comparative..., the + comparative...)",
-            "formula": "The + [comparative adjective/adverb], the + [comparative adjective/adverb]",
-            "example": "<strong>The faster</strong> and more reliable train connections become, <strong>the less</strong> reliant travelers are on private cars."
-                    }
-                            ],
-                            "challenge": {
-                    "title": "Interactive Cause & Effect Challenge",
-                    "questions": [
-            {
-                      "id": 1,
-                      "sentence": "Domestic air passenger traffic dropped by 25% ________ improved high-speed rail links between the two capitals.",
-                      "options": [
-                                "A) owing to",
-                                "B) despite",
-                                "C) so that"
-                      ],
-                      "correct": "A) owing to",
-                      "explanation": "'Owing to' (+ noun phrase) correctly expresses the cause of the drop."
-            },
-            {
-                      "id": 2,
-                      "sentence": "The ________ convenient public transit is, the ________ traffic congestion cities experience.",
-                      "options": [
-                                "A) more / less",
-                                "B) most / least",
-                                "C) much / little"
-                      ],
-                      "correct": "A) more / less",
-                      "explanation": "Double comparative structure: 'The more [convenient]..., the less [congestion]...'."
-            }
-                    ]
-                            }
-                  },
-                  "caseStudy": {
-                            "title": "Activity 5: DDRS Case Study: The Campus Travel Dilemma (30 mins)",
-                            "summary": "\"The ENAC Transit Audit\" — Audit real university travel dilemmas and formulate spoken policy recommendations to balance budget, travel time, and carbon emissions.",
-                            "scenario": "A delegation of 6 ENAC professors and student representatives must travel from Toulouse to a partner university in Brussels for an annual 2-day European aviation conference.",
-                            "options": [
-                    {
-            "option": "Option 1: Commercial Flights via Paris",
-            "time": "4h30 door-to-door",
-            "cost": "€280 per person",
-            "carbon": "185 kg CO₂ per person",
-            "prosCons": "Fastest option, but highest carbon emissions by far and requires airport security transfers."
-                    },
-                    {
-            "option": "Option 2: Day TGV via Paris",
-            "time": "7h15 door-to-door",
-            "cost": "€190 per person",
-            "carbon": "12 kg CO₂ per person",
-            "prosCons": "Lowest emissions by 93%, spacious seating with power outlets for group work, but consumes a full working day."
-                    },
-                    {
-            "option": "Option 3: Night Sleeper Train + Connecting TGV",
-            "time": "Overnight journey (depart 22h00, arrive 09h00)",
-            "cost": "€220 per person (couchette)",
-            "carbon": "18 kg CO₂ per person",
-            "prosCons": "Saves one night of hotel accommodation and maximizes daytime work, but sleep quality varies."
-                    }
-                            ],
-                            "task": "In groups of 3, debate which option ENAC should select under its DDRS environmental charter. Present a 2-minute spoken recommendation to the class."
-                  },
-                  "closingReview": {
-                            "title": "Activity 6: 10-Minute Vocabulary Wrap-Up & Taboo Fluency Challenge (10 mins)",
-                            "summary": "Consolidate today's 18 transport terms with rapid audio pronunciation and a fast-paced 45-second Taboo fluency challenge.",
-                            "vocabWords": [
-                    "Modal Shift",
-                    "High-Speed Rail",
-                    "Decarbonization",
-                    "Infrastructure",
-                    "Externalities",
-                    "Commute",
-                    "Fleet Electrification",
-                    "Grid Capacity",
-                    "Lifecycle Assessment",
-                    "Sustainable Aviation Fuel",
-                    "Active Mobility",
-                    "Intermodal Hub",
-                    "Congestion Pricing",
-                    "Transit-Oriented Development",
-                    "Carbon Intensity",
-                    "Freight Logistics",
-                    "Public Transit Subsidy",
-                    "Zero-Emission Zone"
-                            ],
-                            "tabooCards": [
-                    {
-            "word": "Modal Shift",
-            "forbidden": [
-                      "Train",
-                      "Car",
-                      "Change",
-                      "Transport"
-            ]
-                    },
-                    {
-            "word": "Carbon Footprint",
-            "forbidden": [
-                      "CO₂",
-                      "Emissions",
-                      "Pollution",
-                      "Gas"
-            ]
-                    },
-                    {
-            "word": "High-Speed Rail",
-            "forbidden": [
-                      "Fast",
-                      "TGV",
-                      "Train",
-                      "Track"
-            ]
-                    },
-                    {
-            "word": "Active Mobility",
-            "forbidden": [
-                      "Bicycle",
-                      "Walk",
-                      "Car",
-                      "Exercise"
-            ]
-                    },
-                    {
-            "word": "Commute",
-            "forbidden": [
-                      "Work",
-                      "Daily",
-                      "Travel",
-                      "Home"
-            ]
-                    }
-                            ]
-                  }
+            "modeBadges": [
+              "👥 Grammar Pair Dissection",
+              "⏱️ 8 min analysis + 12 min plenary",
+              "✍️ Complex Comparisons",
+              "📈 Trends & Causality"
+            ],
+            "instructions": [
+              "Step 1 (Rule Analysis - 5 mins): Review the 3 core grammar rules: Cause/Effect linkers, Double Comparatives, and Future Predictions with Modals.",
+              "Step 2 (Challenge Practice - 8 mins): Work through the 4 interactive grammar challenge questions individually, selecting the grammatically precise connector.",
+              "Step 3 (Peer Check & Verification - 7 mins): Compare answers with your partner, click 'Check Answer & Explanation', and verify why the distractors fail."
+            ],
+            "deliverable": "Spoken delivery of 2 transformed comparative sentences using the double comparative formula ('The more..., the more...').",
+            "teacherNotes": "Highlight the inversion pattern in double comparatives ('The faster the train travels, the lower the per-seat energy consumption becomes'). Correct common error of using 'that' instead of 'as' with comparisons."
+          },
+          "caseStudy": {
+            "title": "Activity 5: DDRS Case Study: The Campus Travel Dilemma (30 mins)",
+            "summary": "\"The ENAC Transit Audit\" — Audit real university travel dilemmas and formulate spoken policy recommendations to balance budget, travel time, and carbon emissions.",
+            "scenario": "A delegation of 6 ENAC professors and student representatives must travel from Toulouse to a partner university in Brussels for an annual 2-day European aviation conference.",
+            "options": [
+              {
+                "option": "Option 1: Commercial Flights via Paris",
+                "time": "4h30 door-to-door",
+                "cost": "€280 per person",
+                "carbon": "185 kg CO₂ per person",
+                "prosCons": "Fastest option, but highest carbon emissions by far and requires airport security transfers."
+              },
+              {
+                "option": "Option 2: Day TGV via Paris",
+                "time": "7h15 door-to-door",
+                "cost": "€190 per person",
+                "carbon": "12 kg CO₂ per person",
+                "prosCons": "Lowest emissions by 93%, spacious seating with power outlets for group work, but consumes a full working day."
+              },
+              {
+                "option": "Option 3: Night Sleeper Train + Connecting TGV",
+                "time": "Overnight journey (depart 22h00, arrive 09h00)",
+                "cost": "€220 per person (couchette)",
+                "carbon": "18 kg CO₂ per person",
+                "prosCons": "Saves one night of hotel accommodation and maximizes daytime work, but sleep quality varies."
+              }
+            ],
+            "task": "In groups of 3, debate which option ENAC should select under its DDRS environmental charter. Present a 2-minute spoken recommendation to the class.",
+            "modeBadges": [
+              "👥 Strategic Consultation Triad",
+              "⏱️ 12 min group work + 18 min plenary debate",
+              "🌿 Campus Decarbonization",
+              "📋 5-Point Action Plan"
+            ],
+            "instructions": [
+              "Step 1 (Audit Review - 4 mins): Read the ENAC Campus Travel Dilemma: 68% car dependency, student rail discount gaps, and inter-site transit bottlenecks.",
+              "Step 2 (Taskforce Strategy - 8 mins): In groups of 3, act as the Green Mobility Taskforce to draft a 5-point Decarbonization Action Plan balancing 3 incentives with 2 deterrents.",
+              "Step 3 (Plenary Defense - 6 mins): Present and defend your priority measures against cross-examination by peer groups and the instructor."
+            ],
+            "deliverable": "Presentation of your 5-point Action Plan with projected CO2 reduction percentages and student equity safeguards.",
+            "teacherNotes": "Circulate and push groups to justify their budget trade-offs. Challenge them: 'What will you tell students who live 25km away with no bus route?'"
+          },
+          "closingReview": {
+            "title": "Activity 6: 10-Minute Vocabulary Wrap-Up & Taboo Fluency Challenge (10 mins)",
+            "summary": "Consolidate today's 18 transport terms with rapid audio pronunciation and a fast-paced 45-second Taboo fluency challenge.",
+            "vocabWords": [
+              "Modal Shift",
+              "High-Speed Rail",
+              "Decarbonization",
+              "Infrastructure",
+              "Externalities",
+              "Commute",
+              "Fleet Electrification",
+              "Grid Capacity",
+              "Lifecycle Assessment",
+              "Sustainable Aviation Fuel",
+              "Active Mobility",
+              "Intermodal Hub",
+              "Congestion Pricing",
+              "Transit-Oriented Development",
+              "Carbon Intensity",
+              "Freight Logistics",
+              "Public Transit Subsidy",
+              "Zero-Emission Zone"
+            ],
+            "tabooCards": [
+              {
+                "word": "Modal Shift",
+                "forbidden": [
+                  "Train",
+                  "Car",
+                  "Change",
+                  "Transport"
+                ]
+              },
+              {
+                "word": "Carbon Footprint",
+                "forbidden": [
+                  "CO₂",
+                  "Emissions",
+                  "Pollution",
+                  "Gas"
+                ]
+              },
+              {
+                "word": "High-Speed Rail",
+                "forbidden": [
+                  "Fast",
+                  "TGV",
+                  "Train",
+                  "Track"
+                ]
+              },
+              {
+                "word": "Active Mobility",
+                "forbidden": [
+                  "Bicycle",
+                  "Walk",
+                  "Car",
+                  "Exercise"
+                ]
+              },
+              {
+                "word": "Commute",
+                "forbidden": [
+                  "Work",
+                  "Daily",
+                  "Travel",
+                  "Home"
+                ]
+              }
+            ],
+            "modeBadges": [
+              "🎧 Audio Drill & Taboo Challenge",
+              "⏱️ 5 min taboo pairs + 5 min reflection",
+              "🗣️ Fluency Under Pressure",
+              "📝 Self-Assessment Log"
+            ],
+            "instructions": [
+              "Step 1 (Audio Pronunciation Drill - 4 mins): Click each of the 18 key mobility vocabulary words to listen to native pronunciation. Repeat chorally with your partner.",
+              "Step 2 (Taboo Challenge - 4 mins): Play the 45-Second Taboo Challenge: describe the target word to your partner without saying any of the 3 forbidden root terms.",
+              "Step 3 (Digital Notebook - 2 mins): Record 2 new vocabulary collocations in your personal learning log."
+            ],
+            "deliverable": "Successfully explain 3 taboo terms under time pressure and complete the personal Session 2 learning log.",
+            "teacherNotes": "Keep the energy high. Rapidly drill choral pronunciation of difficult terms: 'intermodality', 'conurbation', 'decarbonization'."
+          }
         }
       },
       "3": {
@@ -1619,32 +1725,32 @@
               "time": "0-10",
               "title": "Part 1: Tourism Policy News & Session 2 Review (10 mins)",
               "description": "Discussing current headlines on municipal tourist limits and checking memory of Session 2 words (modal shift, decarbonization, externalities, lifecycle assessment)."
-                      },
-                      {
+            },
+            {
               "time": "10-35",
               "title": "Part 2: Destination Pressure & Visitor Capacity (25 mins)",
               "description": "Analyzing carrying capacity data in Venice, Dubrovnik, Amsterdam, and Maya Bay to examine how visitor volume impacts local residents and natural sites."
-                      },
-                      {
+            },
+            {
               "time": "35-60",
               "title": "Part 3: Pitching New Tourism Policies to the Mayor (25 mins)",
               "description": "Teams pitch municipal policies (Airbnb quotas, peak-season daily entry levies, cruise ship bans) to the city council and defend against business objections."
-                      },
-                      {
+            },
+            {
               "time": "60-80",
               "title": "Part 4: Grammar Clinic — Causatives & Contrast Words (20 mins)",
               "description": "Structuring municipal regulations with causatives (make, have, require to) and balancing opposing interests with contrast prepositions (despite, in spite of, whereas)."
-                      },
-                      {
+            },
+            {
               "time": "80-110",
               "title": "Part 5: DDRS Simulation — The Isla Serena Water Crisis (30 mins)",
               "description": "4-role round-table negotiation resolving an acute summer water shortage (320% surge) vs. airport runway expansion. Teams agree on a 3-point policy resolution."
-                      },
-                      {
+            },
+            {
               "time": "110-120",
               "title": "Part 6: 10-Minute Vocabulary Wrap-Up & Taboo Fluency Challenge (10 mins)",
               "description": "Rapid recall of the 18 overtourism terms with audio pronunciation and 45-second Taboo fluency game without saying forbidden words."
-                      }
+            }
           ]
         },
         "revision": {
@@ -1772,7 +1878,7 @@
           ],
           "grammar": {
             "title": "Modal Verbs & Meanings",
-            "badge": "B1\u2013B2 Grammar Focus",
+            "badge": "B1–B2 Grammar Focus",
             "patternTitle": "The Golden Rule",
             "formula": "Subject + Modal (must / should / can / may) + Base Verb (V1 without \"to\")",
             "rulesTitle": "Core Meanings",
@@ -1782,7 +1888,7 @@
               "<strong style=\"color: #1e293b;\">3. Permission &amp; Bans (May / Must not):</strong> <em>May</em> means you are allowed to; <em>must not</em> means something is strictly forbidden.",
               "<strong style=\"color: #1e293b;\">4. Possibility &amp; Ability (Can / Could / Might):</strong> Stating what is possible or capable of happening."
             ],
-            "trap": "<strong>\u26a0\ufe0f The #1 Modal Rule in TOEIC:</strong> A modal verb (<em>must, should, can, could, will, would, may, might</em>) is <strong>always</strong> followed by the simple <strong>base verb</strong> (V1) with NO <em>-s</em>, NO <em>-ing</em>, NO <em>-ed</em>, and NO <em>to</em> (e.g., <em>must submit</em>, never <em>must to submit</em> or <em>must submitting</em>)!",
+            "trap": "<strong>⚠️ The #1 Modal Rule in TOEIC:</strong> A modal verb (<em>must, should, can, could, will, would, may, might</em>) is <strong>always</strong> followed by the simple <strong>base verb</strong> (V1) with NO <em>-s</em>, NO <em>-ing</em>, NO <em>-ed</em>, and NO <em>to</em> (e.g., <em>must submit</em>, never <em>must to submit</em> or <em>must submitting</em>)!",
             "examplesTitle": "Carrying Capacity Examples",
             "examples": [
               "<em>\"To protect fragile canal banks, maritime authorities <strong>must regulate</strong> daily cruise disembarkation tallies.\"</em>",
@@ -1817,37 +1923,37 @@
           "resources": [
             {
               "url": "https://www.unwto.org/sustainable-development",
-              "tag": "01 \u2022 Global Policy",
+              "tag": "01 • Global Policy",
               "name": "UN Tourism (UNWTO)",
               "desc": "United Nations agency dedicated to responsible, sustainable, and accessible tourism."
             },
             {
               "url": "https://www.gstcouncil.org",
-              "tag": "02 \u2022 Destination Standards",
+              "tag": "02 • Destination Standards",
               "name": "GSTC Global Criteria",
               "desc": "Global Sustainable Tourism Council baseline standards for destinations."
             },
             {
               "url": "https://cda.ve.it",
-              "tag": "03 \u2022 Ecological Impact",
+              "tag": "03 • Ecological Impact",
               "name": "EEA Tourism & Nature",
               "desc": "European Environment Agency briefs on tourism pressures on biodiversity."
             },
             {
               "url": "https://cda.ve.it",
-              "tag": "04 \u2022 Municipal Access Portal",
+              "tag": "04 • Municipal Access Portal",
               "name": "Venice Access Fee Official",
               "desc": "Municipal overview of city access regulations and reservation mechanics."
             },
             {
               "url": "https://ourworldindata.org/tourism",
-              "tag": "05 \u2022 Data & Trends",
+              "tag": "05 • Data & Trends",
               "name": "Our World in Data",
               "desc": "Global trends in international arrivals, travel expenditure, and tourism growth."
             },
             {
               "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 \u2022 TOEIC Reading",
+              "tag": "06 • TOEIC Reading",
               "name": "ETS Global TOEIC",
               "desc": "Advanced reading strategies for regulatory announcements and policy documents."
             }
@@ -2000,257 +2106,257 @@
           ]
         },
         "lessonContent": {
-                  "overview": {
-                            "image": "images/ag_m1card3.png",
-                            "title": "Overtourism & Tourism Policy",
-                            "subtitle": "Managing Visitor Numbers, Protecting Local Life & City Regulations",
-                            "badge": "Session Overview • Managing Tourism & City Life"
-                  },
-                  "hero": {
-                            "image": "images/ag_m1card3.png",
-                            "title": "Overtourism & Tourism Policy",
-                            "subtitle": "Managing Visitor Numbers, Protecting Local Life & City Regulations",
-                            "badge": "Session Overview • Managing Tourism & City Life"
-                  },
-                  "openingSession": {
-                            "title": "Activity 1: Tourism Policy News & Session 2 Review (10 mins)",
-                            "summary": "10-minute opening: analyze current news on city tourist limits and check your memory of Session 2 transport words.",
-                            "newsPrompts": [
-                    "What European cities have recently introduced visitor caps, tourist taxes, or cruise bans?",
-                    "How can local city councils prevent historic neighborhoods from losing their permanent residents?"
-                            ],
-                            "diagnostic": {
-                    "title": "Session 2 Lexis Spot-Check: Transport Terms",
-                    "instructions": "Discuss each term with your partner, then click 'Reveal Answer' to check your accuracy.",
-                    "questions": [
-            {
-                      "id": 1,
-                      "q": "What is a 'Modal Shift'?",
-                      "answer": "A modal shift occurs when travelers or freight switch from one mode of transport (such as private cars or domestic flights) to another more sustainable mode (such as trains or public transit)."
-            },
-            {
-                      "id": 2,
-                      "q": "What does 'Decarbonization' mean in the transport sector?",
-                      "answer": "The process of eliminating or drastically reducing greenhouse gas emissions through electric vehicles, renewable energy, efficiency gains, and cleaner fuels like SAF."
-            },
-            {
-                      "id": 3,
-                      "q": "What are 'Externalities' in transport economics?",
-                      "answer": "Unintended side-effects of transport activities (like noise, air pollution, road accidents, or traffic jams) that affect society but are not reflected in ticket prices or fuel costs."
-            },
-            {
-                      "id": 4,
-                      "q": "What is a 'Lifecycle Assessment' (LCA)?",
-                      "answer": "A systematic method to evaluate the environmental impact of a vehicle, fuel, or infrastructure from raw material extraction through manufacturing, use, and final disposal or recycling."
+          "overview": {
+            "image": "images/ag_m1card3.png",
+            "title": "Overtourism & Tourism Policy",
+            "subtitle": "Managing Visitor Numbers, Protecting Local Life & City Regulations",
+            "badge": "Session Overview • Managing Tourism & City Life"
+          },
+          "hero": {
+            "image": "images/ag_m1card3.png",
+            "title": "Overtourism & Tourism Policy",
+            "subtitle": "Managing Visitor Numbers, Protecting Local Life & City Regulations",
+            "badge": "Session Overview • Managing Tourism & City Life"
+          },
+          "openingSession": {
+            "title": "Activity 1: Tourism Policy News & Session 2 Review (10 mins)",
+            "summary": "10-minute opening: analyze current news on city tourist limits and check your memory of Session 2 transport words.",
+            "newsPrompts": [
+              "What European cities have recently introduced visitor caps, tourist taxes, or cruise bans?",
+              "How can local city councils prevent historic neighborhoods from losing their permanent residents?"
+            ],
+            "diagnostic": {
+              "title": "Session 2 Lexis Spot-Check: Transport Terms",
+              "instructions": "Discuss each term with your partner, then click 'Reveal Answer' to check your accuracy.",
+              "questions": [
+                {
+                  "id": 1,
+                  "q": "What is a 'Modal Shift'?",
+                  "answer": "A modal shift occurs when travelers or freight switch from one mode of transport (such as private cars or domestic flights) to another more sustainable mode (such as trains or public transit)."
+                },
+                {
+                  "id": 2,
+                  "q": "What does 'Decarbonization' mean in the transport sector?",
+                  "answer": "The process of eliminating or drastically reducing greenhouse gas emissions through electric vehicles, renewable energy, efficiency gains, and cleaner fuels like SAF."
+                },
+                {
+                  "id": 3,
+                  "q": "What are 'Externalities' in transport economics?",
+                  "answer": "Unintended side-effects of transport activities (like noise, air pollution, road accidents, or traffic jams) that affect society but are not reflected in ticket prices or fuel costs."
+                },
+                {
+                  "id": 4,
+                  "q": "What is a 'Lifecycle Assessment' (LCA)?",
+                  "answer": "A systematic method to evaluate the environmental impact of a vehicle, fuel, or infrastructure from raw material extraction through manufacturing, use, and final disposal or recycling."
+                }
+              ]
             }
-                    ]
-                            }
-                  },
-                  "pressureMatrix": {
-                            "title": "Activity 2: Destination Pressure & Visitor Capacity (25 mins)",
-                            "summary": "Examine how massive visitor numbers impact local residents and natural sites across 4 famous international destinations.",
-                            "destinations": [
-                    {
-            "id": 1,
-            "name": "Venice, Italy",
-            "residents": "49,000 residents",
-            "visitors": "25+ million annual visitors",
-            "issues": "Historic depopulation (down from 175,000 in 1950), overcrowding on water buses, rising grocery and housing prices.",
-            "actions": "Introduced a €5 day-tripper entry fee during peak weekends; banned large cruise ships from navigating the Giudecca Canal."
-                    },
-                    {
-            "id": 2,
-            "name": "Dubrovnik, Croatia",
-            "residents": "41,000 residents",
-            "visitors": "1.5 million visitors",
-            "issues": "'Game of Thrones' tourism caused severe bottlenecks at the historic city gates and pushed local shops out.",
-            "actions": "'Respect the City' program: capped cruise ship arrivals to a maximum of 4,000 disembarking passengers at any one time; introduced live crowd surveillance cameras."
-                    },
-                    {
-            "id": 3,
-            "name": "Amsterdam, Netherlands",
-            "residents": "880,000 residents",
-            "visitors": "20 million visitors",
-            "issues": "Alcohol tourism in the historic canal district, street nuisance, and displacement of local bakeries by waffle shops.",
-            "actions": "'Stay Away' targeted advertising campaigns, ban on new hotel construction in the center, and plans to relocate the sea cruise terminal outside the city center."
-                    },
-                    {
-            "id": 4,
-            "name": "Maya Bay, Thailand",
-            "residents": "Protected National Park",
-            "visitors": "5,000 visitors per day (pre-2018)",
-            "issues": "Boat anchors and sunscreen destroyed over 80% of local coral reefs and drove blacktip reef sharks away.",
-            "actions": "Complete closure for 3.5 years for ecological regeneration; reopened with a daily visitor cap, mandatory online booking, and a complete ban on boats entering the bay."
-                    }
-                            ],
-                            "discussionPrompt": "Which city policy has been most successful in balancing economic income with resident well-being?"
-                  },
-                  "policyPitch": {
-                            "title": "Activity 3: Pitching New Tourism Policies to the Mayor (25 mins)",
-                            "summary": "In pairs, choose one controversial municipal policy, prepare a 2-minute pitch to the city council, and anticipate objections from local business lobbies.",
-                            "policies": [
-                    {
-            "id": 1,
-            "title": "Policy A: Strict Quota on Short-Term Holiday Rentals (Airbnb)",
-            "description": "Limit residential rentals to a maximum of 30 nights per year per owner, requiring verified city registration to preserve long-term housing for nurses, teachers, and students.",
-            "objection": "Hotel and property investor associations argue this infringes on private property rights and reduces tourist spending."
-                    },
-                    {
-            "id": 2,
-            "title": "Policy B: €10 Peak-Season Daily Visitor Levy",
-            "description": "Charge all day-trippers who do not stay overnight an electronic fee collected through train tickets and parking meters, dedicated 100% to public cleaning and resident tax relief.",
-            "objection": "Retailers and restaurant owners worry day-trippers will choose competing neighboring towns instead."
-                    },
-                    {
-            "id": 3,
-            "title": "Policy C: Total Ban on Mega-Cruise Ships in City Ports",
-            "description": "Prohibit passenger ships over 50,000 gross tonnes from docking within 10 km of the historic center to stop air pollution and sudden crowd surges.",
-            "objection": "Port authorities argue the city will lose millions in docking fees and provisioning contracts."
-                    }
-                            ]
-                  },
-                  "grammarClinic": {
-                            "title": "Activity 4: Grammar Clinic: Causatives & Contrast Words (20 mins)",
-                            "summary": "Use causative verbs (make, have, get) to express regulations and authority, and use contrast linkers (despite, in spite of, whereas) to balance competing interests.",
-                            "rules": [
-                    {
-            "title": "1. Causatives of Authority (Make / Have / Require)",
-            "formula": "Make + object + V1 (infinitive without to) / Require + object + to-V1",
-            "example": "The city council <strong>made tour companies limit</strong> walking groups to 20 people."
-                    },
-                    {
-            "title": "2. Contrast Prepositions (Despite / In spite of + Noun / -ing)",
-            "formula": "Despite / In spite of + noun phrase or gerund",
-            "example": "<strong>Despite fierce opposition</strong> from souvenir shop owners, the pedestrian zone was approved."
-                    },
-                    {
-            "title": "3. Concession Clauses (Whereas / While)",
-            "formula": "Clause 1, whereas / while + Clause 2",
-            "example": "Hotels welcomed the tourists, <strong>whereas</strong> local residents struggled with nighttime noise."
-                    }
-                            ],
-                            "challenge": {
-                    "title": "Causatives & Contrast Check",
-                    "questions": [
-            {
-                      "id": 1,
-                      "sentence": "________ the higher tourist tax, hotel bookings in the historic quarter increased by 5%.",
-                      "options": [
-                                "A) Despite",
-                                "B) Although",
-                                "C) Because"
-                      ],
-                      "correct": "A) Despite",
-                      "explanation": "'Despite' is followed by a noun phrase ('the higher tourist tax'). 'Although' would require a full clause with a subject and verb."
-            },
-            {
-                      "id": 2,
-                      "sentence": "New municipal guidelines ________ holiday rental owners to register their apartments online.",
-                      "options": [
-                                "A) make",
-                                "B) require",
-                                "C) let"
-                      ],
-                      "correct": "B) require",
-                      "explanation": "'Require' takes the 'to-infinitive' pattern ('require someone to do something'). 'Make' would take an infinitive without 'to'."
+          },
+          "pressureMatrix": {
+            "title": "Activity 2: Destination Pressure & Visitor Capacity (25 mins)",
+            "summary": "Examine how massive visitor numbers impact local residents and natural sites across 4 famous international destinations.",
+            "destinations": [
+              {
+                "id": 1,
+                "name": "Venice, Italy",
+                "residents": "49,000 residents",
+                "visitors": "25+ million annual visitors",
+                "issues": "Historic depopulation (down from 175,000 in 1950), overcrowding on water buses, rising grocery and housing prices.",
+                "actions": "Introduced a €5 day-tripper entry fee during peak weekends; banned large cruise ships from navigating the Giudecca Canal."
+              },
+              {
+                "id": 2,
+                "name": "Dubrovnik, Croatia",
+                "residents": "41,000 residents",
+                "visitors": "1.5 million visitors",
+                "issues": "'Game of Thrones' tourism caused severe bottlenecks at the historic city gates and pushed local shops out.",
+                "actions": "'Respect the City' program: capped cruise ship arrivals to a maximum of 4,000 disembarking passengers at any one time; introduced live crowd surveillance cameras."
+              },
+              {
+                "id": 3,
+                "name": "Amsterdam, Netherlands",
+                "residents": "880,000 residents",
+                "visitors": "20 million visitors",
+                "issues": "Alcohol tourism in the historic canal district, street nuisance, and displacement of local bakeries by waffle shops.",
+                "actions": "'Stay Away' targeted advertising campaigns, ban on new hotel construction in the center, and plans to relocate the sea cruise terminal outside the city center."
+              },
+              {
+                "id": 4,
+                "name": "Maya Bay, Thailand",
+                "residents": "Protected National Park",
+                "visitors": "5,000 visitors per day (pre-2018)",
+                "issues": "Boat anchors and sunscreen destroyed over 80% of local coral reefs and drove blacktip reef sharks away.",
+                "actions": "Complete closure for 3.5 years for ecological regeneration; reopened with a daily visitor cap, mandatory online booking, and a complete ban on boats entering the bay."
+              }
+            ],
+            "discussionPrompt": "Which city policy has been most successful in balancing economic income with resident well-being?"
+          },
+          "policyPitch": {
+            "title": "Activity 3: Pitching New Tourism Policies to the Mayor (25 mins)",
+            "summary": "In pairs, choose one controversial municipal policy, prepare a 2-minute pitch to the city council, and anticipate objections from local business lobbies.",
+            "policies": [
+              {
+                "id": 1,
+                "title": "Policy A: Strict Quota on Short-Term Holiday Rentals (Airbnb)",
+                "description": "Limit residential rentals to a maximum of 30 nights per year per owner, requiring verified city registration to preserve long-term housing for nurses, teachers, and students.",
+                "objection": "Hotel and property investor associations argue this infringes on private property rights and reduces tourist spending."
+              },
+              {
+                "id": 2,
+                "title": "Policy B: €10 Peak-Season Daily Visitor Levy",
+                "description": "Charge all day-trippers who do not stay overnight an electronic fee collected through train tickets and parking meters, dedicated 100% to public cleaning and resident tax relief.",
+                "objection": "Retailers and restaurant owners worry day-trippers will choose competing neighboring towns instead."
+              },
+              {
+                "id": 3,
+                "title": "Policy C: Total Ban on Mega-Cruise Ships in City Ports",
+                "description": "Prohibit passenger ships over 50,000 gross tonnes from docking within 10 km of the historic center to stop air pollution and sudden crowd surges.",
+                "objection": "Port authorities argue the city will lose millions in docking fees and provisioning contracts."
+              }
+            ]
+          },
+          "grammarClinic": {
+            "title": "Activity 4: Grammar Clinic: Causatives & Contrast Words (20 mins)",
+            "summary": "Use causative verbs (make, have, get) to express regulations and authority, and use contrast linkers (despite, in spite of, whereas) to balance competing interests.",
+            "rules": [
+              {
+                "title": "1. Causatives of Authority (Make / Have / Require)",
+                "formula": "Make + object + V1 (infinitive without to) / Require + object + to-V1",
+                "example": "The city council <strong>made tour companies limit</strong> walking groups to 20 people."
+              },
+              {
+                "title": "2. Contrast Prepositions (Despite / In spite of + Noun / -ing)",
+                "formula": "Despite / In spite of + noun phrase or gerund",
+                "example": "<strong>Despite fierce opposition</strong> from souvenir shop owners, the pedestrian zone was approved."
+              },
+              {
+                "title": "3. Concession Clauses (Whereas / While)",
+                "formula": "Clause 1, whereas / while + Clause 2",
+                "example": "Hotels welcomed the tourists, <strong>whereas</strong> local residents struggled with nighttime noise."
+              }
+            ],
+            "challenge": {
+              "title": "Causatives & Contrast Check",
+              "questions": [
+                {
+                  "id": 1,
+                  "sentence": "________ the higher tourist tax, hotel bookings in the historic quarter increased by 5%.",
+                  "options": [
+                    "A) Despite",
+                    "B) Although",
+                    "C) Because"
+                  ],
+                  "correct": "A) Despite",
+                  "explanation": "'Despite' is followed by a noun phrase ('the higher tourist tax'). 'Although' would require a full clause with a subject and verb."
+                },
+                {
+                  "id": 2,
+                  "sentence": "New municipal guidelines ________ holiday rental owners to register their apartments online.",
+                  "options": [
+                    "A) make",
+                    "B) require",
+                    "C) let"
+                  ],
+                  "correct": "B) require",
+                  "explanation": "'Require' takes the 'to-infinitive' pattern ('require someone to do something'). 'Make' would take an infinitive without 'to'."
+                }
+              ]
             }
-                    ]
-                            }
-                  },
-                  "simulation": {
-                            "title": "Activity 5: DDRS Simulation: The Isla Serena Water Crisis (30 mins)",
-                            "summary": "A 4-role negotiation resolving an acute summer water shortage (320% surge in consumption) vs. a proposal to expand the island airport runway to welcome more tourists.",
-                            "roles": [
-                    {
-            "role": "Role A: The Town Mayor",
-            "stance": "Must protect the local economy and preserve municipal tax revenue, but cannot allow taps to run dry in local residential homes."
-                    },
-                    {
-            "role": "Role B: The Hotel Association President",
-            "stance": "Represents 45 hotels employing 1,500 people. Insists that tourists expect swimming pools and daily air conditioning, and supports expanding the airport runway."
-                    },
-                    {
-            "role": "Role C: The Organic Farmer",
-            "stance": "Produces citrus and olives. Demands priority water allocations for agriculture and opposes runway expansion because it destroys fertile farmland."
-                    },
-                    {
-            "role": "Role D: The Environmental Protection Regulator",
-            "stance": "Reports that the underground freshwater aquifer is at 18% capacity. Warns that further drilling will cause saltwater contamination, destroying the island's drinking water."
-                    }
-                            ],
-                            "task": "Negotiate a realistic 3-point compromise agreement that addresses water rationing, tourism capacity limits, and infrastructure funding."
-                  },
-                  "closingReview": {
-                            "title": "Activity 6: 10-Minute Vocabulary Wrap-Up & Taboo Fluency Challenge (10 mins)",
-                            "summary": "Consolidate today's 18 overtourism terms with rapid audio pronunciation and a fast-paced 45-second Taboo fluency challenge.",
-                            "vocabWords": [
-                    "Overtourism",
-                    "Carrying Capacity",
-                    "De-Marketing",
-                    "Tourist Levy",
-                    "Resident Backlash",
-                    "Short-Term Rental",
-                    "Cruise Ship Ban",
-                    "Heritage Conservation",
-                    "Seasonal Quota",
-                    "Visitor Dispersion",
-                    "Overtourism Index",
-                    "Displacement",
-                    "Infrastructure Strain",
-                    "Honey-Pot Destination",
-                    "Environmental Degradation",
-                    "Surge Pricing",
-                    "Community Consultation",
-                    "Quality of Life"
-                            ],
-                            "tabooCards": [
-                    {
-            "word": "Tourist Levy",
-            "forbidden": [
-                      "Tax",
-                      "Money",
-                      "Pay",
-                      "City"
+          },
+          "simulation": {
+            "title": "Activity 5: DDRS Simulation: The Isla Serena Water Crisis (30 mins)",
+            "summary": "A 4-role negotiation resolving an acute summer water shortage (320% surge in consumption) vs. a proposal to expand the island airport runway to welcome more tourists.",
+            "roles": [
+              {
+                "role": "Role A: The Town Mayor",
+                "stance": "Must protect the local economy and preserve municipal tax revenue, but cannot allow taps to run dry in local residential homes."
+              },
+              {
+                "role": "Role B: The Hotel Association President",
+                "stance": "Represents 45 hotels employing 1,500 people. Insists that tourists expect swimming pools and daily air conditioning, and supports expanding the airport runway."
+              },
+              {
+                "role": "Role C: The Organic Farmer",
+                "stance": "Produces citrus and olives. Demands priority water allocations for agriculture and opposes runway expansion because it destroys fertile farmland."
+              },
+              {
+                "role": "Role D: The Environmental Protection Regulator",
+                "stance": "Reports that the underground freshwater aquifer is at 18% capacity. Warns that further drilling will cause saltwater contamination, destroying the island's drinking water."
+              }
+            ],
+            "task": "Negotiate a realistic 3-point compromise agreement that addresses water rationing, tourism capacity limits, and infrastructure funding."
+          },
+          "closingReview": {
+            "title": "Activity 6: 10-Minute Vocabulary Wrap-Up & Taboo Fluency Challenge (10 mins)",
+            "summary": "Consolidate today's 18 overtourism terms with rapid audio pronunciation and a fast-paced 45-second Taboo fluency challenge.",
+            "vocabWords": [
+              "Overtourism",
+              "Carrying Capacity",
+              "De-Marketing",
+              "Tourist Levy",
+              "Resident Backlash",
+              "Short-Term Rental",
+              "Cruise Ship Ban",
+              "Heritage Conservation",
+              "Seasonal Quota",
+              "Visitor Dispersion",
+              "Overtourism Index",
+              "Displacement",
+              "Infrastructure Strain",
+              "Honey-Pot Destination",
+              "Environmental Degradation",
+              "Surge Pricing",
+              "Community Consultation",
+              "Quality of Life"
+            ],
+            "tabooCards": [
+              {
+                "word": "Tourist Levy",
+                "forbidden": [
+                  "Tax",
+                  "Money",
+                  "Pay",
+                  "City"
+                ]
+              },
+              {
+                "word": "Carrying Capacity",
+                "forbidden": [
+                  "Limit",
+                  "Maximum",
+                  "Crowd",
+                  "Number"
+                ]
+              },
+              {
+                "word": "De-Marketing",
+                "forbidden": [
+                  "Discourage",
+                  "Advertising",
+                  "Stop",
+                  "Campaign"
+                ]
+              },
+              {
+                "word": "Resident Backlash",
+                "forbidden": [
+                  "Anger",
+                  "Protest",
+                  "Local",
+                  "People"
+                ]
+              },
+              {
+                "word": "Seasonal Quota",
+                "forbidden": [
+                  "Summer",
+                  "Limit",
+                  "Number",
+                  "Month"
+                ]
+              }
             ]
-                    },
-                    {
-            "word": "Carrying Capacity",
-            "forbidden": [
-                      "Limit",
-                      "Maximum",
-                      "Crowd",
-                      "Number"
-            ]
-                    },
-                    {
-            "word": "De-Marketing",
-            "forbidden": [
-                      "Discourage",
-                      "Advertising",
-                      "Stop",
-                      "Campaign"
-            ]
-                    },
-                    {
-            "word": "Resident Backlash",
-            "forbidden": [
-                      "Anger",
-                      "Protest",
-                      "Local",
-                      "People"
-            ]
-                    },
-                    {
-            "word": "Seasonal Quota",
-            "forbidden": [
-                      "Summer",
-                      "Limit",
-                      "Number",
-                      "Month"
-            ]
-                    }
-                            ]
-                  }
+          }
         }
       },
       "4": {
@@ -2304,32 +2410,32 @@
               "time": "0-10",
               "title": "Part 1: Eco-Tourism News & Session 3 Review (10 mins)",
               "description": "Discussing genuine green travel innovations and checking memory of Session 3 words (carrying capacity, de-marketing, resident backlash, tourist levy)."
-                      },
-                      {
+            },
+            {
               "time": "10-35",
               "title": "Part 2: Genuine Eco-Tourism vs. Greenwashing (25 mins)",
               "description": "Forensic evidence audit of 3 real-world projects (Costa Rica cloud forest, Kenya Maasai conservancies, Norway electric fjord cruise) against greenwashing checklists."
-                      },
-                      {
+            },
+            {
               "time": "35-55",
               "title": "Part 3: Grammar Clinic — Mixed Conditionals & Purpose Clauses (20 mins)",
               "description": "Contrasting past conservation actions with present outcomes (If + had + V3, would + V1) and using formal connecting words (so as to, in order that, provided that)."
-                      },
-                      {
+            },
+            {
               "time": "55-85",
               "title": "Part 4: Workshop — The €2,500,000 Eco-Resort Blueprint (30 mins)",
               "description": "Designing a low-impact, 100% renewable resort in a fragile ecosystem (fjord, wetland, alpine valley) balancing visitor capacity and local community jobs."
-                      },
-                      {
+            },
+            {
               "time": "85-110",
               "title": "Part 5: The Green Investor Forum — Pitches & Defense (25 mins)",
               "description": "2-minute competitive pitches to the Sustainability Investment Board answering tough stakeholder questions on visitor limits and greenwashing."
-                      },
-                      {
+            },
+            {
               "time": "110-120",
               "title": "Part 6: 10-Minute Vocabulary Wrap-Up & FE1 Readiness Check (10 mins)",
               "description": "Final consolidation of the 18 terms with audio pronunciation, partner verification, visual aids check, and self-critique readiness for Session 5."
-                      }
+            }
           ]
         },
         "revision": {
@@ -2457,9 +2563,9 @@
           ],
           "grammar": {
             "title": "AT, IN, and ON for Places",
-            "badge": "B1\u2013B2 Grammar Focus",
+            "badge": "B1–B2 Grammar Focus",
             "patternTitle": "The Three Place Prepositions",
-            "formula": "AT (Point / Desk) \u2022 IN (Enclosed Room / City) \u2022 ON (Surface / Floor / Line)",
+            "formula": "AT (Point / Desk) • IN (Enclosed Room / City) • ON (Surface / Floor / Line)",
             "rulesTitle": "Core Rules",
             "rules": [
               "<strong style=\"color: #1e293b;\">1. AT (Specific Points &amp; Desks):</strong> Exact service counters, meeting points, and transit stops (<span style=\"font-weight: 700; color: #c0684f;\">at the desk</span>, <span style=\"font-weight: 700; color: #c0684f;\">at the solar charging hub</span>, <span style=\"font-weight: 700; color: #c0684f;\">at the gate</span>).",
@@ -2467,7 +2573,7 @@
               "<strong style=\"color: #1e293b;\">3. ON (Surfaces, Floors &amp; Public Transport):</strong> Flat surfaces, specific floors, and public transit (<span style=\"font-weight: 600; color: #334155;\">on the roof</span>, <span style=\"font-weight: 600; color: #334155;\">on the second floor</span>, <span style=\"font-weight: 600; color: #334155;\">on the train</span>).",
               "<strong style=\"color: #1e293b;\">4. Relational Words:</strong> <span style=\"font-weight: 600; color: #334155;\">next to</span> / <span style=\"font-weight: 600; color: #334155;\">adjacent to</span> (beside), <span style=\"font-weight: 600; color: #334155;\">between</span> (between two points), and <span style=\"font-weight: 600; color: #334155;\">throughout</span> (all across an area)."
             ],
-            "trap": "<strong>\u26a0\ufe0f TOEIC Trap Alert:</strong> Watch out for movement words! Static places use <em>at</em>, <em>in</em>, or <em>on</em>. Movement uses <em>to</em>, <em>into</em>, <em>onto</em>, or <em>toward</em>. If the action is stationary (e.g., <em>purchase</em>, <em>wait</em>, <em>meet</em>, <em>sit</em>), do not choose movement words!",
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> Watch out for movement words! Static places use <em>at</em>, <em>in</em>, or <em>on</em>. Movement uses <em>to</em>, <em>into</em>, <em>onto</em>, or <em>toward</em>. If the action is stationary (e.g., <em>purchase</em>, <em>wait</em>, <em>meet</em>, <em>sit</em>), do not choose movement words!",
             "examplesTitle": "Green Tourism & Transit Examples",
             "examples": [
               "<em>\"Visitors can collect reusable guidebooks <strong>at</strong> the eco-tourism kiosk located in the primary lobby.\"</em>",
@@ -2502,37 +2608,37 @@
           "resources": [
             {
               "url": "https://www.gstcouncil.org",
-              "tag": "01 \u2022 Global Accreditation",
+              "tag": "01 • Global Accreditation",
               "name": "Global Sustainable Tourism Council",
               "desc": "Authoritative international standards for sustainable travel and ecotourism."
             },
             {
               "url": "https://www.greenkey.global",
-              "tag": "02 \u2022 Hospitality Eco-Label",
+              "tag": "02 • Hospitality Eco-Label",
               "name": "Green Key International",
               "desc": "Leading international eco-label award for accommodations and hospitality."
             },
             {
               "url": "https://www.eea.europa.eu",
-              "tag": "03 \u2022 Environmental Audits",
+              "tag": "03 • Environmental Audits",
               "name": "EEA Environmental Management",
               "desc": "European guidance on corporate environmental auditing and EMAS compliance."
             },
             {
               "url": "https://www.unwto.org",
-              "tag": "04 \u2022 Climate Action",
+              "tag": "04 • Climate Action",
               "name": "UN Tourism Decarbonization",
               "desc": "Glasgow Declaration on Climate Action in Tourism frameworks and commitments."
             },
             {
               "url": "https://ourworldindata.org",
-              "tag": "05 \u2022 Transport Intensity",
+              "tag": "05 • Transport Intensity",
               "name": "Our World in Data",
               "desc": "Comparative data on transportation carbon intensity per passenger-kilometer."
             },
             {
               "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 \u2022 Evaluation Rubrics",
+              "tag": "06 • Evaluation Rubrics",
               "name": "ETS Global TOEIC",
               "desc": "Official TOEIC Speaking & Writing evaluation benchmarks and sample responses."
             }
@@ -2685,201 +2791,201 @@
           ]
         },
         "lessonContent": {
-                  "overview": {
-                            "image": "images/ag_m1card4.png",
-                            "title": "Sustainable & Eco-Tourism",
-                            "subtitle": "Responsible Travel, Genuine Green Projects & Community Benefits",
-                            "badge": "Session Overview • Eco-Tourism & Green Certification"
-                  },
-                  "hero": {
-                            "image": "images/ag_m1card4.png",
-                            "title": "Sustainable & Eco-Tourism",
-                            "subtitle": "Responsible Travel, Genuine Green Projects & Community Benefits",
-                            "badge": "Session Overview • Eco-Tourism & Green Certification"
-                  },
-                  "openingSession": {
-                            "title": "Activity 1: Eco-Tourism News & Session 3 Review (10 mins)",
-                            "summary": "10-minute opening: discuss genuine green travel innovations and check your memory of Session 3 overtourism terms.",
-                            "newsPrompts": [
-                    "What distinguishes a genuine eco-lodge from a hotel that simply uses 'green' marketing buzzwords?",
-                    "How can local communities retain more economic revenue from international nature tourism?"
-                            ],
-                            "diagnostic": {
-                    "title": "Session 3 Lexis Spot-Check: Overtourism Terms",
-                    "instructions": "Discuss each term with your partner, then click 'Reveal Answer' to check your accuracy.",
-                    "questions": [
-            {
-                      "id": 1,
-                      "q": "What is 'Carrying Capacity' in tourism management?",
-                      "answer": "The maximum number of visitors a destination or ecosystem can sustain without permanent environmental degradation or a decline in local resident quality of life."
-            },
-            {
-                      "id": 2,
-                      "q": "What is 'De-Marketing'?",
-                      "answer": "Strategic communication designed to discourage visitor numbers or redirect tourist flows away from fragile, overcrowded hotspots to quieter, alternative regions."
-            },
-            {
-                      "id": 3,
-                      "q": "What does 'Resident Backlash' refer to?",
-                      "answer": "Public protests, strikes, and political resistance from local citizens when overtourism causes rising rents, overcrowding, noise, and loss of local neighborhood character."
-            },
-            {
-                      "id": 4,
-                      "q": "What is a 'Tourist Levy'?",
-                      "answer": "A municipal surcharge or tax added to hotel bills or collected upon city entry, specifically dedicated to financing public services, waste management, and conservation."
+          "overview": {
+            "image": "images/ag_m1card4.png",
+            "title": "Sustainable & Eco-Tourism",
+            "subtitle": "Responsible Travel, Genuine Green Projects & Community Benefits",
+            "badge": "Session Overview • Eco-Tourism & Green Certification"
+          },
+          "hero": {
+            "image": "images/ag_m1card4.png",
+            "title": "Sustainable & Eco-Tourism",
+            "subtitle": "Responsible Travel, Genuine Green Projects & Community Benefits",
+            "badge": "Session Overview • Eco-Tourism & Green Certification"
+          },
+          "openingSession": {
+            "title": "Activity 1: Eco-Tourism News & Session 3 Review (10 mins)",
+            "summary": "10-minute opening: discuss genuine green travel innovations and check your memory of Session 3 overtourism terms.",
+            "newsPrompts": [
+              "What distinguishes a genuine eco-lodge from a hotel that simply uses 'green' marketing buzzwords?",
+              "How can local communities retain more economic revenue from international nature tourism?"
+            ],
+            "diagnostic": {
+              "title": "Session 3 Lexis Spot-Check: Overtourism Terms",
+              "instructions": "Discuss each term with your partner, then click 'Reveal Answer' to check your accuracy.",
+              "questions": [
+                {
+                  "id": 1,
+                  "q": "What is 'Carrying Capacity' in tourism management?",
+                  "answer": "The maximum number of visitors a destination or ecosystem can sustain without permanent environmental degradation or a decline in local resident quality of life."
+                },
+                {
+                  "id": 2,
+                  "q": "What is 'De-Marketing'?",
+                  "answer": "Strategic communication designed to discourage visitor numbers or redirect tourist flows away from fragile, overcrowded hotspots to quieter, alternative regions."
+                },
+                {
+                  "id": 3,
+                  "q": "What does 'Resident Backlash' refer to?",
+                  "answer": "Public protests, strikes, and political resistance from local citizens when overtourism causes rising rents, overcrowding, noise, and loss of local neighborhood character."
+                },
+                {
+                  "id": 4,
+                  "q": "What is a 'Tourist Levy'?",
+                  "answer": "A municipal surcharge or tax added to hotel bills or collected upon city entry, specifically dedicated to financing public services, waste management, and conservation."
+                }
+              ]
             }
-                    ]
-                            }
-                  },
-                  "forensicAudit": {
-                            "title": "Activity 2: Genuine Eco-Tourism vs. Greenwashing (25 mins)",
-                            "summary": "Conduct a forensic evidence audit of 3 real-world tourism projects. Separate verified environmental stewardship from superficial marketing buzzwords.",
-                            "projects": [
-                    {
-            "id": 1,
-            "name": "Project A: Monteverde Cloud Forest Reserve (Costa Rica)",
-            "claims": "100% solar and micro-hydro power, private nature reserve protecting 500 hectares of cloud forest, 90% of employees hired from local farming communities.",
-            "revenueRetention": "78% of visitor expenditure remains in the local rural district.",
-            "verdict": "Verified Eco-Tourism: Strong community ownership, verified renewable power, and measurable wildlife habitat protection."
-                    },
-                    {
-            "id": 2,
-            "name": "Project B: 'Eco-Luxury' Lagoon Resort (Southeast Asia)",
-            "claims": "Wooden bamboo decor, paper straws in cocktails, towel re-use cards in bedrooms, claims to be '100% nature-friendly'.",
-            "revenueRetention": "Only 12% of revenue stays local; built on a cleared mangrove wetland; diesel generators provide 24/7 air conditioning.",
-            "verdict": "Greenwashing: Superficial aesthetic changes hiding serious ecological destruction and heavy reliance on fossil fuels."
-                    },
-                    {
-            "id": 3,
-            "name": "Project C: Maasai Wilderness Community Conservancies (Kenya)",
-            "claims": "Land leased directly from indigenous Maasai landholders; strict limit of 16 guests per lodge; safari fees directly fund local school bursaries and wildlife anti-poaching rangers.",
-            "revenueRetention": "65% of net revenues go into community healthcare and educational funds.",
-            "verdict": "Verified Community-Based Tourism (CBT): Demonstrates true social responsibility and ecosystem co-existence."
-                    }
-                            ],
-                            "greenwashingChecklist": [
-                    "Look for independent third-party certification (GSTC, Green Key, EU Ecolabel) rather than self-awarded badges.",
-                    "Check who owns the land and what percentage of revenue remains in the local community.",
-                    "Verify renewable energy sources: does the lodge use real solar/hydro power or hidden diesel generators?"
-                            ]
-                  },
-                  "grammarClinic": {
-                            "title": "Activity 3: Grammar Clinic: Mixed Conditionals & Purpose Clauses (20 mins)",
-                            "summary": "Connect past actions with present consequences using mixed conditionals, and express goals and conditions with formal connectors.",
-                            "rules": [
-                    {
-            "title": "1. Mixed Conditional (Past Action -> Present Result)",
-            "formula": "If + Past Perfect (had + V3), would + V1 (infinitive)",
-            "example": "If the government <strong>had protected</strong> the coral reef ten years ago, the local diving industry <strong>would be</strong> thriving today."
-                    },
-                    {
-            "title": "2. Connectors of Purpose (So as to / In order that)",
-            "formula": "So as to / In order to + V1 || In order that + Subject + modal + V1",
-            "example": "The eco-lodge installed rainwater harvesting tanks <strong>so as to minimize</strong> its strain on the local municipal supply."
-                    },
-                    {
-            "title": "3. Connectors of Condition (Provided that / On condition that)",
-            "formula": "Provided that / On condition that + present tense clause",
-            "example": "Travelers may hike through the private nature reserve <strong>provided that they stay</strong> on the marked wooden boardwalks."
-                    }
-                            ],
-                            "challenge": {
-                    "title": "Conditionals & Purpose Check",
-                    "questions": [
-            {
-                      "id": 1,
-                      "sentence": "If city authorities ________ strict visitor quotas years ago, the historic city center would not be so congested today.",
-                      "options": [
-                                "A) had introduced",
-                                "B) introduced",
-                                "C) would introduce"
-                      ],
-                      "correct": "A) had introduced",
-                      "explanation": "Mixed conditional: Past condition ('had introduced') leading to a present consequence ('would not be')."
-            },
-            {
-                      "id": 2,
-                      "sentence": "Tour groups are permitted to visit the island sanctuary ________ they leave no waste behind.",
-                      "options": [
-                                "A) provided that",
-                                "B) in order to",
-                                "C) despite"
-                      ],
-                      "correct": "A) provided that",
-                      "explanation": "'Provided that' introduces the essential condition required for permission."
+          },
+          "forensicAudit": {
+            "title": "Activity 2: Genuine Eco-Tourism vs. Greenwashing (25 mins)",
+            "summary": "Conduct a forensic evidence audit of 3 real-world tourism projects. Separate verified environmental stewardship from superficial marketing buzzwords.",
+            "projects": [
+              {
+                "id": 1,
+                "name": "Project A: Monteverde Cloud Forest Reserve (Costa Rica)",
+                "claims": "100% solar and micro-hydro power, private nature reserve protecting 500 hectares of cloud forest, 90% of employees hired from local farming communities.",
+                "revenueRetention": "78% of visitor expenditure remains in the local rural district.",
+                "verdict": "Verified Eco-Tourism: Strong community ownership, verified renewable power, and measurable wildlife habitat protection."
+              },
+              {
+                "id": 2,
+                "name": "Project B: 'Eco-Luxury' Lagoon Resort (Southeast Asia)",
+                "claims": "Wooden bamboo decor, paper straws in cocktails, towel re-use cards in bedrooms, claims to be '100% nature-friendly'.",
+                "revenueRetention": "Only 12% of revenue stays local; built on a cleared mangrove wetland; diesel generators provide 24/7 air conditioning.",
+                "verdict": "Greenwashing: Superficial aesthetic changes hiding serious ecological destruction and heavy reliance on fossil fuels."
+              },
+              {
+                "id": 3,
+                "name": "Project C: Maasai Wilderness Community Conservancies (Kenya)",
+                "claims": "Land leased directly from indigenous Maasai landholders; strict limit of 16 guests per lodge; safari fees directly fund local school bursaries and wildlife anti-poaching rangers.",
+                "revenueRetention": "65% of net revenues go into community healthcare and educational funds.",
+                "verdict": "Verified Community-Based Tourism (CBT): Demonstrates true social responsibility and ecosystem co-existence."
+              }
+            ],
+            "greenwashingChecklist": [
+              "Look for independent third-party certification (GSTC, Green Key, EU Ecolabel) rather than self-awarded badges.",
+              "Check who owns the land and what percentage of revenue remains in the local community.",
+              "Verify renewable energy sources: does the lodge use real solar/hydro power or hidden diesel generators?"
+            ]
+          },
+          "grammarClinic": {
+            "title": "Activity 3: Grammar Clinic: Mixed Conditionals & Purpose Clauses (20 mins)",
+            "summary": "Connect past actions with present consequences using mixed conditionals, and express goals and conditions with formal connectors.",
+            "rules": [
+              {
+                "title": "1. Mixed Conditional (Past Action -> Present Result)",
+                "formula": "If + Past Perfect (had + V3), would + V1 (infinitive)",
+                "example": "If the government <strong>had protected</strong> the coral reef ten years ago, the local diving industry <strong>would be</strong> thriving today."
+              },
+              {
+                "title": "2. Connectors of Purpose (So as to / In order that)",
+                "formula": "So as to / In order to + V1 || In order that + Subject + modal + V1",
+                "example": "The eco-lodge installed rainwater harvesting tanks <strong>so as to minimize</strong> its strain on the local municipal supply."
+              },
+              {
+                "title": "3. Connectors of Condition (Provided that / On condition that)",
+                "formula": "Provided that / On condition that + present tense clause",
+                "example": "Travelers may hike through the private nature reserve <strong>provided that they stay</strong> on the marked wooden boardwalks."
+              }
+            ],
+            "challenge": {
+              "title": "Conditionals & Purpose Check",
+              "questions": [
+                {
+                  "id": 1,
+                  "sentence": "If city authorities ________ strict visitor quotas years ago, the historic city center would not be so congested today.",
+                  "options": [
+                    "A) had introduced",
+                    "B) introduced",
+                    "C) would introduce"
+                  ],
+                  "correct": "A) had introduced",
+                  "explanation": "Mixed conditional: Past condition ('had introduced') leading to a present consequence ('would not be')."
+                },
+                {
+                  "id": 2,
+                  "sentence": "Tour groups are permitted to visit the island sanctuary ________ they leave no waste behind.",
+                  "options": [
+                    "A) provided that",
+                    "B) in order to",
+                    "C) despite"
+                  ],
+                  "correct": "A) provided that",
+                  "explanation": "'Provided that' introduces the essential condition required for permission."
+                }
+              ]
             }
-                    ]
-                            }
-                  },
-                  "workshop": {
-                            "title": "Activity 4: Workshop: The €2,500,000 Eco-Resort Blueprint (30 mins)",
-                            "summary": "In teams of 3 to 4, design a low-impact, 100% sustainable tourism project with a €2,500,000 green endowment. Balance visitor capacity, clean energy, and local employment.",
-                            "ecosystems": [
-                    {
-            "id": "A",
-            "name": "Location A: Temperate Fjord (Western Norway)",
-            "features": "Steep granite cliffs, waterfalls, cold marine waters. Accessible only by water or narrow mountain passes.",
-            "requirements": "Electric boat shuttle, geothermal heating, zero-discharge wastewater filtration."
-                    },
-                    {
-            "id": "B",
-            "name": "Location B: Mediterranean Coastal Wetland (Southern Europe)",
-            "features": "Migratory bird sanctuary, salt marshes, dunes. Highly vulnerable to freshwater depletion and summer heat waves.",
-            "requirements": "Raised wooden boardwalks, solar desalinization, organic olive/vegetable permaculture garden."
-                    },
-                    {
-            "id": "C",
-            "name": "Location C: Alpine Valley (French/Swiss Alps)",
-            "features": "High-altitude meadow, melting glaciers, traditional wooden chalets. Threatened by ski-resort commercialization.",
-            "requirements": "Ski-free winter snowshoeing, biomass pellet heating, regional high-speed rail transfer partnerships."
-                    }
-                            ],
-                            "blueprintChecklist": [
-                    "1. Architectural Concept: Low-impact local timber or stone construction with minimal earth disturbance.",
-                    "2. Energy & Water: 100% on-site renewable power (solar/hydro/geothermal) and circular greywater recycling.",
-                    "3. Carrying Capacity: Set strict daily visitor limits and maximum seasonal overnight occupancy.",
-                    "4. Community Revenue: Guarantee at least 70% of staff are hired locally and 10% of profits fund local conservation."
-                            ]
-                  },
-                  "investorForum": {
-                            "title": "Activity 5: The Green Investor Forum: Pitches & Defense (25 mins)",
-                            "summary": "Deliver a concise 2-minute pitch to the Sustainability Investment Board. Defend your project against tough questions regarding profitability, greenwashing, and visitor limits.",
-                            "boardQuestions": [
-                    "\"How will you guarantee that wealthy guests do not consume excessive water and electricity?\"",
-                    "\"What evidence proves your resort will not disrupt the local wildlife breeding season?\"",
-                    "\"How does your project ensure local community members are not simply low-wage service workers?\""
-                            ]
-                  },
-                  "closingReview": {
-                            "title": "Activity 6: 10-Minute Vocabulary Wrap-Up & FE1 Readiness Check (10 mins)",
-                            "summary": "Final preparation for Session 5 Formative Evaluation: audio pronunciation drill of 18 terms and partner readiness review.",
-                            "vocabWords": [
-                    "Eco-Tourism",
-                    "Greenwashing",
-                    "Biodiversity Corridor",
-                    "Community-Based Tourism",
-                    "Carbon Offset",
-                    "Rewilding",
-                    "Conservation Levy",
-                    "Ecolabel Certification",
-                    "Low-Impact Architecture",
-                    "Renewable Energy Microgrid",
-                    "Waste Valorization",
-                    "Indigenous Stewardship",
-                    "Environmental Impact Assessment",
-                    "Sustainable Sourcing",
-                    "Carrying Capacity Limit",
-                    "Permaculture",
-                    "Dark Sky Reserve",
-                    "Regenerative Tourism"
-                            ],
-                            "feChecklist": [
-                    "✅ Presentation partner confirmed and topic selected (Option A: Eco-Friendly Holiday Itinerary OR Option B: Comparing Two Cities' Tourism Policies).",
-                    "✅ 4 to 6 clean visual slides prepared without dense paragraphs of text (no reading aloud from notes!).",
-                    "✅ Personal Vocabulary Study Log and TOEIC Error Log ready to show your teacher.",
-                    "✅ Self-Critique ready: 2 personal English strengths and 2 concrete action targets for Semester 2."
-                            ]
-                  }
+          },
+          "workshop": {
+            "title": "Activity 4: Workshop: The €2,500,000 Eco-Resort Blueprint (30 mins)",
+            "summary": "In teams of 3 to 4, design a low-impact, 100% sustainable tourism project with a €2,500,000 green endowment. Balance visitor capacity, clean energy, and local employment.",
+            "ecosystems": [
+              {
+                "id": "A",
+                "name": "Location A: Temperate Fjord (Western Norway)",
+                "features": "Steep granite cliffs, waterfalls, cold marine waters. Accessible only by water or narrow mountain passes.",
+                "requirements": "Electric boat shuttle, geothermal heating, zero-discharge wastewater filtration."
+              },
+              {
+                "id": "B",
+                "name": "Location B: Mediterranean Coastal Wetland (Southern Europe)",
+                "features": "Migratory bird sanctuary, salt marshes, dunes. Highly vulnerable to freshwater depletion and summer heat waves.",
+                "requirements": "Raised wooden boardwalks, solar desalinization, organic olive/vegetable permaculture garden."
+              },
+              {
+                "id": "C",
+                "name": "Location C: Alpine Valley (French/Swiss Alps)",
+                "features": "High-altitude meadow, melting glaciers, traditional wooden chalets. Threatened by ski-resort commercialization.",
+                "requirements": "Ski-free winter snowshoeing, biomass pellet heating, regional high-speed rail transfer partnerships."
+              }
+            ],
+            "blueprintChecklist": [
+              "1. Architectural Concept: Low-impact local timber or stone construction with minimal earth disturbance.",
+              "2. Energy & Water: 100% on-site renewable power (solar/hydro/geothermal) and circular greywater recycling.",
+              "3. Carrying Capacity: Set strict daily visitor limits and maximum seasonal overnight occupancy.",
+              "4. Community Revenue: Guarantee at least 70% of staff are hired locally and 10% of profits fund local conservation."
+            ]
+          },
+          "investorForum": {
+            "title": "Activity 5: The Green Investor Forum: Pitches & Defense (25 mins)",
+            "summary": "Deliver a concise 2-minute pitch to the Sustainability Investment Board. Defend your project against tough questions regarding profitability, greenwashing, and visitor limits.",
+            "boardQuestions": [
+              "\"How will you guarantee that wealthy guests do not consume excessive water and electricity?\"",
+              "\"What evidence proves your resort will not disrupt the local wildlife breeding season?\"",
+              "\"How does your project ensure local community members are not simply low-wage service workers?\""
+            ]
+          },
+          "closingReview": {
+            "title": "Activity 6: 10-Minute Vocabulary Wrap-Up & FE1 Readiness Check (10 mins)",
+            "summary": "Final preparation for Session 5 Formative Evaluation: audio pronunciation drill of 18 terms and partner readiness review.",
+            "vocabWords": [
+              "Eco-Tourism",
+              "Greenwashing",
+              "Biodiversity Corridor",
+              "Community-Based Tourism",
+              "Carbon Offset",
+              "Rewilding",
+              "Conservation Levy",
+              "Ecolabel Certification",
+              "Low-Impact Architecture",
+              "Renewable Energy Microgrid",
+              "Waste Valorization",
+              "Indigenous Stewardship",
+              "Environmental Impact Assessment",
+              "Sustainable Sourcing",
+              "Carrying Capacity Limit",
+              "Permaculture",
+              "Dark Sky Reserve",
+              "Regenerative Tourism"
+            ],
+            "feChecklist": [
+              "✅ Presentation partner confirmed and topic selected (Option A: Eco-Friendly Holiday Itinerary OR Option B: Comparing Two Cities' Tourism Policies).",
+              "✅ 4 to 6 clean visual slides prepared without dense paragraphs of text (no reading aloud from notes!).",
+              "✅ Personal Vocabulary Study Log and TOEIC Error Log ready to show your teacher.",
+              "✅ Self-Critique ready: 2 personal English strengths and 2 concrete action targets for Semester 2."
+            ]
+          }
         }
       }
     }
@@ -2889,124 +2995,124 @@
     "name": "Module 2",
     "title": "Weather & the Environment",
     "ddrs": {
-      "title": "D\u00e9veloppement Durable & Responsabilit\u00e9 Soci\u00e9tale : Tags et D\u00e9finitions Officielles",
-      "summary": "Le R\u00e9f\u00e9rentiel National DD&RS de l'Enseignement Sup\u00e9rieur et de la Recherche (Label DD&RS) structure les engagements \u00e9cologiques, soci\u00e9taux et \u00e9thiques des \u00e9tablissements et des grands projets de transport selon 5 axes strat\u00e9giques et leurs domaines transversaux d'application.",
+      "title": "Développement Durable & Responsabilité Sociétale : Tags et Définitions Officielles",
+      "summary": "Le Référentiel National DD&RS de l'Enseignement Supérieur et de la Recherche (Label DD&RS) structure les engagements écologiques, sociétaux et éthiques des établissements et des grands projets de transport selon 5 axes stratégiques et leurs domaines transversaux d'application.",
       "pageUrl": "ddrs2.html",
       "axes": [
         {
           "badge": "Axe 1",
           "num": "1.",
-          "title": "Gouvernance et Strat\u00e9gie",
-          "desc": "Int\u00e9gration du d\u00e9veloppement durable dans la vision, le projet d'\u00e9tablissement et le pilotage d\u00e9cisionnel. Dialogue continu avec les parties prenantes (\u00e9tudiants, personnels, collectivit\u00e9s, partenaires), allocation de budgets d\u00e9di\u00e9s et suivi d'indicateurs d'impact mesurables."
+          "title": "Gouvernance et Stratégie",
+          "desc": "Intégration du développement durable dans la vision, le projet d'établissement et le pilotage décisionnel. Dialogue continu avec les parties prenantes (étudiants, personnels, collectivités, partenaires), allocation de budgets dédiés et suivi d'indicateurs d'impact mesurables."
         },
         {
           "badge": "Axe 2",
           "num": "2.",
-          "title": "Formation et P\u00e9dagogie",
-          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-\u00e9cologique (limites plan\u00e9taires, climat, biodiversit\u00e9). Int\u00e9gration transversale des comp\u00e9tences DD&RS (rapport Jouzel / socle MESR) pour pr\u00e9parer les ing\u00e9nieurs \u00e0 la prise de d\u00e9cision \u00e9thique et responsable."
+          "title": "Formation et Pédagogie",
+          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-écologique (limites planétaires, climat, biodiversité). Intégration transversale des compétences DD&RS (rapport Jouzel / socle MESR) pour préparer les ingénieurs à la prise de décision éthique et responsable."
         },
         {
           "badge": "Axe 3",
           "num": "3.",
           "title": "Recherche et Innovation",
-          "desc": "Orientation et valorisation de l'activit\u00e9 scientifique et technologique en r\u00e9ponse aux Objectifs de D\u00e9veloppement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, \u00e9co-conception et transfert de technologies vertes au service de la soci\u00e9t\u00e9."
+          "desc": "Orientation et valorisation de l'activité scientifique et technologique en réponse aux Objectifs de Développement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, éco-conception et transfert de technologies vertes au service de la société."
         },
         {
           "badge": "Axe 4",
           "num": "4.",
           "title": "Gestion Environnementale",
-          "desc": "Ma\u00eetrise et r\u00e9duction continue des impacts \u00e9cologiques directs : d\u00e9carbonation des mobilit\u00e9s pendulaires et professionnelles, efficacit\u00e9 et sobri\u00e9t\u00e9 \u00e9nerg\u00e9tique du patrimoine b\u00e2ti, gestion circulaire des d\u00e9chets, pr\u00e9servation de la biodiversit\u00e9 sur site et achats publics responsables."
+          "desc": "Maîtrise et réduction continue des impacts écologiques directs : décarbonation des mobilités pendulaires et professionnelles, efficacité et sobriété énergétique du patrimoine bâti, gestion circulaire des déchets, préservation de la biodiversité sur site et achats publics responsables."
         },
         {
           "badge": "Axe 5",
           "num": "5.",
           "title": "Politique Sociale et Inclusion",
-          "desc": "Engagement institutionnel pour la responsabilit\u00e9 soci\u00e9tale : \u00e9galit\u00e9 professionnelle femmes-hommes, inclusion et accessibilit\u00e9 des personnes en situation de handicap, \u00e9galit\u00e9 des chances, am\u00e9lioration de la qualit\u00e9 de vie et sant\u00e9 globale, et pr\u00e9vention de toute forme de discrimination."
+          "desc": "Engagement institutionnel pour la responsabilité sociétale : égalité professionnelle femmes-hommes, inclusion et accessibilité des personnes en situation de handicap, égalité des chances, amélioration de la qualité de vie et santé globale, et prévention de toute forme de discrimination."
         }
       ],
       "items": [
         {
           "badge": "Axe 1",
           "num": "1.",
-          "title": "Gouvernance et Strat\u00e9gie",
-          "desc": "Int\u00e9gration du d\u00e9veloppement durable dans la vision, le projet d'\u00e9tablissement et le pilotage d\u00e9cisionnel. Dialogue continu avec les parties prenantes (\u00e9tudiants, personnels, collectivit\u00e9s, partenaires), allocation de budgets d\u00e9di\u00e9s et suivi d'indicateurs d'impact mesurables.",
+          "title": "Gouvernance et Stratégie",
+          "desc": "Intégration du développement durable dans la vision, le projet d'établissement et le pilotage décisionnel. Dialogue continu avec les parties prenantes (étudiants, personnels, collectivités, partenaires), allocation de budgets dédiés et suivi d'indicateurs d'impact mesurables.",
           "isMuted": true
         },
         {
           "badge": "Axe 2",
           "num": "2.",
-          "title": "Formation et P\u00e9dagogie",
-          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-\u00e9cologique (limites plan\u00e9taires, climat, biodiversit\u00e9). Int\u00e9gration transversale des comp\u00e9tences DD&amp;RS (rapport Jouzel / socle MESR) pour pr\u00e9parer les ing\u00e9nieurs \u00e0 la prise de d\u00e9cision \u00e9thique et responsable.",
+          "title": "Formation et Pédagogie",
+          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-écologique (limites planétaires, climat, biodiversité). Intégration transversale des compétences DD&amp;RS (rapport Jouzel / socle MESR) pour préparer les ingénieurs à la prise de décision éthique et responsable.",
           "isMuted": false
         },
         {
           "badge": "Axe 3",
           "num": "3.",
           "title": "Recherche et Innovation",
-          "desc": "Orientation et valorisation de l'activit\u00e9 scientifique et technologique en r\u00e9ponse aux Objectifs de D\u00e9veloppement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, \u00e9co-conception et transfert de technologies vertes au service de la soci\u00e9t\u00e9.",
+          "desc": "Orientation et valorisation de l'activité scientifique et technologique en réponse aux Objectifs de Développement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, éco-conception et transfert de technologies vertes au service de la société.",
           "isMuted": false
         },
         {
           "badge": "Axe 4",
           "num": "4.",
           "title": "Gestion Environnementale",
-          "desc": "Ma\u00eetrise et r\u00e9duction continue des impacts \u00e9cologiques directs : d\u00e9carbonation des mobilit\u00e9s pendulaires et professionnelles, efficacit\u00e9 et sobri\u00e9t\u00e9 \u00e9nerg\u00e9tique du patrimoine b\u00e2ti, gestion circulaire des d\u00e9chets, pr\u00e9servation de la biodiversit\u00e9 sur site et achats publics responsables.",
+          "desc": "Maîtrise et réduction continue des impacts écologiques directs : décarbonation des mobilités pendulaires et professionnelles, efficacité et sobriété énergétique du patrimoine bâti, gestion circulaire des déchets, préservation de la biodiversité sur site et achats publics responsables.",
           "isMuted": false
         },
         {
           "badge": "Axe 5",
           "num": "5.",
           "title": "Politique Sociale et Inclusion",
-          "desc": "Engagement institutionnel pour la responsabilit\u00e9 soci\u00e9tale : \u00e9galit\u00e9 professionnelle femmes-hommes, inclusion et accessibilit\u00e9 des personnes en situation de handicap, \u00e9galit\u00e9 des chances, am\u00e9lioration de la qualit\u00e9 de vie et sant\u00e9 globale, et pr\u00e9vention de toute forme de discrimination.",
+          "desc": "Engagement institutionnel pour la responsabilité sociétale : égalité professionnelle femmes-hommes, inclusion et accessibilité des personnes en situation de handicap, égalité des chances, amélioration de la qualité de vie et santé globale, et prévention de toute forme de discrimination.",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "6.",
-          "title": "Mobilit\u00e9 Durable &amp; Report Modal (Sustainable Mobility)",
-          "desc": "Strat\u00e9gie d'optimisation des transports articul\u00e9e autour de la hi\u00e9rarchie \u00ab \u00c9viter - Transf\u00e9rer - Am\u00e9liorer \u00bb (ASI). Promotion active du report modal vers le ferroviaire, les transports en commun et les mobilit\u00e9s douces face \u00e0 l'autosolisme et aux vols court-courriers.",
+          "title": "Mobilité Durable &amp; Report Modal (Sustainable Mobility)",
+          "desc": "Stratégie d'optimisation des transports articulée autour de la hiérarchie « Éviter - Transférer - Améliorer » (ASI). Promotion active du report modal vers le ferroviaire, les transports en commun et les mobilités douces face à l'autosolisme et aux vols court-courriers.",
           "isMuted": true
         },
         {
           "badge": "Tag",
           "num": "7.",
-          "title": "Bilan d'\u00c9missions de GES (BEGES / Bilan Carbone)",
-          "desc": "Comptabilisation r\u00e9glementaire des gaz \u00e0 effet de serre (m\u00e9thode ADEME / ISO 14064) sur les trois p\u00e9rim\u00e8tres : Scope 1 (\u00e9missions directes), Scope 2 (\u00e9missions indirectes \u00e9nerg\u00e9tiques) et Scope 3 (\u00e9missions indirectes amont/aval : d\u00e9placements, achats, logistique et cycle de vie).",
+          "title": "Bilan d'Émissions de GES (BEGES / Bilan Carbone)",
+          "desc": "Comptabilisation réglementaire des gaz à effet de serre (méthode ADEME / ISO 14064) sur les trois périmètres : Scope 1 (émissions directes), Scope 2 (émissions indirectes énergétiques) et Scope 3 (émissions indirectes amont/aval : déplacements, achats, logistique et cycle de vie).",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "8.",
-          "title": "Sobri\u00e9t\u00e9 \u00c9nerg\u00e9tique &amp; Efficacit\u00e9",
-          "desc": "D\u00e9marche articulant la sobri\u00e9t\u00e9 (questionnement et r\u00e9duction des consommations par la modification des comportements et des usages collectifs) et l'efficacit\u00e9 (optimisation technique des rendements \u00e9nerg\u00e9tiques pour un m\u00eame niveau de service).",
+          "title": "Sobriété Énergétique &amp; Efficacité",
+          "desc": "Démarche articulant la sobriété (questionnement et réduction des consommations par la modification des comportements et des usages collectifs) et l'efficacité (optimisation technique des rendements énergétiques pour un même niveau de service).",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "9.",
-          "title": "Pr\u00e9servation de la Biodiversit\u00e9 &amp; Z\u00e9ro Artificialisation Nette (ZAN)",
-          "desc": "Protection des \u00e9cosyst\u00e8mes et des continuit\u00e9s \u00e9cologiques (trames vertes et bleues). Application des exigences l\u00e9gales (loi Climat et R\u00e9silience) visant \u00e0 stopper la disparition nette d'espaces naturels et agricoles caus\u00e9e par les infrastructures et l'am\u00e9nagement.",
+          "title": "Préservation de la Biodiversité &amp; Zéro Artificialisation Nette (ZAN)",
+          "desc": "Protection des écosystèmes et des continuités écologiques (trames vertes et bleues). Application des exigences légales (loi Climat et Résilience) visant à stopper la disparition nette d'espaces naturels et agricoles causée par les infrastructures et l'aménagement.",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "10.",
-          "title": "\u00c9quit\u00e9 Territoriale &amp; Accessibilit\u00e9 (Territorial Equity)",
-          "desc": "Principe de justice spatiale garantissant un acc\u00e8s universel, abordable et s\u00e9curis\u00e9 aux r\u00e9seaux de transport et aux services d'int\u00e9r\u00eat g\u00e9n\u00e9ral pour l'ensemble des territoires (urbains, p\u00e9riurbains et ruraux), luttant contre la fracture et la pr\u00e9carit\u00e9 mobilit\u00e9.",
+          "title": "Équité Territoriale &amp; Accessibilité (Territorial Equity)",
+          "desc": "Principe de justice spatiale garantissant un accès universel, abordable et sécurisé aux réseaux de transport et aux services d'intérêt général pour l'ensemble des territoires (urbains, périurbains et ruraux), luttant contre la fracture et la précarité mobilité.",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "11.",
           "title": "Achats Responsables &amp; Analyse du Cycle de Vie (ACV / LCA)",
-          "desc": "Int\u00e9gration syst\u00e9matique de crit\u00e8res environnementaux et sociaux dans la commande publique et priv\u00e9e. \u00c9valuation globale des impacts de chaque produit, infrastructure ou service de son extraction jusqu'\u00e0 son recyclage ou \u00e9limination finale.",
+          "desc": "Intégration systématique de critères environnementaux et sociaux dans la commande publique et privée. Évaluation globale des impacts de chaque produit, infrastructure ou service de son extraction jusqu'à son recyclage ou élimination finale.",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "12.",
-          "title": "Objectifs de D\u00e9veloppement Durable (ODD - Agenda 2030)",
-          "desc": "Cadre universel des Nations Unies comprenant 17 objectifs interd\u00e9pendants pour concilier prosp\u00e9rit\u00e9 \u00e9conomique, progr\u00e8s social et protection de la biosph\u00e8re. Les politiques de transport et d'ing\u00e9nierie s'articulent principalement autour des ODD 9, 11, 12 et 13.",
+          "title": "Objectifs de Développement Durable (ODD - Agenda 2030)",
+          "desc": "Cadre universel des Nations Unies comprenant 17 objectifs interdépendants pour concilier prospérité économique, progrès social et protection de la biosphère. Les politiques de transport et d'ingénierie s'articulent principalement autour des ODD 9, 11, 12 et 13.",
           "isMuted": false
         }
       ]
@@ -3143,7 +3249,7 @@
             {
               "num": "13",
               "term": "Greenhouse Effect",
-              "definition": "The planetary warming process where heat-trapping atmospheric gases (CO\u2082, methane, nitrous oxide) absorb outgoing infrared radiation instead of letting it escape to space."
+              "definition": "The planetary warming process where heat-trapping atmospheric gases (CO₂, methane, nitrous oxide) absorb outgoing infrared radiation instead of letting it escape to space."
             },
             {
               "num": "14",
@@ -3201,9 +3307,9 @@
           ],
           "grammar": {
             "title": "Word Endings & Sentence Positions",
-            "badge": "B1\u2013B2 Grammar Focus",
+            "badge": "B1–B2 Grammar Focus",
             "patternTitle": "Common Endings & Word Types",
-            "formula": "Noun (-tion, -ment) \u2022 Adj (-able, -ive) \u2022 Adv (-ly) \u2022 Verb (-ate, -ify)",
+            "formula": "Noun (-tion, -ment) • Adj (-able, -ive) • Adv (-ly) • Verb (-ate, -ify)",
             "rulesTitle": "Core Rules",
             "rules": [
               "<strong style=\"color: #1e293b;\">1. Nouns (-tion, -ment, -ance, -ity):</strong> Names of things, people, or concepts. They come after <em>a</em>, <em>an</em>, <em>the</em> or adjectives (<span style=\"font-weight: 700; color: #49739a;\">prediction</span>, <span style=\"font-weight: 700; color: #49739a;\">severity</span>).",
@@ -3211,7 +3317,7 @@
               "<strong style=\"color: #1e293b;\">3. Adverbs (-ly):</strong> Words that describe how or how much an action happens. They describe verbs, adjectives, or full sentences (<span style=\"font-weight: 600; color: #334155;\">significantly</span>, <span style=\"font-weight: 600; color: #334155;\">rapidly</span>).",
               "<strong style=\"color: #1e293b;\">4. Verbs (-ate, -ify, -ize):</strong> Action words. They follow the subject (<span style=\"font-weight: 600; color: #334155;\">predict</span>, <span style=\"font-weight: 600; color: #334155;\">signify</span>)."
             ],
-            "trap": "<strong>\u26a0\ufe0f TOEIC Trap Alert:</strong> If a sentence already has a complete verb (e.g., <em>dropped</em>), and the blank explains how it happened, you need an <strong>adverb ending in -ly</strong> (<em>dropped significantly</em>)!",
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> If a sentence already has a complete verb (e.g., <em>dropped</em>), and the blank explains how it happened, you need an <strong>adverb ending in -ly</strong> (<em>dropped significantly</em>)!",
             "examplesTitle": "Meteorology & Operations Examples",
             "examples": [
               "<em>\"Meteorologists must monitor barometric pressure <strong>continuously</strong> to ensure flight safety.\"</em>",
@@ -3246,37 +3352,37 @@
           "resources": [
             {
               "url": "https://public.wmo.int",
-              "tag": "01 \u2022 Global Weather Authority",
+              "tag": "01 • Global Weather Authority",
               "name": "World Meteorological Organization",
               "desc": "Global authority on atmospheric science, severe storm warnings, and climate metrics."
             },
             {
               "url": "https://climate.copernicus.eu",
-              "tag": "02 \u2022 Satellite Earth Observation",
+              "tag": "02 • Satellite Earth Observation",
               "name": "Copernicus Climate Change Service",
               "desc": "European satellite data tracking global surface temperatures, wildfires, and extreme storms."
             },
             {
               "url": "https://www.undrr.org",
-              "tag": "03 \u2022 Emergency Preparedness",
+              "tag": "03 • Emergency Preparedness",
               "name": "UN Disaster Risk Reduction (UNDRR)",
               "desc": "Global frameworks, early warning initiatives, and community resilience guidelines."
             },
             {
               "url": "https://www.eea.europa.eu",
-              "tag": "04 \u2022 European Climate Portal",
+              "tag": "04 • European Climate Portal",
               "name": "European Environment Agency Hazards",
               "desc": "Interactive mapping of European heatwaves, drought risks, and flood vulnerability."
             },
             {
               "url": "https://ourworldindata.org/natural-disasters",
-              "tag": "05 \u2022 Empirical Datasets",
+              "tag": "05 • Empirical Datasets",
               "name": "Our World in Data: Natural Disasters",
               "desc": "Long-term statistical datasets and interactive charts tracking extreme weather trends."
             },
             {
               "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 \u2022 TOEIC Listening & Reading",
+              "tag": "06 • TOEIC Listening & Reading",
               "name": "ETS Global TOEIC Preparation",
               "desc": "Weather advisory and emergency briefing listening practice for technical professionals."
             }
@@ -3812,7 +3918,7 @@
           ],
           "grammar": {
             "title": "Matching Subjects & Verbs",
-            "badge": "B1\u2013B2 Grammar Focus",
+            "badge": "B1–B2 Grammar Focus",
             "patternTitle": "Basic Rule",
             "formula": "Main Subject [Singular] + (words in between) + Verb with -s [Singular]",
             "rulesTitle": "Core Rules",
@@ -3821,7 +3927,7 @@
               "<strong style=\"color: #1e293b;\">2. Companies &amp; Organizations:</strong> Words like <em>the committee</em>, <em>the transit board</em>, or <em>the municipality</em> count as one single unit and take a singular verb.",
               "<strong style=\"color: #1e293b;\">3. Words like Each / Every / One of:</strong> Phrases like <em>Each of the hubs</em> or <em>One of the passengers</em> always take a <span style=\"font-weight: 600; color: #334155;\">singular verb</span>."
             ],
-            "trap": "<strong>\u26a0\ufe0f TOEIC Trap Alert:</strong> The test often puts plural nouns right in front of the blank (e.g., <em>\"...corridors into hubs [ _____ ]\"</em>) to fool you. Ignore the words inside <em>\"of...\"</em> or <em>\"in...\"</em> and match the verb to the very first main noun!",
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> The test often puts plural nouns right in front of the blank (e.g., <em>\"...corridors into hubs [ _____ ]\"</em>) to fool you. Ignore the words inside <em>\"of...\"</em> or <em>\"in...\"</em> and match the verb to the very first main noun!",
             "examplesTitle": "Urban Mobility Examples",
             "examples": [
               "<em>\"The expansion of electric tramways into suburban districts <strong>has improved</strong> regional air quality.\"</em>",
@@ -3856,37 +3962,37 @@
           "resources": [
             {
               "url": "https://www.c40.org",
-              "tag": "01 \u2022 Urban Climate Leadership",
+              "tag": "01 • Urban Climate Leadership",
               "name": "C40 Cities Network",
               "desc": "Mayors leading the urban fight against climate change through progressive mobility and clean air zones."
             },
             {
               "url": "https://www.uitp.org",
-              "tag": "02 \u2022 Public Transit Federation",
+              "tag": "02 • Public Transit Federation",
               "name": "UITP Urban Transit Association",
               "desc": "International Association of Public Transport global reports and transit benchmarks."
             },
             {
               "url": "https://www.itdp.org",
-              "tag": "03 \u2022 Sustainable Transport Institute",
+              "tag": "03 • Sustainable Transport Institute",
               "name": "ITDP Sustainable Transport",
               "desc": "Institute for Transportation and Development Policy BRT and cycling standards."
             },
             {
               "url": "https://transport.ec.europa.eu",
-              "tag": "04 \u2022 EU Mobility Framework",
+              "tag": "04 • EU Mobility Framework",
               "name": "European Commission Urban Mobility",
               "desc": "EU framework for Sustainable Urban Mobility Plans (SUMP) and city decarbonization."
             },
             {
               "url": "https://ourworldindata.org/urbanization",
-              "tag": "05 \u2022 Urbanization Statistics",
+              "tag": "05 • Urbanization Statistics",
               "name": "Our World in Data: Urbanization",
               "desc": "Global statistical datasets on metropolitan density, transit usage, and urban sprawl."
             },
             {
               "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 \u2022 TOEIC Business Context",
+              "tag": "06 • TOEIC Business Context",
               "name": "ETS Global TOEIC Preparation",
               "desc": "Vocabulary exercises for municipal tenders, urban planning proposals, and contracts."
             }
@@ -4422,7 +4528,7 @@
           ],
           "grammar": {
             "title": "Verbs with -ing vs. to + Verb",
-            "badge": "B1\u2013B2 Grammar Focus",
+            "badge": "B1–B2 Grammar Focus",
             "patternTitle": "Two Different Verb Patterns",
             "formula": "Verb + -ing | Verb + to + Verb | Preposition + -ing",
             "rulesTitle": "Core Rules",
@@ -4431,7 +4537,7 @@
               "<strong style=\"color: #1e293b;\">2. Verbs Followed by to + Verb:</strong> <span style=\"font-weight: 700; color: #49739a;\">decide</span>, <span style=\"font-weight: 700; color: #49739a;\">agree</span>, <span style=\"font-weight: 700; color: #49739a;\">aim</span>, <em>plan</em>, <em>refuse</em>, <em>promise</em>, <em>hesitate</em> (*agree to invest*).",
               "<strong style=\"color: #1e293b;\">3. Prepositions Always Take -ing:</strong> Any verb after a preposition (<em>in</em>, <em>by</em>, <em>for</em>, <em>committed to</em>, <em>look forward to</em>) must end in <span style=\"font-weight: 600; color: #334155;\">-ing</span>."
             ],
-            "trap": "<strong>\u26a0\ufe0f TOEIC Trap Alert:</strong> In French, people say <em>\"recommander de faire\"</em> with an infinitive. But in English, you <strong>cannot</strong> say <em>\"recommend to do\"</em>. You must say <strong>recommend doing (-ing)</strong>!",
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> In French, people say <em>\"recommander de faire\"</em> with an infinitive. But in English, you <strong>cannot</strong> say <em>\"recommend to do\"</em>. You must say <strong>recommend doing (-ing)</strong>!",
             "examplesTitle": "Climate Policy & Debate Examples",
             "examples": [
               "<em>\"European transport ministers suggested <strong>capping</strong> carbon subsidies for short-haul flights.\"</em>",
@@ -4466,37 +4572,37 @@
           "resources": [
             {
               "url": "https://www.ipcc.ch",
-              "tag": "01 \u2022 Climate Policy Evidence",
+              "tag": "01 • Climate Policy Evidence",
               "name": "IPCC Working Group III",
               "desc": "Intergovernmental Panel on Climate Change reports on transport mitigation options and policy mechanisms."
             },
             {
               "url": "https://www.transportenvironment.org",
-              "tag": "02 \u2022 Clean Transport Campaign",
+              "tag": "02 • Clean Transport Campaign",
               "name": "Transport & Environment (T&E)",
               "desc": "Europe's leading clean transport campaign group with detailed empirical reports on aviation and rail."
             },
             {
               "url": "https://oxfordunion.org",
-              "tag": "03 \u2022 Formal Debate Protocols",
+              "tag": "03 • Formal Debate Protocols",
               "name": "Oxford Union Debate Archives",
               "desc": "World-renowned debate society archives demonstrating formal argumentation protocols and rebuttal tactics."
             },
             {
               "url": "https://plato.stanford.edu",
-              "tag": "04 \u2022 Critical Thinking & Logic",
+              "tag": "04 • Critical Thinking & Logic",
               "name": "Stanford Encyclopedia of Philosophy",
               "desc": "Peer-reviewed analysis of formal logic, argumentation schemes, fallacies, and cognitive biases."
             },
             {
               "url": "https://ourworldindata.org",
-              "tag": "05 \u2022 Global Policy Datasets",
+              "tag": "05 • Global Policy Datasets",
               "name": "Our World in Data: Policy & Regulation",
               "desc": "Long-term data tracking global environmental regulations, public sentiment, and statutory mandates."
             },
             {
               "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 \u2022 TOEIC Argument Comprehension",
+              "tag": "06 • TOEIC Argument Comprehension",
               "name": "ETS Global TOEIC Preparation",
               "desc": "Listening comprehension strategies for identifying disagreement and speaker attitude in business discussions."
             }
@@ -5032,7 +5138,7 @@
           ],
           "grammar": {
             "title": "Pronouns & Possessives in Business",
-            "badge": "B1\u2013B2 Grammar Focus",
+            "badge": "B1–B2 Grammar Focus",
             "patternTitle": "Key Business Rule",
             "formula": "Company / Authority / Organization = ITS (Singular, not \"their\")",
             "rulesTitle": "Core Rules",
@@ -5042,7 +5148,7 @@
               "<strong style=\"color: #1e293b;\">3. -self words (itself / themselves):</strong> Use <span style=\"font-weight: 600; color: #334155;\">itself</span> when the subject does something to or by itself (<em>by itself</em>).",
               "<strong style=\"color: #1e293b;\">4. Determiners:</strong> <em>Each</em> / <em>every</em> take singular nouns; <em>other</em> takes plural nouns (<em>other airports</em>); <em>another</em> takes a single noun (<em>another terminal</em>)."
             ],
-            "trap": "<strong>\u26a0\ufe0f TOEIC Trap Alert:</strong> <strong>its</strong> vs. <strong>it's</strong>! <em>Its</em> (no apostrophe) shows possession (<em>its report</em>). <em>It's</em> (with apostrophe) means <em>it is</em> or <em>it has</em>. In TOEIC Part 5, almost every blank before a noun needs <strong>its</strong>!",
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> <strong>its</strong> vs. <strong>it's</strong>! <em>Its</em> (no apostrophe) shows possession (<em>its report</em>). <em>It's</em> (with apostrophe) means <em>it is</em> or <em>it has</em>. In TOEIC Part 5, almost every blank before a noun needs <strong>its</strong>!",
             "examplesTitle": "Airport Biodiversity Examples",
             "examples": [
               "<em>\"The civil aviation commission updated <strong>its</strong> environmental impact charter for green perimeter zones.\"</em>",
@@ -5077,37 +5183,37 @@
           "resources": [
             {
               "url": "https://www.icao.int",
-              "tag": "01 \u2022 Aviation Safety Database",
+              "tag": "01 • Aviation Safety Database",
               "name": "ICAO Wildlife Strike Hazard Database",
               "desc": "International Civil Aviation Organization official data on bird strike prevention and reporting standards."
             },
             {
               "url": "https://www.iucnredlist.org",
-              "tag": "02 \u2022 Global Conservation Union",
+              "tag": "02 • Global Conservation Union",
               "name": "IUCN Red List of Threatened Species",
               "desc": "International Union for Conservation of Nature global species extinction risk metrics and habitat data."
             },
             {
               "url": "https://aci.aero",
-              "tag": "03 \u2022 Airport Sustainability",
+              "tag": "03 • Airport Sustainability",
               "name": "Airports Council International (ACI World)",
               "desc": "ACI World Sustainability and Environmental Management guidelines for commercial airports."
             },
             {
               "url": "https://www.birdlife.org",
-              "tag": "04 \u2022 Avian Conservation Network",
+              "tag": "04 • Avian Conservation Network",
               "name": "BirdLife International",
               "desc": "Global partnership protecting bird populations, migratory flyways, and critical conservation areas."
             },
             {
               "url": "https://www.eea.europa.eu",
-              "tag": "05 \u2022 European Biodiversity Data",
+              "tag": "05 • European Biodiversity Data",
               "name": "European Environment Agency Nature Portal",
               "desc": "State of European nature reports and protected Natura 2000 network conservation data."
             },
             {
               "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 \u2022 TOEIC Scientific Reading",
+              "tag": "06 • TOEIC Scientific Reading",
               "name": "ETS Global TOEIC Preparation",
               "desc": "Technical reading practice with scientific environmental impact assessments and conservation reports."
             }
@@ -5463,124 +5569,124 @@
     "name": "Module 3",
     "title": "New Technology",
     "ddrs": {
-      "title": "D\u00e9veloppement Durable & Responsabilit\u00e9 Soci\u00e9tale : Tags et D\u00e9finitions Officielles",
-      "summary": "Le R\u00e9f\u00e9rentiel National DD&RS de l'Enseignement Sup\u00e9rieur et de la Recherche (Label DD&RS) structure les engagements \u00e9cologiques, soci\u00e9taux et \u00e9thiques des \u00e9tablissements et des grands projets de transport selon 5 axes strat\u00e9giques et leurs domaines transversaux d'application.",
+      "title": "Développement Durable & Responsabilité Sociétale : Tags et Définitions Officielles",
+      "summary": "Le Référentiel National DD&RS de l'Enseignement Supérieur et de la Recherche (Label DD&RS) structure les engagements écologiques, sociétaux et éthiques des établissements et des grands projets de transport selon 5 axes stratégiques et leurs domaines transversaux d'application.",
       "pageUrl": "ddrs3.html",
       "axes": [
         {
           "badge": "Axe 1",
           "num": "1.",
-          "title": "Gouvernance et Strat\u00e9gie",
-          "desc": "Int\u00e9gration du d\u00e9veloppement durable dans la vision, le projet d'\u00e9tablissement et le pilotage d\u00e9cisionnel. Dialogue continu avec les parties prenantes (\u00e9tudiants, personnels, collectivit\u00e9s, partenaires), allocation de budgets d\u00e9di\u00e9s et suivi d'indicateurs d'impact mesurables."
+          "title": "Gouvernance et Stratégie",
+          "desc": "Intégration du développement durable dans la vision, le projet d'établissement et le pilotage décisionnel. Dialogue continu avec les parties prenantes (étudiants, personnels, collectivités, partenaires), allocation de budgets dédiés et suivi d'indicateurs d'impact mesurables."
         },
         {
           "badge": "Axe 2",
           "num": "2.",
-          "title": "Formation et P\u00e9dagogie",
-          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-\u00e9cologique (limites plan\u00e9taires, climat, biodiversit\u00e9). Int\u00e9gration transversale des comp\u00e9tences DD&RS (rapport Jouzel / socle MESR) pour pr\u00e9parer les ing\u00e9nieurs \u00e0 la prise de d\u00e9cision \u00e9thique et responsable."
+          "title": "Formation et Pédagogie",
+          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-écologique (limites planétaires, climat, biodiversité). Intégration transversale des compétences DD&RS (rapport Jouzel / socle MESR) pour préparer les ingénieurs à la prise de décision éthique et responsable."
         },
         {
           "badge": "Axe 3",
           "num": "3.",
           "title": "Recherche et Innovation",
-          "desc": "Orientation et valorisation de l'activit\u00e9 scientifique et technologique en r\u00e9ponse aux Objectifs de D\u00e9veloppement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, \u00e9co-conception et transfert de technologies vertes au service de la soci\u00e9t\u00e9."
+          "desc": "Orientation et valorisation de l'activité scientifique et technologique en réponse aux Objectifs de Développement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, éco-conception et transfert de technologies vertes au service de la société."
         },
         {
           "badge": "Axe 4",
           "num": "4.",
           "title": "Gestion Environnementale",
-          "desc": "Ma\u00eetrise et r\u00e9duction continue des impacts \u00e9cologiques directs : d\u00e9carbonation des mobilit\u00e9s pendulaires et professionnelles, efficacit\u00e9 et sobri\u00e9t\u00e9 \u00e9nerg\u00e9tique du patrimoine b\u00e2ti, gestion circulaire des d\u00e9chets, pr\u00e9servation de la biodiversit\u00e9 sur site et achats publics responsables."
+          "desc": "Maîtrise et réduction continue des impacts écologiques directs : décarbonation des mobilités pendulaires et professionnelles, efficacité et sobriété énergétique du patrimoine bâti, gestion circulaire des déchets, préservation de la biodiversité sur site et achats publics responsables."
         },
         {
           "badge": "Axe 5",
           "num": "5.",
           "title": "Politique Sociale et Inclusion",
-          "desc": "Engagement institutionnel pour la responsabilit\u00e9 soci\u00e9tale : \u00e9galit\u00e9 professionnelle femmes-hommes, inclusion et accessibilit\u00e9 des personnes en situation de handicap, \u00e9galit\u00e9 des chances, am\u00e9lioration de la qualit\u00e9 de vie et sant\u00e9 globale, et pr\u00e9vention de toute forme de discrimination."
+          "desc": "Engagement institutionnel pour la responsabilité sociétale : égalité professionnelle femmes-hommes, inclusion et accessibilité des personnes en situation de handicap, égalité des chances, amélioration de la qualité de vie et santé globale, et prévention de toute forme de discrimination."
         }
       ],
       "items": [
         {
           "badge": "Axe 1",
           "num": "1.",
-          "title": "Gouvernance et Strat\u00e9gie",
-          "desc": "Int\u00e9gration du d\u00e9veloppement durable dans la vision, le projet d'\u00e9tablissement et le pilotage d\u00e9cisionnel. Dialogue continu avec les parties prenantes (\u00e9tudiants, personnels, collectivit\u00e9s, partenaires), allocation de budgets d\u00e9di\u00e9s et suivi d'indicateurs d'impact mesurables.",
+          "title": "Gouvernance et Stratégie",
+          "desc": "Intégration du développement durable dans la vision, le projet d'établissement et le pilotage décisionnel. Dialogue continu avec les parties prenantes (étudiants, personnels, collectivités, partenaires), allocation de budgets dédiés et suivi d'indicateurs d'impact mesurables.",
           "isMuted": false
         },
         {
           "badge": "Axe 2",
           "num": "2.",
-          "title": "Formation et P\u00e9dagogie",
-          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-\u00e9cologique (limites plan\u00e9taires, climat, biodiversit\u00e9). Int\u00e9gration transversale des comp\u00e9tences DD&amp;RS (rapport Jouzel / socle MESR) pour pr\u00e9parer les ing\u00e9nieurs \u00e0 la prise de d\u00e9cision \u00e9thique et responsable.",
+          "title": "Formation et Pédagogie",
+          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-écologique (limites planétaires, climat, biodiversité). Intégration transversale des compétences DD&amp;RS (rapport Jouzel / socle MESR) pour préparer les ingénieurs à la prise de décision éthique et responsable.",
           "isMuted": false
         },
         {
           "badge": "Axe 3",
           "num": "3.",
           "title": "Recherche et Innovation",
-          "desc": "Orientation et valorisation de l'activit\u00e9 scientifique et technologique en r\u00e9ponse aux Objectifs de D\u00e9veloppement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, \u00e9co-conception et transfert de technologies vertes au service de la soci\u00e9t\u00e9.",
+          "desc": "Orientation et valorisation de l'activité scientifique et technologique en réponse aux Objectifs de Développement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, éco-conception et transfert de technologies vertes au service de la société.",
           "isMuted": false
         },
         {
           "badge": "Axe 4",
           "num": "4.",
           "title": "Gestion Environnementale",
-          "desc": "Ma\u00eetrise et r\u00e9duction continue des impacts \u00e9cologiques directs : d\u00e9carbonation des mobilit\u00e9s pendulaires et professionnelles, efficacit\u00e9 et sobri\u00e9t\u00e9 \u00e9nerg\u00e9tique du patrimoine b\u00e2ti, gestion circulaire des d\u00e9chets, pr\u00e9servation de la biodiversit\u00e9 sur site et achats publics responsables.",
+          "desc": "Maîtrise et réduction continue des impacts écologiques directs : décarbonation des mobilités pendulaires et professionnelles, efficacité et sobriété énergétique du patrimoine bâti, gestion circulaire des déchets, préservation de la biodiversité sur site et achats publics responsables.",
           "isMuted": false
         },
         {
           "badge": "Axe 5",
           "num": "5.",
           "title": "Politique Sociale et Inclusion",
-          "desc": "Engagement institutionnel pour la responsabilit\u00e9 soci\u00e9tale : \u00e9galit\u00e9 professionnelle femmes-hommes, inclusion et accessibilit\u00e9 des personnes en situation de handicap, \u00e9galit\u00e9 des chances, am\u00e9lioration de la qualit\u00e9 de vie et sant\u00e9 globale, et pr\u00e9vention de toute forme de discrimination.",
+          "desc": "Engagement institutionnel pour la responsabilité sociétale : égalité professionnelle femmes-hommes, inclusion et accessibilité des personnes en situation de handicap, égalité des chances, amélioration de la qualité de vie et santé globale, et prévention de toute forme de discrimination.",
           "isMuted": true
         },
         {
           "badge": "Tag",
           "num": "6.",
-          "title": "Mobilit\u00e9 Durable &amp; Report Modal (Sustainable Mobility)",
-          "desc": "Strat\u00e9gie d'optimisation des transports articul\u00e9e autour de la hi\u00e9rarchie \u00ab \u00c9viter - Transf\u00e9rer - Am\u00e9liorer \u00bb (ASI). Promotion active du report modal vers le ferroviaire, les transports en commun et les mobilit\u00e9s douces face \u00e0 l'autosolisme et aux vols court-courriers.",
+          "title": "Mobilité Durable &amp; Report Modal (Sustainable Mobility)",
+          "desc": "Stratégie d'optimisation des transports articulée autour de la hiérarchie « Éviter - Transférer - Améliorer » (ASI). Promotion active du report modal vers le ferroviaire, les transports en commun et les mobilités douces face à l'autosolisme et aux vols court-courriers.",
           "isMuted": true
         },
         {
           "badge": "Tag",
           "num": "7.",
-          "title": "Bilan d'\u00c9missions de GES (BEGES / Bilan Carbone)",
-          "desc": "Comptabilisation r\u00e9glementaire des gaz \u00e0 effet de serre (m\u00e9thode ADEME / ISO 14064) sur les trois p\u00e9rim\u00e8tres : Scope 1 (\u00e9missions directes), Scope 2 (\u00e9missions indirectes \u00e9nerg\u00e9tiques) et Scope 3 (\u00e9missions indirectes amont/aval : d\u00e9placements, achats, logistique et cycle de vie).",
+          "title": "Bilan d'Émissions de GES (BEGES / Bilan Carbone)",
+          "desc": "Comptabilisation réglementaire des gaz à effet de serre (méthode ADEME / ISO 14064) sur les trois périmètres : Scope 1 (émissions directes), Scope 2 (émissions indirectes énergétiques) et Scope 3 (émissions indirectes amont/aval : déplacements, achats, logistique et cycle de vie).",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "8.",
-          "title": "Sobri\u00e9t\u00e9 \u00c9nerg\u00e9tique &amp; Efficacit\u00e9",
-          "desc": "D\u00e9marche articulant la sobri\u00e9t\u00e9 (questionnement et r\u00e9duction des consommations par la modification des comportements et des usages collectifs) et l'efficacit\u00e9 (optimisation technique des rendements \u00e9nerg\u00e9tiques pour un m\u00eame niveau de service).",
+          "title": "Sobriété Énergétique &amp; Efficacité",
+          "desc": "Démarche articulant la sobriété (questionnement et réduction des consommations par la modification des comportements et des usages collectifs) et l'efficacité (optimisation technique des rendements énergétiques pour un même niveau de service).",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "9.",
-          "title": "Pr\u00e9servation de la Biodiversit\u00e9 &amp; Z\u00e9ro Artificialisation Nette (ZAN)",
-          "desc": "Protection des \u00e9cosyst\u00e8mes et des continuit\u00e9s \u00e9cologiques (trames vertes et bleues). Application des exigences l\u00e9gales (loi Climat et R\u00e9silience) visant \u00e0 stopper la disparition nette d'espaces naturels et agricoles caus\u00e9e par les infrastructures et l'am\u00e9nagement.",
+          "title": "Préservation de la Biodiversité &amp; Zéro Artificialisation Nette (ZAN)",
+          "desc": "Protection des écosystèmes et des continuités écologiques (trames vertes et bleues). Application des exigences légales (loi Climat et Résilience) visant à stopper la disparition nette d'espaces naturels et agricoles causée par les infrastructures et l'aménagement.",
           "isMuted": true
         },
         {
           "badge": "Tag",
           "num": "10.",
-          "title": "\u00c9quit\u00e9 Territoriale &amp; Accessibilit\u00e9 (Territorial Equity)",
-          "desc": "Principe de justice spatiale garantissant un acc\u00e8s universel, abordable et s\u00e9curis\u00e9 aux r\u00e9seaux de transport et aux services d'int\u00e9r\u00eat g\u00e9n\u00e9ral pour l'ensemble des territoires (urbains, p\u00e9riurbains et ruraux), luttant contre la fracture et la pr\u00e9carit\u00e9 mobilit\u00e9.",
+          "title": "Équité Territoriale &amp; Accessibilité (Territorial Equity)",
+          "desc": "Principe de justice spatiale garantissant un accès universel, abordable et sécurisé aux réseaux de transport et aux services d'intérêt général pour l'ensemble des territoires (urbains, périurbains et ruraux), luttant contre la fracture et la précarité mobilité.",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "11.",
           "title": "Achats Responsables &amp; Analyse du Cycle de Vie (ACV / LCA)",
-          "desc": "Int\u00e9gration syst\u00e9matique de crit\u00e8res environnementaux et sociaux dans la commande publique et priv\u00e9e. \u00c9valuation globale des impacts de chaque produit, infrastructure ou service de son extraction jusqu'\u00e0 son recyclage ou \u00e9limination finale.",
+          "desc": "Intégration systématique de critères environnementaux et sociaux dans la commande publique et privée. Évaluation globale des impacts de chaque produit, infrastructure ou service de son extraction jusqu'à son recyclage ou élimination finale.",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "12.",
-          "title": "Objectifs de D\u00e9veloppement Durable (ODD - Agenda 2030)",
-          "desc": "Cadre universel des Nations Unies comprenant 17 objectifs interd\u00e9pendants pour concilier prosp\u00e9rit\u00e9 \u00e9conomique, progr\u00e8s social et protection de la biosph\u00e8re. Les politiques de transport et d'ing\u00e9nierie s'articulent principalement autour des ODD 9, 11, 12 et 13.",
+          "title": "Objectifs de Développement Durable (ODD - Agenda 2030)",
+          "desc": "Cadre universel des Nations Unies comprenant 17 objectifs interdépendants pour concilier prospérité économique, progrès social et protection de la biosphère. Les politiques de transport et d'ingénierie s'articulent principalement autour des ODD 9, 11, 12 et 13.",
           "isMuted": false
         }
       ]
@@ -5775,7 +5881,7 @@
           ],
           "grammar": {
             "title": "Active vs. Passive Voice",
-            "badge": "B1\u2013B2 Grammar Focus",
+            "badge": "B1–B2 Grammar Focus",
             "patternTitle": "How Both Voices Work",
             "formula": "Active: Subject + Action + Object | Passive: Receiver + [be] + Past Participle (V3)",
             "rulesTitle": "Core Distinction",
@@ -5784,7 +5890,7 @@
               "<strong style=\"color: #1e293b;\">2. Passive Voice (Subject receives the action):</strong> Formed with <span style=\"font-weight: 700; color: #60854b;\">[be] + Past Participle (V3)</span>. Very common in aviation manuals and safety reports when the result is more important than who did it (<em>\"The software is tested\"</em>).",
               "<strong style=\"color: #1e293b;\">3. Passive with Modal Verbs:</strong> Formed with <span style=\"font-weight: 600; color: #334155;\">modal + be + Past Participle</span> (e.g., <em>must be tested</em>, <em>should be updated</em>, <em>can be operated</em>)."
             ],
-            "trap": "<strong>\u26a0\ufe0f TOEIC Trap Alert:</strong> Check who does the action! If the subject is an object that cannot act on its own (like source code, a report, or equipment), and is followed by <em>\"by...\"</em>, you need the <strong>passive voice ([be] + V3)</strong>!",
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> Check who does the action! If the subject is an object that cannot act on its own (like source code, a report, or equipment), and is followed by <em>\"by...\"</em>, you need the <strong>passive voice ([be] + V3)</strong>!",
             "examplesTitle": "Aviation & AI Examples",
             "examples": [
               "<em>\"Flight telemetry data <strong>is analyzed</strong> by deep learning models in real time.\" (Passive)</em>",
@@ -5819,37 +5925,37 @@
           "resources": [
             {
               "url": "https://partnershiponai.org",
-              "tag": "01 \u2022 Global AI Ethics",
+              "tag": "01 • Global AI Ethics",
               "name": "Partnership on AI",
               "desc": "Global non-profit multi-stakeholder organization developing best practices and ethical standards for artificial intelligence."
             },
             {
               "url": "https://digital-strategy.ec.europa.eu",
-              "tag": "02 \u2022 EU Regulatory Framework",
+              "tag": "02 • EU Regulatory Framework",
               "name": "European Commission AI Act",
               "desc": "The world's first comprehensive legal framework regulating high-risk AI applications and transparency mandates."
             },
             {
               "url": "https://www.computer.org",
-              "tag": "03 \u2022 Computing Research Society",
+              "tag": "03 • Computing Research Society",
               "name": "IEEE Computer Society",
               "desc": "Leading technical community for computing professionals developing standards for machine learning and systems engineering."
             },
             {
               "url": "https://hai.stanford.edu",
-              "tag": "04 \u2022 Stanford AI Index",
+              "tag": "04 • Stanford AI Index",
               "name": "Stanford Institute for Human-Centered AI (HAI)",
               "desc": "Interdisciplinary research institute tracking annual metrics on AI capabilities, ethics, investment, and societal impacts."
             },
             {
               "url": "https://ourworldindata.org/artificial-intelligence",
-              "tag": "05 \u2022 Technological Change Data",
+              "tag": "05 • Technological Change Data",
               "name": "Our World in Data: Artificial Intelligence",
               "desc": "Comprehensive empirical datasets and interactive visualizations tracking global AI development, compute costs, and performance."
             },
             {
               "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 \u2022 TOEIC Passive Voice Reading",
+              "tag": "06 • TOEIC Passive Voice Reading",
               "name": "ETS Global TOEIC Preparation",
               "desc": "Business English reading and listening comprehension practice with office automation notices and technical procedure memos."
             }
@@ -5925,7 +6031,7 @@
               "strategy": "Every English sentence requires a finite verb. Gerunds (-ing) without auxiliaries and nouns cannot act as main verbs."
             },
             {
-              "stem": "Autonomous electric ramp tractors ________ into routine cargo operations at Lyon-Saint Exup\u00e9ry Airport by 2028.",
+              "stem": "Autonomous electric ramp tractors ________ into routine cargo operations at Lyon-Saint Exupéry Airport by 2028.",
               "options": [
                 {
                   "letter": "A",
@@ -6002,207 +6108,207 @@
           ]
         },
         "lessonContent": {
-                  "overview": {
-                            "image": "images/ag_m3card1.png",
-                            "title": "Everyday AI & Workplace Automation",
-                            "subtitle": "Machine Learning, Predictive Analytics, Autonomous Systems & Human-in-the-Loop",
-                            "badge": "Session Overview • Artificial Intelligence & Machine Learning"
-                  },
-                  "hero": {
-                            "image": "images/ag_m3card1.png",
-                            "title": "Everyday AI & Workplace Automation",
-                            "subtitle": "Machine Learning, Predictive Analytics, Autonomous Systems & Human-in-the-Loop",
-                            "badge": "Session Overview • Artificial Intelligence & Machine Learning"
-                  },
-                  "openingSession": {
-                            "title": "Activity 1: AI Disruption News & Core Concepts Diagnostic (10 mins)",
-                            "summary": "Opening warm-up examining cutting-edge enterprise AI developments and testing key conceptual distinctions in automation.",
-                            "newsPrompts": [
-                                      "Major international carriers deploy neural network algorithms to predict engine component fatigue 50 flight hours before scheduled line maintenance.",
-                                      "Air traffic management authorities evaluate machine-learning algorithms to optimize sector entry times and reduce tactical controller workload.",
-                                      "Enterprise tech firms mandate strict Human-in-the-Loop (HITL) validation for all automated customer flight rebooking and compensation claims."
-                            ],
-                            "diagnostic": {
-                                      "title": "Artificial Intelligence Concepts Diagnostic Spot-Check",
-                                      "instructions": "Discuss each distinction in pairs before revealing the technical explanation:",
-                                      "questions": [
-                                                {
-                                                          "id": 1,
-                                                          "q": "What is the critical distinction between Generative AI and Predictive Machine Learning?",
-                                                          "answer": "Generative AI creates original content (text, synthetic imagery, code, audio) by sampling probability distributions learned from massive datasets. Predictive Machine Learning analyzes historical telemetry and operational data to forecast future values, detect anomalies, or classify risk states (e.g. component failure or weather routing)."
-                                                },
-                                                {
-                                                          "id": 2,
-                                                          "q": "How does an Autonomous Decision Loop differ from a Human-in-the-Loop (HITL) system?",
-                                                          "answer": "An autonomous decision loop executes sensing, analysis, decision-making, and action without manual intervention (e.g., automated braking or financial micro-trading). In a Human-in-the-Loop architecture, the algorithm generates recommendations or confidence scores, but a qualified human operator must review and confirm safety-critical actions."
-                                                },
-                                                {
-                                                          "id": 3,
-                                                          "q": "What is the operational difference between a Digital Twin and a Computer Simulation?",
-                                                          "answer": "A standard simulation models theoretical physics based on predefined mathematical formulas under hypothetical conditions. A Digital Twin is an active, real-time virtual replica of a physical asset (such as an aircraft engine or terminal HVAC) continuously synchronized with live telemetry from Internet-of-Things (IoT) sensors."
-                                                },
-                                                {
-                                                          "id": 4,
-                                                          "q": "In data science, what distinguishes Algorithmic Bias from a System Glitch?",
-                                                          "answer": "A software glitch is an isolated programming or runtime error that causes a system crash or incorrect calculation. Algorithmic bias is a systemic, repeatable unfairness or error pattern rooted in skewed historical training datasets, flawed weighting, or biased sampling."
-                                                }
-                                      ]
-                            }
-                  },
-                  "survey": {
-                            "title": "Activity 2: Workplace Automation & AI Dilemmas: Speed Survey (25 mins)",
-                            "summary": "Conduct structured speed-dating interviews on 4 pressing dilemmas in enterprise automation and artificial intelligence. Practice defending technical viewpoints, evaluating trade-offs, and signposting arguments.",
-                            "signposts": [
-                                      "\"From an operational efficiency standpoint, ...\"",
-                                      "\"While algorithms accelerate throughput, human operators are indispensable when...\"",
-                                      "\"To prevent catastrophic algorithmic failure, systems engineering mandates that...\"",
-                                      "\"Empirical reliability studies demonstrate that predictive analytics can...\""
-                            ],
-                            "topics": [
-                                      {
-                                                "id": 1,
-                                                "badge": "Predictive Fleet Maintenance",
-                                                "statement": "Should airlines ground an aircraft based solely on an automated neural network alert without visual defect confirmation?",
-                                                "pro": "Predictive telemetry identifies microscopic internal turbine fatigue and hydraulic pressure anomalies before physical sensors trigger cockpit warnings, preventing in-flight shutdowns.",
-                                                "con": "False-positive algorithmic alerts lead to unscheduled aircraft on ground (AOG) costs, cascading flight cancellations, and passenger disruptions.",
-                                                "prompt": "Interview your partner: How can maintenance departments calibrate algorithmic confidence thresholds to prevent false alarms?"
-                                      },
-                                      {
-                                                "id": 2,
-                                                "badge": "Automated Air Traffic Sequencing",
-                                                "statement": "Should machine-learning algorithms autonomously sequence and space aircraft on final approach without controller intervention?",
-                                                "pro": "Automated sequencing reduces wake turbulence separation buffers dynamically, optimizes runway throughput by 15%, and minimizes fuel burn during peak arrival banks.",
-                                                "con": "Controllers risk cognitive deskilling and loss of situational awareness during sudden algorithmic drop-outs or severe convective weather reroutes.",
-                                                "prompt": "Interview your partner: How does the European ATM Master Plan define the transition toward higher levels of automation?"
-                                      },
-                                      {
-                                                "id": 3,
-                                                "badge": "Generative AI in Corporate Operations",
-                                                "statement": "Should companies allow employees to use unvetted public Large Language Models to draft official engineering and legal documents?",
-                                                "pro": "Generative AI increases drafting speed by 40%, automates routine technical report formatting, and accelerates cross-language technical documentation.",
-                                                "con": "Public models create severe cybersecurity risks, expose proprietary flight data, and produce authoritative hallucinations that bypass peer review.",
-                                                "prompt": "Interview your partner: What corporate data governance policies are essential when integrating enterprise generative AI?"
-                                      },
-                                      {
-                                                "id": 4,
-                                                "badge": "Robotic Ramp Automation",
-                                                "statement": "Should international airports transition entirely to autonomous electric pushback tugs and robotic baggage loaders by 2030?",
-                                                "pro": "Autonomous electric ramp equipment eliminates human apron errors, reduces ground handling accidents, and cuts ground emissions to zero.",
-                                                "con": "High initial capital expenditure, complex integration with legacy ground support equipment, and widespread displacement of ground handling personnel.",
-                                                "prompt": "Interview your partner: How can airport management balance automation efficiency with social equity (DDRS)?"
-                                      }
-                            ]
-                  },
-                  "grammarClinic": {
-                            "title": "Activity 3: Language Clinic: Active vs. Passive Voice in Technical Descriptions (20 mins)",
-                            "summary": "Mastering active versus passive voice to describe technical procedures, automated software pipelines, and system audits with precision—vital for TOEIC Part 5/6 and professional technical presentations.",
-                            "rules": [
-                                      {
-                                                "type": "Active Voice (Focus on Agent / System)",
-                                                "formula": "Subject (Agent/Tool) + Verb + Object",
-                                                "usage": "Use when emphasizing what an algorithm, engineer, or system actively performs. (e.g., 'The neural network analyzes flight telemetry in real time.')"
-                                      },
-                                      {
-                                                "type": "Passive Voice (Focus on Action / Object Affected)",
-                                                "formula": "Receiver + [auxiliary be] + Past Participle (V3) (+ by agent)",
-                                                "usage": "Essential in technical reports, scientific abstracts, and manuals when the procedure, outcome, or asset is more important than who performed it. (e.g., 'Turbine vibration data is logged every millisecond.')"
-                                      },
-                                      {
-                                                "type": "Passive with Modal Auxiliaries",
-                                                "formula": "Modal (must / can / should / will) + be + Past Participle",
-                                                "usage": "Used for specifications, regulatory mandates, and future forecasts. (e.g., 'Critical software updates must be verified prior to pushback.')"
-                                      }
-                            ],
-                            "drills": [
-                                      {
-                                                "id": 1,
-                                                "sentence": "Flight telemetry data ________ continuously by the airline's centralized analytics hub.",
-                                                "options": [
-                                                          "ingests",
-                                                          "is ingested",
-                                                          "ingesting",
-                                                          "is ingesting"
-                                                ],
-                                                "correct": "is ingested",
-                                                "explanation": "Passive voice present simple ('is ingested') is required because the telemetry data receives the action."
-                                      },
-                                      {
-                                                "id": 2,
-                                                "sentence": "All automated schedule modifications must ________ by a certified flight operations supervisor.",
-                                                "options": [
-                                                          "authorize",
-                                                          "be authorized",
-                                                          "authorization",
-                                                          "authorizing"
-                                                ],
-                                                "correct": "be authorized",
-                                                "explanation": "Follows modal 'must'; passive infinitive ('be authorized') is required for modifications receiving approval."
-                                      },
-                                      {
-                                                "id": 3,
-                                                "sentence": "The engineering team ________ the machine-learning pipeline to reduce false-positive vibration warnings.",
-                                                "options": [
-                                                          "calibrated",
-                                                          "was calibrated",
-                                                          "calibration",
-                                                          "calibratingly"
-                                                ],
-                                                "correct": "calibrated",
-                                                "explanation": "Active past simple verb ('calibrated') is required; 'the engineering team' is the active agent."
-                                      },
-                                      {
-                                                "id": 4,
-                                                "sentence": "By the end of the decade, autonomous baggage tugs ________ at over fifty European hubs.",
-                                                "options": [
-                                                          "will deploy",
-                                                          "will have been deployed",
-                                                          "deployed",
-                                                          "deploying"
-                                                ],
-                                                "correct": "will have been deployed",
-                                                "explanation": "Time marker 'By the end of the decade' combined with passive subject requires Future Perfect Passive ('will have been deployed')."
-                                      }
-                            ]
-                  },
-                  "roleplay": {
-                            "title": "Activity 4: Enterprise AI Deployment Tribunal (45 mins)",
-                            "scenario": "Global Skies Airlines is preparing to deploy an automated, generative AI passenger rebooking and flight compensation bot. One student represents the Chief Information Officer arguing for immediate rollout to slash customer service backlogs. The other represents the Aviation Compliance & Passenger Rights Director, demanding explainability audits, error safeguards, and Human-in-the-Loop oversight.",
-                            "roles": [
-                                      {
-                                                "role": "Chief Information Officer (CIO)",
-                                                "title": "Pro-Automation Advocate",
-                                                "objectives": [
-                                                          "Demonstrate 70% reduction in response latency and €12M annual operating savings.",
-                                                          "Argue that machine learning models resolve standard rebooking faster than manual desks.",
-                                                          "Propose automated escalation only for passengers whose flights involve missed connections."
-                                                ],
-                                                "keyPhrases": [
-                                                          "\"Our benchmark trials indicate that 85% of standard delays are resolved within seconds...\"",
-                                                          "\"From a scalability perspective, manual service desks cannot absorb irregular operations spikes...\"",
-                                                          "\"Automated algorithmic rerouting significantly reduces passenger dwell times in departure concourses...\""
-                                                ]
-                                      },
-                                      {
-                                                "role": "Aviation Compliance & Rights Director",
-                                                "title": "Regulatory & Ethical Auditor",
-                                                "objectives": [
-                                                          "Highlight risk of algorithmic discrimination against passengers requiring special assistance.",
-                                                          "Demand that automated compensation calculations comply 100% with EU Regulation 261/2004.",
-                                                          "Insist on mandatory Human-in-the-Loop validation before any booking cancellation is finalized."
-                                                ],
-                                                "keyPhrases": [
-                                                          "\"Under European air passenger rights legislation, automated denials of compensation require clear auditability...\"",
-                                                          "\"If an algorithmic hallucination rebooks a passenger on an invalid route, legal liability falls squarely on the carrier...\"",
-                                                          "\"We must maintain human supervisory desks for vulnerable, unaccompanied, and reduced-mobility travelers...\""
-                                                ]
-                                      }
-                            ]
-                  },
-                  "feChecklist": [
-                            "Add 5 artificial intelligence and automation terms to your Vocabulary Log.",
-                            "Review the Active vs. Passive Voice rules and complete the interactive drills.",
-                            "Brainstorm potential emerging technology topics for your Formative Evaluation 3 (FE3)."
-                  ]
+          "overview": {
+            "image": "images/ag_m3card1.png",
+            "title": "Everyday AI & Workplace Automation",
+            "subtitle": "Machine Learning, Predictive Analytics, Autonomous Systems & Human-in-the-Loop",
+            "badge": "Session Overview • Artificial Intelligence & Machine Learning"
+          },
+          "hero": {
+            "image": "images/ag_m3card1.png",
+            "title": "Everyday AI & Workplace Automation",
+            "subtitle": "Machine Learning, Predictive Analytics, Autonomous Systems & Human-in-the-Loop",
+            "badge": "Session Overview • Artificial Intelligence & Machine Learning"
+          },
+          "openingSession": {
+            "title": "Activity 1: AI Disruption News & Core Concepts Diagnostic (10 mins)",
+            "summary": "Opening warm-up examining cutting-edge enterprise AI developments and testing key conceptual distinctions in automation.",
+            "newsPrompts": [
+              "Major international carriers deploy neural network algorithms to predict engine component fatigue 50 flight hours before scheduled line maintenance.",
+              "Air traffic management authorities evaluate machine-learning algorithms to optimize sector entry times and reduce tactical controller workload.",
+              "Enterprise tech firms mandate strict Human-in-the-Loop (HITL) validation for all automated customer flight rebooking and compensation claims."
+            ],
+            "diagnostic": {
+              "title": "Artificial Intelligence Concepts Diagnostic Spot-Check",
+              "instructions": "Discuss each distinction in pairs before revealing the technical explanation:",
+              "questions": [
+                {
+                  "id": 1,
+                  "q": "What is the critical distinction between Generative AI and Predictive Machine Learning?",
+                  "answer": "Generative AI creates original content (text, synthetic imagery, code, audio) by sampling probability distributions learned from massive datasets. Predictive Machine Learning analyzes historical telemetry and operational data to forecast future values, detect anomalies, or classify risk states (e.g. component failure or weather routing)."
+                },
+                {
+                  "id": 2,
+                  "q": "How does an Autonomous Decision Loop differ from a Human-in-the-Loop (HITL) system?",
+                  "answer": "An autonomous decision loop executes sensing, analysis, decision-making, and action without manual intervention (e.g., automated braking or financial micro-trading). In a Human-in-the-Loop architecture, the algorithm generates recommendations or confidence scores, but a qualified human operator must review and confirm safety-critical actions."
+                },
+                {
+                  "id": 3,
+                  "q": "What is the operational difference between a Digital Twin and a Computer Simulation?",
+                  "answer": "A standard simulation models theoretical physics based on predefined mathematical formulas under hypothetical conditions. A Digital Twin is an active, real-time virtual replica of a physical asset (such as an aircraft engine or terminal HVAC) continuously synchronized with live telemetry from Internet-of-Things (IoT) sensors."
+                },
+                {
+                  "id": 4,
+                  "q": "In data science, what distinguishes Algorithmic Bias from a System Glitch?",
+                  "answer": "A software glitch is an isolated programming or runtime error that causes a system crash or incorrect calculation. Algorithmic bias is a systemic, repeatable unfairness or error pattern rooted in skewed historical training datasets, flawed weighting, or biased sampling."
+                }
+              ]
+            }
+          },
+          "survey": {
+            "title": "Activity 2: Workplace Automation & AI Dilemmas: Speed Survey (25 mins)",
+            "summary": "Conduct structured speed-dating interviews on 4 pressing dilemmas in enterprise automation and artificial intelligence. Practice defending technical viewpoints, evaluating trade-offs, and signposting arguments.",
+            "signposts": [
+              "\"From an operational efficiency standpoint, ...\"",
+              "\"While algorithms accelerate throughput, human operators are indispensable when...\"",
+              "\"To prevent catastrophic algorithmic failure, systems engineering mandates that...\"",
+              "\"Empirical reliability studies demonstrate that predictive analytics can...\""
+            ],
+            "topics": [
+              {
+                "id": 1,
+                "badge": "Predictive Fleet Maintenance",
+                "statement": "Should airlines ground an aircraft based solely on an automated neural network alert without visual defect confirmation?",
+                "pro": "Predictive telemetry identifies microscopic internal turbine fatigue and hydraulic pressure anomalies before physical sensors trigger cockpit warnings, preventing in-flight shutdowns.",
+                "con": "False-positive algorithmic alerts lead to unscheduled aircraft on ground (AOG) costs, cascading flight cancellations, and passenger disruptions.",
+                "prompt": "Interview your partner: How can maintenance departments calibrate algorithmic confidence thresholds to prevent false alarms?"
+              },
+              {
+                "id": 2,
+                "badge": "Automated Air Traffic Sequencing",
+                "statement": "Should machine-learning algorithms autonomously sequence and space aircraft on final approach without controller intervention?",
+                "pro": "Automated sequencing reduces wake turbulence separation buffers dynamically, optimizes runway throughput by 15%, and minimizes fuel burn during peak arrival banks.",
+                "con": "Controllers risk cognitive deskilling and loss of situational awareness during sudden algorithmic drop-outs or severe convective weather reroutes.",
+                "prompt": "Interview your partner: How does the European ATM Master Plan define the transition toward higher levels of automation?"
+              },
+              {
+                "id": 3,
+                "badge": "Generative AI in Corporate Operations",
+                "statement": "Should companies allow employees to use unvetted public Large Language Models to draft official engineering and legal documents?",
+                "pro": "Generative AI increases drafting speed by 40%, automates routine technical report formatting, and accelerates cross-language technical documentation.",
+                "con": "Public models create severe cybersecurity risks, expose proprietary flight data, and produce authoritative hallucinations that bypass peer review.",
+                "prompt": "Interview your partner: What corporate data governance policies are essential when integrating enterprise generative AI?"
+              },
+              {
+                "id": 4,
+                "badge": "Robotic Ramp Automation",
+                "statement": "Should international airports transition entirely to autonomous electric pushback tugs and robotic baggage loaders by 2030?",
+                "pro": "Autonomous electric ramp equipment eliminates human apron errors, reduces ground handling accidents, and cuts ground emissions to zero.",
+                "con": "High initial capital expenditure, complex integration with legacy ground support equipment, and widespread displacement of ground handling personnel.",
+                "prompt": "Interview your partner: How can airport management balance automation efficiency with social equity (DDRS)?"
+              }
+            ]
+          },
+          "grammarClinic": {
+            "title": "Activity 3: Language Clinic: Active vs. Passive Voice in Technical Descriptions (20 mins)",
+            "summary": "Mastering active versus passive voice to describe technical procedures, automated software pipelines, and system audits with precision—vital for TOEIC Part 5/6 and professional technical presentations.",
+            "rules": [
+              {
+                "type": "Active Voice (Focus on Agent / System)",
+                "formula": "Subject (Agent/Tool) + Verb + Object",
+                "usage": "Use when emphasizing what an algorithm, engineer, or system actively performs. (e.g., 'The neural network analyzes flight telemetry in real time.')"
+              },
+              {
+                "type": "Passive Voice (Focus on Action / Object Affected)",
+                "formula": "Receiver + [auxiliary be] + Past Participle (V3) (+ by agent)",
+                "usage": "Essential in technical reports, scientific abstracts, and manuals when the procedure, outcome, or asset is more important than who performed it. (e.g., 'Turbine vibration data is logged every millisecond.')"
+              },
+              {
+                "type": "Passive with Modal Auxiliaries",
+                "formula": "Modal (must / can / should / will) + be + Past Participle",
+                "usage": "Used for specifications, regulatory mandates, and future forecasts. (e.g., 'Critical software updates must be verified prior to pushback.')"
+              }
+            ],
+            "drills": [
+              {
+                "id": 1,
+                "sentence": "Flight telemetry data ________ continuously by the airline's centralized analytics hub.",
+                "options": [
+                  "ingests",
+                  "is ingested",
+                  "ingesting",
+                  "is ingesting"
+                ],
+                "correct": "is ingested",
+                "explanation": "Passive voice present simple ('is ingested') is required because the telemetry data receives the action."
+              },
+              {
+                "id": 2,
+                "sentence": "All automated schedule modifications must ________ by a certified flight operations supervisor.",
+                "options": [
+                  "authorize",
+                  "be authorized",
+                  "authorization",
+                  "authorizing"
+                ],
+                "correct": "be authorized",
+                "explanation": "Follows modal 'must'; passive infinitive ('be authorized') is required for modifications receiving approval."
+              },
+              {
+                "id": 3,
+                "sentence": "The engineering team ________ the machine-learning pipeline to reduce false-positive vibration warnings.",
+                "options": [
+                  "calibrated",
+                  "was calibrated",
+                  "calibration",
+                  "calibratingly"
+                ],
+                "correct": "calibrated",
+                "explanation": "Active past simple verb ('calibrated') is required; 'the engineering team' is the active agent."
+              },
+              {
+                "id": 4,
+                "sentence": "By the end of the decade, autonomous baggage tugs ________ at over fifty European hubs.",
+                "options": [
+                  "will deploy",
+                  "will have been deployed",
+                  "deployed",
+                  "deploying"
+                ],
+                "correct": "will have been deployed",
+                "explanation": "Time marker 'By the end of the decade' combined with passive subject requires Future Perfect Passive ('will have been deployed')."
+              }
+            ]
+          },
+          "roleplay": {
+            "title": "Activity 4: Enterprise AI Deployment Tribunal (45 mins)",
+            "scenario": "Global Skies Airlines is preparing to deploy an automated, generative AI passenger rebooking and flight compensation bot. One student represents the Chief Information Officer arguing for immediate rollout to slash customer service backlogs. The other represents the Aviation Compliance & Passenger Rights Director, demanding explainability audits, error safeguards, and Human-in-the-Loop oversight.",
+            "roles": [
+              {
+                "role": "Chief Information Officer (CIO)",
+                "title": "Pro-Automation Advocate",
+                "objectives": [
+                  "Demonstrate 70% reduction in response latency and €12M annual operating savings.",
+                  "Argue that machine learning models resolve standard rebooking faster than manual desks.",
+                  "Propose automated escalation only for passengers whose flights involve missed connections."
+                ],
+                "keyPhrases": [
+                  "\"Our benchmark trials indicate that 85% of standard delays are resolved within seconds...\"",
+                  "\"From a scalability perspective, manual service desks cannot absorb irregular operations spikes...\"",
+                  "\"Automated algorithmic rerouting significantly reduces passenger dwell times in departure concourses...\""
+                ]
+              },
+              {
+                "role": "Aviation Compliance & Rights Director",
+                "title": "Regulatory & Ethical Auditor",
+                "objectives": [
+                  "Highlight risk of algorithmic discrimination against passengers requiring special assistance.",
+                  "Demand that automated compensation calculations comply 100% with EU Regulation 261/2004.",
+                  "Insist on mandatory Human-in-the-Loop validation before any booking cancellation is finalized."
+                ],
+                "keyPhrases": [
+                  "\"Under European air passenger rights legislation, automated denials of compensation require clear auditability...\"",
+                  "\"If an algorithmic hallucination rebooks a passenger on an invalid route, legal liability falls squarely on the carrier...\"",
+                  "\"We must maintain human supervisory desks for vulnerable, unaccompanied, and reduced-mobility travelers...\""
+                ]
+              }
+            ]
+          },
+          "feChecklist": [
+            "Add 5 artificial intelligence and automation terms to your Vocabulary Log.",
+            "Review the Active vs. Passive Voice rules and complete the interactive drills.",
+            "Brainstorm potential emerging technology topics for your Formative Evaluation 3 (FE3)."
+          ]
         }
       },
       "2": {
@@ -6394,7 +6500,7 @@
           ],
           "grammar": {
             "title": "Comparing Things & Degree Words",
-            "badge": "B1\u2013B2 Grammar Focus",
+            "badge": "B1–B2 Grammar Focus",
             "patternTitle": "Comparison Rules",
             "formula": "Comparative: [much / considerably] + [more + adj / -er] + than | Superlative: the + [most + adj / -est]",
             "rulesTitle": "Core Rules",
@@ -6403,7 +6509,7 @@
               "<strong style=\"color: #1e293b;\">2. Degree Words (How much bigger or smaller):</strong> Use words like <span style=\"font-weight: 600; color: #334155;\">much, considerably, far, significantly, slightly</span> before comparatives (e.g., <em>considerably more costly</em>, <em>significantly higher</em>).",
               "<strong style=\"color: #1e293b;\">3. The Top of a Group (Superlative):</strong> Use <span style=\"font-weight: 700; color: #60854b;\">the + -est / the most + adjective</span> for three or more things (e.g., <em>the most viable solution</em>, <em>the cheapest option</em>)."
             ],
-            "trap": "<strong>\u26a0\ufe0f TOEIC Trap Alert:</strong> Never put <strong>very</strong> in front of a comparative (NOT <em>very more expensive</em> \u274c)! When you see <em>than</em> after the blank, you must use a comparative (<em>more costly</em>), never a superlative (<em>most costly</em>).",
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> Never put <strong>very</strong> in front of a comparative (NOT <em>very more expensive</em> ❌)! When you see <em>than</em> after the blank, you must use a comparative (<em>more costly</em>), never a superlative (<em>most costly</em>).",
             "examplesTitle": "Propulsion & Energy Examples",
             "examples": [
               "<em>\"Hydrogen yields <strong>significantly higher</strong> gravimetric energy density than battery cells.\" (Comparative)</em>",
@@ -6438,37 +6544,37 @@
           "resources": [
             {
               "url": "https://www.cer.be",
-              "tag": "01 \u2022 European Rail Network",
+              "tag": "01 • European Rail Network",
               "name": "Community of European Railway & Infrastructure (CER)",
               "desc": "Representing European passenger and freight railway operators advocating for cross-border high-speed rail connections."
             },
             {
               "url": "https://www.clean-aviation.eu",
-              "tag": "02 \u2022 Clean Aviation Alliance",
+              "tag": "02 • Clean Aviation Alliance",
               "name": "Clean Aviation Joint Undertaking",
               "desc": "European Union public-private partnership developing disruptive zero-emission aircraft technologies by 2035."
             },
             {
               "url": "https://theicct.org",
-              "tag": "03 \u2022 Clean Transport Research",
+              "tag": "03 • Clean Transport Research",
               "name": "International Council on Clean Transportation (ICCT)",
               "desc": "Independent research organization providing first-rate technical and scientific analysis to environmental regulators."
             },
             {
               "url": "https://www.itdp.org",
-              "tag": "04 \u2022 Sustainable Transit Institute",
+              "tag": "04 • Sustainable Transit Institute",
               "name": "Institute for Transportation & Development Policy (ITDP)",
               "desc": "Global non-profit organization promoting sustainable, equitable, and integrated public transportation systems."
             },
             {
               "url": "https://ourworldindata.org/transport",
-              "tag": "05 \u2022 Energy Transition Data",
+              "tag": "05 • Energy Transition Data",
               "name": "Our World in Data: Energy & Transport",
               "desc": "Empirical metrics tracking global greenhouse gas emissions by transport mode, electric vehicle adoption, and energy intensity."
             },
             {
               "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 \u2022 TOEIC Comparative Reading",
+              "tag": "06 • TOEIC Comparative Reading",
               "name": "ETS Global TOEIC Preparation",
               "desc": "Reading comprehension practice analyzing comparative travel options, service schedules, and infrastructure investment tenders."
             }
@@ -6621,207 +6727,207 @@
           ]
         },
         "lessonContent": {
-                  "overview": {
-                            "image": "images/ag_m3card2.png",
-                            "title": "Future Mobility & Clean Energy Transport",
-                            "subtitle": "Hydrogen Propulsion, Battery-Electric Aviation, Urban Air Mobility & Multi-Modal Corridors",
-                            "badge": "Session Overview • Clean Propulsion & Future Mobility"
-                  },
-                  "hero": {
-                            "image": "images/ag_m3card2.png",
-                            "title": "Future Mobility & Clean Energy Transport",
-                            "subtitle": "Hydrogen Propulsion, Battery-Electric Aviation, Urban Air Mobility & Multi-Modal Corridors",
-                            "badge": "Session Overview • Clean Propulsion & Future Mobility"
-                  },
-                  "openingSession": {
-                            "title": "Activity 1: Clean Transport Breakthroughs & Propulsion Diagnostic (10 mins)",
-                            "summary": "Opening warm-up evaluating next-generation aircraft concepts, zero-emission fuels, and key thermodynamic distinctions.",
-                            "newsPrompts": [
-                                      "Airbus progresses cryogenic hydrogen tank ground testing for the ZEROe aircraft demonstrator program targeting commercial service by 2035.",
-                                      "Heart Aerospace and magniX successfully conduct test flights of 19-passenger regional battery-electric commuter prototypes on Nordic island routes.",
-                                      "European civil aviation regulators publish world-first airworthiness and vertiport certification baselines for commercial electric Vertical Take-Off and Landing (eVTOL) vehicles."
-                            ],
-                            "diagnostic": {
-                                      "title": "Clean Propulsion Concepts Diagnostic Spot-Check",
-                                      "instructions": "Discuss each distinction in pairs before revealing the technical explanation:",
-                                      "questions": [
-                                                {
-                                                          "id": 1,
-                                                          "q": "What is the difference between Direct Hydrogen Combustion and a Hydrogen Fuel Cell?",
-                                                          "answer": "Direct hydrogen combustion burns liquid or gaseous hydrogen in modified gas turbine engines, producing water vapor and trace NOx emissions. A hydrogen fuel cell converts chemical energy electrochemically into electricity through a reaction with oxygen, powering electric motors with zero NOx emissions and pure water as the sole byproduct."
-                                                },
-                                                {
-                                                          "id": 2,
-                                                          "q": "How does Sustainable Aviation Fuel (SAF) differ fundamentally from Hydrogen in airport distribution?",
-                                                          "answer": "SAF is a 'drop-in' hydrocarbon fuel chemically identical to conventional fossil Jet A-1. It requires zero modifications to existing aircraft fuel systems, hydrants, or airport storage tanks. Liquid hydrogen requires cryogenic storage at -253°C, heavily insulated vacuum-jacketed pipelines, and entirely redesigned aircraft airframes with bulbous fuselage fuel tanks."
-                                                },
-                                                {
-                                                          "id": 3,
-                                                          "q": "What is the operational distinction between an eVTOL aircraft and a traditional turbine helicopter?",
-                                                          "answer": "Conventional helicopters rely on a single massive main rotor powered by a noisy kerosene turboshaft engine with high mechanical complexity. eVTOLs employ Distributed Electric Propulsion (DEP) with multiple smaller electric rotors, dramatically reducing acoustic footprints, eliminating single-point mechanical failure traps, and operating at substantially lower seat-kilometer energy costs."
-                                                },
-                                                {
-                                                          "id": 4,
-                                                          "q": "In energy systems, what distinguishes Volumetric Energy Density from Gravimetric Specific Energy?",
-                                                          "answer": "Gravimetric energy density (specific energy) measures energy per unit mass (Wh/kg)—critical for aviation payload limits. Volumetric energy density measures energy per unit volume (Wh/L)—critical for aerodynamic fuselage drag. While liquid hydrogen has triple the gravimetric energy of kerosene, its volumetric density is four times lower, requiring enormous internal fuel volumes."
-                                                }
-                                      ]
-                            }
-                  },
-                  "survey": {
-                            "title": "Activity 2: Clean Transit Corridor Pitch: Speed Survey (25 mins)",
-                            "summary": "Conduct structured speed-dating interviews on 4 disruptive mobility concepts. Compare travel times, infrastructure requirements, and decarbonization potential.",
-                            "signposts": [
-                                      "\"Regarding thermodynamic efficiency, ...\"",
-                                      "\"While capital expenditure for hydrogen infrastructure is formidable, the lifecycle decarbonization...\"",
-                                      "\"On short-haul regional corridors of under 400 km, battery-electric flight is projected to...\"",
-                                      "\"Taking into account total door-to-door transit time, high-speed rail will inevitably...\""
-                            ],
-                            "topics": [
-                                      {
-                                                "id": 1,
-                                                "badge": "Regional Electric Commuter Flight",
-                                                "statement": "Can 19-seat battery-electric aircraft replace regional turboprops on sub-400 km routes by 2030?",
-                                                "pro": "Electric motors reduce operating and maintenance costs by 60%, produce zero direct emissions, and permit flight operations from short suburban airfields without acoustic noise bans.",
-                                                "con": "Current battery gravimetric densities (~250–300 Wh/kg) severely constrain payload and reserve diversion ranges compared to kerosene.",
-                                                "prompt": "Interview your partner: How can regional carriers leverage electric aircraft for lifeline island and mountain valley routes?"
-                                      },
-                                      {
-                                                "id": 2,
-                                                "badge": "Cryogenic Hydrogen Airliners",
-                                                "statement": "Will hydrogen-powered commercial airliners dominate medium-haul European trunk routes by 2045?",
-                                                "pro": "Hydrogen eliminates all fossil CO₂ emissions at the tailpipe and decouples airline operational costs from volatile global petroleum markets.",
-                                                "con": "Cryogenic hydrogen fuel tanks occupy massive internal cabin volume, reducing passenger seat capacity and requiring multi-billion-euro airport fuel storage overhauls.",
-                                                "prompt": "Interview your partner: Compare the feasibility of Airbus ZEROe against 100% synthetic e-kerosene drop-in fuels."
-                                      },
-                                      {
-                                                "id": 3,
-                                                "badge": "Urban Air Mobility (eVTOL) Shuttles",
-                                                "statement": "Are eVTOL air taxis a genuine urban transport solution or an exclusive novelty for affluent executives?",
-                                                "pro": "eVTOL networks provide zero-emission point-to-point connections, bypass highway congestion, and accelerate emergency medical organ transport between urban medical centers.",
-                                                "con": "Vertiport construction faces fierce public resistance regarding privacy, low-altitude visual disturbance, and potential airspace conflicts with commercial arrival funnels.",
-                                                "prompt": "Interview your partner: What public consultation criteria should municipal councils mandate before licensing urban vertiports?"
-                                      },
-                                      {
-                                                "id": 4,
-                                                "badge": "Hyperloop vs. High-Speed Rail",
-                                                "statement": "Should transport ministries invest in experimental vacuum-tube hyperloops or expand proven high-speed rail networks?",
-                                                "pro": "Hyperloop concepts target 1,000 km/h cruising speeds with fractional aerodynamic resistance, competing directly with airline block times over 1,200 km corridors.",
-                                                "con": "Proven high-speed rail lines (TGV/ICE) carry 1,000+ passengers per departure with established safety standards, whereas vacuum maintenance on hundreds of kilometers remains technically unproven.",
-                                                "prompt": "Interview your partner: How does the European Green Deal evaluate high-speed rail expansion vs. emerging magnetic levitation?"
-                                      }
-                            ]
-                  },
-                  "grammarClinic": {
-                            "title": "Activity 3: Language Clinic: Future Forms, Modals & Predictive Certainty (20 mins)",
-                            "summary": "Calibrating language to express degrees of future technical probability, planned milestones, and tentative hypotheses—essential for B2 presentations and engineering roadmaps.",
-                            "rules": [
-                                      {
-                                                "type": "High Certainty / Inevitable (will / is bound to / is certain to)",
-                                                "formula": "Subject + is bound to / is certain to + base verb",
-                                                "usage": "Used for technological evolutions backed by clear empirical and regulatory trajectories. (e.g., 'Aviation emissions regulations are bound to tighten over the next decade.')"
-                                      },
-                                      {
-                                                "type": "Projected Probability (is projected to / is likely that / will probably)",
-                                                "formula": "Subject + is projected / scheduled / expected to + base verb",
-                                                "usage": "Standard in engineering business cases and lifecycle projections. (e.g., 'Green hydrogen production is projected to reach parity with fossil fuels by 2035.')"
-                                      },
-                                      {
-                                                "type": "Tentative Possibility / Conditionality (may / might / could)",
-                                                "formula": "Subject + may / might / could + base verb",
-                                                "usage": "Crucial for cautious technical claims and risk assessments. (e.g., 'Severe battery degradation during rapid turnaround charging could limit daily flight cycles.')"
-                                      }
-                            ],
-                            "drills": [
-                                      {
-                                                "id": 1,
-                                                "sentence": "Given current battery density advancements, regional electric commercial flights ________ feasible on sub-400 km routes by 2030.",
-                                                "options": [
-                                                          "is bound to be",
-                                                          "are bound to be",
-                                                          "are bound to being",
-                                                          "bound to be"
-                                                ],
-                                                "correct": "are bound to be",
-                                                "explanation": "Plural subject 'flights' requires plural auxiliary 'are' followed by 'bound to be'."
-                                      },
-                                      {
-                                                "id": 2,
-                                                "sentence": "Hydrogen fuel infrastructure at major hubs is ________ cost billions of euros in cryogenic storage facilities.",
-                                                "options": [
-                                                          "projecting to",
-                                                          "projected to",
-                                                          "projection of",
-                                                          "projectedly"
-                                                ],
-                                                "correct": "projected to",
-                                                "explanation": "Passive participial construction 'is projected to + verb' expresses calculated future estimates."
-                                      },
-                                      {
-                                                "id": 3,
-                                                "sentence": "Without substantial government subsidies, private investors ________ reluctant to fund vertiport construction in downtown districts.",
-                                                "options": [
-                                                          "may remain",
-                                                          "must to remain",
-                                                          "will remaining",
-                                                          "are having remained"
-                                                ],
-                                                "correct": "may remain",
-                                                "explanation": "Modal 'may' followed by base verb 'remain' accurately expresses tentative conditionality."
-                                      },
-                                      {
-                                                "id": 4,
-                                                "sentence": "Strict noise abatement regulations ________ introduced around metropolitan vertiports before commercial flights begin.",
-                                                "options": [
-                                                          "will be",
-                                                          "will been",
-                                                          "is being",
-                                                          "were"
-                                                ],
-                                                "correct": "will be",
-                                                "explanation": "Future passive 'will be introduced' matches the future timeframe before operations begin."
-                                      }
-                            ]
-                  },
-                  "roleplay": {
-                            "title": "Activity 4: Airline Boardroom Clean Fleet Transition Pitch (45 mins)",
-                            "scenario": "EuroWings Regional is planning its fleet renewal strategy for 2028–2035. Student A (Head of Fleet Strategy & Sustainability) pitches a bold investment into 20 electric commuter aircraft and 10 hydrogen-ready slots. Student B (Chief Financial Officer) interrogates residual aircraft values, battery replacement costs, and airport charging infrastructure availability.",
-                            "roles": [
-                                      {
-                                                "role": "Head of Fleet Strategy & Sustainability",
-                                                "title": "Green Transition Advocate",
-                                                "objectives": [
-                                                          "Demonstrate zero tailpipe emissions on domestic routes and complete exemption from EU ETS carbon taxes.",
-                                                          "Show that electric motor maintenance costs are 50% lower than turboprops due to fewer moving parts.",
-                                                          "Argue that early adoption secures prime airport green gate allocations and brand loyalty."
-                                                ],
-                                                "keyPhrases": [
-                                                          "\"By transitioning our regional fleet to electric propulsion, we eliminate local NOx and acoustic emissions...\"",
-                                                          "\"Lifecycle operating calculations project a 40% reduction in direct seat-kilometer costs...\"",
-                                                          "\"Securing early delivery slots positions EuroWings as the benchmark sustainable carrier in Western Europe...\""
-                                                ]
-                                      },
-                                      {
-                                                "role": "Chief Financial Officer (CFO)",
-                                                "title": "Fiscal Risk Auditor",
-                                                "objectives": [
-                                                          "Highlight battery replacement amortization costs every 1,500 flight cycles.",
-                                                          "Question whether secondary regional airports will install multi-megawatt rapid charging stations in time.",
-                                                          "Demand a contingency plan if battery weight limits passenger baggage during winter holiday flights."
-                                                ],
-                                                "keyPhrases": [
-                                                          "\"How do you propose amortizing the substantial battery replacement expenditure over a 10-year hull life?\"",
-                                                          "\"If regional hubs fail to commission high-voltage charging grids by 2029, these aircraft will remain grounded...\"",
-                                                          "\"We cannot compromise airline profitability on uncertified cryogenic hydrogen delivery promises...\""
-                                                ]
-                                      }
-                            ]
-                  },
-                  "feChecklist": [
-                            "Add 5 clean propulsion and mobility terms to your Vocabulary Log.",
-                            "Practice calibrating future predictions using 'is projected to' and 'is bound to'.",
-                            "Draft Dimension 1 (Operating Mechanism) and Dimension 2 (Operational Benefits) for your FE3 presentation."
-                  ]
+          "overview": {
+            "image": "images/ag_m3card2.png",
+            "title": "Future Mobility & Clean Energy Transport",
+            "subtitle": "Hydrogen Propulsion, Battery-Electric Aviation, Urban Air Mobility & Multi-Modal Corridors",
+            "badge": "Session Overview • Clean Propulsion & Future Mobility"
+          },
+          "hero": {
+            "image": "images/ag_m3card2.png",
+            "title": "Future Mobility & Clean Energy Transport",
+            "subtitle": "Hydrogen Propulsion, Battery-Electric Aviation, Urban Air Mobility & Multi-Modal Corridors",
+            "badge": "Session Overview • Clean Propulsion & Future Mobility"
+          },
+          "openingSession": {
+            "title": "Activity 1: Clean Transport Breakthroughs & Propulsion Diagnostic (10 mins)",
+            "summary": "Opening warm-up evaluating next-generation aircraft concepts, zero-emission fuels, and key thermodynamic distinctions.",
+            "newsPrompts": [
+              "Airbus progresses cryogenic hydrogen tank ground testing for the ZEROe aircraft demonstrator program targeting commercial service by 2035.",
+              "Heart Aerospace and magniX successfully conduct test flights of 19-passenger regional battery-electric commuter prototypes on Nordic island routes.",
+              "European civil aviation regulators publish world-first airworthiness and vertiport certification baselines for commercial electric Vertical Take-Off and Landing (eVTOL) vehicles."
+            ],
+            "diagnostic": {
+              "title": "Clean Propulsion Concepts Diagnostic Spot-Check",
+              "instructions": "Discuss each distinction in pairs before revealing the technical explanation:",
+              "questions": [
+                {
+                  "id": 1,
+                  "q": "What is the difference between Direct Hydrogen Combustion and a Hydrogen Fuel Cell?",
+                  "answer": "Direct hydrogen combustion burns liquid or gaseous hydrogen in modified gas turbine engines, producing water vapor and trace NOx emissions. A hydrogen fuel cell converts chemical energy electrochemically into electricity through a reaction with oxygen, powering electric motors with zero NOx emissions and pure water as the sole byproduct."
+                },
+                {
+                  "id": 2,
+                  "q": "How does Sustainable Aviation Fuel (SAF) differ fundamentally from Hydrogen in airport distribution?",
+                  "answer": "SAF is a 'drop-in' hydrocarbon fuel chemically identical to conventional fossil Jet A-1. It requires zero modifications to existing aircraft fuel systems, hydrants, or airport storage tanks. Liquid hydrogen requires cryogenic storage at -253°C, heavily insulated vacuum-jacketed pipelines, and entirely redesigned aircraft airframes with bulbous fuselage fuel tanks."
+                },
+                {
+                  "id": 3,
+                  "q": "What is the operational distinction between an eVTOL aircraft and a traditional turbine helicopter?",
+                  "answer": "Conventional helicopters rely on a single massive main rotor powered by a noisy kerosene turboshaft engine with high mechanical complexity. eVTOLs employ Distributed Electric Propulsion (DEP) with multiple smaller electric rotors, dramatically reducing acoustic footprints, eliminating single-point mechanical failure traps, and operating at substantially lower seat-kilometer energy costs."
+                },
+                {
+                  "id": 4,
+                  "q": "In energy systems, what distinguishes Volumetric Energy Density from Gravimetric Specific Energy?",
+                  "answer": "Gravimetric energy density (specific energy) measures energy per unit mass (Wh/kg)—critical for aviation payload limits. Volumetric energy density measures energy per unit volume (Wh/L)—critical for aerodynamic fuselage drag. While liquid hydrogen has triple the gravimetric energy of kerosene, its volumetric density is four times lower, requiring enormous internal fuel volumes."
+                }
+              ]
+            }
+          },
+          "survey": {
+            "title": "Activity 2: Clean Transit Corridor Pitch: Speed Survey (25 mins)",
+            "summary": "Conduct structured speed-dating interviews on 4 disruptive mobility concepts. Compare travel times, infrastructure requirements, and decarbonization potential.",
+            "signposts": [
+              "\"Regarding thermodynamic efficiency, ...\"",
+              "\"While capital expenditure for hydrogen infrastructure is formidable, the lifecycle decarbonization...\"",
+              "\"On short-haul regional corridors of under 400 km, battery-electric flight is projected to...\"",
+              "\"Taking into account total door-to-door transit time, high-speed rail will inevitably...\""
+            ],
+            "topics": [
+              {
+                "id": 1,
+                "badge": "Regional Electric Commuter Flight",
+                "statement": "Can 19-seat battery-electric aircraft replace regional turboprops on sub-400 km routes by 2030?",
+                "pro": "Electric motors reduce operating and maintenance costs by 60%, produce zero direct emissions, and permit flight operations from short suburban airfields without acoustic noise bans.",
+                "con": "Current battery gravimetric densities (~250–300 Wh/kg) severely constrain payload and reserve diversion ranges compared to kerosene.",
+                "prompt": "Interview your partner: How can regional carriers leverage electric aircraft for lifeline island and mountain valley routes?"
+              },
+              {
+                "id": 2,
+                "badge": "Cryogenic Hydrogen Airliners",
+                "statement": "Will hydrogen-powered commercial airliners dominate medium-haul European trunk routes by 2045?",
+                "pro": "Hydrogen eliminates all fossil CO₂ emissions at the tailpipe and decouples airline operational costs from volatile global petroleum markets.",
+                "con": "Cryogenic hydrogen fuel tanks occupy massive internal cabin volume, reducing passenger seat capacity and requiring multi-billion-euro airport fuel storage overhauls.",
+                "prompt": "Interview your partner: Compare the feasibility of Airbus ZEROe against 100% synthetic e-kerosene drop-in fuels."
+              },
+              {
+                "id": 3,
+                "badge": "Urban Air Mobility (eVTOL) Shuttles",
+                "statement": "Are eVTOL air taxis a genuine urban transport solution or an exclusive novelty for affluent executives?",
+                "pro": "eVTOL networks provide zero-emission point-to-point connections, bypass highway congestion, and accelerate emergency medical organ transport between urban medical centers.",
+                "con": "Vertiport construction faces fierce public resistance regarding privacy, low-altitude visual disturbance, and potential airspace conflicts with commercial arrival funnels.",
+                "prompt": "Interview your partner: What public consultation criteria should municipal councils mandate before licensing urban vertiports?"
+              },
+              {
+                "id": 4,
+                "badge": "Hyperloop vs. High-Speed Rail",
+                "statement": "Should transport ministries invest in experimental vacuum-tube hyperloops or expand proven high-speed rail networks?",
+                "pro": "Hyperloop concepts target 1,000 km/h cruising speeds with fractional aerodynamic resistance, competing directly with airline block times over 1,200 km corridors.",
+                "con": "Proven high-speed rail lines (TGV/ICE) carry 1,000+ passengers per departure with established safety standards, whereas vacuum maintenance on hundreds of kilometers remains technically unproven.",
+                "prompt": "Interview your partner: How does the European Green Deal evaluate high-speed rail expansion vs. emerging magnetic levitation?"
+              }
+            ]
+          },
+          "grammarClinic": {
+            "title": "Activity 3: Language Clinic: Future Forms, Modals & Predictive Certainty (20 mins)",
+            "summary": "Calibrating language to express degrees of future technical probability, planned milestones, and tentative hypotheses—essential for B2 presentations and engineering roadmaps.",
+            "rules": [
+              {
+                "type": "High Certainty / Inevitable (will / is bound to / is certain to)",
+                "formula": "Subject + is bound to / is certain to + base verb",
+                "usage": "Used for technological evolutions backed by clear empirical and regulatory trajectories. (e.g., 'Aviation emissions regulations are bound to tighten over the next decade.')"
+              },
+              {
+                "type": "Projected Probability (is projected to / is likely that / will probably)",
+                "formula": "Subject + is projected / scheduled / expected to + base verb",
+                "usage": "Standard in engineering business cases and lifecycle projections. (e.g., 'Green hydrogen production is projected to reach parity with fossil fuels by 2035.')"
+              },
+              {
+                "type": "Tentative Possibility / Conditionality (may / might / could)",
+                "formula": "Subject + may / might / could + base verb",
+                "usage": "Crucial for cautious technical claims and risk assessments. (e.g., 'Severe battery degradation during rapid turnaround charging could limit daily flight cycles.')"
+              }
+            ],
+            "drills": [
+              {
+                "id": 1,
+                "sentence": "Given current battery density advancements, regional electric commercial flights ________ feasible on sub-400 km routes by 2030.",
+                "options": [
+                  "is bound to be",
+                  "are bound to be",
+                  "are bound to being",
+                  "bound to be"
+                ],
+                "correct": "are bound to be",
+                "explanation": "Plural subject 'flights' requires plural auxiliary 'are' followed by 'bound to be'."
+              },
+              {
+                "id": 2,
+                "sentence": "Hydrogen fuel infrastructure at major hubs is ________ cost billions of euros in cryogenic storage facilities.",
+                "options": [
+                  "projecting to",
+                  "projected to",
+                  "projection of",
+                  "projectedly"
+                ],
+                "correct": "projected to",
+                "explanation": "Passive participial construction 'is projected to + verb' expresses calculated future estimates."
+              },
+              {
+                "id": 3,
+                "sentence": "Without substantial government subsidies, private investors ________ reluctant to fund vertiport construction in downtown districts.",
+                "options": [
+                  "may remain",
+                  "must to remain",
+                  "will remaining",
+                  "are having remained"
+                ],
+                "correct": "may remain",
+                "explanation": "Modal 'may' followed by base verb 'remain' accurately expresses tentative conditionality."
+              },
+              {
+                "id": 4,
+                "sentence": "Strict noise abatement regulations ________ introduced around metropolitan vertiports before commercial flights begin.",
+                "options": [
+                  "will be",
+                  "will been",
+                  "is being",
+                  "were"
+                ],
+                "correct": "will be",
+                "explanation": "Future passive 'will be introduced' matches the future timeframe before operations begin."
+              }
+            ]
+          },
+          "roleplay": {
+            "title": "Activity 4: Airline Boardroom Clean Fleet Transition Pitch (45 mins)",
+            "scenario": "EuroWings Regional is planning its fleet renewal strategy for 2028–2035. Student A (Head of Fleet Strategy & Sustainability) pitches a bold investment into 20 electric commuter aircraft and 10 hydrogen-ready slots. Student B (Chief Financial Officer) interrogates residual aircraft values, battery replacement costs, and airport charging infrastructure availability.",
+            "roles": [
+              {
+                "role": "Head of Fleet Strategy & Sustainability",
+                "title": "Green Transition Advocate",
+                "objectives": [
+                  "Demonstrate zero tailpipe emissions on domestic routes and complete exemption from EU ETS carbon taxes.",
+                  "Show that electric motor maintenance costs are 50% lower than turboprops due to fewer moving parts.",
+                  "Argue that early adoption secures prime airport green gate allocations and brand loyalty."
+                ],
+                "keyPhrases": [
+                  "\"By transitioning our regional fleet to electric propulsion, we eliminate local NOx and acoustic emissions...\"",
+                  "\"Lifecycle operating calculations project a 40% reduction in direct seat-kilometer costs...\"",
+                  "\"Securing early delivery slots positions EuroWings as the benchmark sustainable carrier in Western Europe...\""
+                ]
+              },
+              {
+                "role": "Chief Financial Officer (CFO)",
+                "title": "Fiscal Risk Auditor",
+                "objectives": [
+                  "Highlight battery replacement amortization costs every 1,500 flight cycles.",
+                  "Question whether secondary regional airports will install multi-megawatt rapid charging stations in time.",
+                  "Demand a contingency plan if battery weight limits passenger baggage during winter holiday flights."
+                ],
+                "keyPhrases": [
+                  "\"How do you propose amortizing the substantial battery replacement expenditure over a 10-year hull life?\"",
+                  "\"If regional hubs fail to commission high-voltage charging grids by 2029, these aircraft will remain grounded...\"",
+                  "\"We cannot compromise airline profitability on uncertified cryogenic hydrogen delivery promises...\""
+                ]
+              }
+            ]
+          },
+          "feChecklist": [
+            "Add 5 clean propulsion and mobility terms to your Vocabulary Log.",
+            "Practice calibrating future predictions using 'is projected to' and 'is bound to'.",
+            "Draft Dimension 1 (Operating Mechanism) and Dimension 2 (Operational Benefits) for your FE3 presentation."
+          ]
         }
       },
       "3": {
@@ -7013,7 +7119,7 @@
           ],
           "grammar": {
             "title": "Connecting Sentences & Ideas",
-            "badge": "B1\u2013B2 Grammar Focus",
+            "badge": "B1–B2 Grammar Focus",
             "patternTitle": "Connecting Words",
             "formula": "Conjunction: [Although / Because] + Subject + Verb | Preposition: [Despite / Due to] + Noun",
             "rulesTitle": "Core Rules",
@@ -7022,7 +7128,7 @@
               "<strong style=\"color: #1e293b;\">2. Prepositions (Despite, In spite of, Because of, Due to):</strong> Followed only by a <span style=\"font-weight: 700; color: #60854b;\">noun or an -ing word</span>, never a full subject + verb (<em>\"Despite high accuracy...\"</em>).",
               "<strong style=\"color: #1e293b;\">3. Transition Words (However, Therefore, Furthermore):</strong> Start a new sentence after a period or semicolon, usually followed by a comma (<span style=\"font-weight: 600; color: #334155;\">\"However, regulators hesitated.\"</span>)."
             ],
-            "trap": "<strong>\u26a0\ufe0f TOEIC Trap Alert:</strong> The <em>\"Although vs. Despite\"</em> trap! If you see a <strong>Subject and a Verb</strong> after the blank, choose <em>Although / Even though</em>. If you see only a noun phrase, choose <em>Despite / In spite of</em>!",
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> The <em>\"Although vs. Despite\"</em> trap! If you see a <strong>Subject and a Verb</strong> after the blank, choose <em>Although / Even though</em>. If you see only a noun phrase, choose <em>Despite / In spite of</em>!",
             "examplesTitle": "Governance & Ethics Examples",
             "examples": [
               "<em>\"<strong>Although</strong> the model demonstrated accuracy, bias audits remained mandatory.\" (+ Clause)</em>",
@@ -7057,37 +7163,37 @@
           "resources": [
             {
               "url": "https://hai.stanford.edu",
-              "tag": "01 \u2022 AI Ethics & Governance",
+              "tag": "01 • AI Ethics & Governance",
               "name": "Stanford Human-Centered AI (HAI)",
               "desc": "Advancing AI research, education, and policy to benefit humanity through interdisciplinary scholarship."
             },
             {
               "url": "https://www.acm.org/code-of-ethics",
-              "tag": "02 \u2022 Human-Computer Ethics",
+              "tag": "02 • Human-Computer Ethics",
               "name": "ACM Code of Ethics & Professional Conduct",
               "desc": "Foundational ethical guidelines established by the Association for Computing Machinery to govern responsible technological stewardship."
             },
             {
               "url": "https://www.criticalthinking.org",
-              "tag": "03 \u2022 Critical Thinking Foundation",
+              "tag": "03 • Critical Thinking Foundation",
               "name": "Foundation for Critical Thinking",
               "desc": "Global non-profit educational organization advancing essential critical thinking tools, Socratic questioning, and logical evaluation."
             },
             {
               "url": "https://www.eff.org",
-              "tag": "04 \u2022 Public Interest Tech",
+              "tag": "04 • Public Interest Tech",
               "name": "Electronic Frontier Foundation (EFF)",
               "desc": "Leading non-profit defending civil liberties, algorithmic transparency, privacy rights, and user autonomy in the digital world."
             },
             {
               "url": "https://ourworldindata.org/technological-change",
-              "tag": "05 \u2022 Technological Change Data",
+              "tag": "05 • Technological Change Data",
               "name": "Our World in Data: Technological Change",
               "desc": "Global historical data tracking rates of technological diffusion, workplace productivity, and societal adaptation."
             },
             {
               "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 \u2022 TOEIC Argument Analysis",
+              "tag": "06 • TOEIC Argument Analysis",
               "name": "ETS Global TOEIC Preparation",
               "desc": "Business English listening and reading comprehension strategies for identifying speaker stance, counter-claims, and concession markers."
             }
@@ -7240,207 +7346,207 @@
           ]
         },
         "lessonContent": {
-                  "overview": {
-                            "image": "images/ag_m3card3.png",
-                            "title": "Technology Ethics & Automated Decisions in AI",
-                            "subtitle": "Algorithmic Fairness, Explainable AI (XAI), Digital Surveillance & Tech Governance",
-                            "badge": "Session Overview • Technology Ethics & Algorithmic Accountability"
-                  },
-                  "hero": {
-                            "image": "images/ag_m3card3.png",
-                            "title": "Technology Ethics & Automated Decisions in AI",
-                            "subtitle": "Algorithmic Fairness, Explainable AI (XAI), Digital Surveillance & Tech Governance",
-                            "badge": "Session Overview • Technology Ethics & Algorithmic Accountability"
-                  },
-                  "openingSession": {
-                            "title": "Activity 1: Tech Ethics Headlines & Diagnostic Spot-Check (10 mins)",
-                            "summary": "Opening warm-up investigating landmark regulatory rulings, algorithmic bias scandals, and fundamental governance concepts.",
-                            "newsPrompts": [
-                                      "The European Union implements enforcement of the EU AI Act, establishing strict auditability mandates for high-risk automated decision systems.",
-                                      "Civil aviation safety authorities mandate that automated pilot assist software must provide explainable telemetry logs to allow human auditing during safety reviews.",
-                                      "Independent university researchers expose significant demographic bias in commercial facial recognition algorithms deployed at international border checkpoints."
-                            ],
-                            "diagnostic": {
-                                      "title": "Technology Ethics Concepts Diagnostic Spot-Check",
-                                      "instructions": "Discuss each distinction in pairs before revealing the technical explanation:",
-                                      "questions": [
-                                                {
-                                                          "id": 1,
-                                                          "q": "What is the fundamental difference between a 'Black Box' algorithm and Explainable AI (XAI)?",
-                                                          "answer": "In a black-box model (such as a deep neural network with billions of parameters), the internal mathematical weights and decision paths cannot be directly understood or audited by human engineers. Explainable AI (XAI) employs interpretable architectures or post-hoc auditing methods that provide clear, human-understandable justifications for why a specific prediction or decision was made."
-                                                },
-                                                {
-                                                          "id": 2,
-                                                          "q": "How does Algorithmic Bias differ from intentional human discrimination?",
-                                                          "answer": "Intentional discrimination stems from deliberate prejudice by an individual or organization. Algorithmic bias occurs when an automated model reproduces or amplifies historical societal inequalities because its training data was skewed, unrepresentative, or reflected biased human decisions of the past—even when developers had no intent to discriminate."
-                                                },
-                                                {
-                                                          "id": 3,
-                                                          "q": "What is the distinction between Data Minimization and Indiscriminate Surveillance?",
-                                                          "answer": "Data minimization (mandated by GDPR and the EU AI Act) requires that automated systems collect, process, and retain only the absolute minimum personal data necessary to perform a specific authorized task. Indiscriminate surveillance involves mass, continuous collection and long-term retention of biometric and behavioral data across entire populations without targeted suspicion."
-                                                },
-                                                {
-                                                          "id": 4,
-                                                          "q": "In tech governance, what is the difference between Legal Compliance and Ethical Responsibility (DDRS)?",
-                                                          "answer": "Legal compliance means strictly adhering to written statutes and regulations currently in force. Ethical responsibility goes beyond statutory law to proactively evaluate the wider social, environmental, and human rights impacts of technology deployment, anticipating harm before legislation catches up."
-                                                }
-                                      ]
-                            }
-                  },
-                  "survey": {
-                            "title": "Activity 2: Ethical Tech Dilemmas & Speed Sparring (25 mins)",
-                            "summary": "Conduct fast-paced paired debates on 4 provocative technology dilemmas. Practice making measured concessions, using polite disagreement, and hedging controversial claims.",
-                            "signposts": [
-                                      "\"Admittedly, the operational convenience is undeniable; however, ...\"",
-                                      "\"While efficiency increases markedly, it is worth questioning whether...\"",
-                                      "\"Evidence tends to suggest that automated screening disproportionately...\"",
-                                      "\"To ensure ethical compliance, regulatory frameworks should require that...\""
-                            ],
-                            "topics": [
-                                      {
-                                                "id": 1,
-                                                "badge": "Automated CV & Hiring Algorithms",
-                                                "statement": "Should aviation companies allow AI algorithms to reject job applicants without human review?",
-                                                "pro": "Algorithms parse tens of thousands of technical resumes in seconds, objectively matching engineering qualifications without unconscious human bias regarding nationality or age.",
-                                                "con": "Language models trained on historical hiring patterns frequently penalize non-traditional career paths, gender diversity, and non-native English phrasing.",
-                                                "prompt": "Interview your partner: How can recruitment departments establish ethical auditing of automated hiring tools?"
-                                      },
-                                      {
-                                                "id": 2,
-                                                "badge": "Facial Recognition in Public Spaces",
-                                                "statement": "Should international transport hubs deploy real-time facial recognition surveillance across all terminal concourses?",
-                                                "pro": "Real-time biometric surveillance instantly detects flagged security suspects and missing persons, elevating public safety across crowded critical infrastructure.",
-                                                "con": "Continuous public surveillance creates chilling civil liberties erosion, high false-identification rates among minority demographics, and risks of state surveillance overreach.",
-                                                "prompt": "Interview your partner: Where should society draw the line between public security and biometric privacy rights?"
-                                      },
-                                      {
-                                                "id": 3,
-                                                "badge": "Autonomous Safety Triage Systems",
-                                                "statement": "Should automated systems make life-or-death prioritization decisions during catastrophic emergency scenarios?",
-                                                "pro": "Algorithms compute multivariate physics equations in milliseconds without human panic, executing optimal risk-minimization actions far faster than human pilots.",
-                                                "con": "Delegating moral and ethical choices to software code dehumanizes safety decisions and creates impossible legal liability voids when fatalities occur.",
-                                                "prompt": "Interview your partner: How should system architects program ethical fail-safes into automated collision-avoidance systems?"
-                                      },
-                                      {
-                                                "id": 4,
-                                                "badge": "Generative Code & IP Sovereignty",
-                                                "statement": "Should engineering firms restrict software developers from using generative AI coding assistants?",
-                                                "pro": "Restricting AI assistants prevents corporate intellectual property from leaking into training datasets and avoids copyright infringement liabilities.",
-                                                "con": "AI coding assistants accelerate software prototyping by 30% and help junior programmers identify syntax bugs and vulnerabilities faster.",
-                                                "prompt": "Interview your partner: How can aerospace firms establish secure, closed-loop generative coding environments?"
-                                      }
-                            ]
-                  },
-                  "grammarClinic": {
-                            "title": "Activity 3: Language Clinic: Cautious Language (Hedging), Concession & Counter-Argumentation (20 mins)",
-                            "summary": "Mastering diplomatic argumentation, polite concession, and modal hedging to sound professional, objective, and persuasive in B2 academic and workplace debates.",
-                            "rules": [
-                                      {
-                                                "type": "Concession Structures (Admittedly... nevertheless / While it is true that...)",
-                                                "formula": "Admittedly, [concession]; however / nevertheless, [counter-argument]",
-                                                "usage": "Acknowledge the validity of an opposing point before presenting your stronger counter-argument. (e.g., 'Admittedly, automated screening expedites passenger flow; nevertheless, false-rejection error rates remain problematic.')"
-                                      },
-                                      {
-                                                "type": "Hedging Verbs & Modifiers (tend to / suggest / appear to / arguably)",
-                                                "formula": "Subject + tends to / appears to / suggests that + clause",
-                                                "usage": "Softens dogmatic claims into professional, evidence-based assertions. (e.g., 'The empirical data appears to indicate that algorithmic bias decreases with diverse training sets.')"
-                                      },
-                                      {
-                                                "type": "Qualifying Generalizations (In many respects / To a certain extent / For the most part)",
-                                                "formula": "[Qualifying phrase], [main proposition]",
-                                                "usage": "Avoids sweeping overstatements like 'all AI is dangerous' or 'automation always fails'. (e.g., 'To a certain extent, ethical guidelines have mitigated algorithmic discrimination.')"
-                                      }
-                            ],
-                            "drills": [
-                                      {
-                                                "id": 1,
-                                                "sentence": "________ biometric surveillance enhances security, its threat to civil liberties remains profound.",
-                                                "options": [
-                                                          "Admittedly",
-                                                          "While",
-                                                          "Nevertheless",
-                                                          "Despite"
-                                                ],
-                                                "correct": "While",
-                                                "explanation": "Subordinating conjunction 'While' introduces the concession clause linked to the main clause."
-                                      },
-                                      {
-                                                "id": 2,
-                                                "sentence": "The audit findings ________ suggest that the automated screening model was trained on skewed historical datasets.",
-                                                "options": [
-                                                          "tend to",
-                                                          "tending",
-                                                          "tendency",
-                                                          "is tending"
-                                                ],
-                                                "correct": "tend to",
-                                                "explanation": "Hedging expression 'tend to + base verb' accurately tempers the conclusion without dogmatism."
-                                      },
-                                      {
-                                                "id": 3,
-                                                "sentence": "High-risk algorithms must undergo rigorous third-party auditing; ________, regulatory enforcement remains inconsistent across regions.",
-                                                "options": [
-                                                          "furthermore",
-                                                          "nonetheless",
-                                                          "because",
-                                                          "similarly"
-                                                ],
-                                                "correct": "nonetheless",
-                                                "explanation": "Adverbial conjunction 'nonetheless' signals a strong contrastive counter-point."
-                                      },
-                                      {
-                                                "id": 4,
-                                                "sentence": "To a certain ________, automated flight rebooking systems reduce stress during massive storm cancellations.",
-                                                "options": [
-                                                          "extend",
-                                                          "extent",
-                                                          "extensive",
-                                                          "extensively"
-                                                ],
-                                                "correct": "extent",
-                                                "explanation": "Fixed qualifying collocation 'To a certain extent' requires the noun form 'extent'."
-                                      }
-                            ]
-                  },
-                  "roleplay": {
-                            "title": "Activity 4: AI Ethics Oversight Committee Hearing (45 mins)",
-                            "scenario": "A European transport authority is reviewing the commercial deployment of an AI-driven behavioral anomaly detection system at major hub stations. Student A (Lead Algorithmic Systems Engineer) defends the accuracy, threat detection efficacy, and compliance of the platform. Student B (Civil Liberties & Ethics Commissioner) interrogates bias rates, false arrests, and human dignity safeguards.",
-                            "roles": [
-                                      {
-                                                "role": "Lead Algorithmic Systems Engineer",
-                                                "title": "System Architect",
-                                                "objectives": [
-                                                          "Explain that the neural network analyzes only movement vectors, luggage dwell times, and perimeter breaches—not personal identities.",
-                                                          "Show that 98.4% of detected anomalies are verified as genuine safety hazards.",
-                                                          "Propose automated log anonymization every 24 hours to protect commuter privacy."
-                                                ],
-                                                "keyPhrases": [
-                                                          "\"Our behavioral model processes spatial vectors rather than demographic or facial profiles...\"",
-                                                          "\"Admittedly, sensor occlusion can cause false flags; nevertheless, human operators verify all alerts...\"",
-                                                          "\"The system operates under strict data minimization guidelines compliant with the EU AI Act...\""
-                                                ]
-                                      },
-                                      {
-                                                "role": "Civil Liberties & Ethics Commissioner",
-                                                "title": "Regulatory Oversight Auditor",
-                                                "objectives": [
-                                                          "Interrogate the 1.6% false-positive rate and its real-world impact on innocent commuters.",
-                                                          "Demand full compliance with the European AI Act's high-risk transparency and explainability mandates.",
-                                                          "Insist on strict criminal penalties if facial recognition or demographic profiling is secretly enabled."
-                                                ],
-                                                "keyPhrases": [
-                                                          "\"In a high-throughput hub serving 100,000 commuters daily, a 1.6% false-positive rate subjects 1,600 innocent citizens to harassment...\"",
-                                                          "\"Can you provide verifiable cryptographic proof that facial biometrics are not extracted during vector analysis?\"",
-                                                          "\"Without independent algorithmic auditing and transparent appeal mechanisms, this deployment cannot be certified...\""
-                                                ]
-                                      }
-                            ]
-                  },
-                  "feChecklist": [
-                            "Add 5 technology ethics and governance terms to your Vocabulary Log.",
-                            "Practice framing technical debate arguments using concession and hedging structures.",
-                            "Draft Dimension 3 (DDRS, Ethical, Regulatory & Societal Challenges) for your FE3 presentation."
-                  ]
+          "overview": {
+            "image": "images/ag_m3card3.png",
+            "title": "Technology Ethics & Automated Decisions in AI",
+            "subtitle": "Algorithmic Fairness, Explainable AI (XAI), Digital Surveillance & Tech Governance",
+            "badge": "Session Overview • Technology Ethics & Algorithmic Accountability"
+          },
+          "hero": {
+            "image": "images/ag_m3card3.png",
+            "title": "Technology Ethics & Automated Decisions in AI",
+            "subtitle": "Algorithmic Fairness, Explainable AI (XAI), Digital Surveillance & Tech Governance",
+            "badge": "Session Overview • Technology Ethics & Algorithmic Accountability"
+          },
+          "openingSession": {
+            "title": "Activity 1: Tech Ethics Headlines & Diagnostic Spot-Check (10 mins)",
+            "summary": "Opening warm-up investigating landmark regulatory rulings, algorithmic bias scandals, and fundamental governance concepts.",
+            "newsPrompts": [
+              "The European Union implements enforcement of the EU AI Act, establishing strict auditability mandates for high-risk automated decision systems.",
+              "Civil aviation safety authorities mandate that automated pilot assist software must provide explainable telemetry logs to allow human auditing during safety reviews.",
+              "Independent university researchers expose significant demographic bias in commercial facial recognition algorithms deployed at international border checkpoints."
+            ],
+            "diagnostic": {
+              "title": "Technology Ethics Concepts Diagnostic Spot-Check",
+              "instructions": "Discuss each distinction in pairs before revealing the technical explanation:",
+              "questions": [
+                {
+                  "id": 1,
+                  "q": "What is the fundamental difference between a 'Black Box' algorithm and Explainable AI (XAI)?",
+                  "answer": "In a black-box model (such as a deep neural network with billions of parameters), the internal mathematical weights and decision paths cannot be directly understood or audited by human engineers. Explainable AI (XAI) employs interpretable architectures or post-hoc auditing methods that provide clear, human-understandable justifications for why a specific prediction or decision was made."
+                },
+                {
+                  "id": 2,
+                  "q": "How does Algorithmic Bias differ from intentional human discrimination?",
+                  "answer": "Intentional discrimination stems from deliberate prejudice by an individual or organization. Algorithmic bias occurs when an automated model reproduces or amplifies historical societal inequalities because its training data was skewed, unrepresentative, or reflected biased human decisions of the past—even when developers had no intent to discriminate."
+                },
+                {
+                  "id": 3,
+                  "q": "What is the distinction between Data Minimization and Indiscriminate Surveillance?",
+                  "answer": "Data minimization (mandated by GDPR and the EU AI Act) requires that automated systems collect, process, and retain only the absolute minimum personal data necessary to perform a specific authorized task. Indiscriminate surveillance involves mass, continuous collection and long-term retention of biometric and behavioral data across entire populations without targeted suspicion."
+                },
+                {
+                  "id": 4,
+                  "q": "In tech governance, what is the difference between Legal Compliance and Ethical Responsibility (DDRS)?",
+                  "answer": "Legal compliance means strictly adhering to written statutes and regulations currently in force. Ethical responsibility goes beyond statutory law to proactively evaluate the wider social, environmental, and human rights impacts of technology deployment, anticipating harm before legislation catches up."
+                }
+              ]
+            }
+          },
+          "survey": {
+            "title": "Activity 2: Ethical Tech Dilemmas & Speed Sparring (25 mins)",
+            "summary": "Conduct fast-paced paired debates on 4 provocative technology dilemmas. Practice making measured concessions, using polite disagreement, and hedging controversial claims.",
+            "signposts": [
+              "\"Admittedly, the operational convenience is undeniable; however, ...\"",
+              "\"While efficiency increases markedly, it is worth questioning whether...\"",
+              "\"Evidence tends to suggest that automated screening disproportionately...\"",
+              "\"To ensure ethical compliance, regulatory frameworks should require that...\""
+            ],
+            "topics": [
+              {
+                "id": 1,
+                "badge": "Automated CV & Hiring Algorithms",
+                "statement": "Should aviation companies allow AI algorithms to reject job applicants without human review?",
+                "pro": "Algorithms parse tens of thousands of technical resumes in seconds, objectively matching engineering qualifications without unconscious human bias regarding nationality or age.",
+                "con": "Language models trained on historical hiring patterns frequently penalize non-traditional career paths, gender diversity, and non-native English phrasing.",
+                "prompt": "Interview your partner: How can recruitment departments establish ethical auditing of automated hiring tools?"
+              },
+              {
+                "id": 2,
+                "badge": "Facial Recognition in Public Spaces",
+                "statement": "Should international transport hubs deploy real-time facial recognition surveillance across all terminal concourses?",
+                "pro": "Real-time biometric surveillance instantly detects flagged security suspects and missing persons, elevating public safety across crowded critical infrastructure.",
+                "con": "Continuous public surveillance creates chilling civil liberties erosion, high false-identification rates among minority demographics, and risks of state surveillance overreach.",
+                "prompt": "Interview your partner: Where should society draw the line between public security and biometric privacy rights?"
+              },
+              {
+                "id": 3,
+                "badge": "Autonomous Safety Triage Systems",
+                "statement": "Should automated systems make life-or-death prioritization decisions during catastrophic emergency scenarios?",
+                "pro": "Algorithms compute multivariate physics equations in milliseconds without human panic, executing optimal risk-minimization actions far faster than human pilots.",
+                "con": "Delegating moral and ethical choices to software code dehumanizes safety decisions and creates impossible legal liability voids when fatalities occur.",
+                "prompt": "Interview your partner: How should system architects program ethical fail-safes into automated collision-avoidance systems?"
+              },
+              {
+                "id": 4,
+                "badge": "Generative Code & IP Sovereignty",
+                "statement": "Should engineering firms restrict software developers from using generative AI coding assistants?",
+                "pro": "Restricting AI assistants prevents corporate intellectual property from leaking into training datasets and avoids copyright infringement liabilities.",
+                "con": "AI coding assistants accelerate software prototyping by 30% and help junior programmers identify syntax bugs and vulnerabilities faster.",
+                "prompt": "Interview your partner: How can aerospace firms establish secure, closed-loop generative coding environments?"
+              }
+            ]
+          },
+          "grammarClinic": {
+            "title": "Activity 3: Language Clinic: Cautious Language (Hedging), Concession & Counter-Argumentation (20 mins)",
+            "summary": "Mastering diplomatic argumentation, polite concession, and modal hedging to sound professional, objective, and persuasive in B2 academic and workplace debates.",
+            "rules": [
+              {
+                "type": "Concession Structures (Admittedly... nevertheless / While it is true that...)",
+                "formula": "Admittedly, [concession]; however / nevertheless, [counter-argument]",
+                "usage": "Acknowledge the validity of an opposing point before presenting your stronger counter-argument. (e.g., 'Admittedly, automated screening expedites passenger flow; nevertheless, false-rejection error rates remain problematic.')"
+              },
+              {
+                "type": "Hedging Verbs & Modifiers (tend to / suggest / appear to / arguably)",
+                "formula": "Subject + tends to / appears to / suggests that + clause",
+                "usage": "Softens dogmatic claims into professional, evidence-based assertions. (e.g., 'The empirical data appears to indicate that algorithmic bias decreases with diverse training sets.')"
+              },
+              {
+                "type": "Qualifying Generalizations (In many respects / To a certain extent / For the most part)",
+                "formula": "[Qualifying phrase], [main proposition]",
+                "usage": "Avoids sweeping overstatements like 'all AI is dangerous' or 'automation always fails'. (e.g., 'To a certain extent, ethical guidelines have mitigated algorithmic discrimination.')"
+              }
+            ],
+            "drills": [
+              {
+                "id": 1,
+                "sentence": "________ biometric surveillance enhances security, its threat to civil liberties remains profound.",
+                "options": [
+                  "Admittedly",
+                  "While",
+                  "Nevertheless",
+                  "Despite"
+                ],
+                "correct": "While",
+                "explanation": "Subordinating conjunction 'While' introduces the concession clause linked to the main clause."
+              },
+              {
+                "id": 2,
+                "sentence": "The audit findings ________ suggest that the automated screening model was trained on skewed historical datasets.",
+                "options": [
+                  "tend to",
+                  "tending",
+                  "tendency",
+                  "is tending"
+                ],
+                "correct": "tend to",
+                "explanation": "Hedging expression 'tend to + base verb' accurately tempers the conclusion without dogmatism."
+              },
+              {
+                "id": 3,
+                "sentence": "High-risk algorithms must undergo rigorous third-party auditing; ________, regulatory enforcement remains inconsistent across regions.",
+                "options": [
+                  "furthermore",
+                  "nonetheless",
+                  "because",
+                  "similarly"
+                ],
+                "correct": "nonetheless",
+                "explanation": "Adverbial conjunction 'nonetheless' signals a strong contrastive counter-point."
+              },
+              {
+                "id": 4,
+                "sentence": "To a certain ________, automated flight rebooking systems reduce stress during massive storm cancellations.",
+                "options": [
+                  "extend",
+                  "extent",
+                  "extensive",
+                  "extensively"
+                ],
+                "correct": "extent",
+                "explanation": "Fixed qualifying collocation 'To a certain extent' requires the noun form 'extent'."
+              }
+            ]
+          },
+          "roleplay": {
+            "title": "Activity 4: AI Ethics Oversight Committee Hearing (45 mins)",
+            "scenario": "A European transport authority is reviewing the commercial deployment of an AI-driven behavioral anomaly detection system at major hub stations. Student A (Lead Algorithmic Systems Engineer) defends the accuracy, threat detection efficacy, and compliance of the platform. Student B (Civil Liberties & Ethics Commissioner) interrogates bias rates, false arrests, and human dignity safeguards.",
+            "roles": [
+              {
+                "role": "Lead Algorithmic Systems Engineer",
+                "title": "System Architect",
+                "objectives": [
+                  "Explain that the neural network analyzes only movement vectors, luggage dwell times, and perimeter breaches—not personal identities.",
+                  "Show that 98.4% of detected anomalies are verified as genuine safety hazards.",
+                  "Propose automated log anonymization every 24 hours to protect commuter privacy."
+                ],
+                "keyPhrases": [
+                  "\"Our behavioral model processes spatial vectors rather than demographic or facial profiles...\"",
+                  "\"Admittedly, sensor occlusion can cause false flags; nevertheless, human operators verify all alerts...\"",
+                  "\"The system operates under strict data minimization guidelines compliant with the EU AI Act...\""
+                ]
+              },
+              {
+                "role": "Civil Liberties & Ethics Commissioner",
+                "title": "Regulatory Oversight Auditor",
+                "objectives": [
+                  "Interrogate the 1.6% false-positive rate and its real-world impact on innocent commuters.",
+                  "Demand full compliance with the European AI Act's high-risk transparency and explainability mandates.",
+                  "Insist on strict criminal penalties if facial recognition or demographic profiling is secretly enabled."
+                ],
+                "keyPhrases": [
+                  "\"In a high-throughput hub serving 100,000 commuters daily, a 1.6% false-positive rate subjects 1,600 innocent citizens to harassment...\"",
+                  "\"Can you provide verifiable cryptographic proof that facial biometrics are not extracted during vector analysis?\"",
+                  "\"Without independent algorithmic auditing and transparent appeal mechanisms, this deployment cannot be certified...\""
+                ]
+              }
+            ]
+          },
+          "feChecklist": [
+            "Add 5 technology ethics and governance terms to your Vocabulary Log.",
+            "Practice framing technical debate arguments using concession and hedging structures.",
+            "Draft Dimension 3 (DDRS, Ethical, Regulatory & Societal Challenges) for your FE3 presentation."
+          ]
         }
       },
       "4": {
@@ -7632,7 +7738,7 @@
           ],
           "grammar": {
             "title": "Words That Go Together (Collocations)",
-            "badge": "B1\u2013B2 Grammar Focus",
+            "badge": "B1–B2 Grammar Focus",
             "patternTitle": "Key Word Pairs",
             "formula": "Verb + Preposition: comply with / adhere to | Verb + Noun: meet standards / conduct an audit",
             "rulesTitle": "Core Rules",
@@ -7641,7 +7747,7 @@
               "<strong style=\"color: #1e293b;\">2. Verbs with NO Preposition:</strong> <span style=\"font-weight: 600; color: #334155;\">meet standards</span> (NOT <em>meet with standards</em>), <span style=\"font-weight: 600; color: #334155;\">follow rules</span>, <span style=\"font-weight: 600; color: #334155;\">observe regulations</span>.",
               "<strong style=\"color: #1e293b;\">3. Natural Business Pairs:</strong> <span style=\"font-weight: 600; color: #334155;\">conduct an audit</span>, <span style=\"font-weight: 600; color: #334155;\">grant clearance</span>, <span style=\"font-weight: 600; color: #334155;\">implement measures</span>, <span style=\"font-weight: 600; color: #334155;\">strict confidentiality</span>."
             ],
-            "trap": "<strong>\u26a0\ufe0f TOEIC Trap Alert:</strong> Pay close attention to the preposition right after the blank! If you see <em>with</em>, you cannot pick <em>meet</em>, <em>follow</em>, or <em>observe</em> (they don't use <em>with</em>). You must pick <strong>comply with</strong>!",
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> Pay close attention to the preposition right after the blank! If you see <em>with</em>, you cannot pick <em>meet</em>, <em>follow</em>, or <em>observe</em> (they don't use <em>with</em>). You must pick <strong>comply with</strong>!",
             "examplesTitle": "Biometrics & Security Examples",
             "examples": [
               "<em>\"Border control e-gates must <strong>comply with</strong> international encryption protocols.\" (Verb + Prep)</em>",
@@ -7676,37 +7782,37 @@
           "resources": [
             {
               "url": "https://www.icao.int",
-              "tag": "01 \u2022 Digital Travel Standards",
+              "tag": "01 • Digital Travel Standards",
               "name": "ICAO Digital Travel Credential (DTC)",
               "desc": "International Civil Aviation Organization technical specifications for secure digital travel credentials on mobile devices."
             },
             {
               "url": "https://www.nist.gov",
-              "tag": "02 \u2022 Biometric Accuracy Benchmarks",
+              "tag": "02 • Biometric Accuracy Benchmarks",
               "name": "NIST Face Recognition Vendor Test (FRVT)",
               "desc": "National Institute of Standards and Technology official ongoing evaluations measuring algorithmic accuracy and demographic fairness."
             },
             {
               "url": "https://edpb.europa.eu",
-              "tag": "03 \u2022 European Privacy Authority",
+              "tag": "03 • European Privacy Authority",
               "name": "European Data Protection Board (EDPB)",
               "desc": "Independent European body ensuring the consistent application of GDPR rules regarding personal biometric data processing."
             },
             {
               "url": "https://www.iata.org",
-              "tag": "04 \u2022 Passenger Identity Initiative",
+              "tag": "04 • Passenger Identity Initiative",
               "name": "IATA One ID Initiative",
               "desc": "Global air transport initiative working to create a seamless, paperless airport journey using collaborative biometric identity tokens."
             },
             {
               "url": "https://www.eff.org",
-              "tag": "05 \u2022 Digital Civil Liberties",
+              "tag": "05 • Digital Civil Liberties",
               "name": "Electronic Frontier Foundation (EFF) Biometrics",
               "desc": "Public interest legal analysis and campaign resources defending individual privacy against mass surveillance and biometric overreach."
             },
             {
               "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 \u2022 TOEIC Collocation Practice",
+              "tag": "06 • TOEIC Collocation Practice",
               "name": "ETS Global TOEIC Preparation",
               "desc": "Vocabulary drills focusing on professional tech collocations, data security policy statements, and passenger service agreements."
             }
@@ -7859,207 +7965,207 @@
           ]
         },
         "lessonContent": {
-                  "overview": {
-                            "image": "images/ag_m3card4.png",
-                            "title": "Biometrics, Digital IDs & Passenger Journey",
-                            "subtitle": "Contactless E-Gates, IATA One ID, Cybersecurity & Biometric Data Sovereignty",
-                            "badge": "Session Overview • Biometrics & Digital Identity"
-                  },
-                  "hero": {
-                            "image": "images/ag_m3card4.png",
-                            "title": "Biometrics, Digital IDs & Passenger Journey",
-                            "subtitle": "Contactless E-Gates, IATA One ID, Cybersecurity & Biometric Data Sovereignty",
-                            "badge": "Session Overview • Biometrics & Digital Identity"
-                  },
-                  "openingSession": {
-                            "title": "Activity 1: Smart Airport News & Biometric Diagnostic (10 mins)",
-                            "summary": "Opening warm-up examining international contactless airport implementations and key cryptographic/biometric distinctions.",
-                            "newsPrompts": [
-                                      "Singapore Changi and Dubai International roll out passport-free 'curb-to-gate' biometric boarding using single-token facial recognition.",
-                                      "International air transport bodies publish interoperability standards for decentralized digital identity wallets, replacing paper boarding passes.",
-                                      "Cybersecurity agencies issue alerts regarding credential stuffing and biometric database breaches targeting international transit networks."
-                            ],
-                            "diagnostic": {
-                                      "title": "Biometric & Identity Concepts Diagnostic Spot-Check",
-                                      "instructions": "Discuss each distinction in pairs before revealing the technical explanation:",
-                                      "questions": [
-                                                {
-                                                          "id": 1,
-                                                          "q": "What is the critical distinction between Biometric Verification (1:1) and Biometric Identification (1:N)?",
-                                                          "answer": "Biometric verification (one-to-one, 1:1) matches a newly captured scan directly against an existing credential presented by the user (such as comparing a live face scan to the encrypted chip on their passport). Biometric identification (one-to-many, 1:N) searches an unknown person's scan across an entire database of millions of records to find a match without any presented identity document."
-                                                },
-                                                {
-                                                          "id": 2,
-                                                          "q": "How does a Centralized Biometric Database differ from Decentralized Digital Identity (Self-Sovereign Identity)?",
-                                                          "answer": "A centralized database stores the biometric templates of millions of travelers in a single government or corporate server—creating an irresistible high-value target for hackers. Decentralized digital identity stores encrypted verifiable credentials locally on the traveler's secure smartphone hardware enclave, sharing only cryptographic proofs rather than raw biometric files."
-                                                },
-                                                {
-                                                          "id": 3,
-                                                          "q": "What is the difference between a Barcode Boarding Pass and a Biometric Single Token?",
-                                                          "answer": "A barcode boarding pass is a static printed or digital 2D optical code that must be manually presented and scanned alongside a passport at every checkpoint (bag drop, security, border, boarding gate). A biometric single token creates a temporary encrypted digital profile linking the traveler's face to their itinerary, allowing walk-through access through all checkpoints without ever showing a document."
-                                                },
-                                                {
-                                                          "id": 4,
-                                                          "q": "In biometric systems engineering, what is the trade-off between False Acceptance Rate (FAR) and False Rejection Rate (FRR)?",
-                                                          "answer": "False Acceptance Rate (FAR) is the percentage of unauthorized individuals incorrectly accepted as a match (a critical security failure). False Rejection Rate (FRR) is the percentage of legitimate travelers incorrectly rejected (a passenger convenience and throughput failure). Calibrating the algorithm to achieve zero FAR inherently raises FRR, causing gate bottlenecks."
-                                                }
-                                      ]
-                            }
-                  },
-                  "survey": {
-                            "title": "Activity 2: Seamless Travel & Digital Privacy: Speed Survey (25 mins)",
-                            "summary": "Conduct structured speed-dating interviews on 4 controversial frontiers in digital travel credentials. Practice deploying complex noun phrases, defining relative clauses, and defending cybersecurity safeguards.",
-                            "signposts": [
-                                      "\"In terms of terminal throughput, contactless e-gates...\"",
-                                      "\"The fundamental vulnerability of centralized biometric storage is that...\"",
-                                      "\"Under international data privacy frameworks like GDPR, passengers must retain...\"",
-                                      "\"To reconcile border security with civil rights, systems must implement...\""
-                            ],
-                            "topics": [
-                                      {
-                                                "id": 1,
-                                                "badge": "Passport-Free Walk-Through Terminals",
-                                                "statement": "Should all international airports eliminate physical passport checks in favor of mandatory facial biometric boarding?",
-                                                "pro": "Biometric tokens slash boarding times from 40 minutes to under 15 minutes per widebody flight, eliminate boarding pass fraud, and create a frictionless passenger experience.",
-                                                "con": "Mandatory biometrics excludes travelers who decline facial recognition, concentrates immense surveillance power in private airport hands, and creates border bottlenecks if scanners fail.",
-                                                "prompt": "Interview your partner: How can airports preserve seamless travel while offering robust non-biometric manual opt-outs?"
-                                      },
-                                      {
-                                                "id": 2,
-                                                "badge": "Biometric Data Breaches",
-                                                "statement": "Is storing biometric scans fundamentally more hazardous than storing alphanumeric passwords or credit cards?",
-                                                "pro": "Unlike passwords or credit card numbers, you cannot cancel or reset your facial geometry, iris patterns, or fingerprints if a database is compromised.",
-                                                "con": "Modern biometric systems do not store raw photos; they store one-way irreversibly encrypted mathematical hashes that are useless to hackers without the cryptographic key.",
-                                                "prompt": "Interview your partner: What cybersecurity protocols must airports implement to protect biometric hash databases?"
-                                      },
-                                      {
-                                                "id": 3,
-                                                "badge": "Global Digital Health & Climate Credentials",
-                                                "statement": "Should digital identity wallets integrate passenger carbon footprint tracking and health records for international travel?",
-                                                "pro": "Integrated digital wallets streamline immigration clearances, reward low-carbon travel choices, and prevent the spread of infectious pathogens during global health emergencies.",
-                                                "con": "Merging health, carbon, and travel data into a single digital identity creates dystopian digital surveillance and social credit risks.",
-                                                "prompt": "Interview your partner: How can data minimization prevent digital identity creep?"
-                                      },
-                                      {
-                                                "id": 4,
-                                                "badge": "Interoperability & Cross-Border Sovereignty",
-                                                "statement": "Can sovereign nations establish a unified international biometric standard without compromising citizen data privacy?",
-                                                "pro": "IATA One ID and ICAO digital travel credentials demonstrate that standardized cryptographic verification works globally without sharing raw citizen databases.",
-                                                "con": "Authoritarian regimes may use international biometric protocols to track political dissidents abroad and restrict travel freedom.",
-                                                "prompt": "Interview your partner: How does the European Union regulate cross-border biometric data transfers with third-party nations?"
-                                      }
-                            ]
-                  },
-                  "grammarClinic": {
-                            "title": "Activity 3: Language Clinic: Relative Clauses & Complex Noun Phrases (20 mins)",
-                            "summary": "Mastering defining vs. non-defining relative clauses and information-dense technical noun phrases to construct sophisticated descriptions of complex engineering systems.",
-                            "rules": [
-                                      {
-                                                "type": "Defining Relative Clauses (Essential Information / No Commas)",
-                                                "formula": "Noun + that / who / which + clause",
-                                                "usage": "Defines exactly which item is being discussed; cannot be omitted. (e.g., 'Biometric algorithms that rely on single-angle 2D cameras exhibit higher error rates in low lighting.')"
-                                      },
-                                      {
-                                                "type": "Non-Defining Relative Clauses (Extra Information / Separated by Commas)",
-                                                "formula": "Noun, which / who + clause,",
-                                                "usage": "Provides interesting or supplementary context about a noun already clearly identified; 'that' cannot be used. (e.g., 'The IATA One ID platform, which was introduced to streamline hub departures, employs decentralized cryptographic tokens.')"
-                                      },
-                                      {
-                                                "type": "Preposition + Relative Pronoun (Formal Technical Register)",
-                                                "formula": "Noun + preposition + whom / which + clause",
-                                                "usage": "Standard in official engineering specifications. (e.g., 'The secure hardware enclave from which the biometric proof is generated never transmits raw facial imagery.')"
-                                      }
-                            ],
-                            "drills": [
-                                      {
-                                                "id": 1,
-                                                "sentence": "Passengers ________ opt out of biometric scanning are directed to traditional manual document inspection desks.",
-                                                "options": [
-                                                          "which",
-                                                          "who",
-                                                          "whom",
-                                                          "whose"
-                                                ],
-                                                "correct": "who",
-                                                "explanation": "Relative pronoun 'who' refers to human subjects ('passengers') in a defining relative clause."
-                                      },
-                                      {
-                                                "id": 2,
-                                                "sentence": "The e-gate optical sensors, ________ manufactured by an accredited aerospace defense contractor, meet ICAO Category 1 precision standards.",
-                                                "options": [
-                                                          "that are",
-                                                          "which are",
-                                                          "what are",
-                                                          "whom are"
-                                                ],
-                                                "correct": "which are",
-                                                "explanation": "Non-defining relative clause enclosed by commas requires 'which are', not 'that'."
-                                      },
-                                      {
-                                                "id": 3,
-                                                "sentence": "The encrypted terminal server ________ which passenger flight tokens are validated requires multi-factor authentication.",
-                                                "options": [
-                                                          "at",
-                                                          "on",
-                                                          "through",
-                                                          "with"
-                                                ],
-                                                "correct": "through",
-                                                "explanation": "Preposition 'through' logically describes the validation pathway ('validated through which')."
-                                      },
-                                      {
-                                                "id": 4,
-                                                "sentence": "Biometric algorithms ________ train on ethnically diverse facial datasets show significantly lower false-rejection error rates.",
-                                                "options": [
-                                                          "that",
-                                                          "whose",
-                                                          "whom",
-                                                          "what"
-                                                ],
-                                                "correct": "that",
-                                                "explanation": "Defining relative pronoun 'that' correctly modifies the system subject ('algorithms')."
-                                      }
-                            ]
-                  },
-                  "roleplay": {
-                            "title": "Activity 4: Designing the 2030 Smart Travel Terminal (45 mins)",
-                            "scenario": "AirHub International is designing a new €800M contactless departure terminal concourse. Student A (Airport Passenger Experience Director) presents a completely biometric walk-through passenger flow. Student B (Chief Information Security Officer & Data Privacy Ombudsman) interrogates cybersecurity resilience, hardware fallback procedures during network blackouts, and passenger consent protocols.",
-                            "roles": [
-                                      {
-                                                "role": "Passenger Experience Director",
-                                                "title": "Seamless Flow Architect",
-                                                "objectives": [
-                                                          "Demonstrate average curb-to-aircraft boarding time of 9 minutes per traveler.",
-                                                          "Propose automated baggage drop stands that link baggage tags directly to the passenger's face scan.",
-                                                          "Argue that 90% of business travelers prefer biometric convenience over paper documents."
-                                                ],
-                                                "keyPhrases": [
-                                                          "\"Single-token biometric processing eliminates physical document checks at five consecutive touchpoints...\"",
-                                                          "\"Boarding gate throughput accelerates by 300%, allowing widebody aircraft to turnaround in 35 minutes...\"",
-                                                          "\"Travelers enroll securely from their smartphones before arriving at the airport...\""
-                                                ]
-                                      },
-                                      {
-                                                "role": "Chief Information Security Officer (CISO)",
-                                                "title": "Cybersecurity & Privacy Ombudsman",
-                                                "objectives": [
-                                                          "Demand that all biometric hashes be permanently deleted from terminal cache memory 60 minutes after flight departure.",
-                                                          "Require an unhackable local offline fallback protocol for manual document checks during IT or cloud network outages.",
-                                                          "Mandate clearly signposted, dignified manual opt-out corridors with identical throughput speeds."
-                                                ],
-                                                "keyPhrases": [
-                                                          "\"Zero-trust cybersecurity architecture mandates that no biometric templates are retained on local gate controllers...\"",
-                                                          "\"If a wide-area cloud outage occurs, we must possess manual verification corridors to prevent total airport gridlock...\"",
-                                                          "\"Under European privacy regulations, biometric participation must be strictly consensual with zero discrimination for opt-outs...\""
-                                                ]
-                                      }
-                            ]
-                  },
-                  "feChecklist": [
-                            "Add 5 biometrics, digital identity, and cybersecurity terms to your Vocabulary Log.",
-                            "Refine your presentation slides with technical relative clauses and clear data visualizations.",
-                            "Finalize your Formative Evaluation 3 (FE3) rehearsal: verify 50/50 talking balance and ensure zero reading from slides or notes."
-                  ]
+          "overview": {
+            "image": "images/ag_m3card4.png",
+            "title": "Biometrics, Digital IDs & Passenger Journey",
+            "subtitle": "Contactless E-Gates, IATA One ID, Cybersecurity & Biometric Data Sovereignty",
+            "badge": "Session Overview • Biometrics & Digital Identity"
+          },
+          "hero": {
+            "image": "images/ag_m3card4.png",
+            "title": "Biometrics, Digital IDs & Passenger Journey",
+            "subtitle": "Contactless E-Gates, IATA One ID, Cybersecurity & Biometric Data Sovereignty",
+            "badge": "Session Overview • Biometrics & Digital Identity"
+          },
+          "openingSession": {
+            "title": "Activity 1: Smart Airport News & Biometric Diagnostic (10 mins)",
+            "summary": "Opening warm-up examining international contactless airport implementations and key cryptographic/biometric distinctions.",
+            "newsPrompts": [
+              "Singapore Changi and Dubai International roll out passport-free 'curb-to-gate' biometric boarding using single-token facial recognition.",
+              "International air transport bodies publish interoperability standards for decentralized digital identity wallets, replacing paper boarding passes.",
+              "Cybersecurity agencies issue alerts regarding credential stuffing and biometric database breaches targeting international transit networks."
+            ],
+            "diagnostic": {
+              "title": "Biometric & Identity Concepts Diagnostic Spot-Check",
+              "instructions": "Discuss each distinction in pairs before revealing the technical explanation:",
+              "questions": [
+                {
+                  "id": 1,
+                  "q": "What is the critical distinction between Biometric Verification (1:1) and Biometric Identification (1:N)?",
+                  "answer": "Biometric verification (one-to-one, 1:1) matches a newly captured scan directly against an existing credential presented by the user (such as comparing a live face scan to the encrypted chip on their passport). Biometric identification (one-to-many, 1:N) searches an unknown person's scan across an entire database of millions of records to find a match without any presented identity document."
+                },
+                {
+                  "id": 2,
+                  "q": "How does a Centralized Biometric Database differ from Decentralized Digital Identity (Self-Sovereign Identity)?",
+                  "answer": "A centralized database stores the biometric templates of millions of travelers in a single government or corporate server—creating an irresistible high-value target for hackers. Decentralized digital identity stores encrypted verifiable credentials locally on the traveler's secure smartphone hardware enclave, sharing only cryptographic proofs rather than raw biometric files."
+                },
+                {
+                  "id": 3,
+                  "q": "What is the difference between a Barcode Boarding Pass and a Biometric Single Token?",
+                  "answer": "A barcode boarding pass is a static printed or digital 2D optical code that must be manually presented and scanned alongside a passport at every checkpoint (bag drop, security, border, boarding gate). A biometric single token creates a temporary encrypted digital profile linking the traveler's face to their itinerary, allowing walk-through access through all checkpoints without ever showing a document."
+                },
+                {
+                  "id": 4,
+                  "q": "In biometric systems engineering, what is the trade-off between False Acceptance Rate (FAR) and False Rejection Rate (FRR)?",
+                  "answer": "False Acceptance Rate (FAR) is the percentage of unauthorized individuals incorrectly accepted as a match (a critical security failure). False Rejection Rate (FRR) is the percentage of legitimate travelers incorrectly rejected (a passenger convenience and throughput failure). Calibrating the algorithm to achieve zero FAR inherently raises FRR, causing gate bottlenecks."
+                }
+              ]
+            }
+          },
+          "survey": {
+            "title": "Activity 2: Seamless Travel & Digital Privacy: Speed Survey (25 mins)",
+            "summary": "Conduct structured speed-dating interviews on 4 controversial frontiers in digital travel credentials. Practice deploying complex noun phrases, defining relative clauses, and defending cybersecurity safeguards.",
+            "signposts": [
+              "\"In terms of terminal throughput, contactless e-gates...\"",
+              "\"The fundamental vulnerability of centralized biometric storage is that...\"",
+              "\"Under international data privacy frameworks like GDPR, passengers must retain...\"",
+              "\"To reconcile border security with civil rights, systems must implement...\""
+            ],
+            "topics": [
+              {
+                "id": 1,
+                "badge": "Passport-Free Walk-Through Terminals",
+                "statement": "Should all international airports eliminate physical passport checks in favor of mandatory facial biometric boarding?",
+                "pro": "Biometric tokens slash boarding times from 40 minutes to under 15 minutes per widebody flight, eliminate boarding pass fraud, and create a frictionless passenger experience.",
+                "con": "Mandatory biometrics excludes travelers who decline facial recognition, concentrates immense surveillance power in private airport hands, and creates border bottlenecks if scanners fail.",
+                "prompt": "Interview your partner: How can airports preserve seamless travel while offering robust non-biometric manual opt-outs?"
+              },
+              {
+                "id": 2,
+                "badge": "Biometric Data Breaches",
+                "statement": "Is storing biometric scans fundamentally more hazardous than storing alphanumeric passwords or credit cards?",
+                "pro": "Unlike passwords or credit card numbers, you cannot cancel or reset your facial geometry, iris patterns, or fingerprints if a database is compromised.",
+                "con": "Modern biometric systems do not store raw photos; they store one-way irreversibly encrypted mathematical hashes that are useless to hackers without the cryptographic key.",
+                "prompt": "Interview your partner: What cybersecurity protocols must airports implement to protect biometric hash databases?"
+              },
+              {
+                "id": 3,
+                "badge": "Global Digital Health & Climate Credentials",
+                "statement": "Should digital identity wallets integrate passenger carbon footprint tracking and health records for international travel?",
+                "pro": "Integrated digital wallets streamline immigration clearances, reward low-carbon travel choices, and prevent the spread of infectious pathogens during global health emergencies.",
+                "con": "Merging health, carbon, and travel data into a single digital identity creates dystopian digital surveillance and social credit risks.",
+                "prompt": "Interview your partner: How can data minimization prevent digital identity creep?"
+              },
+              {
+                "id": 4,
+                "badge": "Interoperability & Cross-Border Sovereignty",
+                "statement": "Can sovereign nations establish a unified international biometric standard without compromising citizen data privacy?",
+                "pro": "IATA One ID and ICAO digital travel credentials demonstrate that standardized cryptographic verification works globally without sharing raw citizen databases.",
+                "con": "Authoritarian regimes may use international biometric protocols to track political dissidents abroad and restrict travel freedom.",
+                "prompt": "Interview your partner: How does the European Union regulate cross-border biometric data transfers with third-party nations?"
+              }
+            ]
+          },
+          "grammarClinic": {
+            "title": "Activity 3: Language Clinic: Relative Clauses & Complex Noun Phrases (20 mins)",
+            "summary": "Mastering defining vs. non-defining relative clauses and information-dense technical noun phrases to construct sophisticated descriptions of complex engineering systems.",
+            "rules": [
+              {
+                "type": "Defining Relative Clauses (Essential Information / No Commas)",
+                "formula": "Noun + that / who / which + clause",
+                "usage": "Defines exactly which item is being discussed; cannot be omitted. (e.g., 'Biometric algorithms that rely on single-angle 2D cameras exhibit higher error rates in low lighting.')"
+              },
+              {
+                "type": "Non-Defining Relative Clauses (Extra Information / Separated by Commas)",
+                "formula": "Noun, which / who + clause,",
+                "usage": "Provides interesting or supplementary context about a noun already clearly identified; 'that' cannot be used. (e.g., 'The IATA One ID platform, which was introduced to streamline hub departures, employs decentralized cryptographic tokens.')"
+              },
+              {
+                "type": "Preposition + Relative Pronoun (Formal Technical Register)",
+                "formula": "Noun + preposition + whom / which + clause",
+                "usage": "Standard in official engineering specifications. (e.g., 'The secure hardware enclave from which the biometric proof is generated never transmits raw facial imagery.')"
+              }
+            ],
+            "drills": [
+              {
+                "id": 1,
+                "sentence": "Passengers ________ opt out of biometric scanning are directed to traditional manual document inspection desks.",
+                "options": [
+                  "which",
+                  "who",
+                  "whom",
+                  "whose"
+                ],
+                "correct": "who",
+                "explanation": "Relative pronoun 'who' refers to human subjects ('passengers') in a defining relative clause."
+              },
+              {
+                "id": 2,
+                "sentence": "The e-gate optical sensors, ________ manufactured by an accredited aerospace defense contractor, meet ICAO Category 1 precision standards.",
+                "options": [
+                  "that are",
+                  "which are",
+                  "what are",
+                  "whom are"
+                ],
+                "correct": "which are",
+                "explanation": "Non-defining relative clause enclosed by commas requires 'which are', not 'that'."
+              },
+              {
+                "id": 3,
+                "sentence": "The encrypted terminal server ________ which passenger flight tokens are validated requires multi-factor authentication.",
+                "options": [
+                  "at",
+                  "on",
+                  "through",
+                  "with"
+                ],
+                "correct": "through",
+                "explanation": "Preposition 'through' logically describes the validation pathway ('validated through which')."
+              },
+              {
+                "id": 4,
+                "sentence": "Biometric algorithms ________ train on ethnically diverse facial datasets show significantly lower false-rejection error rates.",
+                "options": [
+                  "that",
+                  "whose",
+                  "whom",
+                  "what"
+                ],
+                "correct": "that",
+                "explanation": "Defining relative pronoun 'that' correctly modifies the system subject ('algorithms')."
+              }
+            ]
+          },
+          "roleplay": {
+            "title": "Activity 4: Designing the 2030 Smart Travel Terminal (45 mins)",
+            "scenario": "AirHub International is designing a new €800M contactless departure terminal concourse. Student A (Airport Passenger Experience Director) presents a completely biometric walk-through passenger flow. Student B (Chief Information Security Officer & Data Privacy Ombudsman) interrogates cybersecurity resilience, hardware fallback procedures during network blackouts, and passenger consent protocols.",
+            "roles": [
+              {
+                "role": "Passenger Experience Director",
+                "title": "Seamless Flow Architect",
+                "objectives": [
+                  "Demonstrate average curb-to-aircraft boarding time of 9 minutes per traveler.",
+                  "Propose automated baggage drop stands that link baggage tags directly to the passenger's face scan.",
+                  "Argue that 90% of business travelers prefer biometric convenience over paper documents."
+                ],
+                "keyPhrases": [
+                  "\"Single-token biometric processing eliminates physical document checks at five consecutive touchpoints...\"",
+                  "\"Boarding gate throughput accelerates by 300%, allowing widebody aircraft to turnaround in 35 minutes...\"",
+                  "\"Travelers enroll securely from their smartphones before arriving at the airport...\""
+                ]
+              },
+              {
+                "role": "Chief Information Security Officer (CISO)",
+                "title": "Cybersecurity & Privacy Ombudsman",
+                "objectives": [
+                  "Demand that all biometric hashes be permanently deleted from terminal cache memory 60 minutes after flight departure.",
+                  "Require an unhackable local offline fallback protocol for manual document checks during IT or cloud network outages.",
+                  "Mandate clearly signposted, dignified manual opt-out corridors with identical throughput speeds."
+                ],
+                "keyPhrases": [
+                  "\"Zero-trust cybersecurity architecture mandates that no biometric templates are retained on local gate controllers...\"",
+                  "\"If a wide-area cloud outage occurs, we must possess manual verification corridors to prevent total airport gridlock...\"",
+                  "\"Under European privacy regulations, biometric participation must be strictly consensual with zero discrimination for opt-outs...\""
+                ]
+              }
+            ]
+          },
+          "feChecklist": [
+            "Add 5 biometrics, digital identity, and cybersecurity terms to your Vocabulary Log.",
+            "Refine your presentation slides with technical relative clauses and clear data visualizations.",
+            "Finalize your Formative Evaluation 3 (FE3) rehearsal: verify 50/50 talking balance and ensure zero reading from slides or notes."
+          ]
         }
       }
     }
@@ -8072,124 +8178,124 @@
     "name": "Module 1",
     "title": "Aerodrome",
     "ddrs": {
-      "title": "D\u00e9veloppement Durable & Responsabilit\u00e9 Soci\u00e9tale : Tags et D\u00e9finitions Officielles",
-      "summary": "Le R\u00e9f\u00e9rentiel National DD&RS de l'Enseignement Sup\u00e9rieur et de la Recherche (Label DD&RS) structure les engagements \u00e9cologiques, soci\u00e9taux et \u00e9thiques des \u00e9tablissements et des grands projets de transport selon 5 axes strat\u00e9giques et leurs domaines transversaux d'application.",
+      "title": "Développement Durable & Responsabilité Sociétale : Tags et Définitions Officielles",
+      "summary": "Le Référentiel National DD&RS de l'Enseignement Supérieur et de la Recherche (Label DD&RS) structure les engagements écologiques, sociétaux et éthiques des établissements et des grands projets de transport selon 5 axes stratégiques et leurs domaines transversaux d'application.",
       "pageUrl": "ddrs1.html",
       "axes": [
         {
           "badge": "Axe 1",
           "num": "1.",
-          "title": "Gouvernance et Strat\u00e9gie",
-          "desc": "Int\u00e9gration du d\u00e9veloppement durable dans la vision, le projet d'\u00e9tablissement et le pilotage d\u00e9cisionnel. Dialogue continu avec les parties prenantes (\u00e9tudiants, personnels, collectivit\u00e9s, partenaires), allocation de budgets d\u00e9di\u00e9s et suivi d'indicateurs d'impact mesurables."
+          "title": "Gouvernance et Stratégie",
+          "desc": "Intégration du développement durable dans la vision, le projet d'établissement et le pilotage décisionnel. Dialogue continu avec les parties prenantes (étudiants, personnels, collectivités, partenaires), allocation de budgets dédiés et suivi d'indicateurs d'impact mesurables."
         },
         {
           "badge": "Axe 2",
           "num": "2.",
-          "title": "Formation et P\u00e9dagogie",
-          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-\u00e9cologique (limites plan\u00e9taires, climat, biodiversit\u00e9). Int\u00e9gration transversale des comp\u00e9tences DD&RS (rapport Jouzel / socle MESR) pour pr\u00e9parer les ing\u00e9nieurs \u00e0 la prise de d\u00e9cision \u00e9thique et responsable."
+          "title": "Formation et Pédagogie",
+          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-écologique (limites planétaires, climat, biodiversité). Intégration transversale des compétences DD&RS (rapport Jouzel / socle MESR) pour préparer les ingénieurs à la prise de décision éthique et responsable."
         },
         {
           "badge": "Axe 3",
           "num": "3.",
           "title": "Recherche et Innovation",
-          "desc": "Orientation et valorisation de l'activit\u00e9 scientifique et technologique en r\u00e9ponse aux Objectifs de D\u00e9veloppement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, \u00e9co-conception et transfert de technologies vertes au service de la soci\u00e9t\u00e9."
+          "desc": "Orientation et valorisation de l'activité scientifique et technologique en réponse aux Objectifs de Développement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, éco-conception et transfert de technologies vertes au service de la société."
         },
         {
           "badge": "Axe 4",
           "num": "4.",
           "title": "Gestion Environnementale",
-          "desc": "Ma\u00eetrise et r\u00e9duction continue des impacts \u00e9cologiques directs : d\u00e9carbonation des mobilit\u00e9s pendulaires et professionnelles, efficacit\u00e9 et sobri\u00e9t\u00e9 \u00e9nerg\u00e9tique du patrimoine b\u00e2ti, gestion circulaire des d\u00e9chets, pr\u00e9servation de la biodiversit\u00e9 sur site et achats publics responsables."
+          "desc": "Maîtrise et réduction continue des impacts écologiques directs : décarbonation des mobilités pendulaires et professionnelles, efficacité et sobriété énergétique du patrimoine bâti, gestion circulaire des déchets, préservation de la biodiversité sur site et achats publics responsables."
         },
         {
           "badge": "Axe 5",
           "num": "5.",
           "title": "Politique Sociale et Inclusion",
-          "desc": "Engagement institutionnel pour la responsabilit\u00e9 soci\u00e9tale : \u00e9galit\u00e9 professionnelle femmes-hommes, inclusion et accessibilit\u00e9 des personnes en situation de handicap, \u00e9galit\u00e9 des chances, am\u00e9lioration de la qualit\u00e9 de vie et sant\u00e9 globale, et pr\u00e9vention de toute forme de discrimination."
+          "desc": "Engagement institutionnel pour la responsabilité sociétale : égalité professionnelle femmes-hommes, inclusion et accessibilité des personnes en situation de handicap, égalité des chances, amélioration de la qualité de vie et santé globale, et prévention de toute forme de discrimination."
         }
       ],
       "items": [
         {
           "badge": "Axe 1",
           "num": "1.",
-          "title": "Gouvernance et Strat\u00e9gie",
-          "desc": "Int\u00e9gration du d\u00e9veloppement durable dans la vision, le projet d'\u00e9tablissement et le pilotage d\u00e9cisionnel. Dialogue continu avec les parties prenantes (\u00e9tudiants, personnels, collectivit\u00e9s, partenaires), allocation de budgets d\u00e9di\u00e9s et suivi d'indicateurs d'impact mesurables.",
+          "title": "Gouvernance et Stratégie",
+          "desc": "Intégration du développement durable dans la vision, le projet d'établissement et le pilotage décisionnel. Dialogue continu avec les parties prenantes (étudiants, personnels, collectivités, partenaires), allocation de budgets dédiés et suivi d'indicateurs d'impact mesurables.",
           "isMuted": false
         },
         {
           "badge": "Axe 2",
           "num": "2.",
-          "title": "Formation et P\u00e9dagogie",
-          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-\u00e9cologique (limites plan\u00e9taires, climat, biodiversit\u00e9). Int\u00e9gration transversale des comp\u00e9tences DD&amp;RS (rapport Jouzel / socle MESR) pour pr\u00e9parer les ing\u00e9nieurs \u00e0 la prise de d\u00e9cision \u00e9thique et responsable.",
+          "title": "Formation et Pédagogie",
+          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-écologique (limites planétaires, climat, biodiversité). Intégration transversale des compétences DD&amp;RS (rapport Jouzel / socle MESR) pour préparer les ingénieurs à la prise de décision éthique et responsable.",
           "isMuted": false
         },
         {
           "badge": "Axe 3",
           "num": "3.",
           "title": "Recherche et Innovation",
-          "desc": "Orientation et valorisation de l'activit\u00e9 scientifique et technologique en r\u00e9ponse aux Objectifs de D\u00e9veloppement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, \u00e9co-conception et transfert de technologies vertes au service de la soci\u00e9t\u00e9.",
+          "desc": "Orientation et valorisation de l'activité scientifique et technologique en réponse aux Objectifs de Développement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, éco-conception et transfert de technologies vertes au service de la société.",
           "isMuted": false
         },
         {
           "badge": "Axe 4",
           "num": "4.",
           "title": "Gestion Environnementale",
-          "desc": "Ma\u00eetrise et r\u00e9duction continue des impacts \u00e9cologiques directs : d\u00e9carbonation des mobilit\u00e9s pendulaires et professionnelles, efficacit\u00e9 et sobri\u00e9t\u00e9 \u00e9nerg\u00e9tique du patrimoine b\u00e2ti, gestion circulaire des d\u00e9chets, pr\u00e9servation de la biodiversit\u00e9 sur site et achats publics responsables.",
+          "desc": "Maîtrise et réduction continue des impacts écologiques directs : décarbonation des mobilités pendulaires et professionnelles, efficacité et sobriété énergétique du patrimoine bâti, gestion circulaire des déchets, préservation de la biodiversité sur site et achats publics responsables.",
           "isMuted": false
         },
         {
           "badge": "Axe 5",
           "num": "5.",
           "title": "Politique Sociale et Inclusion",
-          "desc": "Engagement institutionnel pour la responsabilit\u00e9 soci\u00e9tale : \u00e9galit\u00e9 professionnelle femmes-hommes, inclusion et accessibilit\u00e9 des personnes en situation de handicap, \u00e9galit\u00e9 des chances, am\u00e9lioration de la qualit\u00e9 de vie et sant\u00e9 globale, et pr\u00e9vention de toute forme de discrimination.",
+          "desc": "Engagement institutionnel pour la responsabilité sociétale : égalité professionnelle femmes-hommes, inclusion et accessibilité des personnes en situation de handicap, égalité des chances, amélioration de la qualité de vie et santé globale, et prévention de toute forme de discrimination.",
           "isMuted": true
         },
         {
           "badge": "Tag",
           "num": "6.",
-          "title": "Mobilit\u00e9 Durable &amp; Report Modal (Sustainable Mobility)",
-          "desc": "Strat\u00e9gie d'optimisation des transports articul\u00e9e autour de la hi\u00e9rarchie \u00ab \u00c9viter - Transf\u00e9rer - Am\u00e9liorer \u00bb (ASI). Promotion active du report modal vers le ferroviaire, les transports en commun et les mobilit\u00e9s douces face \u00e0 l'autosolisme et aux vols court-courriers.",
+          "title": "Mobilité Durable &amp; Report Modal (Sustainable Mobility)",
+          "desc": "Stratégie d'optimisation des transports articulée autour de la hiérarchie « Éviter - Transférer - Améliorer » (ASI). Promotion active du report modal vers le ferroviaire, les transports en commun et les mobilités douces face à l'autosolisme et aux vols court-courriers.",
           "isMuted": true
         },
         {
           "badge": "Tag",
           "num": "7.",
-          "title": "Bilan d'\u00c9missions de GES (BEGES / Bilan Carbone)",
-          "desc": "Comptabilisation r\u00e9glementaire des gaz \u00e0 effet de serre (m\u00e9thode ADEME / ISO 14064) sur les trois p\u00e9rim\u00e8tres : Scope 1 (\u00e9missions directes), Scope 2 (\u00e9missions indirectes \u00e9nerg\u00e9tiques) et Scope 3 (\u00e9missions indirectes amont/aval : d\u00e9placements, achats, logistique et cycle de vie).",
+          "title": "Bilan d'Émissions de GES (BEGES / Bilan Carbone)",
+          "desc": "Comptabilisation réglementaire des gaz à effet de serre (méthode ADEME / ISO 14064) sur les trois périmètres : Scope 1 (émissions directes), Scope 2 (émissions indirectes énergétiques) et Scope 3 (émissions indirectes amont/aval : déplacements, achats, logistique et cycle de vie).",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "8.",
-          "title": "Sobri\u00e9t\u00e9 \u00c9nerg\u00e9tique &amp; Efficacit\u00e9",
-          "desc": "D\u00e9marche articulant la sobri\u00e9t\u00e9 (questionnement et r\u00e9duction des consommations par la modification des comportements et des usages collectifs) et l'efficacit\u00e9 (optimisation technique des rendements \u00e9nerg\u00e9tiques pour un m\u00eame niveau de service).",
+          "title": "Sobriété Énergétique &amp; Efficacité",
+          "desc": "Démarche articulant la sobriété (questionnement et réduction des consommations par la modification des comportements et des usages collectifs) et l'efficacité (optimisation technique des rendements énergétiques pour un même niveau de service).",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "9.",
-          "title": "Pr\u00e9servation de la Biodiversit\u00e9 &amp; Z\u00e9ro Artificialisation Nette (ZAN)",
-          "desc": "Protection des \u00e9cosyst\u00e8mes et des continuit\u00e9s \u00e9cologiques (trames vertes et bleues). Application des exigences l\u00e9gales (loi Climat et R\u00e9silience) visant \u00e0 stopper la disparition nette d'espaces naturels et agricoles caus\u00e9e par les infrastructures et l'am\u00e9nagement.",
+          "title": "Préservation de la Biodiversité &amp; Zéro Artificialisation Nette (ZAN)",
+          "desc": "Protection des écosystèmes et des continuités écologiques (trames vertes et bleues). Application des exigences légales (loi Climat et Résilience) visant à stopper la disparition nette d'espaces naturels et agricoles causée par les infrastructures et l'aménagement.",
           "isMuted": true
         },
         {
           "badge": "Tag",
           "num": "10.",
-          "title": "\u00c9quit\u00e9 Territoriale &amp; Accessibilit\u00e9 (Territorial Equity)",
-          "desc": "Principe de justice spatiale garantissant un acc\u00e8s universel, abordable et s\u00e9curis\u00e9 aux r\u00e9seaux de transport et aux services d'int\u00e9r\u00eat g\u00e9n\u00e9ral pour l'ensemble des territoires (urbains, p\u00e9riurbains et ruraux), luttant contre la fracture et la pr\u00e9carit\u00e9 mobilit\u00e9.",
+          "title": "Équité Territoriale &amp; Accessibilité (Territorial Equity)",
+          "desc": "Principe de justice spatiale garantissant un accès universel, abordable et sécurisé aux réseaux de transport et aux services d'intérêt général pour l'ensemble des territoires (urbains, périurbains et ruraux), luttant contre la fracture et la précarité mobilité.",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "11.",
           "title": "Achats Responsables &amp; Analyse du Cycle de Vie (ACV / LCA)",
-          "desc": "Int\u00e9gration syst\u00e9matique de crit\u00e8res environnementaux et sociaux dans la commande publique et priv\u00e9e. \u00c9valuation globale des impacts de chaque produit, infrastructure ou service de son extraction jusqu'\u00e0 son recyclage ou \u00e9limination finale.",
+          "desc": "Intégration systématique de critères environnementaux et sociaux dans la commande publique et privée. Évaluation globale des impacts de chaque produit, infrastructure ou service de son extraction jusqu'à son recyclage ou élimination finale.",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "12.",
-          "title": "Objectifs de D\u00e9veloppement Durable (ODD - Agenda 2030)",
-          "desc": "Cadre universel des Nations Unies comprenant 17 objectifs interd\u00e9pendants pour concilier prosp\u00e9rit\u00e9 \u00e9conomique, progr\u00e8s social et protection de la biosph\u00e8re. Les politiques de transport et d'ing\u00e9nierie s'articulent principalement autour des ODD 9, 11, 12 et 13.",
+          "title": "Objectifs de Développement Durable (ODD - Agenda 2030)",
+          "desc": "Cadre universel des Nations Unies comprenant 17 objectifs interdépendants pour concilier prospérité économique, progrès social et protection de la biosphère. Les politiques de transport et d'ingénierie s'articulent principalement autour des ODD 9, 11, 12 et 13.",
           "isMuted": false
         }
       ]
@@ -8276,14 +8382,19 @@
             "subtitle": "Commercial Aviation Dilemmas, Passenger Disruption & Regulatory Modals"
           },
           "openingSession": {
-                    "modeBadges": ["👥 Pair Spot-Check","⏱️ 5 min pairs + 5 min debrief","🗣️ Lexical Recall","🎯 Operational Acronyms"],
-                    "instructions": [
-                      "Step 1 (Headlines - 3 mins): In pairs, discuss the headline prompts: \"What airline or air traffic management story made news this week?\"",
-                      "Step 2 (Diagnostic - 4 mins): Take turns testing each other on the 4 aviation distinctions (e.g. Ground Handler vs. Turnaround Coordinator) without revealing answers.",
-                      "Step 3 (Check - 3 mins): Click \"Reveal Answer\" to verify the exact ICAO/operational definitions."
-                    ],
-                    "deliverable": "Accurately articulate the operational distinction between one pair of roles.",
-                    "teacherNotes": "Focus on professional aviation register. Board the core acronyms: AODB, TRC, GPU, GSE. Elicit why clear role boundaries prevent airside safety incidents.",
+            "modeBadges": [
+              "👥 Pair Spot-Check",
+              "⏱️ 5 min pairs + 5 min debrief",
+              "🗣️ Lexical Recall",
+              "🎯 Operational Acronyms"
+            ],
+            "instructions": [
+              "Step 1 (Headlines - 3 mins): In pairs, discuss the headline prompts: \"What airline or air traffic management story made news this week?\"",
+              "Step 2 (Diagnostic - 4 mins): Take turns testing each other on the 4 aviation distinctions (e.g. Ground Handler vs. Turnaround Coordinator) without revealing answers.",
+              "Step 3 (Check - 3 mins): Click \"Reveal Answer\" to verify the exact ICAO/operational definitions."
+            ],
+            "deliverable": "Accurately articulate the operational distinction between one pair of roles.",
+            "teacherNotes": "Focus on professional aviation register. Board the core acronyms: AODB, TRC, GPU, GSE. Elicit why clear role boundaries prevent airside safety incidents.",
             "title": "Activity 1: Aviation News & Course Entry Diagnostic (10 mins)",
             "summary": "Every class begins with a 10-minute professional opening: analyzing current aviation headlines and testing our understanding of foundational aviation distinctions.",
             "newsPrompts": [
@@ -8318,14 +8429,19 @@
             }
           },
           "survey": {
-                    "modeBadges": ["👥 Speed-Dating Rotation","⏱️ 4 min per dilemma","🗣️ Technical Debate","🎯 Professional Signposts"],
-                    "instructions": [
-                      "Step 1 (Pairing): Review Topic 01–04. Partner A argues for stricter regulation; Partner B defends economic flexibility.",
-                      "Step 2 (Timed Debate - 3 mins/topic): Debate each statement. Both speakers MUST incorporate one signpost phrase from the reference box below.",
-                      "Step 3 (Class Consensus): Vote on Topic 01 (Cockpit Defense) and Topic 03 (Turnaround Targets) with a show of hands."
-                    ],
-                    "deliverable": "Summarize your partner's argument and deliver a 30-second spoken consensus.",
-                    "teacherNotes": "Keep pace brisk. Ring a bell at 4 minutes to force rotation. Note down grammatical errors with modal verbs (\"must to comply\" -> \"must comply\") for the upcoming Language Clinic.",
+            "modeBadges": [
+              "👥 Speed-Dating Rotation",
+              "⏱️ 4 min per dilemma",
+              "🗣️ Technical Debate",
+              "🎯 Professional Signposts"
+            ],
+            "instructions": [
+              "Step 1 (Pairing): Review Topic 01–04. Partner A argues for stricter regulation; Partner B defends economic flexibility.",
+              "Step 2 (Timed Debate - 3 mins/topic): Debate each statement. Both speakers MUST incorporate one signpost phrase from the reference box below.",
+              "Step 3 (Class Consensus): Vote on Topic 01 (Cockpit Defense) and Topic 03 (Turnaround Targets) with a show of hands."
+            ],
+            "deliverable": "Summarize your partner's argument and deliver a 30-second spoken consensus.",
+            "teacherNotes": "Keep pace brisk. Ring a bell at 4 minutes to force rotation. Note down grammatical errors with modal verbs (\"must to comply\" -> \"must comply\") for the upcoming Language Clinic.",
             "title": "Activity 2: The Global Aviation Survey (25 mins)",
             "summary": "Conduct structured speed-dating interviews on 4 prominent commercial aviation dilemmas. Practice expressing nuanced agreement, providing concrete justifications, and using professional opinion signposts.",
             "signposts": [
@@ -8370,14 +8486,18 @@
             ]
           },
           "modalsClinic": {
-                    "modeBadges": ["👤 Individual Analysis + 👥 Regulatory Peer Check","⏱️ 10 min rules + 15 min drills","🎯 Must / May / Shall"],
-                    "instructions": [
-                      "Step 1 (Regulatory Matrix - 8 mins): Study the difference between mandatory obligations (\"must / shall\"), conditional permission (\"may\"), and strict prohibition (\"must not\").",
-                      "Step 2 (ICAO Drafting - 10 mins): Complete the regulatory sentence drills by inserting the correct modal verb for aviation security rules.",
-                      "Step 3 (Peer Audit - 7 mins): Cross-check your answers with your partner. Explain WHY a recommendation (\"should\") would be legally insufficient in safety directives."
-                    ],
-                    "deliverable": "Complete 5 regulatory sentences using accurate ICAO standard modal phrasing.",
-                    "teacherNotes": "Highlight that in ICAO Annexes, \"shall\" indicates mandatory standard, while \"should\" is a recommended practice. Point out TOEIC traps where modal verbs are followed by bare infinitives.",
+            "modeBadges": [
+              "👤 Individual Analysis + 👥 Regulatory Peer Check",
+              "⏱️ 10 min rules + 15 min drills",
+              "🎯 Must / May / Shall"
+            ],
+            "instructions": [
+              "Step 1 (Regulatory Matrix - 8 mins): Study the difference between mandatory obligations (\"must / shall\"), conditional permission (\"may\"), and strict prohibition (\"must not\").",
+              "Step 2 (ICAO Drafting - 10 mins): Complete the regulatory sentence drills by inserting the correct modal verb for aviation security rules.",
+              "Step 3 (Peer Audit - 7 mins): Cross-check your answers with your partner. Explain WHY a recommendation (\"should\") would be legally insufficient in safety directives."
+            ],
+            "deliverable": "Complete 5 regulatory sentences using accurate ICAO standard modal phrasing.",
+            "teacherNotes": "Highlight that in ICAO Annexes, \"shall\" indicates mandatory standard, while \"should\" is a recommended practice. Point out TOEIC traps where modal verbs are followed by bare infinitives.",
             "title": "Activity 3: Language Clinic: Modals of Obligation, Permission & Prohibition (25 mins)",
             "summary": "Master the precise grammar of operational authority. Distinguish absolute safety obligations from prohibitions, official authorizations, and operational advice without relying on technical jargon.",
             "rules": [
@@ -8410,7 +8530,11 @@
                   "id": 1,
                   "context": "Passenger Security Screening",
                   "sentence": "Every passenger carry-on bag ________ through the X-ray scanner prior to concourse entry.",
-                  "options": ["A) must pass", "B) is prohibited from passing", "C) should pass if time permits"],
+                  "options": [
+                    "A) must pass",
+                    "B) is prohibited from passing",
+                    "C) should pass if time permits"
+                  ],
                   "correct": "A) must pass",
                   "explanation": "Absolute statutory requirement: 100% of carry-on items are required by international civil aviation security standards to undergo screening."
                 },
@@ -8418,7 +8542,11 @@
                   "id": 2,
                   "context": "Apron Vehicular Road Speed Limits",
                   "sentence": "Service vehicles servicing aircraft ________ 25 km/h within marked apron transit corridors.",
-                  "options": ["A) are authorized to exceed", "B) must not exceed", "C) should not have exceeded"],
+                  "options": [
+                    "A) are authorized to exceed",
+                    "B) must not exceed",
+                    "C) should not have exceeded"
+                  ],
                   "correct": "B) must not exceed",
                   "explanation": "Strict prohibition: Exceeding aerodrome speed limits endangers ramp workers and aircraft."
                 },
@@ -8426,7 +8554,11 @@
                   "id": 3,
                   "context": "Flight Deck Defense Qualification",
                   "sentence": "Under revised flight deck defense protocols, designated captains ________ defensive equipment exclusively inside the cockpit.",
-                  "options": ["A) are authorized to carry", "B) must carry without training", "C) are prohibited from carry"],
+                  "options": [
+                    "A) are authorized to carry",
+                    "B) must carry without training",
+                    "C) are prohibited from carry"
+                  ],
                   "correct": "A) are authorized to carry",
                   "explanation": "Passive permission pattern: 'be authorized + to-infinitive'. It is an optional legal permission, not a mandatory obligation."
                 },
@@ -8434,7 +8566,11 @@
                   "id": 4,
                   "context": "Boarding Gate Priority Courtesy",
                   "sentence": "Passengers traveling with infants ________ to board during the priority pre-boarding sequence.",
-                  "options": ["A) are invited / advised", "B) are prohibited", "C) must be forced"],
+                  "options": [
+                    "A) are invited / advised",
+                    "B) are prohibited",
+                    "C) must be forced"
+                  ],
                   "correct": "A) are invited / advised",
                   "explanation": "Operational courtesy/advice: Priority boarding is offered for passenger convenience, not legally enforced."
                 }
@@ -8442,14 +8578,18 @@
             }
           },
           "operationalCaseStudy": {
-                    "modeBadges": ["👥 Case Study Investigation","⏱️ 8 min reading + 12 min pair analysis + 5 min plenary","🎯 Passenger Rights vs. Safety"],
-                    "instructions": [
-                      "Step 1 (Read Scenario - 5 mins): Analyze the Flight AF7724 diversion and delay timeline caused by technical fault vs. meteorological closure.",
-                      "Step 2 (Legal Assessment - 12 mins): In pairs, evaluate whether the airline owes compensation under EU261 \"extraordinary circumstances\" rules.",
-                      "Step 3 (Duty of Care Checklist - 8 mins): Formulate the mandatory passenger care package (hotel, food vouchers, re-routing communication)."
-                    ],
-                    "deliverable": "Draft a 3-point operational passenger briefing resolving the disruption.",
-                    "teacherNotes": "Challenge pairs with a curveball: \"The captain claims weather, but maintenance records show a deferred hydraulic valve.\" How does this affect airline liability? Elicit precise modal arguments.",
+            "modeBadges": [
+              "👥 Case Study Investigation",
+              "⏱️ 8 min reading + 12 min pair analysis + 5 min plenary",
+              "🎯 Passenger Rights vs. Safety"
+            ],
+            "instructions": [
+              "Step 1 (Read Scenario - 5 mins): Analyze the Flight AF7724 diversion and delay timeline caused by technical fault vs. meteorological closure.",
+              "Step 2 (Legal Assessment - 12 mins): In pairs, evaluate whether the airline owes compensation under EU261 \"extraordinary circumstances\" rules.",
+              "Step 3 (Duty of Care Checklist - 8 mins): Formulate the mandatory passenger care package (hotel, food vouchers, re-routing communication)."
+            ],
+            "deliverable": "Draft a 3-point operational passenger briefing resolving the disruption.",
+            "teacherNotes": "Challenge pairs with a curveball: \"The captain claims weather, but maintenance records show a deferred hydraulic valve.\" How does this affect airline liability? Elicit precise modal arguments.",
             "title": "Activity 4: Operational Dilemma: The EU261 Delay & Disruption Case Study (25 mins)",
             "summary": "A realistic airport concourse scenario: Flight AF1420 to Paris-CDG is delayed by 4 hours due to an incoming maintenance issue and a destination night curfew. Passengers are anxious and demanding cash payouts.",
             "roles": [
@@ -8477,14 +8617,18 @@
             "task": "Conduct a 4-minute spoken role-play with your partner. Then swap roles. Focus on de-escalation, professional courtesy, and accurate explanation of passenger rights."
           },
           "miniDebate": {
-                    "modeBadges": ["👥👥 Groups of 4 • Stakeholder Committee","⏱️ 5 min prep + 15 min debate + 5 min pitch","🗣️ 60-Second Briefing"],
-                    "instructions": [
-                      "Step 1 (Role Allocation - 5 mins): Form teams of 4: Airport Director, Airline Station Manager, Air Traffic Control Supervisor, Passenger Rights Representative.",
-                      "Step 2 (Committee Deliberation - 15 mins): Debate how to allocate scarce airport slots during a weather recovery sequence.",
-                      "Step 3 (Consensus Pitch - 5 mins): Elect a spokesperson to present the committee's final operational decision in 60 seconds."
-                    ],
-                    "deliverable": "Deliver a 60-second spoken shift handover briefing summarizing the consensus plan.",
-                    "teacherNotes": "Act as the Civil Aviation Authority Observer. Time each spokesperson strictly at 60 seconds. Evaluate against clarity, target lexis, and professional composure.",
+            "modeBadges": [
+              "👥👥 Groups of 4 • Stakeholder Committee",
+              "⏱️ 5 min prep + 15 min debate + 5 min pitch",
+              "🗣️ 60-Second Briefing"
+            ],
+            "instructions": [
+              "Step 1 (Role Allocation - 5 mins): Form teams of 4: Airport Director, Airline Station Manager, Air Traffic Control Supervisor, Passenger Rights Representative.",
+              "Step 2 (Committee Deliberation - 15 mins): Debate how to allocate scarce airport slots during a weather recovery sequence.",
+              "Step 3 (Consensus Pitch - 5 mins): Elect a spokesperson to present the committee's final operational decision in 60 seconds."
+            ],
+            "deliverable": "Deliver a 60-second spoken shift handover briefing summarizing the consensus plan.",
+            "teacherNotes": "Act as the Civil Aviation Authority Observer. Time each spokesperson strictly at 60 seconds. Evaluate against clarity, target lexis, and professional composure.",
             "title": "Activity 5: Station Mini-Debate & Spoken Consensus Briefing (25 mins)",
             "summary": "In small groups of 3 to 4, prepare and deliver structured arguments on an aerodrome management policy debate. Structure your arguments with a clear Claim, Operational Evidence, and Real-World Impact.",
             "motion": "Motion: All commercial aerodromes should introduce a total ban on alcohol retail sales in departure lounges and on flights under 3 hours.",
@@ -8516,14 +8660,19 @@
             }
           },
           "closingReview": {
-                    "modeBadges": ["👤 Individual Self-Assessment","⏱️ 10 mins","📝 Study Log","🎯 Pronunciation Drill"],
-                    "instructions": [
-                      "Step 1 (Pronunciation - 4 mins): Practice pronouncing the 18 core terms with emphasis on word stress (e.g., ca'pacity, co'mpliance, tur'naround).",
-                      "Step 2 (Sentence Drill - 3 mins): Write 2 original operational sentences combining at least 3 target terms.",
-                      "Step 3 (Formative Evaluation Check - 3 mins): Review the FE1 criteria card and note one personal speaking skill to develop for next week."
-                    ],
-                    "deliverable": "Complete the session exit ticket and submit your self-assessment log.",
-                    "teacherNotes": "Lead choral repetition on tricky stress patterns: \"au'thority\", \"juris'diction\", \"con'tingency\". Remind students about next week's Session 2 content.",
+            "modeBadges": [
+              "👤 Individual Self-Assessment",
+              "⏱️ 10 mins",
+              "📝 Study Log",
+              "🎯 Pronunciation Drill"
+            ],
+            "instructions": [
+              "Step 1 (Pronunciation - 4 mins): Practice pronouncing the 18 core terms with emphasis on word stress (e.g., ca'pacity, co'mpliance, tur'naround).",
+              "Step 2 (Sentence Drill - 3 mins): Write 2 original operational sentences combining at least 3 target terms.",
+              "Step 3 (Formative Evaluation Check - 3 mins): Review the FE1 criteria card and note one personal speaking skill to develop for next week."
+            ],
+            "deliverable": "Complete the session exit ticket and submit your self-assessment log.",
+            "teacherNotes": "Lead choral repetition on tricky stress patterns: \"au'thority\", \"juris'diction\", \"con'tingency\". Remind students about next week's Session 2 content.",
             "title": "Activity 6: 10-Minute Vocabulary Review, Pronunciation & Class Wrap-Up (10 mins)",
             "summary": "Consolidate today's 18 vocabulary terms, test your word stress, and update your personal English learning portfolio.",
             "reviewPrompts": [
@@ -8686,44 +8835,44 @@
           "resources": [
             {
               "url": "https://www.icao.int/Security/Pages/default.aspx",
-              "tag": "01 \u2022 Global Security",
+              "tag": "01 • Global Security",
               "name": "ICAO Aviation Security (AVSEC)",
               "desc": "Official international standards on cockpit barriers, unruly passengers, and unlawful interference countermeasures."
             },
             {
               "url": "https://www.tsa.gov/for-industry/law-enforcement-programs",
-              "tag": "02 \u2022 Cockpit Defense",
+              "tag": "02 • Cockpit Defense",
               "name": "TSA Federal Flight Deck Officer (FFDO)",
               "desc": "Protocols, firearm qualification guidelines, and legal authorities governing armed commercial flight crew."
             },
             {
               "url": "https://www.easa.europa.eu/en/domains/environment",
-              "tag": "03 \u2022 Noise Standards",
+              "tag": "03 • Noise Standards",
               "name": "EASA Environmental Noise & Emissions",
               "desc": "European aviation environmental portal tracking noise abatement climb procedures, curfews, and decibel limits."
             },
             {
               "url": "https://www.clean-aviation.eu",
-              "tag": "04 \u2022 Future Propulsion",
+              "tag": "04 • Future Propulsion",
               "name": "Clean Aviation Joint Undertaking",
               "desc": "European public-private initiative developing hydrogen combustion engines and hybrid-electric commuter aircraft."
             },
             {
               "url": "https://aci.aero",
-              "tag": "05 \u2022 Airport Operations",
+              "tag": "05 • Airport Operations",
               "name": "Airports Council International (ACI World)",
               "desc": "Global operational benchmarks on passenger terminal handling, turnaround efficiency, and apron safety."
             },
             {
               "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm",
-              "tag": "06 \u2022 Passenger Rights",
+              "tag": "06 • Passenger Rights",
               "name": "European Commission Air Passenger Rights",
               "desc": "Statutory European consumer protection guide on long tarmac delays, missed connections, and cancellations."
             }
           ],
           "grammar": {
             "title": "Modal Verbs of Obligation, Permission & Prohibition",
-            "badge": "B1\u2013B2 Grammar Focus",
+            "badge": "B1–B2 Grammar Focus",
             "patternTitle": "Regulatory Formula",
             "formula": "Subject + Modal / Semi-Modal + Base Verb (Infinitive)",
             "rulesTitle": "Core Regulatory Rules",
@@ -8733,7 +8882,7 @@
               "<strong style=\"color: #1e293b;\">3. Official Permission (May / Can / Be authorized to):</strong> Legal authorization (<em>\"Deputized Federal Flight Deck Officers <strong>are authorized to carry</strong> defensive equipment in flight\"</em>).",
               "<strong style=\"color: #1e293b;\">4. Operational Recommendations (Should / Be advised to):</strong> Best practice guidelines (<em>\"Carriers <strong>should notify</strong> passengers of schedule revisions in advance\"</em>)."
             ],
-            "trap": "<strong>\u26a0\ufe0f TOEIC Part 5 Verb Pattern Alert:</strong> Pure modals (<em>must, may, should, can</em>) are always followed directly by the bare infinitive (no \"to\"). Regulatory semi-modals require <strong>to + verb</strong> (<em>is required to submit</em>, <em>is authorized to board</em>) or preposition + gerund (<em>prohibited from smoking</em>).",
+            "trap": "<strong>⚠️ TOEIC Part 5 Verb Pattern Alert:</strong> Pure modals (<em>must, may, should, can</em>) are always followed directly by the bare infinitive (no \"to\"). Regulatory semi-modals require <strong>to + verb</strong> (<em>is required to submit</em>, <em>is authorized to board</em>) or preposition + gerund (<em>prohibited from smoking</em>).",
             "examplesTitle": "Aerodrome & Security Examples",
             "examples": [
               "<em>\"Flight attendants <strong>must verify</strong> that all overhead compartments are securely latched before taxi.\"</em>",
@@ -9011,7 +9160,20 @@
                   "answer": "TAT is the duration an aircraft remains parked at an apron stand between arrival and departure. Fast turnarounds maximize aircraft utilization and daily flight hours while optimizing apron stand and gate capacity."
                 }
               ]
-            }
+            },
+            "modeBadges": [
+              "👥 Airfield Spot-Check",
+              "⏱️ 5 min pairs + 5 min plenary",
+              "🗣️ Spatial Terminology",
+              "✈️ Aerodrome Movement"
+            ],
+            "instructions": [
+              "Step 1 (News Scan - 3 mins): Review the airport technology and innovation headlines with your partner.",
+              "Step 2 (Catch-Up Recall - 4 mins): Take turns quizzing each other on the 4 Session 1 operational distinctions (Apron vs Ramp, Slot vs Schedule, De-icing vs Anti-icing).",
+              "Step 3 (Verification - 3 mins): Click 'Reveal Answer' to check your technical precision. Be ready to give a 30-second operational definition if called upon."
+            ],
+            "deliverable": "Deliver a 30-second operational distinction for one pair of airfield terms during teacher check.",
+            "teacherNotes": "Target confusing spatial terminology. Ask: 'Where does ATC ground control authority end and apron management begin?'"
           },
           "terminalJourney": {
             "title": "Activity 2: Passenger Terminal Flow & Facilitation Dilemmas (25 mins)",
@@ -9065,7 +9227,20 @@
                 "con": "Elderly, disabled, or infrequent travelers struggle with self-tagging, generating passenger stress and kiosk congestion when luggage tags tear.",
                 "prompt": "Interview your partner: What customer assistance protocols should ground operations maintain when check-in is automated?"
               }
-            ]
+            ],
+            "modeBadges": [
+              "👥 Sequential Flow Tracing",
+              "⏱️ 8 min pairs + 12 min plenary",
+              "✈️ Passenger Facilitation",
+              "🔍 Bottleneck Identification"
+            ],
+            "instructions": [
+              "Step 1 (Touchpoint Tracing - 4 mins): Trace an international passenger's sequential movement across all 5 concourse touchpoints (Landside Curb to Departure Gate).",
+              "Step 2 (Dilemma Debate - 6 mins): Analyze Facilitation Dilemma 01 (Biometric E-Gates) and Dilemma 02 (Baggage Drop). Formulate your personal stance using the 1–5 scale.",
+              "Step 3 (Mitigation Briefing - 5 mins): In pairs, formulate 2 concrete operational solutions to mitigate peak-hour security queue bottlenecks."
+            ],
+            "deliverable": "Verbal presentation of the 5-step flow sequence and your recommended bottleneck solution.",
+            "teacherNotes": "Check for correct passive voice ('luggage is screened', 'passports are checked'). Emphasize ICAO Annex 9 facilitation principles."
           },
           "prepositionsClinic": {
             "title": "Activity 3: Language Clinic: Prepositions of Place, Direction & Movement (25 mins)",
@@ -9100,7 +9275,11 @@
                   "id": 1,
                   "context": "Passenger Security Screening",
                   "sentence": "Departing passengers must walk ________ the millimeter-wave body scanner before entering airside.",
-                  "options": ["A) through", "B) across", "C) at"],
+                  "options": [
+                    "A) through",
+                    "B) across",
+                    "C) at"
+                  ],
                   "correct": "A) through",
                   "explanation": "Traversal through an enclosed 3D threshold or portal requires the preposition 'through'."
                 },
@@ -9108,7 +9287,11 @@
                   "id": 2,
                   "context": "Apron Pushback Procedure",
                   "sentence": "The pushback tug slowly moved the passenger aircraft backward ________ the active apron transit lane.",
-                  "options": ["A) onto", "B) into", "C) at"],
+                  "options": [
+                    "A) onto",
+                    "B) into",
+                    "C) at"
+                  ],
                   "correct": "A) onto",
                   "explanation": "Movement towards and positioning upon an open, flat operational pavement surface uses 'onto'."
                 },
@@ -9116,7 +9299,11 @@
                   "id": 3,
                   "context": "Ground Vehicular Traffic Crossing",
                   "sentence": "Baggage tractor drivers must never drive ________ the active taxiway without visual verification and clearance.",
-                  "options": ["A) across", "B) along", "C) in"],
+                  "options": [
+                    "A) across",
+                    "B) along",
+                    "C) in"
+                  ],
                   "correct": "A) across",
                   "explanation": "Motion from one side of a surface boundary or linear corridor to the opposite side requires 'across'."
                 },
@@ -9124,12 +9311,29 @@
                   "id": 4,
                   "context": "Boarding Gate Assembly",
                   "sentence": "Passenger assistance agents are stationed ________ the automated boarding gate to assist travelers with infants.",
-                  "options": ["A) at", "B) on", "C) in"],
+                  "options": [
+                    "A) at",
+                    "B) on",
+                    "C) in"
+                  ],
                   "correct": "A) at",
                   "explanation": "Specific service counters, numbered gates, and operational checkpoints take the preposition 'at'."
                 }
               ]
-            }
+            },
+            "modeBadges": [
+              "👥 Spatial Precision Clinic",
+              "⏱️ 10 min exercise + 15 min plenary",
+              "🗺️ Airfield Prepositions",
+              "🎯 Positional Clarity"
+            ],
+            "instructions": [
+              "Step 1 (Rule Dissection - 5 mins): Study the 4 preposition categories (Position, Movement/Direction, Relative Location, Aerodrome Proximity).",
+              "Step 2 (Interactive Challenge - 8 mins): Complete the 4 airfield spatial scenarios individually, selecting the exact preposition required by ICAO standards.",
+              "Step 3 (Peer Rationale Check - 7 mins): Click 'Verify Rationale' to review the safety justification. Explain why ambiguous prepositions cause runway incursions."
+            ],
+            "deliverable": "100% correct score on the preposition scenarios and spoken justification of the safety risk.",
+            "teacherNotes": "Emphasize ICAO standard phraseology: 'hold short of' vs 'stop at', 'vacate via' vs 'exit on'. Highlight runway incursion accidents caused by preposition ambiguity."
           },
           "airsideCaseStudy": {
             "title": "Activity 4: Operational Case Study: Unauthorized Apron Access (25 mins)",
@@ -9156,7 +9360,20 @@
                 ]
               }
             ],
-            "task": "Conduct a 4-minute spoken VHF radio exchange and de-escalation role-play. Focus on spatial precision, professional composure, and clear prepositions. Then swap roles."
+            "task": "Conduct a 4-minute spoken VHF radio exchange and de-escalation role-play. Focus on spatial precision, professional composure, and clear prepositions. Then swap roles.",
+            "modeBadges": [
+              "🚨 Safety Incident Case Study",
+              "⏱️ 10 min analysis + 15 min briefing",
+              "🔍 Unauthorized Access",
+              "📋 Corrective Protocol"
+            ],
+            "instructions": [
+              "Step 1 (Incident Dissection - 4 mins): Read the unauthorized apron access scenario: catering contractor vehicle incursion near Stand 12.",
+              "Step 2 (Role-Play Prep - 6 mins): Partner A takes the Operations Trainee role; Partner B takes the Ramp Lead role. Prepare your VHF radio statements using key phrases.",
+              "Step 3 (Simulation & De-Escalation - 8 mins): Conduct a 4-minute spoken radio exchange handling the incident professionally. Swap roles after 4 minutes."
+            ],
+            "deliverable": "Deliver a 60-second verbal briefing outlining the root causes and your immediate corrective actions.",
+            "teacherNotes": "Act as the Airport Operations Director receiving the incident briefing. Ask probing questions: 'Who authorized vehicle movement onto taxiway Bravo?'"
           },
           "guidanceWorkshop": {
             "title": "Activity 5: Airfield Guidance Markings & Spoken Briefing (25 mins)",
@@ -9190,7 +9407,20 @@
             "spokenHandoverModel": {
               "title": "60-Second Airfield Safety Briefing Model",
               "text": "\"Good morning team. Here is our daily airfield pavement inspection summary for Runway 09/27 and its associated taxiway network. Pavement friction levels along Runway 09 Left are within nominal safety thresholds, but recent repaving near Holding Point Bravo has temporarily obscured the double solid holding position lines. A NOTAM has been issued, and maintenance crews will repaint the mandatory markings tonight at 2300 hours. In the interim, all ground vehicle operators must exercise heightened vigilance when holding short at Bravo, and verify taxiway centerline alignment on Taxiway Alpha due to ongoing apron stand expansion. Thank you.\""
-            }
+            },
+            "modeBadges": [
+              "📻 Airside Movement Workshop",
+              "⏱️ 12 min group work + 18 min simulation",
+              "🗺️ Taxiway Markings & Signs",
+              "🗣️ Taxi Routing Briefing"
+            ],
+            "instructions": [
+              "Step 1 (Markings Scan - 4 mins): Review the 4 visual guidance markings (Holding Position, Taxiway Centerline, Mandatory Signage, ILS Critical Boundary).",
+              "Step 2 (Model Study - 4 mins): Study the 60-Second Airfield Safety Briefing Model, paying attention to phonetic alphabet delivery and holding point clarity.",
+              "Step 3 (Spoken Handover Practice - 7 mins): Deliver an oral safety briefing to your partner describing a safe taxi route from Stand 14 to Runway 24L."
+            ],
+            "deliverable": "Flawless read-back of the assigned taxi route with exact pronunciation of phonetic alphabet and taxiway designations.",
+            "teacherNotes": "Strictly enforce readback rules: runway designators, hold short instructions, and altimeter settings must be read back verbatim."
           },
           "closingReview": {
             "title": "Activity 6: 10-Minute Vocabulary Review, Pronunciation & Class Wrap-Up (10 mins)",
@@ -9208,7 +9438,20 @@
                 "title": "Personal Portfolio Reflection",
                 "desc": "Record two spatial prepositions and one operational radio phrase you practiced during today's apron case study into your learning log."
               }
-            ]
+            ],
+            "modeBadges": [
+              "👥 Rapid Vocabulary Drill",
+              "⏱️ 5 min quiz + 5 min reflection",
+              "🗣️ Phonetic Precision",
+              "📝 Self-Assessment Log"
+            ],
+            "instructions": [
+              "Step 1 (Review Prompts - 4 mins): Work through the 3 closing steps: Self-Check Quiz, Flashcard Review, and Audio Drill.",
+              "Step 2 (Phonetic Challenge - 3 mins): Practice aloud the standard ICAO spelling alphabet for all aerodrome designators (Alpha, Bravo, Charlie...).",
+              "Step 3 (Digital Log - 3 mins): Open the Revision tab and mark your mastered terms for Session 2."
+            ],
+            "deliverable": "Spoken definition of 3 random aerodrome markings terms and completion of the session reflection.",
+            "teacherNotes": "Conduct a rapid whole-class choral drill on high-risk pronunciation items: 'holding position', 'threshold', 'displaced', 'incursion'."
           }
         },
         "revision": {
@@ -13252,124 +13495,124 @@
     "name": "Module 3",
     "title": "Safety and Security",
     "ddrs": {
-      "title": "D\u00e9veloppement Durable & Responsabilit\u00e9 Soci\u00e9tale : Tags et D\u00e9finitions Officielles",
-      "summary": "Le R\u00e9f\u00e9rentiel National DD&RS de l'Enseignement Sup\u00e9rieur et de la Recherche (Label DD&RS) structure les engagements \u00e9cologiques, soci\u00e9taux et \u00e9thiques des \u00e9tablissements et des grands projets de transport selon 5 axes strat\u00e9giques et leurs domaines transversaux d'application.",
+      "title": "Développement Durable & Responsabilité Sociétale : Tags et Définitions Officielles",
+      "summary": "Le Référentiel National DD&RS de l'Enseignement Supérieur et de la Recherche (Label DD&RS) structure les engagements écologiques, sociétaux et éthiques des établissements et des grands projets de transport selon 5 axes stratégiques et leurs domaines transversaux d'application.",
       "pageUrl": "ddrs3.html",
       "axes": [
         {
           "badge": "Axe 1",
           "num": "1.",
-          "title": "Gouvernance et Strat\u00e9gie",
-          "desc": "Int\u00e9gration du d\u00e9veloppement durable dans la vision, le projet d'\u00e9tablissement et le pilotage d\u00e9cisionnel. Dialogue continu avec les parties prenantes (\u00e9tudiants, personnels, collectivit\u00e9s, partenaires), allocation de budgets d\u00e9di\u00e9s et suivi d'indicateurs d'impact mesurables."
+          "title": "Gouvernance et Stratégie",
+          "desc": "Intégration du développement durable dans la vision, le projet d'établissement et le pilotage décisionnel. Dialogue continu avec les parties prenantes (étudiants, personnels, collectivités, partenaires), allocation de budgets dédiés et suivi d'indicateurs d'impact mesurables."
         },
         {
           "badge": "Axe 2",
           "num": "2.",
-          "title": "Formation et P\u00e9dagogie",
-          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-\u00e9cologique (limites plan\u00e9taires, climat, biodiversit\u00e9). Int\u00e9gration transversale des comp\u00e9tences DD&RS (rapport Jouzel / socle MESR) pour pr\u00e9parer les ing\u00e9nieurs \u00e0 la prise de d\u00e9cision \u00e9thique et responsable."
+          "title": "Formation et Pédagogie",
+          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-écologique (limites planétaires, climat, biodiversité). Intégration transversale des compétences DD&RS (rapport Jouzel / socle MESR) pour préparer les ingénieurs à la prise de décision éthique et responsable."
         },
         {
           "badge": "Axe 3",
           "num": "3.",
           "title": "Recherche et Innovation",
-          "desc": "Orientation et valorisation de l'activit\u00e9 scientifique et technologique en r\u00e9ponse aux Objectifs de D\u00e9veloppement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, \u00e9co-conception et transfert de technologies vertes au service de la soci\u00e9t\u00e9."
+          "desc": "Orientation et valorisation de l'activité scientifique et technologique en réponse aux Objectifs de Développement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, éco-conception et transfert de technologies vertes au service de la société."
         },
         {
           "badge": "Axe 4",
           "num": "4.",
           "title": "Gestion Environnementale",
-          "desc": "Ma\u00eetrise et r\u00e9duction continue des impacts \u00e9cologiques directs : d\u00e9carbonation des mobilit\u00e9s pendulaires et professionnelles, efficacit\u00e9 et sobri\u00e9t\u00e9 \u00e9nerg\u00e9tique du patrimoine b\u00e2ti, gestion circulaire des d\u00e9chets, pr\u00e9servation de la biodiversit\u00e9 sur site et achats publics responsables."
+          "desc": "Maîtrise et réduction continue des impacts écologiques directs : décarbonation des mobilités pendulaires et professionnelles, efficacité et sobriété énergétique du patrimoine bâti, gestion circulaire des déchets, préservation de la biodiversité sur site et achats publics responsables."
         },
         {
           "badge": "Axe 5",
           "num": "5.",
           "title": "Politique Sociale et Inclusion",
-          "desc": "Engagement institutionnel pour la responsabilit\u00e9 soci\u00e9tale : \u00e9galit\u00e9 professionnelle femmes-hommes, inclusion et accessibilit\u00e9 des personnes en situation de handicap, \u00e9galit\u00e9 des chances, am\u00e9lioration de la qualit\u00e9 de vie et sant\u00e9 globale, et pr\u00e9vention de toute forme de discrimination."
+          "desc": "Engagement institutionnel pour la responsabilité sociétale : égalité professionnelle femmes-hommes, inclusion et accessibilité des personnes en situation de handicap, égalité des chances, amélioration de la qualité de vie et santé globale, et prévention de toute forme de discrimination."
         }
       ],
       "items": [
         {
           "badge": "Axe 1",
           "num": "1.",
-          "title": "Gouvernance et Strat\u00e9gie",
-          "desc": "Int\u00e9gration du d\u00e9veloppement durable dans la vision, le projet d'\u00e9tablissement et le pilotage d\u00e9cisionnel. Dialogue continu avec les parties prenantes (\u00e9tudiants, personnels, collectivit\u00e9s, partenaires), allocation de budgets d\u00e9di\u00e9s et suivi d'indicateurs d'impact mesurables.",
+          "title": "Gouvernance et Stratégie",
+          "desc": "Intégration du développement durable dans la vision, le projet d'établissement et le pilotage décisionnel. Dialogue continu avec les parties prenantes (étudiants, personnels, collectivités, partenaires), allocation de budgets dédiés et suivi d'indicateurs d'impact mesurables.",
           "isMuted": false
         },
         {
           "badge": "Axe 2",
           "num": "2.",
-          "title": "Formation et P\u00e9dagogie",
-          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-\u00e9cologique (limites plan\u00e9taires, climat, biodiversit\u00e9). Int\u00e9gration transversale des comp\u00e9tences DD&amp;RS (rapport Jouzel / socle MESR) pour pr\u00e9parer les ing\u00e9nieurs \u00e0 la prise de d\u00e9cision \u00e9thique et responsable.",
+          "title": "Formation et Pédagogie",
+          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-écologique (limites planétaires, climat, biodiversité). Intégration transversale des compétences DD&amp;RS (rapport Jouzel / socle MESR) pour préparer les ingénieurs à la prise de décision éthique et responsable.",
           "isMuted": false
         },
         {
           "badge": "Axe 3",
           "num": "3.",
           "title": "Recherche et Innovation",
-          "desc": "Orientation et valorisation de l'activit\u00e9 scientifique et technologique en r\u00e9ponse aux Objectifs de D\u00e9veloppement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, \u00e9co-conception et transfert de technologies vertes au service de la soci\u00e9t\u00e9.",
+          "desc": "Orientation et valorisation de l'activité scientifique et technologique en réponse aux Objectifs de Développement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, éco-conception et transfert de technologies vertes au service de la société.",
           "isMuted": false
         },
         {
           "badge": "Axe 4",
           "num": "4.",
           "title": "Gestion Environnementale",
-          "desc": "Ma\u00eetrise et r\u00e9duction continue des impacts \u00e9cologiques directs : d\u00e9carbonation des mobilit\u00e9s pendulaires et professionnelles, efficacit\u00e9 et sobri\u00e9t\u00e9 \u00e9nerg\u00e9tique du patrimoine b\u00e2ti, gestion circulaire des d\u00e9chets, pr\u00e9servation de la biodiversit\u00e9 sur site et achats publics responsables.",
+          "desc": "Maîtrise et réduction continue des impacts écologiques directs : décarbonation des mobilités pendulaires et professionnelles, efficacité et sobriété énergétique du patrimoine bâti, gestion circulaire des déchets, préservation de la biodiversité sur site et achats publics responsables.",
           "isMuted": false
         },
         {
           "badge": "Axe 5",
           "num": "5.",
           "title": "Politique Sociale et Inclusion",
-          "desc": "Engagement institutionnel pour la responsabilit\u00e9 soci\u00e9tale : \u00e9galit\u00e9 professionnelle femmes-hommes, inclusion et accessibilit\u00e9 des personnes en situation de handicap, \u00e9galit\u00e9 des chances, am\u00e9lioration de la qualit\u00e9 de vie et sant\u00e9 globale, et pr\u00e9vention de toute forme de discrimination.",
+          "desc": "Engagement institutionnel pour la responsabilité sociétale : égalité professionnelle femmes-hommes, inclusion et accessibilité des personnes en situation de handicap, égalité des chances, amélioration de la qualité de vie et santé globale, et prévention de toute forme de discrimination.",
           "isMuted": true
         },
         {
           "badge": "Tag",
           "num": "6.",
-          "title": "Mobilit\u00e9 Durable &amp; Report Modal (Sustainable Mobility)",
-          "desc": "Strat\u00e9gie d'optimisation des transports articul\u00e9e autour de la hi\u00e9rarchie \u00ab \u00c9viter - Transf\u00e9rer - Am\u00e9liorer \u00bb (ASI). Promotion active du report modal vers le ferroviaire, les transports en commun et les mobilit\u00e9s douces face \u00e0 l'autosolisme et aux vols court-courriers.",
+          "title": "Mobilité Durable &amp; Report Modal (Sustainable Mobility)",
+          "desc": "Stratégie d'optimisation des transports articulée autour de la hiérarchie « Éviter - Transférer - Améliorer » (ASI). Promotion active du report modal vers le ferroviaire, les transports en commun et les mobilités douces face à l'autosolisme et aux vols court-courriers.",
           "isMuted": true
         },
         {
           "badge": "Tag",
           "num": "7.",
-          "title": "Bilan d'\u00c9missions de GES (BEGES / Bilan Carbone)",
-          "desc": "Comptabilisation r\u00e9glementaire des gaz \u00e0 effet de serre (m\u00e9thode ADEME / ISO 14064) sur les trois p\u00e9rim\u00e8tres : Scope 1 (\u00e9missions directes), Scope 2 (\u00e9missions indirectes \u00e9nerg\u00e9tiques) et Scope 3 (\u00e9missions indirectes amont/aval : d\u00e9placements, achats, logistique et cycle de vie).",
+          "title": "Bilan d'Émissions de GES (BEGES / Bilan Carbone)",
+          "desc": "Comptabilisation réglementaire des gaz à effet de serre (méthode ADEME / ISO 14064) sur les trois périmètres : Scope 1 (émissions directes), Scope 2 (émissions indirectes énergétiques) et Scope 3 (émissions indirectes amont/aval : déplacements, achats, logistique et cycle de vie).",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "8.",
-          "title": "Sobri\u00e9t\u00e9 \u00c9nerg\u00e9tique &amp; Efficacit\u00e9",
-          "desc": "D\u00e9marche articulant la sobri\u00e9t\u00e9 (questionnement et r\u00e9duction des consommations par la modification des comportements et des usages collectifs) et l'efficacit\u00e9 (optimisation technique des rendements \u00e9nerg\u00e9tiques pour un m\u00eame niveau de service).",
+          "title": "Sobriété Énergétique &amp; Efficacité",
+          "desc": "Démarche articulant la sobriété (questionnement et réduction des consommations par la modification des comportements et des usages collectifs) et l'efficacité (optimisation technique des rendements énergétiques pour un même niveau de service).",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "9.",
-          "title": "Pr\u00e9servation de la Biodiversit\u00e9 &amp; Z\u00e9ro Artificialisation Nette (ZAN)",
-          "desc": "Protection des \u00e9cosyst\u00e8mes et des continuit\u00e9s \u00e9cologiques (trames vertes et bleues). Application des exigences l\u00e9gales (loi Climat et R\u00e9silience) visant \u00e0 stopper la disparition nette d'espaces naturels et agricoles caus\u00e9e par les infrastructures et l'am\u00e9nagement.",
+          "title": "Préservation de la Biodiversité &amp; Zéro Artificialisation Nette (ZAN)",
+          "desc": "Protection des écosystèmes et des continuités écologiques (trames vertes et bleues). Application des exigences légales (loi Climat et Résilience) visant à stopper la disparition nette d'espaces naturels et agricoles causée par les infrastructures et l'aménagement.",
           "isMuted": true
         },
         {
           "badge": "Tag",
           "num": "10.",
-          "title": "\u00c9quit\u00e9 Territoriale &amp; Accessibilit\u00e9 (Territorial Equity)",
-          "desc": "Principe de justice spatiale garantissant un acc\u00e8s universel, abordable et s\u00e9curis\u00e9 aux r\u00e9seaux de transport et aux services d'int\u00e9r\u00eat g\u00e9n\u00e9ral pour l'ensemble des territoires (urbains, p\u00e9riurbains et ruraux), luttant contre la fracture et la pr\u00e9carit\u00e9 mobilit\u00e9.",
+          "title": "Équité Territoriale &amp; Accessibilité (Territorial Equity)",
+          "desc": "Principe de justice spatiale garantissant un accès universel, abordable et sécurisé aux réseaux de transport et aux services d'intérêt général pour l'ensemble des territoires (urbains, périurbains et ruraux), luttant contre la fracture et la précarité mobilité.",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "11.",
           "title": "Achats Responsables &amp; Analyse du Cycle de Vie (ACV / LCA)",
-          "desc": "Int\u00e9gration syst\u00e9matique de crit\u00e8res environnementaux et sociaux dans la commande publique et priv\u00e9e. \u00c9valuation globale des impacts de chaque produit, infrastructure ou service de son extraction jusqu'\u00e0 son recyclage ou \u00e9limination finale.",
+          "desc": "Intégration systématique de critères environnementaux et sociaux dans la commande publique et privée. Évaluation globale des impacts de chaque produit, infrastructure ou service de son extraction jusqu'à son recyclage ou élimination finale.",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "12.",
-          "title": "Objectifs de D\u00e9veloppement Durable (ODD - Agenda 2030)",
-          "desc": "Cadre universel des Nations Unies comprenant 17 objectifs interd\u00e9pendants pour concilier prosp\u00e9rit\u00e9 \u00e9conomique, progr\u00e8s social et protection de la biosph\u00e8re. Les politiques de transport et d'ing\u00e9nierie s'articulent principalement autour des ODD 9, 11, 12 et 13.",
+          "title": "Objectifs de Développement Durable (ODD - Agenda 2030)",
+          "desc": "Cadre universel des Nations Unies comprenant 17 objectifs interdépendants pour concilier prospérité économique, progrès social et protection de la biosphère. Les politiques de transport et d'ingénierie s'articulent principalement autour des ODD 9, 11, 12 et 13.",
           "isMuted": false
         }
       ]
@@ -13564,7 +13807,7 @@
           ],
           "grammar": {
             "title": "Active vs. Passive Voice",
-            "badge": "B1\u2013B2 Grammar Focus",
+            "badge": "B1–B2 Grammar Focus",
             "patternTitle": "How Both Voices Work",
             "formula": "Active: Subject + Action + Object | Passive: Receiver + [be] + Past Participle (V3)",
             "rulesTitle": "Core Distinction",
@@ -13573,7 +13816,7 @@
               "<strong style=\"color: #1e293b;\">2. Passive Voice (Subject receives the action):</strong> Formed with <span style=\"font-weight: 700; color: #60854b;\">[be] + Past Participle (V3)</span>. Very common in aviation manuals and safety reports when the result is more important than who did it (<em>\"The software is tested\"</em>).",
               "<strong style=\"color: #1e293b;\">3. Passive with Modal Verbs:</strong> Formed with <span style=\"font-weight: 600; color: #334155;\">modal + be + Past Participle</span> (e.g., <em>must be tested</em>, <em>should be updated</em>, <em>can be operated</em>)."
             ],
-            "trap": "<strong>\u26a0\ufe0f TOEIC Trap Alert:</strong> Check who does the action! If the subject is an object that cannot act on its own (like source code, a report, or equipment), and is followed by <em>\"by...\"</em>, you need the <strong>passive voice ([be] + V3)</strong>!",
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> Check who does the action! If the subject is an object that cannot act on its own (like source code, a report, or equipment), and is followed by <em>\"by...\"</em>, you need the <strong>passive voice ([be] + V3)</strong>!",
             "examplesTitle": "Aviation & AI Examples",
             "examples": [
               "<em>\"Flight telemetry data <strong>is analyzed</strong> by deep learning models in real time.\" (Passive)</em>",
@@ -13608,37 +13851,37 @@
           "resources": [
             {
               "url": "https://partnershiponai.org",
-              "tag": "01 \u2022 Global AI Ethics",
+              "tag": "01 • Global AI Ethics",
               "name": "Partnership on AI",
               "desc": "Global non-profit multi-stakeholder organization developing best practices and ethical standards for artificial intelligence."
             },
             {
               "url": "https://digital-strategy.ec.europa.eu",
-              "tag": "02 \u2022 EU Regulatory Framework",
+              "tag": "02 • EU Regulatory Framework",
               "name": "European Commission AI Act",
               "desc": "The world's first comprehensive legal framework regulating high-risk AI applications and transparency mandates."
             },
             {
               "url": "https://www.computer.org",
-              "tag": "03 \u2022 Computing Research Society",
+              "tag": "03 • Computing Research Society",
               "name": "IEEE Computer Society",
               "desc": "Leading technical community for computing professionals developing standards for machine learning and systems engineering."
             },
             {
               "url": "https://hai.stanford.edu",
-              "tag": "04 \u2022 Stanford AI Index",
+              "tag": "04 • Stanford AI Index",
               "name": "Stanford Institute for Human-Centered AI (HAI)",
               "desc": "Interdisciplinary research institute tracking annual metrics on AI capabilities, ethics, investment, and societal impacts."
             },
             {
               "url": "https://ourworldindata.org/artificial-intelligence",
-              "tag": "05 \u2022 Technological Change Data",
+              "tag": "05 • Technological Change Data",
               "name": "Our World in Data: Artificial Intelligence",
               "desc": "Comprehensive empirical datasets and interactive visualizations tracking global AI development, compute costs, and performance."
             },
             {
               "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 \u2022 TOEIC Passive Voice Reading",
+              "tag": "06 • TOEIC Passive Voice Reading",
               "name": "ETS Global TOEIC Preparation",
               "desc": "Business English reading and listening comprehension practice with office automation notices and technical procedure memos."
             }
@@ -13714,7 +13957,7 @@
               "strategy": "Every English sentence requires a finite verb. Gerunds (-ing) without auxiliaries and nouns cannot act as main verbs."
             },
             {
-              "stem": "Autonomous electric ramp tractors ________ into routine cargo operations at Lyon-Saint Exup\u00e9ry Airport by 2028.",
+              "stem": "Autonomous electric ramp tractors ________ into routine cargo operations at Lyon-Saint Exupéry Airport by 2028.",
               "options": [
                 {
                   "letter": "A",
@@ -13980,7 +14223,7 @@
           ],
           "grammar": {
             "title": "Comparing Things & Degree Words",
-            "badge": "B1\u2013B2 Grammar Focus",
+            "badge": "B1–B2 Grammar Focus",
             "patternTitle": "Comparison Rules",
             "formula": "Comparative: [much / considerably] + [more + adj / -er] + than | Superlative: the + [most + adj / -est]",
             "rulesTitle": "Core Rules",
@@ -13989,7 +14232,7 @@
               "<strong style=\"color: #1e293b;\">2. Degree Words (How much bigger or smaller):</strong> Use words like <span style=\"font-weight: 600; color: #334155;\">much, considerably, far, significantly, slightly</span> before comparatives (e.g., <em>considerably more costly</em>, <em>significantly higher</em>).",
               "<strong style=\"color: #1e293b;\">3. The Top of a Group (Superlative):</strong> Use <span style=\"font-weight: 700; color: #60854b;\">the + -est / the most + adjective</span> for three or more things (e.g., <em>the most viable solution</em>, <em>the cheapest option</em>)."
             ],
-            "trap": "<strong>\u26a0\ufe0f TOEIC Trap Alert:</strong> Never put <strong>very</strong> in front of a comparative (NOT <em>very more expensive</em> \u274c)! When you see <em>than</em> after the blank, you must use a comparative (<em>more costly</em>), never a superlative (<em>most costly</em>).",
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> Never put <strong>very</strong> in front of a comparative (NOT <em>very more expensive</em> ❌)! When you see <em>than</em> after the blank, you must use a comparative (<em>more costly</em>), never a superlative (<em>most costly</em>).",
             "examplesTitle": "Propulsion & Energy Examples",
             "examples": [
               "<em>\"Hydrogen yields <strong>significantly higher</strong> gravimetric energy density than battery cells.\" (Comparative)</em>",
@@ -14024,37 +14267,37 @@
           "resources": [
             {
               "url": "https://www.cer.be",
-              "tag": "01 \u2022 European Rail Network",
+              "tag": "01 • European Rail Network",
               "name": "Community of European Railway & Infrastructure (CER)",
               "desc": "Representing European passenger and freight railway operators advocating for cross-border high-speed rail connections."
             },
             {
               "url": "https://www.clean-aviation.eu",
-              "tag": "02 \u2022 Clean Aviation Alliance",
+              "tag": "02 • Clean Aviation Alliance",
               "name": "Clean Aviation Joint Undertaking",
               "desc": "European Union public-private partnership developing disruptive zero-emission aircraft technologies by 2035."
             },
             {
               "url": "https://theicct.org",
-              "tag": "03 \u2022 Clean Transport Research",
+              "tag": "03 • Clean Transport Research",
               "name": "International Council on Clean Transportation (ICCT)",
               "desc": "Independent research organization providing first-rate technical and scientific analysis to environmental regulators."
             },
             {
               "url": "https://www.itdp.org",
-              "tag": "04 \u2022 Sustainable Transit Institute",
+              "tag": "04 • Sustainable Transit Institute",
               "name": "Institute for Transportation & Development Policy (ITDP)",
               "desc": "Global non-profit organization promoting sustainable, equitable, and integrated public transportation systems."
             },
             {
               "url": "https://ourworldindata.org/transport",
-              "tag": "05 \u2022 Energy Transition Data",
+              "tag": "05 • Energy Transition Data",
               "name": "Our World in Data: Energy & Transport",
               "desc": "Empirical metrics tracking global greenhouse gas emissions by transport mode, electric vehicle adoption, and energy intensity."
             },
             {
               "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 \u2022 TOEIC Comparative Reading",
+              "tag": "06 • TOEIC Comparative Reading",
               "name": "ETS Global TOEIC Preparation",
               "desc": "Reading comprehension practice analyzing comparative travel options, service schedules, and infrastructure investment tenders."
             }
@@ -14396,7 +14639,7 @@
           ],
           "grammar": {
             "title": "Connecting Sentences & Ideas",
-            "badge": "B1\u2013B2 Grammar Focus",
+            "badge": "B1–B2 Grammar Focus",
             "patternTitle": "Connecting Words",
             "formula": "Conjunction: [Although / Because] + Subject + Verb | Preposition: [Despite / Due to] + Noun",
             "rulesTitle": "Core Rules",
@@ -14405,7 +14648,7 @@
               "<strong style=\"color: #1e293b;\">2. Prepositions (Despite, In spite of, Because of, Due to):</strong> Followed only by a <span style=\"font-weight: 700; color: #60854b;\">noun or an -ing word</span>, never a full subject + verb (<em>\"Despite high accuracy...\"</em>).",
               "<strong style=\"color: #1e293b;\">3. Transition Words (However, Therefore, Furthermore):</strong> Start a new sentence after a period or semicolon, usually followed by a comma (<span style=\"font-weight: 600; color: #334155;\">\"However, regulators hesitated.\"</span>)."
             ],
-            "trap": "<strong>\u26a0\ufe0f TOEIC Trap Alert:</strong> The <em>\"Although vs. Despite\"</em> trap! If you see a <strong>Subject and a Verb</strong> after the blank, choose <em>Although / Even though</em>. If you see only a noun phrase, choose <em>Despite / In spite of</em>!",
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> The <em>\"Although vs. Despite\"</em> trap! If you see a <strong>Subject and a Verb</strong> after the blank, choose <em>Although / Even though</em>. If you see only a noun phrase, choose <em>Despite / In spite of</em>!",
             "examplesTitle": "Governance & Ethics Examples",
             "examples": [
               "<em>\"<strong>Although</strong> the model demonstrated accuracy, bias audits remained mandatory.\" (+ Clause)</em>",
@@ -14440,37 +14683,37 @@
           "resources": [
             {
               "url": "https://hai.stanford.edu",
-              "tag": "01 \u2022 AI Ethics & Governance",
+              "tag": "01 • AI Ethics & Governance",
               "name": "Stanford Human-Centered AI (HAI)",
               "desc": "Advancing AI research, education, and policy to benefit humanity through interdisciplinary scholarship."
             },
             {
               "url": "https://www.acm.org/code-of-ethics",
-              "tag": "02 \u2022 Human-Computer Ethics",
+              "tag": "02 • Human-Computer Ethics",
               "name": "ACM Code of Ethics & Professional Conduct",
               "desc": "Foundational ethical guidelines established by the Association for Computing Machinery to govern responsible technological stewardship."
             },
             {
               "url": "https://www.criticalthinking.org",
-              "tag": "03 \u2022 Critical Thinking Foundation",
+              "tag": "03 • Critical Thinking Foundation",
               "name": "Foundation for Critical Thinking",
               "desc": "Global non-profit educational organization advancing essential critical thinking tools, Socratic questioning, and logical evaluation."
             },
             {
               "url": "https://www.eff.org",
-              "tag": "04 \u2022 Public Interest Tech",
+              "tag": "04 • Public Interest Tech",
               "name": "Electronic Frontier Foundation (EFF)",
               "desc": "Leading non-profit defending civil liberties, algorithmic transparency, privacy rights, and user autonomy in the digital world."
             },
             {
               "url": "https://ourworldindata.org/technological-change",
-              "tag": "05 \u2022 Technological Change Data",
+              "tag": "05 • Technological Change Data",
               "name": "Our World in Data: Technological Change",
               "desc": "Global historical data tracking rates of technological diffusion, workplace productivity, and societal adaptation."
             },
             {
               "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 \u2022 TOEIC Argument Analysis",
+              "tag": "06 • TOEIC Argument Analysis",
               "name": "ETS Global TOEIC Preparation",
               "desc": "Business English listening and reading comprehension strategies for identifying speaker stance, counter-claims, and concession markers."
             }
@@ -14812,7 +15055,7 @@
           ],
           "grammar": {
             "title": "Words That Go Together (Collocations)",
-            "badge": "B1\u2013B2 Grammar Focus",
+            "badge": "B1–B2 Grammar Focus",
             "patternTitle": "Key Word Pairs",
             "formula": "Verb + Preposition: comply with / adhere to | Verb + Noun: meet standards / conduct an audit",
             "rulesTitle": "Core Rules",
@@ -14821,7 +15064,7 @@
               "<strong style=\"color: #1e293b;\">2. Verbs with NO Preposition:</strong> <span style=\"font-weight: 600; color: #334155;\">meet standards</span> (NOT <em>meet with standards</em>), <span style=\"font-weight: 600; color: #334155;\">follow rules</span>, <span style=\"font-weight: 600; color: #334155;\">observe regulations</span>.",
               "<strong style=\"color: #1e293b;\">3. Natural Business Pairs:</strong> <span style=\"font-weight: 600; color: #334155;\">conduct an audit</span>, <span style=\"font-weight: 600; color: #334155;\">grant clearance</span>, <span style=\"font-weight: 600; color: #334155;\">implement measures</span>, <span style=\"font-weight: 600; color: #334155;\">strict confidentiality</span>."
             ],
-            "trap": "<strong>\u26a0\ufe0f TOEIC Trap Alert:</strong> Pay close attention to the preposition right after the blank! If you see <em>with</em>, you cannot pick <em>meet</em>, <em>follow</em>, or <em>observe</em> (they don't use <em>with</em>). You must pick <strong>comply with</strong>!",
+            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> Pay close attention to the preposition right after the blank! If you see <em>with</em>, you cannot pick <em>meet</em>, <em>follow</em>, or <em>observe</em> (they don't use <em>with</em>). You must pick <strong>comply with</strong>!",
             "examplesTitle": "Biometrics & Security Examples",
             "examples": [
               "<em>\"Border control e-gates must <strong>comply with</strong> international encryption protocols.\" (Verb + Prep)</em>",
@@ -14856,37 +15099,37 @@
           "resources": [
             {
               "url": "https://www.icao.int",
-              "tag": "01 \u2022 Digital Travel Standards",
+              "tag": "01 • Digital Travel Standards",
               "name": "ICAO Digital Travel Credential (DTC)",
               "desc": "International Civil Aviation Organization technical specifications for secure digital travel credentials on mobile devices."
             },
             {
               "url": "https://www.nist.gov",
-              "tag": "02 \u2022 Biometric Accuracy Benchmarks",
+              "tag": "02 • Biometric Accuracy Benchmarks",
               "name": "NIST Face Recognition Vendor Test (FRVT)",
               "desc": "National Institute of Standards and Technology official ongoing evaluations measuring algorithmic accuracy and demographic fairness."
             },
             {
               "url": "https://edpb.europa.eu",
-              "tag": "03 \u2022 European Privacy Authority",
+              "tag": "03 • European Privacy Authority",
               "name": "European Data Protection Board (EDPB)",
               "desc": "Independent European body ensuring the consistent application of GDPR rules regarding personal biometric data processing."
             },
             {
               "url": "https://www.iata.org",
-              "tag": "04 \u2022 Passenger Identity Initiative",
+              "tag": "04 • Passenger Identity Initiative",
               "name": "IATA One ID Initiative",
               "desc": "Global air transport initiative working to create a seamless, paperless airport journey using collaborative biometric identity tokens."
             },
             {
               "url": "https://www.eff.org",
-              "tag": "05 \u2022 Digital Civil Liberties",
+              "tag": "05 • Digital Civil Liberties",
               "name": "Electronic Frontier Foundation (EFF) Biometrics",
               "desc": "Public interest legal analysis and campaign resources defending individual privacy against mass surveillance and biometric overreach."
             },
             {
               "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 \u2022 TOEIC Collocation Practice",
+              "tag": "06 • TOEIC Collocation Practice",
               "name": "ETS Global TOEIC Preparation",
               "desc": "Vocabulary drills focusing on professional tech collocations, data security policy statements, and passenger service agreements."
             }
