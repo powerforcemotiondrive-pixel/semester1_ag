@@ -2884,6 +2884,14 @@
           "openingSession": {
             "title": "Activity 1: Eco-Tourism News & Session 3 Review (10 mins)",
             "summary": "10-minute opening: discuss genuine green travel innovations and check your memory of Session 3 overtourism terms.",
+            "modeBadges": ["👥 Pairs / Plenary","⏱️ 10 mins","🗣️ Spoken Retrieval Drill","🎯 Lexis & Fluency"],
+            "instructions": [
+              "Step 1 (Headline Exchange - 4 mins): In pairs, discuss the two eco-tourism prompts above. Highlight one recent green travel story or greenwashing controversy you have encountered.",
+              "Step 2 (Diagnostic Retrieval - 4 mins): Test your partner on the 4 Session 3 overtourism terms (Carrying Capacity, De-Marketing, Resident Backlash, Tourist Levy) before clicking 'Reveal Answer'.",
+              "Step 3 (Plenary Check - 2 mins): Share one partner definition with the class. Ensure precise phrasing for 'carrying capacity' and 'resident backlash'."
+            ],
+            "deliverable": "Spoken summary of 1 eco-tourism news item and an accurate definition of a Session 3 overtourism term.",
+            "teacherNotes": "Keep pace brisk. Cold-call 2 pairs for definitions. Challenge students to distinguish between 'carrying capacity' (physical/ecological threshold) and simple congestion.",
             "newsPrompts": [
               "What distinguishes a genuine eco-lodge from a hotel that simply uses 'green' marketing buzzwords?",
               "How can local communities retain more economic revenue from international nature tourism?"
@@ -2918,6 +2926,14 @@
           "forensicAudit": {
             "title": "Activity 2: Genuine Eco-Tourism vs. Greenwashing (25 mins)",
             "summary": "Conduct a forensic evidence audit of 3 real-world tourism projects. Separate verified environmental stewardship from superficial marketing buzzwords.",
+            "modeBadges": ["👥 Small Groups (3-4)","⏱️ 25 mins","🔍 Forensic Case Audit","🎯 Evidence Evaluation"],
+            "instructions": [
+              "Step 1 (Evidence Extraction - 8 mins): Read Projects A, B, and C with your group. Highlight specific data points: renewable energy source, revenue retention percentage, and land ownership model.",
+              "Step 2 (Audit Matrix - 10 mins): Apply the 3-point Greenwashing Checklist to each project. Identify two deceptive marketing red flags in Project B and evaluate community revenue in Projects A and C.",
+              "Step 3 (Cross-Group Verdict - 7 mins): Appoint a spokesperson to deliver your group's verdict. Argue why bamboo decor or towel re-use cards fail to qualify as genuine sustainability."
+            ],
+            "deliverable": "A comparative audit table or spoken verdict detailing 2 verified sustainability criteria vs. 2 greenwashing indicators across the 3 projects.",
+            "teacherNotes": "Focus students on economic leakage: why does 12% vs. 78% local revenue retention make or break an eco-tourism project? Push for precise terms like 'economic leakage', 'greenwashing', and 'third-party certification'.",
             "projects": [
               {
                 "id": 1,
@@ -2950,6 +2966,14 @@
           "grammarClinic": {
             "title": "Activity 3: Grammar Clinic: Mixed Conditionals & Purpose Clauses (20 mins)",
             "summary": "Connect past actions with present consequences using mixed conditionals, and express goals and conditions with formal connectors.",
+            "modeBadges": ["👤 Individual -> 👥 Pairs","⏱️ 20 mins","✍️ Formative Syntax Clinic","🎯 B2 Grammar Mastery"],
+            "instructions": [
+              "Step 1 (Formula Analysis - 5 mins): Study the three grammatical formulas above. Note the past-to-present timeline shift in Mixed Conditionals ('had + V3' -> 'would + base verb').",
+              "Step 2 (Sentence Construction - 10 mins): With your partner, construct 3 original sentences about tourism management: one mixed conditional ('If the island had banned mega-resorts...'), one connector of purpose ('in order that...'), and one conditional ('provided that...').",
+              "Step 3 (Challenge Validation - 5 mins): Complete the two diagnostic challenge questions individually, then click 'Check Answer' to verify your grammatical reasoning."
+            ],
+            "deliverable": "3 accurately formulated written or spoken sentences demonstrating mixed conditionals and purpose clauses applied to sustainable destination management.",
+            "teacherNotes": "Common error alert: students often use 'would have' in the result clause of mixed conditionals instead of 'would + V1'. Remind them: if the consequence is TRUE TODAY, use 'would + base verb'.",
             "rules": [
               {
                 "title": "1. Mixed Conditional (Past Action -> Present Result)",
@@ -2998,6 +3022,14 @@
           "workshop": {
             "title": "Activity 4: Workshop: The €2,500,000 Eco-Resort Blueprint (30 mins)",
             "summary": "In teams of 3 to 4, design a low-impact, 100% sustainable tourism project with a €2,500,000 green endowment. Balance visitor capacity, clean energy, and local employment.",
+            "modeBadges": ["👥 Teams (3-4)","⏱️ 30 mins","📐 Collaborative Design Sprint","🎯 Project Planning & Budgeting"],
+            "instructions": [
+              "Step 1 (Location Selection - 5 mins): Choose your project ecosystem (Location A: Fjord, Location B: Wetland, or Location C: Alpine Valley). Review its ecological vulnerabilities.",
+              "Step 2 (Blueprint Formulation - 15 mins): Allocate your €2,500,000 endowment across the 4 checklist domains: architecture (materials), clean energy/water, carrying capacity limits, and local community benefit.",
+              "Step 3 (Pitch Preparation - 10 mins): Formulate a 2-minute project pitch slide or speaking outline. Designate speaking roles for the upcoming Green Investor Forum."
+            ],
+            "deliverable": "A complete 4-pillar Eco-Resort Blueprint specifying site choice, budget allocation, carrying capacity limit, and community revenue sharing model.",
+            "teacherNotes": "Circulate and challenge budget allocations. Ensure teams do not spend 80% on luxury amenities with only token amounts for renewable power or community employment.",
             "ecosystems": [
               {
                 "id": "A",
@@ -3028,6 +3060,14 @@
           "investorForum": {
             "title": "Activity 5: The Green Investor Forum: Pitches & Defense (25 mins)",
             "summary": "Deliver a concise 2-minute pitch to the Sustainability Investment Board. Defend your project against tough questions regarding profitability, greenwashing, and visitor limits.",
+            "modeBadges": ["🎤 Team Pitch -> 👥 Plenary Defense","⏱️ 25 mins","🗣️ Pitch & Stakeholder Cross-Exam","🎯 Persuasive Fluency"],
+            "instructions": [
+              "Step 1 (Pitch Delivery - 2 mins per team): Present your €2,500,000 eco-resort blueprint to the Sustainability Investment Board without reading verbatim from notes.",
+              "Step 2 (Board Cross-Examination - 3 mins per team): Defend your project against one challenging board question regarding greenwashing, local wages, or wildlife disturbance.",
+              "Step 3 (Investment Ballot - 5 mins): After all teams pitch, vote (anonymously or by show of hands) for the most credible, commercially viable, and ecologically genuine project (teams cannot vote for themselves)."
+            ],
+            "deliverable": "A 2-minute persuasive spoken pitch followed by successful impromptu defense against board scrutiny.",
+            "teacherNotes": "Act as the lead board trustee. Ask provocative questions: 'How will you stop wealthy eco-tourists from demanding 24/7 air conditioning in a remote fjord?' Keep timing strict: 2 min pitch + 3 min Q&A.",
             "boardQuestions": [
               "\"How will you guarantee that wealthy guests do not consume excessive water and electricity?\"",
               "\"What evidence proves your resort will not disrupt the local wildlife breeding season?\"",
@@ -3037,6 +3077,14 @@
           "closingReview": {
             "title": "Activity 6: 10-Minute Vocabulary Wrap-Up & FE1 Readiness Check (10 mins)",
             "summary": "Final preparation for Session 5 Formative Evaluation: audio pronunciation drill of 18 terms and partner readiness review.",
+            "modeBadges": ["👤 Individual & 👥 Pairs","⏱️ 10 mins","⚡ Phonetic Drill & Exam Audit","🎯 Formative Consolidation"],
+            "instructions": [
+              "Step 1 (Audio Pronunciation Drill - 4 mins): Click each of the 18 audio buttons. Listen and repeat aloud, focusing on stress patterns: 're-GEN-er-a-tive', 'va-lor-i-ZA-tion', 'bio-di-VER-si-ty'.",
+              "Step 2 (FE1 Readiness Audit - 4 mins): Review the 4 items on the Session 5 Formative Evaluation Readiness Checklist with your partner. Confirm your presentation partner, topic choice, and slide structure.",
+              "Step 3 (Portfolio Check - 2 mins): Verify that your Vocabulary Log and TOEIC Error Tracker are updated and ready for teacher review next week."
+            ],
+            "deliverable": "Complete peer sign-off on the 4-point FE1 checklist + spoken accuracy on 3 multi-syllable eco-tourism terms.",
+            "teacherNotes": "Crucial checkpoint: ensure every student has a confirmed FE1 partner and selected topic (Option A or Option B). Emphasize the 'no reading from slides' rule.",
             "vocabWords": [
               "Eco-Tourism",
               "Greenwashing",
@@ -10895,6 +10943,14 @@
           "openingSession": {
             "title": "Activity 1: Aviation News & Session 3 Spot-Check (10 mins)",
             "summary": "Every session begins with a 10-minute professional opening: analyzing current aviation headlines followed by rapid spot-checking of Session 3 ground operations and GSE vocabulary.",
+            "modeBadges": ["👥 Pairs / Plenary","⏱️ 10 mins","🗣️ Operational Recall Drill","🎯 Technical Lexis & Fluency"],
+            "instructions": [
+              "Step 1 (Aviation News Exchange - 4 mins): In pairs, discuss the current aviation headlines prompt. Share one news item regarding airport staffing, ATM capacity, or airline operations.",
+              "Step 2 (Session 3 GSE Spot-Check - 4 mins): Quiz your partner on Questions 1 to 4 (GPU function, Marshaller guidance, turnaround time critical path, FOD prevention) before revealing answers.",
+              "Step 3 (Class Operational Recap - 2 mins): Plenary review of one GSE definition. Highlight why GPU usage reduces ramp emissions and APU wear."
+            ],
+            "deliverable": "Spoken explanation of 1 aviation operational news item and an accurate technical explanation of GPU or turnaround time.",
+            "teacherNotes": "Cold-call pairs. Probe beyond superficial definitions: ask what happens to an aircraft's departure slot if the GPU fails during pushback disconnect.",
             "newsPrompts": [
               "What aviation, airline, or ATM news stories caught your attention in the headlines this week?",
               "How are airports and air navigation service providers managing staffing, recruitment, or new operational procedures this season?"
@@ -10928,6 +10984,14 @@
           "jobTaxonomy": {
             "title": "Activity 2: Aviation Job Taxonomy & The Operational Spectrum (20 mins)",
             "summary": "Aviation is an intricate ecosystem where specialized professions collaborate seamlessly. Explore the five primary operational domains, their key responsibilities, and the essential distinction between ATCO separation authority and TSEEAC functions.",
+            "modeBadges": ["👥 Small Groups (3-4)","⏱️ 20 mins","🧭 Taxonomy & Jurisdiction Analysis","🎯 Operational Domain Mastery"],
+            "instructions": [
+              "Step 1 (Domain Exploration - 8 mins): Study the 5 operational domains: Landside, Airside, Flight Crew, ATCOs, and TSEEAC. Identify the primary physical jurisdiction and core duty for each.",
+              "Step 2 (Crucial Distinction Audit - 6 mins): Analyze the structural legal difference between ATCOs (tactical separation authority) and TSEEAC / AFISOs (flight information and advisory services without separation authority).",
+              "Step 3 (Role Matching Drill - 6 mins): In pairs, randomly name a professional role (e.g. TRC, AFISO, Marshaller, Tower ATCO). Your partner must state the domain, primary duty, and whom they report to."
+            ],
+            "deliverable": "Accurate categorization of all 5 domains and a clear spoken explanation distinguishing ATCO separation authority from TSEEAC AFISO flight information.",
+            "teacherNotes": "Emphasize the ENAC/DGAC institutional distinction: TSEEAC is a civil aviation body, AFISOs provide information/alerting, whereas ATCOs hold licensing to issue binding separation clearances.",
             "domains": [
               {
                 "id": "landside",
@@ -11005,6 +11069,14 @@
           "grammarClinic": {
             "title": "Activity 3: Functional Grammar & Authority Clinic: Responsibilities & Jurisdiction (20 mins)",
             "summary": "Professional aviation discourse demands absolute precision when describing who does what, who reports to whom, and who holds regulatory authority.",
+            "modeBadges": ["👤 Individual -> 👥 Pairs","⏱️ 20 mins","✍️ Operational Syntax Drill","🎯 Collocation & Precision"],
+            "instructions": [
+              "Step 1 (Formula Mastery - 5 mins): Review the 6 authority and responsibility structures above. Note preposition rules: 'responsible FOR + -ing', 'tasked WITH + -ing', 'authority OVER / TO + verb'.",
+              "Step 2 (Role Duty Construction - 10 mins): With a partner, write 3 operational sentences describing different aviation roles using: (1) 'be tasked with', (2) 'have authority to', and (3) 'liaise with vs. report to'.",
+              "Step 3 (Role Clinic Challenge - 5 mins): Complete the 4 interactive grammar challenge questions individually, check your answers, and discuss the preposition rules."
+            ],
+            "deliverable": "4 verified clinic question answers + 3 original spoken or written role-duty descriptions demonstrating correct prepositional collocations.",
+            "teacherNotes": "Stamp out 'responsible OF' immediately (French interference). Highlight the difference between hierarchical reporting ('reports to the TRC') and lateral coordination ('liaises with fueling').",
             "formulas": [
               {
                 "structure": "be responsible for + -ing / noun",
@@ -11067,6 +11139,14 @@
           "handoffSimulation": {
             "title": "Activity 4: Pairwork & Triad Simulation — 'A Day in the Life' Role Handoff (25 mins)",
             "summary": "Effective inter-departmental handoffs prevent bottlenecks and eliminate miscommunication. Work in pairs or triads to conduct professional operational handovers.",
+            "modeBadges": ["👥 Pairs / Triads","⏱️ 25 mins","🎭 Operational Interface Simulation","🎯 Radio & Handoff Fluency"],
+            "instructions": [
+              "Step 1 (Scenario Assignment - 5 mins): Choose Pair 1 (TRC <-> Flight Deck), Pair 2 (AFISO <-> Inbound VFR), or Pair 3 (Terminal Manager <-> Ramp Supervisor). Read your specific role context.",
+              "Step 2 (Simulation Rehearsal - 12 mins): Conduct the operational handoff in character. You must incorporate at least two of the mandatory target phrases (e.g., 'tasked with', 'liaised with', 'ensure that').",
+              "Step 3 (Role Reversal & Feedback - 8 mins): Swap roles and repeat the dialogue under modified conditions (e.g. 5 minutes until slot loss or sudden weather degradation)."
+            ],
+            "deliverable": "A 2-minute fluent operational handoff dialogue successfully resolving an operational conflict using mandatory responsibility formulas.",
+            "teacherNotes": "Listen for realistic aviation tone: professional, concise, assertive, but collaborative. Ensure students actually use the target phrases rather than informal conversational English.",
             "scenarios": [
               {
                 "id": "pair1",
@@ -11109,6 +11189,14 @@
           "careerForumDebate": {
             "title": "Activity 5: Aviation Career Forum & Operational Dilemma Debate (35 mins)",
             "summary": "A fast-moving winter weather front brings freezing fog, reducing Runway Visual Range (RVR) to 350m at a regional aerodrome. Stand capacity is at 95%, de-icing rigs are working at maximum throughput, and two inbound diversions are requesting priority due to fuel minimums. Each team represents an aviation profession, defends operational priorities, and negotiates a consensus action plan.",
+            "modeBadges": ["👥 4-Way Multi-Stakeholder Forum","⏱️ 35 mins","⚡ Crisis Management Negotiation","🎯 Consensus Building"],
+            "instructions": [
+              "Step 1 (Crisis Briefing & Stance - 8 mins): Read the Winter Storm & Diversion Gridlock scenario. Assign one stakeholder role per team member (ATCO, AFISO/Ops, TRC/Ground, Captain). Review your non-negotiable priority.",
+              "Step 2 (Stakeholder Round-Robin - 12 mins): Each stakeholder presents their operational dilemma and proposed sequence of events. State what your role can and cannot concede.",
+              "Step 3 (Consensus Negotiation & Rating - 15 mins): Negotiate a sequential 3-step action plan using conditional language ('Provided that...', 'On condition that...'). Vote on the 3 consensus challenges in the agreement tracker."
+            ],
+            "deliverable": "A negotiated 3-step crisis operational resolution signed off by all 4 stakeholders, balancing fuel safety, stand capacity, de-icing holdover times, and slot preservation.",
+            "teacherNotes": "Maintain high tension! Remind them that if no decision is made within 20 minutes, the Captain's crew times out, the diversion exhausts fuel reserves, and runway friction degrades further. Demand conditional structures.",
             "scenario": "Regional Aerodrome 'Echo-Delta' is experiencing severe winter weather with RVR 350m and freezing drizzle. Only 2 parking stands remain open. Two diverted commercial jets are in the holding pattern, one declaring 'Minimum Fuel'. On the ground, an outbound flight on Stand 2 has passengers boarded, but its holdover time has expired, requiring a second de-icing cycle.",
             "stakeholders": [
               {
@@ -11137,6 +11225,14 @@
           "closingReview": {
             "title": "Activity 6: Vocabulary Review, Pronunciation & Class Wrap-Up (10 mins)",
             "summary": "The final 10 minutes consolidate today's high-yield vocabulary, reinforce syllable stress on professional job titles, and update your personal continuous assessment log.",
+            "modeBadges": ["👤 Individual & 👥 Pairs","⏱️ 10 mins","⚡ Syllable Stress & Self-Audit","🎯 Formative Synthesis"],
+            "instructions": [
+              "Step 1 (Phonology Clinic - 4 mins): Practice pronouncing the 6 multisyllabic professional titles aloud with correct syllable stress: au-THOR-i-ty (2nd), re-SPON-si-ble (2nd), co-OR-di-na-tor (2nd), o-ver-SIGHT (1st).",
+              "Step 2 (Rapid-Fire Partner Quiz - 4 mins): Test your partner on 3 random terms from today's session (e.g. PSA vs. TRC, AFISO jurisdiction, Foreign Object Debris prevention).",
+              "Step 3 (Self-Assessment & Portfolio - 2 mins): Rate your confidence (1 to 5) in explaining your future aviation profession. Record target terms in your semester study log."
+            ],
+            "deliverable": "Accurate pronunciation of 4 key multisyllabic aviation terms + complete self-assessment entry in study portfolio.",
+            "teacherNotes": "Focus on primary stress in technical nouns vs. verbs. Remind students that Session 5 is Formative Evaluation 1: ensure portfolios, vocabulary logs, and presentations are fully prepped.",
             "reviewPrompts": [
               {
                 "title": "1. Syllable Stress & Phonology Clinic",

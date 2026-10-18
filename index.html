@@ -4010,6 +4010,8 @@
             </div>
             <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">${taxonomy.summary || ''}</p>
 
+            ${renderActivityInstructions(taxonomy, theme)}
+
             <div class="space-y-3">
               ${(taxonomy.domains || []).map(dom => {
                 const isTseeac = dom.id === 'tseeac';
@@ -4050,6 +4052,8 @@
               <span class="text-[11px] font-semibold text-slate-500">Target Language</span>
             </div>
             <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">${clinic.summary || ''}</p>
+
+            ${renderActivityInstructions(clinic, theme)}
 
             <!-- Formula Banner -->
             <div class="p-3 rounded-lg bg-slate-900 text-white space-y-1">
@@ -4106,6 +4110,8 @@
             </div>
             <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">${handoffs.summary || ''}</p>
 
+            ${renderActivityInstructions(handoffs, theme)}
+
             <div class="space-y-4">
               ${(handoffs.scenarios || []).map(sc => `
                 <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/60 space-y-3">
@@ -4145,6 +4151,8 @@
               <span class="text-[11px] font-semibold text-slate-500">Multi-Stakeholder Forum</span>
             </div>
             <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">${debate.summary || ''}</p>
+
+            ${renderActivityInstructions(debate, theme)}
 
             <!-- Scenario Box -->
             <div class="p-3.5 rounded-xl bg-amber-50/70 border border-amber-200 space-y-1.5">
@@ -4201,6 +4209,8 @@
               <span class="text-[11px] font-semibold text-slate-500">10-Minute Consolidation</span>
             </div>
             <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">${closing.summary || ''}</p>
+
+            ${renderActivityInstructions(closing, theme)}
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
               ${(closing.reviewPrompts || []).map(rp => `
@@ -5637,6 +5647,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Forensic Audit</span>
             </div>
 
+            ${renderActivityInstructions(forensic, theme)}
+
             <!-- Projects Grid -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5">
               ${(forensic.projects || []).map(proj => `
@@ -5734,6 +5746,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Design Workshop</span>
             </div>
 
+            ${renderActivityInstructions(workshop, theme)}
+
             <!-- Ecosystem Locations Grid -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5">
               ${(workshop.ecosystems || []).map(eco => `
@@ -5770,6 +5784,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Investor Pitches</span>
             </div>
 
+            ${renderActivityInstructions(investor, theme)}
+
             <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-3">
               <h5 class="text-xs sm:text-sm font-bold text-slate-900">Challenging Questions from the Sustainability Investment Board</h5>
               <div class="space-y-2">
@@ -5794,6 +5810,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Wrap-Up &amp; Evaluation Prep</span>
             </div>
+
+            ${renderActivityInstructions(closing, theme)}
 
             <!-- Vocabulary Rapid Audio Drill -->
             <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5">
