@@ -39,7 +39,6 @@
       background-image: none !important;
     }
 
-    #card-worksheet-btn.hidden,
     .hidden {
       display: none !important;
     }
@@ -417,11 +416,6 @@
               <div class="space-y-3.5 flex-1 min-w-0">
                 <div class="flex flex-wrap items-center justify-between gap-3">
                   <h2 id="card-heading" class="text-xl sm:text-2xl font-black tracking-tight" style="color: #374151;"></h2>
-                  <!-- Option C: Top Session Document / Worksheet Pill -->
-                  <a id="card-worksheet-btn" href="#" target="_blank" rel="noopener noreferrer" style="display: none;" class="hidden shrink-0 items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-100 hover:bg-slate-200/90 text-slate-700 hover:text-slate-900 border border-slate-300/80 shadow-2xs hover:shadow-sm hover:-translate-y-[1px] active:translate-y-0 transition-all select-none no-underline">
-                    <svg class="w-3.5 h-3.5 text-slate-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
-                    <span>Worksheet PDF ↗</span>
-                  </a>
                 </div>
                 <div id="card-desc" class="space-y-3"></div>
               </div>
@@ -875,12 +869,6 @@
       const s5GuidelinesUrl = (isAas && modNumber === 1) ? "session5/guidelines_aas1.html" : `session5/guidelines${modNumber}.html`;
       const s5ObjectivesUrl = (isAas && modNumber === 1) ? "session5/obj_aas1.html" : `session5/obj${modNumber}.html`;
       const s5CriteriaUrl = (isAas && modNumber === 1) ? "session5/criteria_aas1.html" : `session5/criteria${modNumber}.html`;
-      const isAgMod1 = !isAas && modNumber === 1;
-      const s1Pdf = isAgMod1 ? "agmod1.pdf#page=1" : "agmod1.pdf";
-      const s2Pdf = isAgMod1 ? "agmod1.pdf#page=21" : "agmod1.pdf";
-      const s3Pdf = isAgMod1 ? "agmod1.pdf#page=35" : "agmod1.pdf";
-      const s4Pdf = isAgMod1 ? "agmod1.pdf#page=51" : "agmod1.pdf";
-
       const pages = [
         {
           tag: `Module ${modNumber} • Session 1`,
@@ -888,7 +876,6 @@
           description: desc.s1,
           url: s1AdditionalMaterialsUrl,
           additionalMaterialsUrl: s1AdditionalMaterialsUrl,
-          pdfUrl: s1Pdf,
           lessonPlanUrl: `session1/plan${modNumber}.html`,
           objectivesUrl: `session1/obj${modNumber}.html`,
           classReviewUrl: s1ClassReviewUrl,
@@ -900,7 +887,6 @@
           description: desc.s2,
           url: s2AdditionalMaterialsUrl,
           additionalMaterialsUrl: s2AdditionalMaterialsUrl,
-          pdfUrl: s2Pdf,
           lessonPlanUrl: `session2/plan${modNumber}.html`,
           objectivesUrl: `session2/obj${modNumber}.html`,
           classReviewUrl: s2ClassReviewUrl,
@@ -912,7 +898,6 @@
           description: desc.s3,
           url: s3AdditionalMaterialsUrl,
           additionalMaterialsUrl: s3AdditionalMaterialsUrl,
-          pdfUrl: s3Pdf,
           lessonPlanUrl: `session3/plan${modNumber}.html`,
           objectivesUrl: `session3/obj${modNumber}.html`,
           classReviewUrl: s3ClassReviewUrl,
@@ -924,7 +909,6 @@
           description: desc.s4,
           url: s4AdditionalMaterialsUrl,
           additionalMaterialsUrl: s4AdditionalMaterialsUrl,
-          pdfUrl: s4Pdf,
           lessonPlanUrl: `session4/plan${modNumber}.html`,
           objectivesUrl: `session4/obj${modNumber}.html`,
           classReviewUrl: s4ClassReviewUrl,
@@ -939,7 +923,6 @@
                 : `Welcome to Session 5! Throughout this module, we have worked on aerodrome operations, technical discussions, DDRS, and TOEIC preparation.<br><br><em>Subject overview:</em> Formative Evaluation — Airport operations assessment and technical oral interview.<br><br>All work in this session contributes directly toward your Formative Evaluation.`)
             : "Welcome to Session 5! Throughout this module, we have worked on discussion, grammar correction, DDRS, and TOEIC-related exercises.<br><br><em>Subject overview:</em> Formative Evaluation — Design an eco-friendly holiday itinerary or compare two cities with different tourism policies + Targets.<br><br>All work in this session contributes directly toward your Formative Evaluation.",
           url: s5CriteriaUrl,
-          pdfUrl: "",
           lessonPlanUrl: s5GuidelinesUrl,
           objectivesUrl: s5ObjectivesUrl,
           imageUrl: images.fe
@@ -953,7 +936,6 @@
             ? "<strong>Definition:</strong> DDRS (Sustainable Development & Social Responsibility) in aviation represents sustainable aerodrome operations, emissions reduction, noise mitigation, and ethical workforce standards.<br><br><strong>Key areas covered:</strong> Airport decarbonization, green taxiing, SAF distribution infrastructure, and community acoustic protection.<br><br><strong>Why we discuss DDRS in English:</strong> Communicating airport sustainability initiatives in international English prepares aerospace professionals for global regulatory compliance and industry leadership."
             : "<strong>Definition:</strong> DDRS (Sustainable Development & Social Responsibility) is the framework linking environmental protection, social fairness, and ethical decision-making in modern organizations.<br><br><strong>Key areas covered:</strong> Reducing carbon footprints, community wellbeing and inclusion, and responsible innovation.<br><br><strong>Why we discuss DDRS in English:</strong> Discussing DDRS topics builds the vocabulary, critical thinking, and communication skills you need to talk about global environmental and social challenges in professional English.",
           detailsUrl: isAas ? "" : `ddrs${modNumber}.html`,
-          pdfUrl: "",
           imageUrl: images.ddrs,
           isMuted: isAas
         },
@@ -963,7 +945,6 @@
           description: "Welcome to the GSEA26A Course Administration Hub. Access your official class groups (Group A & Group B), teacher assignments, weekly schedules, and dynamic 30-minute Formative Evaluation tutorial rotas.<br><br><em>Subject overview:</em> Weekly classes run Wednesdays (13h15–15h15) for Aeronautical English (LV121E) and Fridays (08h00–10h00) for General English (LV101E).<br><br>Consult your designated FE timeslots ahead of Week 48 (FE1), Week 3 (FE2), and Week 8 (FE3). Arrive 5 minutes before your slot with your presentation supports and updated learning portfolio ready.",
           isAdmin: true,
           adminUrl: "admin.html",
-          pdfUrl: "",
           imageUrl: images.admin
         }
       ];
@@ -975,7 +956,6 @@
           description: "At the end of Semester 2, GSEA students participate in an intensive 4-week English immersion program in an English-speaking destination: Cork, Dublin, Manchester, Leeds, Liverpool, or Shoreham.<br><br><em>Academic & cultural goals:</em> Enhance daily conversational fluency and complete intensive TOEIC preparation for Semester 3. Students attend morning and afternoon language school sessions, cultural excursions, and aviation-specific visits (airport, aerospace company, or museum, subject to availability).<br><br><em>Accommodation:</em> Homestay with vetted local host families (strictly 1 ENAC student per host family) for 100% linguistic immersion.",
           isImmersion: true,
           immersionUrl: "immersion.html",
-          pdfUrl: "",
           imageUrl: "images/immersion_card.png"
         });
       }
@@ -1906,50 +1886,6 @@
         actionContainer.appendChild(createThemedCTA("Open Resources", initialTab, fallback));
       }
 
-      // Option C: Update Top Worksheet PDF Link alongside card heading
-      // Instate on ALL session cards 1-4 across all modules; strictly hide on FE (Card 05), DDRS (Card 06), Course Admin (Card 07), and Immersion (Card 08)
-      const topWorksheetBtn = document.getElementById('card-worksheet-btn');
-      if (topWorksheetBtn) {
-        const isSession1to4 = currentIndex >= 0 && currentIndex <= 3;
-        const isDDRSOrAdmin = page.isAdmin || 
-                              page.isImmersion ||
-                              page.detailsUrl || 
-                              currentIndex >= 4 || 
-                              (page.tag && (page.tag.includes('Admin') || page.tag.includes('Focus') || page.tag.includes('Milestone'))) || 
-                              (page.title && (page.title.includes('Admin') || page.title.startsWith('DDRS') || page.title.includes('Immersion')));
-
-        const rootCourse = window.COURSE_DATA || {};
-        const activeTrackData = (rootCourse[currentProgram] || {})[mod.id] || {};
-        const activeSess = (activeTrackData.sessions && activeTrackData.sessions[currentIndex + 1]) || {};
-        const hasDigitalContent = Boolean(activeSess.lessonContent);
-
-        if (isSession1to4 && !isDDRSOrAdmin && hasDigitalContent) {
-          topWorksheetBtn.href = "javascript:void(0)";
-          topWorksheetBtn.onclick = (e) => {
-            e.preventDefault();
-            openModalDrawer('content', mod.id, currentIndex + 1);
-          };
-          topWorksheetBtn.style.display = 'inline-flex';
-          topWorksheetBtn.classList.remove('hidden');
-          topWorksheetBtn.classList.add('inline-flex');
-          const btnSpan = topWorksheetBtn.querySelector('span');
-          if (btnSpan) btnSpan.textContent = "Lesson Content ⇥";
-        } else if (isSession1to4 && !isDDRSOrAdmin && page.pdfUrl && page.pdfUrl.trim() !== "" && !page.pdfUrl.includes("INSERT_YOUR_PDF_LINK_HERE")) {
-          topWorksheetBtn.href = page.pdfUrl;
-          topWorksheetBtn.onclick = null;
-          topWorksheetBtn.style.display = 'inline-flex';
-          topWorksheetBtn.classList.remove('hidden');
-          topWorksheetBtn.classList.add('inline-flex');
-          const btnSpan = topWorksheetBtn.querySelector('span');
-          if (btnSpan) btnSpan.textContent = "Worksheet PDF ↗";
-        } else {
-          topWorksheetBtn.href = "#";
-          topWorksheetBtn.onclick = null;
-          topWorksheetBtn.style.display = 'none';
-          topWorksheetBtn.classList.add('hidden');
-          topWorksheetBtn.classList.remove('inline-flex');
-        }
-      }
 
       const imageContainer = document.getElementById('image-container');
       const imgEl = document.getElementById('card-image');
