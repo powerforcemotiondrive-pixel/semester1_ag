@@ -5595,61 +5595,301 @@
       "1": {
         "session": 1,
         "objectives": {
-          "title": "Session 1 Objectives - Introduction & Aviation Survey",
-          "summary": "By the end of this session, you will be able to express and defend professional opinions on controversial aviation topics, use specialized operational lexis, apply the Present Perfect accurately in technical reports, and solve TOEIC Part 5 items.",
+          "title": "Session 1 - Introduction & Aviation Survey Objectives",
+          "summary": "By the end of this session, you will be able to discuss international aviation current events, express and defend professional opinions on commercial airline and aerodrome dilemmas, master regulatory modal verbs of obligation and permission, manage passenger service de-escalation under EU261 flight disruption rules, deliver a concise 60-second spoken consensus briefing, and consolidate key aviation lexis.",
           "items": [
             {
               "num": 1,
-              "title": "Conduct Structured Aviation Survey Interviews",
-              "description": "Interview peers using structured question prompts on unruly passengers, armed pilots, budget airlines, and passenger delay rights."
+              "title": "Discuss Aviation News & Current Events (Fluency & Spontaneous Speech)",
+              "description": "Engage in an opening discussion on current commercial aviation headlines, airport innovations, and diagnostic aerodrome terminology."
             },
             {
               "num": 2,
-              "title": "Apply Technical Aerodrome & Operational Lexis",
-              "description": "Accurately employ 18 specialized terms including noise abatement, slot allocation, ancillary revenue, and turnaround time."
+              "title": "Evaluate Commercial Aviation Dilemmas (Survey & Opinion Signposting)",
+              "description": "Interview peers using structured question prompts on unruly passenger policies, low-cost carrier fees, armed flight crew protocols, and space tourism ethics."
             },
             {
               "num": 3,
-              "title": "Master Present Perfect in Operational Reporting",
-              "description": "Differentiate past simple timestamps from ongoing operational status indicators in written and spoken debriefs."
+              "title": "Master Regulatory Modals of Authority (Grammar: Obligation & Permission)",
+              "description": "Accurately apply modal structures (must, must not, be required to, be authorized to, be prohibited from, should) in civil aviation safety contexts."
             },
             {
               "num": 4,
-              "title": "Solve Aviation-Context TOEIC Diagnostic Items",
-              "description": "Identify common grammatical traps in Part 5 incomplete sentences under simulated 30-second pacing."
+              "title": "Navigate Passenger Rights & Delay Disruption (Interactive Role-Play)",
+              "description": "Collaborate in a paired simulation between an aerodrome passenger liaison / AFISO trainee and a stranded traveler, applying de-escalation strategies and EU261 care rules."
+            },
+            {
+              "num": 5,
+              "title": "Deliver a Structured Spoken Consensus Briefing (Summary & Presentation)",
+              "description": "Synthesize a group policy debate regarding aerodrome alcohol sales into a fluent, cohesive 60-second verbal briefing with balanced arguments."
+            },
+            {
+              "num": 6,
+              "title": "Consolidate Core Vocabulary & Syllable Stress (Phonology & Review)",
+              "description": "Consolidate the 18 essential introductory vocabulary terms, identify primary word stress patterns, and update personal portfolio learning logs."
             }
           ]
         },
         "lessonPlan": {
-          "title": "Session 1 Lesson Plan - Introduction & Aviation Survey",
-          "summary": "A 2-hour interactive session featuring pair aviation survey interviews, group debate on commercial flight security dilemmas, Present Perfect grammar analysis, and TOEIC diagnostics.",
+          "title": "Session 1 Lesson Plan (2 Hours)",
+          "summary": "A 2-hour interactive communicative session featuring an aviation news opening, foundational lexis diagnostic, the Global Aviation Survey, a regulatory modals clinic, an EU261 disruption role-play, a policy mini-debate, and a 10-minute closing vocabulary consolidation.",
           "items": [
             {
-              "time": "20 min",
-              "title": "Aviation Survey Kick-Off & Warm-Up",
-              "description": "Pair interviews on general aviation questions: in-flight alcohol policies, pilot firearms, budget airline comfort, and space tourism."
+              "time": "00-10",
+              "title": "Part 1: Aviation News & Course Entry Diagnostic (10 mins)",
+              "description": "Opening 10-minute warm-up: discuss recent global aviation headlines followed by rapid spot-checking of essential everyday aviation concepts (landside vs airside, airline vs aerodrome operator, scheduled vs charter, delay vs cancellation)."
             },
             {
-              "time": "30 min",
-              "title": "Core Aerodrome Lexis & Pronunciation",
-              "description": "Interactive pronunciation drills and contextual analysis of turnaround times, noise abatement, and slot allocation."
+              "time": "10-35",
+              "title": "Part 2: The Global Aviation Survey (25 mins)",
+              "description": "Speed-dating interviews: paired discussions on 4 prominent commercial dilemmas (in-flight alcohol caps, low-cost carrier fees, cockpit defense, and space tourism ethics) using formal opinion signposts."
             },
             {
-              "time": "30 min",
-              "title": "Grammar Clinic: Present Perfect in Aviation",
-              "description": "Analyzing past vs. present perfect markers in operational maintenance logs and airport delay notifications."
+              "time": "35-60",
+              "title": "Part 3: Language Clinic: Modals of Obligation, Permission & Prohibition (25 mins)",
+              "description": "Contrast must, have to, be required to, be prohibited from, and be authorized to. Practice with an interactive 'Spot the Regulatory Flaw' challenge analyzing aerodrome safety rules."
             },
             {
-              "time": "25 min",
-              "title": "TOEIC Part 5 Diagnostic Drill",
-              "description": "Individual 5-item reading diagnostic with peer error analysis and distractor breakdown."
+              "time": "60-85",
+              "title": "Part 4: Operational Dilemma: EU261 & Delay Disruption Case Study (25 mins)",
+              "description": "Concourse role-play: Ground Liaison / AFISO Trainee and Frustrated Passenger resolve a 4-hour delay crisis at a regional aerodrome, practicing de-escalation and statutory passenger entitlements."
             },
             {
-              "time": "15 min",
-              "title": "Class Wrap-Up & Self-Study Targets",
-              "description": "Reviewing vocabulary cards, setting study priorities for the Session 5 Formative Evaluation, and portfolio logging."
+              "time": "85-110",
+              "title": "Part 5: Station Mini-Debate & Spoken Consensus Briefing (25 mins)",
+              "description": "Small-group debate: 'Should all commercial aerodromes ban alcohol sales before boarding?' Teams deliver a structured 60-second verbal spokesperson briefing summarizing their consensus."
+            },
+            {
+              "time": "110-120",
+              "title": "Part 6: Vocabulary Review, Pronunciation & Class Wrap-Up (10 mins)",
+              "description": "Final 10-minute consolidation: rapid recall of the 18 introductory terms, word stress and syllable drill, personal learning reflection, and portfolio logging."
             }
           ]
+        },
+        "lessonContent": {
+          "hero": {
+            "image": "images/aas_m1card1.png",
+            "title": "Introduction & Aviation Survey",
+            "subtitle": "Commercial Aviation Dilemmas, Passenger Disruption & Regulatory Modals"
+          },
+          "openingSession": {
+            "title": "Activity 1: Aviation News & Course Entry Diagnostic (10 mins)",
+            "summary": "Every class begins with a 10-minute professional opening: analyzing current aviation headlines and testing our understanding of foundational aviation distinctions.",
+            "newsPrompts": [
+              "What major commercial aviation, airline, or airport developments have you noticed in the headlines this week?",
+              "How are international airlines and aerodrome authorities balancing post-pandemic passenger traffic surges with passenger satisfaction and environmental commitments?"
+            ],
+            "diagnostic": {
+              "title": "Course Entry Diagnostic: Aviation Lexis Spot-Check",
+              "instructions": "Discuss each operational distinction in pairs, then click 'Reveal Answer' to verify your reasoning.",
+              "questions": [
+                {
+                  "id": 1,
+                  "q": "What is the fundamental operational difference between Landside and Airside at an airport?",
+                  "answer": "Landside represents the public terminal concourse (ticketing, landside check-in desks, arrivals hall, public car parks) accessible to anyone without travel documents. Airside is the secure operational zone beyond security checkpoints (departure lounges, boarding gates, aprons, taxiways, and runways) accessible only to screened ticketed passengers and badged personnel."
+                },
+                {
+                  "id": 2,
+                  "q": "What distinguishes an Airline (Air Carrier) from an Aerodrome Operator (Airport Authority)?",
+                  "answer": "An airline owns, leases, and operates aircraft to provide commercial passenger and cargo air transport. An aerodrome operator owns, manages, and maintains airport ground infrastructure (pavement surfaces, lighting, terminals, safety facilities, fire services) and coordinates apron stand allocations."
+                },
+                {
+                  "id": 3,
+                  "q": "What is the legal difference between a Scheduled Flight and a Charter Flight?",
+                  "answer": "A scheduled flight operates according to a published, regular commercial timetable regardless of passenger load. A charter flight is rented or hired as a whole by a specific organization, tour operator, or sports team for a dedicated itinerary outside the regular scheduled timetable."
+                },
+                {
+                  "id": 4,
+                  "q": "In European consumer protection (EU261), what is the key distinction between a Delay and a Flight Cancellation?",
+                  "answer": "A delay means the flight operates under its original flight number but departs or arrives behind its published schedule. A cancellation means the planned flight was completely called off, obliging the airline to rebook passengers on alternative flights or issue full refunds plus statutory compensation."
+                }
+              ]
+            }
+          },
+          "survey": {
+            "title": "Activity 2: The Global Aviation Survey (25 mins)",
+            "summary": "Conduct structured speed-dating interviews on 4 prominent commercial aviation dilemmas. Practice expressing nuanced agreement, providing concrete justifications, and using professional opinion signposts.",
+            "signposts": [
+              "\"From an operational standpoint, I believe...\"",
+              "\"While I understand the commercial justification, I would argue that...\"",
+              "\"We have to balance passenger convenience with strict safety protocols.\"",
+              "\"In my view as a future aviation professional, ...\""
+            ],
+            "topics": [
+              {
+                "id": 1,
+                "badge": "Cabin Safety & Alcohol",
+                "statement": "Should airports and airlines enforce a strict two-drink maximum per passenger across all terminal bars and flights to reduce unruly passenger incidents?",
+                "pro": "Alcohol intoxication contributes to over 70% of violent cabin disruptions, endangering cabin crew and resulting in costly emergency diversions.",
+                "con": "A blanket limit unfairly restricts well-behaved passengers, reduces vital retail concession revenues for airports, and is logistically difficult to enforce across transit hubs.",
+                "prompt": "Interview your partner: To what extent do you agree? What alternative prevention strategies could ground staff and cabin crew implement?"
+              },
+              {
+                "id": 2,
+                "badge": "Low-Cost vs Legacy Carriers",
+                "statement": "Do budget airlines (Low-Cost Carriers) democratize air travel, or do unbundled fees (ancillary revenues for carry-ons, seat selection, and water) degrade passenger dignity?",
+                "pro": "Unbundled pricing allows budget-conscious passengers, students, and families to travel across Europe for very low base fares, paying only for the exact services they need.",
+                "con": "Hidden ancillary fees confuse travelers, generate boarding gate friction over carry-on bag dimensions, and increase ground staff stress.",
+                "prompt": "Interview your partner: How do ancillary baggage fees impact gate boarding efficiency and ground staff workload?"
+              },
+              {
+                "id": 3,
+                "badge": "Cockpit Defense & FFDO",
+                "statement": "Should commercial airline captains be authorized to carry concealed firearms in the cockpit under programs such as the US Federal Flight Deck Officer (FFDO) protocol?",
+                "pro": "An armed pilot provides a decisive, last-line physical defense against suicidal hijackers if reinforced cockpit doors are compromised.",
+                "con": "Introducing lethal firearms into a pressurized aircraft creates severe accidental discharge hazards and alters the psychological role of commercial aviators.",
+                "prompt": "Interview your partner: Is a reinforced bulletproof cockpit door sufficient security, or are defensive weapons justified?"
+              },
+              {
+                "id": 4,
+                "badge": "Decarbonization vs Space Tourism",
+                "statement": "Is commercial space tourism ethically justifiable while mainstream commercial aviation is spending billions trying to transition to Sustainable Aviation Fuel (SAF) and hydrogen?",
+                "pro": "Suborbital space tourism accelerates commercial aerospace engineering, heat-shield materials research, and investment in future high-speed propulsion.",
+                "con": "Suborbital flights generate massive carbon and soot emissions per passenger-minute for ultra-wealthy leisure, undermining public trust in green aviation.",
+                "prompt": "Interview your partner: Should regulatory bodies impose heavy carbon taxes on suborbital leisure flights?"
+              }
+            ]
+          },
+          "modalsClinic": {
+            "title": "Activity 3: Language Clinic: Modals of Obligation, Permission & Prohibition (25 mins)",
+            "summary": "Master the precise grammar of operational authority. Distinguish absolute safety obligations from prohibitions, official authorizations, and operational advice without relying on technical jargon.",
+            "rules": [
+              {
+                "title": "1. Strict Obligation (Must / Have to / Be required to)",
+                "rule": "Mandatory safety rules and statutory requirements.",
+                "example": "All ground personnel <strong>are required to wear</strong> high-visibility safety tabards on the active apron."
+              },
+              {
+                "title": "2. Strict Prohibition (Must not / Be prohibited from + -ing)",
+                "rule": "Unlawful actions and critical safety hazards.",
+                "example": "Passengers <strong>are strictly prohibited from tampering with</strong> smoke detectors in aircraft lavatories."
+              },
+              {
+                "title": "3. Official Permission (May / Can / Be authorized / permitted to)",
+                "rule": "Formal legal authorizations and operational clearances.",
+                "example": "Only certified technicians <strong>are authorized to connect</strong> the high-voltage ground power unit."
+              },
+              {
+                "title": "4. Operational Recommendations (Should / Be advised to)",
+                "rule": "Professional best practices and passenger advice.",
+                "example": "Airlines <strong>should notify</strong> travelers of schedule revisions via mobile push alerts at least two hours prior."
+              }
+            ],
+            "challenge": {
+              "title": "Interactive Regulatory Challenge: Spot the Correct Modal",
+              "instructions": "Select the correct modal form for each real-world airport scenario, then click 'Verify Rationale' to inspect the rule.",
+              "questions": [
+                {
+                  "id": 1,
+                  "context": "Passenger Security Screening",
+                  "sentence": "Every passenger carry-on bag ________ through the X-ray scanner prior to concourse entry.",
+                  "options": ["A) must pass", "B) is prohibited from passing", "C) should pass if time permits"],
+                  "correct": "A) must pass",
+                  "explanation": "Absolute statutory requirement: 100% of carry-on items are required by international civil aviation security standards to undergo screening."
+                },
+                {
+                  "id": 2,
+                  "context": "Apron Vehicular Road Speed Limits",
+                  "sentence": "Service vehicles servicing aircraft ________ 25 km/h within marked apron transit corridors.",
+                  "options": ["A) are authorized to exceed", "B) must not exceed", "C) should not have exceeded"],
+                  "correct": "B) must not exceed",
+                  "explanation": "Strict prohibition: Exceeding aerodrome speed limits endangers ramp workers and aircraft."
+                },
+                {
+                  "id": 3,
+                  "context": "Flight Deck Defense Qualification",
+                  "sentence": "Under revised flight deck defense protocols, designated captains ________ defensive equipment exclusively inside the cockpit.",
+                  "options": ["A) are authorized to carry", "B) must carry without training", "C) are prohibited from carry"],
+                  "correct": "A) are authorized to carry",
+                  "explanation": "Passive permission pattern: 'be authorized + to-infinitive'. It is an optional legal permission, not a mandatory obligation."
+                },
+                {
+                  "id": 4,
+                  "context": "Boarding Gate Priority Courtesy",
+                  "sentence": "Passengers traveling with infants ________ to board during the priority pre-boarding sequence.",
+                  "options": ["A) are invited / advised", "B) are prohibited", "C) must be forced"],
+                  "correct": "A) are invited / advised",
+                  "explanation": "Operational courtesy/advice: Priority boarding is offered for passenger convenience, not legally enforced."
+                }
+              ]
+            }
+          },
+          "operationalCaseStudy": {
+            "title": "Activity 4: Operational Dilemma: The EU261 Delay & Disruption Case Study (25 mins)",
+            "summary": "A realistic airport concourse scenario: Flight AF1420 to Paris-CDG is delayed by 4 hours due to an incoming maintenance issue and a destination night curfew. Passengers are anxious and demanding cash payouts.",
+            "roles": [
+              {
+                "role": "Role A: Passenger Service Liaison (AFISO / Operations Trainee)",
+                "mission": "Remain calm, polite, and authoritative. Explain the cause of the delay truthfully without blaming colleagues. Outline immediate entitlements: food/drink vouchers, free telephone calls, and hotel accommodation if rescheduled for tomorrow. Clarify that financial compensation claims (EU261) must be submitted online after the journey, not handed out in cash at the departure gate.",
+                "keyPhrases": [
+                  "\"I completely appreciate your frustration regarding this delay, and I am here to help.\"",
+                  "\"Our primary obligation right now is your comfort and safety.\"",
+                  "\"Under EU261 regulations, we are currently issuing meal and refreshment vouchers.\"",
+                  "\"While cash compensation is not disbursed at the boarding gate, our ground team will provide the official claim dossier.\""
+                ]
+              },
+              {
+                "role": "Role B: Frustrated Business Traveler",
+                "mission": "You have a vital connecting flight or corporate meeting in Paris tomorrow morning. You are angry about missing your connection and want immediate cash, alternative flight rerouting on another carrier, or instant compensation.",
+                "keyPhrases": [
+                  "\"This delay is completely unacceptable; I'm going to miss my connecting international flight!\"",
+                  "\"Under EU law, you owe me €250 compensation immediately. Where is my cash?\"",
+                  "\"Can you endorse my ticket over to another airline that departs in 45 minutes?\"",
+                  "\"Who is going to pay for my hotel if we don't take off tonight?\""
+                ]
+              }
+            ],
+            "task": "Conduct a 4-minute spoken role-play with your partner. Then swap roles. Focus on de-escalation, professional courtesy, and accurate explanation of passenger rights."
+          },
+          "miniDebate": {
+            "title": "Activity 5: Station Mini-Debate & Spoken Consensus Briefing (25 mins)",
+            "summary": "In small groups of 3 to 4, prepare and deliver structured arguments on an aerodrome management policy debate. Structure your arguments with a clear Claim, Operational Evidence, and Real-World Impact.",
+            "motion": "Motion: All commercial aerodromes should introduce a total ban on alcohol retail sales in departure lounges and on flights under 3 hours.",
+            "framework": [
+              {
+                "step": "1. State the Core Claim",
+                "desc": "Clearly express your team's stance using formal opinion signposts.",
+                "phrase": "\"Our working group firmly maintains that...\""
+              },
+              {
+                "step": "2. Operational Evidence",
+                "desc": "Cite ramp delays, cabin diversions, police intervention, or retail concessions impact.",
+                "phrase": "\"Data shows that over 70% of cabin disruptions stem from pre-departure intoxication...\""
+              },
+              {
+                "step": "3. Balanced Trade-offs",
+                "desc": "Acknowledge the counter-argument and explain why your policy recommendation is superior.",
+                "phrase": "\"While we recognize concession losses, safety compromises cannot be negotiated...\""
+              },
+              {
+                "step": "4. Action Recommendation",
+                "desc": "Propose a concrete operational solution.",
+                "phrase": "\"We therefore recommend a digital 2-drink cap linked to boarding pass barcodes.\""
+              }
+            ],
+            "spokenHandoverModel": {
+              "title": "60-Second Team Spokesperson Briefing Model",
+              "text": "\"Good afternoon colleagues. Our working group evaluated the proposed alcohol restrictions across regional aerodromes. On balance, we strongly recommend implementing a digital tracking system linked to boarding passes rather than an outright ban. While an outright ban would immediately reduce disruptive behavior at the gate, it would severely damage airport retail concession revenues—which fund critical safety upgrades—and penalize the 99% of passengers who drink responsibly. By capping alcohol sales at two units per boarding pass scan, aerodrome operations can maintain airport revenue while eliminating gate boarding confrontations.\""
+            }
+          },
+          "closingReview": {
+            "title": "Activity 6: 10-Minute Vocabulary Review, Pronunciation & Class Wrap-Up (10 mins)",
+            "summary": "Consolidate today's 18 vocabulary terms, test your word stress, and update your personal English learning portfolio.",
+            "reviewPrompts": [
+              {
+                "title": "Rapid Terminology Match",
+                "desc": "Can you define Unruly Passenger, Ancillary Revenue, and EU261 in your own words without checking your notes?"
+              },
+              {
+                "title": "Word Stress & Pronunciation Spot-Check",
+                "desc": "Check your syllable stress on high-frequency terms: an-CIL-la-ry (4 syllables), pro-HI-bi-ted (4 syllables), al-lo-CA-tion (4 syllables), bio-ME-tric (4 syllables)."
+              },
+              {
+                "title": "Personal Portfolio Reflection",
+                "desc": "Record two new communicative phrases you successfully used during today's survey debate and role-play in your learning log."
+              }
+            ]
+          }
         },
         "revision": {
           "title": "Session 1 Revision - Introduction & Aviation Survey",
@@ -5787,7 +6027,7 @@
               "topic": "Passenger Rights & Regulation",
               "sourceTag": "Air Transport Law Journal",
               "heading": "EU261 and Extraordinary Circumstances: Balancing Passenger Redress with Carrier Viability",
-              "snippet": "How European compensation rules for 3-hour flight delays impact legacy and budget airlines during air traffic control strikes and adverse weather, and where passenger rights draw the line.",
+              "snippet": "How European compensation rules for 3-hour flight delays impact legacy and budget airlines during air traffic management industrial actions and adverse weather, and where passenger rights draw the line.",
               "readTime": "Estimated read: 5 mins",
               "url": "https://transport.ec.europa.eu/transport-themes/passenger-rights/air_en"
             }

@@ -2591,7 +2591,7 @@
           <div class="p-4 bg-slate-100 rounded-xl border border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3">
             <div>
               <p class="text-xs font-bold text-slate-700">Ready to proceed to classroom activities?</p>
-              <p class="text-[11px] text-slate-500">Access the interactive vehicle cards, turnaround clock, and role-play simulations.</p>
+              <p class="text-[11px] text-slate-500">${modalState.sessionNum === 1 ? 'Access the aviation news diagnostic, speed-dating survey, modals clinic, and EU261 role-play.' : 'Access the interactive vehicle cards, turnaround clock, and role-play simulations.'}</p>
             </div>
             <button onclick="switchModalTab('content')" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg text-xs font-bold text-white shadow-xs hover:shadow-md transition-all cursor-pointer" style="background-color: ${theme.primary};">
               <span>Open Lesson Content</span>
@@ -2603,6 +2603,395 @@
     }
 
     function renderLessonContentTab(sessionData, theme) {
+      if (modalState.sessionNum === 1) {
+        renderLessonContentTabSession1(sessionData, theme);
+      } else {
+        renderLessonContentTabSession3(sessionData, theme);
+      }
+    }
+
+    function renderLessonContentTabSession1(sessionData, theme) {
+      const bodyEl = document.getElementById('modal-body');
+      if (!bodyEl) return;
+      const content = sessionData.lessonContent || {};
+      const hero = content.hero || {};
+      const opening = content.openingSession || {};
+      const survey = content.survey || {};
+      const modals = content.modalsClinic || {};
+      const caseStudy = content.operationalCaseStudy || {};
+      const miniDebate = content.miniDebate || {};
+      const closing = content.closingReview || {};
+
+      bodyEl.innerHTML = `
+        <div class="space-y-6 printable-lesson-container">
+          <!-- Printable Action Bar -->
+          <div class="no-print flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4 bg-white border border-slate-200 rounded-xl shadow-xs">
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
+                <span class="text-xs font-bold text-slate-700">AAS Module 1 • Session 1</span>
+              </div>
+              <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">Introduction &amp; Aviation Survey</h3>
+            </div>
+            <button type="button" onclick="window.printLessonContent()" class="inline-flex items-center justify-center gap-2 px-3.5 py-2 rounded-lg text-xs font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 border border-slate-300 shadow-xs transition-all cursor-pointer shrink-0">
+              <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4H7v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+              <span>Print / Save Lesson PDF</span>
+            </button>
+          </div>
+
+          <!-- Hero Banner & Context -->
+          <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-xs">
+            <div class="relative">
+              <img src="${hero.image || 'images/aas_m1card1.png'}" alt="${hero.title || 'Introduction & Aviation Survey'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/aas_m1card1.png'">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent flex flex-col justify-end p-4 sm:p-5">
+                <span class="text-[11px] font-bold text-amber-300 uppercase tracking-wider">Commercial Aviation Dynamics</span>
+                <h3 class="text-lg sm:text-2xl font-black text-white mt-0.5">${hero.title || 'Introduction & Aviation Survey'}</h3>
+                <p class="text-xs sm:text-sm text-slate-200 mt-1 line-clamp-2">${hero.subtitle || 'Commercial Aviation Dilemmas, Passenger Disruption & Regulatory Modals'}</p>
+              </div>
+            </div>
+            <div class="p-4 bg-slate-50 border-t border-slate-200 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-600">
+              <div class="flex items-center gap-2">
+                <span class="font-bold text-slate-800">Target Level:</span>
+                <span class="bg-indigo-100 text-indigo-800 font-bold px-2 py-0.5 rounded">CEFR B2</span>
+                <span class="text-slate-400">&bull;</span>
+                <span class="font-bold text-slate-800">Role Context:</span>
+                <span class="text-slate-600">AFISO / Aerodrome Ground Operations &amp; Passenger Service</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="font-bold text-slate-800">Total Duration:</span>
+                <span class="font-bold text-slate-900">120 Minutes</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Activity 1: Aviation News & Entry Diagnostic -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">00-10m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Aviation News & Course Entry Diagnostic (10 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${opening.summary || ''}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
+            </div>
+
+            <!-- Aviation News Prompts -->
+            <div class="p-4 bg-amber-50/70 border border-amber-200 rounded-xl space-y-2">
+              <div class="flex items-center gap-2">
+                <svg width="16" height="16" class="text-amber-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/></svg>
+                <h5 class="text-xs sm:text-sm font-bold text-amber-900">Weekly Aviation Headlines &amp; Industry Pulse</h5>
+              </div>
+              <ul class="space-y-1.5 pl-5 list-disc text-xs text-amber-900/90 leading-relaxed">
+                ${(opening.newsPrompts || []).map(p => `<li>${p}</li>`).join('')}
+              </ul>
+            </div>
+
+            <!-- Diagnostic Questions Grid -->
+            <div class="space-y-3 pt-1">
+              <div class="flex items-center justify-between">
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Course Entry Diagnostic: Aviation Lexis Spot-Check'}</h5>
+                <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
+              </div>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                ${((opening.diagnostic && opening.diagnostic.questions) || []).map(q => `
+                  <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5 flex flex-col justify-between">
+                    <div>
+                      <div class="flex items-center justify-between gap-2">
+                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Diagnostic 0${q.id}</span>
+                        <span class="w-2 h-2 rounded-full" style="background-color: ${theme.primary};"></span>
+                      </div>
+                      <p class="text-xs font-bold text-slate-800 mt-1">${q.q}</p>
+                    </div>
+                    <div>
+                      <div id="diagnostic-ans-${q.id}" class="hidden p-2.5 bg-white border border-slate-200 rounded-lg text-[11px] text-slate-700 leading-relaxed shadow-xs mb-2">
+                        <span class="font-bold text-slate-900">Operational Distinction:</span> ${q.answer}
+                      </div>
+                      <button type="button" id="diagnostic-btn-${q.id}" onclick="window.toggleDiagnosticAnswer(${q.id})" class="no-print inline-flex items-center gap-1.5 text-[11px] font-bold text-slate-600 hover:text-slate-900 cursor-pointer">
+                        <span>Reveal Answer</span> &rarr;
+                      </button>
+                    </div>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          </div>
+
+          <!-- Activity 2: The Global Aviation Survey -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">10-35m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${survey.title || 'Activity 2: The Global Aviation Survey (25 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${survey.summary || ''}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Speed-Dating Interviews</span>
+            </div>
+
+            <!-- Professional Opinion Signposts Box -->
+            <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
+              <h5 class="text-xs font-bold text-slate-700 uppercase tracking-wider">Professional Opinion Signposts (Use in Spoken Discussions):</h5>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-700">
+                ${(survey.signposts || []).map(sp => `
+                  <div class="flex items-center gap-2 p-2 bg-white border border-slate-200 rounded-lg shadow-xs">
+                    <span class="text-emerald-600 font-bold">&check;</span>
+                    <span class="font-medium italic">${sp}</span>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+
+            <!-- 4 Topic Cards with Agreement Scale -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-1">
+              ${(survey.topics || []).map(t => `
+                <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-3 flex flex-col justify-between">
+                  <div>
+                    <div class="flex items-center justify-between gap-2 border-b border-slate-200/80 pb-2">
+                      <span class="text-white text-[10px] font-bold px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">${t.badge}</span>
+                      <span class="text-[10px] font-bold text-slate-400 uppercase">Topic 0${t.id}</span>
+                    </div>
+                    <p class="text-xs sm:text-sm font-bold text-slate-900 mt-2.5 leading-snug">${t.statement}</p>
+                    
+                    <div class="mt-3 space-y-2 text-[11px]">
+                      <div class="p-2.5 bg-emerald-50/70 border border-emerald-200 rounded-lg text-emerald-900">
+                        <strong class="font-bold text-emerald-950">PRO / In Favor:</strong> ${t.pro}
+                      </div>
+                      <div class="p-2.5 bg-rose-50/70 border border-rose-200 rounded-lg text-rose-900">
+                        <strong class="font-bold text-rose-950">CON / Opposition:</strong> ${t.con}
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="pt-2 border-t border-slate-200/80 space-y-2">
+                    <p class="text-[11px] font-medium text-slate-600 italic">&ldquo;${t.prompt}&rdquo;</p>
+                    <div class="no-print pt-1">
+                      <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Your Personal Stance (1 = Strongly Disagree, 5 = Strongly Agree):</label>
+                      <div class="flex items-center justify-between gap-1 bg-white p-1.5 rounded-lg border border-slate-200">
+                        ${[1, 2, 3, 4, 5].map(score => `
+                          <button type="button" onclick="window.setSurveyAgreement(${t.id}, ${score})" id="survey-${t.id}-btn-${score}" class="flex-1 py-1 text-center text-xs font-bold rounded hover:bg-slate-100 transition-all text-slate-600 border border-transparent">
+                            ${score}
+                          </button>
+                        `).join('')}
+                      </div>
+                      <div class="flex justify-between text-[9px] text-slate-400 px-1 mt-0.5">
+                        <span>Disagree</span>
+                        <span>Neutral</span>
+                        <span>Agree</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <!-- Activity 3: Modals Clinic -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-60m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${modals.title || 'Activity 3: Language Clinic: Modals of Authority (25 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${modals.summary || ''}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Grammar &amp; Precision</span>
+            </div>
+
+            <!-- 4 Rule Cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+              ${(modals.rules || []).map((r, i) => {
+                const borderCols = ['border-blue-300 bg-blue-50/60', 'border-rose-300 bg-rose-50/60', 'border-emerald-300 bg-emerald-50/60', 'border-amber-300 bg-amber-50/60'];
+                const textCols = ['text-blue-900', 'text-rose-900', 'text-emerald-900', 'text-amber-900'];
+                return `
+                  <div class="p-3.5 border rounded-xl space-y-2 flex flex-col justify-between ${borderCols[i % 4]}">
+                    <div>
+                      <h5 class="text-xs font-black ${textCols[i % 4]}">${r.title}</h5>
+                      <p class="text-[11px] text-slate-600 mt-1">${r.rule}</p>
+                    </div>
+                    <div class="p-2 bg-white/90 border border-slate-200 rounded-lg text-[11px] text-slate-800 leading-snug">
+                      ${r.example}
+                    </div>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+
+            <!-- Interactive Regulatory Challenge -->
+            <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-3">
+              <div class="flex items-center justify-between">
+                <div>
+                  <h5 class="text-xs sm:text-sm font-bold text-slate-900">${(modals.challenge && modals.challenge.title) || 'Interactive Regulatory Challenge: Spot the Correct Modal'}</h5>
+                  <p class="text-[11px] text-slate-500">${(modals.challenge && modals.challenge.instructions) || ''}</p>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-1">
+                ${((modals.challenge && modals.challenge.questions) || []).map(q => `
+                  <div class="p-3.5 bg-white border border-slate-200 rounded-xl space-y-2.5 shadow-xs">
+                    <div class="flex items-center justify-between text-[10px] font-bold uppercase tracking-wider text-slate-500 border-b border-slate-100 pb-1.5">
+                      <span>Scenario 0${q.id}: ${q.context}</span>
+                    </div>
+                    <p class="text-xs font-semibold text-slate-800 leading-relaxed">${q.sentence}</p>
+                    
+                    <div class="space-y-1 text-xs">
+                      ${q.options.map((opt) => `
+                        <div class="p-2 bg-slate-50 rounded-lg border border-slate-200 text-slate-700">
+                          ${opt}
+                        </div>
+                      `).join('')}
+                    </div>
+
+                    <div id="modal-chal-ans-${q.id}" class="hidden p-2.5 bg-emerald-50 border border-emerald-200 rounded-lg text-[11px] text-emerald-950 leading-relaxed shadow-xs">
+                      <span class="font-bold text-emerald-900">Correct:</span> ${q.correct}<br>
+                      <span class="font-bold text-emerald-900">Rule:</span> ${q.explanation}
+                    </div>
+
+                    <button type="button" id="modal-chal-btn-${q.id}" onclick="window.toggleModalChallengeAnswer(${q.id})" class="no-print inline-flex items-center gap-1.5 text-[11px] font-bold text-slate-600 hover:text-slate-900 cursor-pointer pt-1">
+                      <span>Verify Rationale</span> &rarr;
+                    </button>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          </div>
+
+          <!-- Activity 4: Operational Case Study -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">60-85m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${caseStudy.title || 'Activity 4: EU261 Delay & Disruption Case Study (25 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${caseStudy.summary || ''}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">De-Escalation Role-Play</span>
+            </div>
+
+            <!-- Role Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              ${(caseStudy.roles || []).map((r, rIdx) => {
+                const isLiaison = rIdx === 0;
+                return `
+                  <div class="p-4 rounded-xl border space-y-3 flex flex-col justify-between ${isLiaison ? 'bg-blue-50/50 border-blue-200' : 'bg-amber-50/50 border-amber-200'}">
+                    <div>
+                      <div class="flex items-center justify-between gap-2 border-b pb-2 ${isLiaison ? 'border-blue-200' : 'border-amber-200'}">
+                        <span class="text-xs font-black uppercase tracking-wider ${isLiaison ? 'text-blue-900' : 'text-amber-900'}">${r.role}</span>
+                        <span class="text-[10px] font-bold px-2 py-0.5 rounded text-white ${isLiaison ? 'bg-blue-600' : 'bg-amber-600'}">${isLiaison ? 'Liaison Trainee' : 'Challenging Client'}</span>
+                      </div>
+                      <div class="mt-2.5 text-xs text-slate-700 leading-relaxed">
+                        <strong class="font-bold text-slate-900">Your Objective:</strong> ${r.mission}
+                      </div>
+                    </div>
+
+                    <div class="space-y-1.5 pt-2 border-t ${isLiaison ? 'border-blue-200' : 'border-amber-200'}">
+                      <span class="text-[10px] font-black uppercase tracking-wider ${isLiaison ? 'text-blue-800' : 'text-amber-800'}">Key Communicative Phrases:</span>
+                      <ul class="space-y-1 text-[11px] text-slate-700 pl-4 list-disc">
+                        ${(r.keyPhrases || []).map(p => `<li>${p}</li>`).join('')}
+                      </ul>
+                    </div>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+
+            <div class="p-3 bg-slate-100 rounded-xl text-center text-xs font-semibold text-slate-700">
+              ${caseStudy.task || 'Conduct a 4-minute spoken role-play with your partner. Then swap roles. Focus on de-escalation, professional courtesy, and accurate explanation of passenger rights.'}
+            </div>
+          </div>
+
+          <!-- Activity 5: Station Mini-Debate -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">85-110m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${miniDebate.title || 'Activity 5: Station Mini-Debate & Spoken Consensus Briefing (25 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${miniDebate.summary || ''}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Policy Consensus</span>
+            </div>
+
+            <!-- Debate Motion Banner -->
+            <div class="p-3.5 bg-slate-900 text-white rounded-xl shadow-xs">
+              <span class="text-[10px] font-bold text-amber-400 uppercase tracking-wider">Formal Policy Motion</span>
+              <p class="text-xs sm:text-sm font-bold text-white mt-0.5">${miniDebate.motion || ''}</p>
+            </div>
+
+            <!-- 4-Step Argument Framework -->
+            <div class="space-y-2">
+              <h5 class="text-xs font-bold text-slate-700 uppercase tracking-wider">Structured Spoken Handover Framework:</h5>
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+                ${(miniDebate.framework || []).map(f => `
+                  <div class="p-3 bg-slate-50 border border-slate-200 rounded-xl space-y-2 flex flex-col justify-between">
+                    <div>
+                      <h6 class="text-xs font-bold text-slate-900">${f.step}</h6>
+                      <p class="text-[11px] text-slate-600 mt-1">${f.desc}</p>
+                    </div>
+                    <div class="p-2 bg-white border border-slate-200 rounded-lg text-[10px] italic text-slate-700 font-medium">
+                      ${f.phrase}
+                    </div>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+
+            <!-- 60-Second Team Spokesperson Briefing Model -->
+            <div class="p-4 bg-emerald-50/70 border border-emerald-200 rounded-xl space-y-2">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold text-emerald-950 flex items-center gap-1.5">
+                  <svg width="14" height="14" class="text-emerald-700 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 100-6 3 3 0 000 6z"/></svg>
+                  ${(miniDebate.spokenHandoverModel && miniDebate.spokenHandoverModel.title) || '60-Second Team Spokesperson Briefing Model'}
+                </span>
+                <span class="text-[10px] font-bold text-emerald-700 uppercase tracking-wider">Spoken Benchmark</span>
+              </div>
+              <p class="text-xs text-emerald-900 leading-relaxed italic">
+                &ldquo;${(miniDebate.spokenHandoverModel && miniDebate.spokenHandoverModel.text) || ''}&rdquo;
+              </p>
+            </div>
+          </div>
+
+          <!-- Activity 6: Closing Review -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">110-120m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${closing.title || 'Activity 6: 10-Minute Vocabulary Review & Wrap-Up (10 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${closing.summary || ''}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Closing Consolidation</span>
+            </div>
+
+            <!-- Review Prompts -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+              ${(closing.reviewPrompts || []).map((rp, rpIdx) => `
+                <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2 flex flex-col justify-between">
+                  <div>
+                    <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Step 0${rpIdx + 1}</span>
+                    <h5 class="text-xs font-bold text-slate-900 mt-0.5">${rp.title}</h5>
+                    <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">${rp.desc}</p>
+                  </div>
+                  <div class="pt-2 border-t border-slate-200/80">
+                    <button type="button" onclick="switchModalTab('revision')" class="no-print text-[11px] font-bold text-indigo-600 hover:text-indigo-800 cursor-pointer">
+                      <span>Open Flashcard Review</span> &rarr;
+                    </button>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderLessonContentTabSession3(sessionData, theme) {
       const bodyEl = document.getElementById('modal-body');
       if (!bodyEl) return;
       const content = sessionData.lessonContent || {};
@@ -2982,6 +3371,48 @@
         </div>
       `;
     }
+
+    window.toggleDiagnosticAnswer = function(id) {
+      const el = document.getElementById(`diagnostic-ans-${id}`);
+      const btn = document.getElementById(`diagnostic-btn-${id}`);
+      if (!el || !btn) return;
+      const isHidden = el.classList.contains('hidden');
+      if (isHidden) {
+        el.classList.remove('hidden');
+        btn.innerHTML = '<span>Hide Answer</span> &larr;';
+      } else {
+        el.classList.add('hidden');
+        btn.innerHTML = '<span>Reveal Answer</span> &rarr;';
+      }
+    };
+
+    window.toggleModalChallengeAnswer = function(id) {
+      const el = document.getElementById(`modal-chal-ans-${id}`);
+      const btn = document.getElementById(`modal-chal-btn-${id}`);
+      if (!el || !btn) return;
+      const isHidden = el.classList.contains('hidden');
+      if (isHidden) {
+        el.classList.remove('hidden');
+        btn.innerHTML = '<span>Hide Rationale</span> &larr;';
+      } else {
+        el.classList.add('hidden');
+        btn.innerHTML = '<span>Verify Rationale</span> &rarr;';
+      }
+    };
+
+    window.setSurveyAgreement = function(topicId, score) {
+      for (let s = 1; s <= 5; s++) {
+        const btn = document.getElementById(`survey-${topicId}-btn-${s}`);
+        if (!btn) continue;
+        if (s === score) {
+          btn.classList.add('bg-indigo-600', 'text-white', 'border-indigo-600');
+          btn.classList.remove('text-slate-600', 'hover:bg-slate-100');
+        } else {
+          btn.classList.remove('bg-indigo-600', 'text-white', 'border-indigo-600');
+          btn.classList.add('text-slate-600', 'hover:bg-slate-100');
+        }
+      }
+    };
 
     window.toggleSpotCheckAnswer = function(id) {
       const el = document.getElementById(`spotcheck-ans-${id}`);
