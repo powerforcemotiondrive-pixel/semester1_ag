@@ -355,6 +355,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
             </div>
 
+            ${renderActivityInstructions(opening, theme)}
+
             <!-- News Prompts -->
             <div class="p-4 bg-amber-50/70 border border-amber-200 rounded-xl space-y-2">
               <div class="flex items-center gap-2">
@@ -409,6 +411,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Structured Discussion</span>
             </div>
 
+            ${renderActivityInstructions(survey, theme)}
+
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-emerald-50/60 border border-emerald-200 rounded-xl space-y-1.5">
@@ -454,6 +458,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Grammar in Context</span>
             </div>
+
+            ${renderActivityInstructions(grammar, theme)}
 
             <!-- Rules Grid -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
@@ -513,6 +519,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Classroom Simulation</span>
             </div>
 
+            ${renderActivityInstructions(roleplay, theme)}
+
             <!-- Scenario Card -->
             <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
               <span class="text-[10px] font-black uppercase tracking-wider text-slate-500 block">Simulation Scenario Briefing</span>
@@ -550,6 +558,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Debrief &amp; Exit Ticket</span>
             </div>
+
+            ${renderActivityInstructions(closing, theme)}
 
             <div class="p-4 bg-emerald-50/60 border border-emerald-200 rounded-xl space-y-3">
               <div class="flex items-center justify-between">

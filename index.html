@@ -6240,6 +6240,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
             </div>
 
+            ${renderActivityInstructions(opening, theme)}
+
             <!-- News Prompts -->
             <div class="p-4 bg-amber-50/70 border border-amber-200 rounded-xl space-y-2">
               <div class="flex items-center gap-2">
@@ -6294,6 +6296,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Structured Discussion</span>
             </div>
 
+            ${renderActivityInstructions(survey, theme)}
+
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-emerald-50/60 border border-emerald-200 rounded-xl space-y-1.5">
@@ -6339,6 +6343,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Grammar in Context</span>
             </div>
+
+            ${renderActivityInstructions(grammar, theme)}
 
             <!-- Rules Grid -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
@@ -6398,6 +6404,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Classroom Simulation</span>
             </div>
 
+            ${renderActivityInstructions(roleplay, theme)}
+
             <!-- Scenario Card -->
             <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
               <span class="text-[10px] font-black uppercase tracking-wider text-slate-500 block">Simulation Scenario Briefing</span>
@@ -6435,6 +6443,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Debrief &amp; Exit Ticket</span>
             </div>
+
+            ${renderActivityInstructions(closing, theme)}
 
             <div class="p-4 bg-emerald-50/60 border border-emerald-200 rounded-xl space-y-3">
               <div class="flex items-center justify-between">
@@ -8530,10 +8540,15 @@
       const content = sessionData.lessonContent || {};
       const hero = content.hero || {};
       const opening = content.openingSession || {};
-      const externalParts = (content.diagramLabeling && content.diagramLabeling.externalParts) || [];
-      const spatialPatterns = (content.spatialClinic && content.spatialClinic.patterns) || [];
-      const defectCards = (content.walkaroundRoleplay && content.walkaroundRoleplay.defectCards) || [];
-      const melItems = (content.cockpitSystemsHandover && content.cockpitSystemsHandover.melItems) || [];
+      const diagramLabeling = content.diagramLabeling || {};
+      const externalParts = diagramLabeling.externalParts || [];
+      const spatialClinic = content.spatialClinic || {};
+      const spatialPatterns = spatialClinic.patterns || [];
+      const walkaroundRoleplay = content.walkaroundRoleplay || {};
+      const defectCards = walkaroundRoleplay.defectCards || [];
+      const cockpitSystemsHandover = content.cockpitSystemsHandover || {};
+      const melItems = cockpitSystemsHandover.melItems || [];
+      const closing = content.closingReview || {};
 
       bodyEl.innerHTML = `
         <div class="space-y-6 printable-lesson-container">
@@ -8544,7 +8559,7 @@
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
                 <span class="text-xs font-bold text-slate-700">AAS Module 2 • Session 2</span>
               </div>
-              <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">Aircraft Anatomy: Structure &amp; Systems</h3>
+              <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">${hero.title || 'Aircraft Anatomy: Structure &amp; Systems'}</h3>
             </div>
             <button type="button" onclick="window.printLessonContent()" class="inline-flex items-center justify-center gap-2 px-3.5 py-2 rounded-lg text-xs font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 border border-slate-300 shadow-xs transition-all cursor-pointer shrink-0">
               <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4H7v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
@@ -8555,7 +8570,7 @@
           <!-- Hero Banner -->
           <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-xs">
             <div class="relative">
-              <img src="${hero.image || 'images/aas_m2card2.png'}" alt="Aircraft Anatomy" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/aas_m2card2.png'">
+              <img src="${hero.image || 'images/aas_m2card2.png'}" alt="${hero.title || 'Aircraft Anatomy'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/aas_m2card2.png'">
               <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent flex flex-col justify-end p-4 sm:p-5">
                 <span class="text-[11px] font-bold text-amber-300 uppercase tracking-wider">Airframe Structures &amp; Walkaround Inspection</span>
                 <h3 class="text-lg sm:text-2xl font-black text-white mt-0.5">${hero.title || 'Aircraft Anatomy: Structure &amp; Systems'}</h3>
@@ -8590,6 +8605,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
             </div>
 
+            ${renderActivityInstructions(opening, theme)}
+
             <!-- News Prompts -->
             <div class="p-4 bg-amber-50/70 border border-amber-200 rounded-xl space-y-2">
               <div class="flex items-center gap-2">
@@ -8623,12 +8640,14 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">10-35m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">Activity 2: Airframe Anatomy Labeling Challenge (25 mins)</h4>
-                  <p class="text-[11px] text-slate-500">Identify and describe key external parts and internal zones of commercial aircraft.</p>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${diagramLabeling.title || 'Activity 2: Airframe Anatomy Labeling Challenge (25 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${diagramLabeling.summary || 'Identify and describe key external parts and internal zones of commercial aircraft.'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Airframe Taxonomy</span>
             </div>
+
+            ${renderActivityInstructions(diagramLabeling, theme)}
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
               ${externalParts.map(p => `
@@ -8652,12 +8671,14 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">Activity 3: Language Clinic: Spatial Prepositions &amp; Functions (20 mins)</h4>
-                  <p class="text-[11px] text-slate-500">Mastering precise spatial locations and functional relative clauses for maintenance communication.</p>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${spatialClinic.title || 'Activity 3: Language Clinic: Spatial Prepositions &amp; Functions (20 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${spatialClinic.summary || 'Mastering precise spatial locations and functional relative clauses for maintenance communication.'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Spatial Descriptors</span>
             </div>
+
+            ${renderActivityInstructions(spatialClinic, theme)}
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               ${spatialPatterns.map(p => `
@@ -8677,12 +8698,14 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">55-85m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">Activity 4: Pre-Flight Exterior Walkaround Role-Play (30 mins)</h4>
-                  <p class="text-[11px] text-slate-500">Captain &amp; Line Maintenance Engineer simulation: reporting and assessing airframe defects.</p>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${walkaroundRoleplay.title || 'Activity 4: Pre-Flight Exterior Walkaround Role-Play (30 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${walkaroundRoleplay.summary || 'Captain &amp; Line Maintenance Engineer simulation: reporting and assessing airframe defects.'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Walkaround Role-Play</span>
             </div>
+
+            ${renderActivityInstructions(walkaroundRoleplay, theme)}
 
             <div class="space-y-3">
               ${defectCards.map(d => `
@@ -8708,11 +8731,20 @@
           </div>
 
           <!-- Activity 5: MEL Handover -->
-          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-3">
-            <div class="flex items-center gap-2 border-b border-slate-200 pb-2">
-              <span class="text-white text-xs font-black px-2 py-0.5 rounded" style="background-color: ${theme.primary};">85-110m</span>
-              <h4 class="text-sm font-bold text-slate-900">Activity 5: Minimum Equipment List (MEL) Dispatch Workshop (25 mins)</h4>
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">85-110m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${cockpitSystemsHandover.title || 'Activity 5: Minimum Equipment List (MEL) Dispatch Workshop (25 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${cockpitSystemsHandover.summary || 'Reviewing the Minimum Equipment List (MEL) to make safe dispatch decisions for inoperative equipment.'}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">MEL Workshop</span>
             </div>
+
+            ${renderActivityInstructions(cockpitSystemsHandover, theme)}
+
             <p class="text-xs text-slate-600">Review these 3 maintenance status items and decide whether the aircraft is legally permitted to dispatch:</p>
             <div class="space-y-2 text-xs">
               ${melItems.map(m => `
@@ -8725,14 +8757,56 @@
           </div>
 
           <!-- Activity 6: Wrap-up -->
-          <div class="p-4 bg-slate-100 rounded-xl border border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-700">
-            <div>
-              <h5 class="font-bold text-slate-900">Activity 6: Vocabulary Review &amp; Class Wrap-Up (10 mins)</h5>
-              <p class="text-[11px] text-slate-500">Record today's 18 aircraft parts terms in your learning portfolio and practice syllable stress.</p>
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">110-120m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${closing.title || 'Activity 6: Vocabulary Review &amp; Class Wrap-Up (10 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${closing.summary || 'Drill tricky aeronautical component pronunciation and consolidate learning logs ahead of Session 3.'}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Closing Consolidation</span>
             </div>
-            <button onclick="switchModalTab('revision')" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold text-white shadow-xs hover:opacity-90 transition-all cursor-pointer shrink-0" style="background-color: ${theme.primary};">
-              <span>View Vocabulary Flashcards</span> &rarr;
-            </button>
+
+            ${renderActivityInstructions(closing, theme)}
+
+            <!-- Pronunciation Syllable Badges -->
+            ${(closing.wordsToPronounce && closing.wordsToPronounce.length) ? `
+              <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
+                <span class="text-[10px] font-black uppercase tracking-wider text-slate-500 block">Syllable Stress &amp; Pronunciation Focus:</span>
+                <div class="flex flex-wrap gap-2">
+                  ${closing.wordsToPronounce.map(w => `
+                    <span class="px-2.5 py-1 rounded-md text-xs font-mono font-bold bg-white border border-slate-300 text-slate-800 shadow-2xs">${w}</span>
+                  `).join('')}
+                </div>
+              </div>
+            ` : ''}
+
+            <!-- Technical Checkpoints -->
+            ${(closing.checkpoints && closing.checkpoints.length) ? `
+              <div class="p-4 bg-emerald-50/60 border border-emerald-200 rounded-xl space-y-3">
+                <div class="flex items-center justify-between">
+                  <h5 class="text-xs sm:text-sm font-bold text-emerald-950">Aircraft Anatomy Mastery Checkpoints</h5>
+                  <span class="text-[11px] font-bold text-emerald-800">Verification</span>
+                </div>
+                <div class="space-y-2 text-xs text-emerald-900">
+                  ${closing.checkpoints.map(cp => `
+                    <div class="p-2.5 bg-white border border-emerald-200 rounded-lg flex items-center gap-2">
+                      <span class="text-emerald-600 font-bold">&check;</span>
+                      <span>${cp}</span>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            ` : ''}
+
+            <div class="p-3 bg-slate-50 border border-slate-200 rounded-xl flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-700">
+              <span class="text-[11px] text-slate-600">Review all 18 aircraft anatomy vocabulary terms and practice pronunciation flashcards.</span>
+              <button onclick="switchModalTab('revision')" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold text-white shadow-xs hover:opacity-90 transition-all cursor-pointer shrink-0" style="background-color: ${theme.primary};">
+                <span>View Vocabulary Flashcards</span> &rarr;
+              </button>
+            </div>
           </div>
         </div>
       `;

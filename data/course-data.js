@@ -4344,6 +4344,18 @@
             "badge": "Session Overview • Sustainable Cities & Urban Design"
           },
           "openingSession": {
+            "modeBadges": [
+              "⚡ Individual Diagnostic + Pair Peer-Check",
+              "⏱️ 5 min audit + 5 min debrief",
+              "🎯 Urban Lexis Differentiation"
+            ],
+            "instructions": [
+              "Step 1 (Headline Scan - 3 mins): Read the three weekly urban mobility news prompts. Identify which initiative has the greatest decarbonization potential.",
+              "Step 2 (Diagnostic Quiz - 4 mins): Attempt the 4 urban planning lexical distinctions without consulting notes (e.g., district heating vs CHP, permeable pavements vs swales).",
+              "Step 3 (Pair Verification - 3 mins): Compare your answers with a partner. Click 'Reveal Answer' to verify technical definitions and operational context."
+            ],
+            "deliverable": "Orally articulate the technical distinction between 2 sustainable urban design concepts using precise environmental terminology.",
+            "teacherNotes": "Focus student attention on false friends in urban planning (e.g., 'urban sprawl' vs 'compact development'). Ensure students explain why permeable pavements reduce runoff rather than just repeating definitions.",
             "title": "Activity 1: Sustainable Urbanism News & Diagnostic Warm-Up (10 mins)",
             "summary": "Opening warm-up on green municipal policies, pedestrianization, and urban heat island mitigation.",
             "newsPrompts": [
@@ -4379,6 +4391,18 @@
             }
           },
           "survey": {
+            "modeBadges": [
+              "👥 Paired Rotating Speed Survey",
+              "⏱️ 5 min prep + 15 min interviews + 5 min debrief",
+              "🎯 Structured Spoken Debate & Argumentation"
+            ],
+            "instructions": [
+              "Step 1 (Stance Preparation - 5 mins): Review the 4 municipal dilemmas. Formulate your personal stance using the suggested pros, cons, and discourse signposts.",
+              "Step 2 (Rotating Speed Survey - 15 mins): Interview at least three different peers. Challenge their assumptions regarding costs, equity, and scalability.",
+              "Step 3 (Consensus & Synthesis - 5 mins): Return to your primary partner. Synthesize the strongest trade-offs heard and prepare a 1-minute verbal briefing on the most contentious dilemma."
+            ],
+            "deliverable": "Complete the 4-dilemma survey grid with peer notes and present 1 consensus mitigation strategy to the class.",
+            "teacherNotes": "Enforce strict use of discourse signposts ('On the one hand...', 'While acknowledging the upfront capital expenditure...'). Circulate and note recurring errors in modal verbs of deduction.",
             "title": "Activity 2: Resilient Urban Innovations: Speed Survey (25 mins)",
             "summary": "Conduct speed-dating interviews on 4 pioneering urban resilience strategies deployed worldwide. Weigh pros, cons, and community trade-offs in pairs.",
             "signposts": [
@@ -4423,6 +4447,18 @@
             ]
           },
           "grammarClinic": {
+            "modeBadges": [
+              "🧠 Grammar Clinic & Interactive Drills",
+              "⏱️ 7 min concept analysis + 8 min board drills + 5 min check",
+              "🎯 Agreement Precision with Groups & Institutions"
+            ],
+            "instructions": [
+              "Step 1 (Pattern Analysis - 7 mins): Study the 3 rules for collective nouns, measurement expressions, and percentages in technical English. Notice British vs American conventions.",
+              "Step 2 (Pair Transformation Drills - 8 mins): Work through the 4 interactive drills. Justify whether the subject acts as a singular unit or individual members.",
+              "Step 3 (Error Correction - 5 mins): Check answers using the reveal toggles. Formulate two original sentences about airport or municipal transport authorities.",
+            ],
+            "deliverable": "Accurately complete all 4 interactive agreement drills and construct 2 original sentences applying collective noun agreement rules.",
+            "teacherNotes": "Highlight that in aviation and international engineering reports, institutional entities ('The committee', 'The board', 'The taskforce') take singular verbs when acting as a formal unit. Contrast with British casual usage.",
             "title": "Activity 3: Language Clinic: Subject-Verb Agreement with Collective Nouns (20 mins)",
             "summary": "Navigating tricky subject-verb agreement rules with collective nouns, complex prepositional phrases, and quantifiers in professional writing and TOEIC Part 5.",
             "rules": [
@@ -4494,6 +4530,18 @@
             ]
           },
           "roleplay": {
+            "modeBadges": [
+              "🏛️ Municipal Steering Committee Simulation",
+              "⏱️ 10 min role prep + 25 min formal debate + 10 min vote & debrief",
+              "🎯 Multi-Stakeholder Negotiation & Public Presentation"
+            ],
+            "instructions": [
+              "Step 1 (Role Assignment & Briefing - 10 mins): Divide into groups of 4. Assign the four stakeholder roles (Urban Planning Director, Transport Authority Lead, Environmental NGO Advocate, Local Merchant Association Rep). Draft your 3 core non-negotiable priorities.",
+              "Step 2 (Formal Committee Debate - 25 mins): Convene the redevelopment committee session. Present your stakeholder brief, negotiate budget allocation for the €120M brownfield redevelopment, and manage conflicting demands (pedestrianization vs delivery access).",
+              "Step 3 (Consensus Charter & Debrief - 10 mins): Vote on the 3 compromise motions. Present your committee's final consensus blueprint to the plenary chamber in a 2-minute spoken summary."
+            ],
+            "deliverable": "Deliver a 3-minute oral stakeholder intervention defending your mandate with empirical data, followed by a signed consensus compromise charter.",
+            "teacherNotes": "Act as the Municipal Mayor presiding over the steering committee. Intervene if any stakeholder dominates without listening. Demand concrete metric compromises (e.g., delivery time windows: 05:00-09:00 to reconcile merchants and pedestrian safety).",
             "title": "Activity 4: Urban Eco-District Redesign Committee (45 mins)",
             "scenario": "A 50-hectare former industrial and transit depot adjacent to the central railway station is being redeveloped into a high-density, climate-resilient eco-quarter. Form a multi-disciplinary steering committee to reach a consensus on land use, green space, active mobility, and heat mitigation.",
             "roles": [
@@ -4516,6 +4564,18 @@
             ]
           },
           "closingReview": {
+            "modeBadges": [
+              "🏁 Formative Evaluation 2 Alignment",
+              "⏱️ 5 min checklist + 5 min peer review + 5 min portfolio entry",
+              "🎯 Spoken Argumentation Assessment Readiness"
+            ],
+            "instructions": [
+              "Step 1 (Checklist Self-Audit - 5 mins): Work through the 4 Formative Evaluation 2 alignment criteria. Rate your readiness from 1 to 5.",
+              "Step 2 (Peer Feedback Exchange - 5 mins): Share one area of strength and one specific language focus (e.g., collective noun agreement, signposting) with your partner.",
+              "Step 3 (Digital Learning Log - 5 mins): Add 5 new urban planning and transport transition terms to your digital vocabulary portfolio before Session 3."
+            ],
+            "deliverable": "Complete the 4-point Formative Evaluation 2 readiness audit and commit 1 priority improvement goal to your learning log.",
+            "teacherNotes": "Remind students that Formative Evaluation 2 (FE2) focuses heavily on multi-stakeholder negotiation, managing disagreement diplomatically, and using accurate discourse connectors. Check learning logs for consistent vocabulary recording.",
             "title": "Session 2 Wrap-Up & FE2 Alignment (15 mins)",
             "feChecklist": [
               "Add 5 new urban planning and sponge city terms to your Vocabulary Log.",
@@ -12534,6 +12594,18 @@
             "duration": "120 Minutes"
           },
           "openingSession": {
+            "modeBadges": [
+              "⚡ Diagnostic Warm-Up & News Scan",
+              "⏱️ 3 min news + 4 min diagnostic + 3 min verification",
+              "🎯 Aerodynamics to Anatomy Transition"
+            ],
+            "instructions": [
+              "Step 1 (Maintenance Headlines - 3 mins): Read the three weekly maintenance and structural headlines. Identify the airframe component most vulnerable to composite fatigue.",
+              "Step 2 (Session 1 Diagnostic Check - 4 mins): Answer the 4 review questions covering forces in equilibrium and control surfaces without consulting Session 1 notes.",
+              "Step 3 (Pair Verification - 3 mins): Compare your responses with your wingman. Toggle answers to verify technical precision and aerodynamic terminology."
+            ],
+            "deliverable": "Verbally answer all 4 spot-check questions with technical accuracy using correct aviation vocabulary.",
+            "teacherNotes": "Ensure students connect Session 1's aerodynamic concepts (pitch, roll, yaw, lift) to the physical surfaces examined today (elevators, ailerons, rudder, flaps, slats).",
             "title": "Activity 1: Aviation News & Session 1 Spot-Check (10 mins)",
             "summary": "Opening news debrief followed by a rapid-fire check on aerodynamics from Session 1.",
             "newsPrompts": [
@@ -12569,6 +12641,18 @@
             }
           },
           "diagramLabeling": {
+            "modeBadges": [
+              "✈️ Airframe Anatomy Taxonomy",
+              "⏱️ 5 min diagram review + 15 min peer-teaching + 5 min plenary check",
+              "🎯 External Airframe Structural Lexis"
+            ],
+            "instructions": [
+              "Step 1 (Component Scan - 5 mins): Examine the 12 external airframe components in the technical taxonomy grid. Memorize their ATA chapter classifications and functional roles.",
+              "Step 2 (Peer-Teaching Walkthrough - 15 mins): In pairs, Student A describes a component's physical location and operational purpose without naming it; Student B identifies the part and its primary failure mode. Then swap.",
+              "Step 3 (Plenary Quick-Fire - 5 mins): Rapid-fire quiz on component abbreviations (APU, RAT, VOR/LOC, Pitot probes, static ports). Confirm precise technical pronunciation."
+            ],
+            "deliverable": "Accurately describe the location, function, and pre-flight inspection checkpoint for at least 4 airframe components to your partner.",
+            "teacherNotes": "Emphasize correct stress on aviation compound nouns: PITOT probe, HORIZONTAL stabilizer, VORTEX generator, RADOME. Watch for confusion between flaps (lift augmentation) and spoilers (lift dumping).",
             "title": "Activity 2: Airframe Anatomy Labeling Challenge (25 mins)",
             "summary": "Identify and describe the key external parts and internal zones of a commercial transport aircraft.",
             "externalParts": [
@@ -12647,6 +12731,18 @@
             ]
           },
           "spatialClinic": {
+            "modeBadges": [
+              "📐 Technical Language Clinic",
+              "⏱️ 7 min spatial syntax + 8 min description drills + 5 min check",
+              "🎯 Spatial Prepositions & Functional Relative Clauses"
+            ],
+            "instructions": [
+              "Step 1 (Spatial Grammar Analysis - 7 mins): Review the spatial preposition patterns and functional relative clauses ('located aft of', 'mounted flush with', 'which serves to prevent').",
+              "Step 2 (Guided Description Drills - 8 mins): Using the airframe diagram, construct 3 complex sentences locating antennas, sensors, and structural panels relative to major datum lines.",
+              "Step 3 (Peer Verification - 5 mins): Read your descriptions to your partner. They must identify the exact airframe zone based solely on your verbal cues."
+            ],
+            "deliverable": "Produce 3 grammatically sound spoken technical sentences combining spatial prepositions with functional relative clauses.",
+            "teacherNotes": "Drill the prepositional phrases that often cause trouble: 'forward of', 'aft of', 'inboard of', 'outboard of', 'underneath the belly'. Insist on relative clauses: '...which is designed to relieve...', '...through which air flows...'.",
             "title": "Activity 3: Language Clinic: Spatial Prepositions & Functions (20 mins)",
             "summary": "Formulating clear, professional technical descriptions of aircraft parts and their relative positions.",
             "patterns": [
@@ -12667,9 +12763,20 @@
             ]
           },
           "walkaroundRoleplay": {
+            "modeBadges": [
+              "👨‍✈️ Flight Crew & Ramp Engineer Role-Play",
+              "⏱️ 5 min card study + 20 min bilateral simulation + 5 min debrief",
+              "🎯 Defect Reporting & Technical Dialogue"
+            ],
+            "instructions": [
+              "Step 1 (Defect Briefing - 5 mins): Study the 3 defect scenario cards. Student A takes the role of the Captain conducting the pre-departure walkaround; Student B takes the role of the Ramp Line Maintenance Engineer.",
+              "Step 2 (Spoken Walkaround Simulation - 20 mins): Perform the bilateral spoken inspection dialogue for all defect cards. Captain describes the physical defect observed; Engineer assesses airworthiness and recommends maintenance action or deferral.",
+              "Step 3 (Role Reversal & Debrief - 5 mins): Swap roles for the second scenario. Evaluate whether your dialogue maintained professional aviation decorum and clear technical phraseology."
+            ],
+            "deliverable": "Conduct a realistic walkaround dialogue applying standard aviation terminology for damage (gouges, delamination, hydraulic weeping, bird strike).",
+            "teacherNotes": "Listen for realistic aviation communication: clear, concise, objective. Discourage vague language ('it looks broken'); require specific technical descriptors ('there is hydraulic weeping around the actuator seal', 'delamination extending 3 centimeters').",
             "title": "Activity 4: Pre-Flight Exterior Walkaround Role-Play (30 mins)",
             "summary": "Captain & Line Maintenance Engineer simulation: performing a 360-degree exterior walkaround and reporting simulated defects.",
-            "instructions": "Student A is the Captain conducting the pre-departure walkaround; Student B is the Ramp Line Engineer. Use the defect cards below to conduct the inspection and decide if the aircraft is airworthy.",
             "defectCards": [
               {
                 "item": "Card 1: Radome Inspection",
@@ -12692,7 +12799,19 @@
             ]
           },
           "cockpitSystemsHandover": {
-            "title": "Activity 5: Cockpit & Cabin Defect Handover Workshop (25 mins)",
+            "modeBadges": [
+              "📋 Dispatch & MEL Technical Workshop",
+              "⏱️ 5 min MEL review + 15 min crew deliberation + 5 min dispatch decision",
+              "🎯 Minimum Equipment List & Airworthiness Assessment"
+            ],
+            "instructions": [
+              "Step 1 (MEL Dispatch Framework - 5 mins): Review the 3 maintenance status items in the Minimum Equipment List (MEL) log (APU inoperative, lavatory door latch jammed, weather radar inoperative).",
+              "Step 2 (Crew Deliberation - 15 mins): In pairs, deliberate on each defect. Determine whether the aircraft is: (A) Go / Fit to Dispatch, (B) Go with Operational Limitations, or (C) No-Go / Grounded until rectification.",
+              "Step 3 (Technical Dispatch Briefing - 5 mins): Deliver your final verbal dispatch briefing to the Station Operations Control (SOC) justifying your go/no-go recommendation based on MEL conditions."
+            ],
+            "deliverable": "Present a structured 2-minute verbal dispatch recommendation to the class for all 3 MEL items citing operational restrictions.",
+            "teacherNotes": "Ensure students know what MEL Category A, B, C, and D mean in aviation. Ask: 'Can we dispatch with an inoperative APU if ground power and air start units are available at the destination?' Require technical justification.",
+            "title": "Activity 5: Minimum Equipment List (MEL) Dispatch Workshop (25 mins)",
             "summary": "Reviewing the Minimum Equipment List (MEL) to make safe dispatch decisions for inoperative equipment.",
             "melItems": [
               {
@@ -12710,7 +12829,19 @@
             ]
           },
           "closingReview": {
-            "title": "Activity 6: Vocabulary Review & Pronunciation Wrap-Up (10 mins)",
+            "modeBadges": [
+              "🏁 Final Technical Wrap-Up",
+              "⏱️ 5 min pronunciation drill + 5 min portfolio audit",
+              "🎯 Aircraft Anatomy Lexis & Syllable Stress"
+            ],
+            "instructions": [
+              "Step 1 (Syllable Stress Drill - 5 mins): Drill the tricky multisyllabic aircraft components (fu-se-LAGE, emp-en-NAGE, hy-DRAU-lic, RA-dome, sta-bi-LI-zer, AI-ler-on). Focus on primary and secondary stress.",
+              "Step 2 (Technical Checkpoints Audit - 3 mins): In pairs, confirm you can name 6 external parts, explain 2 walkaround defect types, and define the purpose of an MEL dispatch item.",
+              "Step 3 (Study Assignment - 2 mins): Review the 18 vocabulary flashcards in the Revision tab and complete the Session 2 TOEIC practice questions before Session 3."
+            ],
+            "deliverable": "Demonstrate accurate pronunciation and primary stress placement on 6 multisyllabic aircraft parts and confirm mastery of key anatomy concepts.",
+            "teacherNotes": "Conduct a choral pronunciation drill for 'fuselage' (/ˈfjuːzəlɑːʒ/) and 'empennage' (/ˌɒmpɪˈnɑːʒ/). Preview Session 3: Commercial Aircraft & Fleet Types (narrow-body, wide-body, regional).",
+            "title": "Activity 6: Vocabulary Review & Class Wrap-Up (10 mins)",
             "summary": "Drill tricky aeronautical component pronunciation and consolidate learning logs ahead of Session 3.",
             "wordsToPronounce": [
               "fu-se-lage",
@@ -12719,6 +12850,11 @@
               "ra-dome",
               "sta-bi-li-zer",
               "ail-er-on"
+            ],
+            "checkpoints": [
+              "Can you accurately describe the location and function of the radome, pitot probes, APU, and static ports?",
+              "Can you use spatial prepositions (forward of, aft of, mounted flush with) to direct an engineer to an airframe defect?",
+              "Can you evaluate an airframe defect against the Minimum Equipment List (MEL) and justify a dispatch decision?"
             ]
           }
         },
