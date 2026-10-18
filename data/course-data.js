@@ -14488,1799 +14488,2704 @@
     }
   },
   "3": {
-    "id": 3,
-    "name": "Module 3",
-    "title": "Safety and Security",
-    "ddrs": {
-      "title": "Développement Durable & Responsabilité Sociétale : Tags et Définitions Officielles",
-      "summary": "Le Référentiel National DD&RS de l'Enseignement Supérieur et de la Recherche (Label DD&RS) structure les engagements écologiques, sociétaux et éthiques des établissements et des grands projets de transport selon 5 axes stratégiques et leurs domaines transversaux d'application.",
-      "pageUrl": "ddrs3.html",
-      "axes": [
+  "id": 3,
+  "name": "Module 3",
+  "title": "Health, Meteorology, Safety & Security",
+  "ddrs": {
+    "title": "Développement Durable & Responsabilité Sociétale : Santé, Climat & Sécurité Aéronautique",
+    "summary": "Le Référentiel National DD&RS appliqué au transport aérien structure la santé au travail des personnels navigants et contrôleurs, l'adaptation opérationnelle aux aléas météorologiques extrêmes, la culture juste de sécurité et la gouvernance éthique des technologies de sûreté.",
+    "pageUrl": "ddrs3.html",
+    "axes": [
+      {
+        "badge": "Axe 1",
+        "num": "1.",
+        "title": "Gouvernance, Culture Juste & Sécurité (Safety Culture)",
+        "desc": "Mise en œuvre d'une culture juste (Just Culture) non-punitive encourageant le signalement volontaire des incidents médicaux, de fatigue ou de sécurité technique pour prévenir les accidents systémiques."
+      },
+      {
+        "badge": "Axe 2",
+        "num": "2.",
+        "title": "Formation, Facteurs Humains & Santé Aéromédicale",
+        "desc": "Formation continue des équipages et contrôleurs aériens à la gestion du sommeil, aux limitations de temps de vol (FTL), à la santé mentale et à la prise en charge des urgences médicales en vol."
+      },
+      {
+        "badge": "Axe 3",
+        "num": "3.",
+        "title": "Recherche & Prévision Météorologique Avancée",
+        "desc": "Développement de capteurs de détection précoce du cisaillement de vent (LLWS), prévision numérique des turbulences en air clair (CAT) et modélisation de la dispersion des cendres volcaniques."
+      },
+      {
+        "badge": "Axe 4",
+        "num": "4.",
+        "title": "Résilience Climatique des Plateformes Aéroportuaires",
+        "desc": "Adaptation des infrastructures aéroportuaires aux vagues de chaleur extrême (dégradation des performances de décollage), aux épisodes d'inondations et aux tempêtes hivernales sévères."
+      },
+      {
+        "badge": "Axe 5",
+        "num": "5.",
+        "title": "Éthique, Protection des Données & Sûreté Non-Intrusive",
+        "desc": "Garantie des libertés fondamentales et respect du RGPD dans le déploiement des scanners corporels à ondes millimétriques, des portiques biométriques et de la détection comportementale en aéroport."
+      }
+    ],
+    "items": [
+      {
+        "badge": "Axe 1",
+        "num": "1.",
+        "title": "Culture Juste & Signalement Volontaire (Just Culture)",
+        "desc": "Principe fondamental selon lequel les personnels de première ligne ne sont pas sanctionnés pour des erreurs ou des aveux spontanés de fatigue, garantissant une remontée transparente des risques.",
+        "isMuted": false
+      },
+      {
+        "badge": "Axe 2",
+        "num": "2.",
+        "title": "Santé Mentale & Prévention du Burnout en Milieu Aéronautique",
+        "desc": "Protocoles d'assistance psychologique par les pairs (Peer Support Programs) et surveillance du stress professionnel chez les pilotes de ligne et les contrôleurs aériens (ATCOs).",
+        "isMuted": false
+      },
+      {
+        "badge": "Axe 3",
+        "num": "3.",
+        "title": "Systèmes de Gestion des Risques liés à la Fatigue (FRMS)",
+        "desc": "Modélisation scientifique du rythme circadien, gestion du manque de sommeil accumulé et respect rigoureux des Flight Time Limitations (FTL) certifiées par l'EASA.",
+        "isMuted": false
+      },
+      {
+        "badge": "Axe 4",
+        "num": "4.",
+        "title": "Adaptation Opérationnelle aux Turbulences en Air Clair (CAT)",
+        "desc": "Partage en temps réel des données d'accélérométrie des aéronefs pour cartographier les ondes orographiques et minimiser les blessures des passagers en cabine.",
+        "isMuted": false
+      },
+      {
+        "badge": "Axe 5",
+        "num": "5.",
+        "title": "Protection de la Vie Privée & Sûreté Aéroportuaire",
+        "desc": "Encadrement juridique strict de l'utilisation des algorithmes de reconnaissance faciale aux frontières et anonymisation des images de détection corporelle.",
+        "isMuted": false
+      }
+    ]
+  },
+  "sessions": {
+    "1": {
+      "session": 1,
+      "objectives": {
+        "title": "Session 1 - Health & Human Factors in Aviation Objectives",
+        "summary": "By the end of this session, you will be able to recognize and report in-flight medical emergencies, analyze pilot and controller fatigue using scientific human factors frameworks, apply the IMSAFE self-assessment model, execute a medical diversion decision protocol, and pronounce aeromedical vocabulary with accurate syllable stress.",
+        "items": [
+          {
+            "num": 1,
+            "title": "Identify & Classify In-Flight Medical Conditions (Clinical & Operational Lexis)",
+            "description": "Distinguish between urgent conditions (cardiac arrest, stroke, anaphylaxis) and common inflight distress (panic attacks, hyperventilation, claustrophobia, airsickness) using professional aeronautical English."
+          },
+          {
+            "num": 2,
+            "title": "Analyze Crew & Controller Fatigue (Human Factors & Circadian Physics)",
+            "description": "Explain the physiological mechanisms of sleep debt, the Window of Circadian Low (WOCL), and evaluate Flight Time Limitations (FTL) and ATCO break cycles under EASA/FAA regulations."
+          },
+          {
+            "num": 3,
+            "title": "Apply the IMSAFE Aeromedical Fitness Checklist",
+            "description": "Systematically assess fitness to fly using the 6 IMSAFE criteria: Illness, Medication, Stress, Alcohol, Fatigue, and Emotion/Eating."
+          },
+          {
+            "num": 4,
+            "title": "Execute In-Flight Medical Diversion Decision-Making",
+            "description": "Collaborate in flight crew roles to evaluate hospital proximity, runway length, weather minimums, and fuel jettison requirements when declaring PAN-PAN MEDICO vs. MAYDAY."
+          },
+          {
+            "num": 5,
+            "title": "Evaluate Spatial Disorientation & Altitude Physics",
+            "description": "Describe vestibular illusions (the leans, somatogravic illusion), hypoxia onset symptoms, and rapid emergency descent procedures from FL370."
+          }
+        ]
+      },
+      "lessonPlan": {
+        "title": "Session 1 Lesson Plan: Health & Human Factors (2 Hours)",
+        "summary": "A 120-minute operational syllabus combining warm-up aeromedical diagnostics, condition triage lexis, fatigue regulations clinic, airborne medical diversion simulation, and pronunciation consolidation.",
+        "items": [
+          {
+            "time": "00-10",
+            "title": "Activity 1: Aviation Health News & Diagnostic Spot-Check (10 mins)",
+            "description": "Plenary warm-up discussing recent medical diversions and completing a 5-question baseline aeromedical diagnostic."
+          },
+          {
+            "time": "10-30",
+            "title": "Activity 2: In-Flight Medical Emergencies & Triage Lexis (20 mins)",
+            "description": "Paired classification of 18 medical conditions, cabin emergency medical kits (EMK), and ground telemedicine (MedLink) procedures."
+          },
+          {
+            "time": "30-50",
+            "title": "Activity 3: Language Clinic: Crew & Controller Fatigue, Circadian Rhythms & FTL (20 mins)",
+            "description": "Analysis of circadian disruptions, sleep debt, EASA Flight Time Limitations, and applying the IMSAFE fitness model."
+          },
+          {
+            "time": "50-85",
+            "title": "Activity 4: Airborne Medical Diversion Simulation & Decision Matrix (35 mins)",
+            "description": "Small-group simulation evaluating 3 critical airborne medical emergency scenarios requiring operational diversion and ATC priority."
+          },
+          {
+            "time": "85-110",
+            "title": "Activity 5: Aeromedical Physics: Spatial Disorientation, Hypoxia & Emergency Descent (25 mins)",
+            "description": "Plenary debrief on vestibular illusions, rapid decompression protocols, and Time of Useful Consciousness (TUC)."
+          },
+          {
+            "time": "110-120",
+            "title": "Activity 6: Medical & Human Factors Consolidation & Syllable Stress (10 mins)",
+            "description": "Pronunciation drills on medical terminology, checkpoints audit, and flashcard revision."
+          }
+        ]
+      },
+      "revision": [
         {
-          "badge": "Axe 1",
-          "num": "1.",
-          "title": "Gouvernance et Stratégie",
-          "desc": "Intégration du développement durable dans la vision, le projet d'établissement et le pilotage décisionnel. Dialogue continu avec les parties prenantes (étudiants, personnels, collectivités, partenaires), allocation de budgets dédiés et suivi d'indicateurs d'impact mesurables."
+          "num": "01",
+          "term": "cardiac arrest",
+          "phonetic": "/ˌkɑːr.di.æk əˈrest/",
+          "pos": "noun phrase",
+          "definition": "The sudden, abrupt cessation of normal heart pump function, requiring immediate CPR and defibrillation.",
+          "example": "When a passenger suffered cardiac arrest at FL350, cabin crew deployed the onboard AED within ninety seconds."
         },
         {
-          "badge": "Axe 2",
-          "num": "2.",
-          "title": "Formation et Pédagogie",
-          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-écologique (limites planétaires, climat, biodiversité). Intégration transversale des compétences DD&RS (rapport Jouzel / socle MESR) pour préparer les ingénieurs à la prise de décision éthique et responsable."
+          "num": "02",
+          "term": "automated external defibrillator (AED)",
+          "phonetic": "/ˌɔː.tə.meɪ.tɪd ɪkˈstɜːr.nəl dɪˈfɪb.rə.leɪ.tər/",
+          "pos": "noun phrase",
+          "definition": "A portable electronic device that automatically diagnoses life-threatening cardiac arrhythmias and delivers therapeutic electrical shocks.",
+          "example": "EASA regulations require every commercial passenger aircraft with more than thirty seats to carry at least one certified AED."
         },
         {
-          "badge": "Axe 3",
-          "num": "3.",
-          "title": "Recherche et Innovation",
-          "desc": "Orientation et valorisation de l'activité scientifique et technologique en réponse aux Objectifs de Développement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, éco-conception et transfert de technologies vertes au service de la société."
+          "num": "03",
+          "term": "hyperventilation",
+          "phonetic": "/ˌhaɪ.pərˌven.tɪˈleɪ.ʃən/",
+          "pos": "noun",
+          "definition": "Abnormally rapid and deep breathing often triggered by acute panic, leading to excessive carbon dioxide loss and muscle spasms.",
+          "example": "Flight attendants guided the hyperventilating passenger through slow diaphragmatic breathing into a paper sickness bag."
         },
         {
-          "badge": "Axe 4",
-          "num": "4.",
-          "title": "Gestion Environnementale",
-          "desc": "Maîtrise et réduction continue des impacts écologiques directs : décarbonation des mobilités pendulaires et professionnelles, efficacité et sobriété énergétique du patrimoine bâti, gestion circulaire des déchets, préservation de la biodiversité sur site et achats publics responsables."
+          "num": "04",
+          "term": "claustrophobia",
+          "phonetic": "/ˌklɒs.trəˈfəʊ.bi.ə/",
+          "pos": "noun",
+          "definition": "An irrational or acute fear of being trapped in enclosed spaces, commonly triggered during cabin boarding or prolonged taxi delays.",
+          "example": "Severe claustrophobia caused a passenger to demand immediate gate return while the aircraft was holding at the runway threshold."
         },
         {
-          "badge": "Axe 5",
-          "num": "5.",
-          "title": "Politique Sociale et Inclusion",
-          "desc": "Engagement institutionnel pour la responsabilité sociétale : égalité professionnelle femmes-hommes, inclusion et accessibilité des personnes en situation de handicap, égalité des chances, amélioration de la qualité de vie et santé globale, et prévention de toute forme de discrimination."
+          "num": "05",
+          "term": "panic attack",
+          "phonetic": "/ˈpæn.ɪk əˌtæk/",
+          "pos": "noun phrase",
+          "definition": "A sudden episode of overwhelming fear, palpitations, trembling, and shortness of breath without objective physical danger.",
+          "example": "Cabin crew relocated the passenger experiencing a panic attack to an empty row near the forward galley."
+        },
+        {
+          "num": "06",
+          "term": "airsickness",
+          "phonetic": "/ˈeəˌsɪk.nəs/",
+          "pos": "noun",
+          "definition": "Motion sickness caused by vestibular sensory conflict between inner ear fluid motion and visual reference during turbulent flight.",
+          "example": "Persistent moderate clear air turbulence resulted in multiple passengers requesting airsickness bags and cold compresses."
+        },
+        {
+          "num": "07",
+          "term": "hypoxia",
+          "phonetic": "/haɪˈpɒk.si.ə/",
+          "pos": "noun",
+          "definition": "A dangerous physiological deficiency in the amount of oxygen reaching bodily tissues, characterized by euphoria, confusion, and cyanosis.",
+          "example": "At FL390, a gradual slow cabin depressurization can induce insidious hypoxia before pilots notice physiological degradation."
+        },
+        {
+          "num": "08",
+          "term": "deep vein thrombosis (DVT)",
+          "phonetic": "/diːp veɪn θrɒmˈbəʊ.sɪs/",
+          "pos": "noun phrase",
+          "definition": "The formation of a blood clot in deep leg veins caused by prolonged physical immobility, low humidity, and cabin pressure.",
+          "example": "Long-haul passenger health brochures encourage in-seat calf flexing exercises to minimize the risk of deep vein thrombosis."
+        },
+        {
+          "num": "09",
+          "term": "syncope",
+          "phonetic": "/ˈsɪŋ.kə.pi/",
+          "pos": "noun",
+          "definition": "A temporary loss of consciousness caused by a transient fall in blood pressure to the brain (fainting).",
+          "example": "Standing up abruptly after a nine-hour transoceanic flight led to vasovagal syncope in the aircraft aisle."
+        },
+        {
+          "num": "10",
+          "term": "emergency medical kit (EMK)",
+          "phonetic": "/ɪˈmɜː.dʒən.si ˈmed.ɪ.kəl kɪt/",
+          "pos": "noun phrase",
+          "definition": "A sealed, comprehensive diagnostic and pharmaceutical kit reserved strictly for use by qualified medical professionals on board.",
+          "example": "The physician volunteer broke the tamper seal of the emergency medical kit to administer intravenous epinephrine."
+        },
+        {
+          "num": "11",
+          "term": "first aid kit (FAK)",
+          "phonetic": "/fɜːst eɪd kɪt/",
+          "pos": "noun phrase",
+          "definition": "A standard onboard medical kit accessible to cabin crew for treating minor lacerations, burns, and localized trauma.",
+          "example": "Cabin crew retrieved sterile dressings from the forward first aid kit to bandage a minor galley laceration."
+        },
+        {
+          "num": "12",
+          "term": "telemedicine",
+          "phonetic": "/ˌtel.ɪˈmed.ɪ.sɪn/",
+          "pos": "noun",
+          "definition": "Real-time communication between flight crew and specialized ground emergency physicians via satellite voice and telemetry links.",
+          "example": "The Captain contacted MedLink via satellite phone to obtain clinical guidance on whether an immediate diversion was warranted."
+        },
+        {
+          "num": "13",
+          "term": "Good Samaritan clause",
+          "phonetic": "/ɡʊd səˈmær.ɪ.tən klɔːz/",
+          "pos": "noun phrase",
+          "definition": "A legal provision exempting medical practitioners from civil liability when voluntarily rendering emergency aid in good faith.",
+          "example": "A travelling cardiologist stepped forward under the airline's Good Samaritan clause to assist the collapsed passenger."
+        },
+        {
+          "num": "14",
+          "term": "PAN-PAN MEDICO",
+          "phonetic": "/pæn pæn ˈmed.ɪ.kəʊ/",
+          "pos": "phrase",
+          "definition": "An international radio urgency call transmitted to Air Traffic Control indicating a serious medical condition requiring priority routing.",
+          "example": "The crew declared PAN-PAN MEDICO to request straight-in approach vectors and an ambulance standside upon landing."
+        },
+        {
+          "num": "15",
+          "term": "circadian rhythm",
+          "phonetic": "/sɜːˈkeɪ.di.ən ˈrɪð.əm/",
+          "pos": "noun phrase",
+          "definition": "The biological 24-hour internal clock regulating sleep-wake cycles, body temperature, and cognitive alertness in humans.",
+          "example": "Crossing eight time zones severely disrupted the pilots' circadian rhythm, requiring monitored recovery layovers."
+        },
+        {
+          "num": "16",
+          "term": "Flight Time Limitations (FTL)",
+          "phonetic": "/flaɪt taɪm ˌlɪm.ɪˈteɪ.ʃənz/",
+          "pos": "noun phrase",
+          "definition": "Mandatory aviation authority regulations governing maximum flight duty periods and minimum rest rest periods to prevent pilot fatigue.",
+          "example": "Because of weather holding, the crew calculated they would exceed their maximum legal FTL unless dispatched immediately."
+        },
+        {
+          "num": "17",
+          "term": "spatial disorientation",
+          "phonetic": "/ˈspeɪ.ʃəl dɪs.ɔː.ri.enˈteɪ.ʃən/",
+          "pos": "noun phrase",
+          "definition": "The inability of a pilot to correctly perceive the true attitude, altitude, or motion of an aircraft relative to the Earth.",
+          "example": "Flying in cloud without visual reference, the pilot experienced a somatogravic illusion and trusted instruments over bodily sensations."
+        },
+        {
+          "num": "18",
+          "term": "IMSAFE checklist",
+          "phonetic": "/ˈɪm.seɪf ˈtʃek.lɪst/",
+          "pos": "noun phrase",
+          "definition": "A pre-flight personal fitness self-assessment mnemonic: Illness, Medication, Stress, Alcohol, Fatigue, and Emotion/Eating.",
+          "example": "Before reporting for departure, every aviator must run through the IMSAFE checklist to ensure complete fitness for duty."
         }
       ],
-      "items": [
-        {
-          "badge": "Axe 1",
-          "num": "1.",
-          "title": "Gouvernance et Stratégie",
-          "desc": "Intégration du développement durable dans la vision, le projet d'établissement et le pilotage décisionnel. Dialogue continu avec les parties prenantes (étudiants, personnels, collectivités, partenaires), allocation de budgets dédiés et suivi d'indicateurs d'impact mesurables.",
-          "isMuted": false
-        },
-        {
-          "badge": "Axe 2",
-          "num": "2.",
-          "title": "Formation et Pédagogie",
-          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-écologique (limites planétaires, climat, biodiversité). Intégration transversale des compétences DD&amp;RS (rapport Jouzel / socle MESR) pour préparer les ingénieurs à la prise de décision éthique et responsable.",
-          "isMuted": false
-        },
-        {
-          "badge": "Axe 3",
-          "num": "3.",
-          "title": "Recherche et Innovation",
-          "desc": "Orientation et valorisation de l'activité scientifique et technologique en réponse aux Objectifs de Développement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, éco-conception et transfert de technologies vertes au service de la société.",
-          "isMuted": false
-        },
-        {
-          "badge": "Axe 4",
-          "num": "4.",
-          "title": "Gestion Environnementale",
-          "desc": "Maîtrise et réduction continue des impacts écologiques directs : décarbonation des mobilités pendulaires et professionnelles, efficacité et sobriété énergétique du patrimoine bâti, gestion circulaire des déchets, préservation de la biodiversité sur site et achats publics responsables.",
-          "isMuted": false
-        },
-        {
-          "badge": "Axe 5",
-          "num": "5.",
-          "title": "Politique Sociale et Inclusion",
-          "desc": "Engagement institutionnel pour la responsabilité sociétale : égalité professionnelle femmes-hommes, inclusion et accessibilité des personnes en situation de handicap, égalité des chances, amélioration de la qualité de vie et santé globale, et prévention de toute forme de discrimination.",
-          "isMuted": true
-        },
-        {
-          "badge": "Tag",
-          "num": "6.",
-          "title": "Mobilité Durable &amp; Report Modal (Sustainable Mobility)",
-          "desc": "Stratégie d'optimisation des transports articulée autour de la hiérarchie « Éviter - Transférer - Améliorer » (ASI). Promotion active du report modal vers le ferroviaire, les transports en commun et les mobilités douces face à l'autosolisme et aux vols court-courriers.",
-          "isMuted": true
-        },
-        {
-          "badge": "Tag",
-          "num": "7.",
-          "title": "Bilan d'Émissions de GES (BEGES / Bilan Carbone)",
-          "desc": "Comptabilisation réglementaire des gaz à effet de serre (méthode ADEME / ISO 14064) sur les trois périmètres : Scope 1 (émissions directes), Scope 2 (émissions indirectes énergétiques) et Scope 3 (émissions indirectes amont/aval : déplacements, achats, logistique et cycle de vie).",
-          "isMuted": false
-        },
-        {
-          "badge": "Tag",
-          "num": "8.",
-          "title": "Sobriété Énergétique &amp; Efficacité",
-          "desc": "Démarche articulant la sobriété (questionnement et réduction des consommations par la modification des comportements et des usages collectifs) et l'efficacité (optimisation technique des rendements énergétiques pour un même niveau de service).",
-          "isMuted": false
-        },
-        {
-          "badge": "Tag",
-          "num": "9.",
-          "title": "Préservation de la Biodiversité &amp; Zéro Artificialisation Nette (ZAN)",
-          "desc": "Protection des écosystèmes et des continuités écologiques (trames vertes et bleues). Application des exigences légales (loi Climat et Résilience) visant à stopper la disparition nette d'espaces naturels et agricoles causée par les infrastructures et l'aménagement.",
-          "isMuted": true
-        },
-        {
-          "badge": "Tag",
-          "num": "10.",
-          "title": "Équité Territoriale &amp; Accessibilité (Territorial Equity)",
-          "desc": "Principe de justice spatiale garantissant un accès universel, abordable et sécurisé aux réseaux de transport et aux services d'intérêt général pour l'ensemble des territoires (urbains, périurbains et ruraux), luttant contre la fracture et la précarité mobilité.",
-          "isMuted": false
-        },
-        {
-          "badge": "Tag",
-          "num": "11.",
-          "title": "Achats Responsables &amp; Analyse du Cycle de Vie (ACV / LCA)",
-          "desc": "Intégration systématique de critères environnementaux et sociaux dans la commande publique et privée. Évaluation globale des impacts de chaque produit, infrastructure ou service de son extraction jusqu'à son recyclage ou élimination finale.",
-          "isMuted": false
-        },
-        {
-          "badge": "Tag",
-          "num": "12.",
-          "title": "Objectifs de Développement Durable (ODD - Agenda 2030)",
-          "desc": "Cadre universel des Nations Unies comprenant 17 objectifs interdépendants pour concilier prospérité économique, progrès social et protection de la biosphère. Les politiques de transport et d'ingénierie s'articulent principalement autour des ODD 9, 11, 12 et 13.",
-          "isMuted": false
-        }
-      ]
-    },
-    "sessions": {
-      "1": {
-        "session": 1,
-        "objectives": {
-          "title": "Session 1 - Artificial Intelligence Objectives",
-          "summary": "By the end of this session, you will be able to discuss artificial intelligence and automation in everyday life and workplaces with confidence, use key vocabulary and grammar, and build the skills needed for your TOEIC test and Session 5 evaluation.",
-          "items": [
-            {
-              "num": 1,
-              "title": "Practice Reading TOEIC Technology Notices & Emails",
-              "description": "Read technical announcements, office memos, and software update notices typical of TOEIC Part 7."
-            },
-            {
-              "num": 2,
-              "title": "Master Everyday AI & Automation Vocabulary",
-              "description": "Learn and use key terms for machine learning, predictive tools, autonomous systems, and digital assistants."
-            },
-            {
-              "num": 3,
-              "title": "Understand Active vs. Passive Voice in Technical English",
-              "description": "Identify when an action is done by a system (active) versus to a system (passive: is tested, must be reviewed)."
-            },
-            {
-              "num": 4,
-              "title": "Evaluate AI Ethics, Employment & Social Impact (DDRS)",
-              "description": "Discuss how artificial intelligence affects employment, data privacy, and ethical decision-making in society."
-            },
-            {
-              "num": 5,
-              "title": "Build Fluency for the Session 5 Evaluation",
-              "description": "Practice expressing opinions and evaluating technology trends clearly in pair and group discussions."
-            }
-          ]
-        },
-        "lessonPlan": {
-          "title": "Session 1 Lesson Plan (2 Hours)",
-          "summary": "A 2-hour session agenda combining conversational warm-ups, TOEIC test practice, vocabulary building, speaking activities, and evaluation preparation.",
-          "items": [
-            {
-              "time": "0-15",
-              "title": "Conversational Warm-Up: AI in Daily Life (15 mins)",
-              "description": "Students discuss which AI tools they use regularly and whether AI improves their productivity or creates challenges."
-            },
-            {
-              "time": "15-45",
-              "title": "TOEIC Strategy: Tech Notices & Work Memos (30 mins)",
-              "description": "Practice reading workplace IT guidelines, software rollouts, and tech policy announcements in Part 6 and 7."
-            },
-            {
-              "time": "45-65",
-              "title": "Vocabulary Builder: Automation & Intelligence (20 mins)",
-              "description": "Everyday terms for algorithms, machine learning, predictive analytics, automation, and algorithmic bias."
-            },
-            {
-              "time": "65-110",
-              "title": "Structured Discussion & Grammar (45 mins)",
-              "description": "Discuss the social and job impacts of AI using the Passive Voice (data is collected, decisions are made by algorithms)."
-            },
-            {
-              "time": "110-120",
-              "title": "Debrief, Evaluation Prep & Wrap-Up (10 mins)",
-              "description": "Language review, feedback on passive voice accuracy, and Session 5 evaluation rubric check."
-            }
-          ]
-        },
-        "revision": {
-          "title": "Session 1: Artificial Intelligence",
-          "summary": "Review the 18 key terms for Artificial Intelligence to build your fluency in discussions, professional reading, and TOEIC practice.",
-          "terms": [
-            {
-              "num": "01",
-              "term": "Predictive Maintenance",
-              "definition": "Using sensor telemetry and machine learning models to forecast equipment failures before costly breakdowns occur in industrial and transport systems."
-            },
-            {
-              "num": "02",
-              "term": "Machine Learning (ML)",
-              "definition": "Algorithms that train statistical models on historical data to identify patterns and make predictions without explicit rules."
-            },
-            {
-              "num": "03",
-              "term": "Neural Network",
-              "definition": "A computational model inspired by biological brains, composed of layered interconnected nodes that process complex data."
-            },
-            {
-              "num": "04",
-              "term": "Digital Twin",
-              "definition": "A virtual real-time digital replica of a physical machine, building, or transport system used to simulate stress, wear, and performance."
-            },
-            {
-              "num": "05",
-              "term": "Human-in-the-Loop (HITL)",
-              "definition": "A system architecture where an automated algorithm requires human operator validation before executing critical actions."
-            },
-            {
-              "num": "06",
-              "term": "Algorithmic Bias",
-              "definition": "Systematic and unfair discriminatory outcomes in automated decisions caused by skewed training datasets."
-            },
-            {
-              "num": "07",
-              "term": "Computer Vision",
-              "definition": "AI technology enabling computers and automated software to analyze, interpret, and extract meaningful data from digital images and real-time video feeds."
-            },
-            {
-              "num": "08",
-              "term": "Generative AI",
-              "definition": "Artificial intelligence systems (such as large language models and image generators) capable of creating original text, images, code, or media from human prompts."
-            },
-            {
-              "num": "09",
-              "term": "Natural Language Processing (NLP)",
-              "definition": "Algorithms enabling computers to parse, understand, interpret, and generate human speech and written language across software applications."
-            },
-            {
-              "num": "10",
-              "term": "Compute Carbon Footprint",
-              "definition": "The substantial electrical energy and greenhouse emissions produced by massive AI model training data centers."
-            },
-            {
-              "num": "11",
-              "term": "Explainable AI (XAI)",
-              "definition": "Machine learning models designed so that human engineers can clearly understand and audit how decisions were reached."
-            },
-            {
-              "num": "12",
-              "term": "Workplace Automation",
-              "definition": "The application of AI algorithms, software bots, and robotic systems to perform repetitive professional and administrative tasks previously handled by humans."
-            },
-            {
-              "num": "13",
-              "term": "Deterministic Algorithm",
-              "definition": "A computational process that produces the exact same output every time given a specific set of input parameters."
-            },
-            {
-              "num": "14",
-              "term": "AI Hallucination",
-              "definition": "An occurrence where a generative AI model creates incorrect, fabricated, or nonsensical information while presenting it with high grammatical confidence."
-            },
-            {
-              "num": "15",
-              "term": "Synthetic Training Data",
-              "definition": "Artificially generated computer datasets used to train machine learning models on complex, rare, or safety-critical scenarios without real-world risk."
-            },
-            {
-              "num": "16",
-              "term": "Black Box Algorithm",
-              "definition": "A deep neural network whose internal decision weights cannot be directly inspected or explained by human operators."
-            },
-            {
-              "num": "17",
-              "term": "Cyber-Physical Security",
-              "definition": "Protecting integrated AI software and physical avionics hardware from malicious interference or spoofing."
-            },
-            {
-              "num": "18",
-              "term": "Ethical AI Guidelines",
-              "definition": "Formal regulatory standards, transparency rules, and corporate governance frameworks designed to ensure artificial intelligence is deployed safely, equitably, and without bias."
-            }
-          ]
-        },
-        "materials": {
-          "videos": [
-            {
-              "title": "Video 1: How Artificial Intelligence Actually Works",
-              "watchUrl": "https://www.youtube.com/watch?v=aircAruvnKk",
-              "tag": "AI Fundamentals",
-              "videoId": "aircAruvnKk",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/aircAruvnKk",
-              "caption": "Focus: Accessible breakdown of machine learning algorithms, deep neural networks, and how models process complex data patterns."
-            },
-            {
-              "title": "Video 2: Generative AI & The Future of Everyday Work",
-              "watchUrl": "https://www.youtube.com/watch?v=DVpTpx9Avf0",
-              "tag": "Workplace Tech",
-              "videoId": "DVpTpx9Avf0",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/DVpTpx9Avf0",
-              "caption": "Focus: Exploring how large language models and automated bots are transforming professional workflows and everyday administrative tasks."
-            },
-            {
-              "title": "Video 3: Active vs. Passive Voice in Technology Reports",
-              "watchUrl": "https://www.youtube.com/watch?v=nI5zaB6QL-o",
-              "tag": "Grammar Focus",
-              "videoId": "nI5zaB6QL-o",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/nI5zaB6QL-o",
-              "caption": "Focus: Targeted practice on using the passive voice accurately to describe automated technical processes, algorithms, and system outputs."
-            }
-          ],
-          "grammar": {
-            "title": "Active vs. Passive Voice",
-            "badge": "B1–B2 Grammar Focus",
-            "patternTitle": "How Both Voices Work",
-            "formula": "Active: Subject + Action + Object | Passive: Receiver + [be] + Past Participle (V3)",
-            "rulesTitle": "Core Distinction",
-            "rules": [
-              "<strong style=\"color: #1e293b;\">1. Active Voice (Subject does the action):</strong> Use when you want to focus on who or what does the work (<span style=\"font-weight: 700; color: #60854b;\">\"Engineers test the software\"</span>).",
-              "<strong style=\"color: #1e293b;\">2. Passive Voice (Subject receives the action):</strong> Formed with <span style=\"font-weight: 700; color: #60854b;\">[be] + Past Participle (V3)</span>. Very common in aviation manuals and safety reports when the result is more important than who did it (<em>\"The software is tested\"</em>).",
-              "<strong style=\"color: #1e293b;\">3. Passive with Modal Verbs:</strong> Formed with <span style=\"font-weight: 600; color: #334155;\">modal + be + Past Participle</span> (e.g., <em>must be tested</em>, <em>should be updated</em>, <em>can be operated</em>)."
-            ],
-            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> Check who does the action! If the subject is an object that cannot act on its own (like source code, a report, or equipment), and is followed by <em>\"by...\"</em>, you need the <strong>passive voice ([be] + V3)</strong>!",
-            "examplesTitle": "Aviation & AI Examples",
-            "examples": [
-              "<em>\"Flight telemetry data <strong>is analyzed</strong> by deep learning models in real time.\" (Passive)</em>",
-              "<em>\"Avionics engineers <strong>calibrated</strong> the autopilot sensor array before takeoff.\" (Active)</em>"
-            ]
+      "materials": {
+        "videos": [
+          {
+            "tag": "EASA Safety & Human Factors",
+            "title": "Fatigue Risk Management in Commercial Aviation Operations",
+            "duration": "14:20",
+            "channel": "European Union Aviation Safety Agency (EASA)",
+            "summary": "Technical briefing detailing circadian disruptions, sleep debt accumulation, and practical fatigue countermeasures for flight crew and air traffic controllers."
           },
-          "toeic": {
-            "stem": "By the end of this fiscal year, automated baggage tracking systems ________ at three major international hub terminals.",
+          {
+            "tag": "Aviation Medicine",
+            "title": "Managing In-Flight Medical Emergencies at 35,000 Feet",
+            "duration": "12:45",
+            "channel": "Aerospace Medical Association",
+            "summary": "Aviation medical specialists demonstrate EMK utilization, satellite telemedicine triage, and critical decision metrics for airborne diversions."
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.easa.europa.eu",
+            "tag": "01 • Regulatory Framework",
+            "name": "EASA Flight Time Limitations (FTL) Guidelines",
+            "desc": "Official European safety standards detailing maximum flight duty periods, rest allowances, and fatigue management."
+          },
+          {
+            "url": "https://www.faa.gov",
+            "tag": "02 • Aeromedical Standards",
+            "name": "FAA Pilot Safety Brochures: In-Flight Medical Fitness",
+            "desc": "Comprehensive clinical guides explaining hypoxia, spatial disorientation, medication interactions, and IMSAFE criteria."
+          },
+          {
+            "url": "https://www.icao.int",
+            "tag": "03 • ICAO Aeromedical Manual",
+            "name": "ICAO Doc 8984: Manual of Civil Aviation Medicine",
+            "desc": "International medical standards for aircrew licensing, cardiovascular health, and airborne emergency response protocols."
+          },
+          {
+            "url": "https://www.iata.org",
+            "tag": "04 • Cabin Medical Standards",
+            "name": "IATA Medical Manual for Commercial Passenger Airlines",
+            "desc": "Recommended airline practices for onboard emergency medical kits, first aid training, and passenger health management."
+          },
+          {
+            "url": "https://www.medlink.com",
+            "tag": "05 • Ground Telemedicine",
+            "name": "MedLink Aviation Telemedicine Advisory",
+            "desc": "Global emergency response protocols connecting airborne cockpits with hospital emergency medicine physicians via satellite."
+          },
+          {
+            "url": "https://www.eurocontrol.int",
+            "tag": "06 • Air Traffic Controller Well-being",
+            "name": "EUROCONTROL Human Factors & Controller Fatigue",
+            "desc": "Scientific research into ATCO shift scheduling, sector workload distribution, and cognitive ergonomics."
+          }
+        ],
+        "pageUrl": "session1/admat_aas2.html",
+        "articles": [
+          {
+            "topic": "Aerospace Medical Association Journal",
+            "sourceTag": "Clinical Aviation Review",
+            "heading": "Medical Diversions in Long-Haul Commercial Operations: Clinical Decision Metrics",
+            "snippet": "Empirical analysis of over 4,000 in-flight medical events evaluating the primary triggers for diversion (suspected myocardial infarction, stroke, persistent seizure) versus conservative cabin management.",
+            "readTime": "Estimated read: 6-8 mins",
+            "url": "https://www.easa.europa.eu"
+          },
+          {
+            "topic": "International Civil Aviation Organization (ICAO)",
+            "sourceTag": "Human Factors Digest",
+            "heading": "Fatigue and Alertness Management: Mitigating Circadian Lows in Trans-Meridian Flight",
+            "snippet": "Investigation into the Window of Circadian Low (WOCL: 02:00 to 05:59 local physiological time), controlled cockpit rest protocols, and cumulative sleep debt reduction strategies.",
+            "readTime": "Estimated read: 5-7 mins",
+            "url": "https://www.icao.int"
+          }
+        ],
+        "toeicQuestions": [
+          {
+            "stem": "________ the onboard AED delivered an electrical shock, the passenger regained a regular sinus cardiac rhythm.",
             "options": [
               {
                 "letter": "A",
-                "text": "will install"
+                "text": "After"
               },
               {
                 "letter": "B",
-                "text": "will have been installed"
+                "text": "Despite"
               },
               {
                 "letter": "C",
-                "text": "were installed"
+                "text": "Unless"
               },
               {
                 "letter": "D",
-                "text": "have installed"
-              }
-            ],
-            "correctLetter": "B",
-            "correctText": "will have been installed",
-            "analysis": "The time expression \"By the end of [future time]\" requires the Future Perfect (\"will have been + V3\"), especially in passive voice.",
-            "strategy": "Time marker \"By + future point\" triggers the Future Perfect (will have + V3). Add \"been\" when the subject receives the action."
-          },
-          "resources": [
-            {
-              "url": "https://partnershiponai.org",
-              "tag": "01 • Global AI Ethics",
-              "name": "Partnership on AI",
-              "desc": "Global non-profit multi-stakeholder organization developing best practices and ethical standards for artificial intelligence."
-            },
-            {
-              "url": "https://digital-strategy.ec.europa.eu",
-              "tag": "02 • EU Regulatory Framework",
-              "name": "European Commission AI Act",
-              "desc": "The world's first comprehensive legal framework regulating high-risk AI applications and transparency mandates."
-            },
-            {
-              "url": "https://www.computer.org",
-              "tag": "03 • Computing Research Society",
-              "name": "IEEE Computer Society",
-              "desc": "Leading technical community for computing professionals developing standards for machine learning and systems engineering."
-            },
-            {
-              "url": "https://hai.stanford.edu",
-              "tag": "04 • Stanford AI Index",
-              "name": "Stanford Institute for Human-Centered AI (HAI)",
-              "desc": "Interdisciplinary research institute tracking annual metrics on AI capabilities, ethics, investment, and societal impacts."
-            },
-            {
-              "url": "https://ourworldindata.org/artificial-intelligence",
-              "tag": "05 • Technological Change Data",
-              "name": "Our World in Data: Artificial Intelligence",
-              "desc": "Comprehensive empirical datasets and interactive visualizations tracking global AI development, compute costs, and performance."
-            },
-            {
-              "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 • TOEIC Passive Voice Reading",
-              "name": "ETS Global TOEIC Preparation",
-              "desc": "Business English reading and listening comprehension practice with office automation notices and technical procedure memos."
-            }
-          ],
-          "pageUrl": "session1/admat3.html",
-          "articles": [
-            {
-              "topic": "MIT Technology Review",
-              "sourceTag": "Industry Analysis",
-              "heading": "Generative AI and the Transformation of Modern Workplaces",
-              "snippet": "Analyzing how enterprise deployment of generative AI tools reshapes professional productivity, human-in-the-loop workflows, and ethical benchmarks.",
-              "readTime": "Estimated read: 5-7 mins",
-              "url": "https://www.technologyreview.com"
-            },
-            {
-              "topic": "International Energy Agency (IEA)",
-              "sourceTag": "Environmental Briefing",
-              "heading": "The Compute Carbon Footprint: Data Centers and Energy Demands",
-              "snippet": "Assessing the soaring electrical energy and water cooling demands required to train and deploy modern large-scale artificial intelligence models.",
-              "readTime": "Estimated read: 6-8 mins",
-              "url": "https://www.iea.org"
-            }
-          ],
-          "toeicQuestions": [
-            {
-              "stem": "By the end of this fiscal year, automated baggage tracking systems ________ at three major international hub terminals.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "will install"
-                },
-                {
-                  "letter": "B",
-                  "text": "will have been installed"
-                },
-                {
-                  "letter": "C",
-                  "text": "were installed"
-                },
-                {
-                  "letter": "D",
-                  "text": "have installed"
-                }
-              ],
-              "correctLetter": "B",
-              "correctText": "will have been installed",
-              "analysis": "The time expression \"By the end of [future time]\" requires the Future Perfect (\"will have been + V3\"), especially in passive voice.",
-              "strategy": "Time marker \"By + future point\" triggers the Future Perfect (will have + V3). Add \"been\" when the subject receives the action."
-            },
-            {
-              "stem": "Predictive maintenance algorithms ________ aircraft technical teams to identify component wear before mechanical faults develop.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "enable"
-                },
-                {
-                  "letter": "B",
-                  "text": "enabling"
-                },
-                {
-                  "letter": "C",
-                  "text": "enabler"
-                },
-                {
-                  "letter": "D",
-                  "text": "ably"
-                }
-              ],
-              "correctLetter": "A",
-              "correctText": "enable",
-              "analysis": "The sentence requires a finite verb in the present tense matching plural subject \"algorithms\" (\"enable someone to do something\").",
-              "strategy": "Every English sentence requires a finite verb. Gerunds (-ing) without auxiliaries and nouns cannot act as main verbs."
-            },
-            {
-              "stem": "Autonomous electric ramp tractors ________ into routine cargo operations at Lyon-Saint Exupéry Airport by 2028.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "are integrating"
-                },
-                {
-                  "letter": "B",
-                  "text": "will be integrated"
-                },
-                {
-                  "letter": "C",
-                  "text": "were integrating"
-                },
-                {
-                  "letter": "D",
-                  "text": "has integrated"
-                }
-              ],
-              "correctLetter": "B",
-              "correctText": "will be integrated",
-              "analysis": "Future timeframe (\"by 2028\") and passive voice (tractors do not integrate themselves) require future passive \"will be integrated\".",
-              "strategy": "Check time (2028 = future) + voice (tractors are integrated = passive). Pick will be + V3."
-            },
-            {
-              "stem": "The engineering team will initiate automated drone runway sweeps as soon as European aviation safety clearance ________ received.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "is"
-                },
-                {
-                  "letter": "B",
-                  "text": "will be"
-                },
-                {
-                  "letter": "C",
-                  "text": "was"
-                },
-                {
-                  "letter": "D",
-                  "text": "has been"
-                }
-              ],
-              "correctLetter": "A",
-              "correctText": "is",
-              "analysis": "In time clauses introduced by \"as soon as\", \"when\", or \"until\", use the Present Simple tense even when the main clause refers to the future.",
-              "strategy": "Rule: Never use \"will\" in a time clause (when, as soon as, once, after). Use Present Simple: \"as soon as clearance is received\"."
-            },
-            {
-              "stem": "Within the next five years, machine learning models ________ flight flight-altitude planning to minimize contrail formation.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "optimize"
-                },
-                {
-                  "letter": "B",
-                  "text": "will optimize"
-                },
-                {
-                  "letter": "C",
-                  "text": "were optimizing"
-                },
-                {
-                  "letter": "D",
-                  "text": "have optimized"
-                }
-              ],
-              "correctLetter": "B",
-              "correctText": "will optimize",
-              "analysis": "The future time frame \"Within the next five years\" requires a simple future prediction: \"will optimize\".",
-              "strategy": "\"Within the next [years/months]\" refers to future events $\rightarrow$ choose \"will + base verb\"."
-            }
-          ]
-        }
-      },
-      "2": {
-        "session": 2,
-        "objectives": {
-          "title": "Session 2 - Future of travel Objectives",
-          "summary": "By the end of this session, you will be able to discuss the future of travel with confidence, use key vocabulary and grammar, and build the skills needed for your TOEIC test and Session 5 evaluation.",
-          "items": [
-            {
-              "num": 1,
-              "title": "Practice TOEIC Listening Part 3: Business & Innovation Discussions",
-              "description": "Catch key details and technical specifications in conversations between engineers, planners, and clients."
-            },
-            {
-              "num": 2,
-              "title": "Master Vocabulary for Future Mobility, Electric Vehicles & Clean Energy",
-              "description": "Learn and use words for battery range, hydrogen fuel cells, autonomous shuttles, and charging infrastructure."
-            },
-            {
-              "num": 3,
-              "title": "Form and Use Comparatives & Degree Words (much faster, more costly than)",
-              "description": "Use comparative adjectives and degree modifiers (far more efficient, slightly slower) to compare transit technologies."
-            },
-            {
-              "num": 4,
-              "title": "Analyze the Long-Term Environmental Benefits of Future Transit (DDRS)",
-              "description": "Weigh the life-cycle carbon savings of electric and hydrogen systems against the resources needed to build them."
-            },
-            {
-              "num": 5,
-              "title": "Present Your Vision of Future Transportation in Pairs",
-              "description": "Describe and defend an innovative transit idea in paired presentations, focusing on fluency and convincing delivery."
-            }
-          ]
-        },
-        "lessonPlan": {
-          "title": "Session 2 Lesson Plan (2 Hours)",
-          "summary": "A 2-hour session agenda combining conversational warm-ups, TOEIC test practice, vocabulary building, speaking activities, and evaluation preparation.",
-          "items": [
-            {
-              "time": "0-15",
-              "title": "Conversational Warm-Up: Travel in 2050 (15 mins)",
-              "description": "In pairs, students predict how long-distance travel will look in 30 years and brainstorm emerging technologies."
-            },
-            {
-              "time": "15-45",
-              "title": "TOEIC Strategy: Listening to Product Pitches (30 mins)",
-              "description": "Practice Part 3 conversations featuring tech presentations, innovation pitches, and investment decisions."
-            },
-            {
-              "time": "45-65",
-              "title": "Vocabulary Builder: Next-Gen Mobility (20 mins)",
-              "description": "High-frequency terms for autonomous vehicles, hydrogen fuel cells, eVTOL shuttles, and charging networks."
-            },
-            {
-              "time": "65-110",
-              "title": "Structured Discussion & Grammar (45 mins)",
-              "description": "Pitching and comparing future transport modes using Comparatives and Superlatives (far cleaner than, the most cost-effective)."
-            },
-            {
-              "time": "110-120",
-              "title": "Debrief, Evaluation Prep & Wrap-Up (10 mins)",
-              "description": "Teacher language points, peer feedback on pitch clarity, and personal study targets."
-            }
-          ]
-        },
-        "revision": {
-          "title": "Session 2: Future of travel",
-          "summary": "Review the 18 key terms for Future of travel to build your fluency in discussions, professional reading, and TOEIC practice.",
-          "terms": [
-            {
-              "num": "01",
-              "term": "Electric Vertical Take-Off (eVTOL)",
-              "definition": "Aircraft utilizing distributed electric propulsion to take off and land vertically, designed for urban air mobility."
-            },
-            {
-              "num": "02",
-              "term": "Urban Air Mobility (UAM)",
-              "definition": "A safe and efficient aviation transit system for passenger and cargo transport across metropolitan airspace."
-            },
-            {
-              "num": "03",
-              "term": "Sustainable Aviation Fuel (SAF)",
-              "definition": "Drop-in bio-based or synthetic fuels compatible with existing turbines, reducing net carbon lifecycle emissions by up to 80%."
-            },
-            {
-              "num": "04",
-              "term": "Hydrogen Fuel Cell",
-              "definition": "An electrochemical device combining hydrogen and oxygen to produce electricity with water vapor as the sole byproduct."
-            },
-            {
-              "num": "05",
-              "term": "Vertiport",
-              "definition": "A dedicated airport facility designed specifically for vertical take-off and landing passenger aircraft operations."
-            },
-            {
-              "num": "06",
-              "term": "Energy Density",
-              "definition": "The amount of energy stored per unit mass in an aviation battery or fuel, a critical metric for flight range."
-            },
-            {
-              "num": "07",
-              "term": "High-Speed Rail Expansion",
-              "definition": "The development and integration of high-speed passenger train networks (over 250 km/h) engineered to replace short-haul domestic and regional flights."
-            },
-            {
-              "num": "08",
-              "term": "Supersonic Transport (SST)",
-              "definition": "Aircraft capable of cruising faster than the speed of sound (Mach 1.0) with low-boom aerodynamic profiling."
-            },
-            {
-              "num": "09",
-              "term": "Hyperloop Concept",
-              "definition": "A sealed low-pressure tube transit system propelling levitating pods at near-aviation speeds using linear motors."
-            },
-            {
-              "num": "10",
-              "term": "Acoustic Footprint",
-              "definition": "The geographic area exposed to aircraft noise levels during urban take-off, hover, and approach procedures."
-            },
-            {
-              "num": "11",
-              "term": "Solid-State Battery",
-              "definition": "Next-generation batteries employing solid electrolytes to achieve higher energy densities and reduced thermal runaway risk."
-            },
-            {
-              "num": "12",
-              "term": "Modal Shift",
-              "definition": "A policy and behavioral transition where travelers switch from high-carbon transport modes (private cars and flights) to lower-carbon alternatives like electric rail."
-            },
-            {
-              "num": "13",
-              "term": "Uncrewed Traffic Management (UTM)",
-              "definition": "A digital, automated air traffic architecture designed to coordinate thousands of low-altitude drones and eVTOLs."
-            },
-            {
-              "num": "14",
-              "term": "Life-Cycle Assessment (LCA)",
-              "definition": "Comprehensive evaluation of environmental impacts associated with raw material extraction through disposal."
-            },
-            {
-              "num": "15",
-              "term": "Mobility as a Service (MaaS)",
-              "definition": "Digital travel platforms that integrate multiple transport services (trains, bike shares, e-buses, car rentals) into a single unified mobile app and booking ticket."
-            },
-            {
-              "num": "16",
-              "term": "Autonomous Shuttle",
-              "definition": "Self-driving electric passenger vehicles operating on pre-mapped routes to connect neighborhoods, airports, and public transit nodes without human drivers."
-            },
-            {
-              "num": "17",
-              "term": "Overnight Sleeper Train",
-              "definition": "Modern long-distance passenger rail services operating overnight with private sleeping cabins, offering a comfortable, low-carbon alternative to regional air travel."
-            },
-            {
-              "num": "18",
-              "term": "Zero-Emission Fleet",
-              "definition": "Commercial transit networks, delivery vehicles, or airline ground support equipment powered 100% by renewable electricity or green hydrogen fuel."
-            }
-          ]
-        },
-        "materials": {
-          "videos": [
-            {
-              "title": "Video 1: The Future of Travel: High-Speed Trains vs. Flying",
-              "watchUrl": "https://www.youtube.com/watch?v=NDs5baOoxao",
-              "tag": "Mobility Trends",
-              "videoId": "NDs5baOoxao",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/NDs5baOoxao",
-              "caption": "Focus: Investigating Europe's high-speed rail expansion and the policy push to encourage passenger modal shift away from regional air routes."
-            },
-            {
-              "title": "Video 2: Clean Flight: Electric Planes & Sustainable Fuels",
-              "watchUrl": "https://www.youtube.com/watch?v=7KkBE0HgNJQ",
-              "tag": "Clean Aviation",
-              "videoId": "7KkBE0HgNJQ",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/7KkBE0HgNJQ",
-              "caption": "Focus: Examining engineering breakthroughs in battery density, hybrid-electric propulsion, and certified Sustainable Aviation Fuels (SAF)."
-            },
-            {
-              "title": "Video 3: Comparatives and Superlatives in Transport Reviews",
-              "watchUrl": "https://www.youtube.com/watch?v=FAhpT7BH7GE",
-              "tag": "Grammar Focus",
-              "videoId": "FAhpT7BH7GE",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/FAhpT7BH7GE",
-              "caption": "Focus: Targeted practice using comparative structures and degree adverbs to contrast travel speed, carbon efficiency, ticket prices, and comfort."
-            }
-          ],
-          "grammar": {
-            "title": "Comparing Things & Degree Words",
-            "badge": "B1–B2 Grammar Focus",
-            "patternTitle": "Comparison Rules",
-            "formula": "Comparative: [much / considerably] + [more + adj / -er] + than | Superlative: the + [most + adj / -est]",
-            "rulesTitle": "Core Rules",
-            "rules": [
-              "<strong style=\"color: #1e293b;\">1. Comparing Two Things (Comparative):</strong> Compare two items using <span style=\"font-weight: 700; color: #60854b;\">-er / more ... than</span> (e.g., <em>faster than</em>, <em>more efficient than</em>).",
-              "<strong style=\"color: #1e293b;\">2. Degree Words (How much bigger or smaller):</strong> Use words like <span style=\"font-weight: 600; color: #334155;\">much, considerably, far, significantly, slightly</span> before comparatives (e.g., <em>considerably more costly</em>, <em>significantly higher</em>).",
-              "<strong style=\"color: #1e293b;\">3. The Top of a Group (Superlative):</strong> Use <span style=\"font-weight: 700; color: #60854b;\">the + -est / the most + adjective</span> for three or more things (e.g., <em>the most viable solution</em>, <em>the cheapest option</em>)."
-            ],
-            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> Never put <strong>very</strong> in front of a comparative (NOT <em>very more expensive</em> ❌)! When you see <em>than</em> after the blank, you must use a comparative (<em>more costly</em>), never a superlative (<em>most costly</em>).",
-            "examplesTitle": "Propulsion & Energy Examples",
-            "examples": [
-              "<em>\"Hydrogen yields <strong>significantly higher</strong> gravimetric energy density than battery cells.\" (Comparative)</em>",
-              "<em>\"Hybrid turboprops represent <strong>the most viable</strong> interim solution for regional carriers.\" (Superlative)</em>"
-            ]
-          },
-          "toeic": {
-            "stem": "Rarely ________ airline dispatch teams encountered such extensive cloud infrastructure outages across European air control centers.",
-            "options": [
-              {
-                "letter": "A",
-                "text": "have"
-              },
-              {
-                "letter": "B",
-                "text": "had"
-              },
-              {
-                "letter": "C",
-                "text": "did"
-              },
-              {
-                "letter": "D",
-                "text": "were"
+                "text": "Whereas"
               }
             ],
             "correctLetter": "A",
-            "correctText": "have",
-            "analysis": "When a sentence starts with a restrictive or negative adverb (\"Rarely\", \"Seldom\", \"Never\"), subject-auxiliary inversion occurs: Rarely + have + subject + past participle.",
-            "strategy": "Negative Inversion Formula: [Negative adverb] + [auxiliary verb] + [Subject] + [Main verb]. Look for have/has before the subject."
+            "correctText": "After",
+            "analysis": "Temporal conjunction 'After' correctly introduces the completed event that preceded the restoration of cardiac rhythm.",
+            "strategy": "Temporal sequence: After + [past clause], [main past clause]."
           },
-          "resources": [
-            {
-              "url": "https://www.cer.be",
-              "tag": "01 • European Rail Network",
-              "name": "Community of European Railway & Infrastructure (CER)",
-              "desc": "Representing European passenger and freight railway operators advocating for cross-border high-speed rail connections."
-            },
-            {
-              "url": "https://www.clean-aviation.eu",
-              "tag": "02 • Clean Aviation Alliance",
-              "name": "Clean Aviation Joint Undertaking",
-              "desc": "European Union public-private partnership developing disruptive zero-emission aircraft technologies by 2035."
-            },
-            {
-              "url": "https://theicct.org",
-              "tag": "03 • Clean Transport Research",
-              "name": "International Council on Clean Transportation (ICCT)",
-              "desc": "Independent research organization providing first-rate technical and scientific analysis to environmental regulators."
-            },
-            {
-              "url": "https://www.itdp.org",
-              "tag": "04 • Sustainable Transit Institute",
-              "name": "Institute for Transportation & Development Policy (ITDP)",
-              "desc": "Global non-profit organization promoting sustainable, equitable, and integrated public transportation systems."
-            },
-            {
-              "url": "https://ourworldindata.org/transport",
-              "tag": "05 • Energy Transition Data",
-              "name": "Our World in Data: Energy & Transport",
-              "desc": "Empirical metrics tracking global greenhouse gas emissions by transport mode, electric vehicle adoption, and energy intensity."
-            },
-            {
-              "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 • TOEIC Comparative Reading",
-              "name": "ETS Global TOEIC Preparation",
-              "desc": "Reading comprehension practice analyzing comparative travel options, service schedules, and infrastructure investment tenders."
-            }
-          ],
-          "pageUrl": "session2/admat3.html",
-          "articles": [
-            {
-              "topic": "International Council on Clean Transportation (ICCT)",
-              "sourceTag": "Policy Analysis",
-              "heading": "The European Rail Renaissance: Can High-Speed Rail Replace Regional Flights?",
-              "snippet": "Comparative modeling of travel times, carbon savings, and infrastructure investment required to achieve competitive rail alternatives across European corridors.",
-              "readTime": "Estimated read: 5-7 mins",
-              "url": "https://theicct.org"
-            },
-            {
-              "topic": "McKinsey Transport &amp; Logistics Review",
-              "sourceTag": "Industry Forecast",
-              "heading": "The Next Decade of Sustainable Mobility &amp; Clean Fuels",
-              "snippet": "Assessing commercial scaling timelines for electric fleets, hydrogen fuel cells, autonomous shuttles, and net-zero passenger transport.",
-              "readTime": "Estimated read: 6-8 mins",
-              "url": "https://www.mckinsey.com"
-            }
-          ],
-          "toeicQuestions": [
-            {
-              "stem": "Rarely ________ airline dispatch teams encountered such extensive cloud infrastructure outages across European air control centers.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "have"
-                },
-                {
-                  "letter": "B",
-                  "text": "had"
-                },
-                {
-                  "letter": "C",
-                  "text": "did"
-                },
-                {
-                  "letter": "D",
-                  "text": "were"
-                }
-              ],
-              "correctLetter": "A",
-              "correctText": "have",
-              "analysis": "When a sentence starts with a restrictive or negative adverb (\"Rarely\", \"Seldom\", \"Never\"), subject-auxiliary inversion occurs: Rarely + have + subject + past participle.",
-              "strategy": "Negative Inversion Formula: [Negative adverb] + [auxiliary verb] + [Subject] + [Main verb]. Look for have/has before the subject."
-            },
-            {
-              "stem": "Not only ________ the biometric boarding gate accelerate passenger boarding, but it also eliminated boarding pass fraud.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "did"
-                },
-                {
-                  "letter": "B",
-                  "text": "does"
-                },
-                {
-                  "letter": "C",
-                  "text": "has"
-                },
-                {
-                  "letter": "D",
-                  "text": "had"
-                }
-              ],
-              "correctLetter": "A",
-              "correctText": "did",
-              "analysis": "Negative inversion with \"Not only\". Since the parallel clause uses past simple (\"eliminated\"), the auxiliary must be past (\"did... accelerate\").",
-              "strategy": "Formula: Not only + did + S + base verb ..., but [S] also + past verb."
-            },
-            {
-              "stem": "Under no circumstances ________ international passengers bypass biometric verification gates without presenting their digital credentials.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "should"
-                },
-                {
-                  "letter": "B",
-                  "text": "ought"
-                },
-                {
-                  "letter": "C",
-                  "text": "must have"
-                },
-                {
-                  "letter": "D",
-                  "text": "were"
-                }
-              ],
-              "correctLetter": "A",
-              "correctText": "should",
-              "analysis": "Negative inversion after \"Under no circumstances\": modal auxiliary (\"should\") precedes the subject \"international passengers\".",
-              "strategy": "\"Under no circumstances\" + modal (should / can) + Subject + base verb."
-            },
-            {
-              "stem": "Modern automated self-service check-in kiosks must be rapid, reliable, and ________ for all arriving travelers.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "accessible"
-                },
-                {
-                  "letter": "B",
-                  "text": "accessibility"
-                },
-                {
-                  "letter": "C",
-                  "text": "accessing"
-                },
-                {
-                  "letter": "D",
-                  "text": "accessibly"
-                }
-              ],
-              "correctLetter": "A",
-              "correctText": "accessible",
-              "analysis": "Parallel grammatical structure requires an adjective to match \"rapid\" and \"reliable\" in the series: [adj], [adj], and [adj].",
-              "strategy": "Parallelism rule: In a series connected by \"and\" or \"or\", items must share the same part of speech (rapid, reliable, and accessible)."
-            },
-            {
-              "stem": "Hardly had the high-speed electric train ________ the terminal when diagnostic sensors transmitted telemetry to the dispatch center.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "left"
-                },
-                {
-                  "letter": "B",
-                  "text": "leave"
-                },
-                {
-                  "letter": "C",
-                  "text": "leaving"
-                },
-                {
-                  "letter": "D",
-                  "text": "leaves"
-                }
-              ],
-              "correctLetter": "A",
-              "correctText": "left",
-              "analysis": "The structure \"Hardly had [subject] [past participle] when [past clause]\" requires the past participle form \"left\".",
-              "strategy": "Inversion formula: Hardly had + S + [V3] ... when + [Past Simple]."
-            }
-          ]
-        }
-      },
-      "3": {
-        "session": 3,
-        "objectives": {
-          "title": "Session 3 - Debate and Critical Thinking Objectives",
-          "summary": "By the end of this session, you will be able to engage in debates and critical discussions with confidence, use key vocabulary and grammar, and build the skills needed for your TOEIC test and Session 5 evaluation.",
-          "items": [
-            {
-              "num": 1,
-              "title": "Practice Identifying Argument Structures & Cause/Effect in TOEIC Reading",
-              "description": "Analyze editorial articles and opinion pieces to separate central claims from supporting evidence and assumptions."
-            },
-            {
-              "num": 2,
-              "title": "Master Polite Debate Language, Concessions, and Rhetorical Questions",
-              "description": "Use diplomatic phrasing to question assumptions, acknowledge opposing arguments, and clarify misunderstandings."
-            },
-            {
-              "num": 3,
-              "title": "Use Conjunctions (although, because) vs. Prepositions (despite, due to)",
-              "description": "Correctly choose between conjunctions requiring a full clause and prepositions followed by a noun phrase or gerund."
-            },
-            {
-              "num": 4,
-              "title": "Debate Technological Innovation vs. Environmental Caution (DDRS)",
-              "description": "Explore the balance between rapid tech adoption and the precautionary principle for public safety and ecology."
-            },
-            {
-              "num": 5,
-              "title": "Participate in an Interactive Class Debate with Constructive Feedback",
-              "description": "Deliver concise, persuasive spoken contributions during a team debate while staying polite and focused on the topic."
-            }
-          ]
-        },
-        "lessonPlan": {
-          "title": "Session 3 Lesson Plan (2 Hours)",
-          "summary": "A 2-hour session agenda combining conversational warm-ups, TOEIC test practice, vocabulary building, speaking activities, and evaluation preparation.",
-          "items": [
-            {
-              "time": "0-15",
-              "title": "Conversational Warm-Up: Agree or Disagree? (15 mins)",
-              "description": "Students quickly vote and give one reason for controversial tech statements (e.g. banning short-haul flights)."
-            },
-            {
-              "time": "15-45",
-              "title": "TOEIC Strategy: Cause & Effect in Part 7 (30 mins)",
-              "description": "Practice analyzing texts for cause-and-effect relationships, contrasting arguments, and author stance."
-            },
-            {
-              "time": "45-65",
-              "title": "Vocabulary Builder: Debate & Discussion Signposts (20 mins)",
-              "description": "Linking words and phrases for counter-arguments, concessions, rhetorical questions, and conclusions."
-            },
-            {
-              "time": "65-110",
-              "title": "Structured Discussion & Grammar (45 mins)",
-              "description": "Structured classroom debate using Conjunctions (whereas, provided that) vs. Prepositions (despite, in spite of)."
-            },
-            {
-              "time": "110-120",
-              "title": "Debrief, Evaluation Prep & Wrap-Up (10 mins)",
-              "description": "Peer debate feedback, pronunciation check, and preparation checklist for the Session 5 evaluation."
-            }
-          ]
-        },
-        "revision": {
-          "title": "Session 3: Debate and Critical Thinking",
-          "summary": "Review the 18 key terms for Debate and Critical Thinking to build your fluency in discussions, professional reading, and TOEIC practice.",
-          "terms": [
-            {
-              "num": "01",
-              "term": "Confirmation Bias",
-              "definition": "The psychological tendency to search for, interpret, and favor information that confirms preexisting beliefs while ignoring or dismissing contradictory evidence."
-            },
-            {
-              "num": "02",
-              "term": "Constructive Disagreement",
-              "definition": "A debate communication method where opposing speakers challenge ideas respectfully using evidence and logic to reach better shared solutions without personal conflict."
-            },
-            {
-              "num": "03",
-              "term": "Liability Allocation",
-              "definition": "The legal decision of who is responsible (operators, manufacturers, or programmers) when an automated system fails."
-            },
-            {
-              "num": "04",
-              "term": "Machine Ethics",
-              "definition": "Teaching moral rules and ethical boundaries to automated computer systems and algorithms."
-            },
-            {
-              "num": "05",
-              "term": "Workforce Disruption",
-              "definition": "Changes and job losses caused when automated machines or AI tools replace human workers."
-            },
-            {
-              "num": "06",
-              "term": "Cognitive Complacency",
-              "definition": "When people rely too much on automated tools and stop paying close attention to what is happening."
-            },
-            {
-              "num": "07",
-              "term": "Situational Awareness",
-              "definition": "A pilot&#x27;s real-time perception and understanding of aircraft status, flight envelope, and atmospheric surroundings."
-            },
-            {
-              "num": "08",
-              "term": "Algorithmic Accountability",
-              "definition": "The principle that developers, corporations, and governments must be held legally and morally responsible for the outcomes and decisions made by automated systems."
-            },
-            {
-              "num": "09",
-              "term": "Ethical Dilemma",
-              "definition": "A complex situation in which a decision-maker must choose between two conflicting moral options, neither of which is entirely satisfactory or free from negative consequences."
-            },
-            {
-              "num": "10",
-              "term": "Counter-Claim / Rebuttal",
-              "definition": "An argument, empirical piece of evidence, or logical reasoning presented directly to challenge, weaken, or disprove an opposing speaker's position in a debate."
-            },
-            {
-              "num": "11",
-              "term": "Automation Bias",
-              "definition": "Trusting a computer or automated suggestion even when your own judgment warns you something is wrong."
-            },
-            {
-              "num": "12",
-              "term": "Discourse Concession",
-              "definition": "Acknowledging that an opponent has a valid point before presenting your own counter-argument in a debate."
-            },
-            {
-              "num": "13",
-              "term": "Social Equity in Automation",
-              "definition": "Ensuring that efficiency gains from automation are shared equitably rather than concentrating profits while eliminating jobs."
-            },
-            {
-              "num": "14",
-              "term": "Human Factors Engineering",
-              "definition": "Designing technology interfaces tailored to human psychological capabilities and sensory limitations."
-            },
-            {
-              "num": "15",
-              "term": "Critical Evaluation",
-              "definition": "The systematic examination of arguments, evidence, and underlying assumptions to assess their factual accuracy, logical validity, and fairness before drawing conclusions."
-            },
-            {
-              "num": "16",
-              "term": "Nuanced Argument",
-              "definition": "A balanced line of reasoning that recognizes complexities, qualifications, and trade-offs rather than presenting an oversimplified black-and-white perspective."
-            },
-            {
-              "num": "17",
-              "term": "Regulatory Oversight",
-              "definition": "Governmental safety supervision verifying that automated innovations meet rigorous legal and moral benchmarks."
-            },
-            {
-              "num": "18",
-              "term": "Stakeholder Advocacy",
-              "definition": "Public communication, campaigning, and representation by affected community, worker, or consumer groups to ensure their rights and safety are protected in tech transitions."
-            }
-          ]
-        },
-        "materials": {
-          "videos": [
-            {
-              "title": "Video 1: 5 Tips to Improve Your Critical Thinking",
-              "watchUrl": "https://www.youtube.com/watch?v=dItUGF8GdTw",
-              "tag": "Critical Thinking",
-              "videoId": "dItUGF8GdTw",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/dItUGF8GdTw",
-              "caption": "Focus: Samantha Agoos outlines a practical 5-step framework to formulate questions, test assumptions, evaluate evidence, and explore opposing perspectives."
-            },
-            {
-              "title": "Video 2: The Ethics of Algorithmic Decisions & Autonomous Systems",
-              "watchUrl": "https://www.youtube.com/watch?v=gV0_raKR2UQ",
-              "tag": "Machine Ethics",
-              "videoId": "gV0_raKR2UQ",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/gV0_raKR2UQ",
-              "caption": "Focus: Examining real-world ethical dilemmas when algorithms make automated decisions in transportation, hiring, and legal systems."
-            },
-            {
-              "title": "Video 3: Conjunctions and Transition Words for Persuasive Arguments",
-              "watchUrl": "https://www.youtube.com/watch?v=BECe_ok1RI8",
-              "tag": "Grammar Focus",
-              "videoId": "BECe_ok1RI8",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/BECe_ok1RI8",
-              "caption": "Focus: Targeted practice using coordinating and subordinating conjunctions (furthermore, however, consequently, whereas) to structure cohesive debate points."
-            }
-          ],
-          "grammar": {
-            "title": "Connecting Sentences & Ideas",
-            "badge": "B1–B2 Grammar Focus",
-            "patternTitle": "Connecting Words",
-            "formula": "Conjunction: [Although / Because] + Subject + Verb | Preposition: [Despite / Due to] + Noun",
-            "rulesTitle": "Core Rules",
-            "rules": [
-              "<strong style=\"color: #1e293b;\">1. Conjunctions (Although, Even though, Because, Since):</strong> Followed by a complete sentence with a <span style=\"font-weight: 700; color: #60854b;\">Subject and a Verb</span> (<em>\"Although the model worked...\"</em>).",
-              "<strong style=\"color: #1e293b;\">2. Prepositions (Despite, In spite of, Because of, Due to):</strong> Followed only by a <span style=\"font-weight: 700; color: #60854b;\">noun or an -ing word</span>, never a full subject + verb (<em>\"Despite high accuracy...\"</em>).",
-              "<strong style=\"color: #1e293b;\">3. Transition Words (However, Therefore, Furthermore):</strong> Start a new sentence after a period or semicolon, usually followed by a comma (<span style=\"font-weight: 600; color: #334155;\">\"However, regulators hesitated.\"</span>)."
-            ],
-            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> The <em>\"Although vs. Despite\"</em> trap! If you see a <strong>Subject and a Verb</strong> after the blank, choose <em>Although / Even though</em>. If you see only a noun phrase, choose <em>Despite / In spite of</em>!",
-            "examplesTitle": "Governance & Ethics Examples",
-            "examples": [
-              "<em>\"<strong>Although</strong> the model demonstrated accuracy, bias audits remained mandatory.\" (+ Clause)</em>",
-              "<em>\"<strong>Despite</strong> high statistical accuracy, public deployment was delayed.\" (+ Noun Phrase)</em>"
-            ]
-          },
-          "toeic": {
-            "stem": "European air transport regulators recommend that every commercial AI guidance system ________ audited by human flight safety panels.",
+          {
+            "stem": "Air traffic controllers must adhere strictly to mandatory rest breaks ________ prevent cognitive fatigue during peak traffic hours.",
             "options": [
               {
                 "letter": "A",
-                "text": "is"
+                "text": "in order to"
               },
               {
                 "letter": "B",
-                "text": "be"
+                "text": "so that"
               },
               {
                 "letter": "C",
-                "text": "was"
+                "text": "because of"
               },
               {
                 "letter": "D",
-                "text": "been"
+                "text": "due to"
               }
             ],
-            "correctLetter": "B",
-            "correctText": "be",
-            "analysis": "The verb \"recommend that\" requires the mandative subjunctive mood, which uses the base form of the verb (\"be audited\"), regardless of the singular subject.",
-            "strategy": "Subjunctive triggers: recommend that, require that, demand that, suggest that $\rightarrow$ always choose the BASE verb (be, go, submit)."
+            "correctLetter": "A",
+            "correctText": "in order to",
+            "analysis": "The purpose clause connector 'in order to' is followed by the bare base form of the verb ('prevent').",
+            "strategy": "Purpose formula: in order to + bare infinitive (V1)."
           },
-          "resources": [
-            {
-              "url": "https://hai.stanford.edu",
-              "tag": "01 • AI Ethics & Governance",
-              "name": "Stanford Human-Centered AI (HAI)",
-              "desc": "Advancing AI research, education, and policy to benefit humanity through interdisciplinary scholarship."
-            },
-            {
-              "url": "https://www.acm.org/code-of-ethics",
-              "tag": "02 • Human-Computer Ethics",
-              "name": "ACM Code of Ethics & Professional Conduct",
-              "desc": "Foundational ethical guidelines established by the Association for Computing Machinery to govern responsible technological stewardship."
-            },
-            {
-              "url": "https://www.criticalthinking.org",
-              "tag": "03 • Critical Thinking Foundation",
-              "name": "Foundation for Critical Thinking",
-              "desc": "Global non-profit educational organization advancing essential critical thinking tools, Socratic questioning, and logical evaluation."
-            },
-            {
-              "url": "https://www.eff.org",
-              "tag": "04 • Public Interest Tech",
-              "name": "Electronic Frontier Foundation (EFF)",
-              "desc": "Leading non-profit defending civil liberties, algorithmic transparency, privacy rights, and user autonomy in the digital world."
-            },
-            {
-              "url": "https://ourworldindata.org/technological-change",
-              "tag": "05 • Technological Change Data",
-              "name": "Our World in Data: Technological Change",
-              "desc": "Global historical data tracking rates of technological diffusion, workplace productivity, and societal adaptation."
-            },
-            {
-              "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 • TOEIC Argument Analysis",
-              "name": "ETS Global TOEIC Preparation",
-              "desc": "Business English listening and reading comprehension strategies for identifying speaker stance, counter-claims, and concession markers."
-            }
-          ],
-          "pageUrl": "session3/admat3.html",
-          "articles": [
-            {
-              "topic": "Stanford Center for Human-Centered AI",
-              "sourceTag": "Academic Briefing",
-              "heading": "Critical Thinking in the Age of Automated Algorithms",
-              "snippet": "Analyzing how human operators can maintain situational awareness, recognize cognitive complacency, and challenge flawed automated outputs.",
-              "readTime": "Estimated read: 5-7 mins",
-              "url": "https://hai.stanford.edu"
-            },
-            {
-              "topic": "Harvard Law Review Digital Governance",
-              "sourceTag": "Legal &amp; Policy Review",
-              "heading": "Allocating Legal Liability for Automated Decisions",
-              "snippet": "Exploring legal doctrines and ethical frameworks for attributing fault when autonomous vehicles, AI models, or automated systems cause harm.",
-              "readTime": "Estimated read: 6-8 mins",
-              "url": "https://harvardlawreview.org"
-            }
-          ],
-          "toeicQuestions": [
-            {
-              "stem": "European air transport regulators recommend that every commercial AI guidance system ________ audited by human flight safety panels.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "is"
-                },
-                {
-                  "letter": "B",
-                  "text": "be"
-                },
-                {
-                  "letter": "C",
-                  "text": "was"
-                },
-                {
-                  "letter": "D",
-                  "text": "been"
-                }
-              ],
-              "correctLetter": "B",
-              "correctText": "be",
-              "analysis": "The verb \"recommend that\" requires the mandative subjunctive mood, which uses the base form of the verb (\"be audited\"), regardless of the singular subject.",
-              "strategy": "Subjunctive triggers: recommend that, require that, demand that, suggest that $\rightarrow$ always choose the BASE verb (be, go, submit)."
-            },
-            {
-              "stem": "It is essential that passenger biometric identification records ________ strictly encrypted during data transmission.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "remain"
-                },
-                {
-                  "letter": "B",
-                  "text": "remains"
-                },
-                {
-                  "letter": "C",
-                  "text": "remained"
-                },
-                {
-                  "letter": "D",
-                  "text": "will remain"
-                }
-              ],
-              "correctLetter": "A",
-              "correctText": "remain",
-              "analysis": "The impersonal construction \"It is essential that\" demands the subjunctive base form (\"remain\"), without third-person -s.",
-              "strategy": "Pattern: It is essential/imperative/vital that + Subject + [BASE VERB] (no -s, no ed, no will)."
-            },
-            {
-              "stem": "The digital privacy board insisted that automated profiling systems ________ subject to independent human review upon passenger request.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "be"
-                },
-                {
-                  "letter": "B",
-                  "text": "are"
-                },
-                {
-                  "letter": "C",
-                  "text": "was"
-                },
-                {
-                  "letter": "D",
-                  "text": "were"
-                }
-              ],
-              "correctLetter": "A",
-              "correctText": "be",
-              "analysis": "\"Insisted that\" triggers the mandative subjunctive, requiring the uninflected base verb \"be\".",
-              "strategy": "Verbs of demand or insistence (insist, demand, urge that) trigger base verb subjunctive: \"insisted that S be...\"."
-            },
-            {
-              "stem": "Civil aviation authority members debated ________ the new algorithm met international safety redundancy certifications.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "whether"
-                },
-                {
-                  "letter": "B",
-                  "text": "that"
-                },
-                {
-                  "letter": "C",
-                  "text": "which"
-                },
-                {
-                  "letter": "D",
-                  "text": "what"
-                }
-              ],
-              "correctLetter": "A",
-              "correctText": "whether",
-              "analysis": "\"Debated whether\" introduces an indirect question noun clause expressing an issue with two possibilities (whether or not).",
-              "strategy": "After verbs of discussion, uncertainty, or debate (debate, wonder, doubt), use \"whether\" rather than \"that\"."
-            },
-            {
-              "stem": "It is imperative that the aerospace engineering contractor ________ international data privacy covenants during software updates.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "follows"
-                },
-                {
-                  "letter": "B",
-                  "text": "follow"
-                },
-                {
-                  "letter": "C",
-                  "text": "followed"
-                },
-                {
-                  "letter": "D",
-                  "text": "will follow"
-                }
-              ],
-              "correctLetter": "B",
-              "correctText": "follow",
-              "analysis": "\"It is imperative that\" takes the subjunctive base form \"follow\", even though the subject \"contractor\" is singular.",
-              "strategy": "Never add -s to the verb after \"It is imperative / crucial / necessary that\"."
-            }
-          ]
-        }
-      },
-      "4": {
-        "session": 4,
-        "objectives": {
-          "title": "Session 4 - Biometrics and digital identity Objectives",
-          "summary": "By the end of this session, you will be able to discuss biometrics and digital identity with confidence, use key vocabulary and grammar, and build the skills needed for your TOEIC test and Session 5 evaluation.",
-          "items": [
-            {
-              "num": 1,
-              "title": "Practice TOEIC Part 5 Dependent Prepositions & Common Collocations",
-              "description": "Identify high-frequency verb + preposition combinations (comply with, specialize in, account for) in test sentences."
-            },
-            {
-              "num": 2,
-              "title": "Master Vocabulary for Digital Passports, Facial Recognition & Data Privacy",
-              "description": "Learn key vocabulary for contactless travel, biometric authentication, encrypted data, and cybersecurity."
-            },
-            {
-              "num": 3,
-              "title": "Form Common Business Collocations (comply with, meet standards)",
-              "description": "Use natural word pairings in professional speaking and writing to sound more fluent and accurate."
-            },
-            {
-              "num": 4,
-              "title": "Discuss Privacy Rights and Ethical Data Governance in Travel (DDRS)",
-              "description": "Evaluate how border authorities and tech companies can respect passenger privacy and fundamental rights."
-            },
-            {
-              "num": 5,
-              "title": "Rehearse and Polish Your Session 5 Formative Evaluation Topic",
-              "description": "Deliver a mock assessment talk, focusing on clear signposting, fluent delivery, and responding to follow-up questions."
-            }
-          ]
-        },
-        "lessonPlan": {
-          "title": "Session 4 Lesson Plan (2 Hours)",
-          "summary": "A 2-hour session agenda combining conversational warm-ups, TOEIC test practice, vocabulary building, speaking activities, and evaluation preparation.",
-          "items": [
-            {
-              "time": "0-15",
-              "title": "Conversational Warm-Up: Digital Check-in (15 mins)",
-              "description": "Students share experiences with digital boarding passes, e-gates, and smartphone authentication."
-            },
-            {
-              "time": "15-45",
-              "title": "TOEIC Strategy: Collocations & Prepositions in Part 5 (30 mins)",
-              "description": "Timed completion of Part 5 questions testing verb-noun collocations and dependent prepositions."
-            },
-            {
-              "time": "45-65",
-              "title": "Vocabulary Builder: Identity & Cybersecurity (20 mins)",
-              "description": "Key vocabulary for biometric authentication, facial recognition, data privacy, GDPR, and cyber protection."
-            },
-            {
-              "time": "65-110",
-              "title": "Structured Discussion & Grammar (45 mins)",
-              "description": "Debate the balance between seamless travel and personal privacy using Business Collocations (ensure compliance, uphold standards)."
-            },
-            {
-              "time": "110-120",
-              "title": "Final Evaluation Simulation & Wrap-Up (10 mins)",
-              "description": "Complete mock evaluation talk under timed conditions with teacher and peer rubric scoring."
-            }
-          ]
-        },
-        "revision": {
-          "title": "Session 4: Biometrics and digital identity",
-          "summary": "Review the 18 key terms for Biometrics and digital identity to build your fluency in discussions, professional reading, and TOEIC practice.",
-          "terms": [
-            {
-              "num": "01",
-              "term": "Biometric Token",
-              "definition": "A digital credential containing encrypted mathematical representations of facial, iris, or fingerprint features."
-            },
-            {
-              "num": "02",
-              "term": "Automated Border Control (e-Gate)",
-              "definition": "An automated security barrier verifying traveler passport chips against live biometric facial captures."
-            },
-            {
-              "num": "03",
-              "term": "Seamless Travel Experience",
-              "definition": "A frictionless passenger journey through ticketing, bag drop, security, and boarding using biometric verification."
-            },
-            {
-              "num": "04",
-              "term": "General Data Protection Regulation (GDPR)",
-              "definition": "Strict European Union privacy law governing the collection, processing, and storage of personal biometric data."
-            },
-            {
-              "num": "05",
-              "term": "Decentralized Identity (DID)",
-              "definition": "A self-sovereign digital identity architecture where travelers store their own credentials on personal devices."
-            },
-            {
-              "num": "06",
-              "term": "Facial Recognition Matching",
-              "definition": "Comparing live digital video feeds against stored passport reference photos using deep neural networks."
-            },
-            {
-              "num": "07",
-              "term": "Liveness Detection",
-              "definition": "Anti-spoofing software verifying that a biometric image belongs to a physically present living subject rather than a photo."
-            },
-            {
-              "num": "08",
-              "term": "Data Sovereignty",
-              "definition": "The principle that digital information is subject to the laws and governance structures of the country where it is processed."
-            },
-            {
-              "num": "09",
-              "term": "Passenger Consent Framework",
-              "definition": "An explicit, informed legal agreement where a passenger willingly opts into biometric screening with clear opt-out rights."
-            },
-            {
-              "num": "10",
-              "term": "Two-Factor Authentication (2FA)",
-              "definition": "A security verification process requiring users to provide two separate forms of identification (e.g., password + biometric scan or SMS code) before granting account access."
-            },
-            {
-              "num": "11",
-              "term": "False Match Rate (FMR)",
-              "definition": "The statistical percentage of biometric verification trials where the system incorrectly matches distinct individuals."
-            },
-            {
-              "num": "12",
-              "term": "Identity Theft",
-              "definition": "The illegal acquisition, cloning, and fraudulent use of another individual's personal data, digital credentials, or biometric information for financial or criminal gain."
-            },
-            {
-              "num": "13",
-              "term": "Demographic Disparity",
-              "definition": "Measurable performance discrepancies in facial recognition accuracy across different racial, gender, or age demographics."
-            },
-            {
-              "num": "14",
-              "term": "Data Breach",
-              "definition": "A security incident in which sensitive, confidential, or biometric customer data is unlawfully accessed, extracted, copied, or transmitted by unauthorized malicious actors."
-            },
-            {
-              "num": "15",
-              "term": "Surveillance Creep",
-              "definition": "The gradual expansion of a security technology beyond its original authorized scope into invasive public tracking."
-            },
-            {
-              "num": "16",
-              "term": "Opt-Out Protocol",
-              "definition": "A mandatory alternative pathway allowing passengers to undergo traditional manual document checks without penalty."
-            },
-            {
-              "num": "17",
-              "term": "Digital Travel Credential (DTC)",
-              "definition": "An official digital representation of a physical passport conforming to international civil aviation (ICAO) standards."
-            },
-            {
-              "num": "18",
-              "term": "Digital Wallet",
-              "definition": "A secure mobile application that stores virtual identity credentials, digital passports, boarding passes, and payment cards on a traveler's personal smartphone."
-            }
-          ]
-        },
-        "materials": {
-          "videos": [
-            {
-              "title": "Video 1: How Facial Recognition & Biometric Borders Actually Work",
-              "watchUrl": "https://www.youtube.com/watch?v=cc0dqW2HCRc",
-              "tag": "Biometrics",
-              "videoId": "cc0dqW2HCRc",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/cc0dqW2HCRc",
-              "caption": "Focus: Vox investigation into how computer vision algorithms map facial landmarks, match biometric templates, and power automated e-Gates."
-            },
-            {
-              "title": "Video 2: Digital Identity & Privacy: What Happens to Your Data?",
-              "watchUrl": "https://www.youtube.com/watch?v=4HkaGuvoyjY",
-              "tag": "Cybersecurity & Privacy",
-              "videoId": "4HkaGuvoyjY",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/4HkaGuvoyjY",
-              "caption": "Focus: The Wall Street Journal explores how traveler biometric data is captured, stored, tokenized, and protected under privacy regulations like GDPR."
-            },
-            {
-              "title": "Video 3: Essential Technology Collocations & Word Partnerships",
-              "watchUrl": "https://www.youtube.com/watch?v=CqRloBkyqQs",
-              "tag": "Grammar Focus",
-              "videoId": "CqRloBkyqQs",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/CqRloBkyqQs",
-              "caption": "Focus: Targeted practice mastering high-frequency verb-noun and adjective-noun combinations (verify identity, grant access, breach security, protect privacy)."
-            }
-          ],
-          "grammar": {
-            "title": "Words That Go Together (Collocations)",
-            "badge": "B1–B2 Grammar Focus",
-            "patternTitle": "Key Word Pairs",
-            "formula": "Verb + Preposition: comply with / adhere to | Verb + Noun: meet standards / conduct an audit",
-            "rulesTitle": "Core Rules",
-            "rules": [
-              "<strong style=\"color: #1e293b;\">1. Verbs with Fixed Prepositions:</strong> <span style=\"font-weight: 700; color: #60854b;\">comply with</span> (rules), <span style=\"font-weight: 700; color: #60854b;\">adhere to</span> (policies), <span style=\"font-weight: 700; color: #60854b;\">participate in</span> (events), <span style=\"font-weight: 700; color: #60854b;\">account for</span> (a percentage).",
-              "<strong style=\"color: #1e293b;\">2. Verbs with NO Preposition:</strong> <span style=\"font-weight: 600; color: #334155;\">meet standards</span> (NOT <em>meet with standards</em>), <span style=\"font-weight: 600; color: #334155;\">follow rules</span>, <span style=\"font-weight: 600; color: #334155;\">observe regulations</span>.",
-              "<strong style=\"color: #1e293b;\">3. Natural Business Pairs:</strong> <span style=\"font-weight: 600; color: #334155;\">conduct an audit</span>, <span style=\"font-weight: 600; color: #334155;\">grant clearance</span>, <span style=\"font-weight: 600; color: #334155;\">implement measures</span>, <span style=\"font-weight: 600; color: #334155;\">strict confidentiality</span>."
-            ],
-            "trap": "<strong>⚠️ TOEIC Trap Alert:</strong> Pay close attention to the preposition right after the blank! If you see <em>with</em>, you cannot pick <em>meet</em>, <em>follow</em>, or <em>observe</em> (they don't use <em>with</em>). You must pick <strong>comply with</strong>!",
-            "examplesTitle": "Biometrics & Security Examples",
-            "examples": [
-              "<em>\"Border control e-gates must <strong>comply with</strong> international encryption protocols.\" (Verb + Prep)</em>",
-              "<em>\"The airport authority will <strong>conduct a comprehensive audit</strong> of its facial scanner feeds.\" (Verb + Noun)</em>"
-            ]
-          },
-          "toeic": {
-            "stem": "________ their digital identity tokens at the self-service terminal, passengers proceed seamlessly through automated biometric boarding lanes.",
+          {
+            "stem": "The Captain decided to initiate an immediate diversion ________ the passenger showed worsening symptoms of acute myocardial infarction.",
             "options": [
               {
                 "letter": "A",
-                "text": "Verified"
+                "text": "because"
               },
               {
                 "letter": "B",
-                "text": "Having verified"
+                "text": "in spite of"
               },
               {
                 "letter": "C",
-                "text": "Verification"
+                "text": "although"
               },
               {
                 "letter": "D",
-                "text": "Verifies"
+                "text": "regardless"
               }
             ],
-            "correctLetter": "B",
-            "correctText": "Having verified",
-            "analysis": "The perfect active participle (\"Having verified\") indicates that the action of verifying tokens occurred before the main action (\"proceed\").",
-            "strategy": "Perfect Participle Formula: Having + V3 indicates an action completed before the main clause action."
+            "correctLetter": "A",
+            "correctText": "because",
+            "analysis": "Causal conjunction 'because' is followed by a full subject-verb clause ('the passenger showed').",
+            "strategy": "Cause connector: because + [clause] explains the operational decision."
           },
-          "resources": [
-            {
-              "url": "https://www.icao.int",
-              "tag": "01 • Digital Travel Standards",
-              "name": "ICAO Digital Travel Credential (DTC)",
-              "desc": "International Civil Aviation Organization technical specifications for secure digital travel credentials on mobile devices."
-            },
-            {
-              "url": "https://www.nist.gov",
-              "tag": "02 • Biometric Accuracy Benchmarks",
-              "name": "NIST Face Recognition Vendor Test (FRVT)",
-              "desc": "National Institute of Standards and Technology official ongoing evaluations measuring algorithmic accuracy and demographic fairness."
-            },
-            {
-              "url": "https://edpb.europa.eu",
-              "tag": "03 • European Privacy Authority",
-              "name": "European Data Protection Board (EDPB)",
-              "desc": "Independent European body ensuring the consistent application of GDPR rules regarding personal biometric data processing."
-            },
-            {
-              "url": "https://www.iata.org",
-              "tag": "04 • Passenger Identity Initiative",
-              "name": "IATA One ID Initiative",
-              "desc": "Global air transport initiative working to create a seamless, paperless airport journey using collaborative biometric identity tokens."
-            },
-            {
-              "url": "https://www.eff.org",
-              "tag": "05 • Digital Civil Liberties",
-              "name": "Electronic Frontier Foundation (EFF) Biometrics",
-              "desc": "Public interest legal analysis and campaign resources defending individual privacy against mass surveillance and biometric overreach."
-            },
-            {
-              "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 • TOEIC Collocation Practice",
-              "name": "ETS Global TOEIC Preparation",
-              "desc": "Vocabulary drills focusing on professional tech collocations, data security policy statements, and passenger service agreements."
-            }
+          {
+            "stem": "Commercial flight crews are ________ to declare their unfitness for flight if they feel severely fatigued before reporting.",
+            "options": [
+              {
+                "letter": "A",
+                "text": "required"
+              },
+              {
+                "letter": "B",
+                "text": "requiring"
+              },
+              {
+                "letter": "C",
+                "text": "requirement"
+              },
+              {
+                "letter": "D",
+                "text": "require"
+              }
+            ],
+            "correctLetter": "A",
+            "correctText": "required",
+            "analysis": "Passive construction 'are required to' expresses regulatory obligation under EASA air safety rules.",
+            "strategy": "Passive modal obligation: be + past participle (required) + to-infinitive."
+          },
+          {
+            "stem": "When ________ across more than five time zones, pilots should manage pre-flight sleep hygiene carefully.",
+            "options": [
+              {
+                "letter": "A",
+                "text": "traveling"
+              },
+              {
+                "letter": "B",
+                "text": "traveled"
+              },
+              {
+                "letter": "C",
+                "text": "travel"
+              },
+              {
+                "letter": "D",
+                "text": "travels"
+              }
+            ],
+            "correctLetter": "A",
+            "correctText": "traveling",
+            "analysis": "Reduced temporal clause after 'When': active participle 'traveling' modifies the main clause subject ('pilots').",
+            "strategy": "Temporal participle: When + V-ing when subject is identical to main clause."
+          }
+        ]
+      },
+      "lessonContent": {
+        "hero": {
+          "title": "Health, Medical Emergencies & Human Factors in Aviation",
+          "subtitle": "In-Flight Medical Emergencies, Crew Fatigue Management, Flight Time Limitations & Pilot/ATCO Well-Being",
+          "image": "images/aas_m3card1.png"
+        },
+        "openingSession": {
+          "title": "Activity 1: Aviation Health News & Diagnostic Spot-Check (10 mins)",
+          "summary": "Analyze recent in-flight medical incidents, crew fatigue advisories, and complete a 5-question baseline aeromedical diagnostic.",
+          "modeBadges": [
+            "Plenary",
+            "Diagnostic Warm-Up",
+            "10 Mins"
           ],
-          "pageUrl": "session4/admat3.html",
-          "articles": [
-            {
-              "topic": "NIST / European Data Protection Board",
-              "sourceTag": "Scientific Evaluation",
-              "heading": "Facial Recognition at the Border: Privacy Safeguards and Demographic Fairness",
-              "snippet": "Technical evaluation of automated border e-Gates examining false match rates, demographic performance parity, and strict GDPR privacy compliance.",
-              "readTime": "Estimated read: 5-7 mins",
-              "url": "https://www.nist.gov"
-            },
-            {
-              "topic": "International Air Transport Association (IATA)",
-              "sourceTag": "Industry Whitepaper",
-              "heading": "The Rise of Digital Passports &amp; Self-Sovereign Identity in Travel",
-              "snippet": "Evaluating the transition from physical passports to encrypted digital credentials, contactless boarding tokens, and passenger consent protocols.",
-              "readTime": "Estimated read: 5-7 mins",
-              "url": "https://www.iata.org"
-            }
+          "instructions": [
+            "Review recent aviation headlines regarding in-flight medical diversions, EASA pilot mental health regulations, and FAA controller fatigue taskforce recommendations.",
+            "In plenary, discuss: 'What are the legal responsibilities of the Captain when deciding whether to divert for a medical emergency?'",
+            "Complete the 5-question spot-check individually, then reveal the answer keys to audit your current medical terminology."
           ],
-          "toeicQuestions": [
+          "deliverable": "Completed 5-question aeromedical diagnostic and 2-minute verbal summary of a recent aviation medical event.",
+          "teacherNotes": "Set a professional aeromedical tone. Emphasize that in-flight medical events occur once in every 600 commercial flights, making triage a core crew competency.",
+          "newsPrompts": [
+            "Transatlantic widebody diverts to Gander (CYQX) after passenger experiences acute crushing chest pain at FL370.",
+            "FAA initiates comprehensive pilot and air traffic controller fatigue mitigation review following series of close-call runway incursions.",
+            "EASA issues updated guidance on pilot peer-support programs (PSP) and confidential mental health self-declaration frameworks."
+          ],
+          "diagnostic": {
+            "title": "Aviation Health & Aeromedical Diagnostic",
+            "questions": [
+              {
+                "id": 1,
+                "q": "What is the difference between a first aid kit (FAK) and an emergency medical kit (EMK)?",
+                "answer": "A First Aid Kit (FAK) contains basic bandages and dressings used by cabin crew. An Emergency Medical Kit (EMK) contains advanced pharmaceuticals, IV fluids, and diagnostic tools reserved strictly for licensed physicians or trained medical volunteers."
+              },
+              {
+                "id": 2,
+                "q": "Which international radio urgency call is transmitted when a passenger has a severe but not immediately life-threatening medical situation?",
+                "answer": "PAN-PAN MEDICO (indicates an urgent medical situation requiring priority ATC vectors and hospital coordination without declaring grave/imminent danger)."
+              },
+              {
+                "id": 3,
+                "q": "What does the physiological acronym WOCL stand for, and why is it dangerous for aviators?",
+                "answer": "Window of Circadian Low (typically 02:00 to 05:59). During this window, human body temperature drops and cognitive reaction times degrade significantly, dramatically elevating error risk."
+              },
+              {
+                "id": 4,
+                "q": "What mnemonic checklist must every pilot review prior to departure to verify personal fitness?",
+                "answer": "IMSAFE: Illness, Medication, Stress, Alcohol, Fatigue, and Emotion/Eating."
+              },
+              {
+                "id": 5,
+                "q": "What is the primary danger of slow cabin depressurization at cruising altitudes above 30,000 feet?",
+                "answer": "Insidious hypoxia: oxygen saturation drops without dramatic sensations of choking, causing cognitive euphoria, confusion, and unconsciousness before the crew realizes depressurization has occurred."
+              }
+            ]
+          }
+        },
+        "medicalIncidentsLexis": {
+          "title": "Activity 2: In-Flight Medical Emergencies & Triage Lexis (20 mins)",
+          "summary": "Master specialized medical condition terminology, cabin emergency medical kits (EMK), and passenger triage.",
+          "modeBadges": [
+            "Pairs",
+            "Medical Protocols",
+            "20 Mins"
+          ],
+          "instructions": [
+            "In pairs, review the 18 specialized medical conditions, emergency kit components, and operational procedures.",
+            "Categorize each condition into one of 3 triage urgency levels: Critical (immediate landing/defibrillation), Serious (urgent medical stabilization), or Non-Emergency (in-seat comfort & monitoring).",
+            "Practice explaining the physical symptoms and cabin crew immediate interventions for at least 3 conditions in fluent English."
+          ],
+          "deliverable": "Completed medical triage matrix categorizing in-flight conditions by severity and immediate cabin crew action.",
+          "teacherNotes": "Drill pronunciation of challenging Latin-based clinical terms: 'hy-per-ven-ti-LA-tion', 'de-FI-bri-lla-tor', 'clau-stro-PHO-bi-a', and 'mys-O-car-di-al'.",
+          "conditions": [
             {
-              "stem": "________ their digital identity tokens at the self-service terminal, passengers proceed seamlessly through automated biometric boarding lanes.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "Verified"
-                },
-                {
-                  "letter": "B",
-                  "text": "Having verified"
-                },
-                {
-                  "letter": "C",
-                  "text": "Verification"
-                },
-                {
-                  "letter": "D",
-                  "text": "Verifies"
-                }
-              ],
-              "correctLetter": "B",
-              "correctText": "Having verified",
-              "analysis": "The perfect active participle (\"Having verified\") indicates that the action of verifying tokens occurred before the main action (\"proceed\").",
-              "strategy": "Perfect Participle Formula: Having + V3 indicates an action completed before the main clause action."
+              "term": "Cardiac Arrest",
+              "urgency": "Immediate Critical",
+              "protocol": "Commence CPR immediately, retrieve and attach AED within 90 seconds, inform Captain to declare MAYDAY MEDICO, page for medical volunteers."
             },
             {
-              "stem": "________ with high-resolution infrared biometric sensors, the smart e-gate authenticates traveler identities in under three seconds.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "Equipped"
-                },
-                {
-                  "letter": "B",
-                  "text": "Equipping"
-                },
-                {
-                  "letter": "C",
-                  "text": "Equipment"
-                },
-                {
-                  "letter": "D",
-                  "text": "Equip"
-                }
-              ],
-              "correctLetter": "A",
-              "correctText": "Equipped",
-              "analysis": "The past participle (\"Equipped\") functions as a passive participial adjective modifying the subject \"smart e-gate\" (the e-gate is equipped).",
-              "strategy": "Passive participial clause: [Past Participle V3] ..., [Subject]. The e-gate is equipped with sensors."
+              "term": "Acute Panic Attack / Claustrophobia",
+              "urgency": "Non-Emergency / Cabin Care",
+              "protocol": "Relocate passenger to quiet seat near galley, speak in calm measured tones, guide controlled diaphragmatic breathing, provide cool compress."
             },
             {
-              "stem": "When ________ physical travel passports, border control agents cross-examine embedded cryptographic chip signatures.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "inspect"
-                },
-                {
-                  "letter": "B",
-                  "text": "inspecting"
-                },
-                {
-                  "letter": "C",
-                  "text": "inspected"
-                },
-                {
-                  "letter": "D",
-                  "text": "inspection"
-                }
-              ],
-              "correctLetter": "B",
-              "correctText": "inspecting",
-              "analysis": "After temporal prepositions and conjunctions like \"When\" or \"While\", active participial clauses take the -ing form (\"When inspecting\").",
-              "strategy": "Formula: When/While + [V-ing] + [Object] when the subject of both clauses is the same agent (border agents inspect)."
+              "term": "Severe Hyperventilation",
+              "urgency": "Moderate Urgency",
+              "protocol": "Reassure passenger, coach slow inhalation through nose, have passenger breathe into hands or paper bag to restore carbon dioxide balance."
             },
             {
-              "stem": "Digital travel credentials, ________ mutually across all twenty-seven European member states, will standardize passenger border processing.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "recognized"
-                },
-                {
-                  "letter": "B",
-                  "text": "recognizing"
-                },
-                {
-                  "letter": "C",
-                  "text": "recognize"
-                },
-                {
-                  "letter": "D",
-                  "text": "recognition"
-                }
-              ],
-              "correctLetter": "A",
-              "correctText": "recognized",
-              "analysis": "Reduced relative clause with passive meaning: credentials [which are] recognized mutually across states.",
-              "strategy": "Participial modifier: When modifying a noun passively (credentials are recognized), use the past participle (recognized)."
+              "term": "Suspected Stroke / CVA",
+              "urgency": "Immediate Critical",
+              "protocol": "Apply FAST assessment (Face, Arms, Speech, Time), administer high-flow oxygen, record exact symptom onset time, request immediate diversion to hospital."
             },
             {
-              "stem": "________ to prevent unauthorized digital identity cloning, border IT departments implemented zero-trust quantum-resistant encryption.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "Seeking"
-                },
-                {
-                  "letter": "B",
-                  "text": "Sought"
-                },
-                {
-                  "letter": "C",
-                  "text": "Seek"
-                },
-                {
-                  "letter": "D",
-                  "text": "Seekingly"
-                }
-              ],
-              "correctLetter": "A",
-              "correctText": "Seeking",
-              "analysis": "The present active participle clause (\"Seeking to prevent...\") indicates the reason or purpose of the main subject (\"border IT departments\").",
-              "strategy": "Active participial clause showing intent or motive: [V-ing] to + verb ..., [Subject] + [main verb]."
+              "term": "Acute Anaphylaxis",
+              "urgency": "Immediate Critical",
+              "protocol": "Identify allergen, retrieve auto-injector (EpiPen) from EMK, administer intramuscular epinephrine in outer thigh, monitor airway continuously."
+            },
+            {
+              "term": "Severe Motion Sickness / Syncope",
+              "urgency": "Non-Emergency",
+              "protocol": "Seat reclined flat with legs elevated, provide sick bag, cold damp towel on forehead, administer cabin oxygen if prolonged pallor."
             }
+          ]
+        },
+        "fatigueHumanFactorsClinic": {
+          "title": "Activity 3: Crew & Controller Fatigue, Circadian Rhythms & FTL (20 mins)",
+          "summary": "Examine the physiological mechanisms of fatigue, sleep debt, circadian disruption, and flight time limitations.",
+          "modeBadges": [
+            "Individual & Pairs",
+            "Human Factors Clinic",
+            "20 Mins"
+          ],
+          "instructions": [
+            "Read the core physiological principles of sleep architecture, sleep inertia (grogginess upon waking), and the Window of Circadian Low (WOCL).",
+            "Examine EASA Flight Time Limitations (FTL) tables: maximum daily flight duty period (FDP) based on start time and number of sectors.",
+            "Work in pairs to audit a realistic 12-hour crew schedule: determine if the roster complies with legal FTL and calculate required rest periods before the next duty."
+          ],
+          "deliverable": "Annotated IMSAFE self-assessment checklist and calculated maximum duty period under EASA FTL rules.",
+          "teacherNotes": "Contrast acute fatigue (single exhausting duty cycle) with cumulative sleep debt. Emphasize that reporting fatigued is a non-punitive safety obligation under Just Culture.",
+          "ftlRules": [
+            {
+              "concept": "Window of Circadian Low (WOCL)",
+              "definition": "02:00 to 05:59 in the crew member's acclimated time zone. Alertness and cognitive performance reach diurnal minimums."
+            },
+            {
+              "concept": "Maximum Flight Duty Period (FDP)",
+              "definition": "Ranges from 9 to 13 hours depending on start time and number of flight sectors. Duties starting during WOCL are heavily restricted."
+            },
+            {
+              "concept": "Controlled Rest on Flight Deck",
+              "definition": "A 40-minute planned in-seat rest protocol permitted during low-workload cruising flight with one pilot in absolute active monitoring."
+            },
+            {
+              "concept": "ATCO Sector Break Cycles",
+              "definition": "Air traffic controllers must not exceed 2 hours of continuous active operational radar control without a mandatory 30-45 minute relief break."
+            }
+          ]
+        },
+        "medicalDiversionSimulation": {
+          "title": "Activity 4: Airborne Medical Diversion Simulation & Decision Matrix (35 mins)",
+          "summary": "Roleplay a flight crew facing an acute in-flight medical crisis over continental / transoceanic airspace.",
+          "modeBadges": [
+            "Small Groups (3-4)",
+            "Decision Simulation",
+            "35 Mins"
+          ],
+          "instructions": [
+            "In small groups of 3-4, select one of the 3 realistic in-flight emergency scenarios below.",
+            "Step 1: Clinical Assessment & Ground Telemedicine (consult MedLink satellite doctor, evaluate EMK pharmaceuticals).",
+            "Step 2: Operational Feasibility (calculate distance, fuel dumping / overweight landing limits, airport runway length, weather minimums, and hospital trauma level).",
+            "Step 3: ATC Radio Transmission & Passenger Announcement (draft and deliver the PAN-PAN / MAYDAY radio declaration and Captain's cabin announcement)."
+          ],
+          "deliverable": "3-minute Captain's diversion briefing and radio declaration (PAN-PAN MEDICO vs. MAYDAY) with runway, hospital, and fuel dump calculations.",
+          "teacherNotes": "Guide groups to balance medical urgency against operational feasibility. An overweight landing on a short wet runway creates catastrophic safety risks that must be weighed against medical priority.",
+          "scenarios": [
+            {
+              "id": 1,
+              "title": "Scenario A: Mid-Atlantic Cardiac Emergency at FL370",
+              "context": "Boeing 777-300ER cruising mid-Atlantic (Speedbird 178, London to New York). 58-year-old passenger experiences severe crushing retrosternal pain, cold sweats, and BP 80/50. Volunteer ER doctor suspects acute STEMI myocardial infarction.",
+              "challenge": "Distance to Shannon (EINN) is 105 mins; distance to Reykjavik (BIRK) is 85 mins. BIRK has runway 19/01 with freezing drizzle and crosswind; EINN has 3,200m dry runway and catheterization trauma center."
+            },
+            {
+              "id": 2,
+              "title": "Scenario B: Severe Cabin Panic & Claustrophobia Crisis at FL330",
+              "context": "Airbus A321neo en route from Paris to Athens over the Alps. 32-year-old passenger suffers an acute violent claustrophobia attack, screaming hysterically and attempting to pull the emergency exit handle while hyperventilating.",
+              "challenge": "Cabin crew and passengers have restrained the individual, but hyperventilation is inducing tetany and loss of consciousness. Immediate alternate airports: Milan Malpensa (LIMC) vs. Geneva (LSGG)."
+            },
+            {
+              "id": 3,
+              "title": "Scenario C: Sudden Pilot Incapacitation on Descent",
+              "context": "Embraer 190 on approach into Frankfurt (EDDF) passing 8,000 feet in thick cloud. First Officer suddenly collapses over the flight controls with severe acute kidney stone colic and vomiting.",
+              "challenge": "Captain assumes sole pilot control under high workload in dense IMC weather. Declare MAYDAY INCAPACITATED PILOT, request immediate ILS approach vectors, and coordinate standside medical response."
+            }
+          ]
+        },
+        "humanFactorsDebrief": {
+          "title": "Activity 5: Aeromedical Physics: Spatial Disorientation, Hypoxia & Emergency Descent (25 mins)",
+          "summary": "Analyze physiological illusions in instrument flight, hypoxia progression, and emergency descent maneuvers.",
+          "modeBadges": [
+            "Plenary & Pairs",
+            "Aeromedical Physics",
+            "25 Mins"
+          ],
+          "instructions": [
+            "Analyze the 3 classic vestibular sensory illusions: the leans (false roll sensation), somatogravic illusion (false pitch-up during rapid acceleration), and graveyard spiral.",
+            "Examine Time of Useful Consciousness (TUC) table: FL250 (3–5 mins), FL350 (30–60 secs), FL400 (15–20 secs).",
+            "Synthesize the emergency descent memory items: Oxygen masks on (100%), establish crew communications, speedbrakes extend, descend at VMO/MMO to 10,000 ft or minimum safe altitude (MSA)."
+          ],
+          "deliverable": "Technical summary comparing rapid decompression response procedures with spatial disorientation recovery techniques.",
+          "teacherNotes": "Emphasize why instruments must be trusted above all human sensory inputs during IMC. Review the famous somatogravic illusion during night go-arounds.",
+          "illusions": [
+            {
+              "name": "The Leans",
+              "cause": "A slow unrecognized roll recovery makes the pilot feel as though the aircraft is banking in the opposite direction when it is actually level."
+            },
+            {
+              "name": "Somatogravic Illusion",
+              "cause": "Rapid forward acceleration stimulates otolith organs, creating a false sensation of pitching up, tempting the pilot to push the nose down into the ground."
+            },
+            {
+              "name": "Graveyard Spiral",
+              "cause": "In an unperceived bank, the pilot pulls back on the yoke to stop altitude loss, tightening the spiral dive and overstressing the airframe."
+            }
+          ]
+        },
+        "closingReview": {
+          "title": "Activity 6: Medical & Human Factors Consolidation & Syllable Stress (10 mins)",
+          "summary": "Consolidate the 18 aeromedical terms, conduct syllable stress drills, and prepare for Session 2 Meteorology.",
+          "modeBadges": [
+            "Plenary",
+            "Consolidation",
+            "10 Mins"
+          ],
+          "instructions": [
+            "Conduct rhythmic pronunciation drills on multi-syllabic aeromedical vocabulary.",
+            "Verify personal mastery of the 3 triage categories, FTL rules, and the IMSAFE mnemonic.",
+            "Access the Vocabulary Flashcards tab to complete self-study drills before Session 2."
+          ],
+          "deliverable": "Pronunciation self-audit on 18 aeromedical terms and confirmed prep for Session 2 Meteorology.",
+          "teacherNotes": "Emphasize that clear, calm pronunciation on radio urgency calls prevents misunderstandings between pilots and controllers during high-stress medical events.",
+          "pronunciationFocus": [
+            "hy-per-ven-ti-LA-tion",
+            "de-FI-bri-lla-tor",
+            "clau-stro-PHO-bi-a",
+            "cir-CA-di-an",
+            "phy-si-o-LO-gi-cal"
+          ],
+          "checkpoints": [
+            "Mastered 18 clinical & operational medical terms",
+            "Differentiated PAN-PAN MEDICO vs. MAYDAY urgency calls",
+            "Applied EASA FTL rules and the IMSAFE fitness checklist",
+            "Executed airborne medical diversion decision matrix"
+          ]
+        }
+      }
+    },
+    "2": {
+      "session": 2,
+      "objectives": {
+        "title": "Session 2 - Meteorology & Severe Weather in Commercial Aviation Objectives",
+        "summary": "By the end of this session, you will be able to evaluate the operational impacts of severe atmospheric hazards on commercial flight operations, decode complex METAR and TAF meteorological reports, explain the aerodynamic physics of microbursts and structural icing, analyze landmark weather accident case studies (Delta 191 & BA 009), and execute a terminal weather diversion routing under fuel constraints.",
+        "items": [
+          {
+            "num": 1,
+            "title": "Classify Severe Atmospheric Hazards (Meteorological Lexis)",
+            "description": "Distinguish between convective hazards (microbursts, squall lines, cumulonimbus), turbulence phenomena (CAT, mountain waves), and obscurations (volcanic ash, low visibility) using standardized ICAO aviation terminology."
+          },
+          {
+            "num": 2,
+            "title": "Decode Operational Aviation Weather Reports (METAR, TAF & SIGMET)",
+            "description": "Extract critical operational data from standard coded weather strings including wind direction/gusts, runway visual range (RVR), cloud coverage, present weather symbols (+TSRA, FZRA), and trend forecasts."
+          },
+          {
+            "num": 3,
+            "title": "Explain the Aerodynamic Physics of Icing & Microbursts",
+            "description": "Describe how rime and clear structural icing degrade wing lift while increasing drag and stall speed, and explain the sudden velocity and wind direction transitions encountered inside a low-level microburst."
+          },
+          {
+            "num": 4,
+            "title": "Analyze Landmark Weather Accidents (Case Studies: Delta 191 & BA 009)",
+            "description": "Synthesize the atmospheric triggers, flight crew responses, and technological breakthroughs resulting from the 1985 Dallas microburst accident and the 1982 Galunggung volcanic ash four-engine flameout."
+          },
+          {
+            "num": 5,
+            "title": "Execute a Weather Diversion & Holding Pattern Plan",
+            "description": "Collaborate in flight dispatcher and pilot roles to evaluate weather radar echoes, calculate reserve fuel burn, and select safe alternate airports during severe terminal storm closures."
+          }
+        ]
+      },
+      "lessonPlan": {
+        "title": "Session 2 Lesson Plan: Meteorology & Severe Weather (2 Hours)",
+        "summary": "A 120-minute operational syllabus combining weather news diagnostics, atmospheric lexis classification, METAR/TAF decoding clinic, 15-minute landmark weather case study research sprint, and severe weather diversion simulation.",
+        "items": [
+          {
+            "time": "00-10",
+            "title": "Activity 1: Aviation Weather Briefing & Meteorological Diagnostic (10 mins)",
+            "description": "Plenary opening examining current weather hazard charts, satellite imagery, and completing a 5-question baseline meteorological diagnostic."
+          },
+          {
+            "time": "10-30",
+            "title": "Activity 2: Severe Atmospheric Phenomena & Flight Impacts (20 mins)",
+            "description": "Paired classification of 18 severe weather terms, aerodynamic impact matrices, and pilot tactical avoidance maneuvers."
+          },
+          {
+            "time": "30-50",
+            "title": "Activity 3: Language Clinic: Decoding METAR, TAF & SIGMET Advisories (20 mins)",
+            "description": "Interactive translation and interpretation of real-world coded aviation weather reports for dispatchers and pilots."
+          },
+          {
+            "time": "50-65",
+            "title": "Activity 4: 15-Minute Group Research Sprint: Landmark Weather Case Studies (15 mins)",
+            "description": "Small-group rapid research analyzing Delta 191 (DFW microburst) or BA 009 (volcanic ash ingestion), extracting safety fixes and crew actions."
+          },
+          {
+            "time": "65-110",
+            "title": "Activity 5: Severe Weather En-Route & Terminal Diversion Simulation (45 mins)",
+            "description": "Flight crew and dispatcher teams reroute aircraft around a massive squall line with fuel reserve calculations and ATC coordination."
+          },
+          {
+            "time": "110-120",
+            "title": "Activity 6: Meteorology Consolidation & Pronunciation Wrap-Up (10 mins)",
+            "description": "Multi-syllabic stress drills on meteorological terms, checkpoints verification, and link to Session 3."
+          }
+        ]
+      },
+      "revision": [
+        {
+          "num": "01",
+          "term": "microburst",
+          "phonetic": "/ˈmaɪ.krəʊ.bɜːst/",
+          "pos": "noun",
+          "definition": "A localized column of sinking air (downdraft) within a thunderstorm that produces damaging divergent winds of over forty-five knots near the ground.",
+          "example": "On final approach, the airliner encountered a severe microburst that caused an immediate forty-knot loss of indicated airspeed."
+        },
+        {
+          "num": "02",
+          "term": "low-level windshear (LLWS)",
+          "phonetic": "/ləʊ ˈlev.əl wɪnd ʃɪər/",
+          "pos": "noun phrase",
+          "definition": "A sudden, drastic change in wind speed and/or wind direction over a short distance within two thousand feet of the aerodrome surface.",
+          "example": "Terminal Doppler weather radar alerted the tower to LLWS on runway 27 right, prompting immediate go-around instructions."
+        },
+        {
+          "num": "03",
+          "term": "clear air turbulence (CAT)",
+          "phonetic": "/klɪər eər ˈtɜː.bjə.ləns/",
+          "pos": "noun phrase",
+          "definition": "Severe, sudden turbulence occurring in cloudless skies at high altitudes, typically associated with jet stream wind gradients and mountain waves.",
+          "example": "Unforecast severe clear air turbulence at FL360 hurled unbelted passengers and service carts against the cabin ceiling."
+        },
+        {
+          "num": "04",
+          "term": "cumulonimbus (CB)",
+          "phonetic": "/ˌkjuː.mjʊ.ləʊˈnɪm.bəs/",
+          "pos": "noun",
+          "definition": "An exceptionally dense, vertically towering storm cloud associated with severe turbulence, lightning, hail, and violent icing conditions.",
+          "example": "Airborne weather radar detected isolated cumulonimbus cells with tops exceeding FL450 directly along the airway."
+        },
+        {
+          "num": "05",
+          "term": "rime icing",
+          "phonetic": "/raɪm ˈaɪ.sɪŋ/",
+          "pos": "noun phrase",
+          "definition": "A rough, milky, opaque ice deposit formed by the rapid freezing of small supercooled water droplets upon impact with airframe surfaces.",
+          "example": "While holding in stratiform cloud, rime icing accumulated rapidly along the unheated wing leading edges."
+        },
+        {
+          "num": "06",
+          "term": "clear icing",
+          "phonetic": "/klɪər ˈaɪ.sɪŋ/",
+          "pos": "noun phrase",
+          "definition": "A heavy, smooth, transparent sheet of ice formed when large supercooled droplets freeze slowly as they flow back across aerodynamic surfaces.",
+          "example": "Clear icing is considered the most hazardous structural icing because it is difficult to see and significantly alters airfoil camber."
+        },
+        {
+          "num": "07",
+          "term": "pitot-static tube freezing",
+          "phonetic": "/ˈpiː.təʊ ˈstæt.ɪk tjuːb ˈfriː.zɪŋ/",
+          "pos": "noun phrase",
+          "definition": "The complete blockage of dynamic pressure probes by ice crystals or supercooled droplets, resulting in erroneous airspeed and altitude readings.",
+          "example": "Severe icing blocked the aircraft's pitot probes, causing the primary flight computer to drop out of normal flight control law."
+        },
+        {
+          "num": "08",
+          "term": "supercooled large droplets (SLD)",
+          "phonetic": "/ˌsuː.pə.kuːld lɑːdʒ ˈdrɒp.ləts/",
+          "pos": "noun phrase",
+          "definition": "Liquid water droplets remaining liquid at temperatures below freezing with diameters greater than fifty microns, creating severe runback icing.",
+          "example": "Encountering SLD conditions beyond certified aircraft ice protection limits led to severe ice ridges behind active de-icing boots."
+        },
+        {
+          "num": "09",
+          "term": "volcanic ash plume",
+          "phonetic": "/vɒlˈkæn.ɪk æʃ pluːm/",
+          "pos": "noun phrase",
+          "definition": "An airborne cloud of abrasive silicate mineral dust and glass shards ejected by an erupting volcano that can melt inside jet engines.",
+          "example": "Passing through an undetected volcanic ash plume caused the Boeing 747's turbine blades to glaze over, causing flameout of all four engines."
+        },
+        {
+          "num": "10",
+          "term": "jet stream",
+          "phonetic": "/dʒet striːm/",
+          "pos": "noun phrase",
+          "definition": "A narrow, meandering ribbon of high-altitude westerly winds with velocities often exceeding one hundred and twenty knots near the tropopause.",
+          "example": "Dispatchers routed the eastbound flight directly into the core of the polar jet stream to save forty minutes of flight time."
+        },
+        {
+          "num": "11",
+          "term": "mountain wave",
+          "phonetic": "/ˈmaʊn.tɪn weɪv/",
+          "pos": "noun phrase",
+          "definition": "Oscillating atmospheric gravity waves formed on the downwind (lee) side of mountain ridges, producing severe rotor turbulence and vertical drafts.",
+          "example": "Flying downwind of the Pyrenees, the aircraft experienced severe mountain wave turbulence with rate of climb fluctuating violently."
+        },
+        {
+          "num": "12",
+          "term": "squall line",
+          "phonetic": "/skwɔːl laɪn/",
+          "pos": "noun phrase",
+          "definition": "A long, continuous, narrow band of severe, active thunderstorms that often forms in advance of a fast-moving cold front.",
+          "example": "Pilots requested a seventy-mile deviation south of track to bypass an impenetrable two-hundred-mile squall line."
+        },
+        {
+          "num": "13",
+          "term": "Runway Visual Range (RVR)",
+          "phonetic": "/ˈrʌn.weɪ ˈvɪʒ.u.əl reɪndʒ/",
+          "pos": "noun phrase",
+          "definition": "The horizontal distance over which a pilot on the centerline of a runway can see the runway surface markings or lights delineating it.",
+          "example": "When freezing fog lowered the RVR to three hundred meters, the aerodrome initiated Category III Low Visibility Procedures."
+        },
+        {
+          "num": "14",
+          "term": "Low Visibility Procedures (LVP)",
+          "phonetic": "/ləʊ ˌvɪz.əˈbɪl.ə.ti prəˈsiː.dʒəz/",
+          "pos": "noun phrase",
+          "definition": "Special operational ground and air traffic procedures enforced at aerodromes when cloud ceiling or visibility falls below CAT I minimums.",
+          "example": "Under LVP, taxiway movements are strictly separated and vehicle access to the airfield maneuvering area is restricted."
+        },
+        {
+          "num": "15",
+          "term": "METAR",
+          "phonetic": "/ˈmeɪ.tɑːr/",
+          "pos": "noun",
+          "definition": "A standardized routine aerodrome meteorological report issued hourly or half-hourly containing surface wind, visibility, weather, and pressure.",
+          "example": "The latest METAR for Toulouse-Blagnac reported gusty northwest winds and broken cumulonimbus clouds at two thousand feet."
+        },
+        {
+          "num": "16",
+          "term": "Terminal Aerodrome Forecast (TAF)",
+          "phonetic": "/ˈtɜː.mɪ.nəl ˈeə.rə.drəʊm ˈfɔː.kɑːst/",
+          "pos": "noun phrase",
+          "definition": "A concise meteorological statement of expected weather conditions at an airport for a specified period, typically twenty-four to thirty hours.",
+          "example": "The dispatch release included the Paris TAF forecasting a temporary change to heavy thunderstorms during the planned arrival time."
+        },
+        {
+          "num": "17",
+          "term": "SIGMET",
+          "phonetic": "/ˈsɪɡ.met/",
+          "pos": "noun",
+          "definition": "Significant Meteorological Information issued to all aircraft regarding en-route weather phenomena that may affect safety (severe icing, CAT, ash).",
+          "example": "ATC broadcast a convective SIGMET warning of severe squall lines and four-inch hail across the entire Marseille flight information region."
+        },
+        {
+          "num": "18",
+          "term": "wake turbulence",
+          "phonetic": "/weɪk ˈtɜː.bjə.ləns/",
+          "pos": "noun phrase",
+          "definition": "Turbulence formed by a pair of counter-rotating counter vortices trailing behind an aircraft's wingtips as a byproduct of generating lift.",
+          "example": "ATC applied four minutes of mandatory radar spacing behind the Airbus A380 super-heavy to allow wake vortices to dissipate."
+        }
+      ],
+      "materials": {
+        "videos": [
+          {
+            "tag": "ICAO Meteorology",
+            "title": "Low-Level Windshear & Microburst Avoidance for Commercial Pilots",
+            "duration": "16:15",
+            "channel": "International Civil Aviation Organization (ICAO)",
+            "summary": "Detailed technical analysis of the physical dynamics of thunderstorm microbursts, onboard predictive windshear radar, and immediate recovery pitch attitudes."
+          },
+          {
+            "tag": "Accident Investigation",
+            "title": "BA 009: When Volcanic Ash Paralyzed a 747 Over Jakarta",
+            "duration": "15:30",
+            "channel": "Aviation Safety Network Case Studies",
+            "summary": "Engineering reconstruction of the Mount Galunggung volcanic ash encounter, turbine blade glazed ceramic coating, and the successful multi-engine restart."
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.metoffice.gov.uk",
+            "tag": "01 • Weather Authority",
+            "name": "UK Met Office Aviation Services & Weather Radar",
+            "desc": "Official aviation weather forecasting methodologies, satellite precipitation maps, and SIGMET generation standards."
+          },
+          {
+            "url": "https://www.easa.europa.eu",
+            "tag": "02 • Airworthiness Rules",
+            "name": "EASA In-Flight Icing Regulations & Aircraft Certification",
+            "desc": "Certification specifications for flight in known icing conditions (CS-25 Appendix C and Appendix O for Supercooled Large Droplets)."
+          },
+          {
+            "url": "https://www.wmo.int",
+            "tag": "03 • WMO Standards",
+            "name": "World Meteorological Organization: Aeronautical Code Guide",
+            "desc": "Official international handbook for decoding METAR, SPECI, TAF, and SIGMET meteorological abbreviations and codes."
+          },
+          {
+            "url": "https://www.icao.int",
+            "tag": "04 • Volcanic Ash Centers",
+            "name": "ICAO Volcanic Ash Advisory Centers (VAAC)",
+            "desc": "Global monitoring network tracking volcanic ash clouds and providing operational dispersion advisories to international airlines."
+          },
+          {
+            "url": "https://www.eurocontrol.int",
+            "tag": "05 • Airspace Capacity",
+            "name": "EUROCONTROL Severe Weather Airspace Contingency",
+            "desc": "Collaborative decision-making protocols managing European en-route delays and re-routing during convective summer squall lines."
+          },
+          {
+            "url": "https://www.faa.gov",
+            "tag": "06 • Flight Safety Advisory",
+            "name": "FAA Advisory Circular AC 00-54: Pilot Windshear Guide",
+            "desc": "Comprehensive guidance on airborne predictive windshear systems, reactive alarms, and aerodynamic recovery maneuvers."
+          }
+        ],
+        "pageUrl": "session2/admat_aas2.html",
+        "articles": [
+          {
+            "topic": "Flight Safety Foundation",
+            "sourceTag": "Technical Safety Digest",
+            "heading": "Microburst Aerodynamics and Airborne Detection: The Legacy of Delta 191",
+            "snippet": "Retrospective engineering study analyzing how the 1985 DFW microburst spurred the development of Terminal Doppler Weather Radar (TDWR) and mandatory predictive windshear equipment on transport category aircraft.",
+            "readTime": "Estimated read: 6-8 mins",
+            "url": "https://www.easa.europa.eu"
+          },
+          {
+            "topic": "Journal of Aircraft & Propulsion",
+            "sourceTag": "Aerospace Engineering Study",
+            "heading": "Silicate Ingestion and Turbine Glass Formation in Volcanic Ash Clouds",
+            "snippet": "Combustion chamber thermodynamic analysis showing how volcanic ash particles melt at 1,100 degrees Celsius, coating high-pressure turbine nozzles and causing immediate compressor stall.",
+            "readTime": "Estimated read: 5-7 mins",
+            "url": "https://www.icao.int"
+          }
+        ],
+        "toeicQuestions": [
+          {
+            "stem": "The flight was instructed to enter a holding pattern ________ the heavy cumulonimbus storm passed directly over the aerodrome.",
+            "options": [
+              {
+                "letter": "A",
+                "text": "while"
+              },
+              {
+                "letter": "B",
+                "text": "despite"
+              },
+              {
+                "letter": "C",
+                "text": "instead"
+              },
+              {
+                "letter": "D",
+                "text": "during"
+              }
+            ],
+            "correctLetter": "A",
+            "correctText": "while",
+            "analysis": "Conjunction 'while' introduces a simultaneous temporal clause with its own subject and verb ('the storm passed').",
+            "strategy": "Temporal conjunction: while + [subject + verb clause]."
+          },
+          {
+            "stem": "Severe clear air turbulence was ________ reported by three consecutive widebody aircraft cruising at FL370.",
+            "options": [
+              {
+                "letter": "A",
+                "text": "repeatedly"
+              },
+              {
+                "letter": "B",
+                "text": "repetition"
+              },
+              {
+                "letter": "C",
+                "text": "repeat"
+              },
+              {
+                "letter": "D",
+                "text": "repetitive"
+              }
+            ],
+            "correctLetter": "A",
+            "correctText": "repeatedly",
+            "analysis": "The adverb 'repeatedly' is required to modify the passive verb construction 'was reported'.",
+            "strategy": "Word form: auxiliary verb + adverb + past participle (was repeatedly reported)."
+          },
+          {
+            "stem": "________ the runway visual range dropped below three hundred meters, the tower controller initiated Low Visibility Procedures.",
+            "options": [
+              {
+                "letter": "A",
+                "text": "As soon as"
+              },
+              {
+                "letter": "B",
+                "text": "Due to"
+              },
+              {
+                "letter": "C",
+                "text": "Because of"
+              },
+              {
+                "letter": "D",
+                "text": "In spite of"
+              }
+            ],
+            "correctLetter": "A",
+            "correctText": "As soon as",
+            "analysis": "'As soon as' functions as a subordinating conjunction introducing a condition/time clause that triggers the main action.",
+            "strategy": "Time conjunction: As soon as + [clause], [main clause]."
+          },
+          {
+            "stem": "Airliners operating in sub-zero cloud layers must activate anti-icing systems to prevent ice from ________ on the wings.",
+            "options": [
+              {
+                "letter": "A",
+                "text": "accumulating"
+              },
+              {
+                "letter": "B",
+                "text": "accumulate"
+              },
+              {
+                "letter": "C",
+                "text": "accumulation"
+              },
+              {
+                "letter": "D",
+                "text": "accumulates"
+              }
+            ],
+            "correctLetter": "A",
+            "correctText": "accumulating",
+            "analysis": "The preposition 'from' requires a gerund (-ing form) when indicating prevention: prevent [noun] from + [V-ing].",
+            "strategy": "Prepositional syntax: prevent X from doing Y requires the gerund accumulating."
+          },
+          {
+            "stem": "Had the pilots detected the microburst earlier, they ________ executed an immediate go-around at full take-off thrust.",
+            "options": [
+              {
+                "letter": "A",
+                "text": "would have"
+              },
+              {
+                "letter": "B",
+                "text": "will have"
+              },
+              {
+                "letter": "C",
+                "text": "would"
+              },
+              {
+                "letter": "D",
+                "text": "have"
+              }
+            ],
+            "correctLetter": "A",
+            "correctText": "would have",
+            "analysis": "Third conditional with inversion: 'Had the pilots detected...' is completed by 'would have + past participle'.",
+            "strategy": "Inverted third conditional: Had + S + V3 ..., S + would have + V3."
+          }
+        ]
+      },
+      "lessonContent": {
+        "hero": {
+          "title": "Meteorology & Severe Weather Impacts on Aviation Operations",
+          "subtitle": "Atmospheric Hazards, Convective Storms, Icing, Microbursts & Landmark Weather Accident Case Studies",
+          "image": "images/aas_m3card2.png"
+        },
+        "openingSession": {
+          "title": "Activity 1: Aviation Weather Briefing & Meteorological Diagnostic (10 mins)",
+          "summary": "Review current convective storm advisories, satellite imagery, and complete a 5-question baseline meteorological diagnostic.",
+          "modeBadges": [
+            "Plenary",
+            "Diagnostic Warm-Up",
+            "10 Mins"
+          ],
+          "instructions": [
+            "Examine recent aviation weather headlines detailing severe clear-air turbulence encounters, winter freezing fog disruptions, and volcanic ash plume tracking.",
+            "In plenary, discuss: 'Why is clear air turbulence (CAT) significantly more dangerous for passengers and flight attendants than thunderstorm turbulence?'",
+            "Complete the 5-question spot-check individually, then reveal the answer keys to audit your meteorological knowledge."
+          ],
+          "deliverable": "Completed 5-question weather diagnostic and 2-minute oral analysis of a current weather advisory.",
+          "teacherNotes": "Set an operational meteorology focus. Emphasize that weather accounts for over 70% of en-route flight delays in European and North American airspace.",
+          "newsPrompts": [
+            "Transpacific flight encounters severe unforecast clear air turbulence at FL380, diverting to Tokyo-Narita with cabin crew injuries.",
+            "Heavy freezing rain and supercooled drizzle at Frankfurt Airport grounds over 400 flights due to runway icing and de-icing queue overload.",
+            "Volcanic ash eruption in Iceland prompts European Volcanic Ash Advisory Center (VAAC) to issue safety warning zones across North Atlantic tracks."
+          ],
+          "diagnostic": {
+            "title": "Aviation Meteorology & Weather Hazards Diagnostic",
+            "questions": [
+              {
+                "id": 1,
+                "q": "What is the primary physical characteristic of a microburst that makes it so dangerous on landing?",
+                "answer": "A microburst creates a rapid transition: first a sudden headwind that increases lift, followed immediately by a downdraft and a devastating tailwind that causes severe lift loss and rapid descent into the ground."
+              },
+              {
+                "id": 2,
+                "q": "What is the difference between rime ice and clear ice on an aircraft airframe?",
+                "answer": "Rime ice is rough, milky, and opaque, formed by small supercooled droplets freezing instantly on impact. Clear ice is smooth, dense, and transparent, formed by large droplets flowing back across the wing before freezing, severely altering airfoil lift."
+              },
+              {
+                "id": 3,
+                "q": "What does the abbreviation RVR represent, and when is it reported in a METAR?",
+                "answer": "Runway Visual Range: the horizontal distance a pilot can see along the runway centerline. It is reported when prevailing visibility falls below 1,500 meters."
+              },
+              {
+                "id": 4,
+                "q": "Why is volcanic ash catastrophic for jet turbine engines?",
+                "answer": "Volcanic ash consists of fine abrasive silica minerals that melt at jet engine operating temperatures (~1,100°C), coating turbine blades in fused molten glass, choking air cooling holes, and causing flameout."
+              },
+              {
+                "id": 5,
+                "q": "What is the difference between a METAR and a TAF?",
+                "answer": "A METAR is a routine observation report of actual current weather at an airport. A TAF is a forecast of expected future weather conditions over a 24- to 30-hour period."
+              }
+            ]
+          }
+        },
+        "weatherPhenomenaLexis": {
+          "title": "Activity 2: Severe Atmospheric Phenomena & Flight Impacts (20 mins)",
+          "summary": "Master specialized meteorological terminology, aerodynamic degradation mechanisms, and pilot avoidance maneuvers.",
+          "modeBadges": [
+            "Pairs",
+            "Meteorological Lexis",
+            "20 Mins"
+          ],
+          "instructions": [
+            "In pairs, analyze the 18 specialized aviation weather terms, phonetic pronunciations, and operational definitions.",
+            "Match each weather phenomenon with its direct operational consequence (e.g., loss of lift, loss of instrumentation, flameout, runway closure).",
+            "Formulate 3 complex spoken sentences using cause-and-effect connectors to explain how pilots and dispatchers mitigate these risks."
+          ],
+          "deliverable": "Aviation hazard classification grid linking atmospheric phenomena to aerodynamic consequences and pilot responses.",
+          "teacherNotes": "Focus on syllable stress in multi-syllabic meteorological terms: 'cu-mu-lo-NIM-bus', 'MI-cro-burst', 'tur-bu-LENCE', and 'su-per-COOLED'.",
+          "phenomena": [
+            {
+              "term": "Microburst & Windshear",
+              "risk": "Loss of airspeed & altitude on short final",
+              "mitigation": "Predictive windshear radar, TOGA thrust, maintain pitch attitude."
+            },
+            {
+              "term": "Supercooled Large Droplets (SLD)",
+              "risk": "Severe clear icing behind de-icing boots",
+              "mitigation": "Immediate exit from freezing layer, climb/descend into warmer air."
+            },
+            {
+              "term": "Pitot-Static Tube Icing",
+              "risk": "Unreliable airspeed indication & loss of autopilot",
+              "mitigation": "Pitot heat activation, fly pitch and power tables (unreliable airspeed memory item)."
+            },
+            {
+              "term": "Clear Air Turbulence (CAT)",
+              "risk": "Cabin structural damage & passenger injuries",
+              "mitigation": "Mandatory seatbelt sign, pilot weather reports (PIREPs), speed reduction to turbulence penetration speed (VRA)."
+            },
+            {
+              "term": "Volcanic Ash Cloud",
+              "risk": "Multi-engine flameout & cockpit windshield opacity",
+              "mitigation": "VAAC advisory tracking, 180-degree turn out of ash, autothrottle disconnect, restart APU."
+            },
+            {
+              "term": "Freezing Fog & Low RVR",
+              "risk": "Loss of visual runway guidance & runway excursion",
+              "mitigation": "Category III autoland, Low Visibility Procedures (LVP), runway guard lights."
+            }
+          ]
+        },
+        "weatherBriefingClinic": {
+          "title": "Activity 3: Language Clinic: Decoding METAR, TAF & SIGMET Advisories (20 mins)",
+          "summary": "Interactive translation and interpretation of real-world coded aviation weather reports for dispatchers and pilots.",
+          "modeBadges": [
+            "Individual",
+            "Language Clinic",
+            "20 Mins"
+          ],
+          "instructions": [
+            "Study the 3 real-world operational weather strings provided below (METAR, TAF, and Convective SIGMET).",
+            "Decode all elements: surface wind direction/speed/gusts, visibility, runway visual range, present weather descriptors, cloud coverage, temperature/dewpoint, and altimeter setting.",
+            "Translate the raw strings into clear, fluent spoken English as if delivering a pre-flight weather briefing to your First Officer."
+          ],
+          "deliverable": "Decoded natural-language weather briefing for flight crew and dispatchers from 3 real-world METAR/TAF strings.",
+          "teacherNotes": "Drill standard ICAO weather abbreviations: '+TSRA' (heavy thunderstorm with rain), 'BKN012CB' (broken cumulonimbus at 1,200 ft), 'RVR R27R/0350V0500D' (runway visual range variable between 350m and 500m with downward trend).",
+          "weatherReports": [
+            {
+              "type": "METAR LFBO (Toulouse-Blagnac)",
+              "raw": "LFBO 281430Z 29018G32KT 250V330 3000 +TSRA BKN015CB OVC035 17/15 Q1006 TEMPO 1200 +TSRAGR",
+              "decoded": "Toulouse on the 28th at 14:30 UTC: Wind 290 degrees at 18 knots with gusts up to 32 knots, varying between 250 and 330 degrees. Visibility 3,000 meters in heavy thunderstorm with rain. Broken cumulonimbus clouds at 1,500 feet, overcast at 3,500 feet. Temperature 17°C, dew point 15°C. QNH 1006 hPa. Temporary deterioration to 1,200 meters visibility in heavy thunderstorm with hail."
+            },
+            {
+              "type": "TAF EGLL (London Heathrow)",
+              "raw": "EGLL 281100Z 2812/2918 24015KT 9999 BKN025 BECMG 2818/2821 21008KT 4000 BR SCT008 PROB40 TEMPO 2822/2906 0500 FG FZFG VV001",
+              "decoded": "Heathrow forecast valid from 12:00 UTC on the 28th to 18:00 UTC on the 29th: Wind 240 at 15 knots, visibility 10 km or more, broken clouds at 2,500 feet. Becoming between 18:00 and 21:00 UTC wind 210 at 8 knots, visibility 4,000 meters in mist, scattered clouds at 800 feet. 40% probability between 22:00 and 06:00 UTC of temporary visibility 500 meters in freezing fog, vertical visibility 100 feet."
+            },
+            {
+              "type": "CONVECTIVE SIGMET (Paris FIR)",
+              "raw": "LFFF SIGMET 04 VALID 281400/281800 LFPW- LFFF PARIS FIR/UIR SEV TS FCST WI N4900 W00100 - N4830 E00230 - N4700 E00100 - N4730 W00130 TOP FL420 MOV ENE 25KT NC=",
+              "decoded": "Paris FIR Significant Meteorological Information: Severe thunderstorms forecast within the designated geographic polygon, cloud tops up to Flight Level 420 (42,000 feet), moving east-northeast at 25 knots, with no change in intensity."
+            }
+          ]
+        },
+        "weatherCaseStudiesSprint": {
+          "title": "Activity 4: 15-Minute Group Research Sprint: Landmark Weather Case Studies (15 mins)",
+          "summary": "Small-group rapid research analyzing Delta 191 (DFW microburst) or BA 009 (volcanic ash ingestion), extracting safety fixes and crew actions.",
+          "modeBadges": [
+            "Small Groups (3-4)",
+            "15-Min Sprint",
+            "15 Mins"
+          ],
+          "instructions": [
+            "In small groups of 3-4, select one of the 2 landmark weather case studies below.",
+            "You have exactly 15 minutes to research and outline your 5-minute technical briefing.",
+            "Identify: (1) Atmospheric triggering mechanism, (2) Cockpit instrument cues and sensory illusions, (3) Flight crew decision points, and (4) The permanent regulatory or technological safety fix that resulted."
+          ],
+          "deliverable": "Structured 5-minute accident briefing notes highlighting atmospheric mechanism, crew recognition, and resulting technological safety mandate.",
+          "teacherNotes": "Strictly enforce the 15-minute countdown clock. Emphasize that Delta 191 gave birth to modern airborne windshear radar, while BA 009 created global Volcanic Ash Advisory Centers (VAAC).",
+          "caseStudies": [
+            {
+              "id": 1,
+              "title": "Delta Air Lines Flight 191 (August 2, 1985 • DFW Airport)",
+              "aircraft": "Lockheed L-1011 TriStar (N726DA)",
+              "weather": "Severe isolated microburst generating 54-knot windshear and 2,000 ft/min downdraft on short final into runway 17L.",
+              "investigation": "The aircraft entered an intense rain shaft at 800 feet. Indicated airspeed jumped by 26 knots (headwind), prompting thrust reduction, immediately followed by a 44-knot loss of airspeed and violent downdraft. The aircraft touched down in a field short of the runway and struck highway water tanks.",
+              "safetyOutcome": "Mandated Terminal Doppler Weather Radar (TDWR) at all major US airports, mandatory predictive airborne windshear detection on transport airliners, and flight simulator windshear recovery training."
+            },
+            {
+              "id": 2,
+              "title": "British Airways Flight 009 (June 24, 1982 • 'Jakarta Incident')",
+              "aircraft": "Boeing 747-200 (City of Edinburgh)",
+              "weather": "Unforecast airborne plume of abrasive dry volcanic ash ejected by Mount Galunggung at FL370.",
+              "investigation": "The crew observed St. Elmo's fire on the windscreen and sulfurous smoke in the cabin. Ash sandblasted the cockpit windows opaque and clogged engine air intakes, causing all four Rolls-Royce RB211 engines to flame out simultaneously. The crew glided for 13 minutes, safely restarting three engines after exiting the ash cloud.",
+              "safetyOutcome": "Established nine ICAO Volcanic Ash Advisory Centers (VAAC) worldwide, prohibited flight through known volcanic ash clouds, and created emergency volcanic ash descent procedures."
+            }
+          ]
+        },
+        "weatherDiversionSimulation": {
+          "title": "Activity 5: Severe Weather En-Route & Terminal Diversion Simulation (45 mins)",
+          "summary": "Flight crew and dispatcher teams reroute aircraft around a massive squall line with fuel reserve calculations and ATC coordination.",
+          "modeBadges": [
+            "Teams (3-4)",
+            "Operations Simulation",
+            "45 Mins"
+          ],
+          "instructions": [
+            "In teams of 3-4, assume the roles of Airline Flight Dispatchers and Cockpit Crew for flight AF7842 (Toulouse to Brussels).",
+            "Cruising at FL340, your airborne radar displays an active squall line stretching across northern France with embedded CB cells reaching FL430. Your destination (EBBR) has just issued a SPECI reporting runway closure due to flash flooding and windshear.",
+            "Evaluate fuel reserves (contingency fuel: 15 mins, alternate fuel: 45 mins, final reserve: 30 mins). Choose the safest diversion alternate: Paris-CDG (busy, holding required), Lille (short runway, marginal weather), or Cologne (clear weather, 40 mins flight time).",
+            "Deliver a 3-minute Captain's operational announcement and communicate diversion request to Eurocontrol ATC."
+          ],
+          "deliverable": "Spoken 3-minute operational rerouting plan presented to Air Traffic Control with full weather justification.",
+          "teacherNotes": "Emphasize minimum fuel vs. fuel emergency declarations. If pilots anticipate landing with less than final reserve fuel (30 minutes), they MUST declare MAYDAY MAYDAY MAYDAY FUEL.",
+          "simulationParameters": {
+            "flight": "AF7842 (Airbus A320)",
+            "route": "Toulouse (LFBO) to Brussels (EBBR)",
+            "fuelOnBoard": "4,200 kg (Remaining endurance: 1 hr 45 min)",
+            "destinationStatus": "EBBR Closed - Wind 320/28G45KT, Standing Water on Runway, LLWS Alert",
+            "alternates": [
+              {
+                "airport": "Paris-CDG (LFPG)",
+                "dist": "180 NM / 28 mins",
+                "weather": "BKN008 3000 BR, 30-min holding expected",
+                "fuelReq": "1,400 kg"
+              },
+              {
+                "airport": "Cologne (EDDK)",
+                "dist": "240 NM / 38 mins",
+                "weather": "CAVOK, Wind 260/12KT, Runway Dry",
+                "fuelReq": "1,850 kg"
+              },
+              {
+                "airport": "Lille (LFQQ)",
+                "dist": "140 NM / 22 mins",
+                "weather": "FEW015, Wind 280/15G25KT, Single Runway",
+                "fuelReq": "1,150 kg"
+              }
+            ]
+          }
+        },
+        "closingReview": {
+          "title": "Activity 6: Meteorology Consolidation & Pronunciation Wrap-Up (10 mins)",
+          "summary": "Consolidate the 18 meteorological terms, conduct syllable stress drills, and prepare for Session 3 Safety vs. Security.",
+          "modeBadges": [
+            "Plenary",
+            "Consolidation",
+            "10 Mins"
+          ],
+          "instructions": [
+            "Conduct rhythmic syllable stress drills on complex meteorological terms.",
+            "Review key takeaways from the Delta 191 and BA 009 case studies.",
+            "Verify completion of the METAR decoding exercises and access the Revision tab."
+          ],
+          "deliverable": "Pronunciation self-audit on 18 meteorological terms and confirmed prep for Session 3 Safety vs. Security.",
+          "teacherNotes": "Ensure students can clearly articulate the distinct hazard mechanisms of microbursts (wind change) vs. icing (shape change).",
+          "pronunciationFocus": [
+            "cu-mu-lo-NIM-bus",
+            "MI-cro-burst",
+            "su-per-COOLED",
+            "tur-bu-LENCE",
+            "vol-CA-nic"
+          ],
+          "checkpoints": [
+            "Mastered 18 specialized aviation meteorology terms",
+            "Decoded operational METAR, TAF, and SIGMET reports",
+            "Explained microburst windshear and structural icing physics",
+            "Analyzed Delta 191 & BA 009 landmark safety outcomes"
+          ]
+        }
+      }
+    },
+    "3": {
+      "session": 3,
+      "objectives": {
+        "title": "Session 3 - Aviation Safety vs. Security: Airport Protection & Aircraft Checks Objectives",
+        "summary": "By the end of this session, you will be able to articulate the fundamental legal, operational, and literal distinction between Aviation Safety and Aviation Security, analyze the concentric security layers of international airports, conduct and explain a pre-flight exterior walkaround safety inspection, apply Minimum Equipment List (MEL) deferral rules, and lead a coordinated response to a dual-track safety and security incident.",
+        "items": [
+          {
+            "num": 1,
+            "title": "Distinguish Aviation Safety vs. Aviation Security (Legal & Literal Definitions)",
+            "description": "Clearly define and contrast Aviation Safety (preventing unintended hazards, mechanical failures, human error under ICAO Annex 19) and Aviation Security (preventing deliberate malicious acts, unlawful interference, terrorism under ICAO Annex 17)."
+          },
+          {
+            "num": 2,
+            "title": "Analyze Airport Security Architecture (Landside to Airside)",
+            "description": "Trace the physical security barriers and screening technologies protecting civil aviation: passenger millimeter-wave body scanners, Explosive Detection Systems (EDS), CT hold baggage inspection, biometric e-gates, and airside SIDA access controls."
+          },
+          {
+            "num": 3,
+            "title": "Execute Pre-Flight Aircraft Safety Inspections (The Walkaround)",
+            "description": "Follow the standardized clockwise walkaround inspection around a commercial transport airframe, verifying gear pins, pitot covers, tire wear, brake indicators, control surface locks, and static wicks."
+          },
+          {
+            "num": 4,
+            "title": "Apply Minimum Equipment List (MEL) Dispatch Criteria",
+            "description": "Determine whether an aircraft can legally depart with inoperative components according to MEL Category A, B, C, and D rectification intervals and operational restrictions."
+          },
+          {
+            "num": 5,
+            "title": "Manage a Dual-Track Safety and Security Incident",
+            "description": "Coordinate emergency response during a high-stakes simulation combining an unauthorized airside perimeter breach with a simultaneous technical landing gear emergency."
+          }
+        ]
+      },
+      "lessonPlan": {
+        "title": "Session 3 Lesson Plan: Safety vs. Security (2 Hours)",
+        "summary": "A 120-minute operational syllabus combining warm-up security diagnostics, safety vs. security conceptual matrix, airport screening architecture, pre-flight walkaround clinic, and dual-track emergency simulation.",
+        "items": [
+          {
+            "time": "00-10",
+            "title": "Activity 1: Safety & Security News & Diagnostic Spot-Check (10 mins)",
+            "description": "Plenary opening discussing recent airport security breaches, CT baggage scanner rules, and completing a 5-question baseline diagnostic."
+          },
+          {
+            "time": "10-30",
+            "title": "Activity 2: The Literal & Operational Distinction: Safety vs. Security (20 mins)",
+            "description": "Paired analysis of 18 technical terms and establishing the strict legal boundary between ICAO Annex 17 (Security) and Annex 19 (Safety)."
+          },
+          {
+            "time": "30-50",
+            "title": "Activity 3: Airport Security Architecture: Landside to Airside (20 mins)",
+            "description": "Detailed examination of passenger and baggage screening workflows, millimeter-wave scanners, CT tomography, and sterile area protection."
+          },
+          {
+            "time": "50-75",
+            "title": "Activity 4: Aircraft Safety Checks & Pre-Flight Walkaround Inspection (25 mins)",
+            "description": "Interactive walkaround clinic identifying critical inspection checkpoints (gear pins, pitot covers, tire wear) and applying MEL dispatch rules."
+          },
+          {
+            "time": "75-110",
+            "title": "Activity 5: Dual-Track Safety & Security Crisis Scenario (35 mins)",
+            "description": "Multi-agency emergency simulation coordinating response between Airport Police, ARFF fire services, and ATC for a perimeter breach and hydraulic emergency."
+          },
+          {
+            "time": "110-120",
+            "title": "Activity 6: Safety vs. Security Wrap-Up & FE3 Preview (10 mins)",
+            "description": "Consolidation checkpoints, pronunciation audit, and introduction to Session 4 Global Review and Session 5 FE3."
+          }
+        ]
+      },
+      "revision": [
+        {
+          "num": "01",
+          "term": "aviation safety",
+          "phonetic": "/ˌeɪ.viˈeɪ.ʃən ˈseɪf.ti/",
+          "pos": "noun phrase",
+          "definition": "The state in which risks associated with aviation activities relating to or in direct support of the operation of aircraft are reduced and controlled to an acceptable level (protecting against unintended hazards, failures, and errors).",
+          "example": "Aviation safety engineering focuses on redundant flight control computers and fail-safe hydraulic circuits."
+        },
+        {
+          "num": "02",
+          "term": "aviation security",
+          "phonetic": "/ˌeɪ.viˈeɪ.ʃən sɪˈkjʊə.rə.ti/",
+          "pos": "noun phrase",
+          "definition": "A combination of measures and human and material resources intended to safeguard international civil aviation against acts of unlawful interference, terrorism, sabotage, and crime.",
+          "example": "Airport perimeter motion sensors and hold baggage CT screening are core elements of aviation security."
+        },
+        {
+          "num": "03",
+          "term": "unlawful interference",
+          "phonetic": "/ʌnˈlɔː.fəl ˌɪn.təˈfɪə.rəns/",
+          "pos": "noun phrase",
+          "definition": "Acts or attempted acts jeopardizing the safety of civil aviation, including aircraft hijacking, sabotage, hostage-taking, or introducing weapons into sterile zones.",
+          "example": "ICAO Annex 17 establishes mandatory global standards to prevent acts of unlawful interference against civil aviation."
+        },
+        {
+          "num": "04",
+          "term": "airworthiness",
+          "phonetic": "/ˈeəˌwɜː.ði.nəs/",
+          "pos": "noun",
+          "definition": "The measure of an aircraft's suitability for safe flight according to approved engineering designs, maintenance standards, and regulatory limits.",
+          "example": "Following engine replacement, licensed maintenance technicians issued a Certificate of Airworthiness before commercial service."
+        },
+        {
+          "num": "05",
+          "term": "redundancy",
+          "phonetic": "/rɪˈdʌn.dən.si/",
+          "pos": "noun",
+          "definition": "The duplication of critical components or functions of a system with the intention of increasing reliability and preventing single-point failure.",
+          "example": "Triple hydraulic system redundancy ensures the crew maintains control even if two independent circuits fail."
+        },
+        {
+          "num": "06",
+          "term": "sterile concourse",
+          "phonetic": "/ˈster.aɪl ˈkɒŋ.kɔːs/",
+          "pos": "noun phrase",
+          "definition": "The secure area of an airport terminal beyond passenger screening checkpoints accessible only to screened passengers and badged personnel.",
+          "example": "Once passengers pass through security screening, they enter the sterile concourse leading to the departure gates."
+        },
+        {
+          "num": "07",
+          "term": "landside",
+          "phonetic": "/ˈlænd.saɪd/",
+          "pos": "noun",
+          "definition": "The unrestricted public areas of an airport terminal before security screening, including check-in desks, arrivals halls, and public roadways.",
+          "example": "Airport armed police patrols maintain visible deterrent positions throughout the crowded landside ticketing hall."
+        },
+        {
+          "num": "08",
+          "term": "airside",
+          "phonetic": "/ˈeə.saɪd/",
+          "pos": "noun",
+          "definition": "The restricted movement area of an airport, adjacent terrain and buildings, access to which is strictly controlled by security badges.",
+          "example": "All ground support vehicles entering airside ramps must pass through automated license plate and security gate checkpoints."
+        },
+        {
+          "num": "09",
+          "term": "perimeter security",
+          "phonetic": "/pəˈrɪm.ɪ.tər sɪˈkjʊə.rə.ti/",
+          "pos": "noun phrase",
+          "definition": "Physical barriers, fences, CCTV surveillance, and infrared sensors deployed along the external boundaries of an aerodrome.",
+          "example": "Fiber-optic vibration sensors mounted on the perimeter fence alerted security to an attempted trespasser."
+        },
+        {
+          "num": "10",
+          "term": "access control",
+          "phonetic": "/ˈæk.ses kənˈtrəʊl/",
+          "pos": "noun phrase",
+          "definition": "The selective restriction of access to restricted airport zones, enforced via biometric recognition, smart cards, and physical gates.",
+          "example": "Mechanics must swipe biometric SIDA cards through electronic access control turnstiles to enter maintenance hangars."
+        },
+        {
+          "num": "11",
+          "term": "millimeter-wave body scanner",
+          "phonetic": "/ˈmɪl.ɪˌmiː.tər weɪv ˈbɒd.i ˈskæn.ər/",
+          "pos": "noun phrase",
+          "definition": "An advanced imaging security device that uses low-energy radio waves to detect metallic and non-metallic objects concealed under clothing.",
+          "example": "Passengers step into the millimeter-wave scanner, which generates an anonymous generic stick-figure display to preserve privacy."
+        },
+        {
+          "num": "12",
+          "term": "Explosive Detection System (EDS)",
+          "phonetic": "/ɪkˈspləʊ.sɪv dɪˈtek.ʃən ˈsɪs.təm/",
+          "pos": "noun phrase",
+          "definition": "Automated computerized tomography (CT) equipment that analyzes the density and atomic number of checked baggage to identify explosives.",
+          "example": "Modern computed tomography EDS scanners allow passengers to leave liquids and laptops inside carry-on luggage."
+        },
+        {
+          "num": "13",
+          "term": "behavioral detection",
+          "phonetic": "/bɪˈheɪ.vjər.əl dɪˈtek.ʃən/",
+          "pos": "noun phrase",
+          "definition": "The systematic observation of physiological and behavioral indicators (anxiety, incongruent micro-expressions) to identify persons of interest.",
+          "example": "Trained behavioral detection officers observed a traveler exhibiting severe acute autonomic stress indicators at the check-in queue."
+        },
+        {
+          "num": "14",
+          "term": "Minimum Equipment List (MEL)",
+          "phonetic": "/ˈmɪn.ɪ.məm ɪˈkwɪp.mənt lɪst/",
+          "pos": "noun phrase",
+          "definition": "A regulatory document specific to an aircraft model allowing operation with specified inoperative instruments or systems under defined conditions.",
+          "example": "According to the airline's MEL, the aircraft was dispatched with one auxiliary power unit (APU) generator inoperative."
+        },
+        {
+          "num": "15",
+          "term": "walkaround inspection",
+          "phonetic": "/ˈwɔːk.əˌraʊnd ɪnˈspek.ʃən/",
+          "pos": "noun phrase",
+          "definition": "The physical visual inspection of the aircraft's exterior performed by the flight crew or maintenance technician prior to every departure.",
+          "example": "During the pre-flight walkaround, the First Officer checked that the landing gear ground safety pins had been removed."
+        },
+        {
+          "num": "16",
+          "term": "Airworthiness Directive (AD)",
+          "phonetic": "/ˈeəˌwɜː.ði.nəs dɪˈrek.tɪv/",
+          "pos": "noun phrase",
+          "definition": "A legally enforceable regulation issued by an aviation authority (FAA/EASA) to correct an unsafe condition identified in an aircraft model.",
+          "example": "EASA issued an emergency Airworthiness Directive mandating ultrasonic inspection of titanium engine fan blades."
+        },
+        {
+          "num": "17",
+          "term": "Foreign Object Debris (FOD)",
+          "phonetic": "/ˈfɒr.ən ˈɒb.dʒekt ˈdeb.riː/",
+          "pos": "noun phrase",
+          "definition": "Any stray object, particle, metal fastener, or biological debris on the runway or apron that could damage an aircraft or engine.",
+          "example": "Daily sweepers patrol the tarmac to collect FOD that could be sucked into turbofan jet engines during taxi."
+        },
+        {
+          "num": "18",
+          "term": "sabotage",
+          "phonetic": "/ˈsæb.ə.tɑːʒ/",
+          "pos": "noun",
+          "definition": "Deliberate destruction or damage of an aircraft, airport facility, or navigational aid to obstruct operations or cause casualties.",
+          "example": "Airport perimeter patrols and CCTV coverage are designed to detect and thwart any attempted sabotage of aviation fuel tanks."
+        }
+      ],
+      "materials": {
+        "videos": [
+          {
+            "tag": "ICAO Security",
+            "title": "Aviation Security Architecture: Implementing ICAO Annex 17",
+            "duration": "14:45",
+            "channel": "International Civil Aviation Organization (ICAO)",
+            "summary": "Comprehensive overview of landside security zones, automated explosive detection CT scanners, biometric passenger tokens, and perimeter intrusion detection."
+          },
+          {
+            "tag": "Flight Operations",
+            "title": "The Commercial Pilot Pre-Flight Walkaround Inspection Guide",
+            "duration": "15:20",
+            "channel": "EASA Flight Crew Training Standards",
+            "summary": "Detailed video walkthrough detailing clockwise fuselage inspection, pitot-static covers, angle of attack vanes, landing gear pins, and control surface checks."
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.icao.int",
+            "tag": "01 • Security Standard",
+            "name": "ICAO Annex 17: Aviation Security Standards",
+            "desc": "Official international convention governing the safeguarding of civil aviation against acts of unlawful interference."
+          },
+          {
+            "url": "https://www.icao.int",
+            "tag": "02 • Safety Management",
+            "name": "ICAO Annex 19: Safety Management Systems (SMS)",
+            "desc": "International framework establishing state safety programs, hazard identification, and safety risk management."
+          },
+          {
+            "url": "https://www.easa.europa.eu",
+            "tag": "03 • Airworthiness Rules",
+            "name": "EASA Part-M & Part-145 Maintenance Regulations",
+            "desc": "European standards for continuing airworthiness management, maintenance organization approvals, and pre-flight inspections."
+          },
+          {
+            "url": "https://www.tsa.gov",
+            "tag": "04 • Security Screening",
+            "name": "TSA Checkpoint Technology & Screening Standards",
+            "desc": "Technical specifications for millimeter-wave passenger scanners, computed tomography (CT) baggage machines, and explosive trace detection."
+          },
+          {
+            "url": "https://www.faa.gov",
+            "tag": "05 • Dispatch Rules",
+            "name": "FAA Master Minimum Equipment List (MMEL) Database",
+            "desc": "Searchable regulatory database listing inoperative equipment dispatch conditions and repair intervals for all commercial aircraft."
+          },
+          {
+            "url": "https://www.iata.org",
+            "tag": "06 • Industry Security",
+            "name": "IATA Security Management System (SeMS) Manual",
+            "desc": "Industry manual helping airlines and airports integrate security risk assessments into day-to-day ground and flight operations."
+          }
+        ],
+        "pageUrl": "session3/admat_aas2.html",
+        "articles": [
+          {
+            "topic": "International Civil Aviation Review",
+            "sourceTag": "Regulatory Comparative Analysis",
+            "heading": "Safety vs. Security: Legal Jurisdictions and Operational Parity under ICAO",
+            "snippet": "In-depth comparative study demonstrating why mixing Safety and Security confuses legal accountability: Safety addresses unintended technical and human hazards (Annex 19), whereas Security defends against intentional malicious criminal acts (Annex 17).",
+            "readTime": "Estimated read: 6-8 mins",
+            "url": "https://www.icao.int"
+          },
+          {
+            "topic": "AeroTech Maintenance & Engineering",
+            "sourceTag": "Airworthiness Digest",
+            "heading": "The Pre-Flight Walkaround: Anatomy of a Critical Line Inspection",
+            "snippet": "Line maintenance engineers break down the high-risk failure modes identified during exterior walkarounds: pitot probe protective covers left installed, nose gear steering pins unremoved, and unnoticed tailstrike scrapes.",
+            "readTime": "Estimated read: 5-7 mins",
+            "url": "https://www.easa.europa.eu"
+          }
+        ],
+        "toeicQuestions": [
+          {
+            "stem": "Airport security personnel are trained to identify prohibited items ________ baggage passes through the computed tomography scanner.",
+            "options": [
+              {
+                "letter": "A",
+                "text": "as"
+              },
+              {
+                "letter": "B",
+                "text": "despite"
+              },
+              {
+                "letter": "C",
+                "text": "unless"
+              },
+              {
+                "letter": "D",
+                "text": "because of"
+              }
+            ],
+            "correctLetter": "A",
+            "correctText": "as",
+            "analysis": "Conjunction 'as' denotes simultaneous progression: as baggage passes through the scanner, officers identify items.",
+            "strategy": "Simultaneous conjunction: as + [subject + verb clause]."
+          },
+          {
+            "stem": "The aircraft was cleared for departure ________ one non-essential cabin galley heating element was inoperative.",
+            "options": [
+              {
+                "letter": "A",
+                "text": "even though"
+              },
+              {
+                "letter": "B",
+                "text": "in spite of"
+              },
+              {
+                "letter": "C",
+                "text": "because"
+              },
+              {
+                "letter": "D",
+                "text": "due to"
+              }
+            ],
+            "correctLetter": "A",
+            "correctText": "even though",
+            "analysis": "Concessive conjunction 'even though' is followed by a full clause ('one element was inoperative') to contrast with clearance.",
+            "strategy": "Concession structure: even though + [clause] introduces a permitted exception under MEL rules."
+          },
+          {
+            "stem": "The First Officer conducted the exterior walkaround inspection ________ verify that all landing gear safety pins were removed.",
+            "options": [
+              {
+                "letter": "A",
+                "text": "to"
+              },
+              {
+                "letter": "B",
+                "text": "for"
+              },
+              {
+                "letter": "C",
+                "text": "so"
+              },
+              {
+                "letter": "D",
+                "text": "that"
+              }
+            ],
+            "correctLetter": "A",
+            "correctText": "to",
+            "analysis": "The infinitive of purpose 'to verify' expresses the objective of conducting the exterior inspection.",
+            "strategy": "Purpose infinitive: to + base verb (to verify)."
+          },
+          {
+            "stem": "Ground crew vehicles operating airside must undergo ________ mechanical inspections every six months.",
+            "options": [
+              {
+                "letter": "A",
+                "text": "rigorous"
+              },
+              {
+                "letter": "B",
+                "text": "rigorously"
+              },
+              {
+                "letter": "C",
+                "text": "rigor"
+              },
+              {
+                "letter": "D",
+                "text": "rigorousness"
+              }
+            ],
+            "correctLetter": "A",
+            "correctText": "rigorous",
+            "analysis": "The adjective 'rigorous' is required to modify the plural noun phrase 'mechanical inspections'.",
+            "strategy": "Adjective modifying noun: undergo + [adjective] + [noun]."
+          },
+          {
+            "stem": "Neither the airport police ________ the local security guard was permitted to enter the sterile concourse without an official badge.",
+            "options": [
+              {
+                "letter": "A",
+                "text": "nor"
+              },
+              {
+                "letter": "B",
+                "text": "or"
+              },
+              {
+                "letter": "C",
+                "text": "and"
+              },
+              {
+                "letter": "D",
+                "text": "neither"
+              }
+            ],
+            "correctLetter": "A",
+            "correctText": "nor",
+            "analysis": "Correlative conjunction pair: 'Neither ... nor ...' connects the two subjects.",
+            "strategy": "Correlative pair: Neither X nor Y."
+          }
+        ]
+      },
+      "lessonContent": {
+        "hero": {
+          "title": "Aviation Safety vs. Security: Airport Protection & Aircraft Inspections",
+          "subtitle": "The Fundamental Distinction Between Unintended Hazards & Malicious Acts, Airport Architecture & Pre-Flight Airworthiness Checks",
+          "image": "images/aas_m3card3.png"
+        },
+        "openingSession": {
+          "title": "Activity 1: Safety & Security News & Diagnostic Spot-Check (10 mins)",
+          "summary": "Review recent aviation security incidents, airworthiness directives, and complete a 5-question baseline diagnostic.",
+          "modeBadges": [
+            "Plenary",
+            "Diagnostic Warm-Up",
+            "10 Mins"
+          ],
+          "instructions": [
+            "Examine recent aviation headlines detailing airport perimeter intrusions, updated computed tomography (CT) baggage rules, and emergency airworthiness directives.",
+            "In plenary, discuss: 'Why do civil aviation authorities maintain completely separate government departments for Safety (DGAC/FAA Safety) and Security (Police aux Frontières / TSA)?'",
+            "Complete the 5-question diagnostic individually, then reveal the answer keys to audit your understanding of safety vs. security."
+          ],
+          "deliverable": "Completed 5-question safety vs. security diagnostic and 2-minute news debrief.",
+          "teacherNotes": "Set a clear analytical tone. Emphasize that in French, both concepts are often translated as 'sécurité' (sécurité des vols vs. sûreté), which causes persistent confusion in international aviation.",
+          "newsPrompts": [
+            "European airports accelerate deployment of 3D CT baggage scanners, phasing out the 100ml liquid limitation for carry-on luggage.",
+            "FAA issues Emergency Airworthiness Directive mandating immediate visual and eddy-current inspections of door plug retention pins.",
+            "Trespasser breaching outer perimeter fence at major international hub triggers immediate runway closure and full ground stop."
+          ],
+          "diagnostic": {
+            "title": "Aviation Safety vs. Security Diagnostic",
+            "questions": [
+              {
+                "id": 1,
+                "q": "What is the core literal distinction between Aviation Safety and Aviation Security?",
+                "answer": "Safety protects against unintentional hazards, mechanical failures, environmental factors, and human errors (ICAO Annex 19). Security protects against intentional, deliberate, malicious criminal acts, unlawful interference, and terrorism (ICAO Annex 17)."
+              },
+              {
+                "id": 2,
+                "q": "What is the boundary dividing an airport into landside and airside?",
+                "answer": "The security access control boundary (screening checkpoint and security perimeter gates). Landside is open to the public; airside is restricted strictly to ticketed, screened passengers and vetted, badged personnel."
+              },
+              {
+                "id": 3,
+                "q": "What critical items must a pilot visually verify during an exterior walkaround on the landing gear?",
+                "answer": "Landing gear ground safety lockout pins removed, tire tread condition and pressure, brake wear indicator pins, absence of hydraulic fluid leaks, and strut oleo extension."
+              },
+              {
+                "id": 4,
+                "q": "What is a Minimum Equipment List (MEL)?",
+                "answer": "An approved document allowing an aircraft to legally operate with specific inoperative instruments or systems for a limited time, provided safety is maintained through compensating procedures."
+              },
+              {
+                "id": 5,
+                "q": "What is an Airworthiness Directive (AD)?",
+                "answer": "A legally binding regulation issued by a national aviation authority (FAA/EASA) requiring operators to inspect, repair, or modify an aircraft model to correct an identified unsafe condition."
+              }
+            ]
+          }
+        },
+        "safetyVsSecurityLexis": {
+          "title": "Activity 2: The Literal & Operational Distinction: Safety vs. Security (20 mins)",
+          "summary": "Establish the clear, unambiguous distinction between Aviation Safety and Aviation Security.",
+          "modeBadges": [
+            "Pairs",
+            "Conceptual Analysis",
+            "20 Mins"
+          ],
+          "instructions": [
+            "In pairs, analyze the detailed definition matrix comparing Safety (Sécurité Technique) and Security (Sûreté).",
+            "Examine 6 real-world airport occurrences provided below. Classify each occurrence as strictly a Safety issue, strictly a Security issue, or an overlapping Dual-Domain issue.",
+            "Present your classification with the specific ICAO Annex (Annex 17 for Security, Annex 19 for Safety) and explain the required immediate reporting channel."
+          ],
+          "deliverable": "Comparative matrix classifying 10 real-world airport occurrences under either Safety or Security jurisdiction with regulatory justification.",
+          "teacherNotes": "Emphasize that confusing Safety and Security in written reports or radio transmissions can lead to the wrong emergency response agency being dispatched (e.g. sending armed anti-terrorist police to a hydraulic fire, or sending mechanics to an armed hijacker).",
+          "matrix": [
+            {
+              "domain": "Aviation Safety (Sécurité des Vols)",
+              "legalBasis": "ICAO Annex 19 / EASA Part-M & Part-145",
+              "targetThreat": "Unintentional hazards: mechanical failures, component fatigue, structural cracks, weather, human error, software glitches.",
+              "methods": "Redundancy, fail-safe design, preventive maintenance, Safety Management Systems (SMS), Just Culture non-punitive voluntary reporting."
+            },
+            {
+              "domain": "Aviation Security (Sûreté Aéroportuaire)",
+              "legalBasis": "ICAO Annex 17 / National Civil Aviation Security Program",
+              "targetThreat": "Intentional malicious acts: terrorism, sabotage, armed hijacking, contraband, unauthorized perimeter breaches, cyberattacks.",
+              "methods": "Physical barriers, armed police, millimeter-wave scanners, CT explosive detection, biometric e-gates, background checks, SIDA badges."
+            }
+          ]
+        },
+        "airportSecurityArchitecture": {
+          "title": "Activity 3: Airport Security Architecture: Landside to Airside (20 mins)",
+          "summary": "Detailed examination of passenger and baggage screening workflows, millimeter-wave scanners, CT tomography, and sterile area protection.",
+          "modeBadges": [
+            "Pairs",
+            "Security Engineering",
+            "20 Mins"
+          ],
+          "instructions": [
+            "In pairs, trace the journey of an international passenger and their checked bag from terminal curbside to the aircraft cabin.",
+            "Map out each concentric security barrier: (1) Landside public hall, (2) Boarding pass validation gate, (3) Central security screening checkpoint (millimeter-wave body scanner, x-ray/CT carry-on scan), (4) Sterile concourse, (5) Boarding gate identity verification.",
+            "Examine the 5 levels of automated Hold Baggage Screening (HBS) using multi-slice Computed Tomography (CT) and Explosive Detection Systems (EDS)."
+          ],
+          "deliverable": "Annotated diagram of airport security screening workflow tracking a passenger and checked bag from curb to departure gate.",
+          "teacherNotes": "Point out how modern computed tomography (CT) scanners generate 3D volumetric images that can be rotated on three axes, allowing automated threat recognition algorithms to detect liquid and plastic explosives without unpacking.",
+          "screeningLayers": [
+            {
+              "zone": "Layer 1: Public Landside",
+              "measures": "Armed security patrols, high-definition CCTV facial analytics, behavioral detection officers, blast-resistant glass terminal facades."
+            },
+            {
+              "zone": "Layer 2: Passenger Screening Checkpoint",
+              "measures": "Millimeter-wave advanced imaging scanners (detecting metallic and non-metallic objects), explosive trace detection (ETD) swabs, automated tray return systems."
+            },
+            {
+              "zone": "Layer 3: Hold Baggage Screening (HBS)",
+              "measures": "Level 1-5 multi-tiered automated CT/EDS explosive detection, automated baggage x-ray diversion lines, manual bomb disposal containment vessel."
+            },
+            {
+              "zone": "Layer 4: Airside Access Control",
+              "measures": "Biometric iris/facial recognition turnstiles, Security Identification Display Area (SIDA) badges with RFID chips, vehicle undercarriage mirrors."
+            }
+          ]
+        },
+        "aircraftSafetyChecksClinic": {
+          "title": "Activity 4: Aircraft Safety Checks & Pre-Flight Walkaround Inspection (25 mins)",
+          "summary": "Interactive walkaround clinic identifying critical inspection checkpoints and applying MEL dispatch rules.",
+          "modeBadges": [
+            "Pairs",
+            "Maintenance Clinic",
+            "25 Mins"
+          ],
+          "instructions": [
+            "Follow the standardized clockwise walkaround inspection pattern around a commercial transport aircraft (starting at left forward fuselage).",
+            "Identify the 6 critical physical items that must be inspected at each station: pitot tubes, angle of attack vanes, landing gear ground safety pins, brake wear pins, tire tread grooves, engine cowlings, and static discharge wicks.",
+            "Apply the Minimum Equipment List (MEL) to 3 simulated maintenance defects: determine if the flight can depart, what operational restrictions apply, and the maximum rectification interval (Category A, B, C, or D)."
+          ],
+          "deliverable": "Walkaround inspection defect report identifying 3 simulated critical safety discrepancies (e.g. gear pin left in place, missing static wick, hydraulic fluid puddle).",
+          "teacherNotes": "Share a common real-world error: flight crews forgetting to pull the nose gear steering bypass pin or main gear downlock pins, which prevents the landing gear from retracting after takeoff.",
+          "walkaroundCheckpoints": [
+            {
+              "station": "Station 1: Nose & Radome",
+              "items": "Radome clean with no bird strike damage; all pitot probes and static port covers removed; angle of attack (AoA) vanes free to pivot; nose gear chocks removed; nose wheel steering lockout pin removed."
+            },
+            {
+              "station": "Station 2: Left Wing Leading Edge & Engine",
+              "items": "Leading edge slats smooth without dents; engine intake and fan blades checked for nicks or FOD; thrust reverser cascades stowed; fuel drain vents clear; tire wear indicator pins checked."
+            },
+            {
+              "station": "Station 3: Main Landing Gear & Wheel Well",
+              "items": "Main gear downlock safety pins removed; hydraulic lines inspected for leaks; brake disc wear indicator pins protruding; tire tread depth sufficient with no cord visible."
+            },
+            {
+              "station": "Station 4: Empennage & Tailcone",
+              "items": "Horizontal stabilizer and elevator free of ice; rudder trim tab centered; APU air intake and exhaust duct clear; static discharge wicks intact on all trailing edges."
+            }
+          ]
+        },
+        "securityThreatSimulation": {
+          "title": "Activity 5: Dual-Track Safety & Security Crisis Scenario (35 mins)",
+          "summary": "Multi-agency emergency simulation coordinating response between Airport Police, ARFF fire services, and ATC for a perimeter breach and hydraulic emergency.",
+          "modeBadges": [
+            "Teams (3-4)",
+            "Incident Simulation",
+            "35 Mins"
+          ],
+          "instructions": [
+            "In teams of 3-4, assume the role of the Aerodrome Emergency Operations Center (EOC) Command Staff.",
+            "Scenario: At 14:15 UTC, an unidentified vehicle crashes through an airside perimeter fence and speeds toward the passenger aprons (Security Threat). Simultaneously, an inbound widebody airliner (AF452) declares MAYDAY due to complete loss of Green hydraulic system and hot brakes on rollout, halting on runway 26L (Safety Emergency).",
+            "Coordinate your emergency assets: Airport Armed Police (PAF/Gendarmerie), Airport Rescue and Fire Fighting Services (ARFF), and Air Traffic Control.",
+            "Formulate a 3-minute command briefing resolving both crises simultaneously while ensuring no runway incursions by police pursuing the security vehicle."
+          ],
+          "deliverable": "3-minute emergency command briefing balancing security lockdown protocols with emergency runway response.",
+          "teacherNotes": "Emphasize communication protocols between ATC, fire rescue, and police. ARFF vehicles must have clear, uncontaminated runway access for the safety emergency while security lockdown is maintained on the aprons.",
+          "crisisParameters": {
+            "securityIncident": "Stolen SUV breached gate Juliet 4, driver on foot near stand Echo 12.",
+            "safetyIncident": "Airbus A350 stopped on runway 26L with smoke pouring from left main landing gear brakes (hydraulic fluid leak).",
+            "challenge": "Prevent police vehicles chasing the intruder from crossing runway 26L while fire rescue vehicles are rushing to cool the overheated aircraft brakes."
+          }
+        },
+        "closingReview": {
+          "title": "Activity 6: Safety vs. Security Wrap-Up & FE3 Preview (10 mins)",
+          "summary": "Consolidation checkpoints, pronunciation audit, and introduction to Session 4 Global Review and Session 5 FE3.",
+          "modeBadges": [
+            "Plenary",
+            "Consolidation & FE3 Prep",
+            "10 Mins"
+          ],
+          "instructions": [
+            "Review the critical vocabulary and concepts of Safety vs. Security.",
+            "Examine the structure of next week's Session 4 Global Semester Review & 3-Team Aviation Grand Prix Quiz.",
+            "Access the Revision tab to review flashcards for Safety and Security."
+          ],
+          "deliverable": "Confirmed understanding of safety vs. security jurisdictions and verified prep for Session 4 Grand Prix Quiz.",
+          "teacherNotes": "Congratulate students on mastering the essential legal boundary between Annex 17 and Annex 19. Motivate them for the competitive 3-team quiz in Session 4.",
+          "pronunciationFocus": [
+            "air-WOR-thi-ness",
+            "re-DUN-dan-cy",
+            "SA-bo-tage",
+            "in-ter-FE-rence",
+            "pe-RI-me-ter"
+          ],
+          "checkpoints": [
+            "Articulated literal and legal difference: Safety vs. Security",
+            "Traced concentric airport security layers from landside to airside",
+            "Conducted exterior aircraft walkaround safety check",
+            "Applied Minimum Equipment List (MEL) dispatch rules"
+          ]
+        }
+      }
+    },
+    "4": {
+      "session": 4,
+      "objectives": {
+        "title": "Session 4 - Global Semester Review & 3-Team Aviation Quiz Objectives",
+        "summary": "By the end of this session, you will be able to synthesize all core Semester 1 Aeronautical English competencies across Aerodromes (Module 1), Aircraft & Aerodynamics (Module 2), and Health, Meteorology & Safety/Security (Module 3), compete successfully in a multi-round 3-team technical aviation quiz, and structure a high-scoring 10-12 minute Press Briefing on a major aviation current event for Formative Evaluation 3 (FE3).",
+        "items": [
+          {
+            "num": 1,
+            "title": "Synthesize Semester 1 Aeronautical Core Knowledge",
+            "description": "Demonstrate rapid recall and precise deployment of technical lexis across runway markings, GSE turnaround, aerodynamic axes, engine turbofans, in-flight health, severe meteorology, and airport security."
+          },
+          {
+            "num": 2,
+            "title": "Compete in the 3-Team Aviation Grand Prix Quiz",
+            "description": "Collaborate within Team Alpha, Team Bravo, or Team Charlie to solve challenging, timed multi-point technical scenarios under tournament rules."
+          },
+          {
+            "num": 3,
+            "title": "Master Spontaneous Technical Explanations (B2/C1 CEFR)",
+            "description": "Defend operational choices, justify technical calculations, and explain complex aviation physics fluently without hesitation or code-switching into French."
+          },
+          {
+            "num": 4,
+            "title": "Structure the FE3 Current Events Press Briefing",
+            "description": "Organize a professional 4-stage media briefing: Situation Overview, Technical Causal Analysis, Operational Measures, and Regulatory Corrective Actions."
+          },
+          {
+            "num": 5,
+            "title": "Rehearse Media Defense & Journalist Cross-Examination",
+            "description": "Practice answering challenging, spontaneous questions from teachers acting as investigative aviation reporters using professional hedging and signposting."
+          }
+        ]
+      },
+      "lessonPlan": {
+        "title": "Session 4 Lesson Plan: Global Review & Grand Prix Quiz (2 Hours)",
+        "summary": "A 120-minute capstone tournament combining rules setup, 3 competitive quiz rounds (Aerodromes/Systems, Health/Weather, Safety/Security), the FE3 Press Briefing Masterclass, and final semester wrap-up.",
+        "items": [
+          {
+            "time": "00-10",
+            "title": "Activity 1: Semester 1 Retrospective & Competition Rules (10 mins)",
+            "description": "Plenary setup, forming Team Alpha, Team Bravo, and Team Charlie, assigning team captains, and reviewing the Grand Prix scoreboard rules."
+          },
+          {
+            "time": "10-35",
+            "title": "Activity 2: Grand Prix Round 1: Aerodromes, Aircraft Anatomy & Systems (25 mins)",
+            "description": "Competitive round covering Module 1 and Module 2: runway numbering, GSE turnaround, flight control surfaces, and turbofan bypass ratios."
+          },
+          {
+            "time": "35-60",
+            "title": "Activity 3: Grand Prix Round 2: Human Factors, Health & Severe Meteorology (25 mins)",
+            "description": "Competitive round covering Module 3: medical triage, EASA FTL fatigue rules, METAR decoding, and microburst physics."
+          },
+          {
+            "time": "60-85",
+            "title": "Activity 4: Grand Prix Round 3: Safety vs. Security & Landmark Case Studies (25 mins)",
+            "description": "Competitive round covering airport security screening, pre-flight walkaround, Delta 191/BA 009 case studies, and tournament tiebreaker."
+          },
+          {
+            "time": "85-110",
+            "title": "Activity 5: FE3 Current Events Press Briefing Masterclass (25 mins)",
+            "description": "Pairs workshop preparing the 10-12 minute Press Briefing for Session 5 Formative Evaluation 3, verifying slides and Q&A strategies."
+          },
+          {
+            "time": "110-120",
+            "title": "Activity 6: Semester 1 Grand Finale & FE3 Action Plan (10 mins)",
+            "description": "Podium celebration for Grand Prix champions, portfolio audit guidelines, and final encouragement for FE3."
+          }
+        ]
+      },
+      "revision": [
+        {
+          "num": "01",
+          "term": "airside operations",
+          "phonetic": "/ˈeə.saɪd ˌɒp.ərˈeɪ.ʃənz/",
+          "pos": "noun phrase",
+          "definition": "The complex coordination of aircraft movements, ramp handling, fueling, and pushback tug operations within restricted aerodrome areas.",
+          "example": "Airside operations staff coordinated simultaneous de-boarding, baggage unloading, and refueling during the forty-minute turnaround."
+        },
+        {
+          "num": "02",
+          "term": "thrust-to-weight ratio",
+          "phonetic": "/θrʌst tuː weɪt ˈreɪ.ʃi.əʊ/",
+          "pos": "noun phrase",
+          "definition": "A dimensionless ratio of total engine thrust output to the total weight of the aircraft, determining climb gradient and acceleration.",
+          "example": "With a high thrust-to-weight ratio, twin-engine widebodies achieve steep initial climb gradients even with one engine inoperative."
+        },
+        {
+          "num": "03",
+          "term": "angle of attack (AoA)",
+          "phonetic": "/ˈæŋ.ɡəl əv əˈtæk/",
+          "pos": "noun phrase",
+          "definition": "The angle between the chord line of an aircraft's wing and the oncoming relative airflow vector.",
+          "example": "Exceeding the critical angle of attack causes boundary layer separation and an immediate aerodynamic stall."
+        },
+        {
+          "num": "04",
+          "term": "boundary layer separation",
+          "phonetic": "/ˈbaʊn.dər.i ˈleɪ.ər ˌsep.ərˈeɪ.ʃən/",
+          "pos": "noun phrase",
+          "definition": "The detachment of smooth laminar airflow from the upper surface of a wing, causing sudden lift loss and increased pressure drag.",
+          "example": "Vortex generators on the wing delay boundary layer separation at high angles of attack."
+        },
+        {
+          "num": "05",
+          "term": "narrowbody airliner",
+          "phonetic": "/ˈnær.əʊˌbɒd.i ˈeəˌlaɪ.nər/",
+          "pos": "noun phrase",
+          "definition": "A commercial transport aircraft featuring a single passenger aisle with three-by-three seating, used for regional and medium-haul routes.",
+          "example": "The Airbus A320 and Boeing 737 families dominate the global narrowbody airliner market."
+        },
+        {
+          "num": "06",
+          "term": "Flight Data Recorder (FDR)",
+          "phonetic": "/flaɪt ˈdeɪ.tə rɪˈkɔː.dər/",
+          "pos": "noun phrase",
+          "definition": "A crash-survivable flight recorder that logs hundreds of flight parameters including altitude, airspeed, control inputs, and engine status.",
+          "example": "Investigators recovered the orange FDR from the seabed, allowing exact reconstruction of control column inputs before impact."
+        },
+        {
+          "num": "07",
+          "term": "Crew Resource Management (CRM)",
+          "phonetic": "/kruː rɪˈsɔːs ˈmæn.ɪdʒ.mənt/",
+          "pos": "noun phrase",
+          "definition": "A training system focusing on human factors, interpersonal communication, leadership, and decision-making in the cockpit.",
+          "example": "Effective CRM empowers First Officers to assertively question the Captain if flight parameters deviate from stable approach criteria."
+        },
+        {
+          "num": "08",
+          "term": "hypoxic drive",
+          "phonetic": "/haɪˈpɒk.sɪk draɪv/",
+          "pos": "noun phrase",
+          "definition": "The body's physiological respiratory drive stimulated by low arterial oxygen levels during high-altitude exposure.",
+          "example": "Under the influence of hypoxic drive, the aviator hyperventilated uncontrollably during the altitude chamber simulation."
+        },
+        {
+          "num": "09",
+          "term": "windshear advisory",
+          "phonetic": "/wɪnd ʃɪər ədˈvaɪ.zər.i/",
+          "pos": "noun phrase",
+          "definition": "An official broadcast or controller warning alerting incoming and departing traffic to detected wind velocity shifts along approach corridors.",
+          "example": "Upon receiving the windshear advisory, the flight crew selected maximum take-off thrust and prepared for a potential go-around."
+        },
+        {
+          "num": "10",
+          "term": "supercooled droplet",
+          "phonetic": "/ˌsuː.pə.kuːld ˈdrɒp.lət/",
+          "pos": "noun phrase",
+          "definition": "Liquid water droplets existing in clouds at temperatures below zero degrees Celsius that freeze immediately upon contacting an airframe.",
+          "example": "Flying through a cloud deck composed of supercooled droplets created rapid rime ice buildup on windshield wipers."
+        },
+        {
+          "num": "11",
+          "term": "explosive trace detection (ETD)",
+          "phonetic": "/ɪkˈspləʊ.sɪv treɪs dɪˈtek.ʃən/",
+          "pos": "noun phrase",
+          "definition": "Security equipment that analyzes chemical residue swabs from passenger hands, electronics, or baggage for microscopic explosive traces.",
+          "example": "The security screener wiped a test swab across the passenger's laptop keyboard and inserted it into the ETD analyzer."
+        },
+        {
+          "num": "12",
+          "term": "Minimum Equipment List (MEL)",
+          "phonetic": "/ˈmɪn.ɪ.məm ɪˈkwɪp.mənt lɪst/",
+          "pos": "noun phrase",
+          "definition": "The official document governing legal aircraft dispatch with inoperative equipment, specifying repair deadlines and operational limits.",
+          "example": "The airline's dispatch office verified that the inoperative weather radar was permitted under MEL for daylight VMC flight only."
+        },
+        {
+          "num": "13",
+          "term": "standard operating procedures (SOP)",
+          "phonetic": "/ˈstæn.dəd ˈɒp.ər.eɪ.tɪŋ prəˈsiː.dʒəz/",
+          "pos": "noun phrase",
+          "definition": "Formally prescribed step-by-step checklists and behavioral instructions to be followed by flight crew under all normal and emergency phases.",
+          "example": "Strict adherence to company SOPs eliminated ambiguity during the complex CAT III low visibility approach."
+        },
+        {
+          "num": "14",
+          "term": "sterile cockpit rule",
+          "phonetic": "/ˈster.aɪl ˈkɒk.pɪt ruːl/",
+          "pos": "noun phrase",
+          "definition": "A regulatory requirement prohibiting non-essential conversation, activities, or interruptions below ten thousand feet during critical phases of flight.",
+          "example": "Under the sterile cockpit rule, pilots focus solely on navigation, ATC communications, and flight path monitoring during taxi and departure."
+        },
+        {
+          "num": "15",
+          "term": "situational awareness",
+          "phonetic": "/ˌsɪtʃ.uˈeɪ.ʃən.əl əˈweə.nəs/",
+          "pos": "noun phrase",
+          "definition": "An aviator's continuous, accurate perception of the aircraft's position, energy state, systems, weather, and surrounding traffic.",
+          "example": "Channelized attention on a single faulty warning light degraded the crew's situational awareness, resulting in unperceived altitude loss."
+        },
+        {
+          "num": "16",
+          "term": "Just Culture",
+          "phonetic": "/dʒʌst ˈkʌl.tʃər/",
+          "pos": "noun phrase",
+          "definition": "An organizational environment where front-line operators are not punished for actions, omissions, or decisions commensurate with their experience, but willful misconduct is not tolerated.",
+          "example": "Under Just Culture principles, the pilot immediately filed a voluntary safety report regarding the altitude deviation without fear of reprisal."
+        },
+        {
+          "num": "17",
+          "term": "Safety Management System (SMS)",
+          "phonetic": "/ˈseɪf.ti ˈmæn.ɪdʒ.mənt ˈsɪs.təm/",
+          "pos": "noun phrase",
+          "definition": "A systematic, comprehensive approach to managing safety, including organizational structures, accountabilities, policies, and risk mitigation procedures.",
+          "example": "The airline's SMS identified an emerging trend in runway excursions during wet winter operations, triggering fleetwide simulator drills."
+        },
+        {
+          "num": "18",
+          "term": "press briefing",
+          "phonetic": "/pres ˈbriː.fɪŋ/",
+          "pos": "noun phrase",
+          "definition": "A structured, professional presentation given to journalists and news media to announce factual developments and answer questions following an incident.",
+          "example": "The airline's Chief Flight Safety Officer delivered a formal press briefing regarding the transatlantic emergency diversion."
+        }
+      ],
+      "materials": {
+        "videos": [
+          {
+            "tag": "Semester Review",
+            "title": "Commercial Aviation Engineering & Flight Operations Capstone",
+            "duration": "18:20",
+            "channel": "ENAC Aeronautical Sciences Review",
+            "summary": "Comprehensive semester retrospective integrating aerodrome layouts, flight aerodynamics, jet propulsion, aeromedical human factors, and crisis safety management."
+          },
+          {
+            "tag": "Media Briefing",
+            "title": "Aviation Crisis Communications & Press Conference Masterclass",
+            "duration": "14:10",
+            "channel": "IATA Corporate Communications Training",
+            "summary": "Professional communication guidelines for airline and airport spokespersons delivering live situation briefings and responding to adversarial media questions."
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.enac.fr",
+            "tag": "01 • Academic Hub",
+            "name": "ENAC Aeronautical English Learning Repository",
+            "desc": "Complete course documentation, semester objectives, technical vocabulary databases, and continuous assessment rubrics."
+          },
+          {
+            "url": "https://www.icao.int",
+            "tag": "02 • Global Standards",
+            "name": "ICAO Language Proficiency Requirements (Doc 9835)",
+            "desc": "Official international operational level descriptors for aeronautical English (Pronunciation, Structure, Vocabulary, Fluency, Comprehension, Interaction)."
+          },
+          {
+            "url": "https://www.aviation-safety.net",
+            "tag": "03 • Accident Database",
+            "name": "Aviation Safety Network Official Accident Database",
+            "desc": "Comprehensive global registry of commercial airliner accidents, technical investigation reports, and safety recommendations."
+          },
+          {
+            "url": "https://www.bea.aero",
+            "tag": "04 • Investigation Bureau",
+            "name": "Bureau d'Enquêtes et d'Analyses pour la Sécurité (BEA)",
+            "desc": "Official French civil aviation safety investigation authority publishing preliminary and final technical accident reports."
+          },
+          {
+            "url": "https://www.ntsb.gov",
+            "tag": "05 • US Safety Board",
+            "name": "NTSB Aviation Investigation Reports & Safety Alerts",
+            "desc": "National Transportation Safety Board docket files, Cockpit Voice Recorder (CVR) transcripts, and major safety recommendations."
+          },
+          {
+            "url": "https://www.flightradar24.com",
+            "tag": "06 • Flight Tracking",
+            "name": "Flightradar24 Global Flight Tracking & Current Events",
+            "desc": "Real-time ADS-B flight telemetry, diversion tracking, squawk emergency notifications, and airspace congestion data."
+          }
+        ],
+        "pageUrl": "session4/admat_aas2.html",
+        "articles": [
+          {
+            "topic": "Journal of Aeronautical Communication",
+            "sourceTag": "Professional Flight Discourse",
+            "heading": "Crisis Communication in Commercial Aviation: Press Briefings Under Scrutiny",
+            "snippet": "Analysis of corporate communications following landmark aviation emergencies: how clear technical precision, transparent empathy, and rigorous factual discipline maintain public trust.",
+            "readTime": "Estimated read: 6-8 mins",
+            "url": "https://www.enac.fr"
+          },
+          {
+            "topic": "Air Transport World",
+            "sourceTag": "Global Aviation Review",
+            "heading": "The Evolution of Modern Commercial Flight Safety: A 50-Year Retrospective",
+            "snippet": "Examining the multi-layered technological and human factors revolution that made commercial air transport the safest mode of long-distance transportation in human history.",
+            "readTime": "Estimated read: 5-7 mins",
+            "url": "https://www.icao.int"
+          }
+        ],
+        "toeicQuestions": [
+          {
+            "stem": "The chief safety officer emphasized that ________ communication between flight crew members is vital for operational safety.",
+            "options": [
+              {
+                "letter": "A",
+                "text": "transparent"
+              },
+              {
+                "letter": "B",
+                "text": "transparently"
+              },
+              {
+                "letter": "C",
+                "text": "transparency"
+              },
+              {
+                "letter": "D",
+                "text": "transparencies"
+              }
+            ],
+            "correctLetter": "A",
+            "correctText": "transparent",
+            "analysis": "The adjective 'transparent' is required to modify the noun 'communication'.",
+            "strategy": "Adjective modifying noun: transparent communication."
+          },
+          {
+            "stem": "All Semester 1 vocabulary terms ________ on the revision tab should be reviewed prior to Formative Evaluation 3.",
+            "options": [
+              {
+                "letter": "A",
+                "text": "listed"
+              },
+              {
+                "letter": "B",
+                "text": "listing"
+              },
+              {
+                "letter": "C",
+                "text": "list"
+              },
+              {
+                "letter": "D",
+                "text": "lists"
+              }
+            ],
+            "correctLetter": "A",
+            "correctText": "listed",
+            "analysis": "Reduced relative clause with passive participle: terms [which are] listed on the revision tab.",
+            "strategy": "Passive participle modifier: terms listed on the tab."
+          },
+          {
+            "stem": "The airline's spokesperson delivered a press briefing ________ explain the precautionary diversion of flight 402.",
+            "options": [
+              {
+                "letter": "A",
+                "text": "in order to"
+              },
+              {
+                "letter": "B",
+                "text": "so that"
+              },
+              {
+                "letter": "C",
+                "text": "because of"
+              },
+              {
+                "letter": "D",
+                "text": "due to"
+              }
+            ],
+            "correctLetter": "A",
+            "correctText": "in order to",
+            "analysis": "Purpose connector 'in order to' is followed by the bare infinitive 'explain'.",
+            "strategy": "Purpose clause: in order to + bare infinitive."
+          },
+          {
+            "stem": "By the time the investigation concludes next month, the safety board ________ over fifty thousand telemetry data points.",
+            "options": [
+              {
+                "letter": "A",
+                "text": "will have analyzed"
+              },
+              {
+                "letter": "B",
+                "text": "analyzed"
+              },
+              {
+                "letter": "C",
+                "text": "is analyzing"
+              },
+              {
+                "letter": "D",
+                "text": "has analyzed"
+              }
+            ],
+            "correctLetter": "A",
+            "correctText": "will have analyzed",
+            "analysis": "Future perfect tense ('will have analyzed') is required with the temporal marker 'By the time ... next month'.",
+            "strategy": "Future perfect formula: By the time + present ..., will have + V3."
+          },
+          {
+            "stem": "Students are advised to practice their press briefings in pairs ________ they can deliver their presentations fluently.",
+            "options": [
+              {
+                "letter": "A",
+                "text": "so that"
+              },
+              {
+                "letter": "B",
+                "text": "in order to"
+              },
+              {
+                "letter": "C",
+                "text": "despite"
+              },
+              {
+                "letter": "D",
+                "text": "because of"
+              }
+            ],
+            "correctLetter": "A",
+            "correctText": "so that",
+            "analysis": "The purpose conjunction 'so that' introduces a full clause expressing intention ('so that they can deliver').",
+            "strategy": "Purpose conjunction: so that + [subject + modal + verb]."
+          }
+        ]
+      },
+      "lessonContent": {
+        "hero": {
+          "title": "Global Semester Review & 3-Team Aviation Grand Prix Quiz",
+          "subtitle": "Comprehensive Semester 1 Retrospective, 3-Team Scored Knowledge Competition & FE3 Press Briefing Masterclass",
+          "image": "images/aas_m3card4.png"
+        },
+        "openingSession": {
+          "title": "Activity 1: Semester 1 Retrospective & Competition Rules (10 mins)",
+          "summary": "Review the full Semester 1 aeronautical syllabus, divide into 3 teams, and establish the Grand Prix tournament rules.",
+          "modeBadges": [
+            "Plenary",
+            "Grand Prix Setup",
+            "10 Mins"
+          ],
+          "instructions": [
+            "Divide the classroom cohort into 3 competitive squads: Team Alpha, Team Bravo, and Team Charlie.",
+            "Each team elects a Team Captain to deliver final answers and keep score on the interactive Grand Prix board.",
+            "Review tournament rules: 3 rounds of increasing point values (100, 200, 300 pts). In case of a tie, a sudden-death technical debate tiebreaker will determine the champion."
+          ],
+          "deliverable": "Confirmed team rosters, assigned team captains, and reviewed tournament scoring rules.",
+          "teacherNotes": "Create an energetic, high-engagement tournament atmosphere! Keep time strictly and award bonus points for concise, jargon-free English explanations.",
+          "squadRosters": [
+            {
+              "team": "Team Alpha",
+              "focus": "Aerodromes & Ground Handling",
+              "motto": "Precision on the Ramp"
+            },
+            {
+              "team": "Team Bravo",
+              "focus": "Aircraft Systems & Flight Physics",
+              "motto": "Aerodynamic Superiority"
+            },
+            {
+              "team": "Team Charlie",
+              "focus": "Human Factors, Weather & Safety",
+              "motto": "Unyielding Operational Safety"
+            }
+          ]
+        },
+        "teamGrandPrixRound1": {
+          "title": "Activity 2: Grand Prix Round 1: Aerodromes, Aircraft Anatomy & Systems (25 mins)",
+          "summary": "Competitive round covering Module 1 and Module 2: runway numbering, GSE turnaround, flight control surfaces, and turbofan bypass ratios.",
+          "modeBadges": [
+            "3 Teams (Alpha/Bravo/Charlie)",
+            "Team Competition",
+            "25 Mins"
+          ],
+          "instructions": [
+            "Teams take turns selecting challenge questions from the Round 1 Question Board.",
+            "Teams have 60 seconds of internal consultation before their Captain must state the final answer in clear English.",
+            "Correct answers earn the stated point value (100 to 300 pts). If a team fails, the question rebounds to the next team for half points."
+          ],
+          "deliverable": "Round 1 score tally recorded in the interactive team scoreboard.",
+          "teacherNotes": "Encourage teams to explain the 'why' behind each answer rather than just giving a one-word response.",
+          "questions": [
+            {
+              "id": 1,
+              "pts": 100,
+              "q": "An aerodrome runway has a magnetic heading of 284 degrees. What two digits are painted at its approach threshold?",
+              "answer": "Runway 28 (magnetic headings are rounded to the nearest ten degrees and divided by ten: 284° rounds to 280°, designated as Runway 28)."
+            },
+            {
+              "id": 2,
+              "pts": 100,
+              "q": "Which flight control surface controls movement about the lateral pitch axis, and where is it located on the aircraft?",
+              "answer": "The elevator, hinged on the trailing edge of the horizontal stabilizer in the empennage."
+            },
+            {
+              "id": 3,
+              "pts": 200,
+              "q": "Name three distinct ground support equipment (GSE) vehicles servicing an airliner during turnaround and state their exact functions.",
+              "answer": "(1) Ground Power Unit (GPU) provides electrical power before APU start; (2) Belt Loader transfers bulk baggage into cargo holds; (3) Pushback Tug disconnects and tows aircraft back from the gate stand."
+            },
+            {
+              "id": 4,
+              "pts": 200,
+              "q": "Why do modern commercial airliners utilize high-bypass turbofan engines instead of low-bypass engines?",
+              "answer": "High-bypass turbofans push the majority of incoming air around the engine core through the bypass duct, generating greater propulsive efficiency, significantly lower fuel consumption, and reduced noise."
+            },
+            {
+              "id": 5,
+              "pts": 300,
+              "q": "What is the primary aerodynamic distinction between single-aisle narrowbody airliners and twin-aisle widebody airliners?",
+              "answer": "Narrowbodies (A320/B737) have a single aisle with 3-3 seating designed for short-to-medium haul routes (up to 3,500 NM), while widebodies (A350/B777/B787) feature twin passenger aisles with higher aspect-ratio wings and massive fuel capacity for long-haul intercontinental flight."
+            },
+            {
+              "id": 6,
+              "pts": 300,
+              "q": "During the pre-flight exterior walkaround, what critical item must be verified on the main landing gear wheel well?",
+              "answer": "Verify that all ground safety downlock pins are pulled and stowed, hydraulic lines show no leaks, brake wear indicator pins protrude, and tire tread grooves are intact without visible cords."
+            }
+          ]
+        },
+        "teamGrandPrixRound2": {
+          "title": "Activity 3: Grand Prix Round 2: Human Factors, Health & Severe Meteorology (25 mins)",
+          "summary": "Competitive round covering Module 3: medical triage, EASA FTL fatigue rules, METAR decoding, and microburst physics.",
+          "modeBadges": [
+            "3 Teams (Alpha/Bravo/Charlie)",
+            "Team Competition",
+            "25 Mins"
+          ],
+          "instructions": [
+            "Teams tackle Round 2 challenge questions covering aviation medicine, crew fatigue regulations, and severe atmospheric hazards.",
+            "Points escalate: 100 pts for clinical definitions, 200 pts for regulatory/METAR decoding, and 300 pts for aerodynamic physics.",
+            "Reveal answers after each team attempt and record running totals on the team leaderboard."
+          ],
+          "deliverable": "Round 2 score tally updated on team scoreboard.",
+          "teacherNotes": "Emphasize precise English terminology. Challenge students if they use vague terms like 'bad weather' instead of 'severe convective squall line'.",
+          "questions": [
+            {
+              "id": 1,
+              "pts": 100,
+              "q": "What is the primary cabin crew intervention when a passenger is hyperventilating due to acute panic?",
+              "answer": "Reassure the passenger in calm, measured tones, coach slow diaphragmatic breathing in through the nose and out through pursed lips (or breathing into a paper sickness bag) to restore arterial CO2 levels."
+            },
+            {
+              "id": 2,
+              "pts": 100,
+              "q": "Under EASA Flight Time Limitations (FTL), what does the acronym WOCL signify and why is it legally restricted?",
+              "answer": "Window of Circadian Low (02:00 to 05:59 local physiological time). Flying duties commencing during this window incur severe cognitive fatigue, so allowable flight duty periods (FDP) are significantly reduced."
+            },
+            {
+              "id": 3,
+              "pts": 200,
+              "q": "Decode the following METAR string: '+TSRA BKN012CB 28020G35KT'",
+              "answer": "Heavy thunderstorm with rain, broken cumulonimbus clouds at 1,200 feet above ground level, wind from 280 degrees at 20 knots with gusts up to 35 knots."
+            },
+            {
+              "id": 4,
+              "pts": 200,
+              "q": "Explain the sudden airspeed and lift changes experienced by an aircraft flying through a microburst on short final approach.",
+              "answer": "The aircraft first encounters an intense headwind, causing indicated airspeed and lift to rise suddenly (tempting the pilot to pull thrust back); then it hits a strong downdraft, followed immediately by a severe tailwind causing massive airspeed loss, stalling, and rapid descent."
+            },
+            {
+              "id": 5,
+              "pts": 300,
+              "q": "What is Time of Useful Consciousness (TUC) at 35,000 feet, and what immediate memory action must pilots execute if cabin altitude exceeds 10,000 feet?",
+              "answer": "TUC at FL350 is approximately 30 to 60 seconds. Pilots must immediately don oxygen masks and select 100% pure oxygen under positive pressure before executing an emergency descent."
+            },
+            {
+              "id": 6,
+              "pts": 300,
+              "q": "What is the somatogravic illusion during a night or instrument go-around, and how does a pilot prevent a catastrophic crash?",
+              "answer": "Rapid forward acceleration stimulates the inner ear otolith organs, creating a false sensation that the aircraft is pitching up violently. If the pilot pushes the nose down based on this illusion, the aircraft flies into the ground. The pilot prevents this by ignoring bodily sensations and scanning flight instruments."
+            }
+          ]
+        },
+        "teamGrandPrixRound3": {
+          "title": "Activity 4: Grand Prix Round 3: Safety vs. Security & Landmark Case Studies (25 mins)",
+          "summary": "Competitive round covering airport security screening, pre-flight walkaround, Delta 191/BA 009 case studies, and tournament tiebreaker.",
+          "modeBadges": [
+            "3 Teams (Alpha/Bravo/Charlie)",
+            "Team Competition",
+            "25 Mins"
+          ],
+          "instructions": [
+            "Final championship round! High-stakes questions worth 100, 200, and 300 points on Safety vs. Security and landmark case studies.",
+            "In case of a points tie between teams, the Sudden-Death Tiebreaker Question will be contested live by the team captains.",
+            "Tally final tournament points and crown the Grand Prix Champions!"
+          ],
+          "deliverable": "Final Grand Prix Tournament Champions declared and podium ceremony.",
+          "teacherNotes": "Create excitement as the scoreboard narrows! Celebrate the collaborative effort of all three squads.",
+          "questions": [
+            {
+              "id": 1,
+              "pts": 100,
+              "q": "In legal and regulatory terms, what is the exact difference between Aviation Safety and Aviation Security?",
+              "answer": "Safety (ICAO Annex 19) is the prevention of unintended accidents, mechanical failures, software glitches, and human errors. Security (ICAO Annex 17) is the prevention of intentional, deliberate, malicious criminal acts, terrorism, and sabotage."
+            },
+            {
+              "id": 2,
+              "pts": 100,
+              "q": "How does a computed tomography (CT) airport baggage scanner differ from a conventional 2D x-ray machine?",
+              "answer": "A CT scanner rotates around the baggage taking hundreds of x-ray slices to generate a 3D volumetric image, analyzing material density and atomic number to detect explosives automatically without removing liquids or electronics."
+            },
+            {
+              "id": 3,
+              "pts": 200,
+              "q": "What permanent technological equipment was mandated on all commercial transport aircraft following the Delta 191 crash at Dallas in 1985?",
+              "answer": "Mandatory airborne predictive windshear detection systems (radar and reactive windshear guidance) and Terminal Doppler Weather Radar (TDWR) at commercial hub airports."
+            },
+            {
+              "id": 4,
+              "pts": 200,
+              "q": "Why did all four engines on British Airways Flight 009 flame out simultaneously over Indonesia in 1982, and why did they restart at lower altitude?",
+              "answer": "The aircraft flew into an undetected volcanic ash cloud; the silicate ash melted in the 1,100°C combustion chambers, coating turbine blades and choking airflow. At lower altitude, the cooled engines shed the brittle glass coating as the crew glided, allowing air restart."
+            },
+            {
+              "id": 5,
+              "pts": 300,
+              "q": "What is the difference between an aircraft Minimum Equipment List (MEL) and a Configuration Deviation List (CDL)?",
+              "answer": "The MEL governs dispatch with inoperative system components or instruments (e.g. an inoperative APU or nav radio). The CDL governs dispatch with missing secondary external airframe parts (e.g. a missing flap track fairing or static wick)."
+            },
+            {
+              "id": 6,
+              "pts": 300,
+              "q": "TIEBREAKER: A passenger flight experiences a false cargo fire alarm caused by a sensor short circuit while approaching an airport where an active security perimeter breach is underway. As airport director, which incident takes immediate runway priority?",
+              "answer": "The airborne flight emergency (Safety) takes absolute priority. An in-flight fire alarm requires immediate landing and runway evacuation because an uncontained airborne fire can destroy an aircraft in under 15 minutes. Police must contain the perimeter breach without compromising runway clearance."
+            }
+          ]
+        },
+        "fe3MasteryWorkshop": {
+          "title": "Activity 5: FE3 Current Events Press Briefing Masterclass (25 mins)",
+          "summary": "Pairs workshop preparing the 10-12 minute Press Briefing for Session 5 Formative Evaluation 3, verifying slides and Q&A strategies.",
+          "modeBadges": [
+            "Pairs / Trios",
+            "FE3 Workshop",
+            "25 Mins"
+          ],
+          "instructions": [
+            "In your confirmed evaluation pairs/trios, finalize your selection of a major aviation current event from one of the 3 domains (Severe Weather, Medical Emergency Diversion, or Airport Security/Airworthiness).",
+            "Structure your 10-12 minute Press Briefing using the 4-phase professional framework: (1) Situation Overview & Initial Facts, (2) Technical Causal Analysis, (3) Operational Immediate Measures, (4) Long-term Corrective Actions & Regulatory Mandates.",
+            "Rehearse role handovers so each partner speaks for exactly 5-6 minutes without reading verbatim from scripts. Review defensive Q&A strategies for the teacher's press conference cross-examination."
+          ],
+          "deliverable": "Completed FE3 Press Briefing outline draft with verified partner roles and slide cue points.",
+          "teacherNotes": "Remind students that FE3 is an oral media briefing simulation. Reading written paragraphs verbatim results in an immediate failing grade in Fluency. Bullet cards and visual slides only!",
+          "briefingFramework": [
+            {
+              "stage": "Stage 1: Situation Overview (2-3 mins)",
+              "content": "Welcome journalists, state flight number/airline, date, route, aircraft type, and summarize the emergency situation factually without sensationalism."
+            },
+            {
+              "stage": "Stage 2: Technical Causal Analysis (3-4 mins)",
+              "content": "Explain the root engineering, meteorological, aeromedical, or security causal factors using precise aeronautical terminology from Module 3."
+            },
+            {
+              "stage": "Stage 3: Immediate Operational Response (2-3 mins)",
+              "content": "Detail flight crew actions, ATC coordination, emergency diversion execution, passenger triage, and airport emergency service response."
+            },
+            {
+              "stage": "Stage 4: Corrective Actions & Regulatory Follow-up (2 mins)",
+              "content": "Outline airline internal investigations, BEA/EASA cooperation, fleetwide inspections, and revised standard operating procedures (SOPs)."
+            }
+          ]
+        },
+        "closingReview": {
+          "title": "Activity 6: Semester 1 Grand Finale & FE3 Action Plan (10 mins)",
+          "summary": "Podium celebration for Grand Prix champions, portfolio audit guidelines, and final encouragement for FE3.",
+          "modeBadges": [
+            "Plenary",
+            "Semester Wrap-Up",
+            "10 Mins"
+          ],
+          "instructions": [
+            "Congratulate the winning squad of the Semester 1 Grand Prix Tournament!",
+            "Review final preparation reminders for Formative Evaluation 3 on Wednesday 25 February 2025 (Week 08).",
+            "Verify that your personal Vocabulary Log contains all required aeronautical terms across Modules 1, 2, and 3."
+          ],
+          "deliverable": "Confirmed FE3 preparation roadmap, verified evaluation timeslot, and finalized media briefing visual slides.",
+          "teacherNotes": "End the semester on an encouraging, inspiring high note! Emphasize how much their aeronautical fluency and technical vocabulary have grown since Module 1.",
+          "checkpoints": [
+            "Mastered 72 specialized Module 3 aeronautical vocabulary items",
+            "Synthesized Semester 1 knowledge across Aerodromes, Aircraft & Safety",
+            "Competed in the 3-team Grand Prix Tournament",
+            "Finalized FE3 Current Events Press Briefing outline and slide deck"
           ]
         }
       }
     }
   }
+}
 };
 
   return {

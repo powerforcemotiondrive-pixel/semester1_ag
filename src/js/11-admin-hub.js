@@ -279,15 +279,15 @@
           },
           {
             num: 3,
-            title: "Module 3: Safety Management, Security & Human Factors",
+            title: "Module 3: Health, Meteorology, Safety & Security",
             weeks: "Weeks 4 – 8",
             headerBg: "#1a2238",
             sessions: [
-              { week: "W04", date: "Wed 28 Jan", title: "Session 1 — Aviation Safety Management (SMS)", tag: "Teaching Session", isFe: false },
-              { week: "W05", date: "Wed 04 Feb", title: "Session 2 — Security & Unlawful Interference", tag: "Teaching Session", isFe: false },
-              { week: "W06", date: "Wed 11 Feb", title: "Session 3 — Human Factors & CRM", tag: "Teaching Session", isFe: false },
-              { week: "W07", date: "Wed 18 Feb", title: "Session 4 — Emergency Response & Crisis Management", tag: "Teaching Session • Prep FE3", isFe: false },
-              { week: "W08", date: "Wed 25 Feb", title: "FORMATIVE EVALUATION 3 (FE3) — Oral Tutorials", subtitle: "Wed 25 Feb • 30-min evaluation slots (Tracy NEILL / Ally HEWETT)", tag: "Grade /20", isFe: true }
+              { week: "W04", date: "Wed 28 Jan", title: "Session 1 — Health & Human Factors in Aviation", tag: "Teaching Session", isFe: false },
+              { week: "W05", date: "Wed 04 Feb", title: "Session 2 — Meteorology & Severe Weather in Aviation", tag: "Teaching Session", isFe: false },
+              { week: "W06", date: "Wed 11 Feb", title: "Session 3 — Aviation Safety vs. Security: Airport & Aircraft Checks", tag: "Teaching Session", isFe: false },
+              { week: "W07", date: "Wed 18 Feb", title: "Session 4 — Global Semester Review & 3-Team Quiz", tag: "Teaching Session • Prep FE3", isFe: false },
+              { week: "W08", date: "Wed 25 Feb", title: "FORMATIVE EVALUATION 3 (FE3) — Aviation Current Events & Press Briefing", subtitle: "Wed 25 Feb • 30-min evaluation slots (Tracy NEILL / Ally HEWETT)", tag: "Grade /20", isFe: true }
             ]
           }
         ]

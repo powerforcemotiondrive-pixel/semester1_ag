@@ -36,10 +36,10 @@
           s4: "Session 4 - Significant Aviation Accidents & Aircraft Types"
         },
         3: {
-          s1: "Session 1: Aviation Safety Management (SMS)",
-          s2: "Session 2: Security & Unlawful Interference",
-          s3: "Session 3: Human Factors & CRM",
-          s4: "Session 4: Emergency Response & Crisis Management"
+          s1: "Session 1 - Health & Human Factors in Aviation",
+          s2: "Session 2 - Meteorology & Severe Weather in Aviation",
+          s3: "Session 3 - Aviation Safety vs. Security: Airport & Aircraft Checks",
+          s4: "Session 4 - Global Semester Review & 3-Team Quiz"
         }
       };
 
@@ -114,10 +114,10 @@
           s4: `Welcome to Session 4! We investigate landmark aviation accidents throughout history, analyzing the aircraft types involved, mechanical versus human contributing factors, and permanent safety evolutions.<br><br><em>Subject overview:</em> Accident investigation methodology (CVR/FDR, BEA, NTSB), past narrative tenses, and an in-class 15-minute quick-fire group research sprint analyzing landmark case studies followed by spoken safety presentations.<br><br>${formativeEvaluationNotice}`
         },
         3: {
-          s1: `Welcome to Module 3 on Safety and Security! We explore Safety Management Systems (SMS), risk matrices, and reactive vs. proactive safety cultures.<br><br><em>Subject overview:</em> SMS four pillars, hazard identification, voluntary incident reporting, and safety risk mitigation.<br><br>${formativeEvaluationNotice}`,
-          s2: `Welcome to Session 2! We examine international civil aviation security conventions, passenger screening, and preventing unlawful interference.<br><br><em>Subject overview:</em> ICAO Annex 17, hold baggage screening, biometric identification, and counter-hijacking protocols.<br><br>${formativeEvaluationNotice}`,
-          s3: `Welcome to Session 3! We study Crew Resource Management (CRM), situational awareness, error traps, and effective flight deck communication.<br><br><em>Subject overview:</em> Human factors, threat and error management (TEM), assertive communication, and workload distribution.<br><br>${formativeEvaluationNotice}`,
-          s4: `Welcome to Session 4! We analyze emergency procedures, emergency locator transmitters (ELT), aerodrome emergency plans, and post-accident review.<br><br><em>Subject overview:</em> Airport emergency response, aircraft evacuation standards, search and rescue (SAR), and incident debriefing.<br><br>${formativeEvaluationNotice}`
+          s1: `Welcome to Module 3 on Health, Meteorology, Safety & Security! In this opening session, we explore in-flight medical emergencies, physiological challenges of flight, and human factors impacting pilots and air traffic controllers.<br><br><em>Subject overview:</em> Cardiac arrest &amp; AED protocols, panic attacks, hyperventilation, claustrophobia, airsickness, hypoxia, pilot and ATCO fatigue, Flight Time Limitations (FTL), circadian disruption, and the IMSAFE checklist.<br><br>${formativeEvaluationNotice}`,
+          s2: `Welcome to Session 2! We examine aviation meteorology, severe atmospheric hazards, and their operational consequences on commercial flight dispatch, en-route navigation, and terminal approaches.<br><br><em>Subject overview:</em> Microbursts, low-level windshear, severe convective turbulence, cumulonimbus (CB) cells, structural and pitot icing, volcanic ash encounters, low visibility procedures (CAT I/II/III), and landmark weather case studies (Delta 191 &amp; BA 009).<br><br>${formativeEvaluationNotice}`,
+          s3: `Welcome to Session 3! In this class, we analyze the critical conceptual and operational distinction between Aviation Safety (preventing unintended hazards) and Aviation Security (preventing intentional unlawful acts).<br><br><em>Subject overview:</em> Airport security architecture (landside/airside, passenger millimeter-wave screening, hold baggage CT/EDS, biometric e-gates) and aircraft technical safety checks (pre-flight walkaround, gear pins, pitot covers, Minimum Equipment List, and maintenance checks).<br><br>${formativeEvaluationNotice}`,
+          s4: `Welcome to Session 4! We conclude Semester 1 with a high-energy Global Review and interactive 3-Team Aviation Grand Prix Quiz covering Aerodromes, Aircraft Systems, Human Factors, Meteorology, and Safety & Security.<br><br><em>Subject overview:</em> Multi-round competitive review quiz (Team Alpha, Team Bravo, Team Charlie), rapid-fire technical challenges, pronunciation consolidation, and workshop rehearsal for the Session 5 Formative Evaluation 3.<br><br>${formativeEvaluationNotice}`
         }
       };
 
@@ -386,8 +386,8 @@
           {
             id: 3,
             name: "Module 3",
-            subtitle: "Safety and Security",
-            supertitle: "GSEA AAS SEMESTER 1 - MODULE 3: SAFETY & SECURITY",
+            subtitle: "Health, Meteorology, Safety & Security",
+            supertitle: "GSEA AAS SEMESTER 1 - MODULE 3: HEALTH, WEATHER & SAFETY",
             ...AAS_MODULE_THEMES[3],
             pages: createModulePages(3, 'aas')
           }

@@ -473,6 +473,228 @@
         </div>
         `;
         return;
+      if (isAas && modNum === 3) {
+        bodyEl.innerHTML = `
+        <div class="space-y-6">
+          <!-- Executive Overview Card -->
+          <div class="bg-gradient-to-r from-slate-50 to-teal-50/40 border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-black tracking-wide text-white" style="background-color: ${theme.primary};">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                30-Minute Oral Tutorial Slot • In Pairs / Trios
+              </span>
+              <span class="text-xs font-bold px-2.5 py-0.5 rounded-md border" style="color: ${theme.accent}; background-color: ${theme.highlight || '#ccfbf1'}; border-color: ${theme.accent}30;">
+                Graded out of 20 Points • Continuous Assessment (FE3)
+              </span>
+            </div>
+            <h3 class="text-base sm:text-lg font-bold text-slate-800">
+              Formative Evaluation 3 (FE3) — Aviation Current Events &amp; Press Briefing
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
+              The Formative Evaluation takes place in <strong>pairs or trios</strong> during a dedicated <strong>30-minute tutorial slot</strong> on <strong>Wednesday 25 February 2025 (Week 08)</strong> with <strong>Tracy NEILL (Group A)</strong> or <strong>Ally HEWETT (Group B)</strong>. You and your partner will roleplay as <strong>Aviation Authority / Airline Spokespersons</strong> delivering a formal 10-12 minute <strong>Press Briefing</strong> on a major recent aviation current event (severe weather disruption, in-flight medical emergency diversion, airport security breach / biometric rollout, or safety maintenance airworthiness directive), followed by spontaneous press conference cross-examination, personal vocabulary portfolio audit, and diagnostic teacher feedback.
+            </p>
+          </div>
+
+          <!-- 30-Minute Roadmap (5 Stages) -->
+          <div class="space-y-3">
+            <div class="flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full" style="background-color: ${theme.accent};"></span>
+              <h4 class="text-xs sm:text-sm font-bold text-slate-800 uppercase tracking-wide">
+                The 30-Minute Oral Tutorial Roadmap
+              </h4>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
+              <!-- Stage 1 -->
+              <div class="border border-slate-200 rounded-xl p-3 bg-white flex flex-col justify-between shadow-2xs">
+                <div>
+                  <div class="flex items-center justify-between pb-1.5 border-b border-slate-100">
+                    <span class="text-[10px] font-black uppercase text-slate-400">Stage 1</span>
+                    <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold" style="background-color: ${theme.primary};">0–2 min</span>
+                  </div>
+                  <h5 class="text-xs font-bold text-slate-800 mt-2">Welcome &amp; Setup</h5>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Connect laptop/tablet to display, confirm visual slides. Teacher confirms current event selection and spokesperson roles.</p>
+                </div>
+                <div class="mt-2 pt-2 border-t border-slate-100 text-[10px] text-slate-400 font-semibold">Setup &amp; role allocation</div>
+              </div>
+
+              <!-- Stage 2 -->
+              <div class="border border-teal-200 rounded-xl p-3 bg-teal-50/30 flex flex-col justify-between shadow-2xs">
+                <div>
+                  <div class="flex items-center justify-between pb-1.5 border-b border-teal-100">
+                    <span class="text-[10px] font-black uppercase text-teal-700">Stage 2</span>
+                    <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold" style="background-color: ${theme.accent};">2–14 min</span>
+                  </div>
+                  <h5 class="text-xs font-bold text-teal-950 mt-2">Spoken Press Briefing</h5>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Deliver 10–12 minute structured press briefing analyzing the current event: facts, causal analysis, operational impact, and mitigation measures (5–6 min each).</p>
+                </div>
+                <div class="mt-2 pt-2 border-t border-teal-100 text-[10px] text-teal-800 font-bold">Main Oral Delivery (50%)</div>
+              </div>
+
+              <!-- Stage 3 -->
+              <div class="border border-slate-200 rounded-xl p-3 bg-white flex flex-col justify-between shadow-2xs">
+                <div>
+                  <div class="flex items-center justify-between pb-1.5 border-b border-slate-100">
+                    <span class="text-[10px] font-black uppercase text-slate-400">Stage 3</span>
+                    <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold" style="background-color: ${theme.primary};">14–22 min</span>
+                  </div>
+                  <h5 class="text-xs font-bold text-slate-800 mt-2">Press Q&amp;A Defense</h5>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Spontaneous cross-examination by the teacher acting as investigative journalists. Defend decisions and technical nuances calmly.</p>
+                </div>
+                <div class="mt-2 pt-2 border-t border-slate-100 text-[10px] text-slate-400 font-semibold">Spontaneous interaction</div>
+              </div>
+
+              <!-- Stage 4 -->
+              <div class="border border-slate-200 rounded-xl p-3 bg-white flex flex-col justify-between shadow-2xs">
+                <div>
+                  <div class="flex items-center justify-between pb-1.5 border-b border-slate-100">
+                    <span class="text-[10px] font-black uppercase text-slate-400">Stage 4</span>
+                    <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold" style="background-color: ${theme.primary};">22–26 min</span>
+                  </div>
+                  <h5 class="text-xs font-bold text-slate-800 mt-2">Portfolio &amp; TOEIC Audit</h5>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Review personal Vocabulary Log (72 Module 3 aeronautical terms), TOEIC exercise completion, and self-study progress.</p>
+                </div>
+                <div class="mt-2 pt-2 border-t border-slate-100 text-[10px] text-slate-400 font-semibold">Continuous learning check</div>
+              </div>
+
+              <!-- Stage 5 -->
+              <div class="border border-slate-200 rounded-xl p-3 bg-white flex flex-col justify-between shadow-2xs">
+                <div>
+                  <div class="flex items-center justify-between pb-1.5 border-b border-slate-100">
+                    <span class="text-[10px] font-black uppercase text-slate-400">Stage 5</span>
+                    <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold" style="background-color: ${theme.primary};">26–30 min</span>
+                  </div>
+                  <h5 class="text-xs font-bold text-slate-800 mt-2">Diagnostic Feedback</h5>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Immediate teacher feedback on pronunciation, technical vocabulary, fluency, and provisional grade out of 20.</p>
+                </div>
+                <div class="mt-2 pt-2 border-t border-slate-100 text-[10px] text-slate-400 font-semibold">Score &amp; Semester Wrap-Up</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Current Event Domain Options -->
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full" style="background-color: ${theme.accent};"></span>
+                <h4 class="text-xs sm:text-sm font-bold text-slate-800 uppercase tracking-wide">
+                  FE3 Case Study Domain Options
+                </h4>
+              </div>
+              <span class="text-[11px] text-slate-400">Select 1 Current Event Domain</span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5">
+              <div class="border border-slate-200 rounded-xl p-4 bg-white shadow-xs">
+                <span class="px-2.5 py-0.5 rounded-full text-white text-[10px] font-bold tracking-wide" style="background-color: ${theme.primary};">DOMAIN 1</span>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800 mt-2">Severe Weather &amp; Climate Disruptions</h5>
+                <p class="text-[11px] text-slate-600 mt-1.5 leading-relaxed">Analysis of a recent major severe weather event: extreme clear-air turbulence encounter causing cabin injuries, severe winter freezing fog grounding hub operations, or volcanic ash airspace closures.</p>
+              </div>
+
+              <div class="border border-slate-200 rounded-xl p-4 bg-white shadow-xs">
+                <span class="px-2.5 py-0.5 rounded-full text-white text-[10px] font-bold tracking-wide" style="background-color: ${theme.primary};">DOMAIN 2</span>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800 mt-2">In-Flight Medical Emergencies &amp; Human Factors</h5>
+                <p class="text-[11px] text-slate-600 mt-1.5 leading-relaxed">Analysis of an in-flight medical diversion (cardiac arrest, hypoxia incident, severe cabin decompression, or acute mental health crisis) and crew CRM / ground telemedicine response.</p>
+              </div>
+
+              <div class="border border-slate-200 rounded-xl p-4 bg-white shadow-xs">
+                <span class="px-2.5 py-0.5 rounded-full text-white text-[10px] font-bold tracking-wide" style="background-color: ${theme.primary};">DOMAIN 3</span>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800 mt-2">Airport Security Breaches &amp; Airworthiness Directives</h5>
+                <p class="text-[11px] text-slate-600 mt-1.5 leading-relaxed">Analysis of a perimeter breach / contraband detection incident, biometric screening controversy, emergency fleet grounding by EASA/FAA, or urgent maintenance safety directive.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4 Core Press Briefing Dimensions -->
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full" style="background-color: ${theme.accent};"></span>
+                <h4 class="text-xs sm:text-sm font-bold text-slate-800 uppercase tracking-wide">
+                  The 4 Mandatory Press Briefing Dimensions
+                </h4>
+              </div>
+              <span class="text-[11px] text-slate-400">Required for All Domains</span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+              <div class="border border-slate-200 rounded-xl p-4 bg-white shadow-xs">
+                <div class="flex items-center justify-between mb-2">
+                  <span class="px-2.5 py-0.5 rounded-full text-white text-[10px] font-bold tracking-wide" style="background-color: ${theme.primary};">DIMENSION 1</span>
+                  <span class="text-[10px] font-bold text-teal-700 bg-teal-50 px-2 py-0.5 rounded border border-teal-200">Situation Overview</span>
+                </div>
+                <h5 class="text-sm font-bold text-slate-800">Initial Incident Facts &amp; Context</h5>
+                <ul class="text-xs text-slate-600 space-y-1 mt-2 list-disc pl-4">
+                  <li><strong>Core Facts:</strong> Airline, flight number, route, aircraft type, altitude, and timestamp.</li>
+                  <li><strong>Situation Statement:</strong> Clear, measured public announcement without sensationalism or premature blame.</li>
+                  <li><strong>Initial Impact:</strong> Passenger status, diversion location, and aerodrome operational status.</li>
+                </ul>
+              </div>
+
+              <div class="border border-slate-200 rounded-xl p-4 bg-white shadow-xs">
+                <div class="flex items-center justify-between mb-2">
+                  <span class="px-2.5 py-0.5 rounded-full text-white text-[10px] font-bold tracking-wide" style="background-color: ${theme.primary};">DIMENSION 2</span>
+                  <span class="text-[10px] font-bold text-teal-700 bg-teal-50 px-2 py-0.5 rounded border border-teal-200">Causal Analysis</span>
+                </div>
+                <h5 class="text-sm font-bold text-slate-800">Technical &amp; Human Factors Root Causes</h5>
+                <ul class="text-xs text-slate-600 space-y-1 mt-2 list-disc pl-4">
+                  <li><strong>Technical / Environmental:</strong> Microburst physics, icing accumulation, component failure, or breach point.</li>
+                  <li><strong>Human Factors:</strong> Pilot/controller workload, fatigue, sensory illusions, or communication clarity.</li>
+                  <li><strong>Jurisdiction:</strong> Explicit distinction between Safety (Annex 19) and Security (Annex 17) implications.</li>
+                </ul>
+              </div>
+
+              <div class="border border-slate-200 rounded-xl p-4 bg-white shadow-xs">
+                <div class="flex items-center justify-between mb-2">
+                  <span class="px-2.5 py-0.5 rounded-full text-white text-[10px] font-bold tracking-wide" style="background-color: ${theme.primary};">DIMENSION 3</span>
+                  <span class="text-[10px] font-bold text-teal-700 bg-teal-50 px-2 py-0.5 rounded border border-teal-200">Immediate Response</span>
+                </div>
+                <h5 class="text-sm font-bold text-slate-800">Operational &amp; Crisis Management Execution</h5>
+                <ul class="text-xs text-slate-600 space-y-1 mt-2 list-disc pl-4">
+                  <li><strong>Flight Crew Actions:</strong> Immediate memory items, emergency checklist discipline, and PAN-PAN/MAYDAY calls.</li>
+                  <li><strong>Ground Agency Coordination:</strong> ATC priority, ARFF emergency services, and MedLink / hospital triage.</li>
+                  <li><strong>Passenger Care:</strong> Repatriation, medical care, and transparent passenger communications.</li>
+                </ul>
+              </div>
+
+              <div class="border border-slate-200 rounded-xl p-4 bg-white shadow-xs">
+                <div class="flex items-center justify-between mb-2">
+                  <span class="px-2.5 py-0.5 rounded-full text-white text-[10px] font-bold tracking-wide" style="background-color: ${theme.primary};">DIMENSION 4</span>
+                  <span class="text-[10px] font-bold text-teal-700 bg-teal-50 px-2 py-0.5 rounded border border-teal-200">Corrective Measures</span>
+                </div>
+                <h5 class="text-sm font-bold text-slate-800">Long-term Corrective Actions &amp; Regulation</h5>
+                <ul class="text-xs text-slate-600 space-y-1 mt-2 list-disc pl-4">
+                  <li><strong>Safety Investigation:</strong> Cooperation with BEA, NTSB, or EASA technical investigation boards.</li>
+                  <li><strong>Fleet &amp; Procedure Fixes:</strong> Urgent airworthiness directives, mandatory maintenance checks, and simulator drills.</li>
+                  <li><strong>Just Culture Commitment:</strong> Reaffirmation of non-punitive voluntary reporting and safety culture resilience.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Presentation Rules & Media Poise -->
+          <div class="space-y-3">
+            <div class="flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full" style="background-color: ${theme.accent};"></span>
+              <h4 class="text-xs sm:text-sm font-bold text-slate-800 uppercase tracking-wide">
+                Presentation Rules &amp; Media Poise
+              </h4>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+              <div class="p-3 bg-emerald-50/50 border border-emerald-200 rounded-xl text-slate-700">
+                <strong class="text-emerald-800 block mb-1">&check; DO:</strong>
+                Use 4–6 professional slides with bullet cue points, incident maps, technical diagrams, and key data cards. Maintain direct eye contact with the press gallery!
+              </div>
+              <div class="p-3 bg-rose-50/50 border border-rose-200 rounded-xl text-slate-700">
+                <strong class="text-rose-800 block mb-1">&cross; DO NOT:</strong>
+                Never put full paragraphs on slides, and never read aloud from notes or phone screens. Reading directly destroys fluency and is heavily penalized.
+              </div>
+            </div>
+          </div>
+        </div>
+        `;
+        return;
       }
 
       if (!isAas && modNum === 3) {
@@ -1536,6 +1758,81 @@
           </div>
         </div>
         `;
+      if (isAas && modNum === 3) {
+        bodyEl.innerHTML = `
+        <div class="space-y-6">
+          <!-- Overview Card -->
+          <div class="bg-gradient-to-r from-slate-50 to-teal-50/40 border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs">
+            <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Target Competencies • B2/C1 CEFR Level</span>
+            <h3 class="text-base sm:text-lg font-bold text-slate-800 mt-1">Formative Evaluation 3 Objectives (Aviation Current Events)</h3>
+            <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
+              Demonstrate collaborative spoken media briefing delivery, spontaneous defense during investigative teacher cross-examination, active deployment of specialized aviation safety, security, meteorology, and human factors lexis from Sessions 1–4, and autonomous portfolio habits.
+            </p>
+          </div>
+
+          <!-- 5 Core Objectives -->
+          <div class="space-y-3">
+            <div class="flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full" style="background-color: ${theme.accent};"></span>
+              <h4 class="text-xs sm:text-sm font-bold text-slate-800 uppercase tracking-wide">
+                5 Core Learning Objectives
+              </h4>
+            </div>
+
+            <div class="space-y-2.5">
+              <div class="flex items-start gap-3 p-3.5 bg-white border border-slate-200 rounded-xl shadow-xs">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shrink-0 shadow-xs" style="background-color: ${theme.primary};">01</span>
+                <div>
+                  <h5 class="text-xs sm:text-sm font-bold text-slate-800">Deliver a Structured Press Briefing</h5>
+                  <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
+                    Present a professional 10–12 minute media situation briefing analyzing a major aviation current event across its 4 phases (Facts, Causal Analysis, Operational Measures, Regulatory Follow-up). Share talking time equally (~5–6 mins each) without reading written paragraphs.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3 p-3.5 bg-white border border-slate-200 rounded-xl shadow-xs">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shrink-0 shadow-xs" style="background-color: ${theme.primary};">02</span>
+                <div>
+                  <h5 class="text-xs sm:text-sm font-bold text-slate-800">Engage in Spontaneous Press Conference Defense (Teacher Q&amp;A)</h5>
+                  <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
+                    Answer spontaneous questions from the teacher acting as investigative journalists. Justify airline and authority decisions, defend technical trade-offs, and handle uncertainty with professional poise.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3 p-3.5 bg-white border border-slate-200 rounded-xl shadow-xs">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shrink-0 shadow-xs" style="background-color: ${theme.primary};">03</span>
+                <div>
+                  <h5 class="text-xs sm:text-sm font-bold text-slate-800">Activate Specialized Platform Vocabulary</h5>
+                  <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
+                    Naturally integrate at least <strong>6 to 8 specialized technical terms</strong> from Module 3 (e.g. <em>PAN-PAN MEDICO, microburst, windshear, clear air turbulence, ICAO Annex 17 vs. 19, walkaround safety checks, Minimum Equipment List</em>) with accurate syllable stress.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3 p-3.5 bg-white border border-slate-200 rounded-xl shadow-xs">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shrink-0 shadow-xs" style="background-color: ${theme.primary};">04</span>
+                <div>
+                  <h5 class="text-xs sm:text-sm font-bold text-slate-800">Demonstrate Grammatical Precision &amp; Syntactic Range</h5>
+                  <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
+                    Accurately deploy narrative sequencers, passive voice in incident reports, modal verbs of deduction, conditional cause-and-effect clauses, and formal diplomatic hedging.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3 p-3.5 bg-white border border-slate-200 rounded-xl shadow-xs">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shrink-0 shadow-xs" style="background-color: ${theme.primary};">05</span>
+                <div>
+                  <h5 class="text-xs sm:text-sm font-bold text-slate-800">Exhibit Autonomous Portfolio Habits &amp; Constructive Self-Critique</h5>
+                  <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
+                    Present an updated personal vocabulary log with recorded Module 3 lexis. Arrive prepared to discuss personal strengths and two concrete action targets for Semester 2. <em>(Note: TOEIC practice is maintained independently on the AAS portal and is not graded in this evaluation).</em>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        `;
         return;
       }
 
@@ -1858,6 +2155,94 @@
             <div class="p-3 bg-blue-50 border border-blue-200 rounded-xl">
               <strong class="text-blue-800 block font-bold mb-1">Solid B2 (14–17 pts)</strong>
               <p class="text-slate-600">Clear presentation; good course vocabulary; good grammar control with minor slips; balanced teamwork; portfolio maintained.</p>
+            </div>
+            <div class="p-3 bg-amber-50 border border-amber-200 rounded-xl">
+              <strong class="text-amber-800 block font-bold mb-1">Developing (10–13 pts)</strong>
+              <p class="text-slate-600">Frequent pauses, limited lexis, recurring grammar slips, uneven partner balance, incomplete vocabulary portfolio.</p>
+            </div>
+            <div class="p-3 bg-rose-50 border border-rose-200 rounded-xl">
+              <strong class="text-rose-800 block font-bold mb-1">Needs Imp. (&lt;10 pts)</strong>
+              <p class="text-slate-600">Reads presentation directly, severe communication barriers, one partner silent, missing vocabulary log.</p>
+            </div>
+          </div>
+      if (isAas && modNum === 3) {
+        bodyEl.innerHTML = `
+        <div class="space-y-6">
+          <!-- Overview Card -->
+          <div class="bg-gradient-to-r from-slate-50 to-teal-50/40 border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Official Rubric • Aeronautical English</span>
+              <span class="text-xs font-bold px-2.5 py-0.5 rounded-md text-white font-mono shadow-xs" style="background-color: ${theme.primary};">
+                Total: 20 Points • Continuous Assessment
+              </span>
+            </div>
+            <h3 class="text-base sm:text-lg font-bold text-slate-800">
+              Formative Evaluation 3 Marking Criteria (Aviation Current Events Task)
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
+              Assessment is criteria-referenced across 6 core technical communication and autonomous study competencies. Your total score out of 20 contributes directly to your official semester grade.
+            </p>
+          </div>
+
+          <!-- Rubric Table -->
+          <div class="overflow-x-auto rounded-xl border border-slate-200 shadow-2xs">
+            <table class="w-full text-left border-collapse text-xs">
+              <thead>
+                <tr class="bg-slate-100 text-slate-700 border-b border-slate-200">
+                  <th class="p-3 font-bold w-1/3">Criterion</th>
+                  <th class="p-3 font-bold w-16 text-center">Pts</th>
+                  <th class="p-3 font-bold">Examiner Expectations (B2/C1 CEFR • Aeronautical English)</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-100 bg-white">
+                <tr class="hover:bg-slate-50/60">
+                  <td class="p-3 font-bold text-slate-800">1. Spoken Fluency &amp; Pronunciation</td>
+                  <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
+                  <td class="p-3 text-slate-600">Natural delivery flow without artificial reading pauses. Accurate syllable stress on technical terms (<em>cu-mu-lo-NIM-bus, de-FI-bri-lla-tor, clau-stro-PHO-bi-a, re-DUN-dan-cy</em>). <strong>Strictly no reading from notes or slides!</strong></td>
+                </tr>
+                <tr class="hover:bg-slate-50/60">
+                  <td class="p-3 font-bold text-slate-800">2. Technical &amp; Operational Lexis</td>
+                  <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
+                  <td class="p-3 text-slate-600">Active, accurate deployment of at least <strong>6 to 8 specialized technical terms</strong> from Module 3 (medical triage, severe meteorology, ICAO Annex 17 vs. 19, walkaround checks, MEL).</td>
+                </tr>
+                <tr class="hover:bg-slate-50/60">
+                  <td class="p-3 font-bold text-slate-800">3. Press Briefing Structure &amp; Media Poise</td>
+                  <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
+                  <td class="p-3 text-slate-600">Logical progression through the 4 media briefing phases (Facts, Root Causes, Operational Response, Regulatory Follow-up). High visual clarity on slides and executive spokesperson composure.</td>
+                </tr>
+                <tr class="hover:bg-slate-50/60">
+                  <td class="p-3 font-bold text-slate-800">4. Spontaneous Q&amp;A Defense</td>
+                  <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
+                  <td class="p-3 text-slate-600">Agile, confident answers during teacher cross-examination. Defends decisions factually, acknowledges investigative boundaries appropriately, and avoids speculation.</td>
+                </tr>
+                <tr class="hover:bg-slate-50/60">
+                  <td class="p-3 font-bold text-slate-800">5. Teamwork &amp; Pair Balance</td>
+                  <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">2</td>
+                  <td class="p-3 text-slate-600">Equal 50/50 balance between partners (~5–6 mins each), smooth handovers, and active collaboration during the media Q&amp;A phase.</td>
+                </tr>
+                <tr class="hover:bg-slate-50/60">
+                  <td class="p-3 font-bold text-slate-800">6. Portfolio &amp; Self-Critique</td>
+                  <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">2</td>
+                  <td class="p-3 text-slate-600">Updated personal vocabulary log with Module 3 terms, and mature self-critique identifying personal strong points and Semester 2 action targets. <em>(Note: TOEIC testing does not factor into this grade).</em></td>
+                </tr>
+                <tr class="bg-slate-50 font-bold border-t-2 border-slate-300">
+                  <td class="p-3 uppercase">Total Score</td>
+                  <td class="p-3 text-center font-mono text-white rounded" style="background-color: ${theme.accent};">20</td>
+                  <td class="p-3 text-slate-700">Contributes directly to your official Semester 1 Formative Evaluation grade.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Performance Bands -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 text-xs">
+            <div class="p-3 bg-emerald-50 border border-emerald-200 rounded-xl">
+              <strong class="text-emerald-800 block font-bold mb-1">Exemplary (18–20 pts)</strong>
+              <p class="text-slate-600">Fluent, spontaneous media delivery; precise technical aerospace lexis; high grammatical accuracy; 50/50 teamwork; portfolio fully updated.</p>
+            </div>
+            <div class="p-3 bg-blue-50 border border-blue-200 rounded-xl">
+              <strong class="text-blue-800 block font-bold mb-1">Solid B2 (14–17 pts)</strong>
+              <p class="text-slate-600">Clear briefing; good course vocabulary; good grammar control with minor slips; balanced teamwork; portfolio maintained.</p>
             </div>
             <div class="p-3 bg-amber-50 border border-amber-200 rounded-xl">
               <strong class="text-amber-800 block font-bold mb-1">Developing (10–13 pts)</strong>

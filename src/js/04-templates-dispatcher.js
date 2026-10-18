@@ -123,6 +123,19 @@
         return;
       }
 
+      if (modalState.modNum === 3) {
+        if (modalState.sessionNum === 1) {
+          renderAas3LessonContentTabSession1(sessionData, theme);
+        } else if (modalState.sessionNum === 2) {
+          renderAas3LessonContentTabSession2(sessionData, theme);
+        } else if (modalState.sessionNum === 3) {
+          renderAas3LessonContentTabSession3(sessionData, theme);
+        } else if (modalState.sessionNum === 4) {
+          renderAas3LessonContentTabSession4(sessionData, theme);
+        }
+        return;
+      }
+
       if (modalState.sessionNum === 1) {
         renderLessonContentTabSession1(sessionData, theme);
       } else if (modalState.sessionNum === 2) {
