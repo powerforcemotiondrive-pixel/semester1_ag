@@ -177,35 +177,35 @@
           "summary": "A structured 2-hour introductory agenda incorporating professional icebreakers, comprehensive TOEIC diagnostics and pacing strategies, travel and DDRS vocabulary building, structured narrative discussions, and formative evaluation guidelines.",
           "items": [
             {
-              "time": "0-15",
-              "title": "Part 1: Icebreaker Activity \u2014 Two Truths & One Goal (15 mins)",
-              "description": "Students write down two professional/life facts and one personal English/TOEIC goal, then share in pairs to build rapport and articulate semester objectives."
-            },
-            {
-              "time": "15-45",
-              "title": "Part 2: TOEIC Diagnostic & Exam Strategy (30 mins)",
-              "description": "Full breakdown of the 200-question Listening & Reading exam, scaled scoring (10\u2013990), common pitfalls (sound-alikes, literal translation), and time management benchmarks (Parts 5 & 6 in 20\u201322 mins; 10-second rule for listening)."
-            },
-            {
-              "time": "45-65",
-              "title": "Part 3: Warm-Up & Vocabulary Builder (20 mins)",
-              "description": "Introduction to high-frequency travel collocations (book a flight, clear customs, miss a connection), 10 common travel idioms (hit the road, in the driver's seat), and core DDRS terms (carbon footprint, eco-certification, circular hospitality)."
-            },
-            {
-              "time": "65-95",
-              "title": "Part 4: Structured Discussion \u2014 Travel Anecdotes (30 mins)",
-              "description": "In pairs or small groups of 3, students share a memorable travel experience or disruption using newly learned travel vocabulary and narrative past tenses."
-            },
-            {
-              "time": "95-115",
-              "title": "Part 5: Grammar Focus \u2014 Narrative Tenses & Emphasis (20 mins)",
-              "description": "Review Past Simple vs. Past Continuous, followed by emphasis patterns to tell engaging travel stories (Hardly had I arrived when..., No sooner had we cleared customs than...)."
-            },
-            {
-              "time": "115-120",
-              "title": "Part 6: Class Wrap-Up & Next Steps (5 mins)",
-              "description": "Review how today's skills connect to your Session 5 Formative Evaluation and note down personal study priorities."
-            }
+              "time": "0-10",
+              "title": "Part 1: Travel News & Course Entry Diagnostic (10 mins)",
+              "description": "Discussing current travel headlines and checking foundational travel distinctions (layover vs. stopover, baggage allowance, direct flights) with partner recall."
+                      },
+                      {
+              "time": "10-35",
+              "title": "Part 2: TOEIC Diagnostic & Exam Strategy Workshop (25 mins)",
+              "description": "Breakdown of the 200-question Listening & Reading exam, scaled scoring (10–990), time management pacing benchmarks (Parts 5 & 6 in 20–22 mins; 10-second listening rule)."
+                      },
+                      {
+              "time": "35-55",
+              "title": "Part 3: Essential Travel Collocations & Idioms (20 mins)",
+              "description": "Mastering high-frequency B2 collocations (book in advance, clear customs, miss a connection) and common idioms (off the beaten track, hit the road, in the driver's seat)."
+                      },
+                      {
+              "time": "55-80",
+              "title": "Part 4: Grammar Clinic — Narrative Tenses & Storytelling Inversions (25 mins)",
+              "description": "Combining Past Simple and Past Continuous for setting scenes, and using high-impact inversions (Hardly had I... when... / No sooner had we... than...) for dramatic storytelling."
+                      },
+                      {
+              "time": "80-110",
+              "title": "Part 5: Travel Disruptions Role-Play & DDRS Sustainable Mobility (30 mins)",
+              "description": "De-escalating flight delays and missed connections in pairs, followed by analyzing carbon footprints across European travel modes (rail vs. air)."
+                      },
+                      {
+              "time": "110-120",
+              "title": "Part 6: 10-Minute Vocabulary Wrap-Up & Exit Ticket (10 mins)",
+              "description": "Consolidation of the 18 introductory terms with audio pronunciation drill, word stress practice, and personal study log reflection."
+                      }
           ]
         },
         "revision": {
@@ -558,6 +558,268 @@
               "strategy": "Actions completed within a finished past period (last week, during the conference) require the simple past, not the present perfect."
             }
           ]
+        },
+        "lessonContent": {
+                  "overview": {
+                            "image": "images/ag_m1card1.png",
+                            "title": "Introduction & Travel Anecdotes",
+                            "subtitle": "Travel Stories, Flight Disruptions & Sustainable Mobility",
+                            "badge": "Session Overview • Travel & Transport"
+                  },
+                  "hero": {
+                            "image": "images/ag_m1card1.png",
+                            "title": "Introduction & Travel Anecdotes",
+                            "subtitle": "Travel Stories, Flight Disruptions & Sustainable Mobility",
+                            "badge": "Session Overview • Travel & Transport"
+                  },
+                  "openingSession": {
+                            "title": "Activity 1: Travel News & Course Entry Diagnostic (10 mins)",
+                            "summary": "Every class begins with a 10-minute opening: discussing current travel headlines and checking our understanding of foundational travel terms.",
+                            "newsPrompts": [
+                    "What recent travel, transport, or tourism stories have you noticed in the headlines this week?",
+                    "How are high-speed rail lines and airlines competing for travelers on popular European routes?"
+                            ],
+                            "diagnostic": {
+                    "title": "Course Entry Diagnostic: Travel Vocabulary Check",
+                    "instructions": "Discuss each distinction in pairs, then click 'Reveal Answer' to verify your reasoning.",
+                    "questions": [
+            {
+                      "id": 1,
+                      "q": "What is the practical difference between a Layover and a Stopover?",
+                      "answer": "A layover is a brief stop between connecting flights (usually under 24 hours for international flights). A stopover is a planned, longer stay of 24 hours or more in the transit city before continuing to your final destination."
+            },
+            {
+                      "id": 2,
+                      "q": "What distinguishes a Direct Flight from a Non-Stop Flight?",
+                      "answer": "A non-stop flight flies from your departure airport to your destination without landing anywhere in between. A direct flight keeps the same flight number and aircraft, but may make a brief intermediate stop to refuel or pick up passengers."
+            },
+            {
+                      "id": 3,
+                      "q": "What is the difference between Baggage Allowance and Excess Baggage?",
+                      "answer": "Baggage allowance is the specific weight and dimensions of checked and carry-on luggage included free with your ticket. Excess baggage refers to any bags exceeding those limits, requiring extra fees at check-in."
+            },
+            {
+                      "id": 4,
+                      "q": "What is the difference between Peak Season and Off-Peak (Low) Season?",
+                      "answer": "Peak season is the time of year when tourist demand is highest (summer holidays, festivals), bringing crowded destinations and high prices. Off-peak season offers lower prices, fewer crowds, and quieter travel conditions."
+            }
+                    ]
+                            }
+                  },
+                  "survey": {
+                            "title": "Activity 2: Global Travel Dilemmas: Speed Discussion (25 mins)",
+                            "summary": "Conduct structured speed-dating interviews on 4 prominent travel dilemmas. Practice expressing clear agreement or disagreement, providing concrete reasons, and using polite conversation signposts.",
+                            "signposts": [
+                    "\"In my view, travelers should definitely...\"",
+                    "\"While I understand the cost advantage, I believe that...\"",
+                    "\"We need to balance passenger comfort with environmental responsibility.\"",
+                    "\"From my personal travel experience, ...\""
+                            ],
+                            "topics": [
+                    {
+            "id": 1,
+            "badge": "Short Flights vs. High-Speed Rail",
+            "statement": "Should governments ban domestic flights when a direct train journey takes under 2.5 hours?",
+            "pro": "Trains emit up to 85% less carbon per passenger than airplanes, arrive directly in city centers, and do not require long security lines.",
+            "con": "Regional airports and airlines rely on domestic feeder flights to connect passengers to long-haul international flights.",
+            "prompt": "Interview your partner: Do you support banning short domestic flights? How could rail connections be improved?"
+                    },
+                    {
+            "id": 2,
+            "badge": "Hand Luggage Fees & Low-Cost Flights",
+            "statement": "Should budget airlines be banned from charging extra fees for standard cabin wheelie bags in the overhead lockers?",
+            "pro": "Including a carry-on bag is an essential passenger right; hidden fees mislead travelers and create frustration at the boarding gate.",
+            "con": "Unbundled pricing allows travelers who pack light to pay lower base fares and speeds up cabin boarding times.",
+            "prompt": "Interview your partner: How do baggage fees affect your travel budget and packing habits?"
+                    },
+                    {
+            "id": 3,
+            "badge": "Digital Passports & Biometrics",
+            "statement": "Should airports replace paper passports and boarding passes with mandatory facial recognition scanning?",
+            "pro": "Biometric e-gates reduce queues, eliminate boarding pass checks, and speed up airport departures significantly.",
+            "con": "Collecting biometric facial data creates privacy concerns, potential data breaches, and algorithmic errors.",
+            "prompt": "Interview your partner: Would you prefer faster airport queues if it required sharing your facial scan?"
+                    },
+                    {
+            "id": 4,
+            "badge": "Overtourism & Daily Visitor Fees",
+            "statement": "Should world-famous tourist cities (like Venice or Amsterdam) charge all day-trippers an entry fee to enter the historic center?",
+            "pro": "Entry fees generate funds to maintain historic streets, clean public spaces, and discourage disruptive day-trip crowds.",
+            "con": "Charging an entry fee turns public historical cities into theme parks and makes city culture less accessible for low-income visitors.",
+            "prompt": "Interview your partner: Is a daily tourist tax effective, or does it simply favor wealthy travelers?"
+                    }
+                            ]
+                  },
+                  "collocationsClinic": {
+                            "title": "Activity 3: Language Clinic: Essential Travel Collocations & Idioms (20 mins)",
+                            "summary": "Master high-frequency B2 collocations and common idioms used in travel, tourism, and everyday transport contexts.",
+                            "items": [
+                    {
+            "term": "Book in advance",
+            "type": "Collocation",
+            "meaning": "To reserve a flight, train seat, or hotel room before your travel date to secure availability and lower prices.",
+            "example": "To get the best rail fares across France, travelers should always <strong>book in advance</strong>."
+                    },
+                    {
+            "term": "Clear customs",
+            "type": "Collocation",
+            "meaning": "To pass through official government inspection checks when entering another country.",
+            "example": "It took only fifteen minutes to <strong>clear customs</strong> at the new international terminal."
+                    },
+                    {
+            "term": "Miss a connection",
+            "type": "Collocation",
+            "meaning": "To arrive too late for a scheduled connecting train, bus, or flight because of a previous delay.",
+            "example": "Because our first flight was delayed by fog, we <strong>missed our connection</strong> in Munich."
+                    },
+                    {
+            "term": "Off the beaten track",
+            "type": "Idiom",
+            "meaning": "Visiting quiet, unusual, or isolated places far away from crowded tourist hotspots.",
+            "example": "We preferred hiking <strong>off the beaten track</strong> in the Pyrenees rather than visiting crowded beach resorts."
+                    },
+                    {
+            "term": "Hit the road",
+            "type": "Idiom",
+            "meaning": "To start a journey or leave on a trip.",
+            "example": "We packed the car early in the morning so we could <strong>hit the road</strong> before the highway traffic built up."
+                    },
+                    {
+            "term": "In the driver's seat",
+            "type": "Idiom",
+            "meaning": "In full control of a situation, project, or travel plan.",
+            "example": "With online booking apps, independent travelers are completely <strong>in the driver's seat</strong>."
+                    }
+                            ],
+                            "challenge": {
+                    "title": "Travel Collocations Challenge: Choose the Right Phrase",
+                    "instructions": "Select the correct phrase to complete each sentence, then check the explanation.",
+                    "questions": [
+            {
+                      "id": 1,
+                      "sentence": "If your first train arrives late in Paris, you might ________ your TGV connection to Bordeaux.",
+                      "options": [
+                                "A) lose a connection",
+                                "B) miss a connection",
+                                "C) fail a connection"
+                      ],
+                      "correct": "B) miss a connection",
+                      "explanation": "The standard English collocation for arriving too late for transport is 'miss a connection' (not 'lose' or 'fail')."
+            },
+            {
+                      "id": 2,
+                      "sentence": "Instead of staying at an all-inclusive beach resort, they rented a cabin ________ in the countryside.",
+                      "options": [
+                                "A) off the beaten track",
+                                "B) out of the main street",
+                                "C) away from the tracks"
+                      ],
+                      "correct": "A) off the beaten track",
+                      "explanation": "'Off the beaten track' is the classic idiom for secluded, uncrowded destinations."
+            },
+            {
+                      "id": 3,
+                      "sentence": "International travelers carrying commercial merchandise are required to ________ before exiting the terminal.",
+                      "options": [
+                                "A) declare customs",
+                                "B) clear customs",
+                                "C) verify customs"
+                      ],
+                      "correct": "B) clear customs",
+                      "explanation": "The official collocation is 'clear customs' (pass through the border control and customs checkpoint)."
+            }
+                    ]
+                            }
+                  },
+                  "grammarClinic": {
+                            "title": "Activity 4: Grammar Clinic: Narrative Tenses & Storytelling Inversions (25 mins)",
+                            "summary": "Use Past Simple and Past Continuous together to set scenes and describe sudden events. Then use inversion structures to tell dramatic travel stories.",
+                            "rules": [
+                    {
+            "title": "1. Setting the Scene (Past Continuous + Past Simple)",
+            "formula": "While / As + Past Continuous (background action), Past Simple (interrupting event)",
+            "example": "While we <strong>were waiting</strong> at the departure gate, the ground staff <strong>announced</strong> a gate change."
+                    },
+                    {
+            "title": "2. High-Impact Inversion: 'Hardly had... when...'",
+            "formula": "Hardly + had + Subject + V3 (Past Participle) + when + Past Simple",
+            "example": "<strong>Hardly had we stepped</strong> off the train <strong>when</strong> heavy rain began to fall."
+                    },
+                    {
+            "title": "3. High-Impact Inversion: 'No sooner had... than...'",
+            "formula": "No sooner + had + Subject + V3 (Past Participle) + than + Past Simple",
+            "example": "<strong>No sooner had I cleared</strong> security <strong>than</strong> I realized I had left my passport at the café."
+                    }
+                            ],
+                            "practice": [
+                    {
+            "id": 1,
+            "prompt": "Rewrite this sentence with inversion: 'As soon as we arrived at the hotel, the power went out.'",
+            "answer": "Hardly had we arrived at the hotel when the power went out. / No sooner had we arrived at the hotel than the power went out."
+                    },
+                    {
+            "id": 2,
+            "prompt": "Rewrite this sentence with inversion: 'I had just sat down in my seat when the captain made an announcement.'",
+            "answer": "No sooner had I sat down in my seat than the captain made an announcement."
+                    }
+                            ]
+                  },
+                  "rolePlay": {
+                            "title": "Activity 5: Role-Play Simulation: Flight Delay & Missing a Connection (30 mins)",
+                            "summary": "Practice de-escalating customer frustration and explaining options calmly during a travel disruption.",
+                            "scenario": "Flight LH2214 from Toulouse to Munich is delayed by 2.5 hours because of bad weather and technical checks. Several passengers have tight onward connections to Tokyo and Chicago.",
+                            "roles": [
+                    {
+            "role": "Role A: Airport Passenger Service Agent",
+            "instructions": "Be polite, patient, and professional. Explain the delay honestly. Offer meal vouchers, rebooking on the next flight, and hotel accommodation if necessary. Clarify that safety comes first.",
+            "usefulPhrases": [
+                      "\"I completely understand your frustration, and I am here to help you.\"",
+                      "\"Our team is already looking at rebooking options for your connecting flight.\"",
+                      "\"Here is a refreshment voucher while we confirm your new departure gate.\"",
+                      "\"Safety is our absolute priority, which is why the maintenance check was necessary.\""
+            ]
+                    },
+                    {
+            "role": "Role B: Stressed International Passenger",
+            "instructions": "You have an important business meeting or family event tomorrow morning. You are worried about missing your connection. Ask specific questions about your luggage, hotel, and alternative flights.",
+            "usefulPhrases": [
+                      "\"My connection in Munich is only 50 minutes; will I still make my flight?\"",
+                      "\"What happens to my checked luggage if I have to switch airlines?\"",
+                      "\"Are you providing hotel accommodation if the next flight is tomorrow morning?\"",
+                      "\"Can you rebook me on an alternative route through Zurich or Paris?\""
+            ]
+                    }
+                            ],
+                            "task": "Work with your partner for 4 minutes per role, then switch roles. Focus on polite phrases, clear explanations, and active listening."
+                  },
+                  "closingReview": {
+                            "title": "Activity 6: 10-Minute Vocabulary Wrap-Up & Exit Ticket (10 mins)",
+                            "summary": "Consolidate today's learning: review the pronunciation of all 18 key terms, check your word stress, and write one reflection in your study log.",
+                            "vocabWords": [
+                    "Itinerary",
+                    "Layover",
+                    "Catch the Travel Bug",
+                    "Baggage Allowance",
+                    "Off the Beaten Track",
+                    "Round-Trip",
+                    "Hit the Road",
+                    "Miss a Connection",
+                    "All-Inclusive",
+                    "Extend a Stay",
+                    "In the Driver's Seat",
+                    "Customs Declaration",
+                    "Boarding Pass",
+                    "Direct Flight",
+                    "Peak Season",
+                    "Red-Eye Flight",
+                    "Eco-Tourism",
+                    "Carbon Footprint"
+                            ],
+                            "reflectionPrompts": [
+                    "Which travel collocation or idiom from today will you use in your next conversation?",
+                    "Write one sentence using narrative inversion ('Hardly had I...' or 'No sooner had we...') about a past trip."
+                            ]
+                  }
         }
       },
       "2": {
@@ -608,40 +870,35 @@
           "summary": "A 2-hour session investigating how travel has evolved, comparing trains and flights along key routes, cause-and-effect grammar, TOEIC reading practice, and vocabulary fluency games.",
           "items": [
             {
-              "time": "0-15",
-              "title": "Part 1: Warm-Up & Rapid Retrieval \u2014 The Timeline Clash (15 mins)",
-              "description": "In pairs, students analyze 4 historical transport phases (1830s steam railways, 1950s post-war jet/car boom, 1980s containerization, Present\u20132030+ electrification and SAF) to weigh economic gains against environmental costs."
-            },
-            {
-              "time": "15-40",
-              "title": "Part 2: Media & Critical Analysis \u2014 The Multi-Modal Pitch (25 mins)",
-              "description": "Analyzing the European Commission's High-Speed Rail plan. Teams pitch trains vs. flights using travel time, total carbon footprint, and fair transport access for all regions."
-            },
-            {
-              "time": "40-60",
-              "title": "Part 3: Grammar in Context \u2014 Cause, Effect & Complex Comparison (20 mins)",
-              "description": "Replacing basic linkers with formal cause/result prepositions (owing to, as a consequence of, resulted in) and double comparatives (The more efficiently... the less...)."
-            },
-            {
+              "time": "0-10",
+              "title": "Part 1: Green Transport News & Session 1 Review (10 mins)",
+              "description": "Discussing recent green transport headlines and checking memory of Session 1 travel vocabulary (itinerary, layover, off the beaten track, carbon footprint)."
+                      },
+                      {
+              "time": "10-35",
+              "title": "Part 2: The Timeline Clash — 4 Epochs of Transport (25 mins)",
+              "description": "Analyzing 4 historical transport phases (1830s steam rail, 1950s post-war jet/car boom, 1980s containerization/TGV, 2030+ electrification and SAF) to weigh speed against emissions."
+                      },
+                      {
+              "time": "35-60",
+              "title": "Part 3: The Multi-Modal Corridor Pitch — Rail vs. Air (25 mins)",
+              "description": "Pitching high-speed rail versus regional flights on key European routes (Paris–Barcelona, London–Amsterdam, Toulouse–Paris) using journey time and kg CO₂ metrics."
+                      },
+                      {
               "time": "60-80",
-              "title": "Part 4: TOEIC Workplace Application (20 mins)",
-              "description": "Timed reading practice and transport vocabulary in Parts 5 & 7 (accelerate, owing to, sentence patterns, greenhouse gas emissions)."
-            },
-            {
-              "time": "80-95",
-              "title": "Part 5: DDRS Case Discussion \u2014 The Decarbonisation Dilemma (15 mins)",
-              "description": "\"The ENAC Transit Audit\" \u2014 Auditing corporate travel dilemmas (50-minute domestic flights vs. 3h15 TGV producing 6\u20138x fewer emissions) and formulating spoken policy recommendations."
-            },
-            {
-              "time": "95-110",
-              "title": "Part 6: Vocabulary Speaking Game \u2014 Taboo (15 mins)",
-              "description": "45-second fluency game where students describe key concepts without saying forbidden words: Modal Shift, Carbon Footprint, High-Speed Rail, Lifecycle, and Sustainable Aviation Fuel (SAF)."
-            },
-            {
+              "title": "Part 4: Grammar Clinic — Cause, Effect & Complex Comparisons (20 mins)",
+              "description": "Replacing basic linkers with formal cause/result prepositions (owing to, as a result of, resulted in) and double comparatives (The more convenient... the less...)."
+                      },
+                      {
+              "time": "80-110",
+              "title": "Part 5: DDRS Case Study — The ENAC Campus Mobility Audit (30 mins)",
+              "description": "\"The ENAC Transit Audit\" — Auditing institutional travel dilemmas (flights vs. day TGV vs. night sleeper train) and formulating spoken policy recommendations."
+                      },
+                      {
               "time": "110-120",
-              "title": "Part 7: Class Wrap-Up & Self-Study Plan (10 mins)",
-              "description": "Review key learnings, note grammar to practice for Session 5, and review homework assignments."
-            }
+              "title": "Part 6: 10-Minute Vocabulary Wrap-Up & Taboo Fluency Challenge (10 mins)",
+              "description": "Consolidation of the 18 transport terms with audio pronunciation and 45-second Taboo fluency game without using forbidden words."
+                      }
           ]
         },
         "revision": {
@@ -993,6 +1250,274 @@
               "strategy": "Check both tense clue (next quarter = future) and voice (buses are introduced, they do not introduce themselves)."
             }
           ]
+        },
+        "lessonContent": {
+                  "overview": {
+                            "image": "images/ag_m1card2.png",
+                            "title": "Evolution of Transport & Sustainable Mobility",
+                            "subtitle": "Modal Shift, High-Speed Rail & Lower Carbon Journeys",
+                            "badge": "Session Overview • Transport Evolution & Green Mobility"
+                  },
+                  "hero": {
+                            "image": "images/ag_m1card2.png",
+                            "title": "Evolution of Transport & Sustainable Mobility",
+                            "subtitle": "Modal Shift, High-Speed Rail & Lower Carbon Journeys",
+                            "badge": "Session Overview • Transport Evolution & Green Mobility"
+                  },
+                  "openingSession": {
+                            "title": "Activity 1: Green Transport News & Session 1 Review (10 mins)",
+                            "summary": "10-minute opening: discuss recent headlines on green transport innovations and check your memory of Session 1 travel vocabulary.",
+                            "newsPrompts": [
+                    "What new green transit initiatives (night trains, electric bus fleets, cycling highways) have you heard about recently?",
+                    "How are European countries encouraging travelers to switch from airplanes to trains?"
+                            ],
+                            "diagnostic": {
+                    "title": "Session 1 Lexis Spot-Check: Vocabulary Retrieval",
+                    "instructions": "Discuss each term in pairs, give a clear definition and example sentence, then click 'Reveal Answer' to verify.",
+                    "questions": [
+            {
+                      "id": 1,
+                      "q": "What is an 'Itinerary' and why is it important for travelers?",
+                      "answer": "An itinerary is a detailed planned route or schedule for a journey, listing transport connections, dates, flight or train numbers, and planned activities."
+            },
+            {
+                      "id": 2,
+                      "q": "What does traveling 'Off the Beaten Track' mean?",
+                      "answer": "It means traveling to quiet, uncrowded, or remote destinations far away from standard tourist hotspots, giving travelers a more authentic local experience."
+            },
+            {
+                      "id": 3,
+                      "q": "What is a 'Layover'?",
+                      "answer": "A layover is a scheduled wait between two connecting flights or legs of a journey, typically lasting anywhere from 1 to 23 hours."
+            },
+            {
+                      "id": 4,
+                      "q": "How is a traveler's 'Carbon Footprint' calculated?",
+                      "answer": "It is the total amount of greenhouse gases (especially CO₂) produced directly and indirectly by their travel choices (mode of transport, distance, accommodation, and food)."
+            }
+                    ]
+                            }
+                  },
+                  "timelineClash": {
+                            "title": "Activity 2: The Timeline Clash: 4 Epochs of Transport (25 mins)",
+                            "summary": "Compare 4 key eras of modern transport. Examine how travel speed, comfort, and greenhouse gas emissions have changed over time.",
+                            "epochs": [
+                    {
+            "id": 1,
+            "era": "1830s–1900",
+            "title": "The Steam Railway Revolution",
+            "speed": "30–80 km/h",
+            "emissions": "High local smoke (coal-fired)",
+            "impact": "First mass land transit in history; connected distant towns, created standard time zones, and enabled ordinary citizens to travel long distances affordably."
+                    },
+                    {
+            "id": 2,
+            "era": "1950s–1970s",
+            "title": "The Post-War Jet & Automobile Boom",
+            "speed": "100–900 km/h",
+            "emissions": "High oil dependency & rising CO₂",
+            "impact": "Commercial jet travel (Boeing 707) and personal car ownership transformed society. Long-distance travel became fast, but fossil fuel consumption surged."
+                    },
+                    {
+            "id": 3,
+            "era": "1980s–2010s",
+            "title": "Containerization & High-Speed Rail",
+            "speed": "250–320 km/h (Rail)",
+            "emissions": "Moderate to high (Globalized supply chains)",
+            "impact": "Standardized shipping containers cut trade costs by 90%. High-speed train networks (TGV, ICE, Shinkansen) proved that electric rail could compete directly with domestic aviation."
+                    },
+                    {
+            "id": 4,
+            "era": "Present–2030+",
+            "title": "Electrification, SAF & Modal Shift",
+            "speed": "20–350 km/h",
+            "emissions": "Net-Zero target & renewable power",
+            "impact": "Electric urban fleets, night train renaissance, sustainable aviation fuels (SAF), and digital mobility apps connecting bikes, trains, and electric shuttles into seamless journeys."
+                    }
+                            ],
+                            "discussionQuestions": [
+                    "Which transport epoch brought the greatest improvement to human mobility?",
+                    "Can high-speed rail completely replace short-haul aviation across Europe by 2040?"
+                            ]
+                  },
+                  "corridorPitch": {
+                            "title": "Activity 3: The Multi-Modal Corridor Pitch: Rail vs. Air (25 mins)",
+                            "summary": "In teams, pitch high-speed rail versus regional flights on popular European travel corridors. Compare total travel time, carbon emissions, and passenger convenience.",
+                            "corridors": [
+                    {
+            "id": 1,
+            "route": "Corridor 1: Paris to Barcelona",
+            "distance": "1,070 km",
+            "train": "TGV: 6h30 door-to-door (city center to city center), ~4.8 kg CO₂ per passenger, free Wi-Fi and working space.",
+            "flight": "Flight: 4h00 door-to-door (including airport security and transfers), ~140 kg CO₂ per passenger.",
+            "prompt": "How would you convince business travelers to take the 6h30 train instead of the flight?"
+                    },
+                    {
+            "id": 2,
+            "route": "Corridor 2: London to Amsterdam",
+            "distance": "540 km",
+            "train": "Eurostar: 4h00 direct city center, ~5.5 kg CO₂ per passenger, no liquid restrictions, spacious seating.",
+            "flight": "Flight: 3h45 door-to-door (Heathrow to Schiphol + security), ~62 kg CO₂ per passenger.",
+            "prompt": "Why has Eurostar captured over 70% of the leisure travel market on this route?"
+                    },
+                    {
+            "id": 3,
+            "route": "Corridor 3: Toulouse to Paris",
+            "distance": "680 km",
+            "train": "TGV: 4h20 downtown Matabiau to Montparnasse, ~3.2 kg CO₂ per passenger.",
+            "flight": "Flight: 3h15 door-to-door (Blagnac to Orly), ~85 kg CO₂ per passenger (shuttle flights operate hourly).",
+            "prompt": "What infrastructure upgrades (like the planned Toulouse-Bordeaux high-speed line) are needed to trigger a complete modal shift?"
+                    }
+                            ]
+                  },
+                  "grammarClinic": {
+                            "title": "Activity 4: Grammar Clinic: Cause, Effect & Complex Comparisons (20 mins)",
+                            "summary": "Replace basic linkers ('because', 'so') with formal prepositions of cause and effect, and use double comparatives to describe linked trends.",
+                            "rules": [
+                    {
+            "title": "1. Expressing Cause (Owing to / Due to / As a result of + Noun)",
+            "formula": "Owing to / Due to / As a result of + noun phrase",
+            "example": "Passenger numbers on the rail corridor surged <strong>owing to frequent departures</strong> and competitive fares."
+                    },
+                    {
+            "title": "2. Expressing Effect (Result in / Lead to + Noun)",
+            "formula": "Subject + resulted in / led to + noun phrase",
+            "example": "Expanding high-speed rail infrastructure <strong>resulted in a 40% reduction</strong> in domestic short-haul flights."
+                    },
+                    {
+            "title": "3. Double Comparatives (The + comparative..., the + comparative...)",
+            "formula": "The + [comparative adjective/adverb], the + [comparative adjective/adverb]",
+            "example": "<strong>The faster</strong> and more reliable train connections become, <strong>the less</strong> reliant travelers are on private cars."
+                    }
+                            ],
+                            "challenge": {
+                    "title": "Interactive Cause & Effect Challenge",
+                    "questions": [
+            {
+                      "id": 1,
+                      "sentence": "Domestic air passenger traffic dropped by 25% ________ improved high-speed rail links between the two capitals.",
+                      "options": [
+                                "A) owing to",
+                                "B) despite",
+                                "C) so that"
+                      ],
+                      "correct": "A) owing to",
+                      "explanation": "'Owing to' (+ noun phrase) correctly expresses the cause of the drop."
+            },
+            {
+                      "id": 2,
+                      "sentence": "The ________ convenient public transit is, the ________ traffic congestion cities experience.",
+                      "options": [
+                                "A) more / less",
+                                "B) most / least",
+                                "C) much / little"
+                      ],
+                      "correct": "A) more / less",
+                      "explanation": "Double comparative structure: 'The more [convenient]..., the less [congestion]...'."
+            }
+                    ]
+                            }
+                  },
+                  "caseStudy": {
+                            "title": "Activity 5: DDRS Case Study: The Campus Travel Dilemma (30 mins)",
+                            "summary": "\"The ENAC Transit Audit\" — Audit real university travel dilemmas and formulate spoken policy recommendations to balance budget, travel time, and carbon emissions.",
+                            "scenario": "A delegation of 6 ENAC professors and student representatives must travel from Toulouse to a partner university in Brussels for an annual 2-day European aviation conference.",
+                            "options": [
+                    {
+            "option": "Option 1: Commercial Flights via Paris",
+            "time": "4h30 door-to-door",
+            "cost": "€280 per person",
+            "carbon": "185 kg CO₂ per person",
+            "prosCons": "Fastest option, but highest carbon emissions by far and requires airport security transfers."
+                    },
+                    {
+            "option": "Option 2: Day TGV via Paris",
+            "time": "7h15 door-to-door",
+            "cost": "€190 per person",
+            "carbon": "12 kg CO₂ per person",
+            "prosCons": "Lowest emissions by 93%, spacious seating with power outlets for group work, but consumes a full working day."
+                    },
+                    {
+            "option": "Option 3: Night Sleeper Train + Connecting TGV",
+            "time": "Overnight journey (depart 22h00, arrive 09h00)",
+            "cost": "€220 per person (couchette)",
+            "carbon": "18 kg CO₂ per person",
+            "prosCons": "Saves one night of hotel accommodation and maximizes daytime work, but sleep quality varies."
+                    }
+                            ],
+                            "task": "In groups of 3, debate which option ENAC should select under its DDRS environmental charter. Present a 2-minute spoken recommendation to the class."
+                  },
+                  "closingReview": {
+                            "title": "Activity 6: 10-Minute Vocabulary Wrap-Up & Taboo Fluency Challenge (10 mins)",
+                            "summary": "Consolidate today's 18 transport terms with rapid audio pronunciation and a fast-paced 45-second Taboo fluency challenge.",
+                            "vocabWords": [
+                    "Modal Shift",
+                    "High-Speed Rail",
+                    "Decarbonization",
+                    "Infrastructure",
+                    "Externalities",
+                    "Commute",
+                    "Fleet Electrification",
+                    "Grid Capacity",
+                    "Lifecycle Assessment",
+                    "Sustainable Aviation Fuel",
+                    "Active Mobility",
+                    "Intermodal Hub",
+                    "Congestion Pricing",
+                    "Transit-Oriented Development",
+                    "Carbon Intensity",
+                    "Freight Logistics",
+                    "Public Transit Subsidy",
+                    "Zero-Emission Zone"
+                            ],
+                            "tabooCards": [
+                    {
+            "word": "Modal Shift",
+            "forbidden": [
+                      "Train",
+                      "Car",
+                      "Change",
+                      "Transport"
+            ]
+                    },
+                    {
+            "word": "Carbon Footprint",
+            "forbidden": [
+                      "CO₂",
+                      "Emissions",
+                      "Pollution",
+                      "Gas"
+            ]
+                    },
+                    {
+            "word": "High-Speed Rail",
+            "forbidden": [
+                      "Fast",
+                      "TGV",
+                      "Train",
+                      "Track"
+            ]
+                    },
+                    {
+            "word": "Active Mobility",
+            "forbidden": [
+                      "Bicycle",
+                      "Walk",
+                      "Car",
+                      "Exercise"
+            ]
+                    },
+                    {
+            "word": "Commute",
+            "forbidden": [
+                      "Work",
+                      "Daily",
+                      "Travel",
+                      "Home"
+            ]
+                    }
+                            ]
+                  }
         }
       },
       "3": {
@@ -1043,40 +1568,35 @@
           "summary": "A 2-hour session exploring visitor limits for popular destinations, city regulations against overcrowding, grammar for contrast and rules, TOEIC practice, and a group debate on sustainable island tourism.",
           "items": [
             {
-              "time": "0-15",
-              "title": "Part 1: Warm-Up Discussion \u2014 How Crowded Is Too Crowded? (15 mins)",
-              "description": "Compare visitor numbers with local populations in famous destinations (Venice, Dubrovnik, Maya Bay) to identify when crowding harms everyday life and natural sites."
-            },
-            {
-              "time": "15-40",
-              "title": "Part 2: Case Study & Pitch \u2014 New City Tourism Rules (25 mins)",
-              "description": "Teams choose and pitch a municipal policy to the mayor (Venice entry fee, cruise ship bans, or campaigns discouraging rowdy crowds), anticipating business criticisms and delivering counterarguments."
-            },
-            {
-              "time": "40-60",
-              "title": "Part 3: Grammar in Context \u2014 Causatives & Contrast Words (20 mins)",
-              "description": "Structuring formal municipal rules using structures like have/make/get someone do something, and contrasting benefits with local impacts using words like despite and in spite of."
-            },
-            {
+              "time": "0-10",
+              "title": "Part 1: Tourism Policy News & Session 2 Review (10 mins)",
+              "description": "Discussing current headlines on municipal tourist limits and checking memory of Session 2 words (modal shift, decarbonization, externalities, lifecycle assessment)."
+                      },
+                      {
+              "time": "10-35",
+              "title": "Part 2: Destination Pressure & Visitor Capacity (25 mins)",
+              "description": "Analyzing carrying capacity data in Venice, Dubrovnik, Amsterdam, and Maya Bay to examine how visitor volume impacts local residents and natural sites."
+                      },
+                      {
+              "time": "35-60",
+              "title": "Part 3: Pitching New Tourism Policies to the Mayor (25 mins)",
+              "description": "Teams pitch municipal policies (Airbnb quotas, peak-season daily entry levies, cruise ship bans) to the city council and defend against business objections."
+                      },
+                      {
               "time": "60-80",
-              "title": "Part 4: TOEIC Practice & Error Logging \u2014 Parts 5 & 6 (20 mins)",
-              "description": "Timed practice on incomplete sentences and text completion regarding tourism management; analyzing common wrong answer choices and updating the study log."
-            },
-            {
-              "time": "80-95",
-              "title": "Part 5: DDRS Case Discussion \u2014 Setting Limits for Sustainable Tourism: Isla Serena (15 mins)",
-              "description": "4-role simulation resolving an acute summer water crisis (320% surge) vs. airport runway expansion. Roles: Town Mayor, Hotel Association President, Organic Farmer, Environmental Regulator. Teams agree on a 3-point policy resolution."
-            },
-            {
-              "time": "95-110",
-              "title": "Part 6: Vocabulary Speaking Game \u2014 Taboo (15 mins)",
-              "description": "Fast-paced fluency challenge where students describe key concepts without saying forbidden words: tourist tax, overcrowding, de-marketing, seasonal limits, and cruise ship ban."
-            },
-            {
+              "title": "Part 4: Grammar Clinic — Causatives & Contrast Words (20 mins)",
+              "description": "Structuring municipal regulations with causatives (make, have, require to) and balancing opposing interests with contrast prepositions (despite, in spite of, whereas)."
+                      },
+                      {
+              "time": "80-110",
+              "title": "Part 5: DDRS Simulation — The Isla Serena Water Crisis (30 mins)",
+              "description": "4-role round-table negotiation resolving an acute summer water shortage (320% surge) vs. airport runway expansion. Teams agree on a 3-point policy resolution."
+                      },
+                      {
               "time": "110-120",
-              "title": "Part 7: Class Wrap-Up & Portfolio Check (10 mins)",
-              "description": "Continuous assessment entry, personal study goals, and FE portfolio review."
-            }
+              "title": "Part 6: 10-Minute Vocabulary Wrap-Up & Taboo Fluency Challenge (10 mins)",
+              "description": "Rapid recall of the 18 overtourism terms with audio pronunciation and 45-second Taboo fluency game without saying forbidden words."
+                      }
           ]
         },
         "revision": {
@@ -1430,6 +1950,259 @@
               "strategy": "When a sentence expresses past criticism or missed opportunity (\"years ago before...\"), look for should have + V3."
             }
           ]
+        },
+        "lessonContent": {
+                  "overview": {
+                            "image": "images/ag_m1card3.png",
+                            "title": "Overtourism & Tourism Policy",
+                            "subtitle": "Managing Visitor Numbers, Protecting Local Life & City Regulations",
+                            "badge": "Session Overview • Managing Tourism & City Life"
+                  },
+                  "hero": {
+                            "image": "images/ag_m1card3.png",
+                            "title": "Overtourism & Tourism Policy",
+                            "subtitle": "Managing Visitor Numbers, Protecting Local Life & City Regulations",
+                            "badge": "Session Overview • Managing Tourism & City Life"
+                  },
+                  "openingSession": {
+                            "title": "Activity 1: Tourism Policy News & Session 2 Review (10 mins)",
+                            "summary": "10-minute opening: analyze current news on city tourist limits and check your memory of Session 2 transport words.",
+                            "newsPrompts": [
+                    "What European cities have recently introduced visitor caps, tourist taxes, or cruise bans?",
+                    "How can local city councils prevent historic neighborhoods from losing their permanent residents?"
+                            ],
+                            "diagnostic": {
+                    "title": "Session 2 Lexis Spot-Check: Transport Terms",
+                    "instructions": "Discuss each term with your partner, then click 'Reveal Answer' to check your accuracy.",
+                    "questions": [
+            {
+                      "id": 1,
+                      "q": "What is a 'Modal Shift'?",
+                      "answer": "A modal shift occurs when travelers or freight switch from one mode of transport (such as private cars or domestic flights) to another more sustainable mode (such as trains or public transit)."
+            },
+            {
+                      "id": 2,
+                      "q": "What does 'Decarbonization' mean in the transport sector?",
+                      "answer": "The process of eliminating or drastically reducing greenhouse gas emissions through electric vehicles, renewable energy, efficiency gains, and cleaner fuels like SAF."
+            },
+            {
+                      "id": 3,
+                      "q": "What are 'Externalities' in transport economics?",
+                      "answer": "Unintended side-effects of transport activities (like noise, air pollution, road accidents, or traffic jams) that affect society but are not reflected in ticket prices or fuel costs."
+            },
+            {
+                      "id": 4,
+                      "q": "What is a 'Lifecycle Assessment' (LCA)?",
+                      "answer": "A systematic method to evaluate the environmental impact of a vehicle, fuel, or infrastructure from raw material extraction through manufacturing, use, and final disposal or recycling."
+            }
+                    ]
+                            }
+                  },
+                  "pressureMatrix": {
+                            "title": "Activity 2: Destination Pressure & Visitor Capacity (25 mins)",
+                            "summary": "Examine how massive visitor numbers impact local residents and natural sites across 4 famous international destinations.",
+                            "destinations": [
+                    {
+            "id": 1,
+            "name": "Venice, Italy",
+            "residents": "49,000 residents",
+            "visitors": "25+ million annual visitors",
+            "issues": "Historic depopulation (down from 175,000 in 1950), overcrowding on water buses, rising grocery and housing prices.",
+            "actions": "Introduced a €5 day-tripper entry fee during peak weekends; banned large cruise ships from navigating the Giudecca Canal."
+                    },
+                    {
+            "id": 2,
+            "name": "Dubrovnik, Croatia",
+            "residents": "41,000 residents",
+            "visitors": "1.5 million visitors",
+            "issues": "'Game of Thrones' tourism caused severe bottlenecks at the historic city gates and pushed local shops out.",
+            "actions": "'Respect the City' program: capped cruise ship arrivals to a maximum of 4,000 disembarking passengers at any one time; introduced live crowd surveillance cameras."
+                    },
+                    {
+            "id": 3,
+            "name": "Amsterdam, Netherlands",
+            "residents": "880,000 residents",
+            "visitors": "20 million visitors",
+            "issues": "Alcohol tourism in the historic canal district, street nuisance, and displacement of local bakeries by waffle shops.",
+            "actions": "'Stay Away' targeted advertising campaigns, ban on new hotel construction in the center, and plans to relocate the sea cruise terminal outside the city center."
+                    },
+                    {
+            "id": 4,
+            "name": "Maya Bay, Thailand",
+            "residents": "Protected National Park",
+            "visitors": "5,000 visitors per day (pre-2018)",
+            "issues": "Boat anchors and sunscreen destroyed over 80% of local coral reefs and drove blacktip reef sharks away.",
+            "actions": "Complete closure for 3.5 years for ecological regeneration; reopened with a daily visitor cap, mandatory online booking, and a complete ban on boats entering the bay."
+                    }
+                            ],
+                            "discussionPrompt": "Which city policy has been most successful in balancing economic income with resident well-being?"
+                  },
+                  "policyPitch": {
+                            "title": "Activity 3: Pitching New Tourism Policies to the Mayor (25 mins)",
+                            "summary": "In pairs, choose one controversial municipal policy, prepare a 2-minute pitch to the city council, and anticipate objections from local business lobbies.",
+                            "policies": [
+                    {
+            "id": 1,
+            "title": "Policy A: Strict Quota on Short-Term Holiday Rentals (Airbnb)",
+            "description": "Limit residential rentals to a maximum of 30 nights per year per owner, requiring verified city registration to preserve long-term housing for nurses, teachers, and students.",
+            "objection": "Hotel and property investor associations argue this infringes on private property rights and reduces tourist spending."
+                    },
+                    {
+            "id": 2,
+            "title": "Policy B: €10 Peak-Season Daily Visitor Levy",
+            "description": "Charge all day-trippers who do not stay overnight an electronic fee collected through train tickets and parking meters, dedicated 100% to public cleaning and resident tax relief.",
+            "objection": "Retailers and restaurant owners worry day-trippers will choose competing neighboring towns instead."
+                    },
+                    {
+            "id": 3,
+            "title": "Policy C: Total Ban on Mega-Cruise Ships in City Ports",
+            "description": "Prohibit passenger ships over 50,000 gross tonnes from docking within 10 km of the historic center to stop air pollution and sudden crowd surges.",
+            "objection": "Port authorities argue the city will lose millions in docking fees and provisioning contracts."
+                    }
+                            ]
+                  },
+                  "grammarClinic": {
+                            "title": "Activity 4: Grammar Clinic: Causatives & Contrast Words (20 mins)",
+                            "summary": "Use causative verbs (make, have, get) to express regulations and authority, and use contrast linkers (despite, in spite of, whereas) to balance competing interests.",
+                            "rules": [
+                    {
+            "title": "1. Causatives of Authority (Make / Have / Require)",
+            "formula": "Make + object + V1 (infinitive without to) / Require + object + to-V1",
+            "example": "The city council <strong>made tour companies limit</strong> walking groups to 20 people."
+                    },
+                    {
+            "title": "2. Contrast Prepositions (Despite / In spite of + Noun / -ing)",
+            "formula": "Despite / In spite of + noun phrase or gerund",
+            "example": "<strong>Despite fierce opposition</strong> from souvenir shop owners, the pedestrian zone was approved."
+                    },
+                    {
+            "title": "3. Concession Clauses (Whereas / While)",
+            "formula": "Clause 1, whereas / while + Clause 2",
+            "example": "Hotels welcomed the tourists, <strong>whereas</strong> local residents struggled with nighttime noise."
+                    }
+                            ],
+                            "challenge": {
+                    "title": "Causatives & Contrast Check",
+                    "questions": [
+            {
+                      "id": 1,
+                      "sentence": "________ the higher tourist tax, hotel bookings in the historic quarter increased by 5%.",
+                      "options": [
+                                "A) Despite",
+                                "B) Although",
+                                "C) Because"
+                      ],
+                      "correct": "A) Despite",
+                      "explanation": "'Despite' is followed by a noun phrase ('the higher tourist tax'). 'Although' would require a full clause with a subject and verb."
+            },
+            {
+                      "id": 2,
+                      "sentence": "New municipal guidelines ________ holiday rental owners to register their apartments online.",
+                      "options": [
+                                "A) make",
+                                "B) require",
+                                "C) let"
+                      ],
+                      "correct": "B) require",
+                      "explanation": "'Require' takes the 'to-infinitive' pattern ('require someone to do something'). 'Make' would take an infinitive without 'to'."
+            }
+                    ]
+                            }
+                  },
+                  "simulation": {
+                            "title": "Activity 5: DDRS Simulation: The Isla Serena Water Crisis (30 mins)",
+                            "summary": "A 4-role negotiation resolving an acute summer water shortage (320% surge in consumption) vs. a proposal to expand the island airport runway to welcome more tourists.",
+                            "roles": [
+                    {
+            "role": "Role A: The Town Mayor",
+            "stance": "Must protect the local economy and preserve municipal tax revenue, but cannot allow taps to run dry in local residential homes."
+                    },
+                    {
+            "role": "Role B: The Hotel Association President",
+            "stance": "Represents 45 hotels employing 1,500 people. Insists that tourists expect swimming pools and daily air conditioning, and supports expanding the airport runway."
+                    },
+                    {
+            "role": "Role C: The Organic Farmer",
+            "stance": "Produces citrus and olives. Demands priority water allocations for agriculture and opposes runway expansion because it destroys fertile farmland."
+                    },
+                    {
+            "role": "Role D: The Environmental Protection Regulator",
+            "stance": "Reports that the underground freshwater aquifer is at 18% capacity. Warns that further drilling will cause saltwater contamination, destroying the island's drinking water."
+                    }
+                            ],
+                            "task": "Negotiate a realistic 3-point compromise agreement that addresses water rationing, tourism capacity limits, and infrastructure funding."
+                  },
+                  "closingReview": {
+                            "title": "Activity 6: 10-Minute Vocabulary Wrap-Up & Taboo Fluency Challenge (10 mins)",
+                            "summary": "Consolidate today's 18 overtourism terms with rapid audio pronunciation and a fast-paced 45-second Taboo fluency challenge.",
+                            "vocabWords": [
+                    "Overtourism",
+                    "Carrying Capacity",
+                    "De-Marketing",
+                    "Tourist Levy",
+                    "Resident Backlash",
+                    "Short-Term Rental",
+                    "Cruise Ship Ban",
+                    "Heritage Conservation",
+                    "Seasonal Quota",
+                    "Visitor Dispersion",
+                    "Overtourism Index",
+                    "Displacement",
+                    "Infrastructure Strain",
+                    "Honey-Pot Destination",
+                    "Environmental Degradation",
+                    "Surge Pricing",
+                    "Community Consultation",
+                    "Quality of Life"
+                            ],
+                            "tabooCards": [
+                    {
+            "word": "Tourist Levy",
+            "forbidden": [
+                      "Tax",
+                      "Money",
+                      "Pay",
+                      "City"
+            ]
+                    },
+                    {
+            "word": "Carrying Capacity",
+            "forbidden": [
+                      "Limit",
+                      "Maximum",
+                      "Crowd",
+                      "Number"
+            ]
+                    },
+                    {
+            "word": "De-Marketing",
+            "forbidden": [
+                      "Discourage",
+                      "Advertising",
+                      "Stop",
+                      "Campaign"
+            ]
+                    },
+                    {
+            "word": "Resident Backlash",
+            "forbidden": [
+                      "Anger",
+                      "Protest",
+                      "Local",
+                      "People"
+            ]
+                    },
+                    {
+            "word": "Seasonal Quota",
+            "forbidden": [
+                      "Summer",
+                      "Limit",
+                      "Number",
+                      "Month"
+            ]
+                    }
+                            ]
+                  }
         }
       },
       "4": {
@@ -1480,40 +2253,35 @@
           "summary": "A 2-hour interactive session comparing genuine ecotourism with greenwashing, practicing mixed conditionals and connectors, solving TOEIC reading questions, and designing a sustainable eco-resort.",
           "items": [
             {
-              "time": "0-15",
-              "title": "Part 1: Warm-Up Discussion \u2014 Real Eco-Tourism vs. Greenwashing (15 mins)",
-              "description": "Examine three real-world travel projects (in Costa Rica, Kenya, and Norway) to see how much money stays in the local community and the real environmental benefits created, compared to superficial marketing."
-            },
-            {
-              "time": "15-35",
-              "title": "Part 2: Grammar in Context \u2014 Mixed Conditionals & Connecting Words (20 mins)",
-              "description": "Contrasting past conservation decisions with present outcomes (If + had + V3, would + V1), present status with past outcomes (If + were, would have + V3), and formal connecting words for goals and rules (so as to, in order that, provided that, on condition that)."
-            },
-            {
+              "time": "0-10",
+              "title": "Part 1: Eco-Tourism News & Session 3 Review (10 mins)",
+              "description": "Discussing genuine green travel innovations and checking memory of Session 3 words (carrying capacity, de-marketing, resident backlash, tourist levy)."
+                      },
+                      {
+              "time": "10-35",
+              "title": "Part 2: Genuine Eco-Tourism vs. Greenwashing (25 mins)",
+              "description": "Forensic evidence audit of 3 real-world projects (Costa Rica cloud forest, Kenya Maasai conservancies, Norway electric fjord cruise) against greenwashing checklists."
+                      },
+                      {
               "time": "35-55",
-              "title": "Part 3: TOEIC Practice & Error Logging \u2014 Parts 5 & 6 (20 mins)",
-              "description": "Timed reading set on sustainable tourism certification notices; practicing conditional sentences, connecting words, and logging errors."
-            },
-            {
+              "title": "Part 3: Grammar Clinic — Mixed Conditionals & Purpose Clauses (20 mins)",
+              "description": "Contrasting past conservation actions with present outcomes (If + had + V3, would + V1) and using formal connecting words (so as to, in order that, provided that)."
+                      },
+                      {
               "time": "55-85",
-              "title": "Part 4: Collaborative Project Workshop \u2014 The Eco-Resort Blueprint (30 mins)",
-              "description": "Internet-enabled team challenge with a \u20ac2,500,000 green endowment. Teams choose a fragile ecosystem (temperate fjord, Mediterranean wetland, or alpine valley) and design a low-impact, community-owned resort integrating target grammar."
-            },
-            {
-              "time": "85-100",
-              "title": "Part 5: Project Pitches & Stakeholder Q&A \u2014 The Green Investor Forum (15 mins)",
-              "description": "2-minute pitches where peer groups act as the Sustainability Investment Board, asking teams about visitor limits, clean energy, local community benefits, and connecting words."
-            },
-            {
-              "time": "100-110",
-              "title": "Part 6: Vocabulary Speaking Game \u2014 Taboo (10 mins)",
-              "description": "Fast-paced 45-second fluency game reinforcing critical sustainable tourism vocabulary: Greenwashing, Biodiversity Corridor, Community-Based Tourism, Carbon Offset, and Rewilding."
-            },
-            {
+              "title": "Part 4: Workshop — The €2,500,000 Eco-Resort Blueprint (30 mins)",
+              "description": "Designing a low-impact, 100% renewable resort in a fragile ecosystem (fjord, wetland, alpine valley) balancing visitor capacity and local community jobs."
+                      },
+                      {
+              "time": "85-110",
+              "title": "Part 5: The Green Investor Forum — Pitches & Defense (25 mins)",
+              "description": "2-minute competitive pitches to the Sustainability Investment Board answering tough stakeholder questions on visitor limits and greenwashing."
+                      },
+                      {
               "time": "110-120",
-              "title": "Part 7: Class Wrap-Up & FE Check (10 mins)",
-              "description": "Continuous assessment log, reviewing genuine ecotourism vs. greenwashing, applying grammar to the FE portfolio, and final preparation for Session 5."
-            }
+              "title": "Part 6: 10-Minute Vocabulary Wrap-Up & FE1 Readiness Check (10 mins)",
+              "description": "Final consolidation of the 18 terms with audio pronunciation, partner verification, visual aids check, and self-critique readiness for Session 5."
+                      }
           ]
         },
         "revision": {
@@ -1867,6 +2635,203 @@
               "strategy": "\"Prior to\" + gerund (-ing) is a high-frequency business English synonym for \"before\" in TOEIC Part 5."
             }
           ]
+        },
+        "lessonContent": {
+                  "overview": {
+                            "image": "images/ag_m1card4.png",
+                            "title": "Sustainable & Eco-Tourism",
+                            "subtitle": "Responsible Travel, Genuine Green Projects & Community Benefits",
+                            "badge": "Session Overview • Eco-Tourism & Green Certification"
+                  },
+                  "hero": {
+                            "image": "images/ag_m1card4.png",
+                            "title": "Sustainable & Eco-Tourism",
+                            "subtitle": "Responsible Travel, Genuine Green Projects & Community Benefits",
+                            "badge": "Session Overview • Eco-Tourism & Green Certification"
+                  },
+                  "openingSession": {
+                            "title": "Activity 1: Eco-Tourism News & Session 3 Review (10 mins)",
+                            "summary": "10-minute opening: discuss genuine green travel innovations and check your memory of Session 3 overtourism terms.",
+                            "newsPrompts": [
+                    "What distinguishes a genuine eco-lodge from a hotel that simply uses 'green' marketing buzzwords?",
+                    "How can local communities retain more economic revenue from international nature tourism?"
+                            ],
+                            "diagnostic": {
+                    "title": "Session 3 Lexis Spot-Check: Overtourism Terms",
+                    "instructions": "Discuss each term with your partner, then click 'Reveal Answer' to check your accuracy.",
+                    "questions": [
+            {
+                      "id": 1,
+                      "q": "What is 'Carrying Capacity' in tourism management?",
+                      "answer": "The maximum number of visitors a destination or ecosystem can sustain without permanent environmental degradation or a decline in local resident quality of life."
+            },
+            {
+                      "id": 2,
+                      "q": "What is 'De-Marketing'?",
+                      "answer": "Strategic communication designed to discourage visitor numbers or redirect tourist flows away from fragile, overcrowded hotspots to quieter, alternative regions."
+            },
+            {
+                      "id": 3,
+                      "q": "What does 'Resident Backlash' refer to?",
+                      "answer": "Public protests, strikes, and political resistance from local citizens when overtourism causes rising rents, overcrowding, noise, and loss of local neighborhood character."
+            },
+            {
+                      "id": 4,
+                      "q": "What is a 'Tourist Levy'?",
+                      "answer": "A municipal surcharge or tax added to hotel bills or collected upon city entry, specifically dedicated to financing public services, waste management, and conservation."
+            }
+                    ]
+                            }
+                  },
+                  "forensicAudit": {
+                            "title": "Activity 2: Genuine Eco-Tourism vs. Greenwashing (25 mins)",
+                            "summary": "Conduct a forensic evidence audit of 3 real-world tourism projects. Separate verified environmental stewardship from superficial marketing buzzwords.",
+                            "projects": [
+                    {
+            "id": 1,
+            "name": "Project A: Monteverde Cloud Forest Reserve (Costa Rica)",
+            "claims": "100% solar and micro-hydro power, private nature reserve protecting 500 hectares of cloud forest, 90% of employees hired from local farming communities.",
+            "revenueRetention": "78% of visitor expenditure remains in the local rural district.",
+            "verdict": "Verified Eco-Tourism: Strong community ownership, verified renewable power, and measurable wildlife habitat protection."
+                    },
+                    {
+            "id": 2,
+            "name": "Project B: 'Eco-Luxury' Lagoon Resort (Southeast Asia)",
+            "claims": "Wooden bamboo decor, paper straws in cocktails, towel re-use cards in bedrooms, claims to be '100% nature-friendly'.",
+            "revenueRetention": "Only 12% of revenue stays local; built on a cleared mangrove wetland; diesel generators provide 24/7 air conditioning.",
+            "verdict": "Greenwashing: Superficial aesthetic changes hiding serious ecological destruction and heavy reliance on fossil fuels."
+                    },
+                    {
+            "id": 3,
+            "name": "Project C: Maasai Wilderness Community Conservancies (Kenya)",
+            "claims": "Land leased directly from indigenous Maasai landholders; strict limit of 16 guests per lodge; safari fees directly fund local school bursaries and wildlife anti-poaching rangers.",
+            "revenueRetention": "65% of net revenues go into community healthcare and educational funds.",
+            "verdict": "Verified Community-Based Tourism (CBT): Demonstrates true social responsibility and ecosystem co-existence."
+                    }
+                            ],
+                            "greenwashingChecklist": [
+                    "Look for independent third-party certification (GSTC, Green Key, EU Ecolabel) rather than self-awarded badges.",
+                    "Check who owns the land and what percentage of revenue remains in the local community.",
+                    "Verify renewable energy sources: does the lodge use real solar/hydro power or hidden diesel generators?"
+                            ]
+                  },
+                  "grammarClinic": {
+                            "title": "Activity 3: Grammar Clinic: Mixed Conditionals & Purpose Clauses (20 mins)",
+                            "summary": "Connect past actions with present consequences using mixed conditionals, and express goals and conditions with formal connectors.",
+                            "rules": [
+                    {
+            "title": "1. Mixed Conditional (Past Action -> Present Result)",
+            "formula": "If + Past Perfect (had + V3), would + V1 (infinitive)",
+            "example": "If the government <strong>had protected</strong> the coral reef ten years ago, the local diving industry <strong>would be</strong> thriving today."
+                    },
+                    {
+            "title": "2. Connectors of Purpose (So as to / In order that)",
+            "formula": "So as to / In order to + V1 || In order that + Subject + modal + V1",
+            "example": "The eco-lodge installed rainwater harvesting tanks <strong>so as to minimize</strong> its strain on the local municipal supply."
+                    },
+                    {
+            "title": "3. Connectors of Condition (Provided that / On condition that)",
+            "formula": "Provided that / On condition that + present tense clause",
+            "example": "Travelers may hike through the private nature reserve <strong>provided that they stay</strong> on the marked wooden boardwalks."
+                    }
+                            ],
+                            "challenge": {
+                    "title": "Conditionals & Purpose Check",
+                    "questions": [
+            {
+                      "id": 1,
+                      "sentence": "If city authorities ________ strict visitor quotas years ago, the historic city center would not be so congested today.",
+                      "options": [
+                                "A) had introduced",
+                                "B) introduced",
+                                "C) would introduce"
+                      ],
+                      "correct": "A) had introduced",
+                      "explanation": "Mixed conditional: Past condition ('had introduced') leading to a present consequence ('would not be')."
+            },
+            {
+                      "id": 2,
+                      "sentence": "Tour groups are permitted to visit the island sanctuary ________ they leave no waste behind.",
+                      "options": [
+                                "A) provided that",
+                                "B) in order to",
+                                "C) despite"
+                      ],
+                      "correct": "A) provided that",
+                      "explanation": "'Provided that' introduces the essential condition required for permission."
+            }
+                    ]
+                            }
+                  },
+                  "workshop": {
+                            "title": "Activity 4: Workshop: The €2,500,000 Eco-Resort Blueprint (30 mins)",
+                            "summary": "In teams of 3 to 4, design a low-impact, 100% sustainable tourism project with a €2,500,000 green endowment. Balance visitor capacity, clean energy, and local employment.",
+                            "ecosystems": [
+                    {
+            "id": "A",
+            "name": "Location A: Temperate Fjord (Western Norway)",
+            "features": "Steep granite cliffs, waterfalls, cold marine waters. Accessible only by water or narrow mountain passes.",
+            "requirements": "Electric boat shuttle, geothermal heating, zero-discharge wastewater filtration."
+                    },
+                    {
+            "id": "B",
+            "name": "Location B: Mediterranean Coastal Wetland (Southern Europe)",
+            "features": "Migratory bird sanctuary, salt marshes, dunes. Highly vulnerable to freshwater depletion and summer heat waves.",
+            "requirements": "Raised wooden boardwalks, solar desalinization, organic olive/vegetable permaculture garden."
+                    },
+                    {
+            "id": "C",
+            "name": "Location C: Alpine Valley (French/Swiss Alps)",
+            "features": "High-altitude meadow, melting glaciers, traditional wooden chalets. Threatened by ski-resort commercialization.",
+            "requirements": "Ski-free winter snowshoeing, biomass pellet heating, regional high-speed rail transfer partnerships."
+                    }
+                            ],
+                            "blueprintChecklist": [
+                    "1. Architectural Concept: Low-impact local timber or stone construction with minimal earth disturbance.",
+                    "2. Energy & Water: 100% on-site renewable power (solar/hydro/geothermal) and circular greywater recycling.",
+                    "3. Carrying Capacity: Set strict daily visitor limits and maximum seasonal overnight occupancy.",
+                    "4. Community Revenue: Guarantee at least 70% of staff are hired locally and 10% of profits fund local conservation."
+                            ]
+                  },
+                  "investorForum": {
+                            "title": "Activity 5: The Green Investor Forum: Pitches & Defense (25 mins)",
+                            "summary": "Deliver a concise 2-minute pitch to the Sustainability Investment Board. Defend your project against tough questions regarding profitability, greenwashing, and visitor limits.",
+                            "boardQuestions": [
+                    "\"How will you guarantee that wealthy guests do not consume excessive water and electricity?\"",
+                    "\"What evidence proves your resort will not disrupt the local wildlife breeding season?\"",
+                    "\"How does your project ensure local community members are not simply low-wage service workers?\""
+                            ]
+                  },
+                  "closingReview": {
+                            "title": "Activity 6: 10-Minute Vocabulary Wrap-Up & FE1 Readiness Check (10 mins)",
+                            "summary": "Final preparation for Session 5 Formative Evaluation: audio pronunciation drill of 18 terms and partner readiness review.",
+                            "vocabWords": [
+                    "Eco-Tourism",
+                    "Greenwashing",
+                    "Biodiversity Corridor",
+                    "Community-Based Tourism",
+                    "Carbon Offset",
+                    "Rewilding",
+                    "Conservation Levy",
+                    "Ecolabel Certification",
+                    "Low-Impact Architecture",
+                    "Renewable Energy Microgrid",
+                    "Waste Valorization",
+                    "Indigenous Stewardship",
+                    "Environmental Impact Assessment",
+                    "Sustainable Sourcing",
+                    "Carrying Capacity Limit",
+                    "Permaculture",
+                    "Dark Sky Reserve",
+                    "Regenerative Tourism"
+                            ],
+                            "feChecklist": [
+                    "✅ Presentation partner confirmed and topic selected (Option A: Eco-Friendly Holiday Itinerary OR Option B: Comparing Two Cities' Tourism Policies).",
+                    "✅ 4 to 6 clean visual slides prepared without dense paragraphs of text (no reading aloud from notes!).",
+                    "✅ Personal Vocabulary Study Log and TOEIC Error Log ready to show your teacher.",
+                    "✅ Self-Critique ready: 2 personal English strengths and 2 concrete action targets for Semester 2."
+                            ]
+                  }
         }
       }
     }
