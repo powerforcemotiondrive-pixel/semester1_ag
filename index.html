@@ -6531,6 +6531,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
             </div>
 
+            ${renderActivityInstructions(opening, theme)}
+
             <!-- News Prompts -->
             <div class="p-4 bg-amber-50/70 border border-amber-200 rounded-xl space-y-2">
               <div class="flex items-center gap-2">
@@ -6585,6 +6587,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Structured Debate</span>
             </div>
 
+            ${renderActivityInstructions(survey, theme)}
+
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-emerald-50/60 border border-emerald-200 rounded-xl space-y-1.5">
@@ -6630,6 +6634,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Grammar in Context</span>
             </div>
+
+            ${renderActivityInstructions(grammar, theme)}
 
             <!-- Rules Grid -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
@@ -6689,6 +6695,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Classroom Simulation</span>
             </div>
 
+            ${renderActivityInstructions(roleplay, theme)}
+
             <!-- Scenario Card -->
             <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
               <span class="text-[10px] font-black uppercase tracking-wider text-slate-500 block">Simulation Scenario Briefing</span>
@@ -6726,6 +6734,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Debrief &amp; Exit Ticket</span>
             </div>
+
+            ${renderActivityInstructions(closing, theme)}
 
             <div class="p-4 bg-emerald-50/60 border border-emerald-200 rounded-xl space-y-3">
               <div class="flex items-center justify-between">
@@ -6812,6 +6822,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
             </div>
 
+            ${renderActivityInstructions(opening, theme)}
+
             <!-- News Prompts -->
             <div class="p-4 bg-amber-50/70 border border-amber-200 rounded-xl space-y-2">
               <div class="flex items-center gap-2">
@@ -6866,6 +6878,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Structured Debate</span>
             </div>
 
+            ${renderActivityInstructions(survey, theme)}
+
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-emerald-50/60 border border-emerald-200 rounded-xl space-y-1.5">
@@ -6911,6 +6925,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Grammar in Context</span>
             </div>
+
+            ${renderActivityInstructions(grammar, theme)}
 
             <!-- Rules Grid -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
@@ -6970,6 +6986,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Classroom Simulation</span>
             </div>
 
+            ${renderActivityInstructions(roleplay, theme)}
+
             <!-- Scenario Card -->
             <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
               <span class="text-[10px] font-black uppercase tracking-wider text-slate-500 block">Simulation Scenario Briefing</span>
@@ -7007,6 +7025,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Debrief &amp; Exit Ticket</span>
             </div>
+
+            ${renderActivityInstructions(closing, theme)}
 
             <div class="p-4 bg-emerald-50/60 border border-emerald-200 rounded-xl space-y-3">
               <div class="flex items-center justify-between">
@@ -8818,10 +8838,15 @@
       const content = sessionData.lessonContent || {};
       const hero = content.hero || {};
       const opening = content.openingSession || {};
-      const categories = (content.fleetTaxonomy && content.fleetTaxonomy.categories) || [];
-      const rules = (content.comparativeClinic && content.comparativeClinic.rules) || [];
-      const cases = (content.fleetCommitteeSimulation && content.fleetCommitteeSimulation.cases) || [];
-      const topics = (content.globalLandscapeDebate && content.globalLandscapeDebate.topics) || [];
+      const fleetTaxonomy = content.fleetTaxonomy || {};
+      const categories = fleetTaxonomy.categories || [];
+      const comparativeClinic = content.comparativeClinic || {};
+      const rules = comparativeClinic.rules || [];
+      const fleetCommitteeSimulation = content.fleetCommitteeSimulation || {};
+      const cases = fleetCommitteeSimulation.cases || [];
+      const globalLandscapeDebate = content.globalLandscapeDebate || {};
+      const topics = globalLandscapeDebate.topics || [];
+      const closing = content.closingReview || {};
 
       bodyEl.innerHTML = `
         <div class="space-y-6 printable-lesson-container">
@@ -8878,6 +8903,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
             </div>
 
+            ${renderActivityInstructions(opening, theme)}
+
             <!-- News Prompts -->
             <div class="p-4 bg-amber-50/70 border border-amber-200 rounded-xl space-y-2">
               <div class="flex items-center gap-2">
@@ -8911,12 +8938,14 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">10-35m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">Activity 2: Commercial Aircraft Classification Matrix (25 mins)</h4>
-                  <p class="text-[11px] text-slate-500">Classify commercial passenger and freighter aircraft into operational categories.</p>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${fleetTaxonomy.title || 'Activity 2: Commercial Aircraft Classification Matrix (25 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${fleetTaxonomy.summary || 'Classify commercial passenger and freighter aircraft into operational categories.'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Fleet Matrix</span>
             </div>
+
+            ${renderActivityInstructions(fleetTaxonomy, theme)}
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               ${categories.map(c => `
@@ -8941,12 +8970,14 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">Activity 3: Language Clinic: Comparative &amp; Superlative Data (20 mins)</h4>
-                  <p class="text-[11px] text-slate-500">Mastering modifiers and comparative structures to evaluate aircraft efficiency and fleet statistics.</p>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${comparativeClinic.title || 'Activity 3: Language Clinic: Comparative &amp; Superlative Data (20 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${comparativeClinic.summary || 'Mastering modifiers and comparative structures to evaluate aircraft efficiency and fleet statistics.'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Comparative Structures</span>
             </div>
+
+            ${renderActivityInstructions(comparativeClinic, theme)}
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
               ${rules.map(r => `
@@ -8965,12 +8996,14 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">55-85m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">Activity 4: Airline Fleet Selection Committee Simulation (30 mins)</h4>
-                  <p class="text-[11px] text-slate-500">Pairs act as airline fleet planning directors preparing an aircraft purchase pitch for new routes.</p>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${fleetCommitteeSimulation.title || 'Activity 4: Airline Fleet Selection Committee Simulation (30 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${fleetCommitteeSimulation.summary || 'Pairs act as airline fleet planning directors preparing an aircraft purchase pitch for new routes.'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Executive Pitch</span>
             </div>
+
+            ${renderActivityInstructions(fleetCommitteeSimulation, theme)}
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               ${cases.map(cs => `
@@ -8995,11 +9028,20 @@
           </div>
 
           <!-- Activity 5: Industry Debate -->
-          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-3">
-            <div class="flex items-center gap-2 border-b border-slate-200 pb-2">
-              <span class="text-white text-xs font-black px-2 py-0.5 rounded" style="background-color: ${theme.primary};">85-110m</span>
-              <h4 class="text-sm font-bold text-slate-900">Activity 5: Global Manufacturer Debate &amp; Industry Trends (25 mins)</h4>
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">85-110m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${globalLandscapeDebate.title || 'Activity 5: Global Manufacturer Debate &amp; Industry Trends (25 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${globalLandscapeDebate.summary || 'Class debate exploring the Airbus-Boeing duopoly, supply chain bottlenecks, and the emergence of COMAC.'}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Industry Debate</span>
             </div>
+
+            ${renderActivityInstructions(globalLandscapeDebate, theme)}
+
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs text-slate-700">
               ${topics.map(tp => `
                 <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg flex items-center gap-2">
@@ -9011,14 +9053,40 @@
           </div>
 
           <!-- Activity 6: Wrap-up -->
-          <div class="p-4 bg-slate-100 rounded-xl border border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-700">
-            <div>
-              <h5 class="font-bold text-slate-900">Activity 6: Vocabulary Review &amp; Class Wrap-Up (10 mins)</h5>
-              <p class="text-[11px] text-slate-500">Record today's 18 commercial fleet terms in your learning portfolio and practice syllable stress.</p>
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">110-120m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${closing.title || 'Activity 6: Vocabulary Review &amp; Pronunciation Wrap-Up (10 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${closing.summary || 'Consolidate the 18 commercial fleet terms and prepare for Session 4 Aviation Accidents.'}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Closing Consolidation</span>
             </div>
-            <button onclick="switchModalTab('revision')" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold text-white shadow-xs hover:opacity-90 transition-all cursor-pointer shrink-0" style="background-color: ${theme.primary};">
-              <span>View Vocabulary Flashcards</span> &rarr;
-            </button>
+
+            ${renderActivityInstructions(closing, theme)}
+
+            ${(closing.pronunciationFocus && closing.pronunciationFocus.length) ? `
+              <div class="p-3.5 bg-indigo-50/60 border border-indigo-200 rounded-xl space-y-2">
+                <span class="text-[11px] font-bold text-indigo-950 uppercase tracking-wide">Pronunciation &amp; Syllable Stress Focus:</span>
+                <div class="flex flex-wrap gap-2 text-xs">
+                  ${closing.pronunciationFocus.map(w => `<span class="px-2.5 py-1 bg-white rounded-lg border border-indigo-200 font-mono font-bold text-indigo-900 shadow-2xs">${w}</span>`).join('')}
+                </div>
+              </div>
+            ` : ''}
+
+            <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+              <div class="space-y-1">
+                <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Consolidation Checkpoints</span>
+                <ul class="space-y-1 text-slate-700">
+                  ${(closing.checkpoints || ['Mastered 18 commercial aircraft & fleet planning terms', 'Practiced comparative modifiers in oral pitches', 'Completed syllable stress drills on aeronautical vocabulary']).map(cp => `<li class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">&check;</span> ${cp}</li>`).join('')}
+                </ul>
+              </div>
+              <button onclick="switchModalTab('revision')" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg text-xs font-bold text-white shadow-xs hover:opacity-90 transition-all cursor-pointer shrink-0" style="background-color: ${theme.primary};">
+                <span>View Vocabulary Flashcards</span> &rarr;
+              </button>
+            </div>
           </div>
         </div>
       `;
@@ -9030,10 +9098,15 @@
       const content = sessionData.lessonContent || {};
       const hero = content.hero || {};
       const opening = content.openingSession || {};
-      const lexis = (content.investigationLexis && content.investigationLexis.terms) || [];
-      const pastRules = (content.pastNarrativesClinic && content.pastNarrativesClinic.rules) || [];
-      const caseStudies = (content.groupResearchSprint && content.groupResearchSprint.caseStudies) || [];
-      const guidelines = (content.presentationsDebrief && content.presentationsDebrief.presentationGuidelines) || [];
+      const investigationLexis = content.investigationLexis || {};
+      const lexis = investigationLexis.terms || [];
+      const pastNarrativesClinic = content.pastNarrativesClinic || {};
+      const pastRules = pastNarrativesClinic.rules || [];
+      const groupResearchSprint = content.groupResearchSprint || {};
+      const caseStudies = groupResearchSprint.caseStudies || [];
+      const presentationsDebrief = content.presentationsDebrief || {};
+      const guidelines = presentationsDebrief.presentationGuidelines || [];
+      const closing = content.closingReview || {};
 
       bodyEl.innerHTML = `
         <div class="space-y-6 printable-lesson-container">
@@ -9090,6 +9163,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
             </div>
 
+            ${renderActivityInstructions(opening, theme)}
+
             <!-- News Prompts -->
             <div class="p-4 bg-amber-50/70 border border-amber-200 rounded-xl space-y-2">
               <div class="flex items-center gap-2">
@@ -9123,12 +9198,14 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">10-30m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">Activity 2: Accident Investigation Terminology &amp; Causal Chains (20 mins)</h4>
-                  <p class="text-[11px] text-slate-500">Learn and deploy specialized safety vocabulary used by investigation authorities.</p>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${investigationLexis.title || 'Activity 2: Accident Investigation Terminology &amp; Causal Chains (20 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${investigationLexis.summary || 'Learn and deploy specialized safety vocabulary used by investigation authorities.'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Investigation Lexis</span>
             </div>
+
+            ${renderActivityInstructions(investigationLexis, theme)}
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
               ${lexis.map(lx => `
@@ -9146,12 +9223,14 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">30-50m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">Activity 3: Language Clinic: Narrative Past Tenses &amp; Sequencers (20 mins)</h4>
-                  <p class="text-[11px] text-slate-500">Combining Past Simple, Past Continuous, and Past Perfect to build clear chronological incident reports.</p>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${pastNarrativesClinic.title || 'Activity 3: Language Clinic: Narrative Past Tenses &amp; Sequencers (20 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${pastNarrativesClinic.summary || 'Combining Past Simple, Past Continuous, and Past Perfect to build clear chronological incident reports.'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Narrative Grammar</span>
             </div>
+
+            ${renderActivityInstructions(pastNarrativesClinic, theme)}
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
               ${pastRules.map(r => `
@@ -9170,12 +9249,14 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">50-65m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">Activity 4: 15-Minute Group Research &amp; Preparation Sprint (15 mins)</h4>
-                  <p class="text-[11px] text-slate-500">In small groups (3-4 students), select one historical accident case study. You have 15 minutes to research and structure your 5-minute briefing.</p>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${groupResearchSprint.title || 'Activity 4: 15-Minute Group Research &amp; Preparation Sprint (15 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${groupResearchSprint.summary || 'In small groups (3-4 students), select one historical accident case study. You have 15 minutes to research and structure your 5-minute briefing.'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-rose-700 bg-rose-50 border border-rose-200 px-2 py-0.5 rounded-md uppercase tracking-wider shrink-0">15-Min Sprint</span>
             </div>
+
+            ${renderActivityInstructions(groupResearchSprint, theme)}
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5">
               ${caseStudies.map(cs => `
@@ -9202,12 +9283,14 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">65-110m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">Activity 5: Spoken Group Presentations &amp; Safety Debrief (45 mins)</h4>
-                  <p class="text-[11px] text-slate-500">Each group presents their 5-minute accident analysis using whiteboard or bullet slides, followed by class Q&amp;A.</p>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${presentationsDebrief.title || 'Activity 5: Spoken Group Presentations &amp; Safety Debrief (45 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${presentationsDebrief.summary || 'Each group presents their 5-minute accident analysis using whiteboard or bullet slides, followed by class Q&amp;A.'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Class Presentations</span>
             </div>
+
+            ${renderActivityInstructions(presentationsDebrief, theme)}
 
             <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
               <h5 class="text-xs font-bold text-slate-800 uppercase tracking-wide">Presentation Rubric &amp; Delivery Rules:</h5>
@@ -9218,14 +9301,43 @@
           </div>
 
           <!-- Activity 6: FE2 Prep & Wrap-Up -->
-          <div class="p-4 bg-slate-100 rounded-xl border border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-700">
-            <div>
-              <h5 class="font-bold text-slate-900">Activity 6: Vocabulary Review &amp; FE2 Prep (10 mins)</h5>
-              <p class="text-[11px] text-slate-500">Prepare for Session 5 Formative Evaluation: Aircraft or Airline Profile Presentation in pairs.</p>
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">110-120m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${closing.title || 'Activity 6: Vocabulary Review &amp; Formative Evaluation 2 Prep (10 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${closing.summary || 'Review the 18 accident investigation terms and review expectations for Session 5 Formative Evaluation 2.'}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Closing Consolidation</span>
             </div>
-            <button onclick="switchModalTab('fe_guidelines')" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold text-white shadow-xs hover:opacity-90 transition-all cursor-pointer shrink-0" style="background-color: ${theme.primary};">
-              <span>View FE2 Guidelines</span> &rarr;
-            </button>
+
+            ${renderActivityInstructions(closing, theme)}
+
+            ${closing.fe2Preview ? `
+              <div class="p-3.5 bg-indigo-50/60 border border-indigo-200 rounded-xl space-y-1.5">
+                <span class="text-[11px] font-bold text-indigo-950 uppercase tracking-wide">Session 5 Formative Evaluation 2 Format:</span>
+                <p class="text-xs text-indigo-900 leading-relaxed">${closing.fe2Preview}</p>
+              </div>
+            ` : ''}
+
+            <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+              <div class="space-y-1">
+                <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Consolidation Checkpoints</span>
+                <ul class="space-y-1 text-slate-700">
+                  ${(closing.checkpoints || ['Mastered 18 accident investigation & safety terms', 'Coordinated past simple, continuous, and perfect in chronology', 'Confirmed FE2 partner, topic, and presentation structure']).map(cp => `<li class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">&check;</span> ${cp}</li>`).join('')}
+                </ul>
+              </div>
+              <div class="flex flex-wrap items-center gap-2 shrink-0">
+                <button onclick="switchModalTab('revision')" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold text-slate-700 bg-white border border-slate-300 shadow-2xs hover:bg-slate-100 transition-all cursor-pointer">
+                  <span>Vocabulary Flashcards</span>
+                </button>
+                <button onclick="switchModalTab('fe_guidelines')" class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold text-white shadow-xs hover:opacity-90 transition-all cursor-pointer" style="background-color: ${theme.primary};">
+                  <span>View FE2 Guidelines</span> &rarr;
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       `;

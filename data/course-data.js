@@ -5016,6 +5016,14 @@
           "openingSession": {
             "title": "Activity 1: Environmental Policy News & Argument Diagnostic (10 mins)",
             "summary": "Opening warm-up examining international policy controversies and diagnostic distinctions in argumentation.",
+            "modeBadges": ["Pairs", "Diagnostic Spot-Check", "10 Mins"],
+            "instructions": [
+              "Read the 3 weekly environmental policy headlines (short-haul flight bans, urban delivery mandates, greenwashing tribunals).",
+              "With your partner, discuss the 4 diagnostic distinctions: Claim vs. Evidence, Strategic Concession, Correlation vs. Causation, and the Straw Man fallacy.",
+              "Click 'Reveal Answer' on each card to evaluate your rhetorical reasoning against the model answers."
+            ],
+            "deliverable": "Accurate verbal distinction between assertions, empirical evidence, and concessive counter-arguments.",
+            "teacherNotes": "Ensure students recognize that in technical and environmental policy debates, an unbacked claim is easily dismissed. Emphasize that making a concession ('While upfront capex is elevated...') actually strengthens technical credibility.",
             "newsPrompts": [
               "European governments debate capping regional flight routes where high-speed trains offer sub-2.5-hour city connections.",
               "City mayors clash with logistics carriers over mandatory zero-emission delivery vehicle mandates in low-emission zones.",
@@ -5051,6 +5059,15 @@
           "survey": {
             "title": "Activity 2: Environmental Policy Dilemmas: Speed Sparring (25 mins)",
             "summary": "Engage in timed 4-minute debate rounds on four controversial climate policies. Practice using the Toulmin framework: Claim → Data → Warrant → Concession → Rebuttal.",
+            "modeBadges": ["Pairs", "Timed Speed Sparring", "25 Mins"],
+            "instructions": [
+              "Review the 4 policy dilemma cards: Short-Haul Flight Bans, Airport Night Curfews, Small Modular Nuclear Reactors, and Fast-Tracking Green Infrastructure Permits.",
+              "Take turns roleplaying the Pro (advocacy) and Con (counter) positions for each topic in rapid 4-minute sparring rounds.",
+              "Incorporate at least two of the mandatory spoken discourse signposts into each round ('While I concede that...', 'Empirical evidence strongly suggests that...').",
+              "Switch partners after Dilemma 2 to defend the opposing viewpoint."
+            ],
+            "deliverable": "4 structured Toulmin exchanges (Claim → Data → Warrant → Concession → Rebuttal) utilizing polite concessive signposts.",
+            "teacherNotes": "Circulate to monitor discourse markers. Intervene if students rely on casual conversational fillers ('Yeah but...', 'I don't think so'). Hold students to formal hedging and concessive markers ('Admittedly...', 'Notwithstanding the operational challenges...').",
             "signposts": [
               "\"While I concede that [X] involves significant expenditure, ...\"",
               "\"Empirical evidence strongly suggests that ...\"",
@@ -5095,6 +5112,15 @@
           "grammarClinic": {
             "title": "Activity 3: Language Clinic: Gerunds vs. Infinitives & Concessive Signposts (20 mins)",
             "summary": "Selecting the correct verb complementation patterns (Gerund vs. Infinitive) and mastering sophisticated concessive discourse markers for persuasive speaking.",
+            "modeBadges": ["Pairs / Individual", "Grammar Drills", "20 Mins"],
+            "instructions": [
+              "Review the 3 core grammatical structures: Verbs taking Gerunds (advocate doing, delay implementing), Verbs taking Infinitives (agree to fund, aim to achieve), and Concessive Clauses (Although + clause vs. Despite + noun phrase).",
+              "Analyze the formula examples and identify which policy actions require an ongoing process focus (-ing) versus future commitments (to + verb).",
+              "Complete the 4 interactive TOEIC Part 5 drills independently, selecting the correct verb complementation pattern.",
+              "Click 'Check Answer & Explanation' and note the structural justification in your error log."
+            ],
+            "deliverable": "100% accuracy on the 4 verb complementation drills with written grammar justification in study logs.",
+            "teacherNotes": "Highlight that TOEIC frequently tests 'advocate + -ing', 'risk + -ing', and 'decide + infinitive'. Remind students that 'despite' is a preposition taking a noun phrase, whereas 'although' introduces a full subordinate clause with subject and verb.",
             "rules": [
               {
                 "type": "Verbs followed by Gerunds (-ing)",
@@ -5165,6 +5191,16 @@
           },
           "roleplay": {
             "title": "Activity 4: Public Inquiry Hearing Simulation (45 mins)",
+            "summary": "Formal administrative inquiry and stakeholder cross-examination on regional climate infrastructure.",
+            "modeBadges": ["Groups of 4", "Public Inquiry Hearing", "45 Mins"],
+            "instructions": [
+              "Form a hearing committee of 4: Environmental Commissioner (Chair), Airline/Airport Association Spokesperson, Metropolitan Residents Coalition President, and Chief Civil Infrastructure Engineer.",
+              "Review the hearing scenario: a proposed €5 passenger surcharge and municipal tax levy to finance €150M in sea-wall defenses and district cooling networks.",
+              "Take 10 minutes to prepare your stakeholder position, anticipating two tough cross-examination questions from opposing delegates.",
+              "Convene the 30-minute formal inquiry: the Chair opens testimony (3 mins per delegate), facilitates cross-examination (15 mins), and leads consensus deliberations on an amended policy (5 mins)."
+            ],
+            "deliverable": "Formal verbal testimony, recorded cross-examination exchanges, and a signed 3-clause compromise policy draft.",
+            "teacherNotes": "Keep time strictly. The Chair must maintain formal decorum ('The floor now recognizes the chief engineer...'). Encourage participants to challenge unverified claims by demanding empirical data or questioning long-term capex feasibility.",
             "scenario": "The Regional Environmental Agency is holding a public inquiry on a proposed 'Climate Resilience Infrastructure Surcharge' (a 5-euro fee per passenger and a municipal tax increase) to fund 150 million euros in flood surge sea walls and district cooling networks. Stakeholders must defend their positions under cross-examination.",
             "roles": [
               {
@@ -5187,6 +5223,15 @@
           },
           "closingReview": {
             "title": "Session 3 Wrap-Up & FE2 Argument Defense (15 mins)",
+            "summary": "Consolidation, phonetics, and portfolio check for Formative Evaluation 2 readiness.",
+            "modeBadges": ["Plenary", "Self-Assessment", "15 Mins"],
+            "instructions": [
+              "Cross-check your learning notes against the 3 Formative Evaluation 2 readiness criteria.",
+              "Record 5 advanced rhetorical discourse markers and 4 verb complementation patterns in your personal study portfolio.",
+              "Rehearse an impromptu 90-second response with a peer answering a challenging environmental counter-argument without consulting notes."
+            ],
+            "deliverable": "Completed study log entries and verified readiness checklist for Formative Evaluation 2.",
+            "teacherNotes": "Remind students that FE2 evaluates spontaneous argument defense during the teacher Q&A. Students must not memorize a monologue; they must demonstrate dynamic responsiveness to unexpected challenges.",
             "feChecklist": [
               "Record 5 rhetorical markers and verbs taking gerunds/infinitives in your study log.",
               "Prepare your spontaneous defense for the FE2 Teacher Q&A: anticipate 2 tough questions.",
@@ -5627,6 +5672,14 @@
           "openingSession": {
             "title": "Activity 1: Aerodrome Ecology News & Diagnostic Warm-Up (10 mins)",
             "summary": "Opening warm-up on nature-based solutions, aerodrome wildlife management, and biodiversity net gain.",
+            "modeBadges": ["Pairs", "Diagnostic Spot-Check", "10 Mins"],
+            "instructions": [
+              "Read the 3 news headlines regarding aerodrome wildflower meadows, statutory Biodiversity Net Gain (BNG) mandates, and AI bird radar systems.",
+              "Discuss the 4 diagnostic concepts with your partner: Nature-Based Solutions (NbS), BNG statutory metrics, ICAO Annex 14 Bird Strike Hazard balance, and Bioswales vs. concrete ditches.",
+              "Click 'Reveal Answer' to benchmark your technical definitions against civil aviation ecological standards."
+            ],
+            "deliverable": "Fluent oral definitions of key aerodrome ecology concepts and ICAO safety trade-offs.",
+            "teacherNotes": "Emphasize the unique tension at transport hubs: while urban sustainability calls for biodiversity, airfields must actively discourage hazardous flocking birds near runways.",
             "newsPrompts": [
               "International airports plant native wildflower meadows across non-manoeuvring safety zones, boosting wild pollinators while managing bird strike risks.",
               "New transport regulations mandate 'Biodiversity Net Gain' (BNG) of at least 10% on all new motorway and rail infrastructure projects.",
@@ -5662,6 +5715,15 @@
           "survey": {
             "title": "Activity 2: Biodiversity & Safety Dilemmas: Speed Survey (25 mins)",
             "summary": "Explore 4 real-world operational challenges where environmental protection intersects with aviation safety and urban expansion.",
+            "modeBadges": ["Pairs", "Timed Technical Survey", "25 Mins"],
+            "instructions": [
+              "Examine the 4 operational dilemmas: Airfield Long Grass Management (15-20 cm), Wildlife Overpasses (Ecoducts), AI Avian Radar & Acoustic Dispersal, and Terminal Green Roofs & Pollinators.",
+              "Interview your partner across 4 timed rounds, alternating between presenting the ecological benefit and challenging it with the aviation safety or cost constraint.",
+              "Use formal discourse markers to structure your responses ('From an ecological engineering standpoint...', 'Under ICAO Annex 14 regulations...').",
+              "Formulate an engineering compromise for at least two of the dilemma scenarios."
+            ],
+            "deliverable": "4 completed partner interview logs weighing biodiversity gains against operational safety risks.",
+            "teacherNotes": "Push students to move beyond simplistic 'trees are good' statements. Demand technical precision: What species of grass? What height? Why do starlings avoid long grass? How do steep pond banks prevent waterfowl nesting?",
             "signposts": [
               "\"From an ecological engineering standpoint, ...\"",
               "\"To prevent hazardous wildlife strikes while fostering biodiversity, ...\"",
@@ -5706,6 +5768,15 @@
           "grammarClinic": {
             "title": "Activity 3: Language Clinic: Pronouns & Determiners in Technical English (20 mins)",
             "summary": "Mastering agreement with singular and plural indefinite pronouns, possessive determiners (its vs. their), and reflexive forms in TOEIC Part 5.",
+            "modeBadges": ["Pairs / Individual", "Grammar Drills", "20 Mins"],
+            "instructions": [
+              "Review the 3 grammar rules: Singular Indefinite Pronouns (Each/Every/Neither take singular verbs), Possessive Determiners for organizations (The airport released its report, NOT their), and Reflexive/Emphatic forms (itself, themselves).",
+              "Note the high-frequency TOEIC Part 5 traps: confusing 'its' (possessive) with 'it\\'s' (it is), and verb agreement after 'Each of [plural noun]'.",
+              "Complete the 4 interactive multiple-choice drills under timed conditions (30 seconds per item).",
+              "Click 'Check Answer & Explanation' and record the grammatical justification for each correct answer."
+            ],
+            "deliverable": "Accurate completion of the 4 grammar drills and error analysis documented in student study journals.",
+            "teacherNotes": "Highlight that corporate entities (authorities, airlines, airports, committees) are grammatically singular in international business English: 'The CAA published its findings'.",
             "rules": [
               {
                 "type": "Singular Indefinite Pronouns (Each, Every, Either, Neither)",
@@ -5776,6 +5847,16 @@
           },
           "roleplay": {
             "title": "Activity 4: Aerodrome Wildlife Hazard & Ecological Transition Committee (45 mins)",
+            "summary": "Joint wildlife hazard mitigation and nature-based solutions committee.",
+            "modeBadges": ["Groups of 4", "Committee Simulation", "45 Mins"],
+            "instructions": [
+              "Form a 4-person committee: Aerodrome Wildlife Hazard Officer, Regional Wetland Nature Reserve Director, Airport Operations & Flight Safety Liaison, and Ecological Landscape Architect.",
+              "Review the mission: expand airport stormwater retention basins while guaranteeing zero increase in bird strike risks within the 13 km runway hazard zone.",
+              "Conduct a 30-minute committee session: each officer delivers their 3-minute technical brief, followed by 15 minutes of cross-table negotiation and 5 minutes to agree on an actionable 5-point master plan.",
+              "Present the master plan recommendations to the class in a 2-minute executive summary."
+            ],
+            "deliverable": "A finalized 5-point Aerodrome Ecological Mitigation Protocol balancing habitat conservation with runway safety zones.",
+            "teacherNotes": "Encourage realistic tension: the conservation director wants bird feeding wetlands; the safety officer demands netting and deterrents. Successful groups will find zoning compromises (e.g., steep embankments, floating netting, non-fruiting vegetation near the RESA).",
             "scenario": "A major international coastal airport is surrounded by protected wetlands. The airport must expand its stormwater retention basins while ensuring zero increase in bird strike hazards. Convene the joint Wildlife Hazard & Ecological Transition Committee to draft an actionable 5-point master plan.",
             "roles": [
               {
@@ -5798,6 +5879,15 @@
           },
           "closingReview": {
             "title": "Session 4 Wrap-Up & FE2 Launch Briefing (15 mins)",
+            "summary": "Final Formative Evaluation 2 checklist & topic confirmation.",
+            "modeBadges": ["Plenary", "FE2 Preparation", "15 Mins"],
+            "instructions": [
+              "Review the 5 Formative Evaluation 2 readiness checkpoints: topic selection, 50/50 partner speaking equity, 4-dimension structure, vocabulary integration (6-8 terms), and portfolio readiness.",
+              "Confirm your partner pairing and final topic (Option A: Airport Climate Resilience or Option B: City Climate Resilience).",
+              "Review the evaluation rubric criteria: Spoken Fluency (5 pts), Technical Vocabulary Range (5 pts), Grammatical Accuracy (5 pts), and Interaction & Defense (5 pts)."
+            ],
+            "deliverable": "Finalized FE2 presentation plan, partner speaking distribution, and signed presentation topic declaration.",
+            "teacherNotes": "Ensure every student has an assigned partner and a confirmed topic before leaving class. Highlight that visual slides must serve as visual aids only (bullet prompts, diagrams, graphs)—reading from slides results in immediate point deductions.",
             "feChecklist": [
               "Select your topic: Option A (Airport Climate Resilience) or Option B (City Climate Resilience).",
               "Verify that both partners have equal 50/50 speaking time (~6 minutes each).",
@@ -13272,6 +13362,14 @@
           "openingSession": {
             "title": "Activity 1: Aviation News & Session 2 Spot-Check (10 mins)",
             "summary": "News review followed by quick vocabulary check on aircraft parts.",
+            "modeBadges": ["Pairs", "News & Diagnostic", "10 Mins"],
+            "instructions": [
+              "Read the 3 fleet news prompts (Airbus A321XLR deliveries, Boeing 747 freighter retirement, Air France-KLM A350 fleet renewal).",
+              "Test your partner on the 4 aircraft anatomy spot-check questions (narrowbody vs. widebody, LCC fleet commonality benefits, regional manufacturers, MTOW definition).",
+              "Toggle each question answer to verify your technical accuracy and terminology."
+            ],
+            "deliverable": "Fluent oral explanations of commercial aircraft classifications and fleet economics.",
+            "teacherNotes": "Verify students understand why single-aisle fleet commonality is so profitable for budget carriers (crew interchangeability, maintenance pooling, standardized quick turnarounds).",
             "newsPrompts": [
               "Transatlantic low-cost airline announces order for 20 Airbus A321XLR aircraft to pioneer point-to-point routes from secondary airports.",
               "Boeing delivers final 747 freighter, marking the end of 54 years of iconic quad-jet Queen of the Skies production.",
@@ -13307,6 +13405,14 @@
           "fleetTaxonomy": {
             "title": "Activity 2: Commercial Aircraft Classification Matrix (25 mins)",
             "summary": "Classify commercial passenger and freighter aircraft into operational categories.",
+            "modeBadges": ["Pairs / Small Groups", "Fleet Analysis", "25 Mins"],
+            "instructions": [
+              "Analyze the 4 commercial aircraft categories: Regional Turboprops & Jets, Single-Aisle Narrowbodies, Twin-Aisle Widebodies, and Dedicated Freighters.",
+              "Compare seat capacities, operational ranges, and typical airline missions across models (ATR 72, A220, A320neo, 737 MAX, A350, 777F).",
+              "Identify which aircraft category is optimal for 3 distinct routes: Paris-Orly to Brest, Paris-CDG to New York JFK, and Toulouse to Bastia."
+            ],
+            "deliverable": "Completed route-to-aircraft matching matrix with operational and financial justifications.",
+            "teacherNotes": "Emphasize the transformative role of the A321XLR in allowing narrowbody single-aisle aircraft to fly thin long-haul transatlantic routes profitably without needing a 300-seat widebody.",
             "categories": [
               {
                 "category": "Regional Turboprops & Jets",
@@ -13341,6 +13447,14 @@
           "comparativeClinic": {
             "title": "Activity 3: Language Clinic: Comparative & Superlative Data (20 mins)",
             "summary": "Mastering modifiers and comparative structures to evaluate aircraft efficiency and fleet statistics.",
+            "modeBadges": ["Pairs / Individual", "Data Analysis & Grammar", "20 Mins"],
+            "instructions": [
+              "Study the 3 comparative structures: Quantified Comparatives (Percentage/Factor + more/less... than), Emphatic Modifiers (substantially / significantly / considerably), and Superlative Benchmarks (the longest range... in its class).",
+              "Review the aircraft performance data and formulate 4 spoken sentences comparing the fuel burn, seat capacity, MTOW, and range of the A350-900 vs. Boeing 777-300ER.",
+              "Share your comparative statements with your partner, verifying accurate preposition and modifier usage."
+            ],
+            "deliverable": "4 mathematically and grammatically accurate comparative statements benchmarking commercial airliner performance.",
+            "teacherNotes": "Target common French speaker interference: 'more economical than' (not 'more economic'), '25% less fuel' (not 'fewer fuel'), and placing modifiers correctly ('considerably higher', not 'high considerably').",
             "rules": [
               {
                 "structure": "Quantified Comparatives",
@@ -13362,7 +13476,15 @@
           "fleetCommitteeSimulation": {
             "title": "Activity 4: Airline Fleet Selection Committee Simulation (30 mins)",
             "summary": "Pairs represent airline management committees pitching an aircraft purchase order for a new route network.",
-            "instructions": "Select one of the two business cases below. Over 15 minutes, prepare a 3-minute executive pitch to the board of directors (your classmates) recommending Aircraft Option A or Option B.",
+            "modeBadges": ["Pairs", "Executive Simulation", "30 Mins"],
+            "instructions": [
+              "Select one of the two business cases: Case 1 (Transatlantic Expansion: A321XLR vs. Boeing 787-8) or Case 2 (Regional Feeder Fleet: ATR 72-600 vs. Embraer E175).",
+              "With your partner, spend 15 minutes analyzing the payload, range, trip cost, and passenger appeal trade-offs of Option A versus Option B.",
+              "Structure a 3-minute executive board pitch recommending one aircraft, using comparative grammar and economic metrics.",
+              "Present your pitch to a peer pair acting as the airline Board of Directors, defending your choice against a 2-minute counter-challenge."
+            ],
+            "deliverable": "3-minute executive board presentation recommending an aircraft procurement strategy with quantitative support.",
+            "teacherNotes": "Ensure students support their choices with financial logic: widebodies generate higher belly-cargo revenue and passenger comfort, but narrowbodies feature vastly lower trip break-even factors on thin secondary routes.",
             "cases": [
               {
                 "title": "Case 1: Transatlantic Expansion for a European Airline",
@@ -13381,6 +13503,14 @@
           "globalLandscapeDebate": {
             "title": "Activity 5: Global Manufacturer Debate & Industry Trends (25 mins)",
             "summary": "Class debate exploring the Airbus-Boeing duopoly, supply chain bottlenecks, and the emergence of COMAC.",
+            "modeBadges": ["Plenary / Fishbowl", "Industry Debate", "25 Mins"],
+            "instructions": [
+              "Review the 3 industry debate topics: point-to-point narrowbody flying vs. hub widebodies, COMAC C919 challenging the Western duopoly, and dual-sourcing vs. single-manufacturer fleet commonality.",
+              "Form two debate teams (or use a fishbowl format) to debate whether airlines should risk split orders to avoid multi-year delivery backlogs.",
+              "Deploy structured debate connectors: 'While the duopoly offers proven dispatch reliability, ...', 'From a supply chain resilience standpoint, ...'."
+            ],
+            "deliverable": "Active spoken participation in plenary debates utilizing strategic argumentation and aero-economic terms.",
+            "teacherNotes": "Moderate the debate to ensure all students contribute. Challenge assumptions: Why can't COMAC easily enter Western markets? (EASA/FAA certification, global spare parts networks, Western component export controls).",
             "topics": [
               "Will point-to-point narrowbody flying permanently replace the traditional hub-and-spoke widebody model?",
               "Can COMAC's C919 realistically challenge the Airbus A320 and Boeing 737 duopoly on international routes by 2035?",
@@ -13390,6 +13520,19 @@
           "closingReview": {
             "title": "Activity 6: Vocabulary Review & Pronunciation Wrap-Up (10 mins)",
             "summary": "Consolidate the 18 commercial fleet terms and prepare for Session 4 Aviation Accidents.",
+            "modeBadges": ["Plenary", "Pronunciation Drill", "10 Mins"],
+            "instructions": [
+              "Complete the syllable stress drills on the 5 technical terms: ma-nu-FAC-tu-rer, du-OP-o-ly, TUR-bo-prop, ca-PA-ci-ty, con-fig-u-RA-tion.",
+              "Review the 18 commercial fleet flashcard definitions in the Revision tab.",
+              "Log any lingering pronunciation difficulties and prepare for Session 4 (Aviation Accidents & Safety)."
+            ],
+            "deliverable": "Accurate pronunciation and word stress demonstrated on all 5 polysyllabic aviation terms.",
+            "teacherNotes": "Drill word stress energetically. French speakers tend to stress the final syllable; reinforce strong primary stress on the accented syllables (e.g., du-OP-o-ly, not du-op-o-LY).",
+            "checkpoints": [
+              "Mastered 18 commercial aircraft & fleet planning terms",
+              "Practiced comparative modifiers in oral pitches",
+              "Completed syllable stress drills on aeronautical vocabulary"
+            ],
             "pronunciationFocus": [
               "ma-nu-fac-tu-rer",
               "du-op-o-ly",
@@ -13813,6 +13956,14 @@
           "openingSession": {
             "title": "Activity 1: Aviation News & Session 3 Spot-Check (10 mins)",
             "summary": "News review followed by quick vocabulary check on commercial fleets.",
+            "modeBadges": ["Pairs", "News & Diagnostic", "10 Mins"],
+            "instructions": [
+              "Read the 3 aviation safety news items (BEA annual report, NTSB automation symposium, ICAO 25-hour CVR mandate).",
+              "Test your partner on the 4 core accident investigation questions: Accident vs. Incident (ICAO Annex 13), FDR vs. CVR capabilities, CFIT definition, and the Swiss Cheese safety model.",
+              "Toggle each answer to verify definitions against official ICAO investigation terminology."
+            ],
+            "deliverable": "Concise verbal explanations of core safety concepts and accident classification criteria.",
+            "teacherNotes": "Stress that aviation safety investigations exist solely to determine causes and prevent recurrence, NOT to apportion blame or legal liability (ICAO Annex 13 principle).",
             "newsPrompts": [
               "French accident bureau BEA issues annual safety synthesis highlighting stable commercial airline safety records in Europe.",
               "NTSB safety symposium examines pilot-machine interface and automated flight envelope protections.",
@@ -13848,6 +13999,14 @@
           "investigationLexis": {
             "title": "Activity 2: Accident Investigation Terminology & Causal Chains (20 mins)",
             "summary": "Learn and deploy specialized safety vocabulary used by investigation authorities (BEA, NTSB, AAIB).",
+            "modeBadges": ["Pairs", "Lexis Acquisition", "20 Mins"],
+            "instructions": [
+              "Review the 5 core investigation concepts: Flight Data Recorder (FDR), Cockpit Voice Recorder (CVR), Root Cause vs. Contributing Factor, Human Factors & CRM, and Airworthiness Directives (AD).",
+              "Pair up to explain how a minor technical glitch can cascade into a catastrophic event when multiple contributing factors align.",
+              "Match each term to its real-world investigation document (preliminary report, FDR readout, final safety recommendation)."
+            ],
+            "deliverable": "Precise deployment of causal terminology in simulated incident descriptions.",
+            "teacherNotes": "Check understanding of the distinction between 'root cause' (the underlying trigger without which the accident would not occur) and 'contributing factors' (environmental, fatigue, organizational conditions that aggravated the event).",
             "terms": [
               {
                 "term": "Flight Data Recorder (FDR)",
@@ -13874,6 +14033,14 @@
           "pastNarrativesClinic": {
             "title": "Activity 3: Language Clinic: Narrative Past Tenses & Sequencers (20 mins)",
             "summary": "Combining Past Simple, Past Continuous, and Past Perfect to build clear chronological incident reports.",
+            "modeBadges": ["Pairs / Individual", "Narrative Grammar", "20 Mins"],
+            "instructions": [
+              "Examine the narrative timeline formula combining Past Continuous (background condition: 'was cruising at FL350'), Past Perfect (prior action: 'ice crystals had blocked the probes'), and Past Simple (consecutive events: 'the autopilot disconnected, the alarm sounded, and the crew pitched up').",
+              "Identify the time sequencers used in professional accident reports: 'subsequently', 'concurrently', 'prior to impact', 'thereafter'.",
+              "Reconstruct a 3-sentence chronological sequence of an in-flight engine failure using all three past tenses accurately."
+            ],
+            "deliverable": "Written and spoken chronological narrative accurately coordinating Past Simple, Past Continuous, and Past Perfect.",
+            "teacherNotes": "Non-native speakers often overuse the past simple. Insist on the past perfect for actions completed before another past event: 'The aircraft crashed because the maintenance crew had forgotten to lock the cowl latch.'",
             "rules": [
               {
                 "tense": "Past Continuous (Background Action in Progress)",
@@ -13895,7 +14062,14 @@
           "groupResearchSprint": {
             "title": "Activity 4: 15-Minute Group Research & Preparation Sprint (15 mins)",
             "summary": "Small groups (3-4 students) select one landmark accident case study. Within 15 minutes, prepare a 5-minute spoken briefing for classmates.",
-            "instructions": "Choose one accident from the cards below. Extract: (1) Aircraft type and operator, (2) Flight phase and sequence of events, (3) Technical and human root causes, (4) Safety improvements resulting from the investigation.",
+            "modeBadges": ["Small Groups (3-4)", "Research Sprint", "15 Mins"],
+            "instructions": [
+              "Form groups of 3-4 and select one of the 6 landmark accident case studies: Tenerife (1977), AF447 (2009), US Airways 1549 (2009), BA038 (2008), Aloha 243 (1988), or Boeing 737 MAX (2018-2019).",
+              "In a 15-minute timed sprint, extract the 4 mandatory briefing pillars: (1) Aircraft type & context, (2) Chronology of events, (3) Technical & human root causes, (4) Permanent safety upgrades.",
+              "Assign speaking roles so that each group member presents one specific pillar without verbatim reading."
+            ],
+            "deliverable": "Structured 4-part presentation outline ready for spoken delivery within the 15-minute timebox.",
+            "teacherNotes": "Act as a timekeeper. Do not allow groups to spend 10 minutes choosing a topic; assign immediately if needed. Check that notes contain only bullet prompts, key acronyms, and flight numbers.",
             "caseStudies": [
               {
                 "id": 1,
@@ -13944,6 +14118,15 @@
           "presentationsDebrief": {
             "title": "Activity 5: Spoken Group Presentations & Class Debrief (45 mins)",
             "summary": "Each group presents their 5-minute accident analysis using whiteboard or slide bullet points, followed by class Q&A.",
+            "modeBadges": ["Small Groups", "Spoken Presentation", "45 Mins"],
+            "instructions": [
+              "Deliver your 5-minute accident briefing to the class, using the whiteboard or bullet slides to support your narrative.",
+              "Ensure talking time is distributed equally among all team members. Strictly no reading from pre-written essays!",
+              "After each presentation, the audience formulates at least two technical questions regarding the investigation findings or regulatory follow-up.",
+              "Synthesize how the accident contributed to the modern aviation safety ecosystem."
+            ],
+            "deliverable": "5-minute spoken briefing delivered without verbatim notes and active engagement in technical peer Q&A.",
+            "teacherNotes": "Enforce equal speaking time strictly. If one student dominates, prompt the other team members: 'Could the second speaker explain the human factors component?' Assess pronunciation of past tense -ed endings (e.g., disconnected, pitched, descended).",
             "presentationGuidelines": [
               "Structure: (1) Aircraft type & context, (2) Chronology of events, (3) Root causes, (4) Permanent safety fixes.",
               "Speaking rules: Share talking time equally among all group members. Strictly no verbatim reading from notes!",
@@ -13953,6 +14136,19 @@
           "closingReview": {
             "title": "Activity 6: Vocabulary Review & Formative Evaluation 2 Prep (10 mins)",
             "summary": "Review the 18 accident investigation terms and review expectations for Session 5 Formative Evaluation 2.",
+            "modeBadges": ["Plenary", "FE2 Preparation", "10 Mins"],
+            "instructions": [
+              "Review the 18 accident and safety terms in the Revision tab flashcards.",
+              "Note the expectations for Session 5 Formative Evaluation 2: 10-12 minute paired presentation of an Aircraft or Airline Profile, followed by teacher cross-examination.",
+              "Verify your presentation partner, topic selection, and slide preparation plan."
+            ],
+            "deliverable": "Confirmed FE2 preparation roadmap and mastery of the 18 accident investigation vocabulary items.",
+            "teacherNotes": "Remind students that FE2 in Session 5 is formative, providing detailed diagnostic feedback on pronunciation, technical lexis, and spontaneous Q&A defense.",
+            "checkpoints": [
+              "Mastered 18 accident investigation & safety terms",
+              "Coordinated past simple, continuous, and perfect in chronology",
+              "Confirmed FE2 partner, topic, and presentation structure"
+            ],
             "fe2Preview": "In Session 5, you and your partner will present an Aircraft or Airline Profile for 10-12 minutes, followed by teacher Q&A, covering technical specs, operational metrics, historical milestones, and safety records."
           }
         },
