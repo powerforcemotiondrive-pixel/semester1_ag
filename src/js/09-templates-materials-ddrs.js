@@ -293,9 +293,35 @@
 
     function renderToeicTab(sessionData, theme) {
       const bodyEl = document.getElementById('modal-body');
-      const questions = (sessionData.materials && sessionData.materials.toeicQuestions && sessionData.materials.toeicQuestions.length > 0)
+      const rawQuestions = (sessionData.materials && sessionData.materials.toeicQuestions && sessionData.materials.toeicQuestions.length > 0)
         ? sessionData.materials.toeicQuestions
         : (sessionData.materials && sessionData.materials.toeic ? [sessionData.materials.toeic] : []);
+
+      const questions = rawQuestions.map(q => {
+        if (!q) return { options: [] };
+        const stem = q.stem || q.question || '';
+        const options = (q.options || []).map(opt => {
+          if (typeof opt === 'string') {
+            const m = opt.match(/^([A-D])\)\s*(.*)$/);
+            return m ? { letter: m[1], text: m[2] } : { letter: '', text: opt };
+          }
+          return opt;
+        });
+        const correctLetter = q.correctLetter || 'A';
+        const matchingOpt = options.find(o => o.letter === correctLetter);
+        const correctText = q.correctText || (matchingOpt ? matchingOpt.text : '');
+        const analysis = q.analysis || q.explanation || '';
+        const strategy = q.strategy || '';
+        return {
+          id: q.id,
+          stem,
+          options,
+          correctLetter,
+          correctText,
+          analysis,
+          strategy
+        };
+      });
 
       const totalQs = questions.length;
       if (modalState.toeicIdx < 0) modalState.toeicIdx = 0;
