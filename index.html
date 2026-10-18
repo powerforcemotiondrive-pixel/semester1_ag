@@ -768,7 +768,7 @@
           s1: "Session 1 - Introduction & Aviation Survey",
           s2: "Session 2 - Passenger Journey & Airfield Movement",
           s3: "Session 3 - Ground Operations & Turnaround",
-          s4: "Session 4 - Air Traffic Control & Surface Movement"
+          s4: "Session 4 - Jobs in Aviation"
         },
         2: {
           s1: "Session 1: Principles of Flight",
@@ -846,7 +846,7 @@
           s1: `Welcome to Aeronautical English Module 1 on Aerodromes! In this opening session, we explore airport operations, aviation security, commercial airline models, and environmental challenges while practicing discussion fluency and technical vocabulary.<br><br><em>Subject overview:</em> In-class survey interviews discussing key aviation themes: alcohol on board, armed pilots and air marshals, low-cost carrier economics, noise abatement, future propulsion, space tourism, airport security, and flight delay passenger rights.<br><br>${formativeEvaluationNotice}`,
           s2: `Welcome to Session 2! We explore the passenger's journey through the airport—from landside check-in, security screening, and duty-free retail to the departure gate—as well as airside movement areas including aprons, taxiways, ground markings, and runway numbering.<br><br><em>Subject overview:</em> Passenger terminal flow, security checkpoints, airside apron operations, pushback tugs, taxiway guidance markings, and runway magnetic designators.<br><br>${formativeEvaluationNotice}`,
           s3: `Welcome to Session 3! In this class, we analyze ground handling workflows, baggage logistics, refueling protocols, and gate turnaround optimization.<br><br><em>Subject overview:</em> Ramp safety, ground support equipment (GSE), slot allocation, and minimizing turnaround time.<br><br>${formativeEvaluationNotice}`,
-          s4: `Welcome to Session 4! We investigate tower control operations, ground radar monitoring, surface movement guidance, and runway incursion prevention.<br><br><em>Subject overview:</em> Surface movement guidance systems (A-SMGCS), runway safety protocols, and standard radiotelephony phraseology.<br><br>${formativeEvaluationNotice}`
+          s4: `Welcome to Session 4! We examine aviation operational careers across landside, airside, flight operations, air traffic services, and civil aviation administration.<br><br><em>Subject overview:</em> Professional roles and jurisdictions: Passenger Service Agents, Ramp Coordinators, Flight Crew, ATCOs (Tower, Approach, En-Route), and TSEEAC functions (AFISO, aerodrome operations coordination, DGAC safety oversight). Expressing duties, authority, and handoff procedures.<br><br>${formativeEvaluationNotice}`
         },
         2: {
           s1: `Welcome to Module 2 on Aircraft and Aerodynamics! We examine lift generation, drag types, aerodynamic control surfaces, and stability in flight.<br><br><em>Subject overview:</em> Bernoulli principles, airfoil design, angle of attack, and flight control authority.<br><br>${formativeEvaluationNotice}`,
@@ -870,6 +870,8 @@
       const s2ClassReviewUrl = (isAas && modNumber === 1) ? "session2/rev_aas1.html" : `session2/rev${modNumber}.html`;
       const s3AdditionalMaterialsUrl = (isAas && modNumber === 1) ? "session3/admat_aas1.html" : `session3/admat${modNumber}.html`;
       const s3ClassReviewUrl = (isAas && modNumber === 1) ? "session3/rev_aas1.html" : `session3/rev${modNumber}.html`;
+      const s4AdditionalMaterialsUrl = (isAas && modNumber === 1) ? "session4/admat_aas1.html" : `session4/admat${modNumber}.html`;
+      const s4ClassReviewUrl = (isAas && modNumber === 1) ? "session4/rev_aas1.html" : `session4/rev${modNumber}.html`;
       const isAgMod1 = !isAas && modNumber === 1;
       const s1Pdf = isAgMod1 ? "agmod1.pdf#page=1" : "agmod1.pdf";
       const s2Pdf = isAgMod1 ? "agmod1.pdf#page=21" : "agmod1.pdf";
@@ -917,12 +919,12 @@
           tag: `Module ${modNumber} • Session 4`,
           title: titles.s4,
           description: desc.s4,
-          url: `session4/admat${modNumber}.html`,
-          additionalMaterialsUrl: `session4/admat${modNumber}.html`,
+          url: s4AdditionalMaterialsUrl,
+          additionalMaterialsUrl: s4AdditionalMaterialsUrl,
           pdfUrl: s4Pdf,
           lessonPlanUrl: `session4/plan${modNumber}.html`,
           objectivesUrl: `session4/obj${modNumber}.html`,
-          classReviewUrl: `session4/rev${modNumber}.html`,
+          classReviewUrl: s4ClassReviewUrl,
           imageUrl: images.card4
         },
         {
@@ -2591,7 +2593,7 @@
           <div class="p-4 bg-slate-100 rounded-xl border border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3">
             <div>
               <p class="text-xs font-bold text-slate-700">Ready to proceed to classroom activities?</p>
-              <p class="text-[11px] text-slate-500">${modalState.sessionNum === 1 ? 'Access the aviation news diagnostic, speed-dating survey, modals clinic, and EU261 role-play.' : (modalState.sessionNum === 2 ? 'Access the terminal flow map, spatial prepositions clinic, apron access role-play, and guidance workshop.' : 'Access the interactive vehicle cards, turnaround clock, and role-play simulations.')}</p>
+              <p class="text-[11px] text-slate-500">${modalState.sessionNum === 1 ? 'Access the aviation news diagnostic, speed-dating survey, modals clinic, and EU261 role-play.' : (modalState.sessionNum === 2 ? 'Access the terminal flow map, spatial prepositions clinic, apron access role-play, and guidance workshop.' : (modalState.sessionNum === 4 ? 'Access the aviation job taxonomy, responsibility clinic, day-in-the-life simulations, and career dilemma debate.' : 'Access the interactive vehicle cards, turnaround clock, and role-play simulations.'))}</p>
             </div>
             <button onclick="switchModalTab('content')" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg text-xs font-bold text-white shadow-xs hover:shadow-md transition-all cursor-pointer" style="background-color: ${theme.primary};">
               <span>Open Lesson Content</span>
@@ -2607,6 +2609,8 @@
         renderLessonContentTabSession1(sessionData, theme);
       } else if (modalState.sessionNum === 2) {
         renderLessonContentTabSession2(sessionData, theme);
+      } else if (modalState.sessionNum === 4) {
+        renderLessonContentTabSession4(sessionData, theme);
       } else {
         renderLessonContentTabSession3(sessionData, theme);
       }
@@ -3752,6 +3756,358 @@
         </div>
       `;
     }
+
+    function renderLessonContentTabSession4(sessionData, theme) {
+      const bodyEl = document.getElementById('modal-body');
+      if (!bodyEl) return;
+      const content = sessionData.lessonContent || {};
+      const hero = content.hero || {};
+      const opening = content.openingSession || {};
+      const taxonomy = content.jobTaxonomy || {};
+      const clinic = content.grammarClinic || {};
+      const handoffs = content.handoffSimulation || {};
+      const debate = content.careerForumDebate || {};
+      const closing = content.closingReview || {};
+
+      bodyEl.innerHTML = `
+        <div class="space-y-6 printable-lesson-container">
+          <!-- Printable Action Bar -->
+          <div class="no-print flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4 bg-white border border-slate-200 rounded-xl shadow-xs">
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
+                <span class="text-xs font-bold text-slate-700">AAS Module 1 • Session 4</span>
+              </div>
+              <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">Jobs in Aviation: Roles, Responsibilities &amp; Operational Interfaces</h3>
+            </div>
+            <button type="button" onclick="window.printLessonContent()" class="inline-flex items-center justify-center gap-2 px-3.5 py-2 rounded-lg text-xs font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 border border-slate-300 shadow-xs transition-all cursor-pointer shrink-0">
+              <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4H7v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+              <span>Print / Save Lesson PDF</span>
+            </button>
+          </div>
+
+          <!-- Hero Banner & Context -->
+          <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-xs">
+            <div class="relative">
+              <img src="${hero.image || 'images/aas_m1card4.png'}" alt="${hero.title || 'Jobs in Aviation'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/card4.png'">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent flex flex-col justify-end p-4 sm:p-5">
+                <span class="text-[11px] font-bold text-amber-300 uppercase tracking-wider">Operational Taxonomy &amp; Interfaces</span>
+                <h2 class="text-base sm:text-xl font-black text-white mt-0.5">${hero.title || 'Jobs in Aviation: Roles, Responsibilities &amp; Operational Interfaces'}</h2>
+                <p class="text-xs text-white/90 mt-1 max-w-2xl">${hero.subtitle || 'Landside, Airside, Flight Crew, Air Traffic Services &amp; Civil Aviation Corps (TSEEAC).'}</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Activity 1: Aviation News & Session 3 Spot-Check (10 mins) -->
+          <div class="bg-white border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs space-y-4">
+            <div class="flex items-center justify-between pb-2 border-b border-slate-100">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">01</span>
+                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${opening.title || 'Activity 1: Aviation News &amp; Session 3 Spot-Check (10 mins)'}</h3>
+              </div>
+              <span class="text-[11px] font-semibold text-slate-500">Warm-Up &amp; Catch-Up</span>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">${opening.summary || ''}</p>
+
+            <!-- News Prompts -->
+            <div class="p-3.5 rounded-lg bg-sky-50/70 border border-sky-200">
+              <span class="text-[11px] font-bold text-sky-900 uppercase tracking-wider">📰 Aviation News &amp; Current Events Prompts</span>
+              <ul class="space-y-1.5 mt-2 text-xs text-sky-950">
+                ${(opening.newsPrompts || []).map(p => `
+                  <li class="flex items-start gap-1.5">
+                    <span class="font-bold text-sky-700">&bull;</span>
+                    <span>${p}</span>
+                  </li>
+                `).join('')}
+              </ul>
+            </div>
+
+            <!-- Session 3 Vocabulary Spot-Check -->
+            <div class="space-y-2.5 pt-1">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold text-slate-800 uppercase tracking-wider">🎯 Session 3 Catch-Up: Ground Operations &amp; GSE Spot-Check</span>
+                <span class="text-[11px] text-slate-500">Rapid-fire student recall</span>
+              </div>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                ${((opening.spotCheck && opening.spotCheck.questions) || []).map(q => `
+                  <div class="p-3 rounded-lg border border-slate-200 bg-slate-50/70 flex flex-col justify-between gap-2">
+                    <div class="space-y-1">
+                      <div class="flex items-center justify-between">
+                        <span class="text-[10px] font-extrabold px-1.5 py-0.5 rounded bg-slate-200 text-slate-700">Question ${q.id}</span>
+                      </div>
+                      <p class="text-xs font-semibold text-slate-900">${q.q}</p>
+                    </div>
+                    <div>
+                      <div id="s4-spotcheck-ans-${q.id}" class="hidden mt-2 p-2 rounded bg-amber-50 border border-amber-200 text-[11px] text-amber-900 font-medium">
+                        ${q.answer}
+                      </div>
+                      <button type="button" id="s4-spotcheck-btn-${q.id}" onclick="window.toggleS4SpotCheckAnswer(${q.id})" class="mt-2 text-[11px] font-bold text-amber-700 hover:text-amber-800 flex items-center gap-1 cursor-pointer">
+                        <span>Reveal Answer</span> &rarr;
+                      </button>
+                    </div>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          </div>
+
+          <!-- Activity 2: Aviation Job Taxonomy & The Operational Spectrum (20 mins) -->
+          <div class="bg-white border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs space-y-4">
+            <div class="flex items-center justify-between pb-2 border-b border-slate-100">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">02</span>
+                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${taxonomy.title || 'Activity 2: Aviation Job Taxonomy &amp; The Operational Spectrum (20 mins)'}</h3>
+              </div>
+              <span class="text-[11px] font-semibold text-slate-500">5 Primary Domains</span>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">${taxonomy.summary || ''}</p>
+
+            <div class="space-y-3">
+              ${(taxonomy.domains || []).map(dom => {
+                const isTseeac = dom.id === 'tseeac';
+                const isAtco = dom.id === 'atco';
+                const borderCol = isTseeac ? 'border-emerald-300 bg-emerald-50/40' : (isAtco ? 'border-rose-200 bg-rose-50/30' : 'border-slate-200 bg-slate-50/60');
+                return `
+                  <div class="p-3.5 sm:p-4 rounded-xl border ${borderCol} space-y-2.5">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                      <div class="flex items-center gap-2">
+                        <span class="text-[11px] font-bold px-2 py-0.5 rounded text-white ${isTseeac ? 'bg-emerald-700' : (isAtco ? 'bg-rose-700' : 'bg-slate-700')}">${dom.name}</span>
+                        ${isTseeac ? '<span class="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 border border-emerald-300">AFISO &bull; DGAC Safety &bull; Non-Separation</span>' : ''}
+                        ${isAtco ? '<span class="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded bg-rose-100 text-rose-800 border border-rose-300">Tactical Separation Authority</span>' : ''}
+                      </div>
+                      <span class="text-[11px] text-slate-500 font-medium">Jurisdiction: ${dom.keyJurisdiction || ''}</span>
+                    </div>
+                    <p class="text-xs text-slate-700 leading-relaxed">${dom.description}</p>
+                    <div class="flex flex-wrap gap-1.5 pt-1">
+                      ${(dom.roles || []).map(r => `
+                        <span class="text-[10.5px] font-bold px-2 py-0.5 rounded bg-white border border-slate-200 text-slate-800 shadow-2xs">${r}</span>
+                      `).join('')}
+                    </div>
+                    <div class="p-2.5 rounded-lg bg-white/80 border border-slate-200 text-[11px] text-slate-600">
+                      <strong class="text-slate-800">Sample Operational Responsibility:</strong> ${dom.sampleDuty || ''}
+                    </div>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          </div>
+
+          <!-- Activity 3: Functional Grammar & Authority Clinic (20 mins) -->
+          <div class="bg-white border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs space-y-4">
+            <div class="flex items-center justify-between pb-2 border-b border-slate-100">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">03</span>
+                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${clinic.title || 'Activity 3: Functional Grammar &amp; Authority Clinic: Responsibilities &amp; Jurisdiction (20 mins)'}</h3>
+              </div>
+              <span class="text-[11px] font-semibold text-slate-500">Target Language</span>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">${clinic.summary || ''}</p>
+
+            <!-- Formula Banner -->
+            <div class="p-3 rounded-lg bg-slate-900 text-white space-y-1">
+              <span class="text-[10px] font-bold tracking-wider uppercase text-amber-400">Core Functional Formulas</span>
+              <p class="font-mono text-xs sm:text-[13px] font-bold text-slate-100">
+                BE RESPONSIBLE FOR + -ING &bull; BE TASKED WITH + -ING &bull; HAVE AUTHORITY OVER / TO &bull; ENSURE THAT + CLAUSE
+              </p>
+            </div>
+
+            <!-- Formulas Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5">
+              ${(clinic.formulas || []).map(f => `
+                <div class="p-3 rounded-lg border border-slate-200 bg-slate-50/70 space-y-1.5">
+                  <span class="font-mono text-xs font-bold text-amber-700 block">${f.structure}</span>
+                  <p class="text-[10.5px] font-semibold text-slate-600">${f.usage}</p>
+                  <p class="text-[11px] text-slate-800 italic bg-white p-2 rounded border border-slate-100">"${f.example}"</p>
+                </div>
+              `).join('')}
+            </div>
+
+            <!-- Role Clinic Challenge -->
+            <div class="space-y-2 pt-2 border-t border-slate-100">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold text-slate-800 uppercase tracking-wider">🎯 Quick Role Clinic Challenge</span>
+                <span class="text-[11px] text-slate-500">Select the correct preposition or verb form</span>
+              </div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                ${(clinic.roleClinic || []).map(item => `
+                  <div class="p-3 rounded-lg border border-slate-200 bg-slate-50/70 flex flex-col justify-between gap-2">
+                    <p class="text-xs font-medium text-slate-800">${item.prompt}</p>
+                    <div>
+                      <div id="s4-roleclinic-ans-${item.id}" class="hidden mt-2 p-2 rounded bg-emerald-50 border border-emerald-200 text-[11px] text-emerald-900 font-medium">
+                        <strong>Answer:</strong> ${item.answer}<br>
+                        <span class="text-slate-600">${item.explanation}</span>
+                      </div>
+                      <button type="button" id="s4-roleclinic-btn-${item.id}" onclick="window.toggleS4RoleClinicAnswer(${item.id})" class="mt-2 text-[11px] font-bold text-amber-700 hover:text-amber-800 flex items-center gap-1 cursor-pointer">
+                        <span>Check Answer</span> &rarr;
+                      </button>
+                    </div>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          </div>
+
+          <!-- Activity 4: Pairwork & Triad Simulation — 'A Day in the Life' Role Handoff (25 mins) -->
+          <div class="bg-white border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs space-y-4">
+            <div class="flex items-center justify-between pb-2 border-b border-slate-100">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">04</span>
+                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${handoffs.title || 'Activity 4: Pairwork &amp; Triad Simulation — Role Handoffs (25 mins)'}</h3>
+              </div>
+              <span class="text-[11px] font-semibold text-slate-500">Pair &amp; Triad Speaking</span>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">${handoffs.summary || ''}</p>
+
+            <div class="space-y-4">
+              ${(handoffs.scenarios || []).map(sc => `
+                <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/60 space-y-3">
+                  <div class="flex items-center justify-between">
+                    <h4 class="text-xs sm:text-sm font-bold text-slate-900">${sc.title}</h4>
+                    <span class="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded bg-amber-100 text-amber-800 border border-amber-300">Live Simulation</span>
+                  </div>
+                  <p class="text-xs text-slate-600 bg-white p-2.5 rounded-lg border border-slate-200"><strong>Context:</strong> ${sc.context}</p>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                    <div class="p-3 rounded-lg bg-sky-50/70 border border-sky-200 text-sky-950">
+                      <strong class="text-sky-900 block mb-1">Role A Task:</strong>
+                      ${sc.roleA}
+                    </div>
+                    <div class="p-3 rounded-lg bg-indigo-50/70 border border-indigo-200 text-indigo-950">
+                      <strong class="text-indigo-900 block mb-1">Role B Task:</strong>
+                      ${sc.roleB}
+                    </div>
+                  </div>
+                  <div class="p-2.5 rounded-lg bg-white border border-slate-200 text-[11px] text-slate-600 space-y-1">
+                    <strong class="text-slate-800">Target Phrases to Deploy:</strong>
+                    <ul class="space-y-0.5 list-disc pl-4 text-slate-700">
+                      ${(sc.targetPhrases || []).map(tp => `<li>${tp}</li>`).join('')}
+                    </ul>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <!-- Activity 5: Aviation Career Forum & Operational Dilemma Debate (35 mins) -->
+          <div class="bg-white border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs space-y-4">
+            <div class="flex items-center justify-between pb-2 border-b border-slate-100">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">05</span>
+                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${debate.title || 'Activity 5: Aviation Career Forum &amp; Operational Dilemma Debate (35 mins)'}</h3>
+              </div>
+              <span class="text-[11px] font-semibold text-slate-500">Multi-Stakeholder Forum</span>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">${debate.summary || ''}</p>
+
+            <!-- Scenario Box -->
+            <div class="p-3.5 rounded-xl bg-amber-50/70 border border-amber-200 space-y-1.5">
+              <span class="text-[10px] font-bold text-amber-900 uppercase tracking-wider">⚡ Crisis Dilemma: Winter Storm &amp; Diversion Gridlock</span>
+              <p class="text-xs text-amber-950 leading-relaxed">${debate.scenario || ''}</p>
+            </div>
+
+            <!-- Stakeholders Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              ${(debate.stakeholders || []).map(st => `
+                <div class="p-3 rounded-lg border border-slate-200 bg-slate-50/60 space-y-1.5">
+                  <div class="flex items-center justify-between">
+                    <span class="text-xs font-bold text-slate-900">${st.name}</span>
+                  </div>
+                  <p class="text-[11px] text-slate-700"><strong>Priority:</strong> ${st.priority}</p>
+                  <p class="text-[11px] text-slate-600 bg-white p-2 rounded border border-slate-200"><strong>Stance:</strong> ${st.stance}</p>
+                </div>
+              `).join('')}
+            </div>
+
+            <!-- Consensus Challenge & Agreement Tracker -->
+            <div class="p-3.5 rounded-xl bg-white border border-slate-200 space-y-2.5">
+              <span class="text-xs font-bold text-slate-800 uppercase tracking-wider">🤝 Collaborative Consensus Matrix</span>
+              <p class="text-xs text-slate-600">${debate.consensusChallenge || 'Rate agreement across priorities and negotiate a formal sequence of actions.'}</p>
+              
+              <div class="space-y-2 pt-1">
+                ${[
+                  { id: 1, label: "Prioritize emergency fuel diversion over outbound departure slot on Stand 2" },
+                  { id: 2, label: "Dispatch replacement de-icing rig to Stand 2 to avoid crew flight duty cancellation" },
+                  { id: 3, label: "Direct AFISO / Operations team to hold taxiway snowplows until inbound flights touch down" }
+                ].map(item => `
+                  <div class="p-2.5 rounded-lg border border-slate-200 bg-slate-50/70 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                    <span class="text-xs font-medium text-slate-800">${item.label}</span>
+                    <div class="flex items-center gap-1 shrink-0">
+                      ${[1, 2, 3, 4, 5].map(score => `
+                        <button type="button" id="s4-debate-${item.id}-btn-${score}" onclick="window.setS4JobDebateAgreement(${item.id}, ${score})" class="w-7 h-7 text-xs font-bold rounded border border-slate-300 text-slate-600 hover:bg-slate-200 transition-all cursor-pointer">
+                          ${score}
+                        </button>
+                      `).join('')}
+                    </div>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          </div>
+
+          <!-- Activity 6: Vocabulary Review, Pronunciation & Wrap-Up (10 mins) -->
+          <div class="bg-white border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs space-y-4">
+            <div class="flex items-center justify-between pb-2 border-b border-slate-100">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">06</span>
+                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${closing.title || 'Activity 6: Vocabulary Review, Pronunciation &amp; Class Wrap-Up (10 mins)'}</h3>
+              </div>
+              <span class="text-[11px] font-semibold text-slate-500">10-Minute Consolidation</span>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">${closing.summary || ''}</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+              ${(closing.reviewPrompts || []).map(rp => `
+                <div class="p-3 rounded-lg border border-slate-200 bg-slate-50/70 space-y-1">
+                  <span class="text-xs font-bold text-slate-800 block">${rp.title}</span>
+                  <p class="text-[11px] text-slate-600 leading-relaxed">${rp.desc}</p>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    window.toggleS4SpotCheckAnswer = function(id) {
+      const el = document.getElementById(`s4-spotcheck-ans-${id}`);
+      const btn = document.getElementById(`s4-spotcheck-btn-${id}`);
+      if (!el || !btn) return;
+      const isHidden = el.classList.contains('hidden');
+      if (isHidden) {
+        el.classList.remove('hidden');
+        btn.innerHTML = '<span>Hide Answer</span> &larr;';
+      } else {
+        el.classList.add('hidden');
+        btn.innerHTML = '<span>Reveal Answer</span> &rarr;';
+      }
+    };
+
+    window.toggleS4RoleClinicAnswer = function(id) {
+      const el = document.getElementById(`s4-roleclinic-ans-${id}`);
+      const btn = document.getElementById(`s4-roleclinic-btn-${id}`);
+      if (!el || !btn) return;
+      const isHidden = el.classList.contains('hidden');
+      if (isHidden) {
+        el.classList.remove('hidden');
+        btn.innerHTML = '<span>Hide Rationale</span> &larr;';
+      } else {
+        el.classList.add('hidden');
+        btn.innerHTML = '<span>Check Answer</span> &rarr;';
+      }
+    };
+
+    window.setS4JobDebateAgreement = function(topicId, score) {
+      for (let s = 1; s <= 5; s++) {
+        const btn = document.getElementById(`s4-debate-${topicId}-btn-${s}`);
+        if (!btn) continue;
+        if (s === score) {
+          btn.classList.add('bg-amber-600', 'text-white', 'border-amber-600');
+          btn.classList.remove('text-slate-600', 'hover:bg-slate-200');
+        } else {
+          btn.classList.remove('bg-amber-600', 'text-white', 'border-amber-600');
+          btn.classList.add('text-slate-600', 'hover:bg-slate-200');
+        }
+      }
+    };
 
     window.toggleDiagnosticAnswer = function(id) {
       const el = document.getElementById(`diagnostic-ans-${id}`);

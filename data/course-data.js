@@ -7758,436 +7758,715 @@
       "4": {
         "session": 4,
         "objectives": {
-          "title": "Session 4 - Ecotourism & Sustainable Destination Design Objectives",
-          "summary": "By the end of this session, you will be able to distinguish authentic ecotourism from greenwashing, structure mixed conditional sentences, apply formal connectors of purpose and condition, and pitch a sustainable destination design.",
+          "title": "Session 4 - Jobs in Aviation Objectives",
+          "summary": "By the end of this session, you will be able to distinguish and categorize aviation operational professions across landside, airside, flight operations, air traffic services, and civil aviation administration (TSEEAC), accurately articulate professional duties and jurisdictions using formal B2 structures, and collaborate effectively during operational handoffs.",
           "items": [
             {
               "num": 1,
-              "title": "Use Key Ecotourism Terms (Vocabulary)",
-              "description": "Accurately define and use essential sustainability concepts (carbon offset, biodiversity corridor, community-based tourism, greenwashing, rewilding) in spoken pitches and written notes."
+              "title": "Categorize Aviation Operational Roles (Vocabulary & Classification)",
+              "description": "Distinguish between Landside (passenger handling, security screening, border control), Airside (turnaround coordination, ramp dispatch, marshalling, pushback), Flight Crew (captain, first officer, purser), Air Traffic Control (tower, approach, en-route), and Civil Aviation Administration (TSEEAC)."
             },
             {
               "num": 2,
-              "title": "Describe Ecotourism Projects (Fluency & Paraphrasing)",
-              "description": "Explain environmental initiatives clearly under time pressure using synonyms, examples, and descriptions when you cannot recall an exact word."
+              "title": "Clarify TSEEAC Operational Functions (Institutional Precision)",
+              "description": "Accurately explain that TSEEAC personnel are NOT air traffic controllers (no tactical separation authority), but perform critical functions including AFISO (flight information and alerting services), aerodrome operations coordination, and DGAC safety oversight."
             },
             {
               "num": 3,
-              "title": "Talk About Past Choices & Present Results (Mixed Conditionals)",
-              "description": "Use mixed conditional sentences (\"If the reserve had invested in solar pumps earlier, it would not depend on diesel today\") to evaluate past environmental choices."
+              "title": "Express Professional Duties & Authority (Grammar in Context)",
+              "description": "Master and apply functional formulas: 'be responsible for + -ing', 'be tasked with + -ing', 'be in charge of + noun', 'have authority over / to', and 'ensure that + clause'."
             },
             {
               "num": 4,
-              "title": "Express Goals and Conditions (Grammar: so that, provided that)",
-              "description": "Use formal connecting words like provided that, so as to, and in order that to set project rules and environmental targets."
+              "title": "Simulate Professional Shift & Turnaround Handoffs (Speaking Fluency)",
+              "description": "Conduct structured peer briefings between adjacent roles (Turnaround Coordinator <-> First Officer, AFISO <-> VFR Pilot, Terminal Duty Manager <-> Ramp Supervisor) to resolve operational bottlenecks."
             },
             {
               "num": 5,
-              "title": "Pronounce Long Environmental Words Clearly (Pronunciation)",
-              "description": "Place word stress on the correct syllable and pronounce vowel sounds clearly in key sustainability words (bio-di-VER-si-ty, cer-ti-fi-CA-tion, al-TER-na-tive, eco-SYS-tem)."
+              "title": "Debate Airport Operational Dilemmas (Interaction & Negotiation)",
+              "description": "Analyze complex airport operational dilemmas (e.g. winter weather diversions and ramp congestion) from specific professional viewpoints and negotiate a consensus action plan."
             },
             {
               "num": 6,
-              "title": "Pitch and Defend an Ecotourism Initiative in Pairs or Triads (Fluency & Interaction)",
-              "description": "Research live data, design a viable micro-project, and present a structured pitch balancing commercial viability with conservation needs."
+              "title": "Refine Professional Aviation Lexis Pronunciation (Phonology)",
+              "description": "Place accurate primary and secondary word stress on complex professional terms (au-THOR-i-ty, re-SPON-si-ble, co-OR-di-na-tor, tech-NI-cian, o-ver-SIGHT, sur-VEIL-lance)."
             },
             {
               "num": 7,
-              "title": "Spot Common Grammar Traps in Business Contexts (TOEIC Practice)",
-              "description": "Identify common test traps and wrong answer choices (specifically conditional sentences and connecting words) in TOEIC Parts 5 & 6 to improve exam accuracy."
+              "title": "Master Prepositions of Responsibility & Passive Voice (TOEIC Practice)",
+              "description": "Identify common test traps in TOEIC Parts 5 & 6, particularly verbs of obligation, prepositions of responsibility ('responsible for', 'in charge of'), and passive verb structures in airport notices."
             }
           ]
         },
         "lessonPlan": {
           "title": "Session 4 Lesson Plan (2 Hours)",
-          "summary": "A 2-hour interactive session comparing genuine ecotourism with greenwashing, practicing mixed conditionals and connectors, solving TOEIC reading questions, and designing a sustainable eco-resort.",
+          "summary": "A 2-hour communicative session featuring an aviation news opening, Session 3 turnaround spot-checking, the aviation job taxonomy, functional responsibility and authority grammar drills, 'Day in the Life' role handoffs, a winter weather operational dilemma debate, and a 10-minute vocabulary consolidation review.",
           "items": [
             {
-              "time": "0-15",
-              "title": "Part 1: Warm-Up Discussion \u2014 Real Eco-Tourism vs. Greenwashing (15 mins)",
-              "description": "Examine three real-world travel projects (in Costa Rica, Kenya, and Norway) to see how much money stays in the local community and the real environmental benefits created, compared to superficial marketing."
+              "time": "00-10",
+              "title": "Part 1: Aviation News, Current Events & Session 3 Spot-Check (10 mins)",
+              "description": "Opening 10-minute warm-up: discuss recent international aviation headlines followed by rapid spot-checking of Session 3 turnaround and GSE vocabulary (GPU, ASU, Pushback Tug, Chocks, FOD, Belt Loader)."
             },
             {
-              "time": "15-35",
-              "title": "Part 2: Grammar in Context \u2014 Mixed Conditionals & Connecting Words (20 mins)",
-              "description": "Contrasting past conservation decisions with present outcomes (If + had + V3, would + V1), present status with past outcomes (If + were, would have + V3), and formal connecting words for goals and rules (so as to, in order that, provided that, on condition that)."
+              "time": "10-30",
+              "title": "Part 2: Aviation Job Taxonomy & The Operational Spectrum (20 mins)",
+              "description": "Explore the five operational domains (Landside, Airside/Ramp, Flight Crew, ATCOs, and TSEEAC). Clarify the core distinction between ATCO tactical separation authority and TSEEAC AFISO/auditing responsibilities."
             },
             {
-              "time": "35-55",
-              "title": "Part 3: TOEIC Practice & Error Logging \u2014 Parts 5 & 6 (20 mins)",
-              "description": "Timed reading set on sustainable tourism certification notices; practicing conditional sentences, connecting words, and logging errors."
+              "time": "30-50",
+              "title": "Part 3: Functional Grammar Clinic: Responsibilities, Duties & Jurisdiction (20 mins)",
+              "description": "Examine high-yield B2 structures: 'responsible for + -ing', 'tasked with + -ing', 'in charge of', 'have authority over / to', 'ensure that', and 'report to vs. liaise with'. Practice with interactive scenario prompts."
             },
             {
-              "time": "55-85",
-              "title": "Part 4: Collaborative Project Workshop \u2014 The Eco-Resort Blueprint (30 mins)",
-              "description": "Internet-enabled team challenge with a \u20ac2,500,000 green endowment. Teams choose a fragile ecosystem (temperate fjord, Mediterranean wetland, or alpine valley) and design a low-impact, community-owned resort integrating target grammar."
+              "time": "50-75",
+              "title": "Part 4: Role-Play Simulation: 'A Day in the Life' Operational Handoffs (25 mins)",
+              "description": "Collaborative paired and triad role-play: simulate professional handoffs and resolve bottlenecks between Turnaround Coordinator <-> First Officer, AFISO <-> Inbound Pilot, and Terminal Duty Manager <-> Ramp Supervisor."
             },
             {
-              "time": "85-100",
-              "title": "Part 5: Project Pitches & Stakeholder Q&A \u2014 The Green Investor Forum (15 mins)",
-              "description": "2-minute pitches where peer groups act as the Sustainability Investment Board, asking teams about visitor limits, clean energy, local community benefits, and connecting words."
-            },
-            {
-              "time": "100-110",
-              "title": "Part 6: Vocabulary Speaking Game \u2014 Taboo (10 mins)",
-              "description": "Fast-paced 45-second fluency game reinforcing critical sustainable tourism vocabulary: Greenwashing, Biodiversity Corridor, Community-Based Tourism, Carbon Offset, and Rewilding."
+              "time": "75-110",
+              "title": "Part 5: Aviation Career Forum & Operational Dilemma Debate (35 mins)",
+              "description": "Interactive multi-stakeholder debate: resolve an emergency aerodrome diversion scenario during freezing fog and ramp congestion. Argue priorities, negotiate trade-offs, and establish a consensus sequence."
             },
             {
               "time": "110-120",
-              "title": "Part 7: Class Wrap-Up & FE Check (10 mins)",
-              "description": "Continuous assessment log, reviewing genuine ecotourism vs. greenwashing, applying grammar to the FE portfolio, and final preparation for Session 5."
+              "title": "Part 6: Vocabulary Review, Pronunciation & Class Wrap-Up (10 mins)",
+              "description": "Final 10-minute consolidation: rapid recall of the 18 aviation profession terms, word stress and phonological drills, personal reflection, and continuous learning log update."
             }
           ]
         },
+        "lessonContent": {
+          "hero": {
+            "image": "images/aas_m1card4.png",
+            "title": "Jobs in Aviation: Roles, Responsibilities & Operational Interfaces",
+            "subtitle": "Landside, Airside, Flight Crew, Air Traffic Services & Civil Aviation Corps (TSEEAC)"
+          },
+          "openingSession": {
+            "title": "Activity 1: Aviation News & Session 3 Spot-Check (10 mins)",
+            "summary": "Every session begins with a 10-minute professional opening: analyzing current aviation headlines followed by rapid spot-checking of Session 3 ground operations and GSE vocabulary.",
+            "newsPrompts": [
+              "What aviation, airline, or ATM news stories caught your attention in the headlines this week?",
+              "How are airports and air navigation service providers managing staffing, recruitment, or new operational procedures this season?"
+            ],
+            "spotCheck": {
+              "title": "Session 3 Vocabulary Spot-Check (Ground Operations & GSE)",
+              "questions": [
+                {
+                  "id": 1,
+                  "q": "What is the primary function of a Ground Power Unit (GPU) during an aircraft turnaround?",
+                  "answer": "A GPU supplies 400Hz AC electrical power to the aircraft while parked at the gate stand, allowing the flight crew to shut down the main engines and auxiliary power unit (APU) to save fuel and reduce ramp emissions."
+                },
+                {
+                  "id": 2,
+                  "q": "How does a Marshaller guide an arriving aircraft to its parking stand when automated docking is unavailable?",
+                  "answer": "A marshaller uses illuminated wands or visual hand signals to direct the flight deck along the painted yellow lead-in line to the precise nosewheel stop mark."
+                },
+                {
+                  "id": 3,
+                  "q": "What is turnaround time (TAT) and why is minimizing it critical for airlines?",
+                  "answer": "Turnaround time is the elapsed period from chocks-on at arrival to chocks-off at departure. Minimizing TAT maximizes aircraft daily utilization and prevents knock-on departure slot delays."
+                },
+                {
+                  "id": 4,
+                  "q": "What is Foreign Object Debris (FOD) and how do ramp teams prevent it?",
+                  "answer": "FOD is any loose item, tool, fragment, or trash on the apron or taxiway that could be ingested by a jet engine or damage tires; ground crews conduct continuous visual scans and regular FOD sweeps."
+                }
+              ]
+            }
+          },
+          "jobTaxonomy": {
+            "title": "Activity 2: Aviation Job Taxonomy & The Operational Spectrum (20 mins)",
+            "summary": "Aviation is an intricate ecosystem where specialized professions collaborate seamlessly. Explore the five primary operational domains, their key responsibilities, and the essential distinction between ATCO separation authority and TSEEAC functions.",
+            "domains": [
+              {
+                "id": "landside",
+                "name": "1. Landside Operations",
+                "color": "sky",
+                "roles": [
+                  "Passenger Service Agent (PSA)",
+                  "Security Screening Officer",
+                  "Terminal Duty Manager",
+                  "Border Control Officer"
+                ],
+                "description": "Manages passenger processing, documentation verification, terminal safety, and accessibility before the airside security boundary.",
+                "keyJurisdiction": "Public terminal zones, check-in concourses, baggage drop systems, and departure lounge coordination.",
+                "sampleDuty": "Passenger Service Agents verify travel documents, handle gate boarding announcements, and manage baggage reconciliation."
+              },
+              {
+                "id": "airside",
+                "name": "2. Airside & Ramp Operations",
+                "color": "amber",
+                "roles": [
+                  "Turnaround Coordinator (TRC)",
+                  "Ramp Agent / Baggage Handler",
+                  "Marshaller",
+                  "Pushback Tug Driver",
+                  "De-icing Rig Operator",
+                  "Refueller / Hydrant Dispenser"
+                ],
+                "description": "Coordinates all parallel ground servicing operations around the aircraft within the designated safety servicing envelope.",
+                "keyJurisdiction": "Apron stands, equipment staging lanes, airside service roads, and aircraft servicing envelopes.",
+                "sampleDuty": "The Turnaround Coordinator oversees parallel servicing tasks, monitors fuel and baggage loading, and enforces on-time departure."
+              },
+              {
+                "id": "flightcrew",
+                "name": "3. Aircraft Flight Crew",
+                "color": "indigo",
+                "roles": [
+                  "Captain (Pilot-in-Command)",
+                  "First Officer (Co-Pilot)",
+                  "Purser / Senior Cabin Manager",
+                  "Cabin Crew / Flight Attendant"
+                ],
+                "description": "Responsible for the safe navigation, operation, passenger welfare, and emergency readiness of the aircraft from off-blocks to on-blocks.",
+                "keyJurisdiction": "Cockpit flight deck, passenger cabin, aircraft technical logbook, and emergency systems.",
+                "sampleDuty": "The First Officer performs external walkaround inspections, cross-checks FMC route programming, and monitors radio communications."
+              },
+              {
+                "id": "atco",
+                "name": "4. Air Traffic Control Officers (ATCOs)",
+                "color": "rose",
+                "roles": [
+                  "Aerodrome / Tower ATCO",
+                  "Approach Radar Controller (APP)",
+                  "Area / En-Route Controller (ACC)"
+                ],
+                "description": "Licensed air traffic controllers possessing executive legal authority to issue binding clearances and ensure safe tactical separation between aircraft in flight and on active movement areas.",
+                "keyJurisdiction": "Active runways, taxiways, controlled airspace sectors, and terminal maneuvering areas (TMA).",
+                "sampleDuty": "Tower ATCOs issue mandatory takeoff and landing clearances, manage runway sequencing, and maintain aircraft separation."
+              },
+              {
+                "id": "tseeac",
+                "name": "5. Civil Aviation Operations Corps (TSEEAC)",
+                "color": "emerald",
+                "roles": [
+                  "Aerodrome Flight Information Service Officer (AFISO)",
+                  "Aerodrome Operations Coordinator",
+                  "DGAC Aviation Safety Inspector",
+                  "Air Navigation Technical Support Officer"
+                ],
+                "description": "Civil aviation civil servants who perform critical operations, flight information, safety oversight, and aerodrome management. IMPORTANT: TSEEAC personnel are NOT air traffic controllers and do NOT have separation authority; AFISOs provide advisory flight information and alerting service at non-controlled aerodromes.",
+                "keyJurisdiction": "AFIS aerodromes, civil aviation regional directorates (DSAC), airport safety coordination, and technical surveillance.",
+                "sampleDuty": "An AFISO provides weather reports, runway conditions, and traffic advisories to pilots, while DGAC safety inspectors conduct regulatory compliance audits."
+              }
+            ]
+          },
+          "grammarClinic": {
+            "title": "Activity 3: Functional Grammar & Authority Clinic: Responsibilities & Jurisdiction (20 mins)",
+            "summary": "Professional aviation discourse demands absolute precision when describing who does what, who reports to whom, and who holds regulatory authority.",
+            "formulas": [
+              {
+                "structure": "be responsible for + -ing / noun",
+                "usage": "Core ongoing duty or accountability",
+                "example": "The Turnaround Coordinator is responsible for ensuring all servicing vehicles clear the stand before pushback."
+              },
+              {
+                "structure": "be tasked with + -ing / noun",
+                "usage": "Official assignment, directive, or designated role",
+                "example": "The AFIS officer is tasked with providing traffic information and weather advisories to inbound aircraft."
+              },
+              {
+                "structure": "be in charge of + noun / -ing",
+                "usage": "Supervisory oversight of a team, facility, or zone",
+                "example": "The Terminal Duty Manager is in charge of passenger concourse flow and emergency crowd management."
+              },
+              {
+                "structure": "have authority over / to + verb",
+                "usage": "Legal jurisdiction or executive command power",
+                "example": "Tower ATCOs have authority over active runways and issue binding takeoff and landing clearances."
+              },
+              {
+                "structure": "ensure that + clause",
+                "usage": "Verification, quality control, and safety compliance",
+                "example": "Safety inspectors ensure that airline maintenance procedures comply with DGAC regulations."
+              },
+              {
+                "structure": "report to vs. liaise with",
+                "usage": "Hierarchy vs. horizontal peer collaboration",
+                "example": "The Ramp Agent reports to the Turnaround Coordinator and liaises with fueling technicians."
+              }
+            ],
+            "roleClinic": [
+              {
+                "id": 1,
+                "prompt": "The First Officer is tasked with (conducting / to conduct / conduct) the pre-flight external walkaround inspection.",
+                "answer": "conducting",
+                "explanation": "'Be tasked with' is followed by the preposition 'with', which requires a gerund (-ing)."
+              },
+              {
+                "id": 2,
+                "prompt": "Unlike ATCOs, AFISOs do not have authority (to separate / separating / for separate) aircraft tactically.",
+                "answer": "to separate",
+                "explanation": "'Have authority to' is followed by the base infinitive ('to separate')."
+              },
+              {
+                "id": 3,
+                "prompt": "The Ramp Agent is responsible (for / of / to) securing the wheel chocks once the aircraft comes to a stop.",
+                "answer": "for",
+                "explanation": "'Responsible for' is the correct prepositional collocation (avoid the French false friend 'responsible of')."
+              },
+              {
+                "id": 4,
+                "prompt": "The Turnaround Coordinator must ensure (that / what / which) the cargo hold doors are locked before pushback.",
+                "answer": "that",
+                "explanation": "'Ensure' takes a content clause starting with 'that' ('ensure that + subject + verb')."
+              }
+            ]
+          },
+          "handoffSimulation": {
+            "title": "Activity 4: Pairwork & Triad Simulation — 'A Day in the Life' Role Handoff (25 mins)",
+            "summary": "Effective inter-departmental handoffs prevent bottlenecks and eliminate miscommunication. Work in pairs or triads to conduct professional operational handovers.",
+            "scenarios": [
+              {
+                "id": "pair1",
+                "title": "Pair 1: Turnaround Coordinator (TRC) <-> First Officer (Flight Deck)",
+                "context": "Flight AF418 is scheduled off-blocks in 8 minutes. Cargo loading is complete, but the refueller was held up by a minor hose leak. The First Officer needs the final fuel uplift and signed load sheet.",
+                "roleA": "Turnaround Coordinator: Confirm fuel uplift of 5,800 kg, present the final trim sheet for Captain's signature, and report stand clearance status.",
+                "roleB": "First Officer: Cross-check the fuel quantity against FMC calculations, verify the center of gravity (CG) limits on the trim sheet, and request pushback readiness.",
+                "targetPhrases": [
+                  "\"I am responsible for confirming that all ground equipment has detached...\"",
+                  "\"Could you ensure that the load sheet reflects the actual fuel on board?\"",
+                  "\"We liaised with the fueling technician, and all safety valves are verified.\""
+                ]
+              },
+              {
+                "id": "pair2",
+                "title": "Pair 2: AFISO (TSEEAC) <-> Inbound VFR Aircraft",
+                "context": "A Cessna 172 is inbound to a non-controlled regional airfield. The AFISO is on duty in the aerodrome flight information station. Low winter sun and flocking birds have been observed near Runway 26 threshold.",
+                "roleA": "AFISO (TSEEAC): Provide aerodrome flight information: runway in use 26, surface wind 240/12kt, QNH 1018, cautionary bird advisory, and report on opposing glider traffic.",
+                "roleB": "VFR Pilot: Acknowledge information, report position over visual reporting point (Sierra), and state intentions for standard overhead join.",
+                "targetPhrases": [
+                  "\"Information only: Runway 26 in use, wind 240 degrees at 12 knots...\"",
+                  "\"Be advised, a flock of lapwings has been reported near the threshold...\"",
+                  "\"As an AFISO, I am tasked with providing traffic and safety advisories.\""
+                ]
+              },
+              {
+                "id": "pair3",
+                "title": "Pair 3: Terminal Duty Manager <-> Ramp Operations Supervisor",
+                "context": "A group of 14 delayed transit passengers from a connecting transatlantic flight has just cleared security. The departure flight has a strict 10-minute CTOT slot.",
+                "roleA": "Terminal Duty Manager: Request a 5-minute gate hold to allow the transit passengers to board, arguing customer service and connection costs.",
+                "roleB": "Ramp Operations Supervisor: Defend the slot departure, explaining the financial and network penalties of missing the Eurocontrol CTOT slot.",
+                "targetPhrases": [
+                  "\"We are in charge of passenger processing and must avoid misconnecting passengers...\"",
+                  "\"If we miss this slot, ATC will hold the flight for at least 45 minutes...\"",
+                  "\"Can we ensure that baggage is prioritized while passengers board through the gate?\""
+                ]
+              }
+            ]
+          },
+          "careerForumDebate": {
+            "title": "Activity 5: Aviation Career Forum & Operational Dilemma Debate (35 mins)",
+            "summary": "A fast-moving winter weather front brings freezing fog, reducing Runway Visual Range (RVR) to 350m at a regional aerodrome. Stand capacity is at 95%, de-icing rigs are working at maximum throughput, and two inbound diversions are requesting priority due to fuel minimums. Each team represents an aviation profession, defends operational priorities, and negotiates a consensus action plan.",
+            "scenario": "Regional Aerodrome 'Echo-Delta' is experiencing severe winter weather with RVR 350m and freezing drizzle. Only 2 parking stands remain open. Two diverted commercial jets are in the holding pattern, one declaring 'Minimum Fuel'. On the ground, an outbound flight on Stand 2 has passengers boarded, but its holdover time has expired, requiring a second de-icing cycle.",
+            "stakeholders": [
+              {
+                "name": "Tower & Approach ATCOs",
+                "priority": "Runway safety, separation in holding stacks, and emergency prioritization for the minimum-fuel diversion.",
+                "stance": "Has sole authority over runway access; demands clear runway sequencing and will not clear departures until emergency fuel traffic lands."
+              },
+              {
+                "name": "AFISO / Aerodrome Operations Coordinator (TSEEAC)",
+                "priority": "Airfield friction coefficient measurement, snow and de-icing coordinator, apron safety compliance, and stand allocation.",
+                "stance": "Liaises between airport authority and services; ensures de-icing pad does not gridlock and coordinates snow clearing plows on taxiways."
+              },
+              {
+                "name": "Turnaround Coordinator & Ground Handling Lead",
+                "priority": "Ramp safety, ground equipment availability, de-icing fluid inventory, and baggage handling for diverted passengers.",
+                "stance": "Warns that ramp handlers are nearing maximum duty limits and de-icing fluid is at critical reserves; insists on clearing Stand 2 first."
+              },
+              {
+                "name": "Airline Captain (Outbound Flight on Stand 2)",
+                "priority": "Passenger welfare, flight duty period (FDP) limits, and slot adherence.",
+                "stance": "Argues that if the aircraft is not de-iced and dispatched within 20 minutes, the crew will exceed legal duty hours and the flight must be cancelled."
+              }
+            ],
+            "consensusChallenge": "In mixed teams of 4, negotiate a step-by-step priority sequence using conditional structures ('Provided that...', 'As long as...', 'On condition that...') to resolve the standoff safely and efficiently."
+          },
+          "closingReview": {
+            "title": "Activity 6: Vocabulary Review, Pronunciation & Class Wrap-Up (10 mins)",
+            "summary": "The final 10 minutes consolidate today's high-yield vocabulary, reinforce syllable stress on professional job titles, and update your personal continuous assessment log.",
+            "reviewPrompts": [
+              {
+                "title": "1. Syllable Stress & Phonology Clinic",
+                "desc": "Drill accurate syllable stress: au-THOR-i-ty (2nd), re-SPON-si-ble (2nd), tech-NI-cian (2nd), co-OR-di-na-tor (2nd), o-ver-SIGHT (1st), sur-VEIL-lance (2nd)."
+              },
+              {
+                "title": "2. Rapid-Fire Retrieval Quiz",
+                "desc": "In pairs, quiz each other on 3 random terms from today's 18 vocabulary bank without checking notes (e.g. AFISO vs. ATCO, Turnaround Coordinator, Flight Dispatcher)."
+              },
+              {
+                "title": "3. Self-Assessment & Continuous Learning",
+                "desc": "Rate your ability (1 to 5) to explain the responsibilities of your future aviation profession. Update your study portfolio with target expressions."
+              }
+            ]
+          }
+        },
         "revision": {
-          "title": "Session 4: Sustainable and Eco-tourism",
-          "summary": "Review the 18 key terms for Sustainable and Eco-tourism to build your fluency in discussions, professional reading, and TOEIC practice.",
+          "title": "Session 4: Jobs in Aviation",
+          "summary": "Review the 18 key technical and professional terms covering landside, airside, flight crew, air traffic control (ATCO), and civil aviation administration (TSEEAC / AFISO) to enhance your speaking fluency and TOEIC accuracy.",
           "terms": [
             {
               "num": "01",
-              "term": "Eco-Certification",
-              "definition": "A third-party seal verifying that a tourism enterprise complies with rigorous environmental standards."
+              "term": "Aerodrome Flight Information Service Officer (AFISO)",
+              "definition": "A certified aeronautical station officer (often TSEEAC) providing traffic advisories, aerodrome conditions, and alerting services to aircraft at non-controlled aerodromes without separation authority."
             },
             {
               "num": "02",
-              "term": "Greenwashing",
-              "definition": "Misleading marketing that portrays products or travel practices as environmentally friendly without empirical proof."
+              "term": "Air Traffic Control Officer (ATCO)",
+              "definition": "A licensed professional legally authorized to issue mandatory control clearances and maintain safe tactical separation between aircraft in flight and maneuvering on active airport surfaces."
             },
             {
               "num": "03",
-              "term": "Carbon Offsetting",
-              "definition": "Compensating for carbon emissions through financial investment in certified re-forestation or clean energy projects."
+              "term": "Turnaround Coordinator (TRC)",
+              "definition": "The ground handling operations lead on the apron responsible for orchestrating servicing teams, monitoring critical-path milestones, and ensuring punctual departure."
             },
             {
               "num": "04",
-              "term": "Zero-Waste Travel",
-              "definition": "A travel methodology prioritizing reusable gear, local organic food, and composting to eliminate single-use waste."
+              "term": "Ramp Agent",
+              "definition": "An airside ground handler responsible for loading and unloading baggage and cargo, positioning ground support equipment, and securing the aircraft servicing envelope."
             },
             {
               "num": "05",
-              "term": "Community-Based Tourism (CBT)",
-              "definition": "Tourism where local communities manage operations and receive direct economic proceeds."
+              "term": "Marshaller",
+              "definition": "A trained apron ground handler who uses illuminated wands or visual hand signals to guide an incoming aircraft along the taxi line to its exact parking mark."
             },
             {
               "num": "06",
-              "term": "Biodiversity Conservation",
-              "definition": "Protecting endangered fauna, flora, and native habitats from tourist disruption."
+              "term": "Flight Operations Officer / Dispatcher",
+              "definition": "A licensed flight planning specialist who calculates fuel requirements, monitors en-route NOTAMs and weather, prepares flight plans, and co-signs the dispatch release with the captain."
             },
             {
               "num": "07",
-              "term": "Low-Impact Hospitality",
-              "definition": "Accommodations designed with passive solar cooling, rainwater harvesting, and non-toxic materials."
+              "term": "Passenger Service Agent (PSA)",
+              "definition": "A landside airline or ground handling employee who assists travelers at check-in desks, checks travel documentation, reconciles hold luggage, and conducts gate boarding."
             },
             {
               "num": "08",
-              "term": "Biodiversity Corridor",
-              "definition": "A protected natural strip connecting separated wildlife habitats to allow safe migration across tourist areas."
+              "term": "Aviation Safety Inspector",
+              "definition": "A civil aviation authority official (e.g. DGAC/DSAC, often TSEEAC) tasked with auditing airlines, maintenance repair organizations, and aerodromes for strict regulatory compliance."
             },
             {
               "num": "09",
-              "term": "Slow Travel",
-              "definition": "A travel ethos emphasizing longer stays, surface transit, and deep cultural immersion over hurried flights."
+              "term": "Aerodrome Operations Coordinator",
+              "definition": "An airport duty specialist (often TSEEAC) responsible for inspecting runway pavement friction, monitoring obstacle limitation surfaces, managing wildlife hazards, and coordinating apron works."
             },
             {
               "num": "10",
-              "term": "Regenerative Tourism",
-              "definition": "Travel practices designed to actively improve and restore local ecosystems rather than merely minimizing harm."
+              "term": "Avionics Technician",
+              "definition": "A certified aircraft maintenance engineer specialized in troubleshooting, repairing, calibrating, and certifying cockpit flight management computers, radar, and navigation systems."
             },
             {
               "num": "11",
-              "term": "Measurable Eco-Benefit (Additionality)",
-              "definition": "A real, measurable environmental improvement created by a conservation project that would not have happened on its own."
+              "term": "First Officer",
+              "definition": "The second-in-command pilot on the flight deck who shares flight navigation, radio communications, and system monitoring duties with the Captain."
             },
             {
               "num": "12",
-              "term": "Carbon-Neutral Itinerary",
-              "definition": "A holiday schedule where all transit, food, and accommodation emissions have been eliminated or verified offset."
+              "term": "Purser / Cabin Manager",
+              "definition": "The senior cabin crew member responsible for supervising cabin attendants, directing in-flight passenger safety procedures, and coordinating with the flight deck."
             },
             {
               "num": "13",
-              "term": "Native Habitat Restoration",
-              "definition": "Ecological work rehabilitating damaged terrain to re-establish indigenous flora and wildlife corridors."
+              "term": "Security Screening Officer",
+              "definition": "A certified landside security officer who operates X-ray scanners, millimeter-wave body scanners, and explosive trace detectors to screen passengers and carry-on luggage."
             },
             {
               "num": "14",
-              "term": "Leave No Trace (LNT)",
-              "definition": "A set of seven universal outdoor ethics promoting minimal impact in wilderness exploration."
+              "term": "De-icing Rig Operator",
+              "definition": "A specialized ramp technician who operates aerial boom trucks to spray heated glycol mixtures onto aircraft surfaces to eradicate snow, frost, and ice contamination."
             },
             {
               "num": "15",
-              "term": "Fair Trade Tourism",
-              "definition": "Certification ensuring fair wages, safe labor conditions, and ethical treatment across tourism supply chains."
+              "term": "Pushback Tug Driver",
+              "definition": "A heavy-equipment ramp driver specialized in connecting towbars or towbarless cradles to safely push aircraft backward out of gate stands into the taxi lane."
             },
             {
               "num": "16",
-              "term": "Renewable Powered Transit",
-              "definition": "Travel systems propelled exclusively by certified solar, wind, or hydro-electric generation."
+              "term": "Airfield Maintenance Technician",
+              "definition": "A technical specialist who inspects and maintains aeronautical ground lighting (AGL), taxiway guidance signage, runway markings, and perimeter security fences."
             },
             {
               "num": "17",
-              "term": "Rewilding",
-              "definition": "Restoring natural wilderness ecosystems and re-introducing native species, often funded by low-impact tourism."
+              "term": "Refueller / Fuel Hydrant Operator",
+              "definition": "A ramp fueling technician who connects mobile fuel bowsers or underground hydrant dispensers to aircraft fuel valves to deliver precise, contamination-tested Jet-A1."
             },
             {
               "num": "18",
-              "term": "Sustainable Development Goals (SDGs)",
-              "definition": "The 17 United Nations global benchmarks guiding responsible tourism, poverty reduction, and climate action."
+              "term": "Load Controller / Weight & Balance Specialist",
+              "definition": "An operations professional who calculates aircraft center-of-gravity (CG), models payload distribution, and generates the official load and trim sheet required for safe takeoff."
             }
           ]
         },
         "materials": {
           "videos": [
             {
-              "title": "Video 1: What is Ecotourism?",
-              "watchUrl": "https://www.youtube.com/watch?v=HVaXhEw0dJQ",
-              "tag": "DDRS",
-              "videoId": "HVaXhEw0dJQ",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/HVaXhEw0dJQ",
-              "caption": "Focus: Understanding ecotourism core pillars, environmental audits, and distinguishing genuine sustainability from greenwashing."
+              "title": "Video 1: Airside Operations & Ground Handling",
+              "watchUrl": "https://www.youtube.com/watch?v=J47mS5F9s6E",
+              "tag": "Ground Operations",
+              "videoId": "J47mS5F9s6E",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/J47mS5F9s6E",
+              "caption": "Focus: Professional coordination among ramp agents, turnaround dispatchers, pushback drivers, and ground handling teams during rapid turnarounds."
             },
             {
-              "title": "Video 2: Community Tourism",
-              "watchUrl": "https://www.youtube.com/watch?v=c4HPeylJ_3s",
-              "tag": "Case Study",
-              "videoId": "c4HPeylJ_3s",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/c4HPeylJ_3s",
-              "caption": "Focus: Principles of community empowerment, local revenue distribution, and low-impact sustainable tourism models."
+              "title": "Video 2: Inside Air Traffic Control",
+              "watchUrl": "https://www.youtube.com/watch?v=R90mroZyAL4",
+              "tag": "Air Traffic Services",
+              "videoId": "R90mroZyAL4",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/R90mroZyAL4",
+              "caption": "Focus: Tower, approach, and en-route controllers managing active runways, sector handoffs, tactical separation authority, and standard phraseology."
             },
             {
-              "title": "Video 3: Carbon Offsets",
-              "watchUrl": "https://www.youtube.com/watch?v=xh3Tvrr_6UM",
-              "tag": "Analysis",
-              "videoId": "xh3Tvrr_6UM",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/xh3Tvrr_6UM",
-              "caption": "Focus: Critical business evaluation of carbon offsets, additionality hurdles, and authentic net-zero corporate travel strategies."
+              "title": "Video 3: AFIS & Regional Aerodrome Operations",
+              "watchUrl": "https://www.youtube.com/watch?v=2BZbHAJQ70s",
+              "tag": "TSEEAC / AFISO Focus",
+              "videoId": "2BZbHAJQ70s",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/2BZbHAJQ70s",
+              "caption": "Focus: Aerodrome Flight Information Service (AFIS) officers providing flight information, weather reports, and alerting service without air traffic control separation."
             }
           ],
           "grammar": {
-            "title": "AT, IN, and ON for Places",
-            "badge": "B1\u2013B2 Grammar Focus",
-            "patternTitle": "The Three Place Prepositions",
-            "formula": "AT (Point / Desk) \u2022 IN (Enclosed Room / City) \u2022 ON (Surface / Floor / Line)",
-            "rulesTitle": "Core Rules",
+            "title": "Expressing Professional Responsibilities, Duties & Authority",
+            "badge": "B2 Functional Grammar Focus",
+            "patternTitle": "Responsibility & Authority Formulas",
+            "formula": "BE RESPONSIBLE FOR + -ING • BE TASKED WITH + -ING • HAVE AUTHORITY OVER / TO • ENSURE THAT + CLAUSE",
+            "rulesTitle": "Core Formulas & Jurisdictional Prepositions",
             "rules": [
-              "<strong style=\"color: #1e293b;\">1. AT (Specific Points &amp; Desks):</strong> Exact service counters, meeting points, and transit stops (<span style=\"font-weight: 700; color: #c0684f;\">at the desk</span>, <span style=\"font-weight: 700; color: #c0684f;\">at the solar charging hub</span>, <span style=\"font-weight: 700; color: #c0684f;\">at the gate</span>).",
-              "<strong style=\"color: #1e293b;\">2. IN (Enclosed Spaces &amp; Areas):</strong> Rooms, buildings, cities, and regions (<span style=\"font-weight: 700; color: #c0684f;\">in the terminal</span>, <span style=\"font-weight: 700; color: #c0684f;\">in the national park</span>, <span style=\"font-weight: 700; color: #c0684f;\">in Copenhagen</span>).",
-              "<strong style=\"color: #1e293b;\">3. ON (Surfaces, Floors &amp; Public Transport):</strong> Flat surfaces, specific floors, and public transit (<span style=\"font-weight: 600; color: #334155;\">on the roof</span>, <span style=\"font-weight: 600; color: #334155;\">on the second floor</span>, <span style=\"font-weight: 600; color: #334155;\">on the train</span>).",
-              "<strong style=\"color: #1e293b;\">4. Relational Words:</strong> <span style=\"font-weight: 600; color: #334155;\">next to</span> / <span style=\"font-weight: 600; color: #334155;\">adjacent to</span> (beside), <span style=\"font-weight: 600; color: #334155;\">between</span> (between two points), and <span style=\"font-weight: 600; color: #334155;\">throughout</span> (all across an area)."
+              "<strong style=\"color: #1e293b;\">1. BE RESPONSIBLE FOR + Gerund / Noun:</strong> Core ongoing duty or accountability (<span style=\"font-weight: 700; color: #c0684f;\">responsible for coordinating</span>, <span style=\"font-weight: 700; color: #c0684f;\">responsible for flight safety</span>).",
+              "<strong style=\"color: #1e293b;\">2. BE TASKED WITH + Gerund / Noun:</strong> Designated operational mission or assigned mandate (<span style=\"font-weight: 700; color: #c0684f;\">tasked with conducting</span>, <span style=\"font-weight: 700; color: #c0684f;\">tasked with safety audits</span>).",
+              "<strong style=\"color: #1e293b;\">3. HAVE AUTHORITY OVER / TO:</strong> Legal command power (<span style=\"font-weight: 600; color: #334155;\">have authority over active runways</span> [ATCO], <span style=\"font-weight: 600; color: #334155;\">authority to issue clearances</span>).",
+              "<strong style=\"color: #1e293b;\">4. ENSURE THAT + Clause:</strong> Verification and quality assurance (<span style=\"font-weight: 600; color: #334155;\">ensure that cargo doors are latched</span>, <span style=\"font-weight: 600; color: #334155;\">ensure that weight limits are respected</span>).",
+              "<strong style=\"color: #1e293b;\">5. REPORT TO vs. LIAISE WITH:</strong> Upward hierarchy (<span style=\"font-weight: 600; color: #334155;\">reports to the chief pilot</span>) vs. lateral coordination (<span style=\"font-weight: 600; color: #334155;\">liaises with apron controllers</span>)."
             ],
-            "trap": "<strong>\u26a0\ufe0f TOEIC Trap Alert:</strong> Watch out for movement words! Static places use <em>at</em>, <em>in</em>, or <em>on</em>. Movement uses <em>to</em>, <em>into</em>, <em>onto</em>, or <em>toward</em>. If the action is stationary (e.g., <em>purchase</em>, <em>wait</em>, <em>meet</em>, <em>sit</em>), do not choose movement words!",
-            "examplesTitle": "Green Tourism & Transit Examples",
+            "trap": "<strong>⚠️ Common Preposition & False Friend Trap:</strong> Never say <em>responsible of</em>—always use <strong>responsible for + -ing</strong>. Also, strictly distinguish <em>control</em> (ATCO issuing binding separation orders) from <em>provide information</em> (AFISO advising pilots without executive control clearances).",
+            "examplesTitle": "Operational Responsibility Examples",
             "examples": [
-              "<em>\"Visitors can collect reusable guidebooks <strong>at</strong> the eco-tourism kiosk located in the primary lobby.\"</em>",
-              "<em>\"Electric shuttle buses run continuously <strong>between</strong> the high-speed rail terminus and the regional biosphere reserve.\"</em>"
+              "<em>\"The Turnaround Coordinator is <strong>responsible for ensuring</strong> that all ground support equipment is detached before pushback.\"</em>",
+              "<em>\"Unlike aerodrome controllers, AFISOs are <strong>tasked with providing</strong> traffic information rather than tactical separation clearances.\"</em>"
             ]
           },
           "toeic": {
-            "stem": "If large corporations ________ corporate business travel by twenty percent, their overall carbon footprint would decline noticeably.",
+            "stem": "The Turnaround Coordinator is directly responsible ________ supervising the loading of cargo and ensuring compliance with the weight schedule.",
             "options": [
               {
                 "letter": "A",
-                "text": "reduce"
+                "text": "with"
               },
               {
                 "letter": "B",
-                "text": "reduced"
+                "text": "for"
               },
               {
                 "letter": "C",
-                "text": "will reduce"
+                "text": "of"
               },
               {
                 "letter": "D",
-                "text": "have reduced"
+                "text": "to"
               }
             ],
             "correctLetter": "B",
-            "correctText": "reduced",
-            "analysis": "Second conditional: If + Past Simple in the condition, would + base verb in the result (\"would decline\").",
-            "strategy": "Second conditional formula: If + [Past Simple] ..., [would/could/might + base verb]. Spot \"would decline\" to pick \"reduced\"."
+            "correctText": "for",
+            "analysis": "\"Responsible for\" is the fixed prepositional collocation followed by a gerund (\"supervising\").",
+            "strategy": "Spot \"responsible\" -> immediately look for \"for + -ing/noun\". Avoid the common French false friend \"responsible of\"."
           },
           "resources": [
             {
-              "url": "https://www.gstcouncil.org",
-              "tag": "01 \u2022 Global Accreditation",
-              "name": "Global Sustainable Tourism Council",
-              "desc": "Authoritative international standards for sustainable travel and ecotourism."
+              "url": "https://www.ecologie.gouv.fr/concours-dgac",
+              "tag": "01 • Civil Aviation Authority",
+              "name": "DGAC Careers & TSEEAC Competitions",
+              "desc": "Official French civil aviation authority portal detailing TSEEAC, IEEAC, and ATCO recruitment competitions and corps duties."
             },
             {
-              "url": "https://www.greenkey.global",
-              "tag": "02 \u2022 Hospitality Eco-Label",
-              "name": "Green Key International",
-              "desc": "Leading international eco-label award for accommodations and hospitality."
+              "url": "https://www.eurocontrol.int/careers",
+              "tag": "02 • European ATM Network",
+              "name": "Eurocontrol Air Traffic Management",
+              "desc": "Pan-European air navigation services, controller profiles, and ATM network operations."
             },
             {
-              "url": "https://www.eea.europa.eu",
-              "tag": "03 \u2022 Environmental Audits",
-              "name": "EEA Environmental Management",
-              "desc": "European guidance on corporate environmental auditing and EMAS compliance."
+              "url": "https://www.iata.org/en/programs/ops-infra/ground-operations/",
+              "tag": "03 • Ramp & Apron Standards",
+              "name": "IATA Ground Operations Hub (IGOM)",
+              "desc": "Global airline industry standards for apron safety, aircraft turnaround, and ground support equipment handling."
             },
             {
-              "url": "https://www.unwto.org",
-              "tag": "04 \u2022 Climate Action",
-              "name": "UN Tourism Decarbonization",
-              "desc": "Glasgow Declaration on Climate Action in Tourism frameworks and commitments."
+              "url": "https://www.ifatca.org",
+              "tag": "04 • Professional Association",
+              "name": "IFATCA Air Traffic Controllers",
+              "desc": "Worldwide federation representing over 50,000 air traffic controllers across 130 countries."
             },
             {
-              "url": "https://ourworldindata.org",
-              "tag": "05 \u2022 Transport Intensity",
-              "name": "Our World in Data",
-              "desc": "Comparative data on transportation carbon intensity per passenger-kilometer."
+              "url": "https://www.icao.int",
+              "tag": "05 • Global Standards",
+              "name": "ICAO Personnel Licensing (Annex 1)",
+              "desc": "International civil aviation benchmarks for pilots, flight dispatchers, ATCOs, and aeronautical station operators."
             },
             {
               "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 \u2022 Evaluation Rubrics",
-              "name": "ETS Global TOEIC",
-              "desc": "Official TOEIC Speaking & Writing evaluation benchmarks and sample responses."
+              "tag": "06 • Evaluation Rubrics",
+              "name": "ETS Global TOEIC Practice",
+              "desc": "Official TOEIC Speaking & Writing evaluation benchmarks and sample workplace responses for aviation professionals."
             }
           ],
-          "pageUrl": "session4/admat1.html",
+          "pageUrl": "session4/admat_aas1.html",
           "articles": [
             {
-              "topic": "Harvard Business Review",
-              "sourceTag": "Industry Analysis",
-              "heading": "Auditing Corporate Travel: The Scope 3 Emissions Challenge",
-              "snippet": "How international corporations measure and reduce business travel emissions through clear guidelines.",
-              "readTime": "Estimated read: 5-7 mins",
-              "url": "https://hbr.org"
+              "topic": "FlightGlobal / Aviation Careers",
+              "sourceTag": "Career Insight",
+              "heading": "Beyond the Flight Deck: The Essential Network of Airport Operations",
+              "snippet": "An in-depth look at the landside, airside, and regulatory roles that keep international aviation flowing seamlessly 24/7.",
+              "readTime": "Estimated read: 5-6 mins",
+              "url": "https://www.flightglobal.com"
             },
             {
-              "topic": "Stanford Social Innovation Review",
-              "sourceTag": "Industry Analysis",
-              "heading": "The Rise of Regenerative Tourism",
-              "snippet": "Shifting the paradigm from &#x27;leaving no trace&#x27; to actively restoring degraded ecosystems and supporting communities.",
+              "topic": "DGAC France / ENAC Portal",
+              "sourceTag": "Civil Aviation Careers",
+              "heading": "The Modern Role of TSEEAC: From AFIS to Safety Oversight",
+              "snippet": "How France's Civil Aviation Operations Corps supports regional aerodrome operations, civil aviation safety inspections, and air navigation technical support.",
               "readTime": "Estimated read: 5-7 mins",
-              "url": "https://ssir.org"
+              "url": "https://www.ecologie.gouv.fr/direction-generale-laviation-civile-dgac"
+            },
+            {
+              "topic": "Eurocontrol ATM Careers",
+              "sourceTag": "Operational Profile",
+              "heading": "ATCO vs AFISO: Understanding the Scope of Air Traffic Services",
+              "snippet": "Comparing tactical separation authority in controlled airspace with flight information and advisory services at regional fields.",
+              "readTime": "Estimated read: 6-8 mins",
+              "url": "https://www.eurocontrol.int"
+            },
+            {
+              "topic": "IATA Ground Operations Bulletin",
+              "sourceTag": "Safety & Turnaround",
+              "heading": "The Turnaround Coordinator: Heartbeat of On-Time Performance",
+              "snippet": "Why ramp coordinators, loadmasters, and flight dispatchers form the vital link between airline schedules and safety compliance.",
+              "readTime": "Estimated read: 5-6 mins",
+              "url": "https://www.iata.org"
             }
           ],
           "toeicQuestions": [
             {
-              "stem": "If large corporations ________ corporate business travel by twenty percent, their overall carbon footprint would decline noticeably.",
+              "stem": "The Turnaround Coordinator is directly responsible ________ supervising the loading of cargo and ensuring compliance with the weight schedule.",
               "options": [
                 {
                   "letter": "A",
-                  "text": "reduce"
+                  "text": "with"
                 },
                 {
                   "letter": "B",
-                  "text": "reduced"
+                  "text": "for"
                 },
                 {
                   "letter": "C",
-                  "text": "will reduce"
+                  "text": "of"
                 },
                 {
                   "letter": "D",
-                  "text": "have reduced"
+                  "text": "to"
                 }
               ],
               "correctLetter": "B",
-              "correctText": "reduced",
-              "analysis": "Second conditional: If + Past Simple in the condition, would + base verb in the result (\"would decline\").",
-              "strategy": "Second conditional formula: If + [Past Simple] ..., [would/could/might + base verb]. Spot \"would decline\" to pick \"reduced\"."
+              "correctText": "for",
+              "analysis": "\"Responsible for\" is the fixed prepositional collocation followed by a gerund (\"supervising\").",
+              "strategy": "Spot \"responsible\" -> immediately look for \"for + -ing/noun\". Avoid the common French false friend \"responsible of\"."
             },
             {
-              "stem": "The corporate travel policy will not authorize business-class flights ________ written justification is submitted by the department vice-president.",
+              "stem": "Unlike aerodrome controllers who issue clearances, AFIS officers are tasked with ________ flight information and meteorological updates to inbound pilots.",
               "options": [
                 {
                   "letter": "A",
-                  "text": "unless"
+                  "text": "provide"
                 },
                 {
                   "letter": "B",
-                  "text": "without"
+                  "text": "provides"
                 },
                 {
                   "letter": "C",
-                  "text": "despite"
+                  "text": "providing"
                 },
                 {
                   "letter": "D",
-                  "text": "although"
-                }
-              ],
-              "correctLetter": "A",
-              "correctText": "unless",
-              "analysis": "\"Unless\" is a conjunction meaning \"if not\", introducing the conditional clause with a subject and verb (\"written justification is submitted\").",
-              "strategy": "\"Unless\" introduces a full clause (subject + verb); \"without\" and \"despite\" are prepositions and must be followed only by a noun/gerund."
-            },
-            {
-              "stem": "Provided that regional trains ________ punctual and affordable, corporate travelers will choose rail over domestic flights.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "remain"
-                },
-                {
-                  "letter": "B",
-                  "text": "remained"
-                },
-                {
-                  "letter": "C",
-                  "text": "will remain"
-                },
-                {
-                  "letter": "D",
-                  "text": "have remained"
-                }
-              ],
-              "correctLetter": "A",
-              "correctText": "remain",
-              "analysis": "\"Provided that\" functions like \"if\" in a First Conditional, taking the Present Simple (\"remain\") while the main clause uses \"will choose\".",
-              "strategy": "Conjunctions of condition (provided that, as long as, if) take the present tense when the main clause has \"will + verb\"."
-            },
-            {
-              "stem": "If the national carrier ________ in sustainable aviation fuel supply chains earlier, it would have met its 2025 decarbonization target.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "invests"
-                },
-                {
-                  "letter": "B",
-                  "text": "invested"
-                },
-                {
-                  "letter": "C",
-                  "text": "had invested"
-                },
-                {
-                  "letter": "D",
-                  "text": "would invest"
+                  "text": "provided"
                 }
               ],
               "correctLetter": "C",
-              "correctText": "had invested",
-              "analysis": "Third conditional: If + Past Perfect (\"had invested\"), would have + past participle (\"would have met\").",
-              "strategy": "Third conditional formula: If + [had + V3], [would have + V3]. Look at \"would have met\" to immediately identify \"had invested\"."
+              "correctText": "providing",
+              "analysis": "\"Be tasked with\" is followed by a preposition (\"with\"), which requires a gerund (\"providing\") or a noun phrase.",
+              "strategy": "Identify \"tasked with\" -> verb must be in the gerund form (-ing)."
             },
             {
-              "stem": "Corporate sustainability guidelines require employees to calculate transit emissions ________ booking multi-leg international flights.",
+              "stem": "Before releasing the aircraft for departure, the flight dispatcher must verify that all load sheets ________ by the captain.",
               "options": [
                 {
                   "letter": "A",
-                  "text": "prior to"
+                  "text": "have signed"
                 },
                 {
                   "letter": "B",
-                  "text": "except"
+                  "text": "have been signed"
                 },
                 {
                   "letter": "C",
-                  "text": "in spite of"
+                  "text": "will sign"
                 },
                 {
                   "letter": "D",
-                  "text": "since"
+                  "text": "signing"
+                }
+              ],
+              "correctLetter": "B",
+              "correctText": "have been signed",
+              "analysis": "Passive voice is required because load sheets cannot sign themselves; they must be signed by the captain.",
+              "strategy": "Check if the subject (\"all load sheets\") is the actor or the receiver of the verb. Since it is the receiver, choose passive voice \"have been signed\"."
+            },
+            {
+              "stem": "The civil aviation safety inspector conducted an unannounced audit in order to ensure ________ ground handling personnel were strictly following apron safety protocols.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "that"
+                },
+                {
+                  "letter": "B",
+                  "text": "what"
+                },
+                {
+                  "letter": "C",
+                  "text": "which"
+                },
+                {
+                  "letter": "D",
+                  "text": "where"
                 }
               ],
               "correctLetter": "A",
-              "correctText": "prior to",
-              "analysis": "\"Prior to\" is a compound preposition meaning \"before\", properly taking the gerund \"booking\".",
-              "strategy": "\"Prior to\" + gerund (-ing) is a high-frequency business English synonym for \"before\" in TOEIC Part 5."
+              "correctText": "that",
+              "analysis": "\"Ensure that\" introduces a content clause detailing what is being verified or secured.",
+              "strategy": "\"Ensure\" takes a \"that\" clause (\"ensure that + subject + verb\")."
+            },
+            {
+              "stem": "The airport duty manager was commended for handling the ramp emergency calmly, ________ severe winter weather conditions.",
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "despite"
+                },
+                {
+                  "letter": "B",
+                  "text": "although"
+                },
+                {
+                  "letter": "C",
+                  "text": "unless"
+                },
+                {
+                  "letter": "D",
+                  "text": "whereas"
+                }
+              ],
+              "correctLetter": "A",
+              "correctText": "despite",
+              "analysis": "\"Despite\" is a preposition expressing concession followed by a noun phrase (\"severe winter weather conditions\").",
+              "strategy": "Check what follows the blank. \"Severe winter weather conditions\" is a noun phrase, so a preposition (\"despite\") is required rather than a subordinating conjunction like \"although\"."
             }
           ]
         }
