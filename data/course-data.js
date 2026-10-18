@@ -7004,28 +7004,28 @@
         "materials": {
           "videos": [
             {
-              "title": "Video 1: Anatomy of a 35-Minute Turnaround",
-              "watchUrl": "https://www.youtube.com/watch?v=8yJ3O_9zLCA",
+              "title": "Video 1: What Happens To An Aircraft During Its Turnaround?",
+              "watchUrl": "https://www.youtube.com/watch?v=EiKeGmkX6fY",
               "tag": "Ground Handling",
-              "videoId": "8yJ3O_9zLCA",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/8yJ3O_9zLCA",
-              "caption": "Focus: Real-time airside coordination during a rapid commercial airliner turnaround from chocks-on to pushback clearance."
+              "videoId": "EiKeGmkX6fY",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/EiKeGmkX6fY",
+              "caption": "Focus: Step-by-step breakdown of the rapid 35 to 45-minute commercial aircraft turnaround: blocks-on, chocks, deplaning, baggage handling, fueling, catering, and pushback."
             },
             {
-              "title": "Video 2: Ground Support Equipment on the Apron",
-              "watchUrl": "https://www.youtube.com/watch?v=l1WJsGNqoeo",
+              "title": "Video 2: 20 Types of Aircraft Ground Support Equipment (GSE)",
+              "watchUrl": "https://www.youtube.com/watch?v=R90mroZyAL4",
               "tag": "Vehicle Operations",
-              "videoId": "l1WJsGNqoeo",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/l1WJsGNqoeo",
-              "caption": "Focus: Identifying airside vehicle movements, safety clearances, and positioning around wide-body and narrow-body aircraft."
+              "videoId": "R90mroZyAL4",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/R90mroZyAL4",
+              "caption": "Focus: Visual field guide to the specialized vehicles operating on the apron stand: pushback tugs, ground power units (GPU), belt loaders, catering hi-lifts, and de-icing rigs."
             },
             {
-              "title": "Video 3: Ramp Safety & Apron Hazard Prevention",
-              "watchUrl": "https://www.youtube.com/watch?v=tb8dz6Rr0Vk",
-              "tag": "Safety Culture",
-              "videoId": "tb8dz6Rr0Vk",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/tb8dz6Rr0Vk",
-              "caption": "Focus: Preventing ramp collisions, managing service road traffic, and enforcing FOD prevention standards."
+              "title": "Video 3: Pushback Operations & Electric Tugs",
+              "watchUrl": "https://www.youtube.com/watch?v=2BZbHAJQ70s",
+              "tag": "Ramp Safety",
+              "videoId": "2BZbHAJQ70s",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/2BZbHAJQ70s",
+              "caption": "Focus: Captain Joe explains how pushback tractors maneuver commercial airliners out of the gate, interphone headset communication, and next-generation electric tug innovations."
             }
           ],
           "grammar": {

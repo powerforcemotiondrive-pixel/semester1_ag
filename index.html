@@ -868,6 +868,8 @@
       const s1ClassReviewUrl = (isAas && modNumber === 1) ? "session1/rev_aas1.html" : `session1/rev${modNumber}.html`;
       const s2AdditionalMaterialsUrl = (isAas && modNumber === 1) ? "session2/admat_aas1.html" : `session2/admat${modNumber}.html`;
       const s2ClassReviewUrl = (isAas && modNumber === 1) ? "session2/rev_aas1.html" : `session2/rev${modNumber}.html`;
+      const s3AdditionalMaterialsUrl = (isAas && modNumber === 1) ? "session3/admat_aas1.html" : `session3/admat${modNumber}.html`;
+      const s3ClassReviewUrl = (isAas && modNumber === 1) ? "session3/rev_aas1.html" : `session3/rev${modNumber}.html`;
       const isAgMod1 = !isAas && modNumber === 1;
       const s1Pdf = isAgMod1 ? "agmod1.pdf#page=1" : "agmod1.pdf";
       const s2Pdf = isAgMod1 ? "agmod1.pdf#page=21" : "agmod1.pdf";
@@ -903,12 +905,12 @@
           tag: `Module ${modNumber} • Session 3`,
           title: titles.s3,
           description: desc.s3,
-          url: `session3/admat${modNumber}.html`,
-          additionalMaterialsUrl: `session3/admat${modNumber}.html`,
+          url: s3AdditionalMaterialsUrl,
+          additionalMaterialsUrl: s3AdditionalMaterialsUrl,
           pdfUrl: s3Pdf,
           lessonPlanUrl: `session3/plan${modNumber}.html`,
           objectivesUrl: `session3/obj${modNumber}.html`,
-          classReviewUrl: `session3/rev${modNumber}.html`,
+          classReviewUrl: s3ClassReviewUrl,
           imageUrl: images.card3
         },
         {
