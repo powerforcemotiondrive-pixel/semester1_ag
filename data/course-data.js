@@ -14789,27 +14789,27 @@
         "videos": [
           {
             "title": "Video 1: In-Flight Medical Emergencies & Passenger Care",
-            "watchUrl": "https://www.youtube.com/watch?v=F3aJt3k_TqM",
+            "watchUrl": "https://www.youtube.com/watch?v=QWfFaOoUVF0",
             "tag": "In-Flight Medicine",
-            "videoId": "F3aJt3k_TqM",
-            "embedUrl": "https://www.youtube-nocookie.com/embed/F3aJt3k_TqM",
-            "caption": "Focus: Analyze in-flight passenger triage, Emergency Medical Kit (EMK) deployment, onboard AED shock delivery, and Captain medical diversion decision points."
+            "videoId": "QWfFaOoUVF0",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/QWfFaOoUVF0",
+            "caption": "Focus: Real in-flight passenger emergency response: Emergency Medical Kit (EMK) deployment, cabin oxygen, doctor-crew cooperation, and medical diversion decision points."
           },
           {
-            "title": "Video 2: Pilot Fatigue & The Window of Circadian Low",
-            "watchUrl": "https://www.youtube.com/watch?v=2r1p8DkE8dM",
+            "title": "Video 2: Pilot Incapacitation & Flight Time Limitations",
+            "watchUrl": "https://www.youtube.com/watch?v=NtuO6k92OJo",
             "tag": "Human Factors & FTL",
-            "videoId": "2r1p8DkE8dM",
-            "embedUrl": "https://www.youtube-nocookie.com/embed/2r1p8DkE8dM",
-            "caption": "Focus: Examine circadian desynchrony, micro-sleep risks, Flight Time Limitations (FTL), and controlled rest protocols on the flight deck."
+            "videoId": "NtuO6k92OJo",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/NtuO6k92OJo",
+            "caption": "Focus: Airline captain Petter Hörnfeldt explains cockpit incapacitation drills, Flight Time Limitations (FTL), micro-sleep risks, and checklist re-allocation."
           },
           {
-            "title": "Video 3: Hypoxia, Spatial Disorientation & Vestibular Illusions",
-            "watchUrl": "https://www.youtube.com/watch?v=kU4vFOTrWEO",
+            "title": "Video 3: Hypoxia, Spatial Disorientation & Altitude Chambers",
+            "watchUrl": "https://www.youtube.com/watch?v=sw2HVX6K--8",
             "tag": "Aeromedical Physics",
-            "videoId": "kU4vFOTrWEO",
-            "embedUrl": "https://www.youtube-nocookie.com/embed/kU4vFOTrWEO",
-            "caption": "Focus: Observe rapid decompression effects, Time of Useful Consciousness (TUC) at FL350, and vestibular illusions like The Leans and Graveyard Spiral."
+            "videoId": "sw2HVX6K--8",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/sw2HVX6K--8",
+            "caption": "Focus: Live altitude chamber hypoxia demonstration: cognitive degradation, insidious onset, Time of Useful Consciousness (TUC), and rapid mask donning."
           }
         ],
         "resources": [
@@ -15457,27 +15457,27 @@
         "videos": [
           {
             "title": "Video 1: Microbursts, Windshear & The Crash of Delta 191",
-            "watchUrl": "https://www.youtube.com/watch?v=sI91xU1d8kU",
+            "watchUrl": "https://www.youtube.com/watch?v=TIOQXdds2ZY",
             "tag": "Convective Hazards",
-            "videoId": "sI91xU1d8kU",
-            "embedUrl": "https://www.youtube-nocookie.com/embed/sI91xU1d8kU",
-            "caption": "Focus: Study the aerodynamics of intense convective downdrafts, Terminal Doppler Weather Radar (TDWR), and mandatory windshear escape maneuvers."
+            "videoId": "TIOQXdds2ZY",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/TIOQXdds2ZY",
+            "caption": "Focus: In-depth analysis of the 1985 DFW microburst: downdraft aerodynamics, low-level windshear alerting (LLWAS), TDWR radar, and windshear escape maneuvers."
           },
           {
             "title": "Video 2: Volcanic Ash Cloud Encounter: British Airways Flight 009",
-            "watchUrl": "https://www.youtube.com/watch?v=mD0iXq8X_hE",
+            "watchUrl": "https://www.youtube.com/watch?v=YYwN1R8hVsI",
             "tag": "Volcanic Hazards",
-            "videoId": "mD0iXq8X_hE",
-            "embedUrl": "https://www.youtube-nocookie.com/embed/mD0iXq8X_hE",
-            "caption": "Focus: Review the 1982 Galunggung encounter where volcanic ash caused quad engine flameout, turbine glass coating, and St. Elmo's fire."
+            "videoId": "YYwN1R8hVsI",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/YYwN1R8hVsI",
+            "caption": "Focus: The famous Jakarta incident: Mount Galunggung ash cloud encounter, quadruple engine flameout, windshield sandblasting, St. Elmo's fire, and relight procedures."
           },
           {
             "title": "Video 3: Decoding Aviation Weather: METAR, TAF & SIGMET Masterclass",
-            "watchUrl": "https://www.youtube.com/watch?v=5Vl8eM2uXpQ",
+            "watchUrl": "https://www.youtube.com/watch?v=nb3gyUVVMlw",
             "tag": "Aeronautical Meteorology",
-            "videoId": "5Vl8eM2uXpQ",
-            "embedUrl": "https://www.youtube-nocookie.com/embed/5Vl8eM2uXpQ",
-            "caption": "Focus: Master spoken operational translation of raw ICAO telecommunication strings, gust reports, runway visual range, and convective SIGMET advisories."
+            "videoId": "nb3gyUVVMlw",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/nb3gyUVVMlw",
+            "caption": "Focus: Master spoken operational translation of raw ICAO METAR and TAF strings: wind gust remarks, variable directions, visibility, cloud coverage, and altimeter settings."
           }
         ],
         "resources": [
@@ -16134,27 +16134,27 @@
         "videos": [
           {
             "title": "Video 1: Aviation Safety vs. Security: Legal Jurisdictions & Standards",
-            "watchUrl": "https://www.youtube.com/watch?v=8V7Zk3kX_w0",
+            "watchUrl": "https://www.youtube.com/watch?v=VjmMXB1y3mY",
             "tag": "Regulatory Framework",
-            "videoId": "8V7Zk3kX_w0",
-            "embedUrl": "https://www.youtube-nocookie.com/embed/8V7Zk3kX_w0",
-            "caption": "Focus: Contrast unintentional technical and human hazards governed by Annex 19 (Safety Management) with deliberate malicious acts governed by Annex 17 (Security)."
+            "videoId": "VjmMXB1y3mY",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/VjmMXB1y3mY",
+            "caption": "Focus: Distinguish unintentional hazards governed by ICAO Annex 19 (Safety Management Systems) from intentional unlawful acts governed by Annex 17 (Security)."
           },
           {
             "title": "Video 2: Modern Airport Security Architecture: CT Scanners & Baggage Screening",
-            "watchUrl": "https://www.youtube.com/watch?v=1Xk_w2kL9e0",
+            "watchUrl": "https://www.youtube.com/watch?v=yl3CMDBBsSE",
             "tag": "Airport Security",
-            "videoId": "1Xk_w2kL9e0",
-            "embedUrl": "https://www.youtube-nocookie.com/embed/1Xk_w2kL9e0",
-            "caption": "Focus: Explore 3D computed tomography (CT) explosive detection, automated tray return lanes, millimeter-wave body scanners, and airside restricted access controls."
+            "videoId": "yl3CMDBBsSE",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/yl3CMDBBsSE",
+            "caption": "Focus: 3D Computed Tomography (CT) baggage screening: volumetric explosive detection, rotating X-ray gantry, automated tray return systems, and passenger throughput."
           },
           {
             "title": "Video 3: Commercial Pilot Pre-Flight Walkaround Inspection Guide",
-            "watchUrl": "https://www.youtube.com/watch?v=6vU_m9kX2qY",
+            "watchUrl": "https://www.youtube.com/watch?v=tOwE_eQY_uE",
             "tag": "Flight Operations",
-            "videoId": "6vU_m9kX2qY",
-            "embedUrl": "https://www.youtube-nocookie.com/embed/6vU_m9kX2qY",
-            "caption": "Focus: Conduct a step-by-step clockwise exterior airframe inspection: pitot-static probes, angle of attack vanes, landing gear pins, brake wear indicators, and control surfaces."
+            "videoId": "tOwE_eQY_uE",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/tOwE_eQY_uE",
+            "caption": "Focus: Captain Joe performs an exterior walkaround inspection on an Airbus A320: radome, pitot probes, angle of attack sensors, landing gear pins, and control surfaces."
           }
         ],
         "resources": [
@@ -16772,28 +16772,28 @@
       "materials": {
         "videos": [
           {
-            "title": "Video 1: Aviation Crisis Communications: Press Briefings Under Scrutiny",
-            "watchUrl": "https://www.youtube.com/watch?v=3Vk_9kL8mP0",
+            "title": "Video 1: Aviation Crisis Communications: Airline Press Briefings",
+            "watchUrl": "https://www.youtube.com/watch?v=YU4HLDqCuzM",
             "tag": "Media Briefing",
-            "videoId": "3Vk_9kL8mP0",
-            "embedUrl": "https://www.youtube-nocookie.com/embed/3Vk_9kL8mP0",
-            "caption": "Focus: Professional communication guidelines for airline and airport spokespersons delivering live situation briefings and responding to adversarial media questions."
+            "videoId": "YU4HLDqCuzM",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/YU4HLDqCuzM",
+            "caption": "Focus: Crisis communication protocols for airline and civil aviation spokespersons: holding statements, factual briefings, avoiding speculation, and handling tough media questions."
           },
           {
-            "title": "Video 2: Commercial Aviation Engineering & Flight Operations Capstone",
-            "watchUrl": "https://www.youtube.com/watch?v=9Xm_1l9k0eQ",
+            "title": "Video 2: How Safe is Commercial Aviation? Capstone Safety Analysis",
+            "watchUrl": "https://www.youtube.com/watch?v=uXptsqZORns",
             "tag": "Semester Review",
-            "videoId": "9Xm_1l9k0eQ",
-            "embedUrl": "https://www.youtube-nocookie.com/embed/9Xm_1l9k0eQ",
-            "caption": "Focus: Comprehensive semester retrospective integrating aerodrome layouts, flight aerodynamics, jet propulsion, aeromedical human factors, and crisis safety management."
+            "videoId": "uXptsqZORns",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/uXptsqZORns",
+            "caption": "Focus: A comprehensive retrospective on commercial aviation safety architecture: redundant systems, fail-safe engineering, human factors training, and global regulatory oversight."
           },
           {
-            "title": "Video 3: Inside Air Accident Investigation: How BEA & NTSB Solve Disasters",
-            "watchUrl": "https://www.youtube.com/watch?v=4Ym_7kL1pW0",
+            "title": "Video 3: Inside Air Accident Investigation: How BEA & NTSB Solve Crashes",
+            "watchUrl": "https://www.youtube.com/watch?v=Kec7guNWhNU",
             "tag": "Investigation Standards",
-            "videoId": "4Ym_7kL1pW0",
-            "embedUrl": "https://www.youtube-nocookie.com/embed/4Ym_7kL1pW0",
-            "caption": "Focus: Follow flight data and cockpit voice recorder readout, wreckage reconstruction, human performance modeling, and the issuance of safety recommendations."
+            "videoId": "Kec7guNWhNU",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/Kec7guNWhNU",
+            "caption": "Focus: Air accident investigator breaks down how investigations work: flight data recorder (FDR) and cockpit voice recorder (CVR) recovery, wreckage reconstruction, and safety recommendations."
           }
         ],
         "resources": [
