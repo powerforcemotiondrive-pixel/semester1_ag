@@ -2150,7 +2150,20 @@
                   "answer": "A systematic method to evaluate the environmental impact of a vehicle, fuel, or infrastructure from raw material extraction through manufacturing, use, and final disposal or recycling."
                 }
               ]
-            }
+            },
+            "modeBadges": [
+              "👥 Pair Recall",
+              "⏱️ 5 min pairs + 5 min plenary",
+              "🗣️ Spoken Retrieval",
+              "🏛️ Tourism Policy"
+            ],
+            "instructions": [
+              "Step 1 (Headlines - 3 mins): In pairs, discuss the two City Tourism headlines: Venice entrance fee expansion and Amsterdam short-term rental limits. Ask your partner: \"Which measure addresses root causes rather than symptoms?\"",
+              "Step 2 (Diagnostic Recall - 4 mins): Without checking notes, test each other on 2 key concepts from Session 2 (e.g. modal shift, feeder line, decarbonization).",
+              "Step 3 (Spot-Check - 3 mins): Click \"Reveal Answer\" to check your operational distinction. Be ready for the instructor's plenary spot-check."
+            ],
+            "deliverable": "Spoken explanation of one City Tourism headline and an accurate Session 2 vocabulary definition.",
+            "teacherNotes": "Cold-call 2 random pairs. Ask: 'Why are European cities switching from destination promotion to destination stewardship?' Check pronunciation of 'carrying capacity' and 'inhabitants'."
           },
           "pressureMatrix": {
             "title": "Activity 2: Destination Pressure & Visitor Capacity (25 mins)",
@@ -2189,7 +2202,20 @@
                 "actions": "Complete closure for 3.5 years for ecological regeneration; reopened with a daily visitor cap, mandatory online booking, and a complete ban on boats entering the bay."
               }
             ],
-            "discussionPrompt": "Which city policy has been most successful in balancing economic income with resident well-being?"
+            "discussionPrompt": "Which city policy has been most successful in balancing economic income with resident well-being?",
+            "modeBadges": [
+              "👥 Destination Analysis",
+              "⏱️ 10 min analysis + 15 min debate",
+              "📊 Carrying Capacity",
+              "🏙️ Municipal Measures"
+            ],
+            "instructions": [
+              "Step 1 (Matrix Analysis - 4 mins): Examine the 4 destination pressure profiles (Venice, Amsterdam, Dubrovnik, Barcelona), comparing resident populations against annual visitor volumes.",
+              "Step 2 (Ratio Calculation - 4 mins): Calculate the ratio of annual visitors per resident (e.g. Venice: 50,000 residents vs. 5,500,000 visitors = 110:1 ratio). Discuss how this impacts local housing and essential public services.",
+              "Step 3 (Policy Debate - 7 mins): In pairs, evaluate which municipal measure (entry fees, cruise ship bans, short-term rental freezes) is most effective and defend your choice with your partner."
+            ],
+            "deliverable": "Deliver a 45-second comparative argument evaluating the effectiveness of two municipal anti-overtourism policies.",
+            "teacherNotes": "Highlight the distinction between 'overtourism' (perceived crowding & social pressure) and 'carrying capacity' (physical infrastructure limits). Ensure students use formal comparative vocabulary."
           },
           "policyPitch": {
             "title": "Activity 3: Pitching New Tourism Policies to the Mayor (25 mins)",
@@ -2213,7 +2239,20 @@
                 "description": "Prohibit passenger ships over 50,000 gross tonnes from docking within 10 km of the historic center to stop air pollution and sudden crowd surges.",
                 "objection": "Port authorities argue the city will lose millions in docking fees and provisioning contracts."
               }
-            ]
+            ],
+            "modeBadges": [
+              "🎭 Municipal Role-Play Pitch",
+              "⏱️ 10 min prep + 15 min pitches",
+              "🗣️ Pitching to the Mayor",
+              "💼 Objection Defense"
+            ],
+            "instructions": [
+              "Step 1 (Policy Selection - 3 mins): Select one controversial municipal tourism policy from the grid: Strict Short-Term Rental Caps, Peak-Hour Access Tolls, or Cruise Ship Disembarkation Quotas.",
+              "Step 2 (Role-Play Prep - 7 mins): Partner A acts as the Chief Sustainability Officer pitching the policy to City Council; Partner B acts as the Chamber of Commerce President raising commercial objections.",
+              "Step 3 (Spoken Pitch & Compromise - 5 mins): Deliver your 2-minute pitch and negotiate an amended policy compromise that protects resident quality of life without collapsing local commerce."
+            ],
+            "deliverable": "A 60-second spoken summary of your amended policy compromise presented to the class.",
+            "teacherNotes": "Act as the Mayor observing the pitch. Demand concrete answers on: revenue distribution, enforcement costs, and impact on small local shopkeepers. Board key persuasive phrases."
           },
           "grammarClinic": {
             "title": "Activity 4: Grammar Clinic: Causatives & Contrast Words (20 mins)",
@@ -2261,7 +2300,20 @@
                   "explanation": "'Require' takes the 'to-infinitive' pattern ('require someone to do something'). 'Make' would take an infinitive without 'to'."
                 }
               ]
-            }
+            },
+            "modeBadges": [
+              "👥 Causatives & Contrast Clinic",
+              "⏱️ 8 min rules + 12 min challenge",
+              "✍️ Complex Connectors",
+              "🎯 B2 Academic Syntax"
+            ],
+            "instructions": [
+              "Step 1 (Rule Dissection - 5 mins): Review the 3 grammar patterns: Causatives ('have/get something done', 'make/let someone do'), Contrast linkers ('whereas', 'while', 'in spite of'), and Concession clauses ('despite the fact that').",
+              "Step 2 (Challenge Practice - 8 mins): Work through the 4 interactive grammar challenge questions individually without consulting notes.",
+              "Step 3 (Peer Check & Verification - 7 mins): Compare answers with your partner, click 'Check Answer & Explanation', and formulate one original sentence describing municipal tourism restrictions using 'in spite of' + noun phrase."
+            ],
+            "deliverable": "100% correct score on the diagnostic quiz and verbal delivery of one original causative sentence.",
+            "teacherNotes": "Emphasize prepositional vs. clausal contrast linkers: 'in spite of' + noun phrase/gerund vs. 'although' + full clause. Point out common error: '*despite of'."
           },
           "simulation": {
             "title": "Activity 5: DDRS Simulation: The Isla Serena Water Crisis (30 mins)",
@@ -2284,7 +2336,20 @@
                 "stance": "Reports that the underground freshwater aquifer is at 18% capacity. Warns that further drilling will cause saltwater contamination, destroying the island's drinking water."
               }
             ],
-            "task": "Negotiate a realistic 3-point compromise agreement that addresses water rationing, tourism capacity limits, and infrastructure funding."
+            "task": "Negotiate a realistic 3-point compromise agreement that addresses water rationing, tourism capacity limits, and infrastructure funding.",
+            "modeBadges": [
+              "👥 Multi-Stakeholder Round-Table",
+              "⏱️ 12 min group work + 18 min simulation",
+              "💧 Resource Scarcity Crisis",
+              "🤝 Multi-Party Consensus"
+            ],
+            "instructions": [
+              "Step 1 (Crisis Briefing - 4 mins): Read the Isla Serena Water Crisis scenario: Summer drought drops reservoir to 18% capacity while luxury resorts consume 800L/guest/day.",
+              "Step 2 (Role Allocation & Strategy - 8 mins): In groups of 4, take on one assigned role: Hotel Federation President, Farmers' Cooperative Lead, Resident Association Spokesperson, or Municipal Water Commissioner. Prepare your non-negotiables.",
+              "Step 3 (Emergency Summit - 6 mins): Convene the emergency summit. Negotiate an emergency water quota allocation and seasonal tourism tariff to reach unanimous consensus."
+            ],
+            "deliverable": "Signed 4-point Emergency Water Allocation Accord presenting agreed percentage quotas for each sector.",
+            "teacherNotes": "Timekeeper and moderator: cut off circular debates. If groups reach a stalemate, introduce a crisis prompt: 'A heatwave has pushed reservoir levels down to 12%—you have 3 minutes to finalize water cuts!'"
           },
           "closingReview": {
             "title": "Activity 6: 10-Minute Vocabulary Wrap-Up & Taboo Fluency Challenge (10 mins)",
@@ -2355,7 +2420,20 @@
                   "Month"
                 ]
               }
-            ]
+            ],
+            "modeBadges": [
+              "🎧 Audio Drill & Taboo Challenge",
+              "⏱️ 5 min taboo + 5 min reflection",
+              "🗣️ Fluency Under Pressure",
+              "📝 Self-Assessment Log"
+            ],
+            "instructions": [
+              "Step 1 (Audio Pronunciation Drill - 4 mins): Chorally repeat the 18 key overtourism terms using the audio pronunciation buttons.",
+              "Step 2 (Taboo Challenge - 4 mins): Play the 45-Second Taboo Challenge with your partner: describe target terms ('carrying capacity', 'short-term let', 'moratorium') without saying forbidden words.",
+              "Step 3 (Digital Notebook - 2 mins): Record your personal reflection and mark newly mastered vocabulary in the Revision tab."
+            ],
+            "deliverable": "Successfully define 3 taboo terms under time pressure and complete the personal Session 3 learning log.",
+            "teacherNotes": "Keep tempo fast and competitive. Conduct whole-class choral drill on high-risk pronunciation items: 'carrying capacity', 'moratorium', 'inhabitants', 'gentrification'."
           }
         }
       },
@@ -9934,7 +10012,20 @@
                   "answer": "High-visibility vests (fluorescent yellow/orange), hearing protection (ear defenders), steel-toe safety boots, and airport security identification badges (ASIC)."
                 }
               ]
-            }
+            },
+            "modeBadges": [
+              "👥 Apron News & Spot-Check",
+              "⏱️ 5 min pairs + 5 min plenary",
+              "🗣️ Airside Lexis",
+              "✈️ Turnaround Briefing"
+            ],
+            "instructions": [
+              "Step 1 (News Review - 3 mins): Review the Apron Operations and Ground Safety news headlines with your partner.",
+              "Step 2 (Markings Recall - 4 mins): Take turns quizzing each other on 3 aerodrome markings from Session 2 (Holding Position, Taxiway Centerline, ILS Critical Area).",
+              "Step 3 (Spot-Check - 3 mins): Formulate a precise operational definition for one pair of terms when called upon by the instructor."
+            ],
+            "deliverable": "Spoken explanation of one ground handling news item and an accurate Session 2 aerodrome markings definition.",
+            "teacherNotes": "Cold-call pairs. Probe beyond basic definitions: ask why confusing an enhanced centerline with a standard centerline creates a runway incursion risk."
           },
           "turnaroundClock": {
             "title": "Activity 2: The Turnaround Clock (15 mins)",
@@ -9983,7 +10074,20 @@
                   "text": "\"The catering crew <strong>have already loaded</strong> the forward galleys, but the baggage handlers <strong>have not closed</strong> the aft cargo door yet.\""
                 }
               ]
-            }
+            },
+            "modeBadges": [
+              "⏱️ Critical Path Timeline",
+              "⏱️ 5 min analysis + 10 min pairs",
+              "✈️ 35-Min Servicing Window",
+              "🗣️ Sequencing Tenses"
+            ],
+            "instructions": [
+              "Step 1 (Timeline Analysis - 4 mins): Analyze the Turnaround Clock milestones from T-35 (chocks on, engine shutdown) to T+0 (pushback clearance).",
+              "Step 2 (Concurrent Paths - 6 mins): Identify critical path operations that run concurrently: passenger deplaning, baggage offloading, refueling, catering, and cleaning.",
+              "Step 3 (Sequencing Practice - 5 mins): Practice spoken sequencing tenses: describe what must be completed *before* refueling commences and *while* boarding is underway."
+            ],
+            "deliverable": "Deliver a 45-second spoken briefing describing 3 concurrent ramp operations using sequencing linkers ('simultaneously', 'prior to', 'upon completion of').",
+            "teacherNotes": "Emphasize critical path theory: if catering arrives 5 minutes late, why does it cascade into a 20-minute slot loss? Review passive forms ('chocks are inserted', 'fueling is suspended')."
           },
           "vehicles": [
             {
@@ -10216,7 +10320,20 @@
                 "consequence": "The catering hi-lift driver was unable to reverse away from door 2R, blocking ground clearance.",
                 "spokenTask": "Describe the safety hazard using 'as a result of' and 'therefore'."
               }
-            ]
+            ],
+            "modeBadges": [
+              "🚨 Apron Safety & Incident Analysis",
+              "⏱️ 10 min analysis + 15 min pairs",
+              "✍️ Cause-Effect Linkers",
+              "📋 Root Cause Analysis"
+            ],
+            "instructions": [
+              "Step 1 (Grammar Review - 5 mins): Review the 4 Cause-Effect grammatical patterns: 'due to / owing to' + noun phrase, 'as a result of', and 'consequently / therefore'.",
+              "Step 2 (Scenario Dissection - 8 mins): Work through the 4 Ramp Incident Case Scenarios (hydraulic fluid spill, FOD on taxiway, wing icing, unauthorized contractor vehicle).",
+              "Step 3 (Spoken Transformation - 7 mins): Deliver the required spoken task for each scenario, transforming the root cause into a professional operational incident report."
+            ],
+            "deliverable": "Spoken delivery of 2 formal incident reports using advanced cause-effect linkers without grammatical slips.",
+            "teacherNotes": "Highlight the difference between prepositional linkers ('due to heavy snow') and conjunctive adverbs ('consequently, the apron was closed'). Point out common error: '*due to because'."
           },
           "simulation": {
             "title": "Activity 5: TSEEAC Operations Simulation & Shift Handover Briefing (30 mins)",
@@ -10248,7 +10365,20 @@
                 "mission": "Monitor departure slot adherence (CTOT). Liaise with air traffic services regarding a possible 15-minute slot revision, verify fire safety regulations, and prioritize passenger boarding."
               }
             ],
-            "recoveryInstructions": "Work together in pairs to agree on a prioritized 3-step action plan using modal verbs of necessity and obligation (must, should, have to, need to). Prepare to defend your sequence to the class."
+            "recoveryInstructions": "Work together in pairs to agree on a prioritized 3-step action plan using modal verbs of necessity and obligation (must, should, have to, need to). Prepare to defend your sequence to the class.",
+            "modeBadges": [
+              "📻 TSEEAC Shift Handover Simulation",
+              "⏱️ 12 min prep + 18 min briefings",
+              "🗣️ 60-Second Handover Standard",
+              "🤝 Ramp Crisis Management"
+            ],
+            "instructions": [
+              "Step 1 (Situation Report - 4 mins): Examine the Operational Situation Report: 3 simultaneous ramp bottlenecks (fuel spill Stand 14, conveyor belt failure Stand 16, lost transfer baggage).",
+              "Step 2 (Role Allocation & Briefing Prep - 8 mins): Partner A acts as Outgoing Ramp Coordinator delivering the 4-part Shift Handover Briefing; Partner B acts as Incoming Ramp Coordinator preparing tactical follow-up questions.",
+              "Step 3 (Simulation & Model Check - 6 mins): Conduct the spoken handover simulation. Click 'Listen to Model' to compare your delivery against the ICAO standard benchmark."
+            ],
+            "deliverable": "Flawless delivery of a 60-second spoken shift handover briefing following the 4-part operational standard.",
+            "teacherNotes": "Time each student briefing with a stopwatch. Cut them off at exactly 60 seconds to simulate real-world operational pressure. Evaluate for conciseness, calm delivery, and zero filler words."
           },
           "briefing": {
             "title": "The 60-Second Shift Handover Briefing",
@@ -10293,7 +10423,35 @@
                 "title": "3. Self-Assessment & Continuous Learning",
                 "desc": "Rate your confidence (1 to 5) explaining ramp delays using formal connectors like 'due to' and 'owing to'. Note any difficult words in your study portfolio."
               }
-            ]
+            ],
+            "modeBadges": [
+              "👥 Rapid Vocabulary Drill",
+              "⏱️ 5 min quiz + 5 min reflection",
+              "🗣️ Phonetic Precision",
+              "📝 Self-Assessment Log"
+            ],
+            "instructions": [
+              "Step 1 (Consolidation - 4 mins): Complete the 3-step vocabulary review: Self-Check Quiz, Flashcard Mode, and Pronunciation Drill.",
+              "Step 2 (Peer Quiz - 3 mins): Test your partner on 4 high-risk operational terms: 'chocks', 'conveyor', 'pushback', 'turnaround'.",
+              "Step 3 (Digital Log - 3 mins): Record your 2 personal areas of strength and 1 target for improvement in the digital notebook."
+            ],
+            "deliverable": "Spoken definition of 3 random turnaround terms and completion of the session reflection.",
+            "teacherNotes": "Conduct a rapid whole-class choral drill on high-risk pronunciation items: 'chocks', 'hydraulic', 'conveyance', 'turnaround', 'simultaneous'."
+          },
+          "vehiclesInstruction": {
+            "modeBadges": [
+              "👥 GSE Defining Game",
+              "⏱️ 10 min clues + 15 min model sentences",
+              "🗣️ Defining Relative Clauses",
+              "🚜 Ground Support Equipment"
+            ],
+            "instructions": [
+              "Step 1 (Clue Reading - 5 mins): Student A views the vehicle clues and describes its operational role using defining language without stating the vehicle's name.",
+              "Step 2 (Identification & Model - 5 mins): Student B listens, identifies the vehicle, and formulates a complete spoken definition ('This vehicle is designed to...').",
+              "Step 3 (Verify & Audio - 5 mins): Click 'Reveal Vehicle' to check pronunciation, verify the model sentence, and listen to the audio drill. Then swap roles."
+            ],
+            "deliverable": "Accurately define 4 airside GSE vehicles using relative clauses ('which is used to', 'designed for', 'responsible for').",
+            "teacherNotes": "Circulate and listen for correct relative pronouns ('which/that' for equipment, 'who' for personnel). Correct mispronunciation of 'chocks', 'conveyor', and 'hi-lift'."
           }
         },
         "revision": {

@@ -790,6 +790,7 @@
       const opening = content.openingSession || {};
       const clock = content.turnaroundClock || {};
       const vehicles = content.vehicles || [];
+      const vehiclesInstruction = content.vehiclesInstruction || {};
       const delays = content.safetyDelays || {};
       const simulation = content.simulation || {};
       const briefing = content.briefing || {};
@@ -834,6 +835,8 @@
               <span class="text-[11px] font-semibold text-slate-500">Warm-Up &amp; Catch-Up</span>
             </div>
             <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">${opening.summary || ''}</p>
+
+            ${renderActivityInstructions(opening, theme)}
 
             <!-- News Prompts -->
             <div class="p-3.5 rounded-lg bg-sky-50/70 border border-sky-200">
@@ -884,6 +887,8 @@
               <span class="text-[11px] font-semibold text-slate-500">Pacing &amp; Tenses</span>
             </div>
             <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">${clock.summary || ''}</p>
+
+            ${renderActivityInstructions(clock, theme)}
 
             <!-- Turnaround Timeline -->
             <div class="space-y-2 pt-1">
@@ -936,6 +941,8 @@
                 <button type="button" onclick="window.toggleAllVehicles(false)" class="text-[11px] font-bold px-2 py-1 rounded bg-slate-100 hover:bg-slate-200 text-slate-700 transition-all cursor-pointer">Show All Clues</button>
               </div>
             </div>
+
+            ${renderActivityInstructions(vehiclesInstruction, theme)}
             
             <div class="p-3 bg-slate-50 rounded-lg border border-slate-200 text-xs text-slate-700 leading-relaxed">
               <span class="font-bold text-slate-800">Pair Work Task:</span> Student A views the vehicle clues and describes its operational role using defining language (e.g. <em>"This vehicle is designed to...", "Handlers connect it to..."</em>) without stating the vehicle's name. Student B listens and identifies the correct vehicle. Click <strong>Reveal Vehicle</strong> to verify pronunciation and model sentence.
@@ -1012,6 +1019,8 @@
             </div>
             <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">${delays.summary || ''}</p>
 
+            ${renderActivityInstructions(delays, theme)}
+
             <!-- Linkers Summary Table -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
               ${(delays.linkers || []).map(l => `
@@ -1064,6 +1073,8 @@
               </div>
               <span class="text-[11px] font-semibold text-slate-500">Collaborative Role-Play &amp; Briefing</span>
             </div>
+
+            ${renderActivityInstructions(simulation, theme)}
             
             <div class="p-3.5 bg-slate-50 rounded-lg border border-slate-200 text-xs text-slate-700 leading-relaxed">
               <span class="font-bold text-slate-900 block mb-1">Operational Situation Report:</span>
@@ -1143,6 +1154,8 @@
             </div>
             <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">${closing.summary || ''}</p>
 
+            ${renderActivityInstructions(closing, theme)}
+
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
               ${(closing.reviewPrompts || []).map(rp => `
                 <div class="p-3.5 rounded-xl border border-slate-200 bg-slate-50/80 flex flex-col justify-between space-y-2">
@@ -1214,6 +1227,8 @@
               <span class="text-[11px] font-semibold text-slate-500">Warm-Up &amp; Catch-Up</span>
             </div>
             <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">${opening.summary || ''}</p>
+
+            ${renderActivityInstructions(opening, theme)}
 
             <!-- News Prompts -->
             <div class="p-3.5 rounded-lg bg-sky-50/70 border border-sky-200">
@@ -2566,6 +2581,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Capacity Matrix</span>
             </div>
 
+            ${renderActivityInstructions(pressure, theme)}
+
             <!-- Destinations Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5">
               ${(pressure.destinations || []).map(d => `
@@ -2601,6 +2618,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Policy Pitch</span>
             </div>
+
+            ${renderActivityInstructions(policy, theme)}
 
             <!-- Policies Grid -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5">
@@ -2687,6 +2706,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Round-Table Simulation</span>
             </div>
+
+            ${renderActivityInstructions(simulation, theme)}
 
             <!-- Roles Grid -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
