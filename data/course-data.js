@@ -5952,6 +5952,209 @@
               "strategy": "\"Within the next [years/months]\" refers to future events $\rightarrow$ choose \"will + base verb\"."
             }
           ]
+        },
+        "lessonContent": {
+                  "overview": {
+                            "image": "images/ag_m3card1.png",
+                            "title": "Everyday AI & Workplace Automation",
+                            "subtitle": "Machine Learning, Predictive Analytics, Autonomous Systems & Human-in-the-Loop",
+                            "badge": "Session Overview • Artificial Intelligence & Machine Learning"
+                  },
+                  "hero": {
+                            "image": "images/ag_m3card1.png",
+                            "title": "Everyday AI & Workplace Automation",
+                            "subtitle": "Machine Learning, Predictive Analytics, Autonomous Systems & Human-in-the-Loop",
+                            "badge": "Session Overview • Artificial Intelligence & Machine Learning"
+                  },
+                  "openingSession": {
+                            "title": "Activity 1: AI Disruption News & Core Concepts Diagnostic (10 mins)",
+                            "summary": "Opening warm-up examining cutting-edge enterprise AI developments and testing key conceptual distinctions in automation.",
+                            "newsPrompts": [
+                                      "Major international carriers deploy neural network algorithms to predict engine component fatigue 50 flight hours before scheduled line maintenance.",
+                                      "Air traffic management authorities evaluate machine-learning algorithms to optimize sector entry times and reduce tactical controller workload.",
+                                      "Enterprise tech firms mandate strict Human-in-the-Loop (HITL) validation for all automated customer flight rebooking and compensation claims."
+                            ],
+                            "diagnostic": {
+                                      "title": "Artificial Intelligence Concepts Diagnostic Spot-Check",
+                                      "instructions": "Discuss each distinction in pairs before revealing the technical explanation:",
+                                      "questions": [
+                                                {
+                                                          "id": 1,
+                                                          "q": "What is the critical distinction between Generative AI and Predictive Machine Learning?",
+                                                          "answer": "Generative AI creates original content (text, synthetic imagery, code, audio) by sampling probability distributions learned from massive datasets. Predictive Machine Learning analyzes historical telemetry and operational data to forecast future values, detect anomalies, or classify risk states (e.g. component failure or weather routing)."
+                                                },
+                                                {
+                                                          "id": 2,
+                                                          "q": "How does an Autonomous Decision Loop differ from a Human-in-the-Loop (HITL) system?",
+                                                          "answer": "An autonomous decision loop executes sensing, analysis, decision-making, and action without manual intervention (e.g., automated braking or financial micro-trading). In a Human-in-the-Loop architecture, the algorithm generates recommendations or confidence scores, but a qualified human operator must review and confirm safety-critical actions."
+                                                },
+                                                {
+                                                          "id": 3,
+                                                          "q": "What is the operational difference between a Digital Twin and a Computer Simulation?",
+                                                          "answer": "A standard simulation models theoretical physics based on predefined mathematical formulas under hypothetical conditions. A Digital Twin is an active, real-time virtual replica of a physical asset (such as an aircraft engine or terminal HVAC) continuously synchronized with live telemetry from Internet-of-Things (IoT) sensors."
+                                                },
+                                                {
+                                                          "id": 4,
+                                                          "q": "In data science, what distinguishes Algorithmic Bias from a System Glitch?",
+                                                          "answer": "A software glitch is an isolated programming or runtime error that causes a system crash or incorrect calculation. Algorithmic bias is a systemic, repeatable unfairness or error pattern rooted in skewed historical training datasets, flawed weighting, or biased sampling."
+                                                }
+                                      ]
+                            }
+                  },
+                  "survey": {
+                            "title": "Activity 2: Workplace Automation & AI Dilemmas: Speed Survey (25 mins)",
+                            "summary": "Conduct structured speed-dating interviews on 4 pressing dilemmas in enterprise automation and artificial intelligence. Practice defending technical viewpoints, evaluating trade-offs, and signposting arguments.",
+                            "signposts": [
+                                      "\"From an operational efficiency standpoint, ...\"",
+                                      "\"While algorithms accelerate throughput, human operators are indispensable when...\"",
+                                      "\"To prevent catastrophic algorithmic failure, systems engineering mandates that...\"",
+                                      "\"Empirical reliability studies demonstrate that predictive analytics can...\""
+                            ],
+                            "topics": [
+                                      {
+                                                "id": 1,
+                                                "badge": "Predictive Fleet Maintenance",
+                                                "statement": "Should airlines ground an aircraft based solely on an automated neural network alert without visual defect confirmation?",
+                                                "pro": "Predictive telemetry identifies microscopic internal turbine fatigue and hydraulic pressure anomalies before physical sensors trigger cockpit warnings, preventing in-flight shutdowns.",
+                                                "con": "False-positive algorithmic alerts lead to unscheduled aircraft on ground (AOG) costs, cascading flight cancellations, and passenger disruptions.",
+                                                "prompt": "Interview your partner: How can maintenance departments calibrate algorithmic confidence thresholds to prevent false alarms?"
+                                      },
+                                      {
+                                                "id": 2,
+                                                "badge": "Automated Air Traffic Sequencing",
+                                                "statement": "Should machine-learning algorithms autonomously sequence and space aircraft on final approach without controller intervention?",
+                                                "pro": "Automated sequencing reduces wake turbulence separation buffers dynamically, optimizes runway throughput by 15%, and minimizes fuel burn during peak arrival banks.",
+                                                "con": "Controllers risk cognitive deskilling and loss of situational awareness during sudden algorithmic drop-outs or severe convective weather reroutes.",
+                                                "prompt": "Interview your partner: How does the European ATM Master Plan define the transition toward higher levels of automation?"
+                                      },
+                                      {
+                                                "id": 3,
+                                                "badge": "Generative AI in Corporate Operations",
+                                                "statement": "Should companies allow employees to use unvetted public Large Language Models to draft official engineering and legal documents?",
+                                                "pro": "Generative AI increases drafting speed by 40%, automates routine technical report formatting, and accelerates cross-language technical documentation.",
+                                                "con": "Public models create severe cybersecurity risks, expose proprietary flight data, and produce authoritative hallucinations that bypass peer review.",
+                                                "prompt": "Interview your partner: What corporate data governance policies are essential when integrating enterprise generative AI?"
+                                      },
+                                      {
+                                                "id": 4,
+                                                "badge": "Robotic Ramp Automation",
+                                                "statement": "Should international airports transition entirely to autonomous electric pushback tugs and robotic baggage loaders by 2030?",
+                                                "pro": "Autonomous electric ramp equipment eliminates human apron errors, reduces ground handling accidents, and cuts ground emissions to zero.",
+                                                "con": "High initial capital expenditure, complex integration with legacy ground support equipment, and widespread displacement of ground handling personnel.",
+                                                "prompt": "Interview your partner: How can airport management balance automation efficiency with social equity (DDRS)?"
+                                      }
+                            ]
+                  },
+                  "grammarClinic": {
+                            "title": "Activity 3: Language Clinic: Active vs. Passive Voice in Technical Descriptions (20 mins)",
+                            "summary": "Mastering active versus passive voice to describe technical procedures, automated software pipelines, and system audits with precision—vital for TOEIC Part 5/6 and professional technical presentations.",
+                            "rules": [
+                                      {
+                                                "type": "Active Voice (Focus on Agent / System)",
+                                                "formula": "Subject (Agent/Tool) + Verb + Object",
+                                                "usage": "Use when emphasizing what an algorithm, engineer, or system actively performs. (e.g., 'The neural network analyzes flight telemetry in real time.')"
+                                      },
+                                      {
+                                                "type": "Passive Voice (Focus on Action / Object Affected)",
+                                                "formula": "Receiver + [auxiliary be] + Past Participle (V3) (+ by agent)",
+                                                "usage": "Essential in technical reports, scientific abstracts, and manuals when the procedure, outcome, or asset is more important than who performed it. (e.g., 'Turbine vibration data is logged every millisecond.')"
+                                      },
+                                      {
+                                                "type": "Passive with Modal Auxiliaries",
+                                                "formula": "Modal (must / can / should / will) + be + Past Participle",
+                                                "usage": "Used for specifications, regulatory mandates, and future forecasts. (e.g., 'Critical software updates must be verified prior to pushback.')"
+                                      }
+                            ],
+                            "drills": [
+                                      {
+                                                "id": 1,
+                                                "sentence": "Flight telemetry data ________ continuously by the airline's centralized analytics hub.",
+                                                "options": [
+                                                          "ingests",
+                                                          "is ingested",
+                                                          "ingesting",
+                                                          "is ingesting"
+                                                ],
+                                                "correct": "is ingested",
+                                                "explanation": "Passive voice present simple ('is ingested') is required because the telemetry data receives the action."
+                                      },
+                                      {
+                                                "id": 2,
+                                                "sentence": "All automated schedule modifications must ________ by a certified flight operations supervisor.",
+                                                "options": [
+                                                          "authorize",
+                                                          "be authorized",
+                                                          "authorization",
+                                                          "authorizing"
+                                                ],
+                                                "correct": "be authorized",
+                                                "explanation": "Follows modal 'must'; passive infinitive ('be authorized') is required for modifications receiving approval."
+                                      },
+                                      {
+                                                "id": 3,
+                                                "sentence": "The engineering team ________ the machine-learning pipeline to reduce false-positive vibration warnings.",
+                                                "options": [
+                                                          "calibrated",
+                                                          "was calibrated",
+                                                          "calibration",
+                                                          "calibratingly"
+                                                ],
+                                                "correct": "calibrated",
+                                                "explanation": "Active past simple verb ('calibrated') is required; 'the engineering team' is the active agent."
+                                      },
+                                      {
+                                                "id": 4,
+                                                "sentence": "By the end of the decade, autonomous baggage tugs ________ at over fifty European hubs.",
+                                                "options": [
+                                                          "will deploy",
+                                                          "will have been deployed",
+                                                          "deployed",
+                                                          "deploying"
+                                                ],
+                                                "correct": "will have been deployed",
+                                                "explanation": "Time marker 'By the end of the decade' combined with passive subject requires Future Perfect Passive ('will have been deployed')."
+                                      }
+                            ]
+                  },
+                  "roleplay": {
+                            "title": "Activity 4: Enterprise AI Deployment Tribunal (45 mins)",
+                            "scenario": "Global Skies Airlines is preparing to deploy an automated, generative AI passenger rebooking and flight compensation bot. One student represents the Chief Information Officer arguing for immediate rollout to slash customer service backlogs. The other represents the Aviation Compliance & Passenger Rights Director, demanding explainability audits, error safeguards, and Human-in-the-Loop oversight.",
+                            "roles": [
+                                      {
+                                                "role": "Chief Information Officer (CIO)",
+                                                "title": "Pro-Automation Advocate",
+                                                "objectives": [
+                                                          "Demonstrate 70% reduction in response latency and €12M annual operating savings.",
+                                                          "Argue that machine learning models resolve standard rebooking faster than manual desks.",
+                                                          "Propose automated escalation only for passengers whose flights involve missed connections."
+                                                ],
+                                                "keyPhrases": [
+                                                          "\"Our benchmark trials indicate that 85% of standard delays are resolved within seconds...\"",
+                                                          "\"From a scalability perspective, manual service desks cannot absorb irregular operations spikes...\"",
+                                                          "\"Automated algorithmic rerouting significantly reduces passenger dwell times in departure concourses...\""
+                                                ]
+                                      },
+                                      {
+                                                "role": "Aviation Compliance & Rights Director",
+                                                "title": "Regulatory & Ethical Auditor",
+                                                "objectives": [
+                                                          "Highlight risk of algorithmic discrimination against passengers requiring special assistance.",
+                                                          "Demand that automated compensation calculations comply 100% with EU Regulation 261/2004.",
+                                                          "Insist on mandatory Human-in-the-Loop validation before any booking cancellation is finalized."
+                                                ],
+                                                "keyPhrases": [
+                                                          "\"Under European air passenger rights legislation, automated denials of compensation require clear auditability...\"",
+                                                          "\"If an algorithmic hallucination rebooks a passenger on an invalid route, legal liability falls squarely on the carrier...\"",
+                                                          "\"We must maintain human supervisory desks for vulnerable, unaccompanied, and reduced-mobility travelers...\""
+                                                ]
+                                      }
+                            ]
+                  },
+                  "feChecklist": [
+                            "Add 5 artificial intelligence and automation terms to your Vocabulary Log.",
+                            "Review the Active vs. Passive Voice rules and complete the interactive drills.",
+                            "Brainstorm potential emerging technology topics for your Formative Evaluation 3 (FE3)."
+                  ]
         }
       },
       "2": {
@@ -6368,6 +6571,209 @@
               "strategy": "Inversion formula: Hardly had + S + [V3] ... when + [Past Simple]."
             }
           ]
+        },
+        "lessonContent": {
+                  "overview": {
+                            "image": "images/ag_m3card2.png",
+                            "title": "Future Mobility & Clean Energy Transport",
+                            "subtitle": "Hydrogen Propulsion, Battery-Electric Aviation, Urban Air Mobility & Multi-Modal Corridors",
+                            "badge": "Session Overview • Clean Propulsion & Future Mobility"
+                  },
+                  "hero": {
+                            "image": "images/ag_m3card2.png",
+                            "title": "Future Mobility & Clean Energy Transport",
+                            "subtitle": "Hydrogen Propulsion, Battery-Electric Aviation, Urban Air Mobility & Multi-Modal Corridors",
+                            "badge": "Session Overview • Clean Propulsion & Future Mobility"
+                  },
+                  "openingSession": {
+                            "title": "Activity 1: Clean Transport Breakthroughs & Propulsion Diagnostic (10 mins)",
+                            "summary": "Opening warm-up evaluating next-generation aircraft concepts, zero-emission fuels, and key thermodynamic distinctions.",
+                            "newsPrompts": [
+                                      "Airbus progresses cryogenic hydrogen tank ground testing for the ZEROe aircraft demonstrator program targeting commercial service by 2035.",
+                                      "Heart Aerospace and magniX successfully conduct test flights of 19-passenger regional battery-electric commuter prototypes on Nordic island routes.",
+                                      "European civil aviation regulators publish world-first airworthiness and vertiport certification baselines for commercial electric Vertical Take-Off and Landing (eVTOL) vehicles."
+                            ],
+                            "diagnostic": {
+                                      "title": "Clean Propulsion Concepts Diagnostic Spot-Check",
+                                      "instructions": "Discuss each distinction in pairs before revealing the technical explanation:",
+                                      "questions": [
+                                                {
+                                                          "id": 1,
+                                                          "q": "What is the difference between Direct Hydrogen Combustion and a Hydrogen Fuel Cell?",
+                                                          "answer": "Direct hydrogen combustion burns liquid or gaseous hydrogen in modified gas turbine engines, producing water vapor and trace NOx emissions. A hydrogen fuel cell converts chemical energy electrochemically into electricity through a reaction with oxygen, powering electric motors with zero NOx emissions and pure water as the sole byproduct."
+                                                },
+                                                {
+                                                          "id": 2,
+                                                          "q": "How does Sustainable Aviation Fuel (SAF) differ fundamentally from Hydrogen in airport distribution?",
+                                                          "answer": "SAF is a 'drop-in' hydrocarbon fuel chemically identical to conventional fossil Jet A-1. It requires zero modifications to existing aircraft fuel systems, hydrants, or airport storage tanks. Liquid hydrogen requires cryogenic storage at -253°C, heavily insulated vacuum-jacketed pipelines, and entirely redesigned aircraft airframes with bulbous fuselage fuel tanks."
+                                                },
+                                                {
+                                                          "id": 3,
+                                                          "q": "What is the operational distinction between an eVTOL aircraft and a traditional turbine helicopter?",
+                                                          "answer": "Conventional helicopters rely on a single massive main rotor powered by a noisy kerosene turboshaft engine with high mechanical complexity. eVTOLs employ Distributed Electric Propulsion (DEP) with multiple smaller electric rotors, dramatically reducing acoustic footprints, eliminating single-point mechanical failure traps, and operating at substantially lower seat-kilometer energy costs."
+                                                },
+                                                {
+                                                          "id": 4,
+                                                          "q": "In energy systems, what distinguishes Volumetric Energy Density from Gravimetric Specific Energy?",
+                                                          "answer": "Gravimetric energy density (specific energy) measures energy per unit mass (Wh/kg)—critical for aviation payload limits. Volumetric energy density measures energy per unit volume (Wh/L)—critical for aerodynamic fuselage drag. While liquid hydrogen has triple the gravimetric energy of kerosene, its volumetric density is four times lower, requiring enormous internal fuel volumes."
+                                                }
+                                      ]
+                            }
+                  },
+                  "survey": {
+                            "title": "Activity 2: Clean Transit Corridor Pitch: Speed Survey (25 mins)",
+                            "summary": "Conduct structured speed-dating interviews on 4 disruptive mobility concepts. Compare travel times, infrastructure requirements, and decarbonization potential.",
+                            "signposts": [
+                                      "\"Regarding thermodynamic efficiency, ...\"",
+                                      "\"While capital expenditure for hydrogen infrastructure is formidable, the lifecycle decarbonization...\"",
+                                      "\"On short-haul regional corridors of under 400 km, battery-electric flight is projected to...\"",
+                                      "\"Taking into account total door-to-door transit time, high-speed rail will inevitably...\""
+                            ],
+                            "topics": [
+                                      {
+                                                "id": 1,
+                                                "badge": "Regional Electric Commuter Flight",
+                                                "statement": "Can 19-seat battery-electric aircraft replace regional turboprops on sub-400 km routes by 2030?",
+                                                "pro": "Electric motors reduce operating and maintenance costs by 60%, produce zero direct emissions, and permit flight operations from short suburban airfields without acoustic noise bans.",
+                                                "con": "Current battery gravimetric densities (~250–300 Wh/kg) severely constrain payload and reserve diversion ranges compared to kerosene.",
+                                                "prompt": "Interview your partner: How can regional carriers leverage electric aircraft for lifeline island and mountain valley routes?"
+                                      },
+                                      {
+                                                "id": 2,
+                                                "badge": "Cryogenic Hydrogen Airliners",
+                                                "statement": "Will hydrogen-powered commercial airliners dominate medium-haul European trunk routes by 2045?",
+                                                "pro": "Hydrogen eliminates all fossil CO₂ emissions at the tailpipe and decouples airline operational costs from volatile global petroleum markets.",
+                                                "con": "Cryogenic hydrogen fuel tanks occupy massive internal cabin volume, reducing passenger seat capacity and requiring multi-billion-euro airport fuel storage overhauls.",
+                                                "prompt": "Interview your partner: Compare the feasibility of Airbus ZEROe against 100% synthetic e-kerosene drop-in fuels."
+                                      },
+                                      {
+                                                "id": 3,
+                                                "badge": "Urban Air Mobility (eVTOL) Shuttles",
+                                                "statement": "Are eVTOL air taxis a genuine urban transport solution or an exclusive novelty for affluent executives?",
+                                                "pro": "eVTOL networks provide zero-emission point-to-point connections, bypass highway congestion, and accelerate emergency medical organ transport between urban medical centers.",
+                                                "con": "Vertiport construction faces fierce public resistance regarding privacy, low-altitude visual disturbance, and potential airspace conflicts with commercial arrival funnels.",
+                                                "prompt": "Interview your partner: What public consultation criteria should municipal councils mandate before licensing urban vertiports?"
+                                      },
+                                      {
+                                                "id": 4,
+                                                "badge": "Hyperloop vs. High-Speed Rail",
+                                                "statement": "Should transport ministries invest in experimental vacuum-tube hyperloops or expand proven high-speed rail networks?",
+                                                "pro": "Hyperloop concepts target 1,000 km/h cruising speeds with fractional aerodynamic resistance, competing directly with airline block times over 1,200 km corridors.",
+                                                "con": "Proven high-speed rail lines (TGV/ICE) carry 1,000+ passengers per departure with established safety standards, whereas vacuum maintenance on hundreds of kilometers remains technically unproven.",
+                                                "prompt": "Interview your partner: How does the European Green Deal evaluate high-speed rail expansion vs. emerging magnetic levitation?"
+                                      }
+                            ]
+                  },
+                  "grammarClinic": {
+                            "title": "Activity 3: Language Clinic: Future Forms, Modals & Predictive Certainty (20 mins)",
+                            "summary": "Calibrating language to express degrees of future technical probability, planned milestones, and tentative hypotheses—essential for B2 presentations and engineering roadmaps.",
+                            "rules": [
+                                      {
+                                                "type": "High Certainty / Inevitable (will / is bound to / is certain to)",
+                                                "formula": "Subject + is bound to / is certain to + base verb",
+                                                "usage": "Used for technological evolutions backed by clear empirical and regulatory trajectories. (e.g., 'Aviation emissions regulations are bound to tighten over the next decade.')"
+                                      },
+                                      {
+                                                "type": "Projected Probability (is projected to / is likely that / will probably)",
+                                                "formula": "Subject + is projected / scheduled / expected to + base verb",
+                                                "usage": "Standard in engineering business cases and lifecycle projections. (e.g., 'Green hydrogen production is projected to reach parity with fossil fuels by 2035.')"
+                                      },
+                                      {
+                                                "type": "Tentative Possibility / Conditionality (may / might / could)",
+                                                "formula": "Subject + may / might / could + base verb",
+                                                "usage": "Crucial for cautious technical claims and risk assessments. (e.g., 'Severe battery degradation during rapid turnaround charging could limit daily flight cycles.')"
+                                      }
+                            ],
+                            "drills": [
+                                      {
+                                                "id": 1,
+                                                "sentence": "Given current battery density advancements, regional electric commercial flights ________ feasible on sub-400 km routes by 2030.",
+                                                "options": [
+                                                          "is bound to be",
+                                                          "are bound to be",
+                                                          "are bound to being",
+                                                          "bound to be"
+                                                ],
+                                                "correct": "are bound to be",
+                                                "explanation": "Plural subject 'flights' requires plural auxiliary 'are' followed by 'bound to be'."
+                                      },
+                                      {
+                                                "id": 2,
+                                                "sentence": "Hydrogen fuel infrastructure at major hubs is ________ cost billions of euros in cryogenic storage facilities.",
+                                                "options": [
+                                                          "projecting to",
+                                                          "projected to",
+                                                          "projection of",
+                                                          "projectedly"
+                                                ],
+                                                "correct": "projected to",
+                                                "explanation": "Passive participial construction 'is projected to + verb' expresses calculated future estimates."
+                                      },
+                                      {
+                                                "id": 3,
+                                                "sentence": "Without substantial government subsidies, private investors ________ reluctant to fund vertiport construction in downtown districts.",
+                                                "options": [
+                                                          "may remain",
+                                                          "must to remain",
+                                                          "will remaining",
+                                                          "are having remained"
+                                                ],
+                                                "correct": "may remain",
+                                                "explanation": "Modal 'may' followed by base verb 'remain' accurately expresses tentative conditionality."
+                                      },
+                                      {
+                                                "id": 4,
+                                                "sentence": "Strict noise abatement regulations ________ introduced around metropolitan vertiports before commercial flights begin.",
+                                                "options": [
+                                                          "will be",
+                                                          "will been",
+                                                          "is being",
+                                                          "were"
+                                                ],
+                                                "correct": "will be",
+                                                "explanation": "Future passive 'will be introduced' matches the future timeframe before operations begin."
+                                      }
+                            ]
+                  },
+                  "roleplay": {
+                            "title": "Activity 4: Airline Boardroom Clean Fleet Transition Pitch (45 mins)",
+                            "scenario": "EuroWings Regional is planning its fleet renewal strategy for 2028–2035. Student A (Head of Fleet Strategy & Sustainability) pitches a bold investment into 20 electric commuter aircraft and 10 hydrogen-ready slots. Student B (Chief Financial Officer) interrogates residual aircraft values, battery replacement costs, and airport charging infrastructure availability.",
+                            "roles": [
+                                      {
+                                                "role": "Head of Fleet Strategy & Sustainability",
+                                                "title": "Green Transition Advocate",
+                                                "objectives": [
+                                                          "Demonstrate zero tailpipe emissions on domestic routes and complete exemption from EU ETS carbon taxes.",
+                                                          "Show that electric motor maintenance costs are 50% lower than turboprops due to fewer moving parts.",
+                                                          "Argue that early adoption secures prime airport green gate allocations and brand loyalty."
+                                                ],
+                                                "keyPhrases": [
+                                                          "\"By transitioning our regional fleet to electric propulsion, we eliminate local NOx and acoustic emissions...\"",
+                                                          "\"Lifecycle operating calculations project a 40% reduction in direct seat-kilometer costs...\"",
+                                                          "\"Securing early delivery slots positions EuroWings as the benchmark sustainable carrier in Western Europe...\""
+                                                ]
+                                      },
+                                      {
+                                                "role": "Chief Financial Officer (CFO)",
+                                                "title": "Fiscal Risk Auditor",
+                                                "objectives": [
+                                                          "Highlight battery replacement amortization costs every 1,500 flight cycles.",
+                                                          "Question whether secondary regional airports will install multi-megawatt rapid charging stations in time.",
+                                                          "Demand a contingency plan if battery weight limits passenger baggage during winter holiday flights."
+                                                ],
+                                                "keyPhrases": [
+                                                          "\"How do you propose amortizing the substantial battery replacement expenditure over a 10-year hull life?\"",
+                                                          "\"If regional hubs fail to commission high-voltage charging grids by 2029, these aircraft will remain grounded...\"",
+                                                          "\"We cannot compromise airline profitability on uncertified cryogenic hydrogen delivery promises...\""
+                                                ]
+                                      }
+                            ]
+                  },
+                  "feChecklist": [
+                            "Add 5 clean propulsion and mobility terms to your Vocabulary Log.",
+                            "Practice calibrating future predictions using 'is projected to' and 'is bound to'.",
+                            "Draft Dimension 1 (Operating Mechanism) and Dimension 2 (Operational Benefits) for your FE3 presentation."
+                  ]
         }
       },
       "3": {
@@ -6784,6 +7190,209 @@
               "strategy": "Never add -s to the verb after \"It is imperative / crucial / necessary that\"."
             }
           ]
+        },
+        "lessonContent": {
+                  "overview": {
+                            "image": "images/ag_m3card3.png",
+                            "title": "Technology Ethics & Automated Decisions in AI",
+                            "subtitle": "Algorithmic Fairness, Explainable AI (XAI), Digital Surveillance & Tech Governance",
+                            "badge": "Session Overview • Technology Ethics & Algorithmic Accountability"
+                  },
+                  "hero": {
+                            "image": "images/ag_m3card3.png",
+                            "title": "Technology Ethics & Automated Decisions in AI",
+                            "subtitle": "Algorithmic Fairness, Explainable AI (XAI), Digital Surveillance & Tech Governance",
+                            "badge": "Session Overview • Technology Ethics & Algorithmic Accountability"
+                  },
+                  "openingSession": {
+                            "title": "Activity 1: Tech Ethics Headlines & Diagnostic Spot-Check (10 mins)",
+                            "summary": "Opening warm-up investigating landmark regulatory rulings, algorithmic bias scandals, and fundamental governance concepts.",
+                            "newsPrompts": [
+                                      "The European Union implements enforcement of the EU AI Act, establishing strict auditability mandates for high-risk automated decision systems.",
+                                      "Civil aviation safety authorities mandate that automated pilot assist software must provide explainable telemetry logs to allow human auditing during safety reviews.",
+                                      "Independent university researchers expose significant demographic bias in commercial facial recognition algorithms deployed at international border checkpoints."
+                            ],
+                            "diagnostic": {
+                                      "title": "Technology Ethics Concepts Diagnostic Spot-Check",
+                                      "instructions": "Discuss each distinction in pairs before revealing the technical explanation:",
+                                      "questions": [
+                                                {
+                                                          "id": 1,
+                                                          "q": "What is the fundamental difference between a 'Black Box' algorithm and Explainable AI (XAI)?",
+                                                          "answer": "In a black-box model (such as a deep neural network with billions of parameters), the internal mathematical weights and decision paths cannot be directly understood or audited by human engineers. Explainable AI (XAI) employs interpretable architectures or post-hoc auditing methods that provide clear, human-understandable justifications for why a specific prediction or decision was made."
+                                                },
+                                                {
+                                                          "id": 2,
+                                                          "q": "How does Algorithmic Bias differ from intentional human discrimination?",
+                                                          "answer": "Intentional discrimination stems from deliberate prejudice by an individual or organization. Algorithmic bias occurs when an automated model reproduces or amplifies historical societal inequalities because its training data was skewed, unrepresentative, or reflected biased human decisions of the past—even when developers had no intent to discriminate."
+                                                },
+                                                {
+                                                          "id": 3,
+                                                          "q": "What is the distinction between Data Minimization and Indiscriminate Surveillance?",
+                                                          "answer": "Data minimization (mandated by GDPR and the EU AI Act) requires that automated systems collect, process, and retain only the absolute minimum personal data necessary to perform a specific authorized task. Indiscriminate surveillance involves mass, continuous collection and long-term retention of biometric and behavioral data across entire populations without targeted suspicion."
+                                                },
+                                                {
+                                                          "id": 4,
+                                                          "q": "In tech governance, what is the difference between Legal Compliance and Ethical Responsibility (DDRS)?",
+                                                          "answer": "Legal compliance means strictly adhering to written statutes and regulations currently in force. Ethical responsibility goes beyond statutory law to proactively evaluate the wider social, environmental, and human rights impacts of technology deployment, anticipating harm before legislation catches up."
+                                                }
+                                      ]
+                            }
+                  },
+                  "survey": {
+                            "title": "Activity 2: Ethical Tech Dilemmas & Speed Sparring (25 mins)",
+                            "summary": "Conduct fast-paced paired debates on 4 provocative technology dilemmas. Practice making measured concessions, using polite disagreement, and hedging controversial claims.",
+                            "signposts": [
+                                      "\"Admittedly, the operational convenience is undeniable; however, ...\"",
+                                      "\"While efficiency increases markedly, it is worth questioning whether...\"",
+                                      "\"Evidence tends to suggest that automated screening disproportionately...\"",
+                                      "\"To ensure ethical compliance, regulatory frameworks should require that...\""
+                            ],
+                            "topics": [
+                                      {
+                                                "id": 1,
+                                                "badge": "Automated CV & Hiring Algorithms",
+                                                "statement": "Should aviation companies allow AI algorithms to reject job applicants without human review?",
+                                                "pro": "Algorithms parse tens of thousands of technical resumes in seconds, objectively matching engineering qualifications without unconscious human bias regarding nationality or age.",
+                                                "con": "Language models trained on historical hiring patterns frequently penalize non-traditional career paths, gender diversity, and non-native English phrasing.",
+                                                "prompt": "Interview your partner: How can recruitment departments establish ethical auditing of automated hiring tools?"
+                                      },
+                                      {
+                                                "id": 2,
+                                                "badge": "Facial Recognition in Public Spaces",
+                                                "statement": "Should international transport hubs deploy real-time facial recognition surveillance across all terminal concourses?",
+                                                "pro": "Real-time biometric surveillance instantly detects flagged security suspects and missing persons, elevating public safety across crowded critical infrastructure.",
+                                                "con": "Continuous public surveillance creates chilling civil liberties erosion, high false-identification rates among minority demographics, and risks of state surveillance overreach.",
+                                                "prompt": "Interview your partner: Where should society draw the line between public security and biometric privacy rights?"
+                                      },
+                                      {
+                                                "id": 3,
+                                                "badge": "Autonomous Safety Triage Systems",
+                                                "statement": "Should automated systems make life-or-death prioritization decisions during catastrophic emergency scenarios?",
+                                                "pro": "Algorithms compute multivariate physics equations in milliseconds without human panic, executing optimal risk-minimization actions far faster than human pilots.",
+                                                "con": "Delegating moral and ethical choices to software code dehumanizes safety decisions and creates impossible legal liability voids when fatalities occur.",
+                                                "prompt": "Interview your partner: How should system architects program ethical fail-safes into automated collision-avoidance systems?"
+                                      },
+                                      {
+                                                "id": 4,
+                                                "badge": "Generative Code & IP Sovereignty",
+                                                "statement": "Should engineering firms restrict software developers from using generative AI coding assistants?",
+                                                "pro": "Restricting AI assistants prevents corporate intellectual property from leaking into training datasets and avoids copyright infringement liabilities.",
+                                                "con": "AI coding assistants accelerate software prototyping by 30% and help junior programmers identify syntax bugs and vulnerabilities faster.",
+                                                "prompt": "Interview your partner: How can aerospace firms establish secure, closed-loop generative coding environments?"
+                                      }
+                            ]
+                  },
+                  "grammarClinic": {
+                            "title": "Activity 3: Language Clinic: Cautious Language (Hedging), Concession & Counter-Argumentation (20 mins)",
+                            "summary": "Mastering diplomatic argumentation, polite concession, and modal hedging to sound professional, objective, and persuasive in B2 academic and workplace debates.",
+                            "rules": [
+                                      {
+                                                "type": "Concession Structures (Admittedly... nevertheless / While it is true that...)",
+                                                "formula": "Admittedly, [concession]; however / nevertheless, [counter-argument]",
+                                                "usage": "Acknowledge the validity of an opposing point before presenting your stronger counter-argument. (e.g., 'Admittedly, automated screening expedites passenger flow; nevertheless, false-rejection error rates remain problematic.')"
+                                      },
+                                      {
+                                                "type": "Hedging Verbs & Modifiers (tend to / suggest / appear to / arguably)",
+                                                "formula": "Subject + tends to / appears to / suggests that + clause",
+                                                "usage": "Softens dogmatic claims into professional, evidence-based assertions. (e.g., 'The empirical data appears to indicate that algorithmic bias decreases with diverse training sets.')"
+                                      },
+                                      {
+                                                "type": "Qualifying Generalizations (In many respects / To a certain extent / For the most part)",
+                                                "formula": "[Qualifying phrase], [main proposition]",
+                                                "usage": "Avoids sweeping overstatements like 'all AI is dangerous' or 'automation always fails'. (e.g., 'To a certain extent, ethical guidelines have mitigated algorithmic discrimination.')"
+                                      }
+                            ],
+                            "drills": [
+                                      {
+                                                "id": 1,
+                                                "sentence": "________ biometric surveillance enhances security, its threat to civil liberties remains profound.",
+                                                "options": [
+                                                          "Admittedly",
+                                                          "While",
+                                                          "Nevertheless",
+                                                          "Despite"
+                                                ],
+                                                "correct": "While",
+                                                "explanation": "Subordinating conjunction 'While' introduces the concession clause linked to the main clause."
+                                      },
+                                      {
+                                                "id": 2,
+                                                "sentence": "The audit findings ________ suggest that the automated screening model was trained on skewed historical datasets.",
+                                                "options": [
+                                                          "tend to",
+                                                          "tending",
+                                                          "tendency",
+                                                          "is tending"
+                                                ],
+                                                "correct": "tend to",
+                                                "explanation": "Hedging expression 'tend to + base verb' accurately tempers the conclusion without dogmatism."
+                                      },
+                                      {
+                                                "id": 3,
+                                                "sentence": "High-risk algorithms must undergo rigorous third-party auditing; ________, regulatory enforcement remains inconsistent across regions.",
+                                                "options": [
+                                                          "furthermore",
+                                                          "nonetheless",
+                                                          "because",
+                                                          "similarly"
+                                                ],
+                                                "correct": "nonetheless",
+                                                "explanation": "Adverbial conjunction 'nonetheless' signals a strong contrastive counter-point."
+                                      },
+                                      {
+                                                "id": 4,
+                                                "sentence": "To a certain ________, automated flight rebooking systems reduce stress during massive storm cancellations.",
+                                                "options": [
+                                                          "extend",
+                                                          "extent",
+                                                          "extensive",
+                                                          "extensively"
+                                                ],
+                                                "correct": "extent",
+                                                "explanation": "Fixed qualifying collocation 'To a certain extent' requires the noun form 'extent'."
+                                      }
+                            ]
+                  },
+                  "roleplay": {
+                            "title": "Activity 4: AI Ethics Oversight Committee Hearing (45 mins)",
+                            "scenario": "A European transport authority is reviewing the commercial deployment of an AI-driven behavioral anomaly detection system at major hub stations. Student A (Lead Algorithmic Systems Engineer) defends the accuracy, threat detection efficacy, and compliance of the platform. Student B (Civil Liberties & Ethics Commissioner) interrogates bias rates, false arrests, and human dignity safeguards.",
+                            "roles": [
+                                      {
+                                                "role": "Lead Algorithmic Systems Engineer",
+                                                "title": "System Architect",
+                                                "objectives": [
+                                                          "Explain that the neural network analyzes only movement vectors, luggage dwell times, and perimeter breaches—not personal identities.",
+                                                          "Show that 98.4% of detected anomalies are verified as genuine safety hazards.",
+                                                          "Propose automated log anonymization every 24 hours to protect commuter privacy."
+                                                ],
+                                                "keyPhrases": [
+                                                          "\"Our behavioral model processes spatial vectors rather than demographic or facial profiles...\"",
+                                                          "\"Admittedly, sensor occlusion can cause false flags; nevertheless, human operators verify all alerts...\"",
+                                                          "\"The system operates under strict data minimization guidelines compliant with the EU AI Act...\""
+                                                ]
+                                      },
+                                      {
+                                                "role": "Civil Liberties & Ethics Commissioner",
+                                                "title": "Regulatory Oversight Auditor",
+                                                "objectives": [
+                                                          "Interrogate the 1.6% false-positive rate and its real-world impact on innocent commuters.",
+                                                          "Demand full compliance with the European AI Act's high-risk transparency and explainability mandates.",
+                                                          "Insist on strict criminal penalties if facial recognition or demographic profiling is secretly enabled."
+                                                ],
+                                                "keyPhrases": [
+                                                          "\"In a high-throughput hub serving 100,000 commuters daily, a 1.6% false-positive rate subjects 1,600 innocent citizens to harassment...\"",
+                                                          "\"Can you provide verifiable cryptographic proof that facial biometrics are not extracted during vector analysis?\"",
+                                                          "\"Without independent algorithmic auditing and transparent appeal mechanisms, this deployment cannot be certified...\""
+                                                ]
+                                      }
+                            ]
+                  },
+                  "feChecklist": [
+                            "Add 5 technology ethics and governance terms to your Vocabulary Log.",
+                            "Practice framing technical debate arguments using concession and hedging structures.",
+                            "Draft Dimension 3 (DDRS, Ethical, Regulatory & Societal Challenges) for your FE3 presentation."
+                  ]
         }
       },
       "4": {
@@ -7200,6 +7809,209 @@
               "strategy": "Active participial clause showing intent or motive: [V-ing] to + verb ..., [Subject] + [main verb]."
             }
           ]
+        },
+        "lessonContent": {
+                  "overview": {
+                            "image": "images/ag_m3card4.png",
+                            "title": "Biometrics, Digital IDs & Passenger Journey",
+                            "subtitle": "Contactless E-Gates, IATA One ID, Cybersecurity & Biometric Data Sovereignty",
+                            "badge": "Session Overview • Biometrics & Digital Identity"
+                  },
+                  "hero": {
+                            "image": "images/ag_m3card4.png",
+                            "title": "Biometrics, Digital IDs & Passenger Journey",
+                            "subtitle": "Contactless E-Gates, IATA One ID, Cybersecurity & Biometric Data Sovereignty",
+                            "badge": "Session Overview • Biometrics & Digital Identity"
+                  },
+                  "openingSession": {
+                            "title": "Activity 1: Smart Airport News & Biometric Diagnostic (10 mins)",
+                            "summary": "Opening warm-up examining international contactless airport implementations and key cryptographic/biometric distinctions.",
+                            "newsPrompts": [
+                                      "Singapore Changi and Dubai International roll out passport-free 'curb-to-gate' biometric boarding using single-token facial recognition.",
+                                      "International air transport bodies publish interoperability standards for decentralized digital identity wallets, replacing paper boarding passes.",
+                                      "Cybersecurity agencies issue alerts regarding credential stuffing and biometric database breaches targeting international transit networks."
+                            ],
+                            "diagnostic": {
+                                      "title": "Biometric & Identity Concepts Diagnostic Spot-Check",
+                                      "instructions": "Discuss each distinction in pairs before revealing the technical explanation:",
+                                      "questions": [
+                                                {
+                                                          "id": 1,
+                                                          "q": "What is the critical distinction between Biometric Verification (1:1) and Biometric Identification (1:N)?",
+                                                          "answer": "Biometric verification (one-to-one, 1:1) matches a newly captured scan directly against an existing credential presented by the user (such as comparing a live face scan to the encrypted chip on their passport). Biometric identification (one-to-many, 1:N) searches an unknown person's scan across an entire database of millions of records to find a match without any presented identity document."
+                                                },
+                                                {
+                                                          "id": 2,
+                                                          "q": "How does a Centralized Biometric Database differ from Decentralized Digital Identity (Self-Sovereign Identity)?",
+                                                          "answer": "A centralized database stores the biometric templates of millions of travelers in a single government or corporate server—creating an irresistible high-value target for hackers. Decentralized digital identity stores encrypted verifiable credentials locally on the traveler's secure smartphone hardware enclave, sharing only cryptographic proofs rather than raw biometric files."
+                                                },
+                                                {
+                                                          "id": 3,
+                                                          "q": "What is the difference between a Barcode Boarding Pass and a Biometric Single Token?",
+                                                          "answer": "A barcode boarding pass is a static printed or digital 2D optical code that must be manually presented and scanned alongside a passport at every checkpoint (bag drop, security, border, boarding gate). A biometric single token creates a temporary encrypted digital profile linking the traveler's face to their itinerary, allowing walk-through access through all checkpoints without ever showing a document."
+                                                },
+                                                {
+                                                          "id": 4,
+                                                          "q": "In biometric systems engineering, what is the trade-off between False Acceptance Rate (FAR) and False Rejection Rate (FRR)?",
+                                                          "answer": "False Acceptance Rate (FAR) is the percentage of unauthorized individuals incorrectly accepted as a match (a critical security failure). False Rejection Rate (FRR) is the percentage of legitimate travelers incorrectly rejected (a passenger convenience and throughput failure). Calibrating the algorithm to achieve zero FAR inherently raises FRR, causing gate bottlenecks."
+                                                }
+                                      ]
+                            }
+                  },
+                  "survey": {
+                            "title": "Activity 2: Seamless Travel & Digital Privacy: Speed Survey (25 mins)",
+                            "summary": "Conduct structured speed-dating interviews on 4 controversial frontiers in digital travel credentials. Practice deploying complex noun phrases, defining relative clauses, and defending cybersecurity safeguards.",
+                            "signposts": [
+                                      "\"In terms of terminal throughput, contactless e-gates...\"",
+                                      "\"The fundamental vulnerability of centralized biometric storage is that...\"",
+                                      "\"Under international data privacy frameworks like GDPR, passengers must retain...\"",
+                                      "\"To reconcile border security with civil rights, systems must implement...\""
+                            ],
+                            "topics": [
+                                      {
+                                                "id": 1,
+                                                "badge": "Passport-Free Walk-Through Terminals",
+                                                "statement": "Should all international airports eliminate physical passport checks in favor of mandatory facial biometric boarding?",
+                                                "pro": "Biometric tokens slash boarding times from 40 minutes to under 15 minutes per widebody flight, eliminate boarding pass fraud, and create a frictionless passenger experience.",
+                                                "con": "Mandatory biometrics excludes travelers who decline facial recognition, concentrates immense surveillance power in private airport hands, and creates border bottlenecks if scanners fail.",
+                                                "prompt": "Interview your partner: How can airports preserve seamless travel while offering robust non-biometric manual opt-outs?"
+                                      },
+                                      {
+                                                "id": 2,
+                                                "badge": "Biometric Data Breaches",
+                                                "statement": "Is storing biometric scans fundamentally more hazardous than storing alphanumeric passwords or credit cards?",
+                                                "pro": "Unlike passwords or credit card numbers, you cannot cancel or reset your facial geometry, iris patterns, or fingerprints if a database is compromised.",
+                                                "con": "Modern biometric systems do not store raw photos; they store one-way irreversibly encrypted mathematical hashes that are useless to hackers without the cryptographic key.",
+                                                "prompt": "Interview your partner: What cybersecurity protocols must airports implement to protect biometric hash databases?"
+                                      },
+                                      {
+                                                "id": 3,
+                                                "badge": "Global Digital Health & Climate Credentials",
+                                                "statement": "Should digital identity wallets integrate passenger carbon footprint tracking and health records for international travel?",
+                                                "pro": "Integrated digital wallets streamline immigration clearances, reward low-carbon travel choices, and prevent the spread of infectious pathogens during global health emergencies.",
+                                                "con": "Merging health, carbon, and travel data into a single digital identity creates dystopian digital surveillance and social credit risks.",
+                                                "prompt": "Interview your partner: How can data minimization prevent digital identity creep?"
+                                      },
+                                      {
+                                                "id": 4,
+                                                "badge": "Interoperability & Cross-Border Sovereignty",
+                                                "statement": "Can sovereign nations establish a unified international biometric standard without compromising citizen data privacy?",
+                                                "pro": "IATA One ID and ICAO digital travel credentials demonstrate that standardized cryptographic verification works globally without sharing raw citizen databases.",
+                                                "con": "Authoritarian regimes may use international biometric protocols to track political dissidents abroad and restrict travel freedom.",
+                                                "prompt": "Interview your partner: How does the European Union regulate cross-border biometric data transfers with third-party nations?"
+                                      }
+                            ]
+                  },
+                  "grammarClinic": {
+                            "title": "Activity 3: Language Clinic: Relative Clauses & Complex Noun Phrases (20 mins)",
+                            "summary": "Mastering defining vs. non-defining relative clauses and information-dense technical noun phrases to construct sophisticated descriptions of complex engineering systems.",
+                            "rules": [
+                                      {
+                                                "type": "Defining Relative Clauses (Essential Information / No Commas)",
+                                                "formula": "Noun + that / who / which + clause",
+                                                "usage": "Defines exactly which item is being discussed; cannot be omitted. (e.g., 'Biometric algorithms that rely on single-angle 2D cameras exhibit higher error rates in low lighting.')"
+                                      },
+                                      {
+                                                "type": "Non-Defining Relative Clauses (Extra Information / Separated by Commas)",
+                                                "formula": "Noun, which / who + clause,",
+                                                "usage": "Provides interesting or supplementary context about a noun already clearly identified; 'that' cannot be used. (e.g., 'The IATA One ID platform, which was introduced to streamline hub departures, employs decentralized cryptographic tokens.')"
+                                      },
+                                      {
+                                                "type": "Preposition + Relative Pronoun (Formal Technical Register)",
+                                                "formula": "Noun + preposition + whom / which + clause",
+                                                "usage": "Standard in official engineering specifications. (e.g., 'The secure hardware enclave from which the biometric proof is generated never transmits raw facial imagery.')"
+                                      }
+                            ],
+                            "drills": [
+                                      {
+                                                "id": 1,
+                                                "sentence": "Passengers ________ opt out of biometric scanning are directed to traditional manual document inspection desks.",
+                                                "options": [
+                                                          "which",
+                                                          "who",
+                                                          "whom",
+                                                          "whose"
+                                                ],
+                                                "correct": "who",
+                                                "explanation": "Relative pronoun 'who' refers to human subjects ('passengers') in a defining relative clause."
+                                      },
+                                      {
+                                                "id": 2,
+                                                "sentence": "The e-gate optical sensors, ________ manufactured by an accredited aerospace defense contractor, meet ICAO Category 1 precision standards.",
+                                                "options": [
+                                                          "that are",
+                                                          "which are",
+                                                          "what are",
+                                                          "whom are"
+                                                ],
+                                                "correct": "which are",
+                                                "explanation": "Non-defining relative clause enclosed by commas requires 'which are', not 'that'."
+                                      },
+                                      {
+                                                "id": 3,
+                                                "sentence": "The encrypted terminal server ________ which passenger flight tokens are validated requires multi-factor authentication.",
+                                                "options": [
+                                                          "at",
+                                                          "on",
+                                                          "through",
+                                                          "with"
+                                                ],
+                                                "correct": "through",
+                                                "explanation": "Preposition 'through' logically describes the validation pathway ('validated through which')."
+                                      },
+                                      {
+                                                "id": 4,
+                                                "sentence": "Biometric algorithms ________ train on ethnically diverse facial datasets show significantly lower false-rejection error rates.",
+                                                "options": [
+                                                          "that",
+                                                          "whose",
+                                                          "whom",
+                                                          "what"
+                                                ],
+                                                "correct": "that",
+                                                "explanation": "Defining relative pronoun 'that' correctly modifies the system subject ('algorithms')."
+                                      }
+                            ]
+                  },
+                  "roleplay": {
+                            "title": "Activity 4: Designing the 2030 Smart Travel Terminal (45 mins)",
+                            "scenario": "AirHub International is designing a new €800M contactless departure terminal concourse. Student A (Airport Passenger Experience Director) presents a completely biometric walk-through passenger flow. Student B (Chief Information Security Officer & Data Privacy Ombudsman) interrogates cybersecurity resilience, hardware fallback procedures during network blackouts, and passenger consent protocols.",
+                            "roles": [
+                                      {
+                                                "role": "Passenger Experience Director",
+                                                "title": "Seamless Flow Architect",
+                                                "objectives": [
+                                                          "Demonstrate average curb-to-aircraft boarding time of 9 minutes per traveler.",
+                                                          "Propose automated baggage drop stands that link baggage tags directly to the passenger's face scan.",
+                                                          "Argue that 90% of business travelers prefer biometric convenience over paper documents."
+                                                ],
+                                                "keyPhrases": [
+                                                          "\"Single-token biometric processing eliminates physical document checks at five consecutive touchpoints...\"",
+                                                          "\"Boarding gate throughput accelerates by 300%, allowing widebody aircraft to turnaround in 35 minutes...\"",
+                                                          "\"Travelers enroll securely from their smartphones before arriving at the airport...\""
+                                                ]
+                                      },
+                                      {
+                                                "role": "Chief Information Security Officer (CISO)",
+                                                "title": "Cybersecurity & Privacy Ombudsman",
+                                                "objectives": [
+                                                          "Demand that all biometric hashes be permanently deleted from terminal cache memory 60 minutes after flight departure.",
+                                                          "Require an unhackable local offline fallback protocol for manual document checks during IT or cloud network outages.",
+                                                          "Mandate clearly signposted, dignified manual opt-out corridors with identical throughput speeds."
+                                                ],
+                                                "keyPhrases": [
+                                                          "\"Zero-trust cybersecurity architecture mandates that no biometric templates are retained on local gate controllers...\"",
+                                                          "\"If a wide-area cloud outage occurs, we must possess manual verification corridors to prevent total airport gridlock...\"",
+                                                          "\"Under European privacy regulations, biometric participation must be strictly consensual with zero discrimination for opt-outs...\""
+                                                ]
+                                      }
+                            ]
+                  },
+                  "feChecklist": [
+                            "Add 5 biometrics, digital identity, and cybersecurity terms to your Vocabulary Log.",
+                            "Refine your presentation slides with technical relative clauses and clear data visualizations.",
+                            "Finalize your Formative Evaluation 3 (FE3) rehearsal: verify 50/50 talking balance and ensure zero reading from slides or notes."
+                  ]
         }
       }
     }

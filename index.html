@@ -776,10 +776,10 @@
           s4: "Session 4 - Biodiversity in Urban Areas & Transport Hubs"
         },
         3: {
-          s1: "Session 1: Artificial Intelligence",
-          s2: "Session 2: Future of travel",
-          s3: "Session 3: Debate and Critical Thinking",
-          s4: "Session 4: Biometrics and digital identity"
+          s1: "Session 1 - Everyday AI & Workplace Automation",
+          s2: "Session 2 - Future Mobility & Clean Energy Transport",
+          s3: "Session 3 - Technology Ethics & Automated Decisions in AI",
+          s4: "Session 4 - Biometrics, Digital IDs & Passenger Journey"
         }
       };
 
@@ -854,10 +854,10 @@
           s4: `Welcome to Session 4! We examine how urban areas and major transport hubs protect local nature, restore biodiversity, and mitigate wildlife hazards.<br><br><em>Subject overview:</em> Urban tree canopies, constructed wetlands, wildlife corridors, aerodrome bird strike mitigation, and Pronouns & Determiners.<br><br>${formativeEvaluationNotice}`
         },
         3: {
-          s1: `Welcome to Module 3 on New Technology! In our interactive sessions, we focus on conversation, technical reading, and TOEIC prep while exploring how technology shapes our daily lives and future workplaces.<br><br><em>Subject overview:</em> Everyday AI tools, workplace automation, machine learning in travel, and ethical considerations.<br><br>${formativeEvaluationNotice}`,
-          s2: `Welcome to Session 2! We explore how technology will change how we travel in the future, from high-speed trains and electric vehicles to green flight concepts.<br><br><em>Subject overview:</em> Future mobility trends, clean energy transport, and making travel accessible and sustainable.<br><br>${formativeEvaluationNotice}`,
-          s3: `Welcome to Session 3! We practice conversational debate, critical thinking, and polite disagreement on real-world technology and social issues.<br><br><em>Subject overview:</em> Debating technology ethics, automated decisions by AI, and how new tech affects society.<br><br>${formativeEvaluationNotice}`,
-          s4: `Welcome to Session 4! We look at modern digital identities, facial recognition at border crossings, and personal data privacy in everyday travel.<br><br><em>Subject overview:</em> Digital IDs, facial recognition at borders, personal privacy rights, and smooth passenger journeys.<br><br>${formativeEvaluationNotice}`
+          s1: `Welcome to Module 3 on New Technology! In our interactive sessions, we focus on conversational fluency, technical reading, and TOEIC preparation while exploring how artificial intelligence and machine learning transform workplaces and flight operations.<br><br><em>Subject overview:</em> Everyday AI tools, machine learning pipelines, predictive fleet maintenance, Human-in-the-Loop oversight, and Active vs. Passive Voice in technical descriptions.<br><br>${formativeEvaluationNotice}`,
+          s2: `Welcome to Session 2! We explore how emerging propulsion concepts and clean mobility corridors will reshape transport networks by 2035 and beyond.<br><br><em>Subject overview:</em> Hydrogen aircraft propulsion, battery-electric commuter flight, urban air mobility (eVTOL) vertiports, and Future Forms with Predictive Certainty.<br><br>${formativeEvaluationNotice}`,
+          s3: `Welcome to Session 3! We practice professional debate, critical thinking, and polite disagreement on real-world technology governance and ethical quandaries.<br><br><em>Subject overview:</em> Algorithmic bias, explainable AI (XAI), digital surveillance vs. civil liberties, EU AI Act compliance, and Cautious Language (Hedging) with Concession.<br><br>${formativeEvaluationNotice}`,
+          s4: `Welcome to Session 4! We examine contactless travel, digital credentials, and biometric sovereignty across international border control.<br><br><em>Subject overview:</em> Contactless e-gates, IATA One ID, cybersecurity vulnerabilities, biometric hash encryption, and Relative Clauses with Complex Noun Phrases.<br><br>${formativeEvaluationNotice}`
         }
       };
 
@@ -953,7 +953,7 @@
                 ? "Welcome to Session 5! Throughout this module, we have worked on discussion, grammar correction, DDRS, and TOEIC-related exercises.<br><br><em>Subject overview:</em> Formative Evaluation 1 — Design an eco-friendly holiday itinerary or compare two cities with different tourism policies + Targets.<br><br>All work in this session contributes directly toward your Formative Evaluation."
                 : (modNumber === 2
                     ? "Welcome to Session 5! In this Formative Evaluation, you and your partner will present a comprehensive climate resilience masterplan for an airport or city of your choice.<br><br><em>Subject overview:</em> Formative Evaluation 2 — Climate Resilience: Redesign an airport or city for climate resilience. Cover climate hazard assessments, physical engineering adaptations, nature-based solutions (DDRS), and operational contingencies.<br><br>All work in this session contributes directly toward your Formative Evaluation."
-                    : "Welcome to Session 5! Throughout this module, we have worked on emerging technologies, AI ethics, digital identity, and TOEIC preparation.<br><br><em>Subject overview:</em> Formative Evaluation 3 — Debate and critical thinking on technology and society.<br><br>All work in this session contributes directly toward your Formative Evaluation.")),
+                    : "Welcome to Session 5! In this Formative Evaluation, you and your partner will present an in-depth technical analysis and critical evaluation of an emerging aviation or non-aviation technology.<br><br><em>Subject overview:</em> Formative Evaluation 3 — Emerging Technology: Presentation on an emerging aviation or non-aviation related technology. Address technical architecture, quantitative efficiency gains, DDRS & ethical challenges, and deployment roadmaps.<br><br>All work in this session contributes directly toward your Formative Evaluation.")),
           url: s5CriteriaUrl,
           lessonPlanUrl: s5GuidelinesUrl,
           objectivesUrl: s5ObjectivesUrl,
@@ -968,7 +968,9 @@
             ? "<strong>Definition:</strong> DDRS (Sustainable Development & Social Responsibility) in aviation represents sustainable aerodrome operations, emissions reduction, noise mitigation, and ethical workforce standards.<br><br><strong>Key areas covered:</strong> Airport decarbonization, green taxiing, SAF distribution infrastructure, and community acoustic protection.<br><br><strong>Why we discuss DDRS in English:</strong> Communicating airport sustainability initiatives in international English prepares aerospace professionals for global regulatory compliance and industry leadership."
             : (modNumber === 2
                 ? "<strong>Definition:</strong> DDRS in climate resilience focuses on adapting infrastructure, protecting vulnerable communities, and driving the ecological transition of cities and transport networks.<br><br><strong>Key areas covered:</strong> Sponge city design, urban heat island mitigation, renewable energy microgrids, and biodiversity net gain.<br><br><strong>Why we discuss DDRS in English:</strong> Articulating climate adaptation and environmental engineering in international English prepares engineers to present projects to global stakeholders and international bodies."
-                : "<strong>Definition:</strong> DDRS (Sustainable Development & Social Responsibility) is the framework linking environmental protection, social fairness, and ethical decision-making in modern organizations.<br><br><strong>Key areas covered:</strong> Reducing carbon footprints, community wellbeing and inclusion, and responsible innovation.<br><br><strong>Why we discuss DDRS in English:</strong> Discussing DDRS topics builds the vocabulary, critical thinking, and communication skills you need to talk about global environmental and social challenges in professional English."),
+                : modNumber === 3
+                    ? "<strong>Definition:</strong> DDRS (Sustainable Development & Social Responsibility) in emerging technology balances technological acceleration with algorithmic fairness, environmental lifecycle impacts, and human dignity.<br><br><strong>Key areas covered:</strong> Compute carbon footprints, explainable AI (XAI), data privacy sovereignty, and social inclusion under the EU AI Act.<br><br><strong>Why we discuss DDRS in English:</strong> Articulating tech ethics, regulatory compliance, and responsible innovation in international English prepares aerospace professionals to lead global technology governance."
+                    : "<strong>Definition:</strong> DDRS (Sustainable Development & Social Responsibility) is the framework linking environmental protection, social fairness, and ethical decision-making in modern organizations.<br><br><strong>Key areas covered:</strong> Reducing carbon footprints, community wellbeing and inclusion, and responsible innovation.<br><br><strong>Why we discuss DDRS in English:</strong> Discussing DDRS topics builds the vocabulary, critical thinking, and communication skills you need to talk about global environmental and social challenges in professional English."),
           detailsUrl: isAas ? "" : `ddrs${modNumber}.html`,
           imageUrl: images.ddrs,
           isMuted: isAas
@@ -2591,6 +2593,18 @@
     function renderLessonContentTab(sessionData, theme) {
       const isAg = (modalState && modalState.program === 'ag') || currentProgram === 'ag';
       if (isAg) {
+        if (modalState.modNum === 3) {
+          if (modalState.sessionNum === 1) {
+            renderAg3LessonContentTabSession1(sessionData, theme);
+          } else if (modalState.sessionNum === 2) {
+            renderAg3LessonContentTabSession2(sessionData, theme);
+          } else if (modalState.sessionNum === 4) {
+            renderAg3LessonContentTabSession4(sessionData, theme);
+          } else {
+            renderAg3LessonContentTabSession3(sessionData, theme);
+          }
+          return;
+        }
         if (modalState.modNum === 2) {
           if (modalState.sessionNum === 1) {
             renderAg2LessonContentTabSession1(sessionData, theme);
@@ -6824,6 +6838,1200 @@
     }
 
 
+
+    /* =========================================================================
+       GENERAL ENGLISH (AG) • MODULE 3 SESSIONS 1 TO 4 LESSON CONTENT
+       ========================================================================= */
+
+    window.toggleAg3SpotCheckAnswer = function(sessNum, qId) {
+      const el = document.getElementById(`ag3-spotcheck-ans-${sessNum}-${qId}`);
+      const btn = document.getElementById(`ag3-spotcheck-btn-${sessNum}-${qId}`);
+      if (!el || !btn) return;
+      const isHidden = el.classList.contains('hidden');
+      if (isHidden) {
+        el.classList.remove('hidden');
+        btn.innerHTML = '<span>Hide Answer</span> &uarr;';
+      } else {
+        el.classList.add('hidden');
+        btn.innerHTML = '<span>Reveal Answer</span> &rarr;';
+      }
+    };
+
+    window.toggleAg3QuizAnswer = function(id) {
+      const el = document.getElementById(`ag3-quiz-ans-${id}`);
+      const btn = document.getElementById(`ag3-quiz-btn-${id}`);
+      if (!el || !btn) return;
+      const isHidden = el.classList.contains('hidden');
+      if (isHidden) {
+        el.classList.remove('hidden');
+        btn.innerHTML = '<span>Hide Explanation</span> &uarr;';
+      } else {
+        el.classList.add('hidden');
+        btn.innerHTML = '<span>Check Answer &amp; Explanation</span> &rarr;';
+      }
+    };
+
+    function renderAg3LessonContentTabSession1(sessionData, theme) {
+      const bodyEl = document.getElementById('modal-body');
+      if (!bodyEl) return;
+      const content = sessionData.lessonContent || {};
+      const ov = content.overview || content.hero || {};
+      const opening = content.openingSession || {};
+      const survey = content.survey || {};
+      const grammar = content.grammarClinic || {};
+      const roleplay = content.roleplay || {};
+
+      bodyEl.innerHTML = `
+        <div class="space-y-6 printable-lesson-container">
+          <!-- Printable Action Bar -->
+          <div class="no-print flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4 bg-white border border-slate-200 rounded-xl shadow-xs">
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: \${theme.primary};">DIGITAL WORKSHEET</span>
+                <span class="text-xs font-bold text-slate-700">General English (AG) • Module 3 • Session 1</span>
+              </div>
+              <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">\${ov.title || 'Everyday AI & Workplace Automation'}</h3>
+            </div>
+            <button type="button" onclick="window.printLessonContent()" class="inline-flex items-center justify-center gap-2 px-3.5 py-2 rounded-lg text-xs font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 border border-slate-300 shadow-xs transition-all cursor-pointer shrink-0">
+              <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4H7v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+              <span>Print / Save Lesson PDF</span>
+            </button>
+          </div>
+
+          <!-- Session Overview Banner -->
+          <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-xs">
+            <div class="relative">
+              <img src="\${ov.image || 'images/ag_m3card1.png'}" alt="\${ov.title || 'Everyday AI & Workplace Automation'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/ag_m3card1.png'">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-4 sm:p-5">
+                <span class="text-[11px] font-bold text-blue-300 uppercase tracking-wider">\${ov.badge || 'Session Overview • Artificial Intelligence & Machine Learning'}</span>
+                <h3 class="text-lg sm:text-2xl font-black text-white mt-0.5">\${ov.title || 'Everyday AI & Workplace Automation'}</h3>
+                <p class="text-xs sm:text-sm text-slate-200 mt-1 line-clamp-2">\${ov.subtitle || 'Machine Learning, Predictive Analytics, Autonomous Systems & Human-in-the-Loop'}</p>
+              </div>
+            </div>
+            <div class="p-4 bg-slate-50 border-t border-slate-200 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-600">
+              <div class="flex items-center gap-2">
+                <span class="font-bold text-slate-800">Target Level:</span>
+                <span class="bg-blue-100 text-blue-900 font-bold px-2 py-0.5 rounded">CEFR B2</span>
+                <span class="text-slate-400">&bull;</span>
+                <span class="font-bold text-slate-800">Context:</span>
+                <span class="text-slate-600">Emerging Technology &amp; Society</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="font-bold text-slate-800">Total Duration:</span>
+                <span class="font-bold text-slate-900">120 Minutes</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Activity 1: News Prompts & Diagnostic Spot-Checks -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: \${theme.primary};">0-10m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">\${opening.title || 'Activity 1: News & Diagnostic (10 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">\${opening.summary || 'Opening warm-up and technical distinction spot-checks'}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
+            </div>
+
+            <!-- News Prompts -->
+            \${(opening.newsPrompts && opening.newsPrompts.length) ? \`
+              <div class="space-y-2">
+                <span class="text-[11px] font-bold text-slate-700 uppercase tracking-wider block">Real-World Technical Briefings:</span>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+                  \${opening.newsPrompts.map((np, i) => \`
+                    <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 leading-relaxed flex items-start gap-2">
+                      <span class="text-blue-600 font-bold mt-0.5">&bull;</span>
+                      <span>\${np}</span>
+                    </div>
+                  \`).join('')}
+                </div>
+              </div>
+            \` : ''}
+
+            <!-- Diagnostic Spot Checks -->
+            \${(opening.diagnostic && opening.diagnostic.questions && opening.diagnostic.questions.length) ? \`
+              <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
+                <div class="flex items-center justify-between">
+                  <h5 class="text-xs sm:text-sm font-bold text-slate-900">\${opening.diagnostic.title || 'Concepts Diagnostic'}</h5>
+                  <span class="text-[11px] text-slate-500">\${opening.diagnostic.instructions || 'Discuss in pairs before revealing'}</span>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                  \${opening.diagnostic.questions.map(q => \`
+                    <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5">
+                      <div class="flex items-center justify-between gap-2">
+                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Distinction 0\${q.id}</span>
+                        <span class="w-2 h-2 rounded-full" style="background-color: \${theme.primary};"></span>
+                      </div>
+                      <p class="text-xs font-bold text-slate-900">\${q.q}</p>
+                      <div id="ag3-spotcheck-ans-1-\${q.id}" class="hidden p-2.5 bg-white border border-slate-200 rounded-lg text-[11px] text-slate-700 leading-relaxed shadow-xs">
+                        \${q.answer}
+                      </div>
+                      <button type="button" id="ag3-spotcheck-btn-1-\${q.id}" onclick="window.toggleAg3SpotCheckAnswer(1, \${q.id})" class="inline-flex items-center gap-1.5 px-3 py-1 rounded bg-white hover:bg-slate-100 border border-slate-300 text-[11px] font-bold text-slate-700 transition-all cursor-pointer">
+                        <span>Reveal Answer</span> &rarr;
+                      </button>
+                    </div>
+                  \`).join('')}
+                </div>
+              </div>
+            \` : ''}
+          </div>
+
+          <!-- Activity 2: Speed Survey / Dilemmas -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: \${theme.primary};">10-35m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">\${survey.title || 'Activity 2: Speed Survey'}</h4>
+                  <p class="text-[11px] text-slate-500">\${survey.summary || ''}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Structured Discussion</span>
+            </div>
+
+            <!-- Signposts -->
+            \${survey.signposts ? \`
+              <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
+                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Discourse Connectors:</span>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-blue-900">
+                  \${survey.signposts.map(sp => \`<div class="p-2 bg-white rounded border border-blue-200/80 italic font-medium">\${sp}</div>\`).join('')}
+                </div>
+              </div>
+            \` : ''}
+
+            <!-- Topics Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              \${(survey.topics || []).map(t => \`
+                <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl flex flex-col justify-between space-y-3 shadow-2xs">
+                  <div>
+                    <div class="flex items-center justify-between pb-1.5 border-b border-slate-200">
+                      <span class="text-xs font-black text-slate-900">Dilemma 0\${t.id}</span>
+                      <span class="text-[10px] font-bold px-2 py-0.5 rounded text-white" style="background-color: \${theme.accent};">\${t.badge || ''}</span>
+                    </div>
+                    <h5 class="text-xs sm:text-sm font-bold text-slate-900 mt-2">\${t.statement}</h5>
+                    <div class="mt-2.5 space-y-2 text-xs">
+                      <div class="p-2 bg-emerald-50/80 border border-emerald-200 rounded-lg text-emerald-950">
+                        <strong class="text-emerald-900 block mb-0.5">&plus; Argument (Pro / Opportunity):</strong>
+                        \${t.pro}
+                      </div>
+                      <div class="p-2 bg-rose-50/80 border border-rose-200 rounded-lg text-rose-950">
+                        <strong class="text-rose-900 block mb-0.5">&minus; Counter-Argument (Con / Risk):</strong>
+                        \${t.con}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pt-2 border-t border-slate-200 text-[11px] text-slate-600 font-medium italic">
+                    💬 \${t.prompt}
+                  </div>
+                </div>
+              \`).join('')}
+            </div>
+          </div>
+
+          <!-- Activity 3: Language Clinic -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: \${theme.primary};">35-55m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">\${grammar.title || 'Activity 3: Language Clinic'}</h4>
+                  <p class="text-[11px] text-slate-500">\${grammar.summary || ''}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Grammar Focus</span>
+            </div>
+
+            <!-- Rules Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+              \${(grammar.rules || []).map(r => \`
+                <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1.5 shadow-2xs">
+                  <span class="text-[10px] font-black uppercase text-blue-700 tracking-wider block">\${r.type}</span>
+                  <div class="p-2 bg-white rounded border border-slate-200 text-xs font-mono text-slate-800 font-semibold">\${r.formula}</div>
+                  <p class="text-[11px] text-slate-600 leading-relaxed">\${r.usage}</p>
+                </div>
+              \`).join('')}
+            </div>
+
+            <!-- Interactive Drills -->
+            \${(grammar.drills && grammar.drills.length) ? \`
+              <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
+                <h5 class="text-xs sm:text-sm font-bold text-slate-900">Grammar Diagnostics: Practice Drills</h5>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  \${grammar.drills.map(d => \`
+                    <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5">
+                      <div class="flex items-center justify-between gap-2">
+                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Question 0\${d.id}</span>
+                        <span class="text-[10px] font-bold text-blue-600 bg-blue-50 px-2 py-0.5 rounded border border-blue-200">Target: \${d.correct}</span>
+                      </div>
+                      <p class="text-xs font-bold text-slate-900 leading-snug">\${d.sentence}</p>
+                      <div class="grid grid-cols-2 gap-1.5 text-[11px]">
+                        \${d.options.map(opt => \`
+                          <div class="p-1.5 bg-white border border-slate-200 rounded text-slate-700 text-center font-medium">\${opt}</div>
+                        \`).join('')}
+                      </div>
+                      <div id="ag3-quiz-ans-s1-\${d.id}" class="hidden p-2.5 bg-emerald-50 border border-emerald-200 rounded-lg text-[11px] text-emerald-950 leading-relaxed shadow-xs">
+                        <strong>Correct Answer:</strong> <span class="font-bold underline">\${d.correct}</span><br>
+                        <em>\${d.explanation}</em>
+                      </div>
+                      <button type="button" id="ag3-quiz-btn-s1-\${d.id}" onclick="window.toggleAg3QuizAnswer('s1-\${d.id}')" class="inline-flex items-center gap-1.5 px-3 py-1 rounded bg-white hover:bg-slate-100 border border-slate-300 text-[11px] font-bold text-slate-700 transition-all cursor-pointer">
+                        <span>Check Answer &amp; Explanation</span> &rarr;
+                      </button>
+                    </div>
+                  \`).join('')}
+                </div>
+              </div>
+            \` : ''}
+          </div>
+
+          <!-- Activity 4: Pair Simulation -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: \${theme.primary};">55-100m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">\${roleplay.title || 'Activity 4: Professional Roleplay & Simulation (45 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">Collaborative spoken negotiation and defense</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Pair Simulation</span>
+            </div>
+
+            <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
+              <span class="text-[10px] font-black uppercase text-blue-700 tracking-wider">Mission Scenario:</span>
+              <p class="text-xs text-slate-700 leading-relaxed">\${roleplay.scenario || ''}</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              \${(roleplay.roles || []).map((r, i) => \`
+                <div class="p-4 rounded-xl border flex flex-col justify-between space-y-3 \${i === 0 ? 'bg-blue-50/40 border-blue-200' : 'bg-slate-50 border-slate-200'}">
+                  <div class="space-y-2">
+                    <div class="flex items-center justify-between pb-1.5 border-b \${i === 0 ? 'border-blue-200' : 'border-slate-200'}">
+                      <span class="text-[10px] font-black uppercase tracking-wider \${i === 0 ? 'text-blue-900' : 'text-slate-700'}">\${r.role}</span>
+                      <span class="text-[10px] font-bold px-2 py-0.5 rounded text-white" style="background-color: \${theme.primary};">\${r.title}</span>
+                    </div>
+                    <div class="space-y-1.5">
+                      <span class="text-[10px] font-bold text-slate-700 uppercase tracking-wider block">Strategic Objectives:</span>
+                      <ul class="text-xs text-slate-700 space-y-1 list-disc pl-4">
+                        \${(r.objectives || []).map(obj => \`<li>\${obj}</li>\`).join('')}
+                      </ul>
+                    </div>
+                  </div>
+                  \${(r.keyPhrases && r.keyPhrases.length) ? \`
+                    <div class="pt-2 border-t \${i === 0 ? 'border-blue-200' : 'border-slate-200'} space-y-1">
+                      <span class="text-[10px] font-bold text-slate-600 uppercase tracking-wider block">Target Spoken Formulae:</span>
+                      \${r.keyPhrases.map(ph => \`<p class="text-[11px] text-slate-600 italic leading-snug">\${ph}</p>\`).join('')}
+                    </div>
+                  \` : ''}
+                </div>
+              \`).join('')}
+            </div>
+          </div>
+
+          <!-- Activity 5: Session Wrap-Up & FE3 Preparation -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: \${theme.primary};">100-120m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">Activity 5: Wrap-Up &amp; FE3 Preparation (15 mins)</h4>
+                  <p class="text-[11px] text-slate-500">Consolidation, phonetics, and portfolio check</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Debrief &amp; Exit Ticket</span>
+            </div>
+
+            <div class="p-4 bg-blue-50/60 border border-blue-200 rounded-xl space-y-3">
+              <div class="flex items-center justify-between">
+                <h5 class="text-xs sm:text-sm font-bold text-blue-950">Session 1 Formative Evaluation Readiness Checklist</h5>
+                <span class="text-[11px] font-bold text-blue-800">Verification</span>
+              </div>
+              <div class="space-y-2 text-xs text-blue-900">
+                \${(content.feChecklist || []).map(item => \`
+                  <div class="p-2.5 bg-white border border-blue-200 rounded-lg flex items-center gap-2">
+                    <span class="text-blue-600 font-bold">&check;</span>
+                    <span>\${item}</span>
+                  </div>
+                \`).join('')}
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+    function renderAg3LessonContentTabSession2(sessionData, theme) {
+      const bodyEl = document.getElementById('modal-body');
+      if (!bodyEl) return;
+      const content = sessionData.lessonContent || {};
+      const ov = content.overview || content.hero || {};
+      const opening = content.openingSession || {};
+      const survey = content.survey || {};
+      const grammar = content.grammarClinic || {};
+      const roleplay = content.roleplay || {};
+
+      bodyEl.innerHTML = `
+        <div class="space-y-6 printable-lesson-container">
+          <!-- Printable Action Bar -->
+          <div class="no-print flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4 bg-white border border-slate-200 rounded-xl shadow-xs">
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: \${theme.primary};">DIGITAL WORKSHEET</span>
+                <span class="text-xs font-bold text-slate-700">General English (AG) • Module 3 • Session 2</span>
+              </div>
+              <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">\${ov.title || 'Future Mobility & Clean Energy Transport'}</h3>
+            </div>
+            <button type="button" onclick="window.printLessonContent()" class="inline-flex items-center justify-center gap-2 px-3.5 py-2 rounded-lg text-xs font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 border border-slate-300 shadow-xs transition-all cursor-pointer shrink-0">
+              <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4H7v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+              <span>Print / Save Lesson PDF</span>
+            </button>
+          </div>
+
+          <!-- Session Overview Banner -->
+          <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-xs">
+            <div class="relative">
+              <img src="\${ov.image || 'images/ag_m3card2.png'}" alt="\${ov.title || 'Future Mobility & Clean Energy Transport'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/ag_m3card2.png'">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-4 sm:p-5">
+                <span class="text-[11px] font-bold text-blue-300 uppercase tracking-wider">\${ov.badge || 'Session Overview • Clean Propulsion & Future Mobility'}</span>
+                <h3 class="text-lg sm:text-2xl font-black text-white mt-0.5">\${ov.title || 'Future Mobility & Clean Energy Transport'}</h3>
+                <p class="text-xs sm:text-sm text-slate-200 mt-1 line-clamp-2">\${ov.subtitle || 'Hydrogen Propulsion, Battery-Electric Aviation, Urban Air Mobility & Multi-Modal Corridors'}</p>
+              </div>
+            </div>
+            <div class="p-4 bg-slate-50 border-t border-slate-200 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-600">
+              <div class="flex items-center gap-2">
+                <span class="font-bold text-slate-800">Target Level:</span>
+                <span class="bg-blue-100 text-blue-900 font-bold px-2 py-0.5 rounded">CEFR B2</span>
+                <span class="text-slate-400">&bull;</span>
+                <span class="font-bold text-slate-800">Context:</span>
+                <span class="text-slate-600">Emerging Technology &amp; Society</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="font-bold text-slate-800">Total Duration:</span>
+                <span class="font-bold text-slate-900">120 Minutes</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Activity 1: News Prompts & Diagnostic Spot-Checks -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: \${theme.primary};">0-10m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">\${opening.title || 'Activity 1: News & Diagnostic (10 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">\${opening.summary || 'Opening warm-up and technical distinction spot-checks'}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
+            </div>
+
+            <!-- News Prompts -->
+            \${(opening.newsPrompts && opening.newsPrompts.length) ? \`
+              <div class="space-y-2">
+                <span class="text-[11px] font-bold text-slate-700 uppercase tracking-wider block">Real-World Technical Briefings:</span>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+                  \${opening.newsPrompts.map((np, i) => \`
+                    <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 leading-relaxed flex items-start gap-2">
+                      <span class="text-blue-600 font-bold mt-0.5">&bull;</span>
+                      <span>\${np}</span>
+                    </div>
+                  \`).join('')}
+                </div>
+              </div>
+            \` : ''}
+
+            <!-- Diagnostic Spot Checks -->
+            \${(opening.diagnostic && opening.diagnostic.questions && opening.diagnostic.questions.length) ? \`
+              <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
+                <div class="flex items-center justify-between">
+                  <h5 class="text-xs sm:text-sm font-bold text-slate-900">\${opening.diagnostic.title || 'Concepts Diagnostic'}</h5>
+                  <span class="text-[11px] text-slate-500">\${opening.diagnostic.instructions || 'Discuss in pairs before revealing'}</span>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                  \${opening.diagnostic.questions.map(q => \`
+                    <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5">
+                      <div class="flex items-center justify-between gap-2">
+                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Distinction 0\${q.id}</span>
+                        <span class="w-2 h-2 rounded-full" style="background-color: \${theme.primary};"></span>
+                      </div>
+                      <p class="text-xs font-bold text-slate-900">\${q.q}</p>
+                      <div id="ag3-spotcheck-ans-2-\${q.id}" class="hidden p-2.5 bg-white border border-slate-200 rounded-lg text-[11px] text-slate-700 leading-relaxed shadow-xs">
+                        \${q.answer}
+                      </div>
+                      <button type="button" id="ag3-spotcheck-btn-2-\${q.id}" onclick="window.toggleAg3SpotCheckAnswer(2, \${q.id})" class="inline-flex items-center gap-1.5 px-3 py-1 rounded bg-white hover:bg-slate-100 border border-slate-300 text-[11px] font-bold text-slate-700 transition-all cursor-pointer">
+                        <span>Reveal Answer</span> &rarr;
+                      </button>
+                    </div>
+                  \`).join('')}
+                </div>
+              </div>
+            \` : ''}
+          </div>
+
+          <!-- Activity 2: Speed Survey / Dilemmas -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: \${theme.primary};">10-35m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">\${survey.title || 'Activity 2: Speed Survey'}</h4>
+                  <p class="text-[11px] text-slate-500">\${survey.summary || ''}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Structured Discussion</span>
+            </div>
+
+            <!-- Signposts -->
+            \${survey.signposts ? \`
+              <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
+                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Discourse Connectors:</span>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-blue-900">
+                  \${survey.signposts.map(sp => \`<div class="p-2 bg-white rounded border border-blue-200/80 italic font-medium">\${sp}</div>\`).join('')}
+                </div>
+              </div>
+            \` : ''}
+
+            <!-- Topics Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              \${(survey.topics || []).map(t => \`
+                <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl flex flex-col justify-between space-y-3 shadow-2xs">
+                  <div>
+                    <div class="flex items-center justify-between pb-1.5 border-b border-slate-200">
+                      <span class="text-xs font-black text-slate-900">Dilemma 0\${t.id}</span>
+                      <span class="text-[10px] font-bold px-2 py-0.5 rounded text-white" style="background-color: \${theme.accent};">\${t.badge || ''}</span>
+                    </div>
+                    <h5 class="text-xs sm:text-sm font-bold text-slate-900 mt-2">\${t.statement}</h5>
+                    <div class="mt-2.5 space-y-2 text-xs">
+                      <div class="p-2 bg-emerald-50/80 border border-emerald-200 rounded-lg text-emerald-950">
+                        <strong class="text-emerald-900 block mb-0.5">&plus; Argument (Pro / Opportunity):</strong>
+                        \${t.pro}
+                      </div>
+                      <div class="p-2 bg-rose-50/80 border border-rose-200 rounded-lg text-rose-950">
+                        <strong class="text-rose-900 block mb-0.5">&minus; Counter-Argument (Con / Risk):</strong>
+                        \${t.con}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pt-2 border-t border-slate-200 text-[11px] text-slate-600 font-medium italic">
+                    💬 \${t.prompt}
+                  </div>
+                </div>
+              \`).join('')}
+            </div>
+          </div>
+
+          <!-- Activity 3: Language Clinic -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: \${theme.primary};">35-55m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">\${grammar.title || 'Activity 3: Language Clinic'}</h4>
+                  <p class="text-[11px] text-slate-500">\${grammar.summary || ''}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Grammar Focus</span>
+            </div>
+
+            <!-- Rules Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+              \${(grammar.rules || []).map(r => \`
+                <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1.5 shadow-2xs">
+                  <span class="text-[10px] font-black uppercase text-blue-700 tracking-wider block">\${r.type}</span>
+                  <div class="p-2 bg-white rounded border border-slate-200 text-xs font-mono text-slate-800 font-semibold">\${r.formula}</div>
+                  <p class="text-[11px] text-slate-600 leading-relaxed">\${r.usage}</p>
+                </div>
+              \`).join('')}
+            </div>
+
+            <!-- Interactive Drills -->
+            \${(grammar.drills && grammar.drills.length) ? \`
+              <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
+                <h5 class="text-xs sm:text-sm font-bold text-slate-900">Grammar Diagnostics: Practice Drills</h5>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  \${grammar.drills.map(d => \`
+                    <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5">
+                      <div class="flex items-center justify-between gap-2">
+                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Question 0\${d.id}</span>
+                        <span class="text-[10px] font-bold text-blue-600 bg-blue-50 px-2 py-0.5 rounded border border-blue-200">Target: \${d.correct}</span>
+                      </div>
+                      <p class="text-xs font-bold text-slate-900 leading-snug">\${d.sentence}</p>
+                      <div class="grid grid-cols-2 gap-1.5 text-[11px]">
+                        \${d.options.map(opt => \`
+                          <div class="p-1.5 bg-white border border-slate-200 rounded text-slate-700 text-center font-medium">\${opt}</div>
+                        \`).join('')}
+                      </div>
+                      <div id="ag3-quiz-ans-s2-\${d.id}" class="hidden p-2.5 bg-emerald-50 border border-emerald-200 rounded-lg text-[11px] text-emerald-950 leading-relaxed shadow-xs">
+                        <strong>Correct Answer:</strong> <span class="font-bold underline">\${d.correct}</span><br>
+                        <em>\${d.explanation}</em>
+                      </div>
+                      <button type="button" id="ag3-quiz-btn-s2-\${d.id}" onclick="window.toggleAg3QuizAnswer('s2-\${d.id}')" class="inline-flex items-center gap-1.5 px-3 py-1 rounded bg-white hover:bg-slate-100 border border-slate-300 text-[11px] font-bold text-slate-700 transition-all cursor-pointer">
+                        <span>Check Answer &amp; Explanation</span> &rarr;
+                      </button>
+                    </div>
+                  \`).join('')}
+                </div>
+              </div>
+            \` : ''}
+          </div>
+
+          <!-- Activity 4: Pair Simulation -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: \${theme.primary};">55-100m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">\${roleplay.title || 'Activity 4: Professional Roleplay & Simulation (45 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">Collaborative spoken negotiation and defense</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Pair Simulation</span>
+            </div>
+
+            <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
+              <span class="text-[10px] font-black uppercase text-blue-700 tracking-wider">Mission Scenario:</span>
+              <p class="text-xs text-slate-700 leading-relaxed">\${roleplay.scenario || ''}</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              \${(roleplay.roles || []).map((r, i) => \`
+                <div class="p-4 rounded-xl border flex flex-col justify-between space-y-3 \${i === 0 ? 'bg-blue-50/40 border-blue-200' : 'bg-slate-50 border-slate-200'}">
+                  <div class="space-y-2">
+                    <div class="flex items-center justify-between pb-1.5 border-b \${i === 0 ? 'border-blue-200' : 'border-slate-200'}">
+                      <span class="text-[10px] font-black uppercase tracking-wider \${i === 0 ? 'text-blue-900' : 'text-slate-700'}">\${r.role}</span>
+                      <span class="text-[10px] font-bold px-2 py-0.5 rounded text-white" style="background-color: \${theme.primary};">\${r.title}</span>
+                    </div>
+                    <div class="space-y-1.5">
+                      <span class="text-[10px] font-bold text-slate-700 uppercase tracking-wider block">Strategic Objectives:</span>
+                      <ul class="text-xs text-slate-700 space-y-1 list-disc pl-4">
+                        \${(r.objectives || []).map(obj => \`<li>\${obj}</li>\`).join('')}
+                      </ul>
+                    </div>
+                  </div>
+                  \${(r.keyPhrases && r.keyPhrases.length) ? \`
+                    <div class="pt-2 border-t \${i === 0 ? 'border-blue-200' : 'border-slate-200'} space-y-1">
+                      <span class="text-[10px] font-bold text-slate-600 uppercase tracking-wider block">Target Spoken Formulae:</span>
+                      \${r.keyPhrases.map(ph => \`<p class="text-[11px] text-slate-600 italic leading-snug">\${ph}</p>\`).join('')}
+                    </div>
+                  \` : ''}
+                </div>
+              \`).join('')}
+            </div>
+          </div>
+
+          <!-- Activity 5: Session Wrap-Up & FE3 Preparation -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: \${theme.primary};">100-120m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">Activity 5: Wrap-Up &amp; FE3 Preparation (15 mins)</h4>
+                  <p class="text-[11px] text-slate-500">Consolidation, phonetics, and portfolio check</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Debrief &amp; Exit Ticket</span>
+            </div>
+
+            <div class="p-4 bg-blue-50/60 border border-blue-200 rounded-xl space-y-3">
+              <div class="flex items-center justify-between">
+                <h5 class="text-xs sm:text-sm font-bold text-blue-950">Session 2 Formative Evaluation Readiness Checklist</h5>
+                <span class="text-[11px] font-bold text-blue-800">Verification</span>
+              </div>
+              <div class="space-y-2 text-xs text-blue-900">
+                \${(content.feChecklist || []).map(item => \`
+                  <div class="p-2.5 bg-white border border-blue-200 rounded-lg flex items-center gap-2">
+                    <span class="text-blue-600 font-bold">&check;</span>
+                    <span>\${item}</span>
+                  </div>
+                \`).join('')}
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+    function renderAg3LessonContentTabSession3(sessionData, theme) {
+      const bodyEl = document.getElementById('modal-body');
+      if (!bodyEl) return;
+      const content = sessionData.lessonContent || {};
+      const ov = content.overview || content.hero || {};
+      const opening = content.openingSession || {};
+      const survey = content.survey || {};
+      const grammar = content.grammarClinic || {};
+      const roleplay = content.roleplay || {};
+
+      bodyEl.innerHTML = `
+        <div class="space-y-6 printable-lesson-container">
+          <!-- Printable Action Bar -->
+          <div class="no-print flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4 bg-white border border-slate-200 rounded-xl shadow-xs">
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: \${theme.primary};">DIGITAL WORKSHEET</span>
+                <span class="text-xs font-bold text-slate-700">General English (AG) • Module 3 • Session 3</span>
+              </div>
+              <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">\${ov.title || 'Technology Ethics & Automated Decisions in AI'}</h3>
+            </div>
+            <button type="button" onclick="window.printLessonContent()" class="inline-flex items-center justify-center gap-2 px-3.5 py-2 rounded-lg text-xs font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 border border-slate-300 shadow-xs transition-all cursor-pointer shrink-0">
+              <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4H7v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+              <span>Print / Save Lesson PDF</span>
+            </button>
+          </div>
+
+          <!-- Session Overview Banner -->
+          <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-xs">
+            <div class="relative">
+              <img src="\${ov.image || 'images/ag_m3card3.png'}" alt="\${ov.title || 'Technology Ethics & Automated Decisions in AI'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/ag_m3card3.png'">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-4 sm:p-5">
+                <span class="text-[11px] font-bold text-blue-300 uppercase tracking-wider">\${ov.badge || 'Session Overview • Technology Ethics & Algorithmic Accountability'}</span>
+                <h3 class="text-lg sm:text-2xl font-black text-white mt-0.5">\${ov.title || 'Technology Ethics & Automated Decisions in AI'}</h3>
+                <p class="text-xs sm:text-sm text-slate-200 mt-1 line-clamp-2">\${ov.subtitle || 'Algorithmic Fairness, Explainable AI (XAI), Digital Surveillance & Tech Governance'}</p>
+              </div>
+            </div>
+            <div class="p-4 bg-slate-50 border-t border-slate-200 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-600">
+              <div class="flex items-center gap-2">
+                <span class="font-bold text-slate-800">Target Level:</span>
+                <span class="bg-blue-100 text-blue-900 font-bold px-2 py-0.5 rounded">CEFR B2</span>
+                <span class="text-slate-400">&bull;</span>
+                <span class="font-bold text-slate-800">Context:</span>
+                <span class="text-slate-600">Emerging Technology &amp; Society</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="font-bold text-slate-800">Total Duration:</span>
+                <span class="font-bold text-slate-900">120 Minutes</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Activity 1: News Prompts & Diagnostic Spot-Checks -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: \${theme.primary};">0-10m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">\${opening.title || 'Activity 1: News & Diagnostic (10 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">\${opening.summary || 'Opening warm-up and technical distinction spot-checks'}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
+            </div>
+
+            <!-- News Prompts -->
+            \${(opening.newsPrompts && opening.newsPrompts.length) ? \`
+              <div class="space-y-2">
+                <span class="text-[11px] font-bold text-slate-700 uppercase tracking-wider block">Real-World Technical Briefings:</span>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+                  \${opening.newsPrompts.map((np, i) => \`
+                    <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 leading-relaxed flex items-start gap-2">
+                      <span class="text-blue-600 font-bold mt-0.5">&bull;</span>
+                      <span>\${np}</span>
+                    </div>
+                  \`).join('')}
+                </div>
+              </div>
+            \` : ''}
+
+            <!-- Diagnostic Spot Checks -->
+            \${(opening.diagnostic && opening.diagnostic.questions && opening.diagnostic.questions.length) ? \`
+              <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
+                <div class="flex items-center justify-between">
+                  <h5 class="text-xs sm:text-sm font-bold text-slate-900">\${opening.diagnostic.title || 'Concepts Diagnostic'}</h5>
+                  <span class="text-[11px] text-slate-500">\${opening.diagnostic.instructions || 'Discuss in pairs before revealing'}</span>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                  \${opening.diagnostic.questions.map(q => \`
+                    <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5">
+                      <div class="flex items-center justify-between gap-2">
+                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Distinction 0\${q.id}</span>
+                        <span class="w-2 h-2 rounded-full" style="background-color: \${theme.primary};"></span>
+                      </div>
+                      <p class="text-xs font-bold text-slate-900">\${q.q}</p>
+                      <div id="ag3-spotcheck-ans-3-\${q.id}" class="hidden p-2.5 bg-white border border-slate-200 rounded-lg text-[11px] text-slate-700 leading-relaxed shadow-xs">
+                        \${q.answer}
+                      </div>
+                      <button type="button" id="ag3-spotcheck-btn-3-\${q.id}" onclick="window.toggleAg3SpotCheckAnswer(3, \${q.id})" class="inline-flex items-center gap-1.5 px-3 py-1 rounded bg-white hover:bg-slate-100 border border-slate-300 text-[11px] font-bold text-slate-700 transition-all cursor-pointer">
+                        <span>Reveal Answer</span> &rarr;
+                      </button>
+                    </div>
+                  \`).join('')}
+                </div>
+              </div>
+            \` : ''}
+          </div>
+
+          <!-- Activity 2: Speed Survey / Dilemmas -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: \${theme.primary};">10-35m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">\${survey.title || 'Activity 2: Speed Survey'}</h4>
+                  <p class="text-[11px] text-slate-500">\${survey.summary || ''}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Structured Discussion</span>
+            </div>
+
+            <!-- Signposts -->
+            \${survey.signposts ? \`
+              <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
+                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Discourse Connectors:</span>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-blue-900">
+                  \${survey.signposts.map(sp => \`<div class="p-2 bg-white rounded border border-blue-200/80 italic font-medium">\${sp}</div>\`).join('')}
+                </div>
+              </div>
+            \` : ''}
+
+            <!-- Topics Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              \${(survey.topics || []).map(t => \`
+                <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl flex flex-col justify-between space-y-3 shadow-2xs">
+                  <div>
+                    <div class="flex items-center justify-between pb-1.5 border-b border-slate-200">
+                      <span class="text-xs font-black text-slate-900">Dilemma 0\${t.id}</span>
+                      <span class="text-[10px] font-bold px-2 py-0.5 rounded text-white" style="background-color: \${theme.accent};">\${t.badge || ''}</span>
+                    </div>
+                    <h5 class="text-xs sm:text-sm font-bold text-slate-900 mt-2">\${t.statement}</h5>
+                    <div class="mt-2.5 space-y-2 text-xs">
+                      <div class="p-2 bg-emerald-50/80 border border-emerald-200 rounded-lg text-emerald-950">
+                        <strong class="text-emerald-900 block mb-0.5">&plus; Argument (Pro / Opportunity):</strong>
+                        \${t.pro}
+                      </div>
+                      <div class="p-2 bg-rose-50/80 border border-rose-200 rounded-lg text-rose-950">
+                        <strong class="text-rose-900 block mb-0.5">&minus; Counter-Argument (Con / Risk):</strong>
+                        \${t.con}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pt-2 border-t border-slate-200 text-[11px] text-slate-600 font-medium italic">
+                    💬 \${t.prompt}
+                  </div>
+                </div>
+              \`).join('')}
+            </div>
+          </div>
+
+          <!-- Activity 3: Language Clinic -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: \${theme.primary};">35-55m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">\${grammar.title || 'Activity 3: Language Clinic'}</h4>
+                  <p class="text-[11px] text-slate-500">\${grammar.summary || ''}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Grammar Focus</span>
+            </div>
+
+            <!-- Rules Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+              \${(grammar.rules || []).map(r => \`
+                <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1.5 shadow-2xs">
+                  <span class="text-[10px] font-black uppercase text-blue-700 tracking-wider block">\${r.type}</span>
+                  <div class="p-2 bg-white rounded border border-slate-200 text-xs font-mono text-slate-800 font-semibold">\${r.formula}</div>
+                  <p class="text-[11px] text-slate-600 leading-relaxed">\${r.usage}</p>
+                </div>
+              \`).join('')}
+            </div>
+
+            <!-- Interactive Drills -->
+            \${(grammar.drills && grammar.drills.length) ? \`
+              <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
+                <h5 class="text-xs sm:text-sm font-bold text-slate-900">Grammar Diagnostics: Practice Drills</h5>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  \${grammar.drills.map(d => \`
+                    <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5">
+                      <div class="flex items-center justify-between gap-2">
+                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Question 0\${d.id}</span>
+                        <span class="text-[10px] font-bold text-blue-600 bg-blue-50 px-2 py-0.5 rounded border border-blue-200">Target: \${d.correct}</span>
+                      </div>
+                      <p class="text-xs font-bold text-slate-900 leading-snug">\${d.sentence}</p>
+                      <div class="grid grid-cols-2 gap-1.5 text-[11px]">
+                        \${d.options.map(opt => \`
+                          <div class="p-1.5 bg-white border border-slate-200 rounded text-slate-700 text-center font-medium">\${opt}</div>
+                        \`).join('')}
+                      </div>
+                      <div id="ag3-quiz-ans-s3-\${d.id}" class="hidden p-2.5 bg-emerald-50 border border-emerald-200 rounded-lg text-[11px] text-emerald-950 leading-relaxed shadow-xs">
+                        <strong>Correct Answer:</strong> <span class="font-bold underline">\${d.correct}</span><br>
+                        <em>\${d.explanation}</em>
+                      </div>
+                      <button type="button" id="ag3-quiz-btn-s3-\${d.id}" onclick="window.toggleAg3QuizAnswer('s3-\${d.id}')" class="inline-flex items-center gap-1.5 px-3 py-1 rounded bg-white hover:bg-slate-100 border border-slate-300 text-[11px] font-bold text-slate-700 transition-all cursor-pointer">
+                        <span>Check Answer &amp; Explanation</span> &rarr;
+                      </button>
+                    </div>
+                  \`).join('')}
+                </div>
+              </div>
+            \` : ''}
+          </div>
+
+          <!-- Activity 4: Pair Simulation -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: \${theme.primary};">55-100m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">\${roleplay.title || 'Activity 4: Professional Roleplay & Simulation (45 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">Collaborative spoken negotiation and defense</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Pair Simulation</span>
+            </div>
+
+            <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
+              <span class="text-[10px] font-black uppercase text-blue-700 tracking-wider">Mission Scenario:</span>
+              <p class="text-xs text-slate-700 leading-relaxed">\${roleplay.scenario || ''}</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              \${(roleplay.roles || []).map((r, i) => \`
+                <div class="p-4 rounded-xl border flex flex-col justify-between space-y-3 \${i === 0 ? 'bg-blue-50/40 border-blue-200' : 'bg-slate-50 border-slate-200'}">
+                  <div class="space-y-2">
+                    <div class="flex items-center justify-between pb-1.5 border-b \${i === 0 ? 'border-blue-200' : 'border-slate-200'}">
+                      <span class="text-[10px] font-black uppercase tracking-wider \${i === 0 ? 'text-blue-900' : 'text-slate-700'}">\${r.role}</span>
+                      <span class="text-[10px] font-bold px-2 py-0.5 rounded text-white" style="background-color: \${theme.primary};">\${r.title}</span>
+                    </div>
+                    <div class="space-y-1.5">
+                      <span class="text-[10px] font-bold text-slate-700 uppercase tracking-wider block">Strategic Objectives:</span>
+                      <ul class="text-xs text-slate-700 space-y-1 list-disc pl-4">
+                        \${(r.objectives || []).map(obj => \`<li>\${obj}</li>\`).join('')}
+                      </ul>
+                    </div>
+                  </div>
+                  \${(r.keyPhrases && r.keyPhrases.length) ? \`
+                    <div class="pt-2 border-t \${i === 0 ? 'border-blue-200' : 'border-slate-200'} space-y-1">
+                      <span class="text-[10px] font-bold text-slate-600 uppercase tracking-wider block">Target Spoken Formulae:</span>
+                      \${r.keyPhrases.map(ph => \`<p class="text-[11px] text-slate-600 italic leading-snug">\${ph}</p>\`).join('')}
+                    </div>
+                  \` : ''}
+                </div>
+              \`).join('')}
+            </div>
+          </div>
+
+          <!-- Activity 5: Session Wrap-Up & FE3 Preparation -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: \${theme.primary};">100-120m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">Activity 5: Wrap-Up &amp; FE3 Preparation (15 mins)</h4>
+                  <p class="text-[11px] text-slate-500">Consolidation, phonetics, and portfolio check</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Debrief &amp; Exit Ticket</span>
+            </div>
+
+            <div class="p-4 bg-blue-50/60 border border-blue-200 rounded-xl space-y-3">
+              <div class="flex items-center justify-between">
+                <h5 class="text-xs sm:text-sm font-bold text-blue-950">Session 3 Formative Evaluation Readiness Checklist</h5>
+                <span class="text-[11px] font-bold text-blue-800">Verification</span>
+              </div>
+              <div class="space-y-2 text-xs text-blue-900">
+                \${(content.feChecklist || []).map(item => \`
+                  <div class="p-2.5 bg-white border border-blue-200 rounded-lg flex items-center gap-2">
+                    <span class="text-blue-600 font-bold">&check;</span>
+                    <span>\${item}</span>
+                  </div>
+                \`).join('')}
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+    function renderAg3LessonContentTabSession4(sessionData, theme) {
+      const bodyEl = document.getElementById('modal-body');
+      if (!bodyEl) return;
+      const content = sessionData.lessonContent || {};
+      const ov = content.overview || content.hero || {};
+      const opening = content.openingSession || {};
+      const survey = content.survey || {};
+      const grammar = content.grammarClinic || {};
+      const roleplay = content.roleplay || {};
+
+      bodyEl.innerHTML = `
+        <div class="space-y-6 printable-lesson-container">
+          <!-- Printable Action Bar -->
+          <div class="no-print flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4 bg-white border border-slate-200 rounded-xl shadow-xs">
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: \${theme.primary};">DIGITAL WORKSHEET</span>
+                <span class="text-xs font-bold text-slate-700">General English (AG) • Module 3 • Session 4</span>
+              </div>
+              <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">\${ov.title || 'Biometrics, Digital IDs & Passenger Journey'}</h3>
+            </div>
+            <button type="button" onclick="window.printLessonContent()" class="inline-flex items-center justify-center gap-2 px-3.5 py-2 rounded-lg text-xs font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 border border-slate-300 shadow-xs transition-all cursor-pointer shrink-0">
+              <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4H7v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+              <span>Print / Save Lesson PDF</span>
+            </button>
+          </div>
+
+          <!-- Session Overview Banner -->
+          <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-xs">
+            <div class="relative">
+              <img src="\${ov.image || 'images/ag_m3card4.png'}" alt="\${ov.title || 'Biometrics, Digital IDs & Passenger Journey'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/ag_m3card4.png'">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-4 sm:p-5">
+                <span class="text-[11px] font-bold text-blue-300 uppercase tracking-wider">\${ov.badge || 'Session Overview • Biometrics & Digital Identity'}</span>
+                <h3 class="text-lg sm:text-2xl font-black text-white mt-0.5">\${ov.title || 'Biometrics, Digital IDs & Passenger Journey'}</h3>
+                <p class="text-xs sm:text-sm text-slate-200 mt-1 line-clamp-2">\${ov.subtitle || 'Contactless E-Gates, IATA One ID, Cybersecurity & Biometric Data Sovereignty'}</p>
+              </div>
+            </div>
+            <div class="p-4 bg-slate-50 border-t border-slate-200 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-600">
+              <div class="flex items-center gap-2">
+                <span class="font-bold text-slate-800">Target Level:</span>
+                <span class="bg-blue-100 text-blue-900 font-bold px-2 py-0.5 rounded">CEFR B2</span>
+                <span class="text-slate-400">&bull;</span>
+                <span class="font-bold text-slate-800">Context:</span>
+                <span class="text-slate-600">Emerging Technology &amp; Society</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="font-bold text-slate-800">Total Duration:</span>
+                <span class="font-bold text-slate-900">120 Minutes</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Activity 1: News Prompts & Diagnostic Spot-Checks -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: \${theme.primary};">0-10m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">\${opening.title || 'Activity 1: News & Diagnostic (10 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">\${opening.summary || 'Opening warm-up and technical distinction spot-checks'}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
+            </div>
+
+            <!-- News Prompts -->
+            \${(opening.newsPrompts && opening.newsPrompts.length) ? \`
+              <div class="space-y-2">
+                <span class="text-[11px] font-bold text-slate-700 uppercase tracking-wider block">Real-World Technical Briefings:</span>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+                  \${opening.newsPrompts.map((np, i) => \`
+                    <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 leading-relaxed flex items-start gap-2">
+                      <span class="text-blue-600 font-bold mt-0.5">&bull;</span>
+                      <span>\${np}</span>
+                    </div>
+                  \`).join('')}
+                </div>
+              </div>
+            \` : ''}
+
+            <!-- Diagnostic Spot Checks -->
+            \${(opening.diagnostic && opening.diagnostic.questions && opening.diagnostic.questions.length) ? \`
+              <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
+                <div class="flex items-center justify-between">
+                  <h5 class="text-xs sm:text-sm font-bold text-slate-900">\${opening.diagnostic.title || 'Concepts Diagnostic'}</h5>
+                  <span class="text-[11px] text-slate-500">\${opening.diagnostic.instructions || 'Discuss in pairs before revealing'}</span>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                  \${opening.diagnostic.questions.map(q => \`
+                    <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5">
+                      <div class="flex items-center justify-between gap-2">
+                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Distinction 0\${q.id}</span>
+                        <span class="w-2 h-2 rounded-full" style="background-color: \${theme.primary};"></span>
+                      </div>
+                      <p class="text-xs font-bold text-slate-900">\${q.q}</p>
+                      <div id="ag3-spotcheck-ans-4-\${q.id}" class="hidden p-2.5 bg-white border border-slate-200 rounded-lg text-[11px] text-slate-700 leading-relaxed shadow-xs">
+                        \${q.answer}
+                      </div>
+                      <button type="button" id="ag3-spotcheck-btn-4-\${q.id}" onclick="window.toggleAg3SpotCheckAnswer(4, \${q.id})" class="inline-flex items-center gap-1.5 px-3 py-1 rounded bg-white hover:bg-slate-100 border border-slate-300 text-[11px] font-bold text-slate-700 transition-all cursor-pointer">
+                        <span>Reveal Answer</span> &rarr;
+                      </button>
+                    </div>
+                  \`).join('')}
+                </div>
+              </div>
+            \` : ''}
+          </div>
+
+          <!-- Activity 2: Speed Survey / Dilemmas -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: \${theme.primary};">10-35m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">\${survey.title || 'Activity 2: Speed Survey'}</h4>
+                  <p class="text-[11px] text-slate-500">\${survey.summary || ''}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Structured Discussion</span>
+            </div>
+
+            <!-- Signposts -->
+            \${survey.signposts ? \`
+              <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
+                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Discourse Connectors:</span>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-blue-900">
+                  \${survey.signposts.map(sp => \`<div class="p-2 bg-white rounded border border-blue-200/80 italic font-medium">\${sp}</div>\`).join('')}
+                </div>
+              </div>
+            \` : ''}
+
+            <!-- Topics Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              \${(survey.topics || []).map(t => \`
+                <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl flex flex-col justify-between space-y-3 shadow-2xs">
+                  <div>
+                    <div class="flex items-center justify-between pb-1.5 border-b border-slate-200">
+                      <span class="text-xs font-black text-slate-900">Dilemma 0\${t.id}</span>
+                      <span class="text-[10px] font-bold px-2 py-0.5 rounded text-white" style="background-color: \${theme.accent};">\${t.badge || ''}</span>
+                    </div>
+                    <h5 class="text-xs sm:text-sm font-bold text-slate-900 mt-2">\${t.statement}</h5>
+                    <div class="mt-2.5 space-y-2 text-xs">
+                      <div class="p-2 bg-emerald-50/80 border border-emerald-200 rounded-lg text-emerald-950">
+                        <strong class="text-emerald-900 block mb-0.5">&plus; Argument (Pro / Opportunity):</strong>
+                        \${t.pro}
+                      </div>
+                      <div class="p-2 bg-rose-50/80 border border-rose-200 rounded-lg text-rose-950">
+                        <strong class="text-rose-900 block mb-0.5">&minus; Counter-Argument (Con / Risk):</strong>
+                        \${t.con}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pt-2 border-t border-slate-200 text-[11px] text-slate-600 font-medium italic">
+                    💬 \${t.prompt}
+                  </div>
+                </div>
+              \`).join('')}
+            </div>
+          </div>
+
+          <!-- Activity 3: Language Clinic -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: \${theme.primary};">35-55m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">\${grammar.title || 'Activity 3: Language Clinic'}</h4>
+                  <p class="text-[11px] text-slate-500">\${grammar.summary || ''}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Grammar Focus</span>
+            </div>
+
+            <!-- Rules Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+              \${(grammar.rules || []).map(r => \`
+                <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1.5 shadow-2xs">
+                  <span class="text-[10px] font-black uppercase text-blue-700 tracking-wider block">\${r.type}</span>
+                  <div class="p-2 bg-white rounded border border-slate-200 text-xs font-mono text-slate-800 font-semibold">\${r.formula}</div>
+                  <p class="text-[11px] text-slate-600 leading-relaxed">\${r.usage}</p>
+                </div>
+              \`).join('')}
+            </div>
+
+            <!-- Interactive Drills -->
+            \${(grammar.drills && grammar.drills.length) ? \`
+              <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
+                <h5 class="text-xs sm:text-sm font-bold text-slate-900">Grammar Diagnostics: Practice Drills</h5>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  \${grammar.drills.map(d => \`
+                    <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5">
+                      <div class="flex items-center justify-between gap-2">
+                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Question 0\${d.id}</span>
+                        <span class="text-[10px] font-bold text-blue-600 bg-blue-50 px-2 py-0.5 rounded border border-blue-200">Target: \${d.correct}</span>
+                      </div>
+                      <p class="text-xs font-bold text-slate-900 leading-snug">\${d.sentence}</p>
+                      <div class="grid grid-cols-2 gap-1.5 text-[11px]">
+                        \${d.options.map(opt => \`
+                          <div class="p-1.5 bg-white border border-slate-200 rounded text-slate-700 text-center font-medium">\${opt}</div>
+                        \`).join('')}
+                      </div>
+                      <div id="ag3-quiz-ans-s4-\${d.id}" class="hidden p-2.5 bg-emerald-50 border border-emerald-200 rounded-lg text-[11px] text-emerald-950 leading-relaxed shadow-xs">
+                        <strong>Correct Answer:</strong> <span class="font-bold underline">\${d.correct}</span><br>
+                        <em>\${d.explanation}</em>
+                      </div>
+                      <button type="button" id="ag3-quiz-btn-s4-\${d.id}" onclick="window.toggleAg3QuizAnswer('s4-\${d.id}')" class="inline-flex items-center gap-1.5 px-3 py-1 rounded bg-white hover:bg-slate-100 border border-slate-300 text-[11px] font-bold text-slate-700 transition-all cursor-pointer">
+                        <span>Check Answer &amp; Explanation</span> &rarr;
+                      </button>
+                    </div>
+                  \`).join('')}
+                </div>
+              </div>
+            \` : ''}
+          </div>
+
+          <!-- Activity 4: Pair Simulation -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: \${theme.primary};">55-100m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">\${roleplay.title || 'Activity 4: Professional Roleplay & Simulation (45 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">Collaborative spoken negotiation and defense</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Pair Simulation</span>
+            </div>
+
+            <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
+              <span class="text-[10px] font-black uppercase text-blue-700 tracking-wider">Mission Scenario:</span>
+              <p class="text-xs text-slate-700 leading-relaxed">\${roleplay.scenario || ''}</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              \${(roleplay.roles || []).map((r, i) => \`
+                <div class="p-4 rounded-xl border flex flex-col justify-between space-y-3 \${i === 0 ? 'bg-blue-50/40 border-blue-200' : 'bg-slate-50 border-slate-200'}">
+                  <div class="space-y-2">
+                    <div class="flex items-center justify-between pb-1.5 border-b \${i === 0 ? 'border-blue-200' : 'border-slate-200'}">
+                      <span class="text-[10px] font-black uppercase tracking-wider \${i === 0 ? 'text-blue-900' : 'text-slate-700'}">\${r.role}</span>
+                      <span class="text-[10px] font-bold px-2 py-0.5 rounded text-white" style="background-color: \${theme.primary};">\${r.title}</span>
+                    </div>
+                    <div class="space-y-1.5">
+                      <span class="text-[10px] font-bold text-slate-700 uppercase tracking-wider block">Strategic Objectives:</span>
+                      <ul class="text-xs text-slate-700 space-y-1 list-disc pl-4">
+                        \${(r.objectives || []).map(obj => \`<li>\${obj}</li>\`).join('')}
+                      </ul>
+                    </div>
+                  </div>
+                  \${(r.keyPhrases && r.keyPhrases.length) ? \`
+                    <div class="pt-2 border-t \${i === 0 ? 'border-blue-200' : 'border-slate-200'} space-y-1">
+                      <span class="text-[10px] font-bold text-slate-600 uppercase tracking-wider block">Target Spoken Formulae:</span>
+                      \${r.keyPhrases.map(ph => \`<p class="text-[11px] text-slate-600 italic leading-snug">\${ph}</p>\`).join('')}
+                    </div>
+                  \` : ''}
+                </div>
+              \`).join('')}
+            </div>
+          </div>
+
+          <!-- Activity 5: Session Wrap-Up & FE3 Preparation -->
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: \${theme.primary};">100-120m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">Activity 5: Wrap-Up &amp; FE3 Preparation (15 mins)</h4>
+                  <p class="text-[11px] text-slate-500">Consolidation, phonetics, and portfolio check</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Debrief &amp; Exit Ticket</span>
+            </div>
+
+            <div class="p-4 bg-blue-50/60 border border-blue-200 rounded-xl space-y-3">
+              <div class="flex items-center justify-between">
+                <h5 class="text-xs sm:text-sm font-bold text-blue-950">Session 4 Formative Evaluation Readiness Checklist</h5>
+                <span class="text-[11px] font-bold text-blue-800">Verification</span>
+              </div>
+              <div class="space-y-2 text-xs text-blue-900">
+                \${(content.feChecklist || []).map(item => \`
+                  <div class="p-2.5 bg-white border border-blue-200 rounded-lg flex items-center gap-2">
+                    <span class="text-blue-600 font-bold">&check;</span>
+                    <span>\${item}</span>
+                  </div>
+                \`).join('')}
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
     /* =========================================================================
        AERONAUTICAL ENGLISH (AAS) • MODULE 2 SESSIONS 1 TO 4 LESSON CONTENT
        ========================================================================= */
@@ -8711,6 +9919,451 @@
         return;
       }
 
+      if (!isAas && modNum === 3) {
+        bodyEl.innerHTML = `
+        <div class="space-y-6">
+          <!-- Executive Overview Card -->
+          <div class="bg-gradient-to-r from-slate-50 to-blue-50/40 border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-black tracking-wide text-white" style="background-color: ${theme.primary};">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                30-Minute Oral Tutorial Slot • In Pairs
+              </span>
+              <span class="text-xs font-bold px-2.5 py-0.5 rounded-md border" style="color: ${theme.accent}; background-color: ${theme.highlight || '#e0e7ff'}; border-color: ${theme.accent}30;">
+                Graded out of 20 Points • Continuous Assessment (FE3)
+              </span>
+            </div>
+            <h3 class="text-base sm:text-lg font-bold text-slate-800">
+              Formative Evaluation 3 (FE3) — Emerging Technology Presentation
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
+              The Formative Evaluation takes place in <strong>pairs</strong> during a dedicated <strong>30-minute tutorial slot</strong> on <strong>Friday 27 February 2025 (Week 08)</strong>. You and your partner will present a comprehensive technical profile and critical evaluation of an emerging aviation or non-aviation technology, defend technical trade-offs during a spontaneous teacher Q&amp;A, present evidence of your Vocabulary Log and TOEIC preparation, and evaluate your personal strengths and action targets.
+            </p>
+          </div>
+
+          <!-- 30-Minute Roadmap (5 Stages) -->
+          <div class="space-y-3">
+            <div class="flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full" style="background-color: ${theme.accent};"></span>
+              <h4 class="text-xs sm:text-sm font-bold text-slate-800 uppercase tracking-wide">
+                The 30-Minute Oral Tutorial Roadmap
+              </h4>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
+              <!-- Stage 1 -->
+              <div class="border border-slate-200 rounded-xl p-3 bg-white flex flex-col justify-between shadow-2xs">
+                <div>
+                  <div class="flex items-center justify-between pb-1.5 border-b border-slate-100">
+                    <span class="text-[10px] font-black uppercase text-slate-400">Stage 1</span>
+                    <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold" style="background-color: ${theme.primary};">0–2 min</span>
+                  </div>
+                  <h5 class="text-xs font-bold text-slate-800 mt-2">Welcome &amp; Setup</h5>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Connect laptop/tablet to presentation display. Teacher introduces the session and confirms your chosen technology.</p>
+                </div>
+                <div class="mt-2 pt-2 border-t border-slate-100 text-[10px] text-slate-400 font-semibold">Get settled &amp; relaxed</div>
+              </div>
+
+              <!-- Stage 2 -->
+              <div class="border rounded-xl p-3 bg-blue-50/40 flex flex-col justify-between shadow-2xs" style="border-color: ${theme.accent}40;">
+                <div>
+                  <div class="flex items-center justify-between pb-1.5 border-b" style="border-color: ${theme.accent}30;">
+                    <span class="text-[10px] font-black uppercase" style="color: ${theme.accent};">Stage 2</span>
+                    <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold" style="background-color: ${theme.accent};">2–14 min</span>
+                  </div>
+                  <h5 class="text-xs font-bold text-slate-800 mt-2">Pair Presentation</h5>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Deliver your emerging technology presentation using clean visual slides. Equal 50/50 talking time (~6 min per student). <em>Strictly no reading from notes!</em></p>
+                </div>
+                <div class="mt-2 pt-2 border-t border-blue-200 text-[10px] font-semibold text-blue-800">Equal 50/50 speaking time</div>
+              </div>
+
+              <!-- Stage 3 -->
+              <div class="border border-slate-200 rounded-xl p-3 bg-white flex flex-col justify-between shadow-2xs">
+                <div>
+                  <div class="flex items-center justify-between pb-1.5 border-b border-slate-100">
+                    <span class="text-[10px] font-black uppercase text-slate-400">Stage 3</span>
+                    <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold" style="background-color: ${theme.primary};">14–20 min</span>
+                  </div>
+                  <h5 class="text-xs font-bold text-slate-800 mt-2">Teacher Q&amp;A</h5>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Spontaneous interactive questions on technical trade-offs, scalability hurdles, and ethical/regulatory safeguards.</p>
+                </div>
+                <div class="mt-2 pt-2 border-t border-slate-100 text-[10px] text-slate-400 font-semibold">Spontaneous dialogue</div>
+              </div>
+
+              <!-- Stage 4 -->
+              <div class="border border-blue-200 rounded-xl p-3 bg-blue-50/40 flex flex-col justify-between shadow-2xs">
+                <div>
+                  <div class="flex items-center justify-between pb-1.5 border-b border-blue-200">
+                    <span class="text-[10px] font-black uppercase text-blue-700">Stage 4</span>
+                    <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold bg-blue-700">20–26 min</span>
+                  </div>
+                  <h5 class="text-xs font-bold text-slate-800 mt-2">Portfolio Check</h5>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Show your Vocabulary Log with recorded Module 3 lexis and completed TOEIC error logs. Present honest self-critique.</p>
+                </div>
+                <div class="mt-2 pt-2 border-t border-blue-200/60 text-[10px] text-blue-800 font-semibold">Self-evaluation ready</div>
+              </div>
+
+              <!-- Stage 5 -->
+              <div class="border border-slate-200 rounded-xl p-3 bg-white flex flex-col justify-between shadow-2xs">
+                <div>
+                  <div class="flex items-center justify-between pb-1.5 border-b border-slate-100">
+                    <span class="text-[10px] font-black uppercase text-slate-400">Stage 5</span>
+                    <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold" style="background-color: ${theme.primary};">26–30 min</span>
+                  </div>
+                  <h5 class="text-xs font-bold text-slate-800 mt-2">Feedback &amp; Targets</h5>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Receive teacher feedback on fluency, pronunciation, grammatical control, and your official mark out of 20.</p>
+                </div>
+                <div class="mt-2 pt-2 border-t border-slate-100 text-[10px] text-slate-400 font-semibold">Mark out of 20 awarded</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Module 3 Task Options -->
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full" style="background-color: ${theme.accent};"></span>
+                <h4 class="text-xs sm:text-sm font-bold text-slate-800 uppercase tracking-wide">
+                  Module 3 Task: Choose Option A or Option B
+                </h4>
+              </div>
+              <span class="text-[11px] text-slate-400">Pair Presentation Task</span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <!-- Option A: Aviation Emerging Technology -->
+              <div class="border border-slate-200 rounded-xl p-4 sm:p-5 bg-white shadow-xs flex flex-col justify-between">
+                <div>
+                  <div class="flex items-center justify-between mb-2">
+                    <span class="px-2.5 py-0.5 rounded-full text-white text-[11px] font-bold tracking-wide" style="background-color: ${theme.primary};">OPTION A</span>
+                    <span class="text-[11px] font-bold text-blue-700 bg-blue-50 px-2 py-0.5 rounded border border-blue-200">Aviation Emerging Tech</span>
+                  </div>
+                  <h5 class="text-sm sm:text-base font-bold text-slate-800">
+                    Emerging Aviation Technology
+                  </h5>
+                  <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">
+                    Select a disruptive aerospace or air transport technology (e.g. <em>eVTOL &amp; Urban Air Mobility, Liquid Hydrogen Cryogenic Storage, Autonomous Runway FOD Detection Robots, AI-driven Air Traffic Flow Optimization, Biometric Single-Token Airport Gates, Electric Aircraft Retrofits</em>).
+                  </p>
+                </div>
+                <div class="mt-4 pt-3 border-t border-slate-100 text-[11px] text-slate-500">
+                  Focus: Aerodynamic/propulsion physics, airside integration, EASA/FAA certification, and lifecycle decarbonization.
+                </div>
+              </div>
+
+              <!-- Option B: Non-Aviation Emerging Technology -->
+              <div class="border border-slate-200 rounded-xl p-4 sm:p-5 bg-white shadow-xs flex flex-col justify-between">
+                <div>
+                  <div class="flex items-center justify-between mb-2">
+                    <span class="px-2.5 py-0.5 rounded-full text-white text-[11px] font-bold tracking-wide" style="background-color: ${theme.primary};">OPTION B</span>
+                    <span class="text-[11px] font-bold text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded border border-indigo-200">Non-Aviation Tech</span>
+                  </div>
+                  <h5 class="text-sm sm:text-base font-bold text-slate-800">
+                    Non-Aviation / Everyday Emerging Technology
+                  </h5>
+                  <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">
+                    Select an emerging breakthrough transforming broader society or engineering (e.g. <em>Solid-State Battery Storage for Energy Grids, Quantum Cryptography for Critical Infrastructure, Small Modular Nuclear Reactors, Autonomous Public Transit Fleets, Neuromorphic AI Processors, Brain-Computer Interfaces</em>).
+                  </p>
+                </div>
+                <div class="mt-4 pt-3 border-t border-slate-100 text-[11px] text-slate-500">
+                  Focus: Core operating principles, efficiency benchmarks over legacy systems, ethical governance, and social adoption.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4 Core Dimensions -->
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full" style="background-color: ${theme.accent};"></span>
+                <h4 class="text-xs sm:text-sm font-bold text-slate-800 uppercase tracking-wide">
+                  The 4 Mandatory Technical Evaluation Dimensions
+                </h4>
+              </div>
+              <span class="text-[11px] text-slate-400">Required for Both Options</span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+              <div class="border border-slate-200 rounded-xl p-4 bg-white shadow-xs">
+                <div class="flex items-center justify-between mb-2">
+                  <span class="px-2.5 py-0.5 rounded-full text-white text-[10px] font-bold tracking-wide" style="background-color: ${theme.primary};">DIMENSION 1</span>
+                  <span class="text-[10px] font-bold text-blue-700 bg-blue-50 px-2 py-0.5 rounded border border-blue-200">Architecture</span>
+                </div>
+                <h5 class="text-sm font-bold text-slate-800">Technical Architecture &amp; Operating Mechanism</h5>
+                <ul class="text-xs text-slate-600 space-y-1 mt-2 list-disc pl-4">
+                  <li><strong>Core Principles:</strong> Fundamental physics, hardware components, and software algorithms.</li>
+                  <li><strong>System Architecture:</strong> Distributed propulsion, cryogenic cooling, neural networks, or sensor arrays.</li>
+                  <li><strong>Inputs &amp; Outputs:</strong> Telemetry ingestion, power transmission, and automated decision flows.</li>
+                </ul>
+              </div>
+
+              <div class="border border-slate-200 rounded-xl p-4 bg-white shadow-xs">
+                <div class="flex items-center justify-between mb-2">
+                  <span class="px-2.5 py-0.5 rounded-full text-white text-[10px] font-bold tracking-wide" style="background-color: ${theme.primary};">DIMENSION 2</span>
+                  <span class="text-[10px] font-bold text-sky-700 bg-sky-50 px-2 py-0.5 rounded border border-sky-200">Efficiency</span>
+                </div>
+                <h5 class="text-sm font-bold text-slate-800">Operational Benefits &amp; Quantitative Gains</h5>
+                <ul class="text-xs text-slate-600 space-y-1 mt-2 list-disc pl-4">
+                  <li><strong>Empirical Metrics:</strong> Quantifiable energy savings, throughput enhancement, or cost reductions.</li>
+                  <li><strong>Benchmark Comparison:</strong> Direct contrast against legacy systems (e.g. kerosene vs. hydrogen).</li>
+                  <li><strong>Safety &amp; Reliability:</strong> Fault tolerance, redundancy fail-safes, and reduced human error rates.</li>
+                </ul>
+              </div>
+
+              <div class="border border-slate-200 rounded-xl p-4 bg-white shadow-xs">
+                <div class="flex items-center justify-between mb-2">
+                  <span class="px-2.5 py-0.5 rounded-full text-white text-[10px] font-bold tracking-wide" style="background-color: ${theme.primary};">DIMENSION 3</span>
+                  <span class="text-[10px] font-bold text-amber-700 bg-amber-50 px-2 py-0.5 rounded border border-amber-200">DDRS &amp; Ethics</span>
+                </div>
+                <h5 class="text-sm font-bold text-slate-800">DDRS, Ethical, Regulatory &amp; Societal Challenges</h5>
+                <ul class="text-xs text-slate-600 space-y-1 mt-2 list-disc pl-4">
+                  <li><strong>Environmental Lifecycle:</strong> Rare-earth extraction, battery recycling, and embodied carbon.</li>
+                  <li><strong>Ethics &amp; Privacy:</strong> Algorithmic bias, biometric data sovereignty, and human displacement.</li>
+                  <li><strong>Regulatory Barriers:</strong> Airworthiness certification standards, EU AI Act, and ICAO rules.</li>
+                </ul>
+              </div>
+
+              <div class="border border-slate-200 rounded-xl p-4 bg-white shadow-xs">
+                <div class="flex items-center justify-between mb-2">
+                  <span class="px-2.5 py-0.5 rounded-full text-white text-[10px] font-bold tracking-wide" style="background-color: ${theme.primary};">DIMENSION 4</span>
+                  <span class="text-[10px] font-bold text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded border border-indigo-200">Roadmap</span>
+                </div>
+                <h5 class="text-sm font-bold text-slate-800">Scalability, Deployment Roadmap &amp; Future Outlook</h5>
+                <ul class="text-xs text-slate-600 space-y-1 mt-2 list-disc pl-4">
+                  <li><strong>Deployment Milestones:</strong> Realistic projected timeline from prototype to scale (2025–2035).</li>
+                  <li><strong>Economic Barriers:</strong> Capital expenditure hurdles, fueling infrastructure, and grid upgrades.</li>
+                  <li><strong>Public Adoption:</strong> Overcoming consumer skepticism, safety fears, and acoustic concerns.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vocabulary Activation Box -->
+          <div class="border border-blue-200 rounded-xl p-4 bg-blue-50/50 space-y-2.5">
+            <div class="flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full" style="background-color: ${theme.accent};"></span>
+              <h5 class="text-xs font-bold text-slate-900 uppercase tracking-wide">
+                Mandatory Vocabulary Activation (Sessions 1 to 4)
+              </h5>
+            </div>
+            <p class="text-xs text-slate-700 leading-relaxed">
+              To earn top marks on Criterion 4, deploy at least <strong>6 to 8 specialized technical terms</strong> from Sessions 1–4 into your speech:
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 text-[11px]">
+              <div class="p-2.5 bg-white rounded-lg border border-blue-200">
+                <strong class="text-blue-900 block mb-0.5">Session 1 (AI &amp; Automation):</strong>
+                <em>Predictive maintenance, digital twin, neural network, human-in-the-loop, telemetry, machine learning.</em>
+              </div>
+              <div class="p-2.5 bg-white rounded-lg border border-blue-200">
+                <strong class="text-blue-900 block mb-0.5">Session 2 (Clean Propulsion):</strong>
+                <em>Cryogenic storage, distributed electric propulsion, gravimetric density, vertiport, fuel cell, SAF.</em>
+              </div>
+              <div class="p-2.5 bg-white rounded-lg border border-blue-200">
+                <strong class="text-blue-900 block mb-0.5">Session 3 (Tech Ethics):</strong>
+                <em>Algorithmic bias, explainable AI (XAI), black-box algorithm, data minimization, concession, hedging.</em>
+              </div>
+              <div class="p-2.5 bg-white rounded-lg border border-blue-200">
+                <strong class="text-blue-900 block mb-0.5">Session 4 (Biometrics &amp; IDs):</strong>
+                <em>Biometric verification, single-token, e-gate, false acceptance rate, decentralized digital identity, encryption.</em>
+              </div>
+            </div>
+          </div>
+
+          <!-- Visual Supports Guidance -->
+          <div class="p-3.5 bg-white rounded-xl border border-slate-200 space-y-2">
+            <h5 class="text-xs font-bold text-slate-800 uppercase tracking-wide">Visual Supports Guidelines</h5>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+              <div class="p-2.5 bg-emerald-50/50 border border-emerald-200 rounded-lg text-slate-700">
+                <strong class="text-emerald-800 block mb-1">&check; DO:</strong>
+                Use 4–6 clean visual slides (technical architecture schematics, deployment roadmaps, efficiency graphs, and bullet cues). Maintain strong eye contact!
+              </div>
+              <div class="p-2.5 bg-rose-50/50 border border-rose-200 rounded-lg text-slate-700">
+                <strong class="text-rose-800 block mb-1">&cross; DO NOT:</strong>
+                Never project full paragraphs of text, and never read aloud from prepared note sheets or laptop screens. Spoken delivery must be spontaneous.
+              </div>
+            </div>
+          </div>
+        </div>
+        `;
+        return;
+      }
+
+      if (!isAas && modNum === 3) {
+        bodyEl.innerHTML = `
+        <div class="space-y-4">
+          <div class="p-4 bg-white border border-slate-200 rounded-xl shadow-xs">
+            <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Formative Evaluation 3 Objectives</span>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mt-1">
+              By the end of this evaluation, you will demonstrate the ability to collaborate effectively in English, present an in-depth technical analysis of an emerging technology, defend system design and trade-offs spontaneously during examiner Q&amp;A, and evaluate your personal language learning habits against official CEFR B2 standards.
+            </p>
+          </div>
+
+          <div class="space-y-2.5">
+            <div class="flex items-start gap-3 p-3.5 bg-white border border-slate-200 rounded-xl shadow-xs">
+              <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shrink-0 shadow-xs" style="background-color: ${theme.primary};">01</span>
+              <div>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">Deliver a Structured Emerging Technology Presentation</h5>
+                <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
+                  Present a coherent 10–12 minute proposal evaluating an emerging aviation or non-aviation technology across its 4 core dimensions. Maintain equal 50/50 speaking time with your partner (~6 minutes each) and use clean visual aids without reading written scripts.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 p-3.5 bg-white border border-slate-200 rounded-xl shadow-xs">
+              <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shrink-0 shadow-xs" style="background-color: ${theme.primary};">02</span>
+              <div>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">Engage in Spontaneous Technical Defense (Teacher Q&amp;A)</h5>
+                <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
+                  Respond spontaneously to examiner questions. Defend technical architecture choices, justify efficiency claims, and address regulatory hurdles using clear concession and hedging strategies without switching to French.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 p-3.5 bg-white border border-slate-200 rounded-xl shadow-xs">
+              <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shrink-0 shadow-xs" style="background-color: ${theme.primary};">03</span>
+              <div>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">Activate Specialized Technology Vocabulary</h5>
+                <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
+                  Naturally integrate at least <strong>6 to 8 specialized technical terms</strong> from Sessions 1–4 (e.g. <em>predictive maintenance, digital twin, cryogenic storage, distributed propulsion, explainable AI, algorithmic bias, biometric verification, decentralized identity</em>).
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 p-3.5 bg-white border border-slate-200 rounded-xl shadow-xs">
+              <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shrink-0 shadow-xs" style="background-color: ${theme.primary};">04</span>
+              <div>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">Demonstrate Grammatical Precision &amp; Syntactic Range</h5>
+                <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
+                  Accurately deploy technical passive constructions (<em>data is ingested</em>), future predictive certainty (<em>is bound to, is projected to</em>), cautious hedging/concession (<em>admittedly... nonetheless</em>), and defining/non-defining relative clauses.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 p-3.5 bg-white border border-slate-200 rounded-xl shadow-xs">
+              <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shrink-0 shadow-xs" style="background-color: ${theme.primary};">05</span>
+              <div>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">Exhibit Autonomous Portfolio Habits &amp; Constructive Self-Critique</h5>
+                <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
+                  Present an updated Learning Portfolio with recorded Module 3 vocabulary and documented TOEIC practice drills. Arrive ready to discuss personal strengths and 2 concrete action targets for Semester 2.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        `;
+        return;
+      }
+
+      if (!isAas && modNum === 3) {
+        bodyEl.innerHTML = `
+        <div class="space-y-6">
+          <!-- Overview Card -->
+          <div class="bg-gradient-to-r from-slate-50 to-blue-50/40 border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Continuous Assessment Criteria</span>
+              <span class="text-xs font-bold px-2.5 py-0.5 rounded-md text-white font-mono shadow-xs" style="background-color: ${theme.primary};">
+                Total: 20 Points • B2 CEFR Standard
+              </span>
+            </div>
+            <h3 class="text-base sm:text-lg font-bold text-slate-800">
+              Formative Evaluation 3 (FE3) Marking Criteria
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
+              Assessment is criteria-referenced against official CEFR B2 communication descriptors. Your mark reflects spoken fluency, pronunciation on technical vocabulary, grammatical accuracy, spontaneous Q&amp;A defense, equal partner collaboration, and documented portfolio study habits.
+            </p>
+          </div>
+
+          <!-- 6-Part Table -->
+          <div class="overflow-x-auto rounded-xl border border-slate-200 shadow-2xs">
+            <table class="w-full text-left border-collapse text-xs">
+              <thead>
+                <tr class="bg-slate-100/90 text-slate-700 border-b border-slate-200">
+                  <th class="p-3 font-bold w-1/4">Criterion</th>
+                  <th class="p-3 font-bold w-20 text-center">Points</th>
+                  <th class="p-3 font-bold">What the Teacher Evaluates (CEFR B2 Level)</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-100 bg-white">
+                <tr class="hover:bg-slate-50/60 transition-colors">
+                  <td class="p-3.5 align-top">
+                    <strong class="font-bold text-slate-800 block text-xs sm:text-sm">1. Fluency &amp; Spoken Delivery</strong>
+                    <span class="text-[10px] text-slate-500">Flow, transitions &amp; pacing</span>
+                  </td>
+                  <td class="p-3.5 align-top text-center">
+                    <span class="inline-block px-2.5 py-1 rounded-lg text-white font-mono font-bold text-xs" style="background-color: ${theme.primary};">4.0 pts</span>
+                  </td>
+                  <td class="p-3.5 align-top text-slate-600 leading-relaxed">
+                    Spontaneous communication without awkward hesitations. Natural logical connectors between arguments. <strong>Strictly no reading aloud from slides or written notes!</strong>
+                  </td>
+                </tr>
+                <tr class="hover:bg-slate-50/60 transition-colors">
+                  <td class="p-3.5 align-top">
+                    <strong class="font-bold text-slate-800 block text-xs sm:text-sm">2. Pronunciation &amp; Phonology</strong>
+                    <span class="text-[10px] text-slate-500">Intelligibility &amp; word stress</span>
+                  </td>
+                  <td class="p-3.5 align-top text-center">
+                    <span class="inline-block px-2.5 py-1 rounded-lg text-white font-mono font-bold text-xs" style="background-color: ${theme.primary};">3.0 pts</span>
+                  </td>
+                  <td class="p-3.5 align-top text-slate-600 leading-relaxed">
+                    Clear articulation and correct syllable stress on technical terms (<em>al-go-RI-thm, au-TO-no-mous, bi-o-ME-tric, CRY-o-ge-nic, scal-a-BI-li-ty</em>).
+                  </td>
+                </tr>
+                <tr class="hover:bg-slate-50/60 transition-colors">
+                  <td class="p-3.5 align-top">
+                    <strong class="font-bold text-slate-800 block text-xs sm:text-sm">3. Grammatical Precision &amp; Range</strong>
+                    <span class="text-[10px] text-slate-500">Passives, future forms &amp; clauses</span>
+                  </td>
+                  <td class="p-3.5 align-top text-center">
+                    <span class="inline-block px-2.5 py-1 rounded-lg text-white font-mono font-bold text-xs" style="background-color: ${theme.primary};">4.0 pts</span>
+                  </td>
+                  <td class="p-3.5 align-top text-slate-600 leading-relaxed">
+                    Accurate technical passive voice (<em>is analyzed by</em>), future predictive certainty (<em>is bound to succeed, is projected to</em>), hedging/concession (<em>admittedly... nonetheless</em>), and relative clauses.
+                  </td>
+                </tr>
+                <tr class="hover:bg-slate-50/60 transition-colors">
+                  <td class="p-3.5 align-top">
+                    <strong class="font-bold text-slate-800 block text-xs sm:text-sm">4. Thematic &amp; Technical Vocabulary</strong>
+                    <span class="text-[10px] text-slate-500">Activation of Module 3 terms</span>
+                  </td>
+                  <td class="p-3.5 align-top text-center">
+                    <span class="inline-block px-2.5 py-1 rounded-lg text-white font-mono font-bold text-xs" style="background-color: ${theme.primary};">4.0 pts</span>
+                  </td>
+                  <td class="p-3.5 align-top text-slate-600 leading-relaxed">
+                    Active, natural deployment of at least <strong>6 to 8 specialized technology &amp; AI terms</strong> from Sessions 1–4. Avoidance of repetitive generic vocabulary.
+                  </td>
+                </tr>
+                <tr class="hover:bg-slate-50/60 transition-colors">
+                  <td class="p-3.5 align-top">
+                    <strong class="font-bold text-slate-800 block text-xs sm:text-sm">5. Interaction, Teamwork &amp; Q&amp;A</strong>
+                    <span class="text-[10px] text-slate-500">50/50 balance &amp; defense</span>
+                  </td>
+                  <td class="p-3.5 align-top text-center">
+                    <span class="inline-block px-2.5 py-1 rounded-lg text-white font-mono font-bold text-xs" style="background-color: ${theme.primary};">2.5 pts</span>
+                  </td>
+                  <td class="p-3.5 align-top text-slate-600 leading-relaxed">
+                    Strict 50/50 talking balance (~6 min each). Natural handovers and mutual support. Spontaneous and articulate defense during examiner Q&amp;A without switching to French.
+                  </td>
+                </tr>
+                <tr class="hover:bg-slate-50/60 transition-colors">
+                  <td class="p-3.5 align-top">
+                    <strong class="font-bold text-slate-800 block text-xs sm:text-sm">6. Learning Portfolio &amp; Self-Critique</strong>
+                    <span class="text-[10px] text-slate-500">Vocabulary log &amp; TOEIC drills</span>
+                  </td>
+                  <td class="p-3.5 align-top text-center">
+                    <span class="inline-block px-2.5 py-1 rounded-lg text-white font-mono font-bold text-xs" style="background-color: ${theme.primary};">2.5 pts</span>
+                  </td>
+                  <td class="p-3.5 align-top text-slate-600 leading-relaxed">
+                    Complete, organized Vocabulary Log with recorded Module 3 definitions. Evidence of ongoing TOEIC practice drills and an honest, constructive self-evaluation of language progress.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        `;
+        return;
+      }
+
       if (!isAas && modNum === 2) {
         bodyEl.innerHTML = `
         <div class="space-y-6">
@@ -10131,7 +11784,7 @@
               { week: "W05", date: "Fri 06 Feb", title: "Session 2 — Future of travel", tag: "Teaching Session", isFe: false },
               { week: "W06", date: "Fri 13 Feb", title: "Session 3 — Debate and Critical Thinking", tag: "Teaching Session", isFe: false },
               { week: "W07", date: "Fri 20 Feb", title: "Session 4 — Biometrics and digital identity", tag: "Teaching Session • Prep FE3", isFe: false },
-              { week: "W08", date: "Fri 27 Feb", title: "FORMATIVE EVALUATION 3 (FE3) — Oral Tutorials", subtitle: "Fri 27 Feb • 30-min evaluation slots (Geri MIDDLETON / Penny WRIGHT)", tag: "Grade /20", isFe: true }
+              { week: "W08", date: "Fri 27 Feb", title: "FORMATIVE EVALUATION 3 (FE3) — Emerging Technology Presentation (Aviation / Non-Aviation)", subtitle: "Fri 27 Feb • 30-min evaluation slots (Geri MIDDLETON / Penny WRIGHT)", tag: "Grade /20", isFe: true }
             ]
           }
         ]
