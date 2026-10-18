@@ -5949,6 +5949,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
             </div>
 
+            ${renderActivityInstructions(opening, theme)}
+
             <!-- News Prompts -->
             <div class="p-4 bg-amber-50/70 border border-amber-200 rounded-xl space-y-2">
               <div class="flex items-center gap-2">
@@ -6003,6 +6005,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Structured Discussion</span>
             </div>
 
+            ${renderActivityInstructions(survey, theme)}
+
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-emerald-50/60 border border-emerald-200 rounded-xl space-y-1.5">
@@ -6048,6 +6052,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Grammar in Context</span>
             </div>
+
+            ${renderActivityInstructions(grammar, theme)}
 
             <!-- Rules Grid -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
@@ -6107,6 +6113,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Classroom Simulation</span>
             </div>
 
+            ${renderActivityInstructions(roleplay, theme)}
+
             <!-- Scenario Card -->
             <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
               <span class="text-[10px] font-black uppercase tracking-wider text-slate-500 block">Simulation Scenario Briefing</span>
@@ -6144,6 +6152,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Debrief &amp; Exit Ticket</span>
             </div>
+
+            ${renderActivityInstructions(closing, theme)}
 
             <div class="p-4 bg-emerald-50/60 border border-emerald-200 rounded-xl space-y-3">
               <div class="flex items-center justify-between">
@@ -8212,10 +8222,12 @@
       const content = sessionData.lessonContent || {};
       const hero = content.hero || {};
       const opening = content.openingSession || {};
-      const forces = (content.forcesPrinciples && content.forcesPrinciples.forces) || [];
+      const forcesPrinciples = content.forcesPrinciples || {};
+      const forces = forcesPrinciples.forces || [];
       const grammar = content.grammarClinic || {};
-      const axes = (content.axesGame && content.axesGame.axes) || [];
-      const roleplayCards = (content.axesGame && content.axesGame.roleplayCards) || [];
+      const axesGame = content.axesGame || {};
+      const axes = axesGame.axes || [];
+      const roleplayCards = axesGame.roleplayCards || [];
       const stall = content.stallScenario || {};
       const closing = content.closingReview || {};
 
@@ -8274,6 +8286,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
             </div>
 
+            ${renderActivityInstructions(opening, theme)}
+
             <!-- Aviation News Prompts -->
             <div class="p-4 bg-amber-50/70 border border-amber-200 rounded-xl space-y-2">
               <div class="flex items-center gap-2">
@@ -8321,12 +8335,14 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">10-30m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">Activity 2: The Four Forces in Equilibrium &amp; Maneuvers (20 mins)</h4>
-                  <p class="text-[11px] text-slate-500">Analyze the four forces acting on an aircraft and explain how pilots create unbalance to climb, descend, turn, and accelerate.</p>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${forcesPrinciples.title || 'Activity 2: The Four Forces in Equilibrium &amp; Maneuvers (20 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${forcesPrinciples.summary || 'Analyze the four forces acting on an aircraft and explain how pilots create unbalance to climb, descend, turn, and accelerate.'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Aerodynamic Equilibrium</span>
             </div>
+
+            ${renderActivityInstructions(forcesPrinciples, theme)}
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               ${forces.map(f => `
@@ -8358,6 +8374,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Conditionals &amp; Connectors</span>
             </div>
+
+            ${renderActivityInstructions(grammar, theme)}
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               ${(grammar.structures || []).map(s => `
@@ -8395,12 +8413,14 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">50-80m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">Activity 4: The 3 Axes &amp; Control Surfaces Game / Role-Play (30 mins)</h4>
-                  <p class="text-[11px] text-slate-500">Interactive kinesthetic 'Human Flight Simulator' game and pilot-to-flight-test-engineer debrief role-play.</p>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${axesGame.title || 'Activity 4: The 3 Axes &amp; Control Surfaces Game / Role-Play (30 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${axesGame.summary || 'Interactive kinesthetic \'Human Flight Simulator\' game and pilot-to-flight-test-engineer debrief role-play.'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Kinesthetic Simulation</span>
             </div>
+
+            ${renderActivityInstructions(axesGame, theme)}
 
             <!-- Axes Grid -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5">
@@ -8446,6 +8466,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Case Study</span>
             </div>
 
+            ${renderActivityInstructions(stall, theme)}
+
             <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2 text-xs text-slate-700 leading-relaxed">
               <strong class="text-slate-900 block text-xs uppercase tracking-wide">Flight Scenario Briefing:</strong>
               <p>${stall.scenarioText || ''}</p>
@@ -8460,14 +8482,43 @@
           </div>
 
           <!-- Activity 6: Wrap-up -->
-          <div class="p-4 bg-slate-100 rounded-xl border border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-700">
-            <div>
-              <h5 class="font-bold text-slate-900">${closing.title || 'Session Wrap-Up & Learning Log'}</h5>
-              <p class="text-[11px] text-slate-500">Record today's 18 aerodynamic terms in your learning portfolio and practice syllable stress before Session 2.</p>
+          <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">110-120m</span>
+                <div>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${closing.title || 'Activity 6: Vocabulary Review & Class Wrap-Up (10 mins)'}</h4>
+                  <p class="text-[11px] text-slate-500">${closing.summary || 'Consolidate the 18 key aerodynamic terms, verify pronunciation stress, and prepare for Session 2 Aircraft Anatomy.'}</p>
+                </div>
+              </div>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Closing Consolidation</span>
             </div>
-            <button onclick="switchModalTab('revision')" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold text-white shadow-xs hover:opacity-90 transition-all cursor-pointer shrink-0" style="background-color: ${theme.primary};">
-              <span>View Vocabulary Flashcards</span> &rarr;
-            </button>
+
+            ${renderActivityInstructions(closing, theme)}
+
+            ${(closing.checkpoints && closing.checkpoints.length) ? `
+              <div class="p-4 bg-emerald-50/60 border border-emerald-200 rounded-xl space-y-3">
+                <div class="flex items-center justify-between">
+                  <h5 class="text-xs sm:text-sm font-bold text-emerald-950">Aerodynamics Mastery Checkpoints</h5>
+                  <span class="text-[11px] font-bold text-emerald-800">Verification</span>
+                </div>
+                <div class="space-y-2 text-xs text-emerald-900">
+                  ${closing.checkpoints.map(cp => `
+                    <div class="p-2.5 bg-white border border-emerald-200 rounded-lg flex items-center gap-2">
+                      <span class="text-emerald-600 font-bold">&check;</span>
+                      <span>${cp}</span>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            ` : ''}
+
+            <div class="p-3 bg-slate-50 border border-slate-200 rounded-xl flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-700">
+              <span class="text-[11px] text-slate-600">Review all 18 aerodynamic vocabulary terms and practice pronunciation flashcards.</span>
+              <button onclick="switchModalTab('revision')" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold text-white shadow-xs hover:opacity-90 transition-all cursor-pointer shrink-0" style="background-color: ${theme.primary};">
+                <span>View Vocabulary Flashcards</span> &rarr;
+              </button>
+            </div>
           </div>
         </div>
       `;

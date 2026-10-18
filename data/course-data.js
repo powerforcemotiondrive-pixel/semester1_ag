@@ -3674,6 +3674,18 @@
             "badge": "Session Overview • Extreme Weather & Climate Resilience"
           },
           "openingSession": {
+            "modeBadges": [
+              "👥 Pair Recall",
+              "⏱️ 5 min pairs + 5 min plenary",
+              "🗣️ Meteorological Diagnostic"
+            ],
+            "instructions": [
+              "Step 1 (Headlines - 3 mins): In pairs, ask each other: \"What major extreme weather or climate hazard story caught your attention recently?\" Discuss one operational challenge it posed for transport hubs.",
+              "Step 2 (Diagnostic Recall - 4 mins): Take turns testing each other on the 4 foundational meteorological distinctions below without revealing the answers.",
+              "Step 3 (Verify & Calibrate - 3 mins): Click \"Reveal Answer\" to verify technical accuracy. Note down any terms needing consolidation (e.g., density altitude, convective cell)."
+            ],
+            "deliverable": "Accurately explain one meteorological distinction during the instructor spot-check using precise technical vocabulary.",
+            "teacherNotes": "Cold-call two student pairs to distinguish \"Supercell vs Convective Cell\" and \"Mitigation vs Adaptation\". Clarify how high temperatures thin air (density altitude) and affect aircraft takeoff weight. Board key terms.",
             "title": "Activity 1: Extreme Weather News & Meteorological Diagnostic (10 mins)",
             "summary": "Opening warm-up analyzing current severe atmospheric headlines and testing key meteorological distinctions.",
             "newsPrompts": [
@@ -3709,6 +3721,18 @@
             }
           },
           "survey": {
+            "modeBadges": [
+              "🔄 Speed Survey",
+              "⏱️ 4 rotations × 4 mins + 9 min debrief",
+              "🎯 CEFR B2 Persuasive Argumentation"
+            ],
+            "instructions": [
+              "Step 1 (Partner Pairing - 2 mins): Partner A takes Topics 1 & 2; Partner B takes Topics 3 & 4. Review the core dilemma, pro/con points, and debate signposts.",
+              "Step 2 (Rotational Interviews - 16 mins): Conduct 4-minute bilateral interviews per topic. One student acts as interviewer asking the prompt; the other defends a balanced policy solution using signposts (\"While it is true that...\", \"We must weigh... against...\").",
+              "Step 3 (Synthesis & Plenary - 7 mins): Reconnect with your primary partner. Agree on the single highest-priority infrastructure investment for aerodrome climate resilience."
+            ],
+            "deliverable": "Deliver a 60-second spoken recommendation justifying one resilience investment with at least two signpost phrases.",
+            "teacherNotes": "Ensure students rotate speaking and listening roles. Enforce the use of formal concession markers (\"Granted,... nevertheless\"). Monitor for misuse of economic and environmental lexis.",
             "title": "Activity 2: Severe Weather Incident Analysis: Speed Survey (25 mins)",
             "summary": "Conduct structured speed-dating interviews on 4 prominent extreme weather vulnerabilities. Practice evaluating operational risks, recommending physical interventions, and signposting arguments.",
             "signposts": [
@@ -3753,6 +3777,18 @@
             ]
           },
           "grammarClinic": {
+            "modeBadges": [
+              "📝 Morphology & Syntax Clinic",
+              "⏱️ 8 min rules + 12 min drill",
+              "🎯 TOEIC Part 5 Accuracy"
+            ],
+            "instructions": [
+              "Step 1 (Morphology Rules - 8 mins): Analyze the four derivational suffix families in the reference table. Identify sentence position cues (e.g., after determiners $\\rightarrow$ noun; between auxiliary and participle $\\rightarrow$ adverb).",
+              "Step 2 (Interactive Drills - 7 mins): Individually complete the 4 Part-5 style sentence gap-fills by identifying the grammatical category required before choosing the suffix.",
+              "Step 3 (Peer Check & Verify - 5 mins): Compare answers with your partner. Explain why the blank requires that exact word form before clicking \"Reveal Answer\"."
+            ],
+            "deliverable": "Achieve 100% accuracy on the 4 morphology drill sentences with written grammatical justifications.",
+            "teacherNotes": "Highlight the common TOEIC trap: confusing adjectives ending in \"-able/-ive\" with nouns in \"-tion/-ment\". Emphasize sentence position analysis over guesswork.",
             "title": "Activity 3: Language Clinic: Word Forms & Suffixes in Technical English (20 mins)",
             "summary": "Mastering derivational morphology to identify nouns, verbs, adjectives, and adverbs rapidly—essential for TOEIC Part 5 accuracy and professional writing.",
             "rules": [
@@ -3824,6 +3860,18 @@
             ]
           },
           "roleplay": {
+            "modeBadges": [
+              "👥 4-Member Crisis Simulation",
+              "⏱️ 10 min prep + 25 min taskforce + 10 min debrief",
+              "🏆 Formative Taskforce Decision"
+            ],
+            "instructions": [
+              "Step 1 (Role Allocation & Briefing - 10 mins): Form groups of 4. Assign one role card per member. Review your operational priority, constraints, and proposed action plan.",
+              "Step 2 (Taskforce Crisis Meeting - 25 mins): The Aerodrome Operations Director convenes the meeting. Work through the 3 escalating crisis injects (wind shear alert, ramp lightning risk, passenger terminal overcrowding). Negotiate a unified 60-minute Action Protocol.",
+              "Step 3 (Press & Passenger Briefing - 10 mins): Elect a spokesperson to deliver a 2-minute public announcement summarizing runway status, passenger welfare measures, and ramp safety orders."
+            ],
+            "deliverable": "A unified 4-point Emergency Action Protocol agreed upon by all 4 roles and delivered via a 2-minute oral briefing.",
+            "teacherNotes": "Circulate between groups to inject realistic complications (e.g., \"Lightning detected 3km away—ramp closure mandatory under OSHA/EASA rules\"). Evaluate active listening, polite negotiation, and crisis vocabulary.",
             "title": "Activity 4: Airport Severe Weather Crisis Taskforce (45 mins)",
             "scenario": "An intense convective supercell accompanied by severe wind shear warnings and 75mm/hour torrential rain is projected to cross the airfield within 60 minutes. Form a four-member Emergency Response Taskforce to balance flight safety, ground crew welfare, passenger communications, and infrastructure protection.",
             "roles": [
@@ -3846,6 +3894,18 @@
             ]
           },
           "closingReview": {
+            "modeBadges": [
+              "📋 Self-Assessment & FE2 Check",
+              "⏱️ 10 min pairs + 5 min Q&A",
+              "🎯 Oral Exam Readiness"
+            ],
+            "instructions": [
+              "Step 1 (FE2 Criteria Audit - 5 mins): Review the 3 formative checklist items. Verify how today's vocabulary and crisis simulation directly support your Session 5 evaluation.",
+              "Step 2 (Partner Reflection - 5 mins): Share 2 key technical takeaways and 1 pronunciation point you want to polish before next week.",
+              "Step 3 (Action Items - 5 mins): Log 5 new terms in your personal glossary and complete the online Module 2 Session 1 TOEIC practice questions."
+            ],
+            "deliverable": "Completed 3-item FE2 alignment checklist and 5 newly recorded technical entries in your vocabulary log.",
+            "teacherNotes": "Remind students of the FE2 oral format: paired debate/case study on climate resilience. Emphasize that professional B2 delivery requires fluent use of today's word forms and signposts.",
             "title": "Session 1 Wrap-Up & FE2 Preparation (15 mins)",
             "feChecklist": [
               "Record 5 new extreme weather and resilience terms in your personal Vocabulary Log.",
@@ -11828,6 +11888,18 @@
             "duration": "120 Minutes"
           },
           "openingSession": {
+            "modeBadges": [
+              "👥 Aerodynamic Spot-Check",
+              "⏱️ 5 min pairs + 5 min plenary",
+              "🎯 Flight Physics Diagnostic"
+            ],
+            "instructions": [
+              "Step 1 (Aviation Headlines - 3 mins): In pairs, discuss the opening news bullet on composite winglets and stall training advisories. Why are airlines prioritizing aerodynamics for both fuel economy and safety?",
+              "Step 2 (Aerodynamic Diagnostic - 4 mins): Test each other on the 4 foundational flight physics questions below without viewing the answers.",
+              "Step 3 (Verify & Clarify - 3 mins): Click \"Reveal Answer\" to check explanations. Clarify the essential difference between pitch attitude (horizon reference) and angle of attack (relative wind reference)."
+            ],
+            "deliverable": "Accurately explain the difference between Angle of Attack and Pitch Attitude during the instructor spot-check.",
+            "teacherNotes": "Use a model aircraft or your hands to demonstrate pitch attitude vs. relative wind and angle of attack. Ensure students realize AoA can exceed critical limit even in nose-low attitudes.",
             "title": "Activity 1: Aviation News & Principles Diagnostic (10 mins)",
             "summary": "Opening 10-minute warm-up examining current aerospace headlines and testing foundational aerodynamic concepts.",
             "newsPrompts": [
@@ -11863,6 +11935,18 @@
             }
           },
           "forcesPrinciples": {
+            "modeBadges": [
+              "⚖️ Force Balance Analysis",
+              "⏱️ 8 min study + 12 min paired explanation",
+              "🎯 Technical Equilibrium B2"
+            ],
+            "instructions": [
+              "Step 1 (Force Vector Review - 8 mins): Study the 4 forces interactive cards. Review the aerodynamic definitions, equilibrium equations, and how each vector acts on the aircraft center of gravity.",
+              "Step 2 (Maneuver Vector Challenge - 8 mins): In pairs, describe what happens to the vectors in 3 specific flight regimes: (1) Steady Climb, (2) 45-degree Coordinated Turn, (3) Clean Power-Off Glide.",
+              "Step 3 (Spoken Debrief - 4 mins): Volunteer or answer the teacher spot-check by explaining why total lift must increase during a banked turn to maintain altitude."
+            ],
+            "deliverable": "Accurately articulate the force balance equations for both level flight and a banked turn in technical B2 English.",
+            "teacherNotes": "Emphasize that lift acts perpendicular to the flight path / relative wind, while weight acts toward Earth's center. In a turn, vertical component of lift balances weight, requiring increased total lift (load factor / G-load).",
             "title": "Activity 2: The Four Forces in Equilibrium & Maneuvers (20 mins)",
             "summary": "Analyze the 4 forces acting on an aircraft and explain how pilots create unbalance to maneuver.",
             "forces": [
@@ -11897,6 +11981,18 @@
             ]
           },
           "grammarClinic": {
+            "modeBadges": [
+              "⚡ Cause & Effect Clinic",
+              "⏱️ 8 min grammar + 12 min drills",
+              "🎯 Technical Precision"
+            ],
+            "instructions": [
+              "Step 1 (Aerodynamic Conditionals - 8 mins): Review the grammatical formulas for scientific invariants (Zero Conditional: If + present $\\rightarrow$ present) and operational contingencies (First Conditional: If + present $\\rightarrow$ will + verb).",
+              "Step 2 (Interactive Sentence Drills - 7 mins): Complete the 4 fill-in-the-blank causal sentences, selecting the correct connector (unless, due to, results in, provided that).",
+              "Step 3 (Peer Verification - 5 mins): Compare answers with your partner. Say each sentence aloud with natural sentence stress on key aerodynamic terms before clicking \"Reveal Answer\"."
+            ],
+            "deliverable": "Flawlessly formulate 4 conditional aerodynamic statements with correct tense agreement and causal connectors.",
+            "teacherNotes": "Warn students against common errors: using \"will\" in the if-clause (\"If airspeed will drop...\" ❌) and confusing \"due to\" (requires noun) with \"because\" (requires clause).",
             "title": "Activity 3: Language Clinic: Cause & Effect in Flight Physics (20 mins)",
             "summary": "Mastering conditional structures and causal connectors to explain aerodynamic phenomena in plain B2 English.",
             "structures": [
@@ -11934,9 +12030,20 @@
             ]
           },
           "axesGame": {
+            "modeBadges": [
+              "🎮 Kinesthetic Simulator & Role-Play",
+              "⏱️ 12 min game + 18 min pilot debrief",
+              "🗣️ Dynamic Control Surfaces"
+            ],
+            "instructions": [
+              "Step 1 (Kinesthetic Simulator Game - 12 mins): Partner A acts as Pilot Flying giving control commands (\"Applying left rudder to counter crosswind\"); Partner B acts as Aircraft, demonstrating the physical motion with their hands and naming the axis and surface movement. Swap roles after 6 minutes.",
+              "Step 2 (Role-Play Briefing - 10 mins): Partner A takes Role Card 1 (Flight Test Captain); Partner B takes Role Card 2 (Avionics & Flight Control Engineer). Simulate a post-flight debrief analyzing flight control feedback, trimming issues, or crosswind control authority.",
+              "Step 3 (Class Demo - 8 mins): One pair demonstrates an uncoordinated flight scenario (skid/slip) and explains the corrective rudder-aileron input to the class."
+            ],
+            "deliverable": "A 2-minute fluent pilot-to-engineer debrief detailing control surface deflections and aircraft axis reactions.",
+            "teacherNotes": "This high-energy activity builds muscular and spatial memory. Ensure students use correct technical verbs: deflect, pivot, rotate, yaw, roll, pitch up/down. Check for proper preposition use (around the vertical axis).",
             "title": "Activity 4: The 3 Axes & Control Surfaces Game / Role-Play (30 mins)",
             "summary": "Interactive 'Human Flight Simulator' kinesthetic game and pilot-to-flight-test-engineer debrief role-play.",
-            "instructions": "Partner A acts as the Pilot flying giving control commands; Partner B acts as the Aircraft mirroring movements with their hands and explaining which control surface moved and around which axis.",
             "axes": [
               {
                 "axis": "Lateral Axis (Pitch)",
@@ -11972,6 +12079,18 @@
             ]
           },
           "stallScenario": {
+            "modeBadges": [
+              "🚨 Cockpit Emergency Case Study",
+              "⏱️ 8 min reading + 15 min crew response + 7 min debrief",
+              "🎯 Standard Operating Procedures"
+            ],
+            "instructions": [
+              "Step 1 (Scenario Analysis - 8 mins): Read the authentic flight deck incident transcript. Identify the dangerous aerodynamic misconception made by the First Officer (confusing altitude loss with pitch attitude).",
+              "Step 2 (Crew Recovery Protocol - 15 mins): In pairs, formulate the standardized EASA/FAA stall recovery memory items in exact sequence. Draft the Captain's mandatory callouts (\"STALL, I have control, pitching down\").",
+              "Step 3 (Cockpit Debrief Role-Play - 7 mins): Role-play the debrief between Captain and FO after leveling off at FL330. Address crew resource management (CRM), sensor iced-over pitot tubes, and aerodynamic AoA awareness."
+            ],
+            "deliverable": "A written 3-step Standard Operating Procedure stall recovery sequence followed by an authentic 2-minute cockpit CRM debrief.",
+            "teacherNotes": "Reference high-profile real-world accidents (AF447, Colgan 3407) where pulling back on the stick stalled the aircraft into the ground or ocean. Reinforce the aerodynamic invariant: The only way to recover from a stall is to reduce the angle of attack below the critical limit.",
             "title": "Activity 5: Operational Scenario: Stall Recovery & High-Altitude Turbulence (30 mins)",
             "summary": "Team case study analyzing stall warnings, stick-shaker activation, and crew coordination during atmospheric turbulence.",
             "scenarioText": "Cruising at FL370 in turbulent air near the equator, Flight 204 encounters severe mountain wave downdrafts. The airspeed drops rapidly toward the low-speed buffet boundary. Suddenly, the master warning chimes and the stick-shaker vibrates violently. The junior First Officer reflexively pulls back on the sidestick, increasing the angle of attack.",
@@ -11982,6 +12101,18 @@
             ]
           },
           "closingReview": {
+            "modeBadges": [
+              "🏁 Final Technical Wrap-Up",
+              "⏱️ 5 min audit + 5 min pronunciation",
+              "🎯 Aerodynamic Lexis Mastery"
+            ],
+            "instructions": [
+              "Step 1 (Core Checkpoints Audit - 5 mins): In pairs, run through the 3 technical checkpoints. Confirm you can explain the 4 forces, 3 axes, and stall recovery without hesitation.",
+              "Step 2 (Pronunciation Rapid Fire - 3 mins): Drill the tricky multisyllabic aerodynamic terms (ae-ro-dy-NAM-ic, al-ti-tude, e-qui-LIB-ri-um, hor-i-ZON-tal, sta-bi-LI-zer).",
+              "Step 3 (Self-Study Assignment - 2 mins): Review the 18 vocabulary flashcards in the Revision tab and complete the 5 TOEIC questions for Session 1 before Session 2."
+            ],
+            "deliverable": "Verbally confirm mastery of the 3 technical checkpoints and demonstrate accurate stress placement on key aerodynamic terms.",
+            "teacherNotes": "Quickly drill the class on word stress for \"aerodynamics\" (stress on NAM) and \"equilibrium\" (stress on LIB). Preview Session 2: Aircraft Anatomy (internal systems and external walkarounds).",
             "title": "Activity 6: Vocabulary Review & Class Wrap-Up (10 mins)",
             "summary": "Consolidate the 18 key aerodynamic terms, verify pronunciation stress, and prepare for Session 2 Aircraft Anatomy.",
             "checkpoints": [
