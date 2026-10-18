@@ -9443,124 +9443,124 @@
     "name": "Module 2",
     "title": "Aircraft and Aerodynamics",
     "ddrs": {
-      "title": "D\u00e9veloppement Durable & Responsabilit\u00e9 Soci\u00e9tale : Tags et D\u00e9finitions Officielles",
-      "summary": "Le R\u00e9f\u00e9rentiel National DD&RS de l'Enseignement Sup\u00e9rieur et de la Recherche (Label DD&RS) structure les engagements \u00e9cologiques, soci\u00e9taux et \u00e9thiques des \u00e9tablissements et des grands projets de transport selon 5 axes strat\u00e9giques et leurs domaines transversaux d'application.",
+      "title": "Développement Durable & Responsabilité Sociétale : Tags et Définitions Officielles",
+      "summary": "Le Référentiel National DD&RS de l'Enseignement Supérieur et de la Recherche (Label DD&RS) structure les engagements écologiques, sociétaux et éthiques des établissements et des grands projets de transport selon 5 axes stratégiques et leurs domaines transversaux d'application.",
       "pageUrl": "ddrs2.html",
       "axes": [
         {
           "badge": "Axe 1",
           "num": "1.",
-          "title": "Gouvernance et Strat\u00e9gie",
-          "desc": "Int\u00e9gration du d\u00e9veloppement durable dans la vision, le projet d'\u00e9tablissement et le pilotage d\u00e9cisionnel. Dialogue continu avec les parties prenantes (\u00e9tudiants, personnels, collectivit\u00e9s, partenaires), allocation de budgets d\u00e9di\u00e9s et suivi d'indicateurs d'impact mesurables."
+          "title": "Gouvernance et Stratégie",
+          "desc": "Intégration du développement durable dans la vision, le projet d'établissement et le pilotage décisionnel. Dialogue continu avec les parties prenantes (étudiants, personnels, collectivités, partenaires), allocation de budgets dédiés et suivi d'indicateurs d'impact mesurables."
         },
         {
           "badge": "Axe 2",
           "num": "2.",
-          "title": "Formation et P\u00e9dagogie",
-          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-\u00e9cologique (limites plan\u00e9taires, climat, biodiversit\u00e9). Int\u00e9gration transversale des comp\u00e9tences DD&RS (rapport Jouzel / socle MESR) pour pr\u00e9parer les ing\u00e9nieurs \u00e0 la prise de d\u00e9cision \u00e9thique et responsable."
+          "title": "Formation et Pédagogie",
+          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-écologique (limites planétaires, climat, biodiversité). Intégration transversale des compétences DD&RS (rapport Jouzel / socle MESR) pour préparer les ingénieurs à la prise de décision éthique et responsable."
         },
         {
           "badge": "Axe 3",
           "num": "3.",
           "title": "Recherche et Innovation",
-          "desc": "Orientation et valorisation de l'activit\u00e9 scientifique et technologique en r\u00e9ponse aux Objectifs de D\u00e9veloppement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, \u00e9co-conception et transfert de technologies vertes au service de la soci\u00e9t\u00e9."
+          "desc": "Orientation et valorisation de l'activité scientifique et technologique en réponse aux Objectifs de Développement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, éco-conception et transfert de technologies vertes au service de la société."
         },
         {
           "badge": "Axe 4",
           "num": "4.",
           "title": "Gestion Environnementale",
-          "desc": "Ma\u00eetrise et r\u00e9duction continue des impacts \u00e9cologiques directs : d\u00e9carbonation des mobilit\u00e9s pendulaires et professionnelles, efficacit\u00e9 et sobri\u00e9t\u00e9 \u00e9nerg\u00e9tique du patrimoine b\u00e2ti, gestion circulaire des d\u00e9chets, pr\u00e9servation de la biodiversit\u00e9 sur site et achats publics responsables."
+          "desc": "Maîtrise et réduction continue des impacts écologiques directs : décarbonation des mobilités pendulaires et professionnelles, efficacité et sobriété énergétique du patrimoine bâti, gestion circulaire des déchets, préservation de la biodiversité sur site et achats publics responsables."
         },
         {
           "badge": "Axe 5",
           "num": "5.",
           "title": "Politique Sociale et Inclusion",
-          "desc": "Engagement institutionnel pour la responsabilit\u00e9 soci\u00e9tale : \u00e9galit\u00e9 professionnelle femmes-hommes, inclusion et accessibilit\u00e9 des personnes en situation de handicap, \u00e9galit\u00e9 des chances, am\u00e9lioration de la qualit\u00e9 de vie et sant\u00e9 globale, et pr\u00e9vention de toute forme de discrimination."
+          "desc": "Engagement institutionnel pour la responsabilité sociétale : égalité professionnelle femmes-hommes, inclusion et accessibilité des personnes en situation de handicap, égalité des chances, amélioration de la qualité de vie et santé globale, et prévention de toute forme de discrimination."
         }
       ],
       "items": [
         {
           "badge": "Axe 1",
           "num": "1.",
-          "title": "Gouvernance et Strat\u00e9gie",
-          "desc": "Int\u00e9gration du d\u00e9veloppement durable dans la vision, le projet d'\u00e9tablissement et le pilotage d\u00e9cisionnel. Dialogue continu avec les parties prenantes (\u00e9tudiants, personnels, collectivit\u00e9s, partenaires), allocation de budgets d\u00e9di\u00e9s et suivi d'indicateurs d'impact mesurables.",
+          "title": "Gouvernance et Stratégie",
+          "desc": "Intégration du développement durable dans la vision, le projet d'établissement et le pilotage décisionnel. Dialogue continu avec les parties prenantes (étudiants, personnels, collectivités, partenaires), allocation de budgets dédiés et suivi d'indicateurs d'impact mesurables.",
           "isMuted": true
         },
         {
           "badge": "Axe 2",
           "num": "2.",
-          "title": "Formation et P\u00e9dagogie",
-          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-\u00e9cologique (limites plan\u00e9taires, climat, biodiversit\u00e9). Int\u00e9gration transversale des comp\u00e9tences DD&amp;RS (rapport Jouzel / socle MESR) pour pr\u00e9parer les ing\u00e9nieurs \u00e0 la prise de d\u00e9cision \u00e9thique et responsable.",
+          "title": "Formation et Pédagogie",
+          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-écologique (limites planétaires, climat, biodiversité). Intégration transversale des compétences DD&RS (rapport Jouzel / socle MESR) pour préparer les ingénieurs à la prise de décision éthique et responsable.",
           "isMuted": false
         },
         {
           "badge": "Axe 3",
           "num": "3.",
           "title": "Recherche et Innovation",
-          "desc": "Orientation et valorisation de l'activit\u00e9 scientifique et technologique en r\u00e9ponse aux Objectifs de D\u00e9veloppement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, \u00e9co-conception et transfert de technologies vertes au service de la soci\u00e9t\u00e9.",
+          "desc": "Orientation et valorisation de l'activité scientifique et technologique en réponse aux Objectifs de Développement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, éco-conception et transfert de technologies vertes au service de la société.",
           "isMuted": false
         },
         {
           "badge": "Axe 4",
           "num": "4.",
           "title": "Gestion Environnementale",
-          "desc": "Ma\u00eetrise et r\u00e9duction continue des impacts \u00e9cologiques directs : d\u00e9carbonation des mobilit\u00e9s pendulaires et professionnelles, efficacit\u00e9 et sobri\u00e9t\u00e9 \u00e9nerg\u00e9tique du patrimoine b\u00e2ti, gestion circulaire des d\u00e9chets, pr\u00e9servation de la biodiversit\u00e9 sur site et achats publics responsables.",
+          "desc": "Maîtrise et réduction continue des impacts écologiques directs : décarbonation des mobilités pendulaires et professionnelles, efficacité et sobriété énergétique du patrimoine bâti, gestion circulaire des déchets, préservation de la biodiversité sur site et achats publics responsables.",
           "isMuted": false
         },
         {
           "badge": "Axe 5",
           "num": "5.",
           "title": "Politique Sociale et Inclusion",
-          "desc": "Engagement institutionnel pour la responsabilit\u00e9 soci\u00e9tale : \u00e9galit\u00e9 professionnelle femmes-hommes, inclusion et accessibilit\u00e9 des personnes en situation de handicap, \u00e9galit\u00e9 des chances, am\u00e9lioration de la qualit\u00e9 de vie et sant\u00e9 globale, et pr\u00e9vention de toute forme de discrimination.",
+          "desc": "Engagement institutionnel pour la responsabilité sociétale : égalité professionnelle femmes-hommes, inclusion et accessibilité des personnes en situation de handicap, égalité des chances, amélioration de la qualité de vie et santé globale, et prévention de toute forme de discrimination.",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "6.",
-          "title": "Mobilit\u00e9 Durable &amp; Report Modal (Sustainable Mobility)",
-          "desc": "Strat\u00e9gie d'optimisation des transports articul\u00e9e autour de la hi\u00e9rarchie \u00ab \u00c9viter - Transf\u00e9rer - Am\u00e9liorer \u00bb (ASI). Promotion active du report modal vers le ferroviaire, les transports en commun et les mobilit\u00e9s douces face \u00e0 l'autosolisme et aux vols court-courriers.",
+          "title": "Mobilité Durable & Report Modal (Sustainable Mobility)",
+          "desc": "Stratégie d'optimisation des transports articulée autour de la hiérarchie « Éviter - Transférer - Améliorer » (ASI). Promotion active du report modal vers le ferroviaire, les transports en commun et les mobilités douces face à l'autosolisme et aux vols court-courriers.",
           "isMuted": true
         },
         {
           "badge": "Tag",
           "num": "7.",
-          "title": "Bilan d'\u00c9missions de GES (BEGES / Bilan Carbone)",
-          "desc": "Comptabilisation r\u00e9glementaire des gaz \u00e0 effet de serre (m\u00e9thode ADEME / ISO 14064) sur les trois p\u00e9rim\u00e8tres : Scope 1 (\u00e9missions directes), Scope 2 (\u00e9missions indirectes \u00e9nerg\u00e9tiques) et Scope 3 (\u00e9missions indirectes amont/aval : d\u00e9placements, achats, logistique et cycle de vie).",
+          "title": "Bilan d'Émissions de GES (BEGES / Bilan Carbone)",
+          "desc": "Comptabilisation réglementaire des gaz à effet de serre (méthode ADEME / ISO 14064) sur les trois périmètres : Scope 1 (émissions directes), Scope 2 (émissions indirectes énergétiques) et Scope 3 (émissions indirectes amont/aval : déplacements, achats, logistique et cycle de vie).",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "8.",
-          "title": "Sobri\u00e9t\u00e9 \u00c9nerg\u00e9tique &amp; Efficacit\u00e9",
-          "desc": "D\u00e9marche articulant la sobri\u00e9t\u00e9 (questionnement et r\u00e9duction des consommations par la modification des comportements et des usages collectifs) et l'efficacit\u00e9 (optimisation technique des rendements \u00e9nerg\u00e9tiques pour un m\u00eame niveau de service).",
+          "title": "Sobriété Énergétique & Efficacité",
+          "desc": "Démarche articulant la sobriété (questionnement et réduction des consommations par la modification des comportements et des usages collectifs) et l'efficacité (optimisation technique des rendements énergétiques pour un même niveau de service).",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "9.",
-          "title": "Pr\u00e9servation de la Biodiversit\u00e9 &amp; Z\u00e9ro Artificialisation Nette (ZAN)",
-          "desc": "Protection des \u00e9cosyst\u00e8mes et des continuit\u00e9s \u00e9cologiques (trames vertes et bleues). Application des exigences l\u00e9gales (loi Climat et R\u00e9silience) visant \u00e0 stopper la disparition nette d'espaces naturels et agricoles caus\u00e9e par les infrastructures et l'am\u00e9nagement.",
+          "title": "Préservation de la Biodiversité & Zéro Artificialisation Nette (ZAN)",
+          "desc": "Protection des écosystèmes et des continuités écologiques (trames vertes et bleues). Application des exigences légales (loi Climat et Résilience) visant à stopper la disparition nette d'espaces naturels et agricoles causée par les infrastructures et l'aménagement.",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "10.",
-          "title": "\u00c9quit\u00e9 Territoriale &amp; Accessibilit\u00e9 (Territorial Equity)",
-          "desc": "Principe de justice spatiale garantissant un acc\u00e8s universel, abordable et s\u00e9curis\u00e9 aux r\u00e9seaux de transport et aux services d'int\u00e9r\u00eat g\u00e9n\u00e9ral pour l'ensemble des territoires (urbains, p\u00e9riurbains et ruraux), luttant contre la fracture et la pr\u00e9carit\u00e9 mobilit\u00e9.",
+          "title": "Équité Territoriale & Accessibilité (Territorial Equity)",
+          "desc": "Principe de justice spatiale garantissant un accès universel, abordable et sécurisé aux réseaux de transport et aux services d'intérêt général pour l'ensemble des territoires (urbains, périurbains et ruraux), luttant contre la fracture et la précarité mobilité.",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "11.",
-          "title": "Achats Responsables &amp; Analyse du Cycle de Vie (ACV / LCA)",
-          "desc": "Int\u00e9gration syst\u00e9matique de crit\u00e8res environnementaux et sociaux dans la commande publique et priv\u00e9e. \u00c9valuation globale des impacts de chaque produit, infrastructure ou service de son extraction jusqu'\u00e0 son recyclage ou \u00e9limination finale.",
+          "title": "Achats Responsables & Analyse du Cycle de Vie (ACV / LCA)",
+          "desc": "Intégration systématique de critères environnementaux et sociaux dans la commande publique et privée. Évaluation globale des impacts de chaque produit, infrastructure ou service de son extraction jusqu'à son recyclage ou élimination finale.",
           "isMuted": false
         },
         {
           "badge": "Tag",
           "num": "12.",
-          "title": "Objectifs de D\u00e9veloppement Durable (ODD - Agenda 2030)",
-          "desc": "Cadre universel des Nations Unies comprenant 17 objectifs interd\u00e9pendants pour concilier prosp\u00e9rit\u00e9 \u00e9conomique, progr\u00e8s social et protection de la biosph\u00e8re. Les politiques de transport et d'ing\u00e9nierie s'articulent principalement autour des ODD 9, 11, 12 et 13.",
+          "title": "Objectifs de Développement Durable (ODD - Agenda 2030)",
+          "desc": "Cadre universel des Nations Unies comprenant 17 objectifs interdépendants pour concilier prospérité économique, progrès social et protection de la biosphère. Les politiques de transport et d'ingénierie s'articulent principalement autour des ODD 9, 11, 12 et 13.",
           "isMuted": false
         }
       ]
@@ -9569,416 +9569,438 @@
       "1": {
         "session": 1,
         "objectives": {
-          "title": "Session 1 - Extreme Weather Objectives",
-          "summary": "By the end of this session, you will be able to discuss extreme weather and climate impacts with confidence, use key vocabulary and grammar, and build the skills needed for your TOEIC test and Session 5 evaluation.",
+          "title": "Session 1 - Aerodynamics & Flight Principles Objectives",
+          "summary": "By the end of this session, you will be able to explain the four fundamental forces of flight, describe the three aircraft axes and their corresponding control surfaces, use cause-and-effect conditionals accurately, and communicate aerodynamic flight scenarios with professional B2 fluency.",
           "items": [
             {
               "num": 1,
-              "title": "Practice TOEIC Listening for Weather Bulletins",
-              "description": "Listen for key weather details, temperature extremes, and travel delay announcements typical of TOEIC Part 4."
+              "title": "Explain the Four Forces of Flight in Equilibrium",
+              "description": "Describe how lift, weight, thrust, and drag interact during straight-and-level flight, climbs, descents, and turns without technical jargon."
             },
             {
               "num": 2,
-              "title": "Master Extreme Weather & Climate Vocabulary",
-              "description": "Learn and use high-frequency terms for severe weather events (heatwaves, flash floods, droughts) and climate resilience."
+              "title": "Identify the Three Aircraft Axes and Primary Flight Controls",
+              "description": "Accurately name and describe the lateral (pitch / elevators), longitudinal (roll / ailerons), and vertical (yaw / rudder) axes."
             },
             {
               "num": 3,
-              "title": "Identify Word Forms & Suffixes in TOEIC Part 5",
-              "description": "Identify whether a blank needs a noun (-tion), adjective (-able), or adverb (-ly) when describing weather changes."
+              "title": "Deploy Cause & Effect Conditionals in Flight Physics",
+              "description": "Formulate zero and first conditionals with if, when, as, and unless to explain aerodynamic consequences and speed-drag dynamics."
             },
             {
               "num": 4,
-              "title": "Discuss Community & Infrastructure Resilience (DDRS)",
-              "description": "Explore how cities and transport networks can protect communities and infrastructure against extreme weather."
+              "title": "Engage in Control Surface & Flight Simulation Role-Plays",
+              "description": "Role-play flight control inputs and aerodynamic feedback between pilots and flight test engineers in interactive partner games."
             },
             {
               "num": 5,
-              "title": "Build Fluency for the Session 5 Evaluation",
-              "description": "Practice speaking about weather disruptions and safety measures using clear pronunciation, fluency, and accurate vocabulary."
+              "title": "Analyze Stall Dynamics and Operational Recovery Briefings",
+              "description": "Discuss angle of attack, boundary layer separation, stall warning systems, and recovery actions in clear, professional English."
             }
           ]
         },
         "lessonPlan": {
           "title": "Session 1 Lesson Plan (2 Hours)",
-          "summary": "A 2-hour session agenda combining conversational warm-ups, TOEIC test practice, vocabulary building, speaking activities, and evaluation preparation.",
+          "summary": "A 2-hour communicative session featuring an aviation news warm-up, flight forces diagnostic, cause-and-effect language clinic, the 3-axes kinesthetic simulation, an operational stall scenario, and vocabulary consolidation.",
           "items": [
             {
-              "time": "0-15",
-              "title": "Conversational Warm-Up: Weather Stories (15 mins)",
-              "description": "Students talk in pairs about the most extreme weather event they have ever witnessed and how they responded."
+              "time": "00-10",
+              "title": "Part 1: Aviation News & Course Entry Diagnostic (10 mins)",
+              "description": "Weekly aviation news warm-up and diagnostic spot-check connecting Module 1 aerodrome operations to airborne flight physics."
             },
             {
-              "time": "15-45",
-              "title": "TOEIC Strategy: Listening to Announcements (30 mins)",
-              "description": "Part 4 practice: listening to broadcast weather advisories, airport delay announcements, and emergency notices."
+              "time": "10-30",
+              "title": "Part 2: The Four Forces & Airflow Diagnostic (20 mins)",
+              "description": "Interactive lexis matching: connecting lift, thrust, weight, drag, airfoil camber, and angle of attack to real flight phases."
             },
             {
-              "time": "45-65",
-              "title": "Vocabulary Builder: Climate & Disruption (20 mins)",
-              "description": "High-frequency terms for weather phenomena (heatwave, flash flood, blizzard) and words formed with suffixes (-tion, -ment, -ly)."
+              "time": "30-50",
+              "title": "Part 3: Language Clinic: Cause & Effect Linkers (20 mins)",
+              "description": "Expressing aerodynamic consequences with conditionals and causal connectors (if, when, as a result of, leads to, unless)."
             },
             {
-              "time": "65-110",
-              "title": "Structured Discussion & Grammar (45 mins)",
-              "description": "Discussing community resilience and infrastructure protection using Word Forms (nouns, adjectives, adverbs) in context."
+              "time": "50-80",
+              "title": "Part 4: The 3 Axes & Control Surfaces Game / Role-Play (30 mins)",
+              "description": "Interactive kinesthetic 'Human Flight Simulator' game and pilot-to-flight-test-engineer debriefing role-play."
+            },
+            {
+              "time": "80-110",
+              "title": "Part 5: Aerodynamic Dilemma: High-Altitude Stall Recovery (30 mins)",
+              "description": "Operational case study: analyzing stall warnings, high-altitude buffeting, and crew communication during flight envelope excursions."
             },
             {
               "time": "110-120",
-              "title": "Debrief, Evaluation Prep & Wrap-Up (10 mins)",
-              "description": "Fluency feedback, pronunciation check for weather vocabulary, and self-evaluation logging."
+              "title": "Part 6: Vocabulary Review, Pronunciation & Class Wrap-Up (10 mins)",
+              "description": "Pronunciation stress clinic (aero-DY-na-mics, cam-ber, sta-bi-LI-zer, ai-ler-on) and personal learning log entry."
             }
           ]
         },
+        "lessonContent": {
+          "hero": {
+            "title": "Aerodynamics & Flight Principles",
+            "subtitle": "The Four Forces of Flight, The Three Axes & Aerodynamic Control Surfaces",
+            "image": "images/aas_m2card1.png",
+            "level": "CEFR B2",
+            "role": "Flight Crew / Flight Test Engineer & ATCO",
+            "duration": "120 Minutes"
+          },
+          "openingSession": {
+            "title": "Activity 1: Aviation News & Principles Diagnostic (10 mins)",
+            "summary": "Opening 10-minute warm-up examining current aerospace headlines and testing foundational aerodynamic concepts.",
+            "newsPrompts": [
+              "Airlines evaluate next-generation winglet retrofits to shave 3% off cruise fuel burn on transatlantic routes.",
+              "FAA issues updated training advisory for transport category pilots on high-altitude stall recognition and recovery.",
+              "Manufacturers test blended-wing-body prototypes offering up to 30% drag reduction for future commercial transports."
+            ],
+            "diagnostic": {
+              "title": "Aerodynamics Lexis Diagnostic Spot-Check",
+              "instructions": "Discuss each question in pairs before revealing the operational distinction:",
+              "questions": [
+                {
+                  "id": 1,
+                  "q": "What is the critical difference between 'Angle of Attack' (AoA) and 'Pitch Attitude'?",
+                  "answer": "Pitch attitude is the angle of the aircraft's longitudinal axis relative to the horizon. Angle of attack (AoA) is the angle between the wing's chord line and the oncoming relative airflow. An aircraft can be in a nose-down attitude and still exceed the critical AoA!"
+                },
+                {
+                  "id": 2,
+                  "q": "How does 'induced drag' differ from 'parasitic drag' as an aircraft accelerates?",
+                  "answer": "Parasitic drag (friction and form drag) increases with the square of airspeed. Induced drag is the penalty for generating lift and decreases as airspeed increases. Total drag is minimized at the best glide speed (L/D max)."
+                },
+                {
+                  "id": 3,
+                  "q": "Which primary flight control surface produces yaw, and around which axis does it rotate?",
+                  "answer": "The rudder produces yaw, rotating the aircraft around its vertical (normal) axis. It is controlled by the pilot's rudder pedals."
+                },
+                {
+                  "id": 4,
+                  "q": "What occurs aerodynamically when an airfoil exceeds its critical angle of attack?",
+                  "answer": "The smooth boundary layer airflow separates from the upper wing surface, creating turbulent eddies, causing an abrupt loss of lift and a severe increase in drag—a stall."
+                }
+              ]
+            }
+          },
+          "forcesPrinciples": {
+            "title": "Activity 2: The Four Forces in Equilibrium & Maneuvers (20 mins)",
+            "summary": "Analyze the 4 forces acting on an aircraft and explain how pilots create unbalance to maneuver.",
+            "forces": [
+              {
+                "name": "Lift (L)",
+                "badge": "Upward Aerodynamic Force",
+                "formula": "L = 1/2 · ρ · V² · S · CL",
+                "description": "Generated by the pressure differential created across the cambered airfoil (lower pressure above, higher pressure below) as air flows across the wing.",
+                "operationalNote": "In straight-and-level unaccelerated flight, Lift equals Weight (L = W). In a banked turn, lift must increase to maintain altitude."
+              },
+              {
+                "name": "Weight / Gravity (W)",
+                "badge": "Downward Force",
+                "formula": "W = mass · gravity",
+                "description": "The downward gravitational pull directed toward the center of the Earth, acting continuously through the aircraft Center of Gravity (CG).",
+                "operationalNote": "Weight varies continuously in flight as fuel is burned, changing the aircraft's stall speed, climb performance, and landing reference speeds (Vref)."
+              },
+              {
+                "name": "Thrust (T)",
+                "badge": "Forward Propulsive Force",
+                "formula": "T = mass flow · acceleration",
+                "description": "The forward force produced by the engines (turbofans, turboprops, or pistons) pushing air rearward to propel the aircraft through the air mass.",
+                "operationalNote": "In steady unaccelerated level flight, Thrust equals Drag (T = D). Excess thrust allows the aircraft to climb or accelerate."
+              },
+              {
+                "name": "Drag (D)",
+                "badge": "Rearward Retarding Force",
+                "formula": "D = D(parasitic) + D(induced)",
+                "description": "The natural aerodynamic resistance force acting parallel and opposite to the direction of motion through the atmosphere.",
+                "operationalNote": "Parasitic drag comes from skin friction, antennas, and form drag; induced drag is generated by high-pressure air curling around wingtips into vortices."
+              }
+            ]
+          },
+          "grammarClinic": {
+            "title": "Activity 3: Language Clinic: Cause & Effect in Flight Physics (20 mins)",
+            "summary": "Mastering conditional structures and causal connectors to explain aerodynamic phenomena in plain B2 English.",
+            "structures": [
+              {
+                "pattern": "Zero / First Conditionals (Physical Rules & Operational Truths)",
+                "examples": [
+                  "If the angle of attack exceeds 16 degrees, the wing stalls immediately.",
+                  "When airspeed drops below Vapp, the flight control computers will trigger an audio stall warning."
+                ]
+              },
+              {
+                "pattern": "Causal Verbs & Prepositional Connectors",
+                "examples": [
+                  "Deploying wingtip sharklets reduces induced drag, thereby improving cruise fuel burn.",
+                  "High density altitude results in longer takeoff ground rolls due to reduced air density."
+                ]
+              }
+            ],
+            "drills": [
+              {
+                "id": 1,
+                "prompt": "Combine using 'As a result of': The airflow separates from the upper wing surface. The aircraft loses lift rapidly.",
+                "answer": "As a result of airflow separating from the upper wing surface, the aircraft loses lift rapidly."
+              },
+              {
+                "id": 2,
+                "prompt": "Combine using 'Unless': The pilot increases engine thrust. The aircraft will not be able to maintain altitude in a steep turn.",
+                "answer": "Unless the pilot increases engine thrust, the aircraft will not be able to maintain altitude in a steep turn."
+              },
+              {
+                "id": 3,
+                "prompt": "Combine using 'leads to': Cold air is denser than warm air. Cold weather creates shorter takeoff distances.",
+                "answer": "Cold air is denser than warm air, which leads to shorter takeoff distances."
+              }
+            ]
+          },
+          "axesGame": {
+            "title": "Activity 4: The 3 Axes & Control Surfaces Game / Role-Play (30 mins)",
+            "summary": "Interactive 'Human Flight Simulator' kinesthetic game and pilot-to-flight-test-engineer debrief role-play.",
+            "instructions": "Partner A acts as the Pilot flying giving control commands; Partner B acts as the Aircraft mirroring movements with their hands and explaining which control surface moved and around which axis.",
+            "axes": [
+              {
+                "axis": "Lateral Axis (Pitch)",
+                "direction": "Runs from wingtip to wingtip through the Center of Gravity.",
+                "movement": "Pitch Up / Pitch Down (Nose rises or falls).",
+                "controlSurface": "Elevators (mounted on the horizontal stabilizer).",
+                "cockpitInput": "Pulling back or pushing forward on the control column / sidestick."
+              },
+              {
+                "axis": "Longitudinal Axis (Roll)",
+                "direction": "Runs from the aircraft nose cone to the tail cone.",
+                "movement": "Roll / Bank (Wings tilt left or right).",
+                "controlSurface": "Ailerons (on the trailing edge of outer wings) + Roll Spoilers.",
+                "cockpitInput": "Turning the control yoke or deflecting the sidestick laterally."
+              },
+              {
+                "axis": "Vertical / Normal Axis (Yaw)",
+                "direction": "Runs vertically through the top and bottom of the fuselage.",
+                "movement": "Yaw (Nose points left or right relative to flight path).",
+                "controlSurface": "Rudder (hinged to the vertical fin).",
+                "cockpitInput": "Pressing the left or right rudder pedals on the cockpit floor."
+              }
+            ],
+            "roleplayCards": [
+              {
+                "role": "Test Pilot",
+                "prompt": "You are testing control sensitivity on a flight test. Report unusual flutter on the ailerons when rolling into a 30-degree bank and explain the aerodynamic feeling to your engineer."
+              },
+              {
+                "role": "Flight Test Engineer",
+                "prompt": "Ask the pilot specific questions about airspeed, trim position, and elevator feedback during the maneuver. Propose a checklist verification."
+              }
+            ]
+          },
+          "stallScenario": {
+            "title": "Activity 5: Operational Scenario: Stall Recovery & High-Altitude Turbulence (30 mins)",
+            "summary": "Team case study analyzing stall warnings, stick-shaker activation, and crew coordination during atmospheric turbulence.",
+            "scenarioText": "Cruising at FL370 in turbulent air near the equator, Flight 204 encounters severe mountain wave downdrafts. The airspeed drops rapidly toward the low-speed buffet boundary. Suddenly, the master warning chimes and the stick-shaker vibrates violently. The junior First Officer reflexively pulls back on the sidestick, increasing the angle of attack.",
+            "tasks": [
+              "Identify the dangerous aerodynamic error made by the First Officer and explain why pulling back worsens a stall.",
+              "Formulate the exact standardized memory items the Captain must call out and execute to recover (Pitch down, level wings, advance thrust smoothly).",
+              "Role-play the cockpit debrief after recovering safe airspeed and stabilizing at FL330."
+            ]
+          },
+          "closingReview": {
+            "title": "Activity 6: Vocabulary Review & Class Wrap-Up (10 mins)",
+            "summary": "Consolidate the 18 key aerodynamic terms, verify pronunciation stress, and prepare for Session 2 Aircraft Anatomy.",
+            "checkpoints": [
+              "Can you explain the 4 forces of flight and how they balance in level cruise?",
+              "Can you name the 3 axes of rotation and their corresponding primary control surfaces without hesitating?",
+              "Can you use cause-and-effect linkers (leads to, results in, unless, if) when describing aerodynamic stall conditions?"
+            ]
+          }
+        },
         "revision": {
-          "title": "Session 1: Extreme Weather",
-          "summary": "Review the 18 key terms for Extreme Weather to build your fluency in discussions, professional reading, and TOEIC practice.",
+          "title": "Session 1 Revision - Aerodynamics & Flight Principles",
+          "summary": "Master the 18 core vocabulary terms for Aerodynamics & Flight Principles to discuss the four forces, aircraft axes, and flight control surfaces.",
           "terms": [
             {
               "num": "01",
-              "term": "Heatwave",
-              "definition": "An extended period of abnormally high atmospheric temperatures, often accompanied by high humidity, which stresses public health, strains power grids, and softens transport surfaces."
+              "term": "Lift",
+              "definition": "The aerodynamic upward force generated by the wings perpendicular to the relative airflow, overcoming weight."
             },
             {
               "num": "02",
-              "term": "Wildfire / Forest Fire",
-              "definition": "An uncontrolled inferno spreading rapidly through timberland and dry vegetation, exacerbated by heat and drought, generating toxic smoke plumes and regional transport closures."
+              "term": "Thrust",
+              "definition": "The forward force produced by the engines that overcomes aerodynamic drag."
             },
             {
               "num": "03",
-              "term": "Severe Drought",
-              "definition": "An extended deficit in regional precipitation leading to acute water scarcity, agricultural failure, reduced hydroelectric capacity, and parched, fire-prone soils."
+              "term": "Weight",
+              "definition": "The downward gravitational force pulling the aircraft toward the Earth, directly opposed by lift."
             },
             {
               "num": "04",
-              "term": "Desertification",
-              "definition": "The progressive degradation of fertile land into arid desert, driven by rising global temperatures, recurring droughts, deforestation, and unsustainable land use."
+              "term": "Drag",
+              "definition": "The retarding aerodynamic resistance force acting parallel and opposite to the direction of flight."
             },
             {
               "num": "05",
-              "term": "Flash Flood",
-              "definition": "A sudden, violent surge of floodwater triggered by torrential rainfall within a brief window, overwhelming drainage infrastructure and submerging transit corridors."
+              "term": "Angle of Attack (AoA)",
+              "definition": "The acute angle formed between the chord line of the airfoil and the oncoming relative wind."
             },
             {
               "num": "06",
-              "term": "Storm Surge",
-              "definition": "An abnormal, destructive rise in sea level propelled ashore by low-pressure cyclones or hurricane winds, inundating coastal settlements and low-lying airports."
+              "term": "Airfoil",
+              "definition": "A streamlined surface, such as an aircraft wing or rotor blade, designed to create lift as air flows over it."
             },
             {
               "num": "07",
-              "term": "Sea-Level Rise",
-              "definition": "The ongoing global increase in ocean elevation driven by thermal expansion of warming seawater and the accelerated melting of glaciers and ice sheets."
+              "term": "Camber",
+              "definition": "The convex asymmetry or curvature between the upper and lower surfaces of an airfoil."
             },
             {
               "num": "08",
-              "term": "Atmospheric River",
-              "definition": "A long, narrow corridor of concentrated water vapor in the atmosphere that channels tropical moisture, triggering historic deluge and widespread flooding upon landfall."
+              "term": "Boundary Layer",
+              "definition": "The thin layer of air immediately adjacent to the aircraft surface where viscous forces slow the airflow."
             },
             {
               "num": "09",
-              "term": "Supercell Thunderstorm",
-              "definition": "An organized, severe rotating storm system that produces destructive hail, tornadoes, and torrential rains, causing severe damage to infrastructure."
+              "term": "Stall",
+              "definition": "A sudden reduction in lift caused by exceeding the critical angle of attack, resulting in airflow separation from the upper wing."
             },
             {
               "num": "10",
-              "term": "Polar Vortex Disruption",
-              "definition": "A destabilization of high-altitude Arctic winds that allows freezing polar air masses to plunge southward, causing severe and paralyzing cold snaps."
+              "term": "Lateral Axis",
+              "definition": "The imaginary horizontal line running wingtip-to-wingtip around which the aircraft pitches up or down."
             },
             {
               "num": "11",
-              "term": "Early Warning System",
-              "definition": "Advanced meteorological networks and public communication alerts that notify communities of impending severe storms, floods, or extreme weather before disaster strikes."
+              "term": "Longitudinal Axis",
+              "definition": "The imaginary line running from nose to tail around which the aircraft rolls or banks."
             },
             {
               "num": "12",
-              "term": "Flood Defenses / Barriers",
-              "definition": "Engineered structures such as sea walls, levees, and storm surge gates designed to protect cities and transport corridors from rising floodwaters."
+              "term": "Vertical Axis",
+              "definition": "The imaginary vertical line running top-to-bottom through the center of gravity around which the aircraft yaws."
             },
             {
               "num": "13",
-              "term": "Greenhouse Effect",
-              "definition": "The planetary warming process where heat-trapping atmospheric gases (CO\u2082, methane, nitrous oxide) absorb outgoing infrared radiation instead of letting it escape to space."
+              "term": "Pitch",
+              "definition": "The rotational movement around the lateral axis causing the nose of the aircraft to move up or down."
             },
             {
               "num": "14",
-              "term": "Climate Tipping Point",
-              "definition": "A critical environmental threshold beyond which a minor change triggers self-reinforcing, irreversible shifts in Earth systems (e.g., permafrost thaw, ice-sheet collapse)."
+              "term": "Roll",
+              "definition": "The rotational movement around the longitudinal axis causing the aircraft wings to bank left or right."
             },
             {
               "num": "15",
-              "term": "Ocean Acidification",
-              "definition": "The ongoing decline in ocean pH caused by absorbing excess carbon dioxide from the atmosphere, disrupting marine food chains and coral reefs."
+              "term": "Yaw",
+              "definition": "The rotational movement around the vertical axis causing the aircraft nose to turn left or right."
             },
             {
               "num": "16",
-              "term": "Glacial Retreat",
-              "definition": "The accelerating worldwide loss of alpine glaciers and polar ice shelves due to sustained global warming, diminishing vital freshwater reservoirs."
+              "term": "Elevator",
+              "definition": "The movable horizontal flight control surface on the tail empennage used to control pitch."
             },
             {
               "num": "17",
-              "term": "Climate Resilience",
-              "definition": "The capacity of socio-economic systems, supply chains, and civil infrastructure to anticipate, absorb, recover from, and adapt to hazardous climate-related shocks."
+              "term": "Aileron",
+              "definition": "A hinged control surface on the trailing edge of each wing used to control roll and banking."
             },
             {
               "num": "18",
-              "term": "Decarbonization",
-              "definition": "The systematic elimination or progressive reduction of greenhouse gas emissions across aviation, transport, industry, and energy sectors to achieve net-zero targets."
+              "term": "Rudder",
+              "definition": "The primary vertical flight control surface hinged to the fin used to control yaw."
             }
           ]
         },
         "materials": {
           "videos": [
             {
-              "title": "Video 1: Extreme Weather & Climate Change Explained",
-              "watchUrl": "https://www.youtube.com/watch?v=wecbVJ4FOHY",
-              "tag": "Meteorology",
-              "videoId": "wecbVJ4FOHY",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/wecbVJ4FOHY",
-              "caption": "Focus: Explores the meteorological science behind intensifying global heatwaves, supercell storms, and shifting atmospheric circulation patterns."
+              "title": "Video 1: The Four Forces of Flight Simply Explained",
+              "watchUrl": "https://www.youtube.com/watch?v=5ltjFEei3AI",
+              "tag": "Flight Physics",
+              "videoId": "5ltjFEei3AI",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/5ltjFEei3AI",
+              "caption": "Focus: Watch how lift, weight, thrust, and drag achieve aerodynamic equilibrium in steady flight."
             },
             {
-              "title": "Video 2: Flash Floods & Sea-Level Rise: Engineering City Defenses",
-              "watchUrl": "https://www.youtube.com/watch?v=jdGjgmyFP9M",
-              "tag": "Resilience",
-              "videoId": "jdGjgmyFP9M",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/jdGjgmyFP9M",
-              "caption": "Focus: How coastal communities and urban planners construct storm surge barriers, sea walls, and drainage infrastructure against extreme deluge."
-            },
-            {
-              "title": "Video 3: B2 English: Reporting Severe Weather & Emergency Advisories",
-              "watchUrl": "https://www.youtube.com/watch?v=pEO9-iPZQWA",
-              "tag": "Language Practice",
-              "videoId": "pEO9-iPZQWA",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/pEO9-iPZQWA",
-              "caption": "Focus: Essential vocabulary, word forms, and phrasing used by international broadcasters to communicate emergency storm warnings and flood alerts."
+              "title": "Video 2: Aircraft Axes & Primary Flight Controls in Action",
+              "watchUrl": "https://www.youtube.com/watch?v=Yf_Jk2i9f-o",
+              "tag": "Aerodynamics",
+              "videoId": "Yf_Jk2i9f-o",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/Yf_Jk2i9f-o",
+              "caption": "Focus: Observe the 3 axes of rotation and how ailerons, elevators, and rudder manipulate airflow."
             }
           ],
-          "grammar": {
-            "title": "Word Endings & Sentence Positions",
-            "badge": "B1\u2013B2 Grammar Focus",
-            "patternTitle": "Common Endings & Word Types",
-            "formula": "Noun (-tion, -ment) \u2022 Adj (-able, -ive) \u2022 Adv (-ly) \u2022 Verb (-ate, -ify)",
-            "rulesTitle": "Core Rules",
-            "rules": [
-              "<strong style=\"color: #1e293b;\">1. Nouns (-tion, -ment, -ance, -ity):</strong> Names of things, people, or concepts. They come after <em>a</em>, <em>an</em>, <em>the</em> or adjectives (<span style=\"font-weight: 700; color: #49739a;\">prediction</span>, <span style=\"font-weight: 700; color: #49739a;\">severity</span>).",
-              "<strong style=\"color: #1e293b;\">2. Adjectives (-able, -ive, -al, -ous):</strong> Words that describe nouns. They come before nouns or after verbs like <em>be</em>, <em>remain</em>, <em>seem</em> (<span style=\"font-weight: 700; color: #49739a;\">predictable</span>, <span style=\"font-weight: 700; color: #49739a;\">severe</span>).",
-              "<strong style=\"color: #1e293b;\">3. Adverbs (-ly):</strong> Words that describe how or how much an action happens. They describe verbs, adjectives, or full sentences (<span style=\"font-weight: 600; color: #334155;\">significantly</span>, <span style=\"font-weight: 600; color: #334155;\">rapidly</span>).",
-              "<strong style=\"color: #1e293b;\">4. Verbs (-ate, -ify, -ize):</strong> Action words. They follow the subject (<span style=\"font-weight: 600; color: #334155;\">predict</span>, <span style=\"font-weight: 600; color: #334155;\">signify</span>)."
-            ],
-            "trap": "<strong>\u26a0\ufe0f TOEIC Trap Alert:</strong> If a sentence already has a complete verb (e.g., <em>dropped</em>), and the blank explains how it happened, you need an <strong>adverb ending in -ly</strong> (<em>dropped significantly</em>)!",
-            "examplesTitle": "Meteorology & Operations Examples",
-            "examples": [
-              "<em>\"Meteorologists must monitor barometric pressure <strong>continuously</strong> to ensure flight safety.\"</em>",
-              "<em>\"The sudden drop in altitude caused by wind shear was <strong>extremely</strong> dangerous.\"</em>"
-            ]
-          },
-          "toeic": {
-            "stem": "The frequency of Mediterranean heatwave events was ________ higher this decade than during any previously recorded ten-year span.",
-            "options": [
-              {
-                "letter": "A",
-                "text": "significant"
-              },
-              {
-                "letter": "B",
-                "text": "significantly"
-              },
-              {
-                "letter": "C",
-                "text": "significance"
-              },
-              {
-                "letter": "D",
-                "text": "significate"
-              }
-            ],
-            "correctLetter": "B",
-            "correctText": "significantly",
-            "analysis": "The comparative adjective \"higher\" must be modified by an adverb of degree (\"significantly higher\").",
-            "strategy": "Comparative adjectives (higher, faster, cheaper) are modified by adverbs (significantly, substantially, slightly), not adjectives."
-          },
-          "resources": [
-            {
-              "url": "https://public.wmo.int",
-              "tag": "01 \u2022 Global Weather Authority",
-              "name": "World Meteorological Organization",
-              "desc": "Global authority on atmospheric science, severe storm warnings, and climate metrics."
-            },
-            {
-              "url": "https://climate.copernicus.eu",
-              "tag": "02 \u2022 Satellite Earth Observation",
-              "name": "Copernicus Climate Change Service",
-              "desc": "European satellite data tracking global surface temperatures, wildfires, and extreme storms."
-            },
-            {
-              "url": "https://www.undrr.org",
-              "tag": "03 \u2022 Emergency Preparedness",
-              "name": "UN Disaster Risk Reduction (UNDRR)",
-              "desc": "Global frameworks, early warning initiatives, and community resilience guidelines."
-            },
-            {
-              "url": "https://www.eea.europa.eu",
-              "tag": "04 \u2022 European Climate Portal",
-              "name": "European Environment Agency Hazards",
-              "desc": "Interactive mapping of European heatwaves, drought risks, and flood vulnerability."
-            },
-            {
-              "url": "https://ourworldindata.org/natural-disasters",
-              "tag": "05 \u2022 Empirical Datasets",
-              "name": "Our World in Data: Natural Disasters",
-              "desc": "Long-term statistical datasets and interactive charts tracking extreme weather trends."
-            },
-            {
-              "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 \u2022 TOEIC Listening & Reading",
-              "name": "ETS Global TOEIC Preparation",
-              "desc": "Weather advisory and emergency briefing listening practice for technical professionals."
-            }
-          ],
-          "pageUrl": "session1/admat2.html",
           "articles": [
             {
-              "topic": "WMO Global Climate Observatory",
-              "sourceTag": "International Report",
-              "heading": "State of the Global Climate: Extreme Events &amp; Frequency",
-              "snippet": "World Meteorological Organization empirical analysis tracking rising global temperatures, severe heatwaves, and unprecedented precipitation extremes.",
-              "readTime": "Estimated read: 5-7 mins",
-              "url": "https://public.wmo.int"
+              "topic": "Aerodynamic Engineering",
+              "sourceTag": "Aviation Today",
+              "heading": "How Modern Wingtip Devices Cut Induced Drag and Fuel Burn",
+              "snippet": "Examine how blended winglets and sharklets manage high-pressure wingtip vortices, reducing induced drag by up to 5% on commercial flights.",
+              "url": "https://www.aviationtoday.com",
+              "readTime": "Estimated read: 4-5 mins"
             },
             {
-              "topic": "UNDRR Risk Reduction Briefing",
-              "sourceTag": "Economic Analysis",
-              "heading": "The Escalating Economic Toll of Extreme Weather Disasters",
-              "snippet": "Assessing financial losses, supply-chain disruptions, and critical infrastructure vulnerabilities caused by climate-driven severe weather shocks.",
-              "readTime": "Estimated read: 6-8 mins",
-              "url": "https://www.undrr.org"
+              "topic": "Flight Safety Operations",
+              "sourceTag": "Flight Safety Foundation",
+              "heading": "Understanding Aerodynamic Stalls in Commercial Jet Operations",
+              "snippet": "Review how angle of attack sensors, stick shakers, and fly-by-wire flight envelope protection prevent catastrophic boundary layer separation.",
+              "url": "https://flightsafety.org",
+              "readTime": "Estimated read: 5-6 mins"
             }
           ],
           "toeicQuestions": [
             {
-              "stem": "The frequency of Mediterranean heatwave events was ________ higher this decade than during any previously recorded ten-year span.",
+              "id": 1,
+              "question": "Because the aircraft was climbing rapidly, the pilots had to increase engine thrust in order to maintain ------- over the wings.",
               "options": [
-                {
-                  "letter": "A",
-                  "text": "significant"
-                },
-                {
-                  "letter": "B",
-                  "text": "significantly"
-                },
-                {
-                  "letter": "C",
-                  "text": "significance"
-                },
-                {
-                  "letter": "D",
-                  "text": "significate"
-                }
-              ],
-              "correctLetter": "B",
-              "correctText": "significantly",
-              "analysis": "The comparative adjective \"higher\" must be modified by an adverb of degree (\"significantly higher\").",
-              "strategy": "Comparative adjectives (higher, faster, cheaper) are modified by adverbs (significantly, substantially, slightly), not adjectives."
-            },
-            {
-              "stem": "Last July recorded the ________ monthly surface temperatures ever documented by the World Meteorological Organization.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "hot"
-                },
-                {
-                  "letter": "B",
-                  "text": "hotter"
-                },
-                {
-                  "letter": "C",
-                  "text": "hottest"
-                },
-                {
-                  "letter": "D",
-                  "text": "most hot"
-                }
-              ],
-              "correctLetter": "C",
-              "correctText": "hottest",
-              "analysis": "The definite article \"the\" combined with \"ever documented\" calls for the superlative form of a one-syllable adjective (\"hottest\").",
-              "strategy": "Formulas with \"the\" + [adjective] + \"ever\" require the superlative (-est or most + adj)."
-            },
-            {
-              "stem": "Last winter severe ice storms caused ________ more flight cancellations than the five-year seasonal average.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "far"
-                },
-                {
-                  "letter": "B",
-                  "text": "very"
-                },
-                {
-                  "letter": "C",
-                  "text": "too"
-                },
-                {
-                  "letter": "D",
-                  "text": "so"
-                }
+                "A) lift",
+                "B) lifted",
+                "C) lifting",
+                "D) lifter"
               ],
               "correctLetter": "A",
-              "correctText": "far",
-              "analysis": "\"Far\" acts as an intensifying adverb before comparative structures (\"far more\"). \"Very\" cannot directly modify a comparative adjective or \"more\".",
-              "strategy": "Never use \"very\" before comparatives (very taller / very more). Use \"much\", \"far\", \"way\", or \"significantly\"."
+              "explanation": "The direct object of 'maintain' requires the noun form 'lift'."
             },
             {
-              "stem": "Runway heating systems installed in northern airports are twice as ________ as conventional chemical de-icing trucks.",
+              "id": 2,
+              "question": "When turbulent air forces the angle of attack beyond its critical limit, a sudden loss of lift -------.",
               "options": [
-                {
-                  "letter": "A",
-                  "text": "efficiently"
-                },
-                {
-                  "letter": "B",
-                  "text": "efficient"
-                },
-                {
-                  "letter": "C",
-                  "text": "more efficient"
-                },
-                {
-                  "letter": "D",
-                  "text": "efficiency"
-                }
+                "A) occurs",
+                "B) occurred",
+                "C) occurring",
+                "D) to occur"
               ],
-              "correctLetter": "B",
-              "correctText": "efficient",
-              "analysis": "In the equative construction \"as [adjective] as\", the base adjective form is required because the linking verb \"are\" takes an adjective complement.",
-              "strategy": "Pattern: as + [BASE ADJECTIVE] + as. Do not put comparatives (-er, more) between \"as... as\"."
+              "correctLetter": "A",
+              "explanation": "This zero conditional stating a physical law takes the present simple 'occurs'."
             },
             {
-              "stem": "Airport climate vulnerability assessments must be conducted ________ in regions exposed to flash flooding.",
+              "id": 3,
+              "question": "The rudder, which controls movement around the vertical axis, is hinged ------- the trailing edge of the vertical stabilizer.",
               "options": [
-                {
-                  "letter": "A",
-                  "text": "frequent"
-                },
-                {
-                  "letter": "B",
-                  "text": "frequently"
-                },
-                {
-                  "letter": "C",
-                  "text": "frequency"
-                },
-                {
-                  "letter": "D",
-                  "text": "more frequent"
-                }
+                "A) to",
+                "B) at",
+                "C) with",
+                "D) by"
               ],
-              "correctLetter": "B",
-              "correctText": "frequently",
-              "analysis": "An adverb (\"frequently\") is required to modify the passive verb phrase \"must be conducted\".",
-              "strategy": "Identify the word modified: if modifying how an action is done (conducted), select the -ly adverb."
+              "correctLetter": "A",
+              "explanation": "The standard preposition collocated with 'hinged' is 'to' ('hinged to the vertical stabilizer')."
+            },
+            {
+              "id": 4,
+              "question": "------- the flight crew recognizes the onset of a stall early, recovery can be accomplished with minimal loss of altitude.",
+              "options": [
+                "A) Provided that",
+                "B) In spite of",
+                "C) Due to",
+                "D) Whereas"
+              ],
+              "correctLetter": "A",
+              "explanation": "'Provided that' introduces the positive condition under which recovery is possible."
+            },
+            {
+              "id": 5,
+              "question": "Airlines install lightweight composite winglets primarily to reduce induced drag, ------- overall fuel efficiency.",
+              "options": [
+                "A) improving",
+                "B) improves",
+                "C) improved",
+                "D) improve"
+              ],
+              "correctLetter": "A",
+              "explanation": "The participle clause 'improving overall fuel efficiency' expresses the ongoing result of the main clause action."
             }
           ]
         }
@@ -9986,415 +10008,463 @@
       "2": {
         "session": 2,
         "objectives": {
-          "title": "Session 2 - Sustainable Cities Objectives",
-          "summary": "By the end of this session, you will be able to discuss sustainable cities with confidence, use key vocabulary and grammar, and build the skills needed for your TOEIC test and Session 5 evaluation.",
+          "title": "Session 2 - Aircraft Anatomy: Structure & Systems Objectives",
+          "summary": "By the end of this session, you will be able to identify external and internal aircraft parts from diagrams, use spatial prepositions and functional descriptors accurately, conduct a simulated pre-flight exterior walkaround, and report mechanical defects in professional B2 English.",
           "items": [
             {
               "num": 1,
-              "title": "Practice TOEIC Reading Part 7: Urban Development & Green Policies",
-              "description": "Read city council proposals, public transit schedules, and environmental reports for key facts and data."
+              "title": "Identify External & Internal Aircraft Components",
+              "description": "Accurately name key airframe components including slats, flaps, ailerons, empennage, radome, landing gear, flight deck instruments, and cabin bulkheads."
             },
             {
               "num": 2,
-              "title": "Master Vocabulary for 15-Minute Cities, Clean Transit & Public Spaces",
-              "description": "Learn high-frequency terms for pedestrian zones, green corridors, cycling lanes, and renewable district heating."
+              "title": "Deploy Spatial Prepositions & Functional Descriptors",
+              "description": "Describe the physical position and operational purpose of parts using prepositions (along, behind, flush-mounted, adjacent to) and purpose clauses."
             },
             {
               "num": 3,
-              "title": "Apply Subject-Verb Agreement Rules with Complex Subject Phrases",
-              "description": "Ensure singular and plural verbs match when long descriptive phrases or collective nouns separate the subject from the verb."
+              "title": "Perform a 360-Degree Pre-Flight Walkaround Inspection Role-Play",
+              "description": "Simulate a captain or maintenance engineer inspecting the airframe, identifying foreign object damage (FOD), leaks, and structural dents."
             },
             {
               "num": 4,
-              "title": "Evaluate Green Neighborhoods & Public Transit Integration (DDRS)",
-              "description": "Assess how compact urban planning cuts vehicle pollution and creates healthier, fairer communities."
+              "title": "Communicate Cockpit & Cabin Defect Handovers",
+              "description": "Discuss whether unserviceable components violate the Minimum Equipment List (MEL) and agree on dispatch decisions."
             },
             {
               "num": 5,
-              "title": "Compare Two Cities and Present Urban Sustainability Features",
-              "description": "Present and compare urban sustainability initiatives using clear comparative structures and confident delivery."
+              "title": "Master High-Frequency Structural Pronunciation",
+              "description": "Correctly pronounce and stress specialized aeronautical components without hesitating during oral interactions."
             }
           ]
         },
         "lessonPlan": {
           "title": "Session 2 Lesson Plan (2 Hours)",
-          "summary": "A 2-hour session agenda combining conversational warm-ups, TOEIC test practice, vocabulary building, speaking activities, and evaluation preparation.",
+          "summary": "A 2-hour communicative session combining aviation news, an airframe diagram labeling challenge, spatial grammar clinic, a 360-degree walkaround inspection simulation, MEL defect handovers, and pronunciation drills.",
           "items": [
             {
-              "time": "0-15",
-              "title": "Conversational Warm-Up: My Ideal City (15 mins)",
-              "description": "Students discuss in pairs what features make a city enjoyable to live in (parks, cycle paths, public transport)."
+              "time": "00-10",
+              "title": "Part 1: Aviation News & Session 1 Aerodynamics Spot-Check (10 mins)",
+              "description": "Weekly aviation news warm-up and rapid spot-check on the 4 forces, angle of attack, and the 3 aircraft axes."
             },
             {
-              "time": "15-45",
-              "title": "TOEIC Strategy: Urban Notices & Bulletins (30 mins)",
-              "description": "Practice Part 7 reading comprehension with municipal updates, transit timetables, and environmental regulations."
+              "time": "10-35",
+              "title": "Part 2: Airframe Diagram Labeling Race (25 mins)",
+              "description": "Collaborative visual diagram race: identifying and labeling external control surfaces and internal cabin/cockpit zones."
             },
             {
-              "time": "45-65",
-              "title": "Vocabulary Builder: 15-Minute City Concepts (20 mins)",
-              "description": "Vocabulary for urban planning: pedestrian zone, green corridor, district heating, and low-emission zones."
+              "time": "35-55",
+              "title": "Part 3: Language Clinic: Spatial Prepositions & Functions (20 mins)",
+              "description": "Describing locations and mechanical functions using relative clauses and spatial prepositions (situated along, mounted to, designed to)."
             },
             {
-              "time": "65-110",
-              "title": "Structured Discussion & Grammar (45 mins)",
-              "description": "Compare two European cities using Subject-Verb Agreement with collective nouns and long noun phrases."
+              "time": "55-85",
+              "title": "Part 4: Pre-Flight Walkaround Inspection Role-Play (30 mins)",
+              "description": "Captain & Ramp Maintenance Engineer simulation: performing an exterior walkaround and reporting simulated defects."
+            },
+            {
+              "time": "85-110",
+              "title": "Part 5: Cockpit & Cabin Defect Handover Workshop (25 mins)",
+              "description": "Consulting the Minimum Equipment List (MEL) to negotiate dispatch decisions for inoperative cabin or airframe items."
             },
             {
               "time": "110-120",
-              "title": "Debrief, Evaluation Prep & Wrap-Up (10 mins)",
-              "description": "Class recap, key grammatical reminders for subject-verb agreement, and personal vocabulary logging."
+              "title": "Part 6: Vocabulary Review, Pronunciation & Class Wrap-Up (10 mins)",
+              "description": "Pronunciation stress clinic (fu-se-lage, emp-en-nage, hy-drau-lic, ra-dome) and vocabulary log consolidation."
             }
           ]
         },
+        "lessonContent": {
+          "hero": {
+            "title": "Aircraft Anatomy: Structure & Systems",
+            "subtitle": "External Airframe Components, Flight Deck Controls & Pre-Flight Walkaround Inspections",
+            "image": "images/aas_m2card2.png",
+            "level": "CEFR B2",
+            "role": "Flight Crew / Line Maintenance Engineer",
+            "duration": "120 Minutes"
+          },
+          "openingSession": {
+            "title": "Activity 1: Aviation News & Session 1 Spot-Check (10 mins)",
+            "summary": "Opening news debrief followed by a rapid-fire check on aerodynamics from Session 1.",
+            "newsPrompts": [
+              "Airbus introduces lightweight titanium-printed hydraulic brackets to save airframe weight on new deliveries.",
+              "EASA mandates ultrasonic inspections of horizontal stabilizer attach pins across regional turboprop fleets.",
+              "Airport ground handler in London penalized after conveyor belt loader strikes engine cowling during pushback."
+            ],
+            "diagnostic": {
+              "title": "Session 1 Knowledge Check",
+              "instructions": "Confirm these 4 points before beginning aircraft anatomy:",
+              "questions": [
+                {
+                  "id": 1,
+                  "q": "Which control surface controls roll, and where is it located on the wing?",
+                  "answer": "Ailerons control roll; they are hinged to the trailing edge of each outer wing and move in opposite directions."
+                },
+                {
+                  "id": 2,
+                  "q": "What is the difference between leading-edge slats and trailing-edge flaps?",
+                  "answer": "Slats extend from the leading edge to delay stall at high angles of attack; flaps extend from the trailing edge to increase both lift and drag at low speeds."
+                },
+                {
+                  "id": 3,
+                  "q": "Why are pitot tubes and static ports heated electrically?",
+                  "answer": "To prevent atmospheric ice accumulation from blocking dynamic and static pressure sensing, which would cause false airspeed indications."
+                },
+                {
+                  "id": 4,
+                  "q": "What is the radome, and what sensitive equipment does it protect?",
+                  "answer": "The radome is the fiberglass dielectric nose cone that shields the weather radar antenna from aerodynamic weather without blocking radar signals."
+                }
+              ]
+            }
+          },
+          "diagramLabeling": {
+            "title": "Activity 2: Airframe Anatomy Labeling Challenge (25 mins)",
+            "summary": "Identify and describe the key external parts and internal zones of a commercial transport aircraft.",
+            "externalParts": [
+              {
+                "id": "01",
+                "name": "Radome (Nose Cone)",
+                "location": "Forward fuselage tip",
+                "purpose": "Houses weather radar antenna; made of RF-transparent composites."
+              },
+              {
+                "id": "02",
+                "name": "Pitot-Static Probes",
+                "location": "Forward side fuselage",
+                "purpose": "Measures dynamic ram air and ambient atmospheric pressure for flight instruments."
+              },
+              {
+                "id": "03",
+                "name": "Fuselage",
+                "location": "Central main body",
+                "purpose": "Pressurized tube holding passengers, flight crew, and lower cargo holds."
+              },
+              {
+                "id": "04",
+                "name": "Leading-Edge Slats",
+                "location": "Front edge of wings",
+                "purpose": "Extend forward and down to increase camber and delay stall during takeoff and landing."
+              },
+              {
+                "id": "05",
+                "name": "Trailing-Edge Flaps",
+                "location": "Inboard rear wing",
+                "purpose": "Extend backward and down to increase wing surface area, generating high lift and drag."
+              },
+              {
+                "id": "06",
+                "name": "Ailerons",
+                "location": "Outboard rear wing",
+                "purpose": "Deflect differentially (one up, one down) to roll the aircraft into a bank."
+              },
+              {
+                "id": "07",
+                "name": "Roll Spoilers & Speed Brakes",
+                "location": "Upper wing surface",
+                "purpose": "Deploy upward to dump lift, assist roll, and act as airbrakes during descent and rollout."
+              },
+              {
+                "id": "08",
+                "name": "Engine Nacelle & Pylon",
+                "location": "Underwing pylons",
+                "purpose": "Aerodynamic housing and structural mounting holding the turbofan engine."
+              },
+              {
+                "id": "09",
+                "name": "Main & Nose Landing Gear",
+                "location": "Undercarriage bay",
+                "purpose": "Absorbs landing impact with oleo-pneumatic struts; retractable with steering nosewheel."
+              },
+              {
+                "id": "10",
+                "name": "Vertical Fin & Rudder",
+                "location": "Tail empennage",
+                "purpose": "Vertical fin provides directional stability; hinged rudder controls aerodynamic yaw."
+              },
+              {
+                "id": "11",
+                "name": "Horizontal Stabilizer & Elevators",
+                "location": "Tail empennage",
+                "purpose": "Stabilizer provides longitudinal stability; elevators control aircraft pitch."
+              },
+              {
+                "id": "12",
+                "name": "Winglets / Sharklets",
+                "location": "Outer wingtips",
+                "purpose": "Reduces induced drag by mitigating high-pressure wingtip vortex roll-up."
+              }
+            ]
+          },
+          "spatialClinic": {
+            "title": "Activity 3: Language Clinic: Spatial Prepositions & Functions (20 mins)",
+            "summary": "Formulating clear, professional technical descriptions of aircraft parts and their relative positions.",
+            "patterns": [
+              {
+                "title": "Precise Spatial Prepositions",
+                "examples": [
+                  "The auxiliary power unit (APU) is situated inside the tail cone, aft of the rear pressure bulkhead.",
+                  "The ram air turbine (RAT) is flush-mounted beneath the fuselage, ready to deploy into the relative airflow."
+                ]
+              },
+              {
+                "title": "Purposive Relative Clauses",
+                "examples": [
+                  "Flaps are high-lift devices which extend from the trailing edge, serving to decrease landing speeds.",
+                  "The oleo strut is an oleo-pneumatic shock absorber designed to cushion touchdown impacts."
+                ]
+              }
+            ]
+          },
+          "walkaroundRoleplay": {
+            "title": "Activity 4: Pre-Flight Exterior Walkaround Role-Play (30 mins)",
+            "summary": "Captain & Line Maintenance Engineer simulation: performing a 360-degree exterior walkaround and reporting simulated defects.",
+            "instructions": "Student A is the Captain conducting the pre-departure walkaround; Student B is the Ramp Line Engineer. Use the defect cards below to conduct the inspection and decide if the aircraft is airworthy.",
+            "defectCards": [
+              {
+                "item": "Card 1: Radome Inspection",
+                "defect": "Circular dent (8 cm diameter) with chipped paint on the lower right radome, likely caused by a bird strike on the previous flight.",
+                "pilotDialogue": "Ramp, Captain here. I'm looking at a noticeable dent on the lower starboard radome. Could you bring the gauge to check if it's within structural limits?",
+                "engineerDialogue": "Copy that, Captain. I'll inspect the honeycomb core with a tap hammer to confirm there's no delamination or radar interference."
+              },
+              {
+                "item": "Card 2: Left Main Landing Gear",
+                "defect": "Fresh reddish hydraulic fluid dripping slowly (approx. 5 drops per minute) from the brake line fitting onto the brake assembly.",
+                "pilotDialogue": "We have hydraulic seepage near the port main gear brake line. It looks fresh. Can we get maintenance to torque this fitting?",
+                "engineerDialogue": "I see it. That's Skydrol hydraulic fluid. Let me wipe it clean, verify the B-nut torque, and run a brake pressurization check."
+              },
+              {
+                "item": "Card 3: Right Winglet Static Discharger",
+                "defect": "One of the three trailing static discharger wicks on the right sharklet is broken off and missing.",
+                "pilotDialogue": "I noticed one static wick missing on the starboard winglet tip. Can we dispatch with two wicks installed?",
+                "engineerDialogue": "Let me check the Configuration Deviation List (CDL). Under CDL 23-60, flight is permitted with one wick missing provided lightning risk is low."
+              }
+            ]
+          },
+          "cockpitSystemsHandover": {
+            "title": "Activity 5: Cockpit & Cabin Defect Handover Workshop (25 mins)",
+            "summary": "Reviewing the Minimum Equipment List (MEL) to make safe dispatch decisions for inoperative equipment.",
+            "melItems": [
+              {
+                "item": "APU (Auxiliary Power Unit) Generator Inoperative",
+                "status": "Permitted for 10 days provided both engine generators and external GPU are fully operational."
+              },
+              {
+                "item": "Passenger Cabin Lavatory Door Latch Jammed",
+                "status": "Permitted provided the lavatory is locked out, placarded 'INOPERATIVE', and passenger-to-lavatory ratio is respected."
+              },
+              {
+                "item": "Weather Radar System Inoperative",
+                "status": "Strictly prohibited if convective storms or IMC (Instrument Meteorological Conditions) are forecast along route."
+              }
+            ]
+          },
+          "closingReview": {
+            "title": "Activity 6: Vocabulary Review & Pronunciation Wrap-Up (10 mins)",
+            "summary": "Drill tricky aeronautical component pronunciation and consolidate learning logs ahead of Session 3.",
+            "wordsToPronounce": [
+              "fu-se-lage",
+              "emp-en-nage",
+              "hy-drau-lic",
+              "ra-dome",
+              "sta-bi-li-zer",
+              "ail-er-on"
+            ]
+          }
+        },
         "revision": {
-          "title": "Session 2: Sustainable Cities",
-          "summary": "Review the 18 key terms for Sustainable Cities to build your fluency in discussions, professional reading, and TOEIC practice.",
+          "title": "Session 2 Revision - Aircraft Anatomy: Structure & Systems",
+          "summary": "Master the 18 key vocabulary terms for Aircraft Anatomy to describe airframe structures, control devices, and pre-flight inspections.",
           "terms": [
             {
               "num": "01",
-              "term": "15-Minute City",
-              "definition": "An urban design concept where daily necessities and transport are reachable within a 15-minute walk or cycle."
+              "term": "Fuselage",
+              "definition": "The central main body structure of an aircraft holding passengers, flight crew, and cargo."
             },
             {
               "num": "02",
-              "term": "Urban Heat Island (UHI)",
-              "definition": "Metropolitan areas that experience significantly higher temperatures than surrounding rural zones due to concrete absorption."
+              "term": "Empennage",
+              "definition": "The tail assembly of an aircraft, consisting of the vertical fin, rudder, horizontal stabilizer, and elevators."
             },
             {
               "num": "03",
-              "term": "Bus Rapid Transit (BRT)",
-              "definition": "A high-capacity bus network operating in dedicated right-of-way lanes with off-board fare collection and station platforms."
+              "term": "Leading Edge",
+              "definition": "The forwardmost edge of an airfoil or wing that first meets the relative airflow."
             },
             {
               "num": "04",
-              "term": "Congestion Pricing",
-              "definition": "A surcharge levied on vehicles entering central urban business zones during peak travel hours to reduce traffic."
+              "term": "Trailing Edge",
+              "definition": "The aft rear edge of an airfoil or wing where airflow passing over and under meets."
             },
             {
               "num": "05",
-              "term": "Permeable Pavement",
-              "definition": "Paving materials that allow stormwater to infiltrate into underlying soil, mitigating urban flash flooding."
+              "term": "Slats",
+              "definition": "Movable aerodynamic surfaces on the leading edge that extend to delay stall at high angles of attack."
             },
             {
               "num": "06",
-              "term": "Transit-Oriented Development (TOD)",
-              "definition": "Compact urban development clustering housing, commercial spaces, and civic services around rapid transit nodes."
+              "term": "Flaps",
+              "definition": "High-lift hinged surfaces on the trailing edge deployed to increase wing surface area and camber during takeoff and landing."
             },
             {
               "num": "07",
-              "term": "Last-Mile Logistics",
-              "definition": "The final stage of package delivery from a local distribution hub to the consumer doorstep, often carbon-intensive."
+              "term": "Spoiler (Speed Brake)",
+              "definition": "Hinged plates on the upper wing surface that deploy upward to spoil lift and slow the aircraft."
             },
             {
               "num": "08",
-              "term": "Low-Emission District",
-              "definition": "A city sector where combustion engines are prohibited in favor of zero-emission electric vehicles and active mobility."
+              "term": "Horizontal Stabilizer",
+              "definition": "The fixed or trimmable horizontal tail surface providing longitudinal stability in pitch."
             },
             {
               "num": "09",
-              "term": "Urban Metabolism",
-              "definition": "The flow of resources (energy, water, food) consumed by a city and the management of its waste, aiming for circular and sustainable urban systems."
+              "term": "Vertical Fin",
+              "definition": "The vertical tail surface that provides directional stability against yaw."
             },
             {
               "num": "10",
-              "term": "Micro-Consolidation Hub",
-              "definition": "Central neighborhood facilities where parcel freight is sorted and transferred onto electric cargo bikes for zero-emission last-mile delivery."
+              "term": "Landing Gear",
+              "definition": "The undercarriage assembly (wheels, oleo struts, brakes) supporting the aircraft on the ground."
             },
             {
               "num": "11",
-              "term": "Pedestrianization",
-              "definition": "Converting vehicular roadways into car-free public zones dedicated exclusively to pedestrians and community life."
+              "term": "Radome",
+              "definition": "The streamlined fiberglass nose cone protecting the weather radar antenna from aerodynamic weather."
             },
             {
               "num": "12",
-              "term": "Shared Mobility Scheme",
-              "definition": "Public access networks offering shared bicycles, electric mopeds, or car-sharing services on a flexible rental basis."
+              "term": "Pitot Tube",
+              "definition": "A forward-facing tube mounted on the airframe that measures dynamic ram air pressure for the airspeed indicator."
             },
             {
               "num": "13",
-              "term": "Green Infrastructure",
-              "definition": "Interconnected networks of green roofs, bioswales, and urban forests providing natural stormwater and cooling services."
+              "term": "Static Port",
+              "definition": "A flush-mounted opening on the fuselage side that senses ambient atmospheric pressure for altimeters and VSI."
             },
             {
               "num": "14",
-              "term": "Complete Streets",
-              "definition": "Streets designed to enable safe, attractive, and comfortable access for users of all ages, abilities, and modes."
+              "term": "Sidestick",
+              "definition": "The cockpit hand control stick mounted on the side console used by pilots to send electronic roll and pitch inputs."
             },
             {
               "num": "15",
-              "term": "District Cooling System",
-              "definition": "Centralized generation and distribution of chilled water through underground insulated pipes to cool neighborhood buildings."
+              "term": "Throttle Quadrant",
+              "definition": "The center cockpit console containing engine thrust levers and reverse thrust triggers."
             },
             {
               "num": "16",
-              "term": "Autonomous Shuttle",
-              "definition": "Self-driving electric multi-passenger pods operating on pre-mapped routes to connect transit hubs with neighborhoods."
+              "term": "Flight Deck",
+              "definition": "The cockpit area at the front of the aircraft where the flight crew operates the flight controls and instruments."
             },
             {
               "num": "17",
-              "term": "Active Travel Network",
-              "definition": "Protected, segregated cycling tracks and pedestrian greenways encouraging human-powered daily commuting."
+              "term": "Galley",
+              "definition": "The aircraft onboard kitchen area where flight attendants prepare passenger meals and store service carts."
             },
             {
               "num": "18",
-              "term": "Decarbonized Freight",
-              "definition": "Urban distribution networks powered entirely by electric vehicles, hydrogen fuel cells, and zero-emission logistics."
+              "term": "Bulkhead",
+              "definition": "A structural vertical dividing wall separating passenger cabins, galleys, or pressurized zones."
             }
           ]
         },
         "materials": {
           "videos": [
             {
-              "title": "Video 1: The 15-Minute City Explained",
-              "watchUrl": "https://www.youtube.com/watch?v=5dVcn8NjbwY",
-              "tag": "Urban Design",
-              "videoId": "5dVcn8NjbwY",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/5dVcn8NjbwY",
-              "caption": "Focus: Urbanist Carlos Moreno details how cities can be reorganized so daily services are reachable within a 15-minute walk or cycle."
+              "title": "Video 1: Pilot Walkaround: Exterior Pre-Flight Inspection on an A320",
+              "watchUrl": "https://www.youtube.com/watch?v=Uq_6b8l9Zpk",
+              "tag": "Line Operations",
+              "videoId": "Uq_6b8l9Zpk",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/Uq_6b8l9Zpk",
+              "caption": "Focus: Follow an airline captain as he checks pitot probes, gear struts, tires, and control surface free movement."
             },
             {
-              "title": "Video 2: How Cities Redesign Streets for People",
-              "watchUrl": "https://www.youtube.com/watch?v=RYuGWOjm26E",
-              "tag": "Active Mobility",
-              "videoId": "RYuGWOjm26E",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/RYuGWOjm26E",
-              "caption": "Focus: Urban case studies demonstrating pedestrianization, protected cycling corridors, and the transformation of car-centric roadways."
-            },
-            {
-              "title": "Video 3: Decarbonizing Urban Freight & Public Transit",
-              "watchUrl": "https://www.youtube.com/watch?v=9a4JSBX7_n0",
-              "tag": "Clean Logistics",
-              "videoId": "9a4JSBX7_n0",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/9a4JSBX7_n0",
-              "caption": "Focus: Examining electric bus rapid transit, cargo-bike micro-hubs, and zero-emission delivery zones in European metropolitan centers."
+              "title": "Video 2: How Flaps and Slats Really Work",
+              "watchUrl": "https://www.youtube.com/watch?v=V3zN_bWkRMo",
+              "tag": "Aircraft Systems",
+              "videoId": "V3zN_bWkRMo",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/V3zN_bWkRMo",
+              "caption": "Focus: Discover the mechanical linkages and aerodynamic principles of leading-edge slats and trailing-edge flaps."
             }
           ],
-          "grammar": {
-            "title": "Matching Subjects & Verbs",
-            "badge": "B1\u2013B2 Grammar Focus",
-            "patternTitle": "Basic Rule",
-            "formula": "Main Subject [Singular] + (words in between) + Verb with -s [Singular]",
-            "rulesTitle": "Core Rules",
-            "rules": [
-              "<strong style=\"color: #1e293b;\">1. Words in Between (The \"of / in / with\" trap):</strong> In <em>\"The integration of light-rail corridors\"</em>, the real subject is <span style=\"font-weight: 700; color: #49739a;\">integration</span> (singular), not <em>corridors</em> (plural). The verb must be singular (<em>reduces</em>).",
-              "<strong style=\"color: #1e293b;\">2. Companies &amp; Organizations:</strong> Words like <em>the committee</em>, <em>the transit board</em>, or <em>the municipality</em> count as one single unit and take a singular verb.",
-              "<strong style=\"color: #1e293b;\">3. Words like Each / Every / One of:</strong> Phrases like <em>Each of the hubs</em> or <em>One of the passengers</em> always take a <span style=\"font-weight: 600; color: #334155;\">singular verb</span>."
-            ],
-            "trap": "<strong>\u26a0\ufe0f TOEIC Trap Alert:</strong> The test often puts plural nouns right in front of the blank (e.g., <em>\"...corridors into hubs [ _____ ]\"</em>) to fool you. Ignore the words inside <em>\"of...\"</em> or <em>\"in...\"</em> and match the verb to the very first main noun!",
-            "examplesTitle": "Urban Mobility Examples",
-            "examples": [
-              "<em>\"The expansion of electric tramways into suburban districts <strong>has improved</strong> regional air quality.\"</em>",
-              "<em>\"Each of the city's shared mobility hubs <strong>provides</strong> free solar battery recharging.\"</em>"
-            ]
-          },
-          "toeic": {
-            "stem": "European metropolitan areas ________ invest heavily in protected cycling infrastructure report substantial reductions in transport emissions.",
-            "options": [
-              {
-                "letter": "A",
-                "text": "that"
-              },
-              {
-                "letter": "B",
-                "text": "whom"
-              },
-              {
-                "letter": "C",
-                "text": "where"
-              },
-              {
-                "letter": "D",
-                "text": "what"
-              }
-            ],
-            "correctLetter": "A",
-            "correctText": "that",
-            "analysis": "\"Areas\" is a non-human antecedent acting as the subject of the defining relative clause, requiring \"that\" (or \"which\").",
-            "strategy": "Use \"that\" or \"which\" for things and entities; \"who/whom\" for people; \"where\" for locations acting as adverbs (where + S + V)."
-          },
-          "resources": [
-            {
-              "url": "https://www.c40.org",
-              "tag": "01 \u2022 Urban Climate Leadership",
-              "name": "C40 Cities Network",
-              "desc": "Mayors leading the urban fight against climate change through progressive mobility and clean air zones."
-            },
-            {
-              "url": "https://www.uitp.org",
-              "tag": "02 \u2022 Public Transit Federation",
-              "name": "UITP Urban Transit Association",
-              "desc": "International Association of Public Transport global reports and transit benchmarks."
-            },
-            {
-              "url": "https://www.itdp.org",
-              "tag": "03 \u2022 Sustainable Transport Institute",
-              "name": "ITDP Sustainable Transport",
-              "desc": "Institute for Transportation and Development Policy BRT and cycling standards."
-            },
-            {
-              "url": "https://transport.ec.europa.eu",
-              "tag": "04 \u2022 EU Mobility Framework",
-              "name": "European Commission Urban Mobility",
-              "desc": "EU framework for Sustainable Urban Mobility Plans (SUMP) and city decarbonization."
-            },
-            {
-              "url": "https://ourworldindata.org/urbanization",
-              "tag": "05 \u2022 Urbanization Statistics",
-              "name": "Our World in Data: Urbanization",
-              "desc": "Global statistical datasets on metropolitan density, transit usage, and urban sprawl."
-            },
-            {
-              "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 \u2022 TOEIC Business Context",
-              "name": "ETS Global TOEIC Preparation",
-              "desc": "Vocabulary exercises for municipal tenders, urban planning proposals, and contracts."
-            }
-          ],
-          "pageUrl": "session2/admat2.html",
           "articles": [
             {
-              "topic": "C40 Cities Climate Leadership",
-              "sourceTag": "Urban Policy",
-              "heading": "Urban Mobility Transition Index",
-              "snippet": "Comparative scoring of 50 global cities on public transit share, air quality improvements, and active mobility network integration.",
-              "readTime": "Estimated read: 5-7 mins",
-              "url": "https://www.c40.org"
+              "topic": "Airframe Technology",
+              "sourceTag": "Aerospace Manufacturing",
+              "heading": "Composite Materials and Carbon Fiber in Modern Airframe Structures",
+              "snippet": "How carbon-fiber-reinforced polymers (CFRP) in the Boeing 787 and Airbus A350 eliminate corrosion and reduce empty weight.",
+              "url": "https://www.aero-mag.com",
+              "readTime": "Estimated read: 4-5 mins"
             },
             {
-              "topic": "OECD Urban Studies",
-              "sourceTag": "Economic Analysis",
-              "heading": "The Economics of Low-Emission Zones and Public Health",
-              "snippet": "Empirical assessment of health outcomes, commercial vitality, and emissions reductions following the implementation of urban clean-air zones.",
-              "readTime": "Estimated read: 5-7 mins",
-              "url": "https://www.oecd.org"
+              "topic": "Line Maintenance",
+              "sourceTag": "Aviation Maintenance Magazine",
+              "heading": "Conducting Visual Pre-Flight Inspections: Detecting Cracks, Dents, and Bird Strikes",
+              "snippet": "A practical guide for ramp engineers and line pilots identifying structural damage on engine cowlings, radomes, and leading edges.",
+              "url": "https://www.aviationmaintenancemag.com",
+              "readTime": "Estimated read: 5-6 mins"
             }
           ],
           "toeicQuestions": [
             {
-              "stem": "European metropolitan areas ________ invest heavily in protected cycling infrastructure report substantial reductions in transport emissions.",
+              "id": 1,
+              "question": "The line maintenance engineer conducted a thorough exterior walkaround to ensure that no hydraulic fluid was ------- from the landing gear.",
               "options": [
-                {
-                  "letter": "A",
-                  "text": "that"
-                },
-                {
-                  "letter": "B",
-                  "text": "whom"
-                },
-                {
-                  "letter": "C",
-                  "text": "where"
-                },
-                {
-                  "letter": "D",
-                  "text": "what"
-                }
+                "A) leaking",
+                "B) leaked",
+                "C) leaks",
+                "D) leak"
               ],
               "correctLetter": "A",
-              "correctText": "that",
-              "analysis": "\"Areas\" is a non-human antecedent acting as the subject of the defining relative clause, requiring \"that\" (or \"which\").",
-              "strategy": "Use \"that\" or \"which\" for things and entities; \"who/whom\" for people; \"where\" for locations acting as adverbs (where + S + V)."
+              "explanation": "The past continuous auxiliary 'was' requires the present participle 'leaking'."
             },
             {
-              "stem": "The Ultra Low Emission Zone, ________ was launched in central London in 2019, has dramatically reduced harmful nitrogen dioxide concentrations.",
+              "id": 2,
+              "question": "Slats are high-lift devices mounted ------- the leading edge of the wing to prevent boundary layer separation.",
               "options": [
-                {
-                  "letter": "A",
-                  "text": "that"
-                },
-                {
-                  "letter": "B",
-                  "text": "which"
-                },
-                {
-                  "letter": "C",
-                  "text": "who"
-                },
-                {
-                  "letter": "D",
-                  "text": "where"
-                }
-              ],
-              "correctLetter": "B",
-              "correctText": "which",
-              "analysis": "In non-defining relative clauses set off by commas, always use \"which\" for things, never \"that\".",
-              "strategy": "Golden TOEIC Rule: Never use \"that\" directly after a comma in relative clauses. Choose \"which\"."
-            },
-            {
-              "stem": "Urban transport planners are studying Zurich, ________ integrated public transport network achieves exceptional punctuality rates.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "whose"
-                },
-                {
-                  "letter": "B",
-                  "text": "who"
-                },
-                {
-                  "letter": "C",
-                  "text": "which"
-                },
-                {
-                  "letter": "D",
-                  "text": "where"
-                }
+                "A) along",
+                "B) through",
+                "C) between",
+                "D) into"
               ],
               "correctLetter": "A",
-              "correctText": "whose",
-              "analysis": "The possessive relative pronoun \"whose\" shows that the transit network belongs to Zurich (\"Zurich integrated public transport network\").",
-              "strategy": "\"Whose\" + noun indicates possession for both people and entities/cities."
+              "explanation": "The preposition 'along' accurately describes the continuous spatial positioning across the leading edge."
             },
             {
-              "stem": "The maintenance depot ________ battery-electric buses recharge overnight is supplied entirely by renewable solar energy.",
+              "id": 3,
+              "question": "According to the Minimum Equipment List, the aircraft is permitted to dispatch ------- the weather radar is fully functional.",
               "options": [
-                {
-                  "letter": "A",
-                  "text": "which"
-                },
-                {
-                  "letter": "B",
-                  "text": "where"
-                },
-                {
-                  "letter": "C",
-                  "text": "whose"
-                },
-                {
-                  "letter": "D",
-                  "text": "when"
-                }
-              ],
-              "correctLetter": "B",
-              "correctText": "where",
-              "analysis": "\"Where\" is the relative adverb of place modifying \"maintenance depot\", followed by a complete clause (\"buses recharge overnight\").",
-              "strategy": "When the location is followed by subject + verb doing an action in that location, use \"where\"."
-            },
-            {
-              "stem": "Municipal sustainability regulations mandate solar panels on all commercial facilities ________ total surface area exceeds six hundred square meters.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "whose"
-                },
-                {
-                  "letter": "B",
-                  "text": "which"
-                },
-                {
-                  "letter": "C",
-                  "text": "where"
-                },
-                {
-                  "letter": "D",
-                  "text": "that"
-                }
+                "A) provided that",
+                "B) in case of",
+                "C) despite",
+                "D) although"
               ],
               "correctLetter": "A",
-              "correctText": "whose",
-              "analysis": "\"Whose\" connects \"commercial facilities\" with their \"total surface area\" in a possessive relationship.",
-              "strategy": "Test for \"whose\": Can you say \"[antecedent] [noun]\"? (facilities surface area = whose surface area)."
+              "explanation": "'Provided that' introduces the essential condition required for dispatch."
+            },
+            {
+              "id": 4,
+              "question": "The radome is constructed from radio-frequency transparent composite materials in order to shield the antenna without ------- radar signals.",
+              "options": [
+                "A) blocking",
+                "B) blocked",
+                "C) block",
+                "D) blockage"
+              ],
+              "correctLetter": "A",
+              "explanation": "The preposition 'without' requires a gerund ('blocking')."
+            },
+            {
+              "id": 5,
+              "question": "Flight deck instruments provide real-time information regarding airspeed, altitude, and heading directly ------- the Primary Flight Display.",
+              "options": [
+                "A) on",
+                "B) at",
+                "C) of",
+                "D) by"
+              ],
+              "correctLetter": "A",
+              "explanation": "Visual information is displayed 'on' a screen or display ('on the Primary Flight Display')."
             }
           ]
         }
@@ -10402,415 +10472,404 @@
       "3": {
         "session": 3,
         "objectives": {
-          "title": "Session 3 - Building and Supporting Arguments Objectives",
-          "summary": "By the end of this session, you will be able to build and support persuasive arguments with confidence, use key vocabulary and grammar, and build the skills needed for your TOEIC test and Session 5 evaluation.",
+          "title": "Session 3 - Commercial Aircraft & Airlines Objectives",
+          "summary": "By the end of this session, you will be able to categorize commercial aircraft types, compare airliner specifications and manufacturer strategies (Airbus vs. Boeing), deploy comparative structures with confidence, and participate in an airline fleet selection committee simulation.",
           "items": [
             {
               "num": 1,
-              "title": "Practice Identifying Opinions, Facts & Tone in TOEIC Contexts",
-              "description": "Differentiate between objective facts and speaker opinions in workplace dialogues and business articles."
+              "title": "Classify Commercial Aircraft Families",
+              "description": "Differentiate between regional turboprops/jets, single-aisle narrowbodies, twin-aisle widebodies, and dedicated freighters."
             },
             {
               "num": 2,
-              "title": "Learn Useful Phrases to Agree, Disagree, and Express Counter-Arguments",
-              "description": "Master polite, professional phrases to support your position, acknowledge counter-arguments, and make concessions."
+              "title": "Compare Manufacturer Strategies & Fleet Data",
+              "description": "Analyze the global duopoly of Airbus and Boeing alongside emerging players (ATR, Embraer, COMAC) in range, capacity, and efficiency."
             },
             {
               "num": 3,
-              "title": "Master Gerunds & Infinitives (recommend doing vs. agree to do)",
-              "description": "Use verbs correctly followed by gerunds (-ing) or infinitives (to + verb) when proposing actions and solutions."
+              "title": "Deploy Comparative & Superlative Language for Data Evaluation",
+              "description": "Accurately use comparative modifiers (substantially more efficient, lowest fuel burn, twice as heavy) when presenting fleet statistics."
             },
             {
               "num": 4,
-              "title": "Structure Persuasive Arguments on Environmental Regulations (DDRS)",
-              "description": "Build logical points backed by data when debating carbon pricing, plastic bans, and corporate environmental rules."
+              "title": "Role-Play an Airline Fleet Selection Committee",
+              "description": "Simulate an executive airline fleet planning committee evaluating candidate aircraft orders for regional and long-haul routes."
             },
             {
               "num": 5,
-              "title": "Practice Defending Your Point of View in Group Discussions",
-              "description": "Defend your ideas calmly in group exchanges while actively listening and responding to different perspectives."
+              "title": "Examine Airline Operating Models (Legacy vs. Low-Cost)",
+              "description": "Contrast hub-and-spoke vs. point-to-point network economics, fleet commonality benefits, and turnaround speed."
             }
           ]
         },
         "lessonPlan": {
           "title": "Session 3 Lesson Plan (2 Hours)",
-          "summary": "A 2-hour session agenda combining conversational warm-ups, TOEIC test practice, vocabulary building, speaking activities, and evaluation preparation.",
+          "summary": "A 2-hour communicative session covering commercial aviation news, commercial aircraft classification, comparative data clinic, an airline fleet selection pitch simulation, and duopoly debates.",
           "items": [
             {
-              "time": "0-15",
-              "title": "Conversational Warm-Up: Quick Dilemmas (15 mins)",
-              "description": "In pairs, students quickly choose a side on simple dilemmas (e.g. banning cars in city centers) and give one strong reason."
+              "time": "00-10",
+              "title": "Part 1: Aviation News & Session 2 Anatomy Spot-Check (10 mins)",
+              "description": "Weekly aviation news review and rapid spot-check on aircraft parts and pre-flight walkaround defect reporting."
             },
             {
-              "time": "15-45",
-              "title": "TOEIC Strategy: Detecting Opinion & Inference (30 mins)",
-              "description": "Practice identifying the speaker or author's main point, tone, and implied meaning in TOEIC dialogues and articles."
+              "time": "10-35",
+              "title": "Part 2: Commercial Aircraft Classification Matrix (25 mins)",
+              "description": "Interactive fleet taxonomy: categorizing regional, narrowbody, widebody, and freighter models by range, capacity, and mission."
             },
             {
-              "time": "45-65",
-              "title": "Vocabulary Builder: Persuasive Language (20 mins)",
-              "description": "Useful phrases for agreeing politely, making concessions, challenging claims, and summarizing evidence."
+              "time": "35-55",
+              "title": "Part 3: Language Clinic: Comparative & Superlative Data (20 mins)",
+              "description": "Evaluating commercial figures with comparative structures (burns 20% less fuel, substantially greater range, the most cost-effective)."
             },
             {
-              "time": "65-110",
-              "title": "Structured Discussion & Grammar (45 mins)",
-              "description": "Mini-debates on environmental rules using Gerunds & Infinitives (advocate doing, decide to ban, prioritize investing)."
+              "time": "55-85",
+              "title": "Part 4: Airline Fleet Selection Committee Simulation (30 mins)",
+              "description": "Pairs act as airline fleet planning directors preparing an aircraft purchase pitch for new routes, defending their choice to classmates."
+            },
+            {
+              "time": "85-110",
+              "title": "Part 5: Global Manufacturer Debate & Industry Trends (25 mins)",
+              "description": "Class debate: Hub-and-spoke vs. point-to-point routes; Airbus vs. Boeing duopoly competition; the entry of COMAC C919."
             },
             {
               "time": "110-120",
-              "title": "Debrief, Evaluation Prep & Wrap-Up (10 mins)",
-              "description": "Peer feedback on debate conduct, review of clear argumentation techniques, and Session 5 speaking checklist."
+              "title": "Part 6: Vocabulary Review, Pronunciation & Class Wrap-Up (10 mins)",
+              "description": "Pronunciation drill on commercial terms (ma-nu-fac-tu-rer, tur-bo-prop, ca-pa-ci-ty, ef-fi-cien-cy) and learning log consolidation."
             }
           ]
         },
+        "lessonContent": {
+          "hero": {
+            "title": "Commercial Aircraft & Airlines",
+            "subtitle": "Commercial Aircraft Typology, Aerospace Manufacturers & Airline Business Models",
+            "image": "images/aas_m2card3.png",
+            "level": "CEFR B2",
+            "role": "Airline Fleet Planner / Network Strategy Director",
+            "duration": "120 Minutes"
+          },
+          "openingSession": {
+            "title": "Activity 1: Aviation News & Session 2 Spot-Check (10 mins)",
+            "summary": "News review followed by quick vocabulary check on aircraft parts.",
+            "newsPrompts": [
+              "Transatlantic low-cost airline announces order for 20 Airbus A321XLR aircraft to pioneer point-to-point routes from secondary airports.",
+              "Boeing delivers final 747 freighter, marking the end of 54 years of iconic quad-jet Queen of the Skies production.",
+              "Air France-KLM outlines €1 billion investment in ultra-efficient Airbus A350-900 fleet renewal to cut emissions by 25%."
+            ],
+            "diagnostic": {
+              "title": "Session 2 Anatomy Quick Check",
+              "instructions": "Answer these 4 rapid spot-check questions:",
+              "questions": [
+                {
+                  "id": 1,
+                  "q": "What is the primary difference between a narrowbody and a widebody aircraft?",
+                  "answer": "A narrowbody (single-aisle) aircraft has one passenger aisle with up to 6 seats abreast (e.g. A320, 737). A widebody (twin-aisle) aircraft has two passenger aisles with 7 to 10 seats abreast (e.g. A350, 787)."
+                },
+                {
+                  "id": 2,
+                  "q": "Why do low-cost carriers (LCCs) like Ryanair and Southwest operate only one single aircraft type?",
+                  "answer": "Fleet commonality dramatically lowers pilot training costs, simplifies maintenance spare parts inventory, and ensures any crew can operate any aircraft on short notice."
+                },
+                {
+                  "id": 3,
+                  "q": "Name two major regional aircraft manufacturers outside the Airbus-Boeing duopoly.",
+                  "answer": "ATR (Franco-Italian turboprop manufacturer) and Embraer (Brazilian regional jet manufacturer)."
+                },
+                {
+                  "id": 4,
+                  "q": "What is Maximum Takeoff Weight (MTOW), and why is it important for airline route planning?",
+                  "answer": "MTOW is the maximum permissible total weight (airframe, fuel, passengers, cargo) at brake release. It determines runway length requirements, landing fees, and maximum payload-range capability."
+                }
+              ]
+            }
+          },
+          "fleetTaxonomy": {
+            "title": "Activity 2: Commercial Aircraft Classification Matrix (25 mins)",
+            "summary": "Classify commercial passenger and freighter aircraft into operational categories.",
+            "categories": [
+              {
+                "category": "Regional Turboprops & Jets",
+                "examples": "ATR 72-600, Embraer E195-E2, Dash 8-Q400",
+                "capacity": "40 to 130 seats",
+                "range": "1,500 to 4,500 km",
+                "typicalMission": "Short-haul feeder flights connecting small regional communities to hub airports; short runways and rough airfields."
+              },
+              {
+                "category": "Single-Aisle Narrowbodies (The Workhorses)",
+                "examples": "Airbus A320neo, Boeing 737 MAX, Airbus A220-300",
+                "capacity": "140 to 240 seats",
+                "range": "5,500 to 8,700 km (A321XLR)",
+                "typicalMission": "High-frequency domestic and regional international routes; rapid 30-minute turnarounds; expanding into thin transatlantic flights."
+              },
+              {
+                "category": "Twin-Aisle Widebodies (Long-Haul Flagships)",
+                "examples": "Airbus A350-900/1000, Boeing 787-9/10, Boeing 777-300ER/777X",
+                "capacity": "250 to 450 seats",
+                "range": "13,000 to 18,000 km",
+                "typicalMission": "Intercontinental long-haul trunk routes connecting global megahubs; high belly cargo payload capacity; premium cabin configurations."
+              },
+              {
+                "category": "Dedicated Freighters & Cargo Conversions",
+                "examples": "Boeing 777F, Airbus A350F, Boeing 767-300BCF, A321P2F",
+                "capacity": "25 to 110 tonnes of cargo",
+                "range": "7,000 to 10,000 km",
+                "typicalMission": "Scheduled express freight networks (FedEx, DHL, UPS) operating main-deck containerized pallets with high-value time-sensitive goods."
+              }
+            ]
+          },
+          "comparativeClinic": {
+            "title": "Activity 3: Language Clinic: Comparative & Superlative Data (20 mins)",
+            "summary": "Mastering modifiers and comparative structures to evaluate aircraft efficiency and fleet statistics.",
+            "rules": [
+              {
+                "structure": "Quantified Comparatives",
+                "formula": "[Percentage / Factor] + more/less + [adjective/noun] + than",
+                "example": "The A350-900 burns 25% less fuel per seat than the previous-generation A340 quad-jet."
+              },
+              {
+                "structure": "Emphatic Modifiers",
+                "formula": "substantially / significantly / considerably + [comparative]",
+                "example": "Turboprops are considerably more economical than regional jets on stage lengths under 500 kilometers."
+              },
+              {
+                "structure": "Superlative Benchmarks",
+                "formula": "the + [superlative] + [noun] + in its class / on the market",
+                "example": "The A321XLR offers the longest range of any commercial single-aisle airliner on the market."
+              }
+            ]
+          },
+          "fleetCommitteeSimulation": {
+            "title": "Activity 4: Airline Fleet Selection Committee Simulation (30 mins)",
+            "summary": "Pairs represent airline management committees pitching an aircraft purchase order for a new route network.",
+            "instructions": "Select one of the two business cases below. Over 15 minutes, prepare a 3-minute executive pitch to the board of directors (your classmates) recommending Aircraft Option A or Option B.",
+            "cases": [
+              {
+                "title": "Case 1: Transatlantic Expansion for a European Airline",
+                "network": "New routes from secondary French and UK cities (Lyon, Manchester) to the US East Coast (Boston, Philadelphia).",
+                "optionA": "Airbus A321XLR (Narrowbody): 180 seats, lower total trip cost, easy to fill daily, limited belly cargo capacity.",
+                "optionB": "Boeing 787-8 (Widebody): 242 seats, higher passenger comfort, superior cargo revenue, higher landing fees and trip cost."
+              },
+              {
+                "title": "Case 2: Regional Feeder Fleet Modernization",
+                "network": "High-frequency domestic island-hopping and mountainous routes (Corsica, Pyrenees, Scottish Highlands).",
+                "optionA": "ATR 72-600 (Turboprop): 70 seats, lowest fuel burn, excellent short-field performance, slower cruise speed (510 km/h).",
+                "optionB": "Embraer E175 (Regional Jet): 76 seats, faster cruise speed (870 km/h), greater passenger appeal, higher fuel burn on short hops."
+              }
+            ]
+          },
+          "globalLandscapeDebate": {
+            "title": "Activity 5: Global Manufacturer Debate & Industry Trends (25 mins)",
+            "summary": "Class debate exploring the Airbus-Boeing duopoly, supply chain bottlenecks, and the emergence of COMAC.",
+            "topics": [
+              "Will point-to-point narrowbody flying permanently replace the traditional hub-and-spoke widebody model?",
+              "Can COMAC's C919 realistically challenge the Airbus A320 and Boeing 737 duopoly on international routes by 2035?",
+              "Should airlines prioritize fleet commonality with a single manufacturer or split orders to hedge delivery delays?"
+            ]
+          },
+          "closingReview": {
+            "title": "Activity 6: Vocabulary Review & Pronunciation Wrap-Up (10 mins)",
+            "summary": "Consolidate the 18 commercial fleet terms and prepare for Session 4 Aviation Accidents.",
+            "pronunciationFocus": [
+              "ma-nu-fac-tu-rer",
+              "du-op-o-ly",
+              "tur-bo-prop",
+              "ca-pa-ci-ty",
+              "con-fig-u-ra-tion"
+            ]
+          }
+        },
         "revision": {
-          "title": "Session 3: Building and Supporting Arguments",
-          "summary": "Review the 18 key terms for Building and Supporting Arguments to build your fluency in discussions, professional reading, and TOEIC practice.",
+          "title": "Session 3 Revision - Commercial Aircraft & Airlines",
+          "summary": "Master the 18 key vocabulary terms for Commercial Aircraft & Airlines to analyze aircraft categories, fleet planning, and airline business models.",
           "terms": [
             {
               "num": "01",
-              "term": "Argument Structure (Toulmin)",
-              "definition": "A practical method to build strong arguments by linking your main idea (claim) with facts (evidence) and logical explanation (reasoning)."
+              "term": "Narrowbody",
+              "definition": "A single-aisle commercial passenger aircraft typically seating 100 to 240 passengers with 6 seats abreast."
             },
             {
               "num": "02",
-              "term": "Cautious Language (Hedging)",
-              "definition": "Careful words and phrases (it seems, appears to be, arguably) used to soften statements and avoid sounding 100% certain."
+              "term": "Widebody",
+              "definition": "A twin-aisle commercial airliner seating 250 to 500+ passengers with 7 to 10 seats abreast used for long-haul routes."
             },
             {
               "num": "03",
-              "term": "Concession Phrases",
-              "definition": "Words that accept a valid point from the other side before presenting your own argument (although, while it is true that, despite)."
+              "term": "Regional Jet",
+              "definition": "A short-to-medium-range jet airliner typically seating 50 to 120 passengers on feeder routes."
             },
             {
               "num": "04",
-              "term": "Ad Hominem Fallacy",
-              "definition": "An unfair debate tactic that attacks a person's character instead of responding to their argument."
+              "term": "Turboprop",
+              "definition": "An aircraft powered by a gas turbine engine geared to a propeller, highly efficient at low altitudes and short distances."
             },
             {
               "num": "05",
-              "term": "Straw Man Fallacy",
-              "definition": "Exaggerating or distorting an opponent's argument to make it easy to attack and defeat."
+              "term": "Freighter",
+              "definition": "A dedicated cargo aircraft with main-deck loading doors designed exclusively to carry freight containers."
             },
             {
               "num": "06",
-              "term": "Empirical Evidence",
-              "definition": "Factual proof and data gathered through research, experiments, or real-world measurements to support an argument."
+              "term": "Range",
+              "definition": "The maximum distance an aircraft can fly between takeoff and landing without refueling."
             },
             {
               "num": "07",
-              "term": "Carbon Border Tax (CBAM)",
-              "definition": "A tariff on carbon-intensive imports designed to prevent carbon leakage and level the playing field for clean domestic industry."
+              "term": "Payload",
+              "definition": "The total revenue-generating load carrying capacity of an aircraft, including passengers, luggage, and commercial cargo."
             },
             {
               "num": "08",
-              "term": "Required Transport Shift",
-              "definition": "Government rules that require passengers or freight to use rail rather than planes or trucks on routes with good train service."
+              "term": "Maximum Takeoff Weight (MTOW)",
+              "definition": "The maximum certified total weight at which an aircraft is legally permitted to attempt takeoff."
             },
             {
               "num": "09",
-              "term": "Precautionary Principle",
-              "definition": "The doctrine that preventative action should be taken in the face of scientific uncertainty regarding environmental harm."
+              "term": "Fuel Burn",
+              "definition": "The rate of fuel consumed by an aircraft engine during flight, measured in kilograms or liters per hour."
             },
             {
               "num": "10",
-              "term": "Strong Counter-Argument",
-              "definition": "A counter-argument backed by solid facts that disproves an opposing point of view."
+              "term": "Manufacturer",
+              "definition": "An aerospace corporation, such as Airbus or Boeing, that designs, certifies, and builds aircraft."
             },
             {
               "num": "11",
-              "term": "Counter-Argument",
-              "definition": "An opposing viewpoint or objection presented to challenge, question, or disprove an original argumentative claim."
+              "term": "Duopoly",
+              "definition": "A market condition where two major suppliers dominate sales, notably Airbus and Boeing in large commercial jetliners."
             },
             {
               "num": "12",
-              "term": "Logical Fallacy",
-              "definition": "A flaw or error in reasoning that undermines the validity and soundness of an argumentative structure."
+              "term": "Flag Carrier",
+              "definition": "A legacy national airline registered in a specific country, often historically state-owned (e.g. Air France, British Airways)."
             },
             {
               "num": "13",
-              "term": "Slippery Slope",
-              "definition": "An unfounded assertion that an initial action will inevitably lead to an extreme, disastrous chain of consequences."
+              "term": "Low-Cost Carrier (LCC)",
+              "definition": "An airline operating with a lean cost structure, high fleet utilization, point-to-point routes, and unbundled fares (e.g. Ryanair, easyJet)."
             },
             {
               "num": "14",
-              "term": "Burden of Proof",
-              "definition": "The procedural obligation of the party proposing a controversial claim or policy change to substantiate it with evidence."
+              "term": "Hub-and-Spoke",
+              "definition": "A route network model where flights connect through a central hub airport to transfer passengers onto connecting flights."
             },
             {
               "num": "15",
-              "term": "Oxford Debate Format",
-              "definition": "A structured competitive debate protocol where teams argue for or against a specific motion under strict time limits."
+              "term": "Point-to-Point",
+              "definition": "A route network model providing direct nonstop flights between origin and destination without transiting a central hub."
             },
             {
               "num": "16",
-              "term": "Persuasive Language",
-              "definition": "Words, rhetorical phrasing, and stylistic devices chosen intentionally to influence, convince, and engage an audience."
+              "term": "Fleet Renewal",
+              "definition": "The phased retirement of aging aircraft and replacement with newer, quieter, and more fuel-efficient models."
             },
             {
               "num": "17",
-              "term": "Nuanced Qualifier",
-              "definition": "Terms (predominantly, under specific constraints, in most verified instances) establishing limits on a claim&#x27;s universality."
+              "term": "Cabin Configuration",
+              "definition": "The physical seating arrangement inside an airliner, divided into Economy, Premium, Business, and First Class."
             },
             {
               "num": "18",
-              "term": "Peer-Reviewed Consensus",
-              "definition": "The collective judgment of international scientific experts verified through rigorous independent methodological review."
+              "term": "Turnaround Efficiency",
+              "definition": "The capability of an airline and ground crew to deplane, service, refuel, and reboard an aircraft in minimum gate time."
             }
           ]
         },
         "materials": {
           "videos": [
             {
-              "title": "Video 1: How to Build a Strong Logical Argument",
-              "watchUrl": "https://www.youtube.com/watch?v=vNDYUlxNIAA",
-              "tag": "Rhetoric & Logic",
-              "videoId": "vNDYUlxNIAA",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/vNDYUlxNIAA",
-              "caption": "Focus: Analyzing the anatomy of a convincing argument: making clear claims, substantiating with empirical evidence, and avoiding fallacies."
+              "title": "Video 1: Airbus A350 vs. Boeing 787: The Battle for Long-Haul Efficiency",
+              "watchUrl": "https://www.youtube.com/watch?v=Jm_2d4RkL8w",
+              "tag": "Fleet Strategy",
+              "videoId": "Jm_2d4RkL8w",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/Jm_2d4RkL8w",
+              "caption": "Focus: Compare composite construction, range capability, and passenger comfort between the world's leading widebodies."
             },
             {
-              "title": "Video 2: How to Disagree Better in English",
-              "watchUrl": "https://www.youtube.com/watch?v=-VnmAg0t_l4",
-              "tag": "Debate Skills",
-              "videoId": "-VnmAg0t_l4",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/-VnmAg0t_l4",
-              "caption": "Focus: BBC Learning English guide to expressing opposing viewpoints politely, using concession markers, and framing counter-arguments constructively."
-            },
-            {
-              "title": "Video 3: Policy Debate: Short-Haul Flight Bans vs. High-Speed Rail",
-              "watchUrl": "https://www.youtube.com/watch?v=oJsRc3hqpH0",
-              "tag": "Transport Policy",
-              "videoId": "oJsRc3hqpH0",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/oJsRc3hqpH0",
-              "caption": "Focus: Examining arguments for and against statutory flight bans on routes served by high-speed rail, evaluating economic and ecological trade-offs."
+              "title": "Video 2: How Low-Cost Airlines Maximize Aircraft Utilization",
+              "watchUrl": "https://www.youtube.com/watch?v=kYv_zW8lQ3k",
+              "tag": "Aviation Economics",
+              "videoId": "kYv_zW8lQ3k",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/kYv_zW8lQ3k",
+              "caption": "Focus: Discover why single-fleet commonality and 25-minute turnarounds form the financial backbone of low-cost carriers."
             }
           ],
-          "grammar": {
-            "title": "Verbs with -ing vs. to + Verb",
-            "badge": "B1\u2013B2 Grammar Focus",
-            "patternTitle": "Two Different Verb Patterns",
-            "formula": "Verb + -ing | Verb + to + Verb | Preposition + -ing",
-            "rulesTitle": "Core Rules",
-            "rules": [
-              "<strong style=\"color: #1e293b;\">1. Verbs Followed by -ing:</strong> <span style=\"font-weight: 700; color: #49739a;\">recommend</span>, <span style=\"font-weight: 700; color: #49739a;\">suggest</span>, <span style=\"font-weight: 700; color: #49739a;\">consider</span>, <em>avoid</em>, <em>postpone</em>, <em>delay</em> (*recommend implementing*).",
-              "<strong style=\"color: #1e293b;\">2. Verbs Followed by to + Verb:</strong> <span style=\"font-weight: 700; color: #49739a;\">decide</span>, <span style=\"font-weight: 700; color: #49739a;\">agree</span>, <span style=\"font-weight: 700; color: #49739a;\">aim</span>, <em>plan</em>, <em>refuse</em>, <em>promise</em>, <em>hesitate</em> (*agree to invest*).",
-              "<strong style=\"color: #1e293b;\">3. Prepositions Always Take -ing:</strong> Any verb after a preposition (<em>in</em>, <em>by</em>, <em>for</em>, <em>committed to</em>, <em>look forward to</em>) must end in <span style=\"font-weight: 600; color: #334155;\">-ing</span>."
-            ],
-            "trap": "<strong>\u26a0\ufe0f TOEIC Trap Alert:</strong> In French, people say <em>\"recommander de faire\"</em> with an infinitive. But in English, you <strong>cannot</strong> say <em>\"recommend to do\"</em>. You must say <strong>recommend doing (-ing)</strong>!",
-            "examplesTitle": "Climate Policy & Debate Examples",
-            "examples": [
-              "<em>\"European transport ministers suggested <strong>capping</strong> carbon subsidies for short-haul flights.\"</em>",
-              "<em>\"The airline coalition agreed <strong>to invest</strong> in hydrogen fuel cell prototypes.\"</em>"
-            ]
-          },
-          "toeic": {
-            "stem": "High-speed rail ticket prices remain elevated; ________, passenger ridership has expanded steadily across major European corridors.",
-            "options": [
-              {
-                "letter": "A",
-                "text": "furthermore"
-              },
-              {
-                "letter": "B",
-                "text": "nevertheless"
-              },
-              {
-                "letter": "C",
-                "text": "therefore"
-              },
-              {
-                "letter": "D",
-                "text": "because"
-              }
-            ],
-            "correctLetter": "B",
-            "correctText": "nevertheless",
-            "analysis": "\"Nevertheless\" is a transition adverb of concession/contrast meaning \"in spite of that\", connecting two independent clauses separated by a semicolon.",
-            "strategy": "Look at the logical connection: elevated prices vs expanding ridership = contrast. \"Nevertheless\" expresses contrast; \"furthermore\" adds info; \"therefore\" shows cause/effect."
-          },
-          "resources": [
-            {
-              "url": "https://www.ipcc.ch",
-              "tag": "01 \u2022 Climate Policy Evidence",
-              "name": "IPCC Working Group III",
-              "desc": "Intergovernmental Panel on Climate Change reports on transport mitigation options and policy mechanisms."
-            },
-            {
-              "url": "https://www.transportenvironment.org",
-              "tag": "02 \u2022 Clean Transport Campaign",
-              "name": "Transport & Environment (T&E)",
-              "desc": "Europe's leading clean transport campaign group with detailed empirical reports on aviation and rail."
-            },
-            {
-              "url": "https://oxfordunion.org",
-              "tag": "03 \u2022 Formal Debate Protocols",
-              "name": "Oxford Union Debate Archives",
-              "desc": "World-renowned debate society archives demonstrating formal argumentation protocols and rebuttal tactics."
-            },
-            {
-              "url": "https://plato.stanford.edu",
-              "tag": "04 \u2022 Critical Thinking & Logic",
-              "name": "Stanford Encyclopedia of Philosophy",
-              "desc": "Peer-reviewed analysis of formal logic, argumentation schemes, fallacies, and cognitive biases."
-            },
-            {
-              "url": "https://ourworldindata.org",
-              "tag": "05 \u2022 Global Policy Datasets",
-              "name": "Our World in Data: Policy & Regulation",
-              "desc": "Long-term data tracking global environmental regulations, public sentiment, and statutory mandates."
-            },
-            {
-              "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 \u2022 TOEIC Argument Comprehension",
-              "name": "ETS Global TOEIC Preparation",
-              "desc": "Listening comprehension strategies for identifying disagreement and speaker attitude in business discussions."
-            }
-          ],
-          "pageUrl": "session3/admat2.html",
           "articles": [
             {
-              "topic": "Oxford Review of Economic Policy",
-              "sourceTag": "Policy Analysis",
-              "heading": "The Rhetoric of Climate Policy Negotiations",
-              "snippet": "Analyzing discourse markers, persuasive framing, and consensus-building strategies in international climate accords and environmental diplomacy.",
-              "readTime": "Estimated read: 5-7 mins",
-              "url": "https://academic.oup.com"
+              "topic": "Commercial Fleet Trends",
+              "sourceTag": "FlightGlobal",
+              "heading": "The Rise of the Long-Range Narrowbody: How the A321XLR is Reshaping Aviation",
+              "snippet": "Examine how single-aisle airliners are replacing widebodies on long-haul secondary routes across the Atlantic.",
+              "url": "https://www.flightglobal.com",
+              "readTime": "Estimated read: 4-5 mins"
             },
             {
-              "topic": "Centre for European Policy Studies (CEPS)",
-              "sourceTag": "Economic Briefing",
-              "heading": "Economic Trade-Offs in Transport Carbon Taxation",
-              "snippet": "A balanced policy briefing modeling passenger demand elasticity, modal shift potential, and economic impacts under escalating carbon levies.",
-              "readTime": "Estimated read: 5-7 mins",
-              "url": "https://www.ceps.eu"
+              "topic": "Aerospace Competition",
+              "sourceTag": "Aviation Week",
+              "heading": "Airbus, Boeing, and the Global Duopoly: Supply Chain Realities and Emerging Rivals",
+              "snippet": "An analysis of global order backlogs, titanium shortages, and COMAC's efforts to scale C919 production in Asia.",
+              "url": "https://aviationweek.com",
+              "readTime": "Estimated read: 5-6 mins"
             }
           ],
           "toeicQuestions": [
             {
-              "stem": "High-speed rail ticket prices remain elevated; ________, passenger ridership has expanded steadily across major European corridors.",
+              "id": 1,
+              "question": "The newly ordered twin-engine widebodies are substantially ------- fuel-efficient than the quad-jet airliners they will replace.",
               "options": [
-                {
-                  "letter": "A",
-                  "text": "furthermore"
-                },
-                {
-                  "letter": "B",
-                  "text": "nevertheless"
-                },
-                {
-                  "letter": "C",
-                  "text": "therefore"
-                },
-                {
-                  "letter": "D",
-                  "text": "because"
-                }
-              ],
-              "correctLetter": "B",
-              "correctText": "nevertheless",
-              "analysis": "\"Nevertheless\" is a transition adverb of concession/contrast meaning \"in spite of that\", connecting two independent clauses separated by a semicolon.",
-              "strategy": "Look at the logical connection: elevated prices vs expanding ridership = contrast. \"Nevertheless\" expresses contrast; \"furthermore\" adds info; \"therefore\" shows cause/effect."
-            },
-            {
-              "stem": "Aviation carbon taxes were raised significantly; ________, airline executives accelerated investments into fuel-efficient aircraft fleets.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "consequently"
-                },
-                {
-                  "letter": "B",
-                  "text": "although"
-                },
-                {
-                  "letter": "C",
-                  "text": "whereas"
-                },
-                {
-                  "letter": "D",
-                  "text": "despite"
-                }
+                "A) more",
+                "B) much",
+                "C) most",
+                "D) many"
               ],
               "correctLetter": "A",
-              "correctText": "consequently",
-              "analysis": "\"Consequently\" expresses a cause-and-effect result (taxes raised $\rightarrow$ investments accelerated).",
-              "strategy": "Connecting semicolon + [TRANSITION] + comma with a cause/effect link requires \"consequently\", \"therefore\", or \"as a result\"."
+              "explanation": "'Substantially more fuel-efficient' is the correct comparative form with an adjective."
             },
             {
-              "stem": "Domestic short-haul flights produce heavy per-passenger carbon emissions, ________ high-speed trains emit up to ninety percent less carbon.",
+              "id": 2,
+              "question": "Airbus and Boeing dominate commercial airliner manufacturing, holding a global ------- in large passenger jet production.",
               "options": [
-                {
-                  "letter": "A",
-                  "text": "whereas"
-                },
-                {
-                  "letter": "B",
-                  "text": "despite"
-                },
-                {
-                  "letter": "C",
-                  "text": "in order that"
-                },
-                {
-                  "letter": "D",
-                  "text": "so that"
-                }
+                "A) duopoly",
+                "B) monopoly",
+                "C) autonomy",
+                "D) subsidy"
               ],
               "correctLetter": "A",
-              "correctText": "whereas",
-              "analysis": "\"Whereas\" is a subordinating conjunction of contrast linking two contrasting factual clauses.",
-              "strategy": "\"Whereas\" directly links two contrasting clauses (Clause A, whereas Clause B). \"Despite\" cannot be followed by a full clause."
+              "explanation": "A market dominated by two suppliers is a 'duopoly'."
             },
             {
-              "stem": "The municipal transport authority expanded pedestrian zones; ________, it introduced discounted monthly transit passes for all students.",
+              "id": 3,
+              "question": "By operating a single aircraft type across its entire network, the low-cost carrier achieved significant ------- in crew training and maintenance.",
               "options": [
-                {
-                  "letter": "A",
-                  "text": "in addition"
-                },
-                {
-                  "letter": "B",
-                  "text": "instead"
-                },
-                {
-                  "letter": "C",
-                  "text": "nevertheless"
-                },
-                {
-                  "letter": "D",
-                  "text": "unless"
-                }
+                "A) economies of scale",
+                "B) flight limitations",
+                "C) cabin disruptions",
+                "D) baggage delays"
               ],
               "correctLetter": "A",
-              "correctText": "in addition",
-              "analysis": "\"In addition\" adds another positive measure to the first (additive logical relationship).",
-              "strategy": "When the second idea reinforces or supplements the first, choose an additive transition: \"in addition\", \"furthermore\", or \"moreover\"."
+              "explanation": "'Economies of scale' refers to the cost advantages achieved through standardization."
             },
             {
-              "stem": "Public criticism of the urban road pricing project was vocal; ________, vehicle congestion dropped by eighteen percent within the first quarter.",
+              "id": 4,
+              "question": "The airline decided to retire its older aircraft earlier than planned because the escalating cost of maintenance was no longer -------.",
               "options": [
-                {
-                  "letter": "A",
-                  "text": "even though"
-                },
-                {
-                  "letter": "B",
-                  "text": "however"
-                },
-                {
-                  "letter": "C",
-                  "text": "so that"
-                },
-                {
-                  "letter": "D",
-                  "text": "due to"
-                }
+                "A) justifiable",
+                "B) justify",
+                "C) justifiably",
+                "D) justification"
               ],
-              "correctLetter": "B",
-              "correctText": "however",
-              "analysis": "\"However\" is a transitional conjunctive adverb indicating contrast between initial opposition and subsequent positive outcomes.",
-              "strategy": "Notice punctuation: [semicolon] + [However] + [comma]. Subordinating conjunctions like \"even though\" cannot take this punctuation."
+              "correctLetter": "A",
+              "explanation": "The predicate adjective 'justifiable' completes the copular verb 'was no longer'."
+            },
+            {
+              "id": 5,
+              "question": "Regional turboprops remain the most economical solution for short routes ------- their low fuel burn at regional cruising altitudes.",
+              "options": [
+                "A) because of",
+                "B) although",
+                "C) despite",
+                "D) whereas"
+              ],
+              "correctLetter": "A",
+              "explanation": "'Because of' is the causal preposition required before the noun phrase 'their low fuel burn'."
             }
           ]
         }
@@ -10818,416 +10877,420 @@
       "4": {
         "session": 4,
         "objectives": {
-          "title": "Session 4 - Biodiversity in Urban Areas and Airports Objectives",
-          "summary": "By the end of this session, you will be able to discuss urban biodiversity and green infrastructure with confidence, use key vocabulary and grammar, and build the skills needed for your TOEIC test and Session 5 evaluation.",
+          "title": "Session 4 - Significant Aviation Accidents & Aircraft Types Objectives",
+          "summary": "By the end of this session, you will be able to analyze landmark aviation accidents and the aircraft types involved, use past narrative tenses and sequencing linkers, conduct a 15-minute quick-fire group research sprint, and deliver a collaborative 5-minute accident briefing to classmates.",
           "items": [
             {
               "num": 1,
-              "title": "Practice TOEIC Part 5 Questions on Pronouns & Determiners",
-              "description": "Select the correct pronouns (its, their, themselves) and determiners (each, every, either) under timed test conditions."
+              "title": "Examine Landmark Historical Aviation Accidents",
+              "description": "Analyze major historical accidents (e.g., Tenerife 1977, BA 38, US Airways 1549, AF 447, Aloha 243, 737 MAX) and identify the specific aircraft types involved."
             },
             {
               "num": 2,
-              "title": "Master Core Vocabulary for Urban Nature, Wildlife & Green Spaces",
-              "description": "Learn vocabulary for wildlife corridors, green roofs, native species, bird strike prevention, and ecological corridors."
+              "title": "Master Accident Investigation Lexis & Causal Analysis",
+              "description": "Deploy technical terms including Flight Data Recorder (FDR), Cockpit Voice Recorder (CVR), root causes, human factors, and Swiss Cheese model."
             },
             {
               "num": 3,
-              "title": "Use Pronouns & Possessives Correctly for Organizations & Teams",
-              "description": "Maintain consistency between singular companies (the airport ... its plan) and plural teams or groups."
+              "title": "Deploy Past Narrative Tenses & Chronological Sequencers",
+              "description": "Accurately combine past simple, past continuous, and past perfect tenses to describe flight incident sequences and timelines."
             },
             {
               "num": 4,
-              "title": "Discuss How Infrastructure Projects Can Protect Living Nature (DDRS)",
-              "description": "Examine practical initiatives where transport hubs create protected natural habitats alongside daily operations."
+              "title": "Execute a 15-Minute Group Research & Preparation Sprint",
+              "description": "Collaborate in small groups (3-4 students) within a strict 15-minute timeframe to extract technical causes, timelines, and safety outcomes."
             },
             {
               "num": 5,
-              "title": "Finalize Speaking Skills and Timing for the Session 5 Evaluation",
-              "description": "Rehearse your individual presentation with a timer, checking your fluency, vocabulary range, and grammar accuracy."
+              "title": "Deliver a 5-Minute Spoken Safety Briefing & Peer Q&A",
+              "description": "Present the accident analysis collaboratively to classmates without reading verbatim from notes, answering spontaneous questions."
             }
           ]
         },
         "lessonPlan": {
           "title": "Session 4 Lesson Plan (2 Hours)",
-          "summary": "A 2-hour session agenda combining conversational warm-ups, TOEIC test practice, vocabulary building, speaking activities, and evaluation preparation.",
+          "summary": "A 2-hour interactive workshop covering aviation safety news, crash investigation lexis, past tenses clinic, the 15-minute group research sprint, 5-minute class accident presentations, and FE2 briefing.",
           "items": [
             {
-              "time": "0-15",
-              "title": "Conversational Warm-Up: Nature Around Us (15 mins)",
-              "description": "Students share observations of urban wildlife, green spaces, and bird control measures at transport hubs."
+              "time": "00-10",
+              "title": "Part 1: Aviation News & Session 3 Fleet Spot-Check (10 mins)",
+              "description": "Weekly aviation news review and rapid spot-check on commercial aircraft categories and airline operating models."
             },
             {
-              "time": "15-45",
-              "title": "TOEIC Strategy: Pronouns & Determiners in Part 5 (30 mins)",
-              "description": "Fast drills selecting correct pronouns (its, their, each, neither) in professional administrative memos."
+              "time": "10-30",
+              "title": "Part 2: Accident Investigation Terminology (20 mins)",
+              "description": "Key lexis of air crash investigation: CVR/FDR black boxes, BEA/NTSB roles, CFIT, mechanical failure vs. human factors."
             },
             {
-              "time": "45-65",
-              "title": "Vocabulary Builder: Urban Ecology (20 mins)",
-              "description": "Key terms for green roofs, wildlife corridors, native flora, habitat preservation, and ecological surveys."
+              "time": "30-50",
+              "title": "Part 3: Language Clinic: Narrative Past Tenses & Sequencers (20 mins)",
+              "description": "Grammar clinic: past simple, past continuous, and past perfect for accident chronology (had leveled off when, was descending because)."
+            },
+            {
+              "time": "50-65",
+              "title": "Part 4: 15-Minute Group Research & Preparation Sprint (15 mins)",
+              "description": "Small teams (3-4 students) select an accident case study, extract the timeline, aircraft specifications, root causes, and safety fixes."
             },
             {
               "time": "65-110",
-              "title": "Structured Discussion & Grammar (45 mins)",
-              "description": "Proposing a green infrastructure plan for a local transport hub using Pronouns & Determiners accurately."
+              "title": "Part 5: Spoken Group Presentations & Safety Debrief (45 mins)",
+              "description": "Each team delivers a 5-minute presentation to the class using whiteboard / screen bullet supports, followed by peer Q&A."
             },
             {
               "time": "110-120",
-              "title": "Evaluation Practice & Wrap-Up (10 mins)",
-              "description": "Timed individual speaking practice with rubric assessment (fluency, pronunciation, range, grammatical control)."
+              "title": "Part 6: Vocabulary Review, Pronunciation & FE2 Prep (10 mins)",
+              "description": "Pronunciation drill (in-ves-ti-GA-tion, mal-func-tion, pre-ci-pi-ta-tion, fa-tigue) and guidelines for the Session 5 Formative Evaluation."
             }
           ]
         },
+        "lessonContent": {
+          "hero": {
+            "title": "Significant Aviation Accidents & Aircraft Types",
+            "subtitle": "Landmark Air Accidents, Technical Causal Analysis & The Evolution of Flight Safety",
+            "image": "images/aas_m2card4.png",
+            "level": "CEFR B2",
+            "role": "Safety Investigator / Flight Safety Officer",
+            "duration": "120 Minutes"
+          },
+          "openingSession": {
+            "title": "Activity 1: Aviation News & Session 3 Spot-Check (10 mins)",
+            "summary": "News review followed by quick vocabulary check on commercial fleets.",
+            "newsPrompts": [
+              "French accident bureau BEA issues annual safety synthesis highlighting stable commercial airline safety records in Europe.",
+              "NTSB safety symposium examines pilot-machine interface and automated flight envelope protections.",
+              "ICAO mandates enhanced 25-hour Cockpit Voice Recorder (CVR) duration on newly manufactured commercial jet transports."
+            ],
+            "diagnostic": {
+              "title": "Session 3 Knowledge Check",
+              "instructions": "Answer these 4 rapid spot-check questions:",
+              "questions": [
+                {
+                  "id": 1,
+                  "q": "What is the difference between an 'accident' and an 'incident' according to ICAO Annex 13?",
+                  "answer": "An accident involves serious injury, loss of life, or substantial structural damage affecting airworthiness. An incident affects or could affect flight safety, but without catastrophic damage or serious injury."
+                },
+                {
+                  "id": 2,
+                  "q": "What are the two components of the aircraft 'black box', and what does each record?",
+                  "answer": "The Cockpit Voice Recorder (CVR) records cockpit sounds, pilot communications, and warnings. The Flight Data Recorder (FDR) records flight parameters like altitude, airspeed, heading, control positions, and engine settings."
+                },
+                {
+                  "id": 3,
+                  "q": "What is Controlled Flight Into Terrain (CFIT)?",
+                  "answer": "CFIT occurs when an airworthy aircraft under the control of the flight crew is unintentionally flown into terrain, obstacles, or water without the crew realizing the impending impact."
+                },
+                {
+                  "id": 4,
+                  "q": "Explain the 'Swiss Cheese' safety model in accident investigation.",
+                  "answer": "Aviation accidents rarely result from a single failure; they occur when latent organizational weaknesses and active errors line up through holes in multiple protective defensive layers."
+                }
+              ]
+            }
+          },
+          "investigationLexis": {
+            "title": "Activity 2: Accident Investigation Terminology & Causal Chains (20 mins)",
+            "summary": "Learn and deploy specialized safety vocabulary used by investigation authorities (BEA, NTSB, AAIB).",
+            "terms": [
+              {
+                "term": "Flight Data Recorder (FDR)",
+                "role": "Records hundreds of digital flight parameters (airspeed, control deflections, engine parameters) for crash investigation."
+              },
+              {
+                "term": "Cockpit Voice Recorder (CVR)",
+                "role": "Captures cockpit audio, pilot communications, and acoustic warnings on an endless recording loop."
+              },
+              {
+                "term": "Root Cause vs. Contributing Factor",
+                "role": "Root cause is the core failure without which the event would not have occurred; contributing factors heighten risk or accelerate the chain."
+              },
+              {
+                "term": "Human Factors & Crew Resource Management (CRM)",
+                "role": "Addressing human error, stress, cognitive overload, communication breakdown, and hierarchical authority gradient in the cockpit."
+              },
+              {
+                "term": "Airworthiness Directive (AD)",
+                "role": "A legally binding safety regulation issued by aviation authorities (FAA, EASA) mandating structural or systems modifications."
+              }
+            ]
+          },
+          "pastNarrativesClinic": {
+            "title": "Activity 3: Language Clinic: Narrative Past Tenses & Sequencers (20 mins)",
+            "summary": "Combining Past Simple, Past Continuous, and Past Perfect to build clear chronological incident reports.",
+            "rules": [
+              {
+                "tense": "Past Continuous (Background Action in Progress)",
+                "formula": "was/were + [verb-ing]",
+                "example": "The aircraft was cruising at FL350 in calm air when the airspeed indicators suddenly disagreed."
+              },
+              {
+                "tense": "Past Perfect (Prior Action Completed Earlier)",
+                "formula": "had + [past participle]",
+                "example": "The crew had disconnected the autopilot because ice crystals had accumulated inside the pitot probes."
+              },
+              {
+                "tense": "Past Simple (Sequential Events)",
+                "formula": "[past verb] + then / subsequently",
+                "example": "The captain reduced pitch, applied rudder, and subsequently regained visual contact with the runway."
+              }
+            ]
+          },
+          "groupResearchSprint": {
+            "title": "Activity 4: 15-Minute Group Research & Preparation Sprint (15 mins)",
+            "summary": "Small groups (3-4 students) select one landmark accident case study. Within 15 minutes, prepare a 5-minute spoken briefing for classmates.",
+            "instructions": "Choose one accident from the cards below. Extract: (1) Aircraft type and operator, (2) Flight phase and sequence of events, (3) Technical and human root causes, (4) Safety improvements resulting from the investigation.",
+            "caseStudies": [
+              {
+                "id": 1,
+                "title": "Tenerife Airport Disaster (1977)",
+                "aircraft": "Two Boeing 747s (KLM Flight 4805 & Pan Am Flight 1736)",
+                "context": "Dense fog on the runway at Los Rodeos Airport. Non-standard radio phraseology ('at takeoff') and authority gradient led KLM to begin takeoff while Pan Am was still back-taxiing on the runway.",
+                "safetyOutcome": "Complete overhaul of international ATC phraseology; birth of Crew Resource Management (CRM); mandatory readbacks of all runway clearances."
+              },
+              {
+                "id": 2,
+                "title": "Air France Flight 447 (2009)",
+                "aircraft": "Airbus A330-200",
+                "context": "En route from Rio to Paris across the ITCZ. Supercooled water ice crystals blocked all three pitot tubes, causing autopilot disconnect and unreliable airspeed. Crew pitched up, entering an unrecognized aerodynamic stall.",
+                "safetyOutcome": "Redesigned Thales pitot probes; mandatory high-altitude stall recovery training; enhanced angle of attack awareness protocols."
+              },
+              {
+                "id": 3,
+                "title": "US Airways Flight 1549 'Miracle on the Hudson' (2009)",
+                "aircraft": "Airbus A320-200",
+                "context": "Shortly after departure from LaGuardia at 2,800 ft, aircraft strikes a flock of Canada geese, causing complete dual engine failure. Pilots assess landing options and execute successful ditching in Hudson River.",
+                "safetyOutcome": "Wildlife management programs at airports; revised dual engine failure checklists; improved pilot water survival training."
+              },
+              {
+                "id": 4,
+                "title": "British Airways Flight 38 (2008)",
+                "aircraft": "Boeing 777-200ER",
+                "context": "On short final into London Heathrow after transpolar flight from Beijing. Uncommanded dual engine thrust rollback at 700 ft due to ice crystals clogging fuel-oil heat exchangers (FOHE).",
+                "safetyOutcome": "Redesigned Rolls-Royce Trent 800 fuel-oil heat exchangers preventing internal ice accretion; updated cold weather fuel management procedures."
+              },
+              {
+                "id": 5,
+                "title": "Aloha Airlines Flight 243 (1988)",
+                "aircraft": "Boeing 737-200",
+                "context": "High-cycle inter-island flight in Hawaii at FL240. Severe multi-site fatigue cracking and corrosion caused an explosive decompression, tearing off 5.5 meters of upper cabin fuselage.",
+                "safetyOutcome": "Mandatory aging aircraft inspection programs; strict lap-joint fatigue crack testing; revised cyclic pressurization inspection intervals."
+              },
+              {
+                "id": 6,
+                "title": "Boeing 737 MAX Accidents (Lion Air 610 / Ethiopian 302, 2018-2019)",
+                "aircraft": "Boeing 737 MAX 8",
+                "context": "Single angle-of-attack (AoA) sensor failure triggered repeated, uncommanded MCAS nose-down trim activation that overwhelmed flight crews unfamiliar with the system.",
+                "safetyOutcome": "Complete MCAS redesign requiring dual AoA sensor agreement; uncommanded trim override limits; mandatory simulator training for all MAX pilots."
+              }
+            ]
+          },
+          "presentationsDebrief": {
+            "title": "Activity 5: Spoken Group Presentations & Class Debrief (45 mins)",
+            "summary": "Each group presents their 5-minute accident analysis using whiteboard or slide bullet points, followed by class Q&A.",
+            "presentationGuidelines": [
+              "Structure: (1) Aircraft type & context, (2) Chronology of events, (3) Root causes, (4) Permanent safety fixes.",
+              "Speaking rules: Share talking time equally among all group members. Strictly no verbatim reading from notes!",
+              "Audience task: Classmates formulate one technical follow-up question regarding the investigation findings."
+            ]
+          },
+          "closingReview": {
+            "title": "Activity 6: Vocabulary Review & Formative Evaluation 2 Prep (10 mins)",
+            "summary": "Review the 18 accident investigation terms and review expectations for Session 5 Formative Evaluation 2.",
+            "fe2Preview": "In Session 5, you and your partner will present an Aircraft or Airline Profile for 10-12 minutes, followed by teacher Q&A, covering technical specs, operational metrics, historical milestones, and safety records."
+          }
+        },
         "revision": {
-          "title": "Session 4: Biodiversity in Urban Areas and Airports",
-          "summary": "Review the 18 key terms for Biodiversity in Urban Areas and Airports to build your fluency in discussions, professional reading, and TOEIC practice.",
+          "title": "Session 4 Revision - Significant Aviation Accidents & Aircraft Types",
+          "summary": "Master the 18 key vocabulary terms for Aviation Accidents & Safety to analyze investigation methodologies, causal factors, and safety upgrades.",
           "terms": [
             {
               "num": "01",
-              "term": "Bird Strike Hazard",
-              "definition": "A collision between an airborne animal and an aircraft, posing acute mechanical danger during takeoff and landing."
+              "term": "Accident",
+              "definition": "An occurrence associated with the operation of an aircraft causing serious injury, death, or major structural failure."
             },
             {
               "num": "02",
-              "term": "Habitat Fragmentation",
-              "definition": "The division of expansive natural ecosystems into isolated parcels caused by highway and runway construction."
+              "term": "Incident",
+              "definition": "An occurrence, other than an accident, associated with aircraft operation that affects or could affect the safety of operation."
             },
             {
               "num": "03",
-              "term": "Urban Tree Canopy",
-              "definition": "The layer of leaves, branches, and stems formed by city trees, providing shade, cooling, and critical habitat for urban wildlife."
+              "term": "Flight Data Recorder (FDR)",
+              "definition": "A flight recorder device that records operating parameters (altitude, airspeed, heading, control positions) to reconstruct accidents."
             },
             {
               "num": "04",
-              "term": "Ecological Corridor",
-              "definition": "A designated strip of vegetation linking wildlife populations separated by human infrastructure developments."
+              "term": "Cockpit Voice Recorder (CVR)",
+              "definition": "A flight recorder device that records audio inside the cockpit, including pilot voices, radio communications, and alarms."
             },
             {
               "num": "05",
-              "term": "Bioacoustic Deterrent",
-              "definition": "Audio equipment broadcasting species-specific distress calls to disperse hazardous birds away from flight paths."
+              "term": "Investigation Bureau",
+              "definition": "An independent national safety authority (e.g. BEA in France, NTSB in the US) tasked with determining accident causes."
             },
             {
               "num": "06",
-              "term": "Wildlife Hazard Management (WHM)",
-              "definition": "A mandatory airport safety program systematically cataloging and mitigating animal attractants on airfields."
+              "term": "Root Cause",
+              "definition": "The fundamental underlying failure or condition that directly initiated the sequence resulting in the accident."
             },
             {
               "num": "07",
-              "term": "Biodiversity Net Gain (BNG)",
-              "definition": "A statutory planning requirement ensuring that infrastructure projects leave local natural habitats in a measurably better state."
+              "term": "Contributing Factor",
+              "definition": "An environmental, mechanical, or human factor that increased the likelihood or severity of an accident."
             },
             {
               "num": "08",
-              "term": "Attractant Mitigation",
-              "definition": "Eliminating surface water bodies, refuse disposal sites, and roosting perches that attract hazardous wildlife to airfields."
+              "term": "Metal Fatigue",
+              "definition": "Progressive structural damage and cracking that occurs when metal airframe components are subjected to repeated cyclic stress."
             },
             {
               "num": "09",
-              "term": "Grassland Ecology",
-              "definition": "The study of short-grass prairie and meadow ecosystems adapted to frequent mowing and disturbed airfield soils."
+              "term": "Decompression",
+              "definition": "The loss of internal cabin pressure in an aircraft due to structural failure, door seal rupture, or system malfunction."
             },
             {
               "num": "10",
-              "term": "Living / Green Roof",
-              "definition": "A building roof partially or completely covered with vegetation, creating urban habitats for pollinators and naturally insulating buildings."
+              "term": "Engine Failure",
+              "definition": "The unexpected shutdown, flameout, or mechanical destruction of an aircraft engine during operation."
             },
             {
               "num": "11",
-              "term": "Pollinator Sanctuary",
-              "definition": "Protected perimeter areas planted with native wildflowers to foster honeybee and butterfly biodiversity."
+              "term": "Bird Strike",
+              "definition": "A collision between an airborne animal (bird or bat) and an aircraft in flight or during takeoff/landing."
             },
             {
               "num": "12",
-              "term": "Urban Rewilding",
-              "definition": "An environmental conservation approach that restores natural ecological processes and native wilderness areas within cities and suburbs."
+              "term": "Icing",
+              "definition": "The accumulation of atmospheric ice on wings, control surfaces, or pitot probes, severely degrading aerodynamic performance."
             },
             {
               "num": "13",
-              "term": "Environmental Impact Assessment (EIA)",
-              "definition": "A formal statutory study evaluating the prospective ecological consequences of proposed airport runway expansions."
+              "term": "Controlled Flight Into Terrain (CFIT)",
+              "definition": "An accident in which an airworthy aircraft under crew control is inadvertently flown into ground, water, or obstacles."
             },
             {
               "num": "14",
-              "term": "Native Vegetation Re-seeding",
-              "definition": "Planting indigenous drought-tolerant grass varieties that require minimal mowing and provide unfavorable forage for geese."
+              "term": "Loss of Control In-Flight (LOC-I)",
+              "definition": "A severe deviation from the intended flight path caused by aerodynamic stall, spatial disorientation, or systems failure."
             },
             {
               "num": "15",
-              "term": "Wetland Preservation",
-              "definition": "Protecting natural marshlands that filter surface runoff while engineering deterrents to prevent waterfowl concentration."
+              "term": "Human Factors",
+              "definition": "The study of human capabilities, cognitive limitations, communication, and ergonomics in aviation operations."
             },
             {
               "num": "16",
-              "term": "Ecosystem Services",
-              "definition": "The essential direct and indirect benefits that natural habitats provide to human society, including air filtration, stormwater management, and cooling."
+              "term": "Situational Awareness",
+              "definition": "An accurate mental perception of the aircraft position, flight condition, environmental threats, and systems status."
             },
             {
               "num": "17",
-              "term": "Bio-Indicator Species",
-              "definition": "Organisms whose health, presence, or population shifts reflect the environmental quality of an entire airport watershed."
+              "term": "Safety Recommendation",
+              "definition": "A formal proposal by an accident investigation board recommending mandatory regulatory, operational, or design changes."
             },
             {
               "num": "18",
-              "term": "Non-Lethal Harassment",
-              "definition": "Trained border collies, pyrotechnics, and laser beams used to non-lethally displace birds from active runways."
+              "term": "Airworthiness Directive (AD)",
+              "definition": "A legally enforceable regulation issued by a civil aviation authority mandating inspections or modifications to resolve an unsafe condition."
             }
           ]
         },
         "materials": {
           "videos": [
             {
-              "title": "Video 1: Urban Rewilding: Bringing Nature Back to Modern Cities",
-              "watchUrl": "https://www.youtube.com/watch?v=ouY7Bcs8zTQ",
-              "tag": "Urban Ecology",
-              "videoId": "ouY7Bcs8zTQ",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/ouY7Bcs8zTQ",
-              "caption": "Focus: How metropolitan centers are creating living green roofs, urban tree canopies, and wildflower corridors to restore native biodiversity."
+              "title": "Video 1: How Black Boxes Work & How Air Accidents are Solved",
+              "watchUrl": "https://www.youtube.com/watch?v=0k7W2T0p8k8",
+              "tag": "Investigation Technology",
+              "videoId": "0k7W2T0p8k8",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/0k7W2T0p8k8",
+              "caption": "Focus: Discover how CVR and FDR black boxes survive underwater pressure, fire, and impact to deliver crucial flight data."
             },
             {
-              "title": "Video 2: Wildlife Management and Ecological Coexistence at Airfields",
-              "watchUrl": "https://www.youtube.com/watch?v=BxVWs5hBDeA",
-              "tag": "Airfield Safety",
-              "videoId": "BxVWs5hBDeA",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/BxVWs5hBDeA",
-              "caption": "Focus: How airport safety teams manage avian hazards using bioacoustic deterrents and habitat controls while preserving grassland ecosystems."
-            },
-            {
-              "title": "Video 3: Grammar in Action: Pronouns and Determiners in Environmental Reports",
-              "watchUrl": "https://www.youtube.com/watch?v=r6XpFWmA7Gk",
-              "tag": "Grammar Focus",
-              "videoId": "r6XpFWmA7Gk",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/r6XpFWmA7Gk",
-              "caption": "Focus: Targeted practice on using demonstrative pronouns, quantifiers, and determiners accurately when summarizing scientific and ecological data."
+              "title": "Video 2: The Aviation Safety Revolution: Lessons from Landmark Accidents",
+              "watchUrl": "https://www.youtube.com/watch?v=D_9kL_3Qy7U",
+              "tag": "Safety History",
+              "videoId": "D_9kL_3Qy7U",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/D_9kL_3Qy7U",
+              "caption": "Focus: See how major accidents over the past 50 years transformed cockpit culture, ATC phraseology, and systems engineering."
             }
           ],
-          "grammar": {
-            "title": "Pronouns & Possessives in Business",
-            "badge": "B1\u2013B2 Grammar Focus",
-            "patternTitle": "Key Business Rule",
-            "formula": "Company / Authority / Organization = ITS (Singular, not \"their\")",
-            "rulesTitle": "Core Rules",
-            "rules": [
-              "<strong style=\"color: #1e293b;\">1. Companies &amp; Authorities use ITS:</strong> A company, airport, or committee is one single organization. Always use <span style=\"font-weight: 700; color: #49739a;\">its</span>, not <em>their</em> (<em>\"The authority released <strong>its</strong> report\"</em>).",
-              "<strong style=\"color: #1e293b;\">2. Before a Noun vs. Alone:</strong> Use <span style=\"font-weight: 700; color: #49739a;\">its</span> or <em>their</em> right before a noun (<em>their plan</em>). Use <em>theirs</em> or <em>mine</em> only when there is NO noun after it.",
-              "<strong style=\"color: #1e293b;\">3. -self words (itself / themselves):</strong> Use <span style=\"font-weight: 600; color: #334155;\">itself</span> when the subject does something to or by itself (<em>by itself</em>).",
-              "<strong style=\"color: #1e293b;\">4. Determiners:</strong> <em>Each</em> / <em>every</em> take singular nouns; <em>other</em> takes plural nouns (<em>other airports</em>); <em>another</em> takes a single noun (<em>another terminal</em>)."
-            ],
-            "trap": "<strong>\u26a0\ufe0f TOEIC Trap Alert:</strong> <strong>its</strong> vs. <strong>it's</strong>! <em>Its</em> (no apostrophe) shows possession (<em>its report</em>). <em>It's</em> (with apostrophe) means <em>it is</em> or <em>it has</em>. In TOEIC Part 5, almost every blank before a noun needs <strong>its</strong>!",
-            "examplesTitle": "Airport Biodiversity Examples",
-            "examples": [
-              "<em>\"The civil aviation commission updated <strong>its</strong> environmental impact charter for green perimeter zones.\"</em>",
-              "<em>\"Urban planners designed the green corridor so that wildlife could navigate the transit hub by <strong>itself</strong>.\"</em>"
-            ]
-          },
-          "toeic": {
-            "stem": "Commercial flight operations continued without interruption ________ dense snow accumulation on taxiways throughout the early morning.",
-            "options": [
-              {
-                "letter": "A",
-                "text": "although"
-              },
-              {
-                "letter": "B",
-                "text": "despite"
-              },
-              {
-                "letter": "C",
-                "text": "even though"
-              },
-              {
-                "letter": "D",
-                "text": "whereas"
-              }
-            ],
-            "correctLetter": "B",
-            "correctText": "despite",
-            "analysis": "\"Despite\" is a preposition followed by a noun phrase (\"dense snow accumulation\"). \"Although\" and \"even though\" must be followed by subject + verb.",
-            "strategy": "Classic TOEIC Trap: Preposition vs. Conjunction. If followed by Noun Phrase only $\rightarrow$ despite / in spite of. If followed by Subject + Verb $\rightarrow$ although / even though."
-          },
-          "resources": [
-            {
-              "url": "https://www.icao.int",
-              "tag": "01 \u2022 Aviation Safety Database",
-              "name": "ICAO Wildlife Strike Hazard Database",
-              "desc": "International Civil Aviation Organization official data on bird strike prevention and reporting standards."
-            },
-            {
-              "url": "https://www.iucnredlist.org",
-              "tag": "02 \u2022 Global Conservation Union",
-              "name": "IUCN Red List of Threatened Species",
-              "desc": "International Union for Conservation of Nature global species extinction risk metrics and habitat data."
-            },
-            {
-              "url": "https://aci.aero",
-              "tag": "03 \u2022 Airport Sustainability",
-              "name": "Airports Council International (ACI World)",
-              "desc": "ACI World Sustainability and Environmental Management guidelines for commercial airports."
-            },
-            {
-              "url": "https://www.birdlife.org",
-              "tag": "04 \u2022 Avian Conservation Network",
-              "name": "BirdLife International",
-              "desc": "Global partnership protecting bird populations, migratory flyways, and critical conservation areas."
-            },
-            {
-              "url": "https://www.eea.europa.eu",
-              "tag": "05 \u2022 European Biodiversity Data",
-              "name": "European Environment Agency Nature Portal",
-              "desc": "State of European nature reports and protected Natura 2000 network conservation data."
-            },
-            {
-              "url": "https://www.etsglobal.org/fr/fr",
-              "tag": "06 \u2022 TOEIC Scientific Reading",
-              "name": "ETS Global TOEIC Preparation",
-              "desc": "Technical reading practice with scientific environmental impact assessments and conservation reports."
-            }
-          ],
-          "pageUrl": "session4/admat2.html",
           "articles": [
             {
-              "topic": "European Environment Agency (EEA)",
-              "sourceTag": "Environmental Briefing",
-              "heading": "Urban Greening and Biodiversity in European Cities",
-              "snippet": "Assessing how tree canopy expansion, rooftop gardens, and urban wetlands enhance ecological resilience and mitigate heat stress across metropolitan regions.",
-              "readTime": "Estimated read: 5-7 mins",
-              "url": "https://www.eea.europa.eu"
+              "topic": "Aviation Safety Evolution",
+              "sourceTag": "Flight Safety Foundation",
+              "heading": "From Tragedy to Technology: How Historical Accidents Made Modern Flying the Safest Transit Mode",
+              "snippet": "An examination of how Crew Resource Management (CRM), TCAS collision avoidance, and GPWS terrain warnings originated from accident investigations.",
+              "url": "https://flightsafety.org",
+              "readTime": "Estimated read: 4-5 mins"
             },
             {
-              "topic": "Airport World Technical Review",
-              "sourceTag": "Aviation Ecology",
-              "heading": "Balancing Airfield Safety Standards with Habitat Conservation",
-              "snippet": "Operational guidelines for airport environmental managers reconciling mandatory wildlife hazard controls with local biodiversity net gain objectives.",
-              "readTime": "Estimated read: 5-7 mins",
-              "url": "https://airport-world.com"
+              "topic": "Accident Investigation",
+              "sourceTag": "BEA France",
+              "heading": "The Role of Independent Technical Investigation in Preventing Future Accidents",
+              "snippet": "How aviation accident investigators determine facts without seeking blame or liability, focusing strictly on permanent safety recommendations.",
+              "url": "https://www.bea.aero",
+              "readTime": "Estimated read: 5-6 mins"
             }
           ],
           "toeicQuestions": [
             {
-              "stem": "Commercial flight operations continued without interruption ________ dense snow accumulation on taxiways throughout the early morning.",
+              "id": 1,
+              "question": "The accident investigation bureau concluded that the aircraft ------- at cruise altitude for three hours before the failure occurred.",
               "options": [
-                {
-                  "letter": "A",
-                  "text": "although"
-                },
-                {
-                  "letter": "B",
-                  "text": "despite"
-                },
-                {
-                  "letter": "C",
-                  "text": "even though"
-                },
-                {
-                  "letter": "D",
-                  "text": "whereas"
-                }
-              ],
-              "correctLetter": "B",
-              "correctText": "despite",
-              "analysis": "\"Despite\" is a preposition followed by a noun phrase (\"dense snow accumulation\"). \"Although\" and \"even though\" must be followed by subject + verb.",
-              "strategy": "Classic TOEIC Trap: Preposition vs. Conjunction. If followed by Noun Phrase only $\rightarrow$ despite / in spite of. If followed by Subject + Verb $\rightarrow$ although / even though."
-            },
-            {
-              "stem": "The airport environment team constructed wildflower habitats around airfields ________ local bird nesting could be diverted safely away from flight paths.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "so that"
-                },
-                {
-                  "letter": "B",
-                  "text": "in order to"
-                },
-                {
-                  "letter": "C",
-                  "text": "because of"
-                },
-                {
-                  "letter": "D",
-                  "text": "despite"
-                }
+                "A) had been flying",
+                "B) has flown",
+                "C) was flown",
+                "D) is flying"
               ],
               "correctLetter": "A",
-              "correctText": "so that",
-              "analysis": "\"So that\" introduces a clause of purpose containing subject + modal verb (\"could be diverted\"). \"In order to\" must be followed directly by a base verb.",
-              "strategy": "Purpose structure: \"so that\" + [Subject + modal + verb]; \"in order to\" + [base verb]."
+              "explanation": "The past perfect continuous 'had been flying' expresses a continuous action preceding another past event."
             },
             {
-              "stem": "Several incoming flights were diverted to alternate airfields ________ severe crosswinds exceeding forty-five knots.",
+              "id": 2,
+              "question": "Civil aviation authorities issued an emergency Airworthiness Directive requiring mandatory ------- of all engine fuel-oil heat exchangers.",
               "options": [
-                {
-                  "letter": "A",
-                  "text": "because"
-                },
-                {
-                  "letter": "B",
-                  "text": "owing to"
-                },
-                {
-                  "letter": "C",
-                  "text": "although"
-                },
-                {
-                  "letter": "D",
-                  "text": "whereas"
-                }
-              ],
-              "correctLetter": "B",
-              "correctText": "owing to",
-              "analysis": "\"Owing to\" is a preposition meaning \"because of\", followed by a noun phrase (\"severe crosswinds\").",
-              "strategy": "\"Because of\", \"owing to\", and \"due to\" take noun phrases. \"Because\" must take a full clause with subject and verb."
-            },
-            {
-              "stem": "________ the airport expanded its passenger terminal capacity, it succeeded in maintaining net-zero airfield carbon neutrality.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "Despite"
-                },
-                {
-                  "letter": "B",
-                  "text": "Even though"
-                },
-                {
-                  "letter": "C",
-                  "text": "Because of"
-                },
-                {
-                  "letter": "D",
-                  "text": "In spite of"
-                }
-              ],
-              "correctLetter": "B",
-              "correctText": "Even though",
-              "analysis": "\"Even though\" is a subordinating conjunction followed by a full clause with subject (\"the airport\") and verb (\"expanded\").",
-              "strategy": "Check what follows: \"the airport expanded\" is Subject + Verb $\rightarrow$ choose \"Even though\" (conjunction), not \"Despite\" (preposition)."
-            },
-            {
-              "stem": "Biological retention ponds were built across the airport perimeter ________ prevent de-icing fluid runoff from infiltrating local river systems.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "in order to"
-                },
-                {
-                  "letter": "B",
-                  "text": "so that"
-                },
-                {
-                  "letter": "C",
-                  "text": "because"
-                },
-                {
-                  "letter": "D",
-                  "text": "owing to"
-                }
+                "A) inspections",
+                "B) inspects",
+                "C) inspected",
+                "D) inspect"
               ],
               "correctLetter": "A",
-              "correctText": "in order to",
-              "analysis": "\"In order to\" expresses purpose and is followed directly by the base verb \"prevent\".",
-              "strategy": "Formula: \"in order to\" + [base verb]. Never choose \"so that\" directly before a bare infinitive."
+              "explanation": "The adjective 'mandatory' modifies the plural noun 'inspections'."
+            },
+            {
+              "id": 3,
+              "question": "Investigators determined that the flight crew had lost situational awareness ------- extreme fatigue and cognitive workload in severe weather.",
+              "options": [
+                "A) because of",
+                "B) although",
+                "C) whereas",
+                "D) in spite"
+              ],
+              "correctLetter": "A",
+              "explanation": "'Because of' is the causal preposition required before the noun phrase 'extreme fatigue'."
+            },
+            {
+              "id": 4,
+              "question": "The Flight Data Recorder provided accurate telemetry data that enabled engineers ------- the exact sequence of events leading to the incident.",
+              "options": [
+                "A) to reconstruct",
+                "B) reconstruct",
+                "C) reconstructing",
+                "D) reconstructed"
+              ],
+              "correctLetter": "A",
+              "explanation": "The verb 'enable' takes an object + to-infinitive ('enabled engineers to reconstruct')."
+            },
+            {
+              "id": 5,
+              "question": "Following the publication of the final report, airlines implemented enhanced training programs in order to ------- future communication errors.",
+              "options": [
+                "A) prevent",
+                "B) preventing",
+                "C) prevention",
+                "D) preventable"
+              ],
+              "correctLetter": "A",
+              "explanation": "'In order to' is followed by the bare base form of the verb ('prevent')."
             }
           ]
         }

@@ -664,6 +664,9 @@
   .cursor-pointer {
     cursor: pointer;
   }
+  .list-decimal {
+    list-style-type: decimal;
+  }
   .list-disc {
     list-style-type: disc;
   }
@@ -1721,6 +1724,9 @@
   }
   .bg-slate-300 {
     background-color: var(--color-slate-300);
+  }
+  .bg-slate-600 {
+    background-color: var(--color-slate-600);
   }
   .bg-slate-700 {
     background-color: var(--color-slate-700);
@@ -2849,6 +2855,9 @@
     }
     .hover\:opacity-80:hover {
       opacity: 80%;
+    }
+    .hover\:opacity-90:hover {
+      opacity: 90%;
     }
     .hover\:opacity-95:hover {
       opacity: 95%;
