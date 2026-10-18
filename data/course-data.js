@@ -307,12 +307,12 @@
         "materials": {
           "videos": [
             {
-              "title": "Video 1: The Art of the Travel Story",
-              "watchUrl": "https://www.youtube.com/watch?v=eH6n4YgN3U4",
+              "title": "Video 1: The Art of Storytelling (TEDx)",
+              "watchUrl": "https://www.youtube.com/watch?v=Nj-hdQMa3uA",
               "tag": "Storytelling",
-              "videoId": "eH6n4YgN3U4",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/eH6n4YgN3U4",
-              "caption": "Focus: Analyze how travelers share personal anecdotes, unexpected encounters, and narrative reflections with conversational fluency."
+              "videoId": "Nj-hdQMa3uA",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/Nj-hdQMa3uA",
+              "caption": "Focus: Master the biological art of storytelling—discover how suspense, emotion, and relatable narrative arcs hook listeners and bring personal travel anecdotes to life."
             },
             {
               "title": "Video 2: TOEIC Listening",
@@ -10755,12 +10755,12 @@
         "materials": {
           "videos": [
             {
-              "title": "Video 1: Airside Operations & Ground Handling",
-              "watchUrl": "https://www.youtube.com/watch?v=J47mS5F9s6E",
+              "title": "Video 1: Boeing 777 Airport Ground Handling: Start to Finish",
+              "watchUrl": "https://www.youtube.com/watch?v=KSfgLX5j-lQ",
               "tag": "Ground Operations",
-              "videoId": "J47mS5F9s6E",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/J47mS5F9s6E",
-              "caption": "Focus: Professional coordination among ramp agents, turnaround dispatchers, pushback drivers, and ground handling teams during rapid turnarounds."
+              "videoId": "KSfgLX5j-lQ",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/KSfgLX5j-lQ",
+              "caption": "Focus: Authentic real-world turnaround coordination: marshaling, chock placement, GPU connection, belt loaders, baggage logistics, and pushback operations."
             },
             {
               "title": "Video 2: Inside Air Traffic Control",
@@ -11505,12 +11505,20 @@
               "caption": "Focus: Watch how lift, weight, thrust, and drag achieve aerodynamic equilibrium in steady flight."
             },
             {
-              "title": "Video 2: Aircraft Axes & Primary Flight Controls in Action",
-              "watchUrl": "https://www.youtube.com/watch?v=Yf_Jk2i9f-o",
-              "tag": "Aerodynamics",
-              "videoId": "Yf_Jk2i9f-o",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/Yf_Jk2i9f-o",
-              "caption": "Focus: Observe the 3 axes of rotation and how ailerons, elevators, and rudder manipulate airflow."
+              "title": "Video 2: Primary Flight Controls: Ground Lesson",
+              "watchUrl": "https://www.youtube.com/watch?v=LZFehDh7LxI",
+              "tag": "Flight Controls",
+              "videoId": "LZFehDh7LxI",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/LZFehDh7LxI",
+              "caption": "Focus: Master the 3 axes of rotation (pitch, roll, yaw) and how elevators, ailerons, and rudder manipulate airflow."
+            },
+            {
+              "title": "Video 3: What Causes an Airplane to Stall?",
+              "watchUrl": "https://www.youtube.com/watch?v=hIv-BLf6PoE",
+              "tag": "Flight Safety",
+              "videoId": "hIv-BLf6PoE",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/hIv-BLf6PoE",
+              "caption": "Focus: Examine critical angle of attack (AOA), airflow detachment from the upper camber, stick-shakers, and recovery technique."
             }
           ],
           "articles": [
@@ -11531,6 +11539,63 @@
               "readTime": "Estimated read: 5-6 mins"
             }
           ],
+          "resources": [
+            {
+              "url": "https://www.grc.nasa.gov/www/k-12/airplane/index.html",
+              "tag": "01 • Flight Physics",
+              "name": "NASA Glenn Beginner's Guide to Aeronautics",
+              "desc": "Official educational guides on Bernoulli's principle, lift equations, and airfoil camber."
+            },
+            {
+              "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+              "tag": "02 • Flight Manual",
+              "name": "FAA Pilot's Handbook of Aeronautical Knowledge",
+              "desc": "Chapter 5: Aerodynamics of flight, aircraft stability, and stall/spin recovery procedures."
+            },
+            {
+              "url": "https://ocw.mit.edu",
+              "tag": "03 • Academic Courses",
+              "name": "MIT OpenCourseWare Flight Dynamics",
+              "desc": "Open aerospace engineering lecture notes on boundary layer control and drag polar curves."
+            },
+            {
+              "url": "https://aircraft.airbus.com/en/services/maintain/fast-technical-magazine",
+              "tag": "04 • Airbus Engineering",
+              "name": "Airbus FAST Magazine: Aerodynamic Optimization",
+              "desc": "In-depth technical articles on sharklet wingtip designs and laminar flow aerodynamics."
+            },
+            {
+              "url": "https://www.boeing.com/commercial/aeromagazine",
+              "tag": "05 • Boeing Technology",
+              "name": "Boeing AERO Magazine: Fuel & Drag Reduction",
+              "desc": "Engineering case studies on surface finishes, drag cleanup, and flight control optimization."
+            },
+            {
+              "url": "https://www.skybrary.aero/articles/aerodynamic-stall",
+              "tag": "06 • Safety Portal",
+              "name": "Skybrary: Aerodynamic Stall & Angle of Attack",
+              "desc": "Operational aviation safety portal on stall warning margins, stick-shakers, and recovery."
+            }
+          ],
+          "grammar": {
+            "title": "Cause-and-Effect Structures & Conditional Relationships in Flight Physics",
+            "badge": "Flight Physics",
+            "patternTitle": "Aero Cause & Effect Formula",
+            "formula": "Due to / As a result of + Noun Phrase, [Consequence] || If + Present, [Result]",
+            "rulesTitle": "Core Communicative Guidelines",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Cause & Prepositional Linkers (Due to / Owing to / Because of):</strong> Introduces aerodynamic forces triggering an outcome (<em>'Due to increased camber, airflow accelerates over the upper surface'</em>).",
+              "<strong style=\"color: #1e293b;\">2. Result Linkers (Consequently / As a result / Leading to):</strong> Links physical actions to reactions (<em>'Air pressure decreases above the wing, consequently generating lift'</em>).",
+              "<strong style=\"color: #1e293b;\">3. Zero Conditional (Scientific Invariants):</strong> Expresses universal physical laws (<em>'If the angle of attack exceeds 15 degrees, the airflow separates and the wing stalls'</em>).",
+              "<strong style=\"color: #1e293b;\">4. First Conditional (Operational Contingencies):</strong> Expresses flight deck actions (<em>'If airspeed drops below Vref during approach, the flight crew will advance the throttles immediately'</em>)."
+            ],
+            "trap": "⚠️ TOEIC Part 5 Cause Linker Alert: 'Due to' and 'because of' MUST be followed by a noun or noun phrase. 'Because' and 'since' are conjunctions followed by a subject + verb clause.",
+            "examplesTitle": "Authentic Operational Examples",
+            "examples": [
+              "Due to boundary layer separation at high angles of attack, the aircraft experiences severe aerodynamic buffeting.",
+              "If the pilot increases pitch attitude without adding thrust, airspeed will decay rapidly."
+            ]
+          },
           "toeicQuestions": [
             {
               "id": 1,
@@ -11592,7 +11657,8 @@
               "correctLetter": "A",
               "explanation": "The participle clause 'improving overall fuel efficiency' expresses the ongoing result of the main clause action."
             }
-          ]
+          ],
+          "pageUrl": "session1/admat_aas2.html"
         }
       },
       "2": {
@@ -11961,20 +12027,28 @@
         "materials": {
           "videos": [
             {
-              "title": "Video 1: Pilot Walkaround: Exterior Pre-Flight Inspection on an A320",
-              "watchUrl": "https://www.youtube.com/watch?v=Uq_6b8l9Zpk",
-              "tag": "Line Operations",
-              "videoId": "Uq_6b8l9Zpk",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/Uq_6b8l9Zpk",
-              "caption": "Focus: Follow an airline captain as he checks pitot probes, gear struts, tires, and control surface free movement."
+              "title": "Video 1: Airbus A320 Preflight: Technical Exterior Walkaround",
+              "watchUrl": "https://www.youtube.com/watch?v=Tdf_Ac7_gwA",
+              "tag": "Pre-Flight",
+              "videoId": "Tdf_Ac7_gwA",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/Tdf_Ac7_gwA",
+              "caption": "Focus: Step-by-step exterior pre-departure walkaround checking pitot-static probes, gear assemblies, tires, and control surfaces."
             },
             {
-              "title": "Video 2: How Flaps and Slats Really Work",
-              "watchUrl": "https://www.youtube.com/watch?v=V3zN_bWkRMo",
-              "tag": "Aircraft Systems",
-              "videoId": "V3zN_bWkRMo",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/V3zN_bWkRMo",
-              "caption": "Focus: Discover the mechanical linkages and aerodynamic principles of leading-edge slats and trailing-edge flaps."
+              "title": "Video 2: How Airplane Flaps and Slats Work",
+              "watchUrl": "https://www.youtube.com/watch?v=fUPNN3N-oDI",
+              "tag": "Airframe Systems",
+              "videoId": "fUPNN3N-oDI",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/fUPNN3N-oDI",
+              "caption": "Focus: Understand trailing-edge flaps and leading-edge slats, hydraulic actuator tracks, camber change, and stall speed reduction."
+            },
+            {
+              "title": "Video 3: Turbofan Architecture: CFM56 Jet Engines",
+              "watchUrl": "https://www.youtube.com/watch?v=S2HymZd3GEE",
+              "tag": "Propulsion",
+              "videoId": "S2HymZd3GEE",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/S2HymZd3GEE",
+              "caption": "Focus: Inspect the compressor stages, combustion chamber, turbine blades, bypass ratio, and thrust generation in modern turbofans."
             }
           ],
           "articles": [
@@ -11991,10 +12065,67 @@
               "sourceTag": "Aviation Maintenance Magazine",
               "heading": "Conducting Visual Pre-Flight Inspections: Detecting Cracks, Dents, and Bird Strikes",
               "snippet": "A practical guide for ramp engineers and line pilots identifying structural damage on engine cowlings, radomes, and leading edges.",
-              "url": "https://www.aviationmaintenancemag.com",
+              "url": "https://www.av-maint.com",
               "readTime": "Estimated read: 5-6 mins"
             }
           ],
+          "resources": [
+            {
+              "url": "https://www.skybrary.aero/articles/flight-control-surfaces",
+              "tag": "01 • Flight Controls",
+              "name": "Skybrary: Aircraft Flight Control Surfaces",
+              "desc": "Comprehensive encyclopedia entries on primary and secondary flight control systems."
+            },
+            {
+              "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/aircraft_airframe_handbook",
+              "tag": "02 • Airframe Engineering",
+              "name": "FAA AMT Airframe Handbook (FAA-H-8083-31A)",
+              "desc": "Authoritative technical manual on aircraft structures, composite repairs, and hydraulics."
+            },
+            {
+              "url": "https://aircraft.airbus.com/en/aircraft",
+              "tag": "03 • Airbus Specifications",
+              "name": "Airbus Aircraft Family Technical Data",
+              "desc": "Official payload, dimensions, and structural specifications for the A220, A320, and A350 families."
+            },
+            {
+              "url": "https://www.boeing.com/commercial",
+              "tag": "04 • Boeing Engineering",
+              "name": "Boeing Commercial Airplanes Technical Highlights",
+              "desc": "Detailed structural diagrams and systems overview of the 737 MAX and 787 Dreamliner."
+            },
+            {
+              "url": "https://www.easa.europa.eu",
+              "tag": "05 • Maintenance Standards",
+              "name": "EASA Part-66 Aircraft Maintenance Standards",
+              "desc": "European airworthiness regulations and syllabus requirements for airframe certifications."
+            },
+            {
+              "url": "https://www.rolls-royce.com/products-and-services/civil-aerospace.aspx",
+              "tag": "06 • Engine Architecture",
+              "name": "Rolls-Royce Trent Engine Cutaway & Architecture",
+              "desc": "Interactive visualization and explanatory guides on high-bypass turbofan components."
+            }
+          ],
+          "grammar": {
+            "title": "Spatial Prepositions & Passive Voice for Pre-Flight Defect Reporting",
+            "badge": "Line Operations",
+            "patternTitle": "Aircraft Inspection Formula",
+            "formula": "Subject + is/are/was/were + Past Participle (+ Prepositional Location)",
+            "rulesTitle": "Core Communicative Guidelines",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Spatial Prepositions for Airframe Anatomy:</strong> Locates external parts precisely (<em>'Leading-edge slats are mounted along the forward wing skin; trailing-edge flaps are situated adjacent to the engine pylon'</em>).",
+              "<strong style=\"color: #1e293b;\">2. Present Passive for Structural Functions:</strong> Explains standard operational mechanisms (<em>'Hydraulic actuators are powered by redundant engine-driven pumps'</em>).",
+              "<strong style=\"color: #1e293b;\">3. Past Passive for Walkaround Defect Reports:</strong> Documents pre-departure technical anomalies (<em>'A hydraulic leak was observed near the main gear brake lines'</em>).",
+              "<strong style=\"color: #1e293b;\">4. Modal Passive for Maintenance Clearance:</strong> Mandates safety release actions (<em>'All inspection panels must be securely fastened before the aircraft is cleared for pushback'</em>)."
+            ],
+            "trap": "⚠️ TOEIC Part 5 Passive Voice Alert: Be sure to check subject-verb agreement with collective or plural aviation nouns (e.g., 'The landing gear IS inspected' vs. 'The main gear assemblies ARE inspected').",
+            "examplesTitle": "Authentic Operational Examples",
+            "examples": [
+              "During the exterior walkaround, minor surface abrasions were detected on the composite radome.",
+              "The pitot-static probes are electrically heated to prevent ice formation during climb."
+            ]
+          },
           "toeicQuestions": [
             {
               "id": 1,
@@ -12056,7 +12187,8 @@
               "correctLetter": "A",
               "explanation": "Visual information is displayed 'on' a screen or display ('on the Primary Flight Display')."
             }
-          ]
+          ],
+          "pageUrl": "session2/admat_aas2.html"
         }
       },
       "3": {
@@ -12366,20 +12498,28 @@
         "materials": {
           "videos": [
             {
-              "title": "Video 1: Airbus A350 vs. Boeing 787: The Battle for Long-Haul Efficiency",
-              "watchUrl": "https://www.youtube.com/watch?v=Jm_2d4RkL8w",
+              "title": "Video 1: How Airlines Pick Between The A350 & 787",
+              "watchUrl": "https://www.youtube.com/watch?v=XQHMFnJ1nMw",
               "tag": "Fleet Strategy",
-              "videoId": "Jm_2d4RkL8w",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/Jm_2d4RkL8w",
-              "caption": "Focus: Compare composite construction, range capability, and passenger comfort between the world's leading widebodies."
+              "videoId": "XQHMFnJ1nMw",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/XQHMFnJ1nMw",
+              "caption": "Focus: Contrast composite airframe design, range economics, fuel burn per seat, and route deployment between Airbus and Boeing."
             },
             {
-              "title": "Video 2: How Low-Cost Airlines Maximize Aircraft Utilization",
-              "watchUrl": "https://www.youtube.com/watch?v=kYv_zW8lQ3k",
-              "tag": "Aviation Economics",
-              "videoId": "kYv_zW8lQ3k",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/kYv_zW8lQ3k",
-              "caption": "Focus: Discover why single-fleet commonality and 25-minute turnarounds form the financial backbone of low-cost carriers."
+              "title": "Video 2: How Budget Airlines Work: Fleet Commonality & Economics",
+              "watchUrl": "https://www.youtube.com/watch?v=069y1MpOkQY",
+              "tag": "Airline Economics",
+              "videoId": "069y1MpOkQY",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/069y1MpOkQY",
+              "caption": "Focus: Discover why single-fleet commonality (A320/B737) and 25-minute turnarounds form the financial backbone of low-cost carriers."
+            },
+            {
+              "title": "Video 3: The Airbus A321XLR Could Change Air Travel Forever",
+              "watchUrl": "https://www.youtube.com/watch?v=NeRygjT-hGM",
+              "tag": "Emerging Aircraft",
+              "videoId": "NeRygjT-hGM",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/NeRygjT-hGM",
+              "caption": "Focus: Analyze how extra-long-range single-aisle airliners displace widebodies on thin transatlantic and secondary city routes."
             }
           ],
           "articles": [
@@ -12400,6 +12540,63 @@
               "readTime": "Estimated read: 5-6 mins"
             }
           ],
+          "resources": [
+            {
+              "url": "https://www.iata.org",
+              "tag": "01 • Airline Statistics",
+              "name": "IATA World Air Transport Statistics (WATS)",
+              "desc": "Global airline passenger numbers, cargo traffic yields, and operating fleet benchmarks."
+            },
+            {
+              "url": "https://www.flightglobal.com",
+              "tag": "02 • Fleet Intelligence",
+              "name": "FlightGlobal Commercial Fleets Directory",
+              "desc": "Comprehensive commercial airliner order books, lease agreements, and retirement data."
+            },
+            {
+              "url": "https://aircraft.airbus.com/en/market-forecast",
+              "tag": "03 • Market Projections",
+              "name": "Airbus Global Market Forecast (GMF 2024–2043)",
+              "desc": "20-year demand outlook for passenger narrowbodies, widebodies, and freighter conversions."
+            },
+            {
+              "url": "https://www.boeing.com/commercial/market/commercial-market-outlook",
+              "tag": "04 • Industry Outlook",
+              "name": "Boeing Commercial Market Outlook (CMO)",
+              "desc": "Global economic projections, passenger traffic expansion rates, and fleet renewal patterns."
+            },
+            {
+              "url": "https://airlineweekly.skift.com",
+              "tag": "05 • Airline Analysis",
+              "name": "Airline Weekly Global Airline Business News",
+              "desc": "Weekly strategic analysis of airline balance sheets, network route expansions, and fuel costs."
+            },
+            {
+              "url": "https://www.ch-aviation.com",
+              "tag": "06 • Fleet Database",
+              "name": "ch-aviation Aircraft & Fleet Database",
+              "desc": "Real-time fleet tracker detailing aircraft age, engine variants, and operator distributions."
+            }
+          ],
+          "grammar": {
+            "title": "Comparative, Superlative & Ratio Structures in Fleet Economics",
+            "badge": "Fleet Strategy",
+            "patternTitle": "Fleet Evaluation Formula",
+            "formula": "[Aircraft A] + is considerably more/less + Adj + than [Aircraft B] || Twice as + Adj + as",
+            "rulesTitle": "Core Communicative Guidelines",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Modified Comparatives for Operational Metrics:</strong> Accentuates fleet performance differences (<em>'The A321neo is significantly more fuel-efficient per seat-kilometer than older generation twinjets'</em>).",
+              "<strong style=\"color: #1e293b;\">2. Superlatives for Market Extremes:</strong> Identifies category leaders (<em>'The Boeing 777X boasts the widest commercial passenger cabin and longest range among new twin-aisle jets'</em>).",
+              "<strong style=\"color: #1e293b;\">3. Expressing Multipliers & Ratios:</strong> Compares financial and cargo yields (<em>'Widebody freighters carry nearly three times as much cargo payload as regional turboprops'</em>).",
+              "<strong style=\"color: #1e293b;\">4. Proportional Statements (The more... the more...):</strong> Links variables (<em>'The lighter the composite fuselage structure, the lower the fuel burn over long-haul sectors'</em>)."
+            ],
+            "trap": "⚠️ TOEIC Part 5 Comparative Modifiers Alert: Never use 'very' or 'more' with comparative adjectives (incorrect: 'very cheaper'). Always use degree modifiers: 'significantly', 'considerably', 'substantially', or 'slightly' (correct: 'significantly cheaper').",
+            "examplesTitle": "Authentic Operational Examples",
+            "examples": [
+              "Low-cost carriers achieve considerably higher daily aircraft utilization than legacy network carriers.",
+              "The new turbofan variant delivers a 15% reduction in carbon emissions compared to its predecessor."
+            ]
+          },
           "toeicQuestions": [
             {
               "id": 1,
@@ -12461,7 +12658,8 @@
               "correctLetter": "A",
               "explanation": "'Because of' is the causal preposition required before the noun phrase 'their low fuel burn'."
             }
-          ]
+          ],
+          "pageUrl": "session3/admat_aas2.html"
         }
       },
       "4": {
@@ -12787,20 +12985,28 @@
         "materials": {
           "videos": [
             {
-              "title": "Video 1: How Black Boxes Work & How Air Accidents are Solved",
-              "watchUrl": "https://www.youtube.com/watch?v=0k7W2T0p8k8",
-              "tag": "Investigation Technology",
-              "videoId": "0k7W2T0p8k8",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/0k7W2T0p8k8",
-              "caption": "Focus: Discover how CVR and FDR black boxes survive underwater pressure, fire, and impact to deliver crucial flight data."
+              "title": "Video 1: Black Box, FDR & CVR Explained by Captain Joe",
+              "watchUrl": "https://www.youtube.com/watch?v=lPiWlBG16Wo",
+              "tag": "Flight Recorders",
+              "videoId": "lPiWlBG16Wo",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/lPiWlBG16Wo",
+              "caption": "Focus: Understand how underwater locator beacons, Flight Data Recorders, and Cockpit Voice Recorders withstand impacts to preserve telemetry."
             },
             {
-              "title": "Video 2: The Aviation Safety Revolution: Lessons from Landmark Accidents",
-              "watchUrl": "https://www.youtube.com/watch?v=D_9kL_3Qy7U",
-              "tag": "Safety History",
-              "videoId": "D_9kL_3Qy7U",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/D_9kL_3Qy7U",
-              "caption": "Focus: See how major accidents over the past 50 years transformed cockpit culture, ATC phraseology, and systems engineering."
+              "title": "Video 2: NTSB Animation Flight 1549 Hudson River Landing US Airways",
+              "watchUrl": "https://www.youtube.com/watch?v=pWpSAfF6elI",
+              "tag": "Accident Reconstruction",
+              "videoId": "pWpSAfF6elI",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/pWpSAfF6elI",
+              "caption": "Focus: Analyze the official NTSB synchronized FDR data, ATC radar track, and radio transcripts during the dual-engine goose ingestion ditching."
+            },
+            {
+              "title": "Video 3: Boeing 737 MAX and Swiss Cheese: Systemic Accident Causation",
+              "watchUrl": "https://www.youtube.com/watch?v=ol0L9quUq_Y",
+              "tag": "Human Factors",
+              "videoId": "ol0L9quUq_Y",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/ol0L9quUq_Y",
+              "caption": "Focus: Explore how latent engineering vulnerabilities, regulatory delegation, and flight crew alerting lined up in the Swiss Cheese model."
             }
           ],
           "articles": [
@@ -12821,6 +13027,63 @@
               "readTime": "Estimated read: 5-6 mins"
             }
           ],
+          "resources": [
+            {
+              "url": "https://bea.aero/en",
+              "tag": "01 • Official Reports",
+              "name": "BEA (Bureau d'Enquêtes et d'Analyses)",
+              "desc": "French civil aviation safety authority publishing authoritative final accident investigation reports."
+            },
+            {
+              "url": "https://www.ntsb.gov/investigations/accidentreports/pages/aviation.aspx",
+              "tag": "02 • Investigation Database",
+              "name": "NTSB Aviation Accident Investigation Database",
+              "desc": "US National Transportation Safety Board database with factual dockets and probable cause findings."
+            },
+            {
+              "url": "https://www.icao.int/safety/air-navigation/Pages/aig.aspx",
+              "tag": "03 • International Standards",
+              "name": "ICAO Annex 13: Aircraft Accident Investigation",
+              "desc": "Standardized international treaty protocols governing investigator rights and report transparency."
+            },
+            {
+              "url": "https://aviation-safety.net",
+              "tag": "04 • Safety Knowledgebase",
+              "name": "Aviation Safety Network (ASN) Database",
+              "desc": "Global historical flight occurrence archive tracking hull losses, airframe types, and fatalities."
+            },
+            {
+              "url": "https://www.skybrary.aero/articles/accident-and-incident-investigation",
+              "tag": "05 • Safety Research",
+              "name": "Skybrary: Aviation Accident Investigation Toolkit",
+              "desc": "In-depth tutorials on black box data extraction, metallurgical analysis, and human factors."
+            },
+            {
+              "url": "https://www.eurocontrol.int/safety",
+              "tag": "06 • European Safety",
+              "name": "EUROCONTROL Safety Improvement Initiatives",
+              "desc": "European air navigation safety briefings on runway incursions, level busts, and wake turbulence."
+            }
+          ],
+          "grammar": {
+            "title": "Past Narrative Tenses & Time Linkers in Accident Chronologies",
+            "badge": "Flight Recorders",
+            "patternTitle": "Accident Investigation Formula",
+            "formula": "While + Past Continuous, Past Simple || Subject + had + Past Participle (Past Perfect)",
+            "rulesTitle": "Core Communicative Guidelines",
+            "rules": [
+              "<strong style=\"color: #1e293b;\">1. Past Continuous for Background Conditions:</strong> Sets the atmospheric and operational scene (<em>'While the flight was cruising in severe icing conditions at FL350, the pitot probes iced over'</em>).",
+              "<strong style=\"color: #1e293b;\">2. Past Simple for Sequential Chain of Events:</strong> Recounts the chronological trigger events (<em>'The autopilot disconnected, the master warning sounded, and the captain initiated recovery'</em>).",
+              "<strong style=\"color: #1e293b;\">3. Past Perfect for Pre-Existing Latent Conditions:</strong> Identifies maintenance or regulatory oversights prior to departure (<em>'Investigators revealed that technicians had installed an incorrect adhesive during an overhaul six months earlier'</em>).",
+              "<strong style=\"color: #1e293b;\">4. Cause-and-Effect Narrative Subordinators:</strong> Connects human factors to systemic outcomes (<em>'Because the flight crew had received insufficient simulator training on the new trim system, they failed to recognize the runaway trim'</em>)."
+            ],
+            "trap": "⚠️ TOEIC Part 5 Narrative Tense Alert: When two actions happened in the past, the earlier event MUST use the Past Perfect ('had + verb3'), not the Past Simple (<em>'The crew realized that the controller had assigned them the wrong heading'</em>).",
+            "examplesTitle": "Authentic Operational Examples",
+            "examples": [
+              "While the aircraft was descending on approach, the ground proximity warning system alerted the crew to rising terrain.",
+              "The BEA safety board determined that sensor discrepancy had triggered inappropriate flight control law degradation."
+            ]
+          },
           "toeicQuestions": [
             {
               "id": 1,
@@ -12882,7 +13145,8 @@
               "correctLetter": "A",
               "explanation": "'In order to' is followed by the bare base form of the verb ('prevent')."
             }
-          ]
+          ],
+          "pageUrl": "session4/admat_aas2.html"
         }
       }
     }
