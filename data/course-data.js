@@ -573,6 +573,14 @@
                             "badge": "Session Overview • Travel & Transport"
                   },
                   "openingSession": {
+                    "modeBadges": ["👥 Pair Recall","⏱️ 5 min pairs + 5 min plenary","🗣️ Spoken Spot-Check"],
+                    "instructions": [
+                      "Step 1 (Headlines - 3 mins): In pairs, ask each other: \"What major travel or transit news caught your eye this week?\" Share one headline and its significance.",
+                      "Step 2 (Diagnostic Recall - 4 mins): Take turns testing each other on the 4 foundational travel distinctions below without looking at the answers.",
+                      "Step 3 (Verify - 3 mins): Click \"Reveal Answer\" to check your reasoning. Identify which distinction is easiest to confuse in spoken conversations."
+                    ],
+                    "deliverable": "Accurately articulate one travel distinction during the teacher spot-check.",
+                    "teacherNotes": "Cold-call 2 random pairs to define \"Layover vs. Stopover\" and \"Direct vs. Non-stop\". Clarify why airlines and booking portals define these differently. Board high-frequency collocations.",
                             "title": "Activity 1: Travel News & Course Entry Diagnostic (10 mins)",
                             "summary": "Every class begins with a 10-minute opening: discussing current travel headlines and checking our understanding of foundational travel terms.",
                             "newsPrompts": [
@@ -607,6 +615,14 @@
                             }
                   },
                   "survey": {
+                    "modeBadges": ["👥 Speed-Dating Rotation","⏱️ 4 min per dilemma","🗣️ Spoken Debate","🎯 Agreement Signposts"],
+                    "instructions": [
+                      "Step 1 (Pair Setup): Partner A defends the statement; Partner B provides the counter-argument using the Support/Counter prompts.",
+                      "Step 2 (Timed Debate - 3 mins/topic): Speak for 90 seconds each. You MUST incorporate at least one target conversation signpost from the reference box below.",
+                      "Step 3 (Consensus & Rotate): Agree on a compromise position, record your partner's key point, and rotate to the next dilemma."
+                    ],
+                    "deliverable": "Summarize your partner's most convincing counter-argument during the class roundup.",
+                    "teacherNotes": "Enforce active speed-dating rotation: call \"Switch roles!\" every 4 minutes. Circulate to check usage of polite disagreement signposts (\"While I see your point, ...\"). Board 2 exceptional student phrases.",
                             "title": "Activity 2: Global Travel Dilemmas: Speed Discussion (25 mins)",
                             "summary": "Conduct structured speed-dating interviews on 4 prominent travel dilemmas. Practice expressing clear agreement or disagreement, providing concrete reasons, and using polite conversation signposts.",
                             "signposts": [
@@ -651,6 +667,14 @@
                             ]
                   },
                   "collocationsClinic": {
+                    "modeBadges": ["👥 Pair Challenge","⏱️ 10 min study + 10 min quiz","📝 Lexis Practice","🎯 B2 Collocations"],
+                    "instructions": [
+                      "Step 1 (Contextualize - 8 mins): Read each collocation and its workplace example with your partner. Create an original sentence using \"clear customs\" and \"miss a connection\".",
+                      "Step 2 (Quiz Challenge - 8 mins): Complete the 4-question interactive diagnostic challenge individually without looking at notes.",
+                      "Step 3 (Peer Review - 4 mins): Compare answers with your partner, click \"Check Answer\", and analyze why the distractors are incorrect."
+                    ],
+                    "deliverable": "Achieve 4/4 on the diagnostic quiz and record one new collocation in your personal study log.",
+                    "teacherNotes": "Emphasize prepositional dependency: \"book in advance\", \"off the beaten track\". In the quiz, highlight TOEIC Part 5 distractor patterns (e.g. adverbs modifying participle clauses).",
                             "title": "Activity 3: Language Clinic: Essential Travel Collocations & Idioms (20 mins)",
                             "summary": "Master high-frequency B2 collocations and common idioms used in travel, tourism, and everyday transport contexts.",
                             "items": [
@@ -732,6 +756,14 @@
                             }
                   },
                   "grammarClinic": {
+                    "modeBadges": ["👤 Individual Prep + 👥 Spoken Exchange","⏱️ 10 min rules + 15 min storytelling","🎯 Past Perfect & Inversions"],
+                    "instructions": [
+                      "Step 1 (Rule Master - 8 mins): Review the 3 narrative formulas: scene-setting (Past Continuous), sequence (Past Simple), and background trigger (Past Perfect).",
+                      "Step 2 (Sentence Inversion - 7 mins): Complete the sentence inversion practice prompts. Click \"Show Model Answer\" to verify subject-auxiliary word order.",
+                      "Step 3 (Storytelling Practice - 10 mins): In pairs, tell a 90-second personal travel anecdote about a flight delay, train mix-up, or lost item. Include at least one dramatic inversion (\"Hardly had I... when...\")."
+                    ],
+                    "deliverable": "Deliver a 90-second travel anecdote incorporating one negative inversion structure.",
+                    "teacherNotes": "Watch for the common French false friend inversion error: ensure auxiliary verb precedes the subject (\"Hardly had I arrived...\", NOT \"Hardly I had arrived...\"). Invite one student with a dramatic anecdote to share with the whole class.",
                             "title": "Activity 4: Grammar Clinic: Narrative Tenses & Storytelling Inversions (25 mins)",
                             "summary": "Use Past Simple and Past Continuous together to set scenes and describe sudden events. Then use inversion structures to tell dramatic travel stories.",
                             "rules": [
@@ -765,6 +797,14 @@
                             ]
                   },
                   "rolePlay": {
+                    "modeBadges": ["🎭 Pair Simulation","⏱️ 5 min prep + 15 min simulation + 10 min debrief","👥 Passenger vs. Station Agent","🎯 De-escalation Lexis"],
+                    "instructions": [
+                      "Step 1 (Role Prep - 5 mins): Person A = Passenger with tight Tokyo connection; Person B = Airline Customer Service Agent. Read your role card and plan 3 key phrases.",
+                      "Step 2 (Live Simulation - 15 mins): Conduct the interaction in real time. Passenger expresses urgency without shouting; Agent remains empathetic, cites EU261 duty of care, and negotiates rebooking.",
+                      "Step 3 (Role Swap & Debrief - 10 mins): Swap roles and repeat. Conclude by rating each other on diplomatic tone and clear explanation."
+                    ],
+                    "deliverable": "Formulate a mutually agreed rebooking and meal voucher compensation agreement.",
+                    "teacherNotes": "Act as the Station Operations Director. Circulate and intervene with unexpected injects: \"Announcement: The Tokyo flight departure is delayed by 45 minutes; you now have a 50-minute window.\" Observe how students adjust their negotiation strategy.",
                             "title": "Activity 5: Role-Play Simulation: Flight Delay & Missing a Connection (30 mins)",
                             "summary": "Practice de-escalating customer frustration and explaining options calmly during a travel disruption.",
                             "scenario": "Flight LH2214 from Toulouse to Munich is delayed by 2.5 hours because of bad weather and technical checks. Several passengers have tight onward connections to Tokyo and Chicago.",
@@ -793,6 +833,14 @@
                             "task": "Work with your partner for 4 minutes per role, then switch roles. Focus on polite phrases, clear explanations, and active listening."
                   },
                   "closingReview": {
+                    "modeBadges": ["👤 Individual Self-Assessment","⏱️ 10 mins","📝 Exit Ticket","🎯 Pronunciation Drill"],
+                    "instructions": [
+                      "Step 1 (Rapid Drill - 4 mins): Read the 18 session vocabulary items aloud with correct word stress and syllabic emphasis.",
+                      "Step 2 (Personal Selection - 3 mins): Star 3 words that are completely new to you and write a personal workplace sentence for each.",
+                      "Step 3 (Exit Ticket - 3 mins): Complete the digital study log reflection prompt before leaving the session."
+                    ],
+                    "deliverable": "Submit your completed 3-sentence exit ticket and study log entry.",
+                    "teacherNotes": "Lead a choral pronunciation drill focusing on difficult phonemes: \"itinerary\" /aɪˈtɪnərəri/, \"infrastructure\", \"scheduled\". Collect quick verbal exit tickets at the door.",
                             "title": "Activity 6: 10-Minute Vocabulary Wrap-Up & Exit Ticket (10 mins)",
                             "summary": "Consolidate today's learning: review the pronunciation of all 18 key terms, check your word stress, and write one reflection in your study log.",
                             "vocabWords": [
@@ -8228,6 +8276,14 @@
             "subtitle": "Commercial Aviation Dilemmas, Passenger Disruption & Regulatory Modals"
           },
           "openingSession": {
+                    "modeBadges": ["👥 Pair Spot-Check","⏱️ 5 min pairs + 5 min debrief","🗣️ Lexical Recall","🎯 Operational Acronyms"],
+                    "instructions": [
+                      "Step 1 (Headlines - 3 mins): In pairs, discuss the headline prompts: \"What airline or air traffic management story made news this week?\"",
+                      "Step 2 (Diagnostic - 4 mins): Take turns testing each other on the 4 aviation distinctions (e.g. Ground Handler vs. Turnaround Coordinator) without revealing answers.",
+                      "Step 3 (Check - 3 mins): Click \"Reveal Answer\" to verify the exact ICAO/operational definitions."
+                    ],
+                    "deliverable": "Accurately articulate the operational distinction between one pair of roles.",
+                    "teacherNotes": "Focus on professional aviation register. Board the core acronyms: AODB, TRC, GPU, GSE. Elicit why clear role boundaries prevent airside safety incidents.",
             "title": "Activity 1: Aviation News & Course Entry Diagnostic (10 mins)",
             "summary": "Every class begins with a 10-minute professional opening: analyzing current aviation headlines and testing our understanding of foundational aviation distinctions.",
             "newsPrompts": [
@@ -8262,6 +8318,14 @@
             }
           },
           "survey": {
+                    "modeBadges": ["👥 Speed-Dating Rotation","⏱️ 4 min per dilemma","🗣️ Technical Debate","🎯 Professional Signposts"],
+                    "instructions": [
+                      "Step 1 (Pairing): Review Topic 01–04. Partner A argues for stricter regulation; Partner B defends economic flexibility.",
+                      "Step 2 (Timed Debate - 3 mins/topic): Debate each statement. Both speakers MUST incorporate one signpost phrase from the reference box below.",
+                      "Step 3 (Class Consensus): Vote on Topic 01 (Cockpit Defense) and Topic 03 (Turnaround Targets) with a show of hands."
+                    ],
+                    "deliverable": "Summarize your partner's argument and deliver a 30-second spoken consensus.",
+                    "teacherNotes": "Keep pace brisk. Ring a bell at 4 minutes to force rotation. Note down grammatical errors with modal verbs (\"must to comply\" -> \"must comply\") for the upcoming Language Clinic.",
             "title": "Activity 2: The Global Aviation Survey (25 mins)",
             "summary": "Conduct structured speed-dating interviews on 4 prominent commercial aviation dilemmas. Practice expressing nuanced agreement, providing concrete justifications, and using professional opinion signposts.",
             "signposts": [
@@ -8306,6 +8370,14 @@
             ]
           },
           "modalsClinic": {
+                    "modeBadges": ["👤 Individual Analysis + 👥 Regulatory Peer Check","⏱️ 10 min rules + 15 min drills","🎯 Must / May / Shall"],
+                    "instructions": [
+                      "Step 1 (Regulatory Matrix - 8 mins): Study the difference between mandatory obligations (\"must / shall\"), conditional permission (\"may\"), and strict prohibition (\"must not\").",
+                      "Step 2 (ICAO Drafting - 10 mins): Complete the regulatory sentence drills by inserting the correct modal verb for aviation security rules.",
+                      "Step 3 (Peer Audit - 7 mins): Cross-check your answers with your partner. Explain WHY a recommendation (\"should\") would be legally insufficient in safety directives."
+                    ],
+                    "deliverable": "Complete 5 regulatory sentences using accurate ICAO standard modal phrasing.",
+                    "teacherNotes": "Highlight that in ICAO Annexes, \"shall\" indicates mandatory standard, while \"should\" is a recommended practice. Point out TOEIC traps where modal verbs are followed by bare infinitives.",
             "title": "Activity 3: Language Clinic: Modals of Obligation, Permission & Prohibition (25 mins)",
             "summary": "Master the precise grammar of operational authority. Distinguish absolute safety obligations from prohibitions, official authorizations, and operational advice without relying on technical jargon.",
             "rules": [
@@ -8370,6 +8442,14 @@
             }
           },
           "operationalCaseStudy": {
+                    "modeBadges": ["👥 Case Study Investigation","⏱️ 8 min reading + 12 min pair analysis + 5 min plenary","🎯 Passenger Rights vs. Safety"],
+                    "instructions": [
+                      "Step 1 (Read Scenario - 5 mins): Analyze the Flight AF7724 diversion and delay timeline caused by technical fault vs. meteorological closure.",
+                      "Step 2 (Legal Assessment - 12 mins): In pairs, evaluate whether the airline owes compensation under EU261 \"extraordinary circumstances\" rules.",
+                      "Step 3 (Duty of Care Checklist - 8 mins): Formulate the mandatory passenger care package (hotel, food vouchers, re-routing communication)."
+                    ],
+                    "deliverable": "Draft a 3-point operational passenger briefing resolving the disruption.",
+                    "teacherNotes": "Challenge pairs with a curveball: \"The captain claims weather, but maintenance records show a deferred hydraulic valve.\" How does this affect airline liability? Elicit precise modal arguments.",
             "title": "Activity 4: Operational Dilemma: The EU261 Delay & Disruption Case Study (25 mins)",
             "summary": "A realistic airport concourse scenario: Flight AF1420 to Paris-CDG is delayed by 4 hours due to an incoming maintenance issue and a destination night curfew. Passengers are anxious and demanding cash payouts.",
             "roles": [
@@ -8397,6 +8477,14 @@
             "task": "Conduct a 4-minute spoken role-play with your partner. Then swap roles. Focus on de-escalation, professional courtesy, and accurate explanation of passenger rights."
           },
           "miniDebate": {
+                    "modeBadges": ["👥👥 Groups of 4 • Stakeholder Committee","⏱️ 5 min prep + 15 min debate + 5 min pitch","🗣️ 60-Second Briefing"],
+                    "instructions": [
+                      "Step 1 (Role Allocation - 5 mins): Form teams of 4: Airport Director, Airline Station Manager, Air Traffic Control Supervisor, Passenger Rights Representative.",
+                      "Step 2 (Committee Deliberation - 15 mins): Debate how to allocate scarce airport slots during a weather recovery sequence.",
+                      "Step 3 (Consensus Pitch - 5 mins): Elect a spokesperson to present the committee's final operational decision in 60 seconds."
+                    ],
+                    "deliverable": "Deliver a 60-second spoken shift handover briefing summarizing the consensus plan.",
+                    "teacherNotes": "Act as the Civil Aviation Authority Observer. Time each spokesperson strictly at 60 seconds. Evaluate against clarity, target lexis, and professional composure.",
             "title": "Activity 5: Station Mini-Debate & Spoken Consensus Briefing (25 mins)",
             "summary": "In small groups of 3 to 4, prepare and deliver structured arguments on an aerodrome management policy debate. Structure your arguments with a clear Claim, Operational Evidence, and Real-World Impact.",
             "motion": "Motion: All commercial aerodromes should introduce a total ban on alcohol retail sales in departure lounges and on flights under 3 hours.",
@@ -8428,6 +8516,14 @@
             }
           },
           "closingReview": {
+                    "modeBadges": ["👤 Individual Self-Assessment","⏱️ 10 mins","📝 Study Log","🎯 Pronunciation Drill"],
+                    "instructions": [
+                      "Step 1 (Pronunciation - 4 mins): Practice pronouncing the 18 core terms with emphasis on word stress (e.g., ca'pacity, co'mpliance, tur'naround).",
+                      "Step 2 (Sentence Drill - 3 mins): Write 2 original operational sentences combining at least 3 target terms.",
+                      "Step 3 (Formative Evaluation Check - 3 mins): Review the FE1 criteria card and note one personal speaking skill to develop for next week."
+                    ],
+                    "deliverable": "Complete the session exit ticket and submit your self-assessment log.",
+                    "teacherNotes": "Lead choral repetition on tricky stress patterns: \"au'thority\", \"juris'diction\", \"con'tingency\". Remind students about next week's Session 2 content.",
             "title": "Activity 6: 10-Minute Vocabulary Review, Pronunciation & Class Wrap-Up (10 mins)",
             "summary": "Consolidate today's 18 vocabulary terms, test your word stress, and update your personal English learning portfolio.",
             "reviewPrompts": [
