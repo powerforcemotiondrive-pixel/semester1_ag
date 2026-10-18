@@ -14635,7 +14635,10 @@
           }
         ]
       },
-      "revision": [
+      "revision": {
+        "title": "Session 1 Technical Vocabulary & Flashcards",
+        "summary": "Master the 18 essential technical terms and phraseology for aeromedical emergencies, crew fitness, and human factors.",
+        "terms": [
         {
           "num": "01",
           "term": "cardiac arrest",
@@ -14780,22 +14783,33 @@
           "definition": "A pre-flight personal fitness self-assessment mnemonic: Illness, Medication, Stress, Alcohol, Fatigue, and Emotion/Eating.",
           "example": "Before reporting for departure, every aviator must run through the IMSAFE checklist to ensure complete fitness for duty."
         }
-      ],
+      ]
+      },
       "materials": {
         "videos": [
           {
-            "tag": "EASA Safety & Human Factors",
-            "title": "Fatigue Risk Management in Commercial Aviation Operations",
-            "duration": "14:20",
-            "channel": "European Union Aviation Safety Agency (EASA)",
-            "summary": "Technical briefing detailing circadian disruptions, sleep debt accumulation, and practical fatigue countermeasures for flight crew and air traffic controllers."
+            "title": "Video 1: In-Flight Medical Emergencies & Passenger Care",
+            "watchUrl": "https://www.youtube.com/watch?v=F3aJt3k_TqM",
+            "tag": "In-Flight Medicine",
+            "videoId": "F3aJt3k_TqM",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/F3aJt3k_TqM",
+            "caption": "Focus: Analyze in-flight passenger triage, Emergency Medical Kit (EMK) deployment, onboard AED shock delivery, and Captain medical diversion decision points."
           },
           {
-            "tag": "Aviation Medicine",
-            "title": "Managing In-Flight Medical Emergencies at 35,000 Feet",
-            "duration": "12:45",
-            "channel": "Aerospace Medical Association",
-            "summary": "Aviation medical specialists demonstrate EMK utilization, satellite telemedicine triage, and critical decision metrics for airborne diversions."
+            "title": "Video 2: Pilot Fatigue & The Window of Circadian Low",
+            "watchUrl": "https://www.youtube.com/watch?v=2r1p8DkE8dM",
+            "tag": "Human Factors & FTL",
+            "videoId": "2r1p8DkE8dM",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/2r1p8DkE8dM",
+            "caption": "Focus: Examine circadian desynchrony, micro-sleep risks, Flight Time Limitations (FTL), and controlled rest protocols on the flight deck."
+          },
+          {
+            "title": "Video 3: Hypoxia, Spatial Disorientation & Vestibular Illusions",
+            "watchUrl": "https://www.youtube.com/watch?v=kU4vFOTrWEO",
+            "tag": "Aeromedical Physics",
+            "videoId": "kU4vFOTrWEO",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/kU4vFOTrWEO",
+            "caption": "Focus: Observe rapid decompression effects, Time of Useful Consciousness (TUC) at FL350, and vestibular illusions like The Leans and Graveyard Spiral."
           }
         ],
         "resources": [
@@ -15289,7 +15303,10 @@
           }
         ]
       },
-      "revision": [
+      "revision": {
+        "title": "Session 2 Technical Vocabulary & Flashcards",
+        "summary": "Master the 18 essential technical terms and phraseology for aviation meteorology, severe convective weather, and atmospheric hazards.",
+        "terms": [
         {
           "num": "01",
           "term": "microburst",
@@ -15434,22 +15451,33 @@
           "definition": "Turbulence formed by a pair of counter-rotating counter vortices trailing behind an aircraft's wingtips as a byproduct of generating lift.",
           "example": "ATC applied four minutes of mandatory radar spacing behind the Airbus A380 super-heavy to allow wake vortices to dissipate."
         }
-      ],
+      ]
+      },
       "materials": {
         "videos": [
           {
-            "tag": "ICAO Meteorology",
-            "title": "Low-Level Windshear & Microburst Avoidance for Commercial Pilots",
-            "duration": "16:15",
-            "channel": "International Civil Aviation Organization (ICAO)",
-            "summary": "Detailed technical analysis of the physical dynamics of thunderstorm microbursts, onboard predictive windshear radar, and immediate recovery pitch attitudes."
+            "title": "Video 1: Microbursts, Windshear & The Crash of Delta 191",
+            "watchUrl": "https://www.youtube.com/watch?v=sI91xU1d8kU",
+            "tag": "Convective Hazards",
+            "videoId": "sI91xU1d8kU",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/sI91xU1d8kU",
+            "caption": "Focus: Study the aerodynamics of intense convective downdrafts, Terminal Doppler Weather Radar (TDWR), and mandatory windshear escape maneuvers."
           },
           {
-            "tag": "Accident Investigation",
-            "title": "BA 009: When Volcanic Ash Paralyzed a 747 Over Jakarta",
-            "duration": "15:30",
-            "channel": "Aviation Safety Network Case Studies",
-            "summary": "Engineering reconstruction of the Mount Galunggung volcanic ash encounter, turbine blade glazed ceramic coating, and the successful multi-engine restart."
+            "title": "Video 2: Volcanic Ash Cloud Encounter: British Airways Flight 009",
+            "watchUrl": "https://www.youtube.com/watch?v=mD0iXq8X_hE",
+            "tag": "Volcanic Hazards",
+            "videoId": "mD0iXq8X_hE",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/mD0iXq8X_hE",
+            "caption": "Focus: Review the 1982 Galunggung encounter where volcanic ash caused quad engine flameout, turbine glass coating, and St. Elmo's fire."
+          },
+          {
+            "title": "Video 3: Decoding Aviation Weather: METAR, TAF & SIGMET Masterclass",
+            "watchUrl": "https://www.youtube.com/watch?v=5Vl8eM2uXpQ",
+            "tag": "Aeronautical Meteorology",
+            "videoId": "5Vl8eM2uXpQ",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/5Vl8eM2uXpQ",
+            "caption": "Focus: Master spoken operational translation of raw ICAO telecommunication strings, gust reports, runway visual range, and convective SIGMET advisories."
           }
         ],
         "resources": [
@@ -15952,7 +15980,10 @@
           }
         ]
       },
-      "revision": [
+      "revision": {
+        "title": "Session 3 Technical Vocabulary & Flashcards",
+        "summary": "Master the 18 essential technical terms and phraseology for aviation safety management, airport security layers, and airframe inspections.",
+        "terms": [
         {
           "num": "01",
           "term": "aviation safety",
@@ -16097,22 +16128,33 @@
           "definition": "Deliberate destruction or damage of an aircraft, airport facility, or navigational aid to obstruct operations or cause casualties.",
           "example": "Airport perimeter patrols and CCTV coverage are designed to detect and thwart any attempted sabotage of aviation fuel tanks."
         }
-      ],
+      ]
+      },
       "materials": {
         "videos": [
           {
-            "tag": "ICAO Security",
-            "title": "Aviation Security Architecture: Implementing ICAO Annex 17",
-            "duration": "14:45",
-            "channel": "International Civil Aviation Organization (ICAO)",
-            "summary": "Comprehensive overview of landside security zones, automated explosive detection CT scanners, biometric passenger tokens, and perimeter intrusion detection."
+            "title": "Video 1: Aviation Safety vs. Security: Legal Jurisdictions & Standards",
+            "watchUrl": "https://www.youtube.com/watch?v=8V7Zk3kX_w0",
+            "tag": "Regulatory Framework",
+            "videoId": "8V7Zk3kX_w0",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/8V7Zk3kX_w0",
+            "caption": "Focus: Contrast unintentional technical and human hazards governed by Annex 19 (Safety Management) with deliberate malicious acts governed by Annex 17 (Security)."
           },
           {
+            "title": "Video 2: Modern Airport Security Architecture: CT Scanners & Baggage Screening",
+            "watchUrl": "https://www.youtube.com/watch?v=1Xk_w2kL9e0",
+            "tag": "Airport Security",
+            "videoId": "1Xk_w2kL9e0",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/1Xk_w2kL9e0",
+            "caption": "Focus: Explore 3D computed tomography (CT) explosive detection, automated tray return lanes, millimeter-wave body scanners, and airside restricted access controls."
+          },
+          {
+            "title": "Video 3: Commercial Pilot Pre-Flight Walkaround Inspection Guide",
+            "watchUrl": "https://www.youtube.com/watch?v=6vU_m9kX2qY",
             "tag": "Flight Operations",
-            "title": "The Commercial Pilot Pre-Flight Walkaround Inspection Guide",
-            "duration": "15:20",
-            "channel": "EASA Flight Crew Training Standards",
-            "summary": "Detailed video walkthrough detailing clockwise fuselage inspection, pitot-static covers, angle of attack vanes, landing gear pins, and control surface checks."
+            "videoId": "6vU_m9kX2qY",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/6vU_m9kX2qY",
+            "caption": "Focus: Conduct a step-by-step clockwise exterior airframe inspection: pitot-static probes, angle of attack vanes, landing gear pins, brake wear indicators, and control surfaces."
           }
         ],
         "resources": [
@@ -16577,7 +16619,10 @@
           }
         ]
       },
-      "revision": [
+      "revision": {
+        "title": "Session 4 Technical Vocabulary & Flashcards",
+        "summary": "Master the 18 essential technical terms and phraseology for the Semester 1 capstone review, crisis communications, and media press briefings.",
+        "terms": [
         {
           "num": "01",
           "term": "airside operations",
@@ -16722,22 +16767,33 @@
           "definition": "A structured, professional presentation given to journalists and news media to announce factual developments and answer questions following an incident.",
           "example": "The airline's Chief Flight Safety Officer delivered a formal press briefing regarding the transatlantic emergency diversion."
         }
-      ],
+      ]
+      },
       "materials": {
         "videos": [
           {
-            "tag": "Semester Review",
-            "title": "Commercial Aviation Engineering & Flight Operations Capstone",
-            "duration": "18:20",
-            "channel": "ENAC Aeronautical Sciences Review",
-            "summary": "Comprehensive semester retrospective integrating aerodrome layouts, flight aerodynamics, jet propulsion, aeromedical human factors, and crisis safety management."
+            "title": "Video 1: Aviation Crisis Communications: Press Briefings Under Scrutiny",
+            "watchUrl": "https://www.youtube.com/watch?v=3Vk_9kL8mP0",
+            "tag": "Media Briefing",
+            "videoId": "3Vk_9kL8mP0",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/3Vk_9kL8mP0",
+            "caption": "Focus: Professional communication guidelines for airline and airport spokespersons delivering live situation briefings and responding to adversarial media questions."
           },
           {
-            "tag": "Media Briefing",
-            "title": "Aviation Crisis Communications & Press Conference Masterclass",
-            "duration": "14:10",
-            "channel": "IATA Corporate Communications Training",
-            "summary": "Professional communication guidelines for airline and airport spokespersons delivering live situation briefings and responding to adversarial media questions."
+            "title": "Video 2: Commercial Aviation Engineering & Flight Operations Capstone",
+            "watchUrl": "https://www.youtube.com/watch?v=9Xm_1l9k0eQ",
+            "tag": "Semester Review",
+            "videoId": "9Xm_1l9k0eQ",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/9Xm_1l9k0eQ",
+            "caption": "Focus: Comprehensive semester retrospective integrating aerodrome layouts, flight aerodynamics, jet propulsion, aeromedical human factors, and crisis safety management."
+          },
+          {
+            "title": "Video 3: Inside Air Accident Investigation: How BEA & NTSB Solve Disasters",
+            "watchUrl": "https://www.youtube.com/watch?v=4Ym_7kL1pW0",
+            "tag": "Investigation Standards",
+            "videoId": "4Ym_7kL1pW0",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/4Ym_7kL1pW0",
+            "caption": "Focus: Follow flight data and cockpit voice recorder readout, wreckage reconstruction, human performance modeling, and the issuance of safety recommendations."
           }
         ],
         "resources": [

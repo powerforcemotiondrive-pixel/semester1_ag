@@ -1,7 +1,7 @@
     function renderRevisionTab(sessionData, theme) {
       const bodyEl = document.getElementById('modal-body');
       const rev = sessionData.revision || { terms: [], summary: '' };
-      const terms = rev.terms || [];
+      const terms = Array.isArray(rev) ? rev : (rev.terms || sessionData.vocabulary || []);
       const masteredList = getMasteredTerms(modalState.modNum, modalState.sessionNum);
       const isGrid = modalState.flashcardMode === 'grid';
 
@@ -148,20 +148,31 @@
               <span class="text-[11px] text-slate-500">Subtitled on YouTube</span>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5">
-              ${vids.map((v, i) => `
+              ${vids.map((v, i) => {
+                const title = v.title || `Video ${i + 1}`;
+                const watchUrl = v.watchUrl || (v.videoId ? `https://www.youtube.com/watch?v=${v.videoId}` : (v.url || '#'));
+                const embedUrl = v.embedUrl || (v.videoId ? `https://www.youtube-nocookie.com/embed/${v.videoId}` : '');
+                const caption = v.caption || v.summary || '';
+                return `
                 <div class="bg-white border border-slate-200 rounded-xl p-3 flex flex-col justify-between shadow-xs">
                   <div>
                     <div class="flex items-center justify-between gap-1 pb-1.5 border-b border-slate-100 text-xs">
-                      <span class="font-bold text-slate-800 truncate" title="${v.title}">Video ${i + 1}: ${v.title.replace(/^Video \d+:\s*/, '')}</span>
-                      <a href="${v.watchUrl}" target="_blank" rel="noopener noreferrer" class="text-[10px] font-bold text-rose-700 bg-rose-50 border border-rose-200 hover:bg-rose-100 px-2 py-0.5 rounded-full shrink-0 no-underline transition-all">Watch ↗</a>
+                      <span class="font-bold text-slate-800 truncate" title="${title}">Video ${i + 1}: ${title.replace(/^Video \d+:\s*/, '')}</span>
+                      <a href="${watchUrl}" target="_blank" rel="noopener noreferrer" class="text-[10px] font-bold text-rose-700 bg-rose-50 border border-rose-200 hover:bg-rose-100 px-2 py-0.5 rounded-full shrink-0 no-underline transition-all">Watch ↗</a>
                     </div>
                     <div class="aspect-video w-full my-2 bg-slate-900 rounded-lg overflow-hidden border border-slate-200">
-                      <iframe class="w-full h-full" src="${v.embedUrl}" title="${v.title}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      ${embedUrl ? `<iframe class="w-full h-full" src="${embedUrl}" title="${title}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>` : `
+                        <div class="w-full h-full flex flex-col items-center justify-center p-4 text-center text-slate-300 space-y-1.5">
+                          <svg width="28" height="28" fill="currentColor" class="text-rose-500" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+                          <span class="text-xs font-bold text-white line-clamp-1">${v.channel || 'Technical Video Briefing'}</span>
+                          <span class="text-[10px] text-slate-400">${v.duration || 'Briefing Video'}</span>
+                        </div>
+                      `}
                     </div>
-                    <p class="text-[11px] text-slate-600 leading-relaxed">${v.caption}</p>
+                    <p class="text-[11px] text-slate-600 leading-relaxed">${caption}</p>
                   </div>
                 </div>
-              `).join('')}
+              `;}).join('')}
             </div>
           </div>
 
