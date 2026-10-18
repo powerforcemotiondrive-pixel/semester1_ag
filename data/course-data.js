@@ -6436,68 +6436,73 @@
         "session": 3,
         "objectives": {
           "title": "Session 3 - Ground Operations & Turnaround Objectives",
-          "summary": "By the end of this session, you will be able to clearly describe airside vehicles and their functions, sequence turnaround operations using precise time linkers, explain ramp delays using formal cause-and-effect structures, collaborate in operational problem-solving, and deliver a concise 60-second shift handover briefing.",
+          "summary": "By the end of this session, you will be able to discuss aviation current events, clearly describe airside vehicles and their functions, sequence turnaround operations using precise time linkers, explain ramp delays using formal cause-and-effect structures, collaborate in operational problem-solving as an aerodrome operations officer or AFISO, deliver a concise 60-second shift handover briefing, and consolidate key vocabulary.",
           "items": [
             {
               "num": 1,
+              "title": "Discuss Aviation News & Current Events (Fluency & Spontaneous Speech)",
+              "description": "Engage in an opening discussion on current commercial aviation headlines, airline developments, or airport infrastructure news, and spot-check previous vocabulary."
+            },
+            {
+              "num": 2,
               "title": "Identify & Describe Airside Vehicles (Fluency & Defining Language)",
               "description": "Accurately explain the purpose of Ground Support Equipment (GSE) using relative clauses (which / that) and purpose structures (used for + -ing, designed to + base verb) without relying on technical jargon."
             },
             {
-              "num": 2,
+              "num": 3,
               "title": "Sequence Turnaround Milestones (Sequencing & Time Linkers)",
               "description": "Chronologically order simultaneous apron tasks (deboarding, fueling, catering, baggage handling, boarding) using time connectors such as meanwhile, simultaneously, as soon as, and prior to pushback."
             },
             {
-              "num": 3,
+              "num": 4,
               "title": "Express Cause & Consequence in Ramp Delays (Grammar: Cause & Effect)",
               "description": "Construct clear spoken sentences explaining turnaround delays and knock-on effects using formal linkers including due to, owing to, as a result of, consequently, and led to."
             },
             {
-              "num": 4,
-              "title": "Navigate Spoken Ramp Coordination Scenarios (Interaction & Decision-Making)",
-              "description": "Participate in collaborative peer discussions to resolve unexpected apron events (GPU failure, catering road blockage, fueling safety holds), balancing passenger safety with schedule adherence."
-            },
-            {
               "num": 5,
-              "title": "Deliver a Concise Operational Shift Handover (Structured Spoken Briefing)",
-              "description": "Structure and deliver a fluent 60-second verbal briefing summarizing aircraft status, root cause of delays, and pending ramp actions for an incoming controller."
+              "title": "Navigate Spoken Ramp Coordination Scenarios (Interaction & Operational Roles)",
+              "description": "Participate in collaborative peer discussions between ramp coordinators and TSEEAC aerodrome operations / AFISO officers to resolve unexpected apron events (GPU failure, catering road blockage, fueling safety holds)."
             },
             {
               "num": 6,
-              "title": "Master Ground Operations Grammar Traps (TOEIC Reading Practice)",
-              "description": "Identify prepositional patterns, participle modifiers, and passive voice structures in ground handling bulletins, operational notices, and TOEIC Parts 5 & 6 items."
+              "title": "Deliver a Concise Operational Shift Handover (Structured Spoken Briefing)",
+              "description": "Structure and deliver a fluent 60-second verbal briefing summarizing aircraft status, root cause of delays, and pending ramp actions for an incoming colleague or AFISO officer."
             }
           ]
         },
         "lessonPlan": {
           "title": "Session 3 Lesson Plan (2 Hours)",
-          "summary": "A 2-hour communicative session covering the turnaround timeline, airside vehicle functions, ramp safety and cause-effect language, collaborative crisis simulations, and professional shift handover briefings.",
+          "summary": "A 2-hour communicative session featuring an aviation news opening, previous session vocabulary spot-checking, the turnaround timeline, airside vehicle defining games, ramp safety cause-effect language, collaborative AFISO/operations simulations, shift handover briefings, and a 10-minute vocabulary consolidation review.",
           "items": [
             {
-              "time": "00-15",
-              "title": "Part 1: The Turnaround Clock & Apron Narrative Warm-Up (15 mins)",
-              "description": "Explore the critical 35-to-45-minute turnaround window. Contrast Past Simple and Present Perfect to describe completed vs. pending ramp milestones (e.g. \"Flight AF1288 landed at 14:10, but handlers have not unloaded the cargo yet\")."
+              "time": "00-10",
+              "title": "Part 1: Aviation News, Current Events & Session 2 Vocabulary Spot-Check (10 mins)",
+              "description": "Opening 10-minute warm-up: discuss recent international aviation headlines followed by rapid spot-checking of Session 2 vocabulary (passenger terminal flow, security checkpoints, runway designators, taxiway markings)."
             },
             {
-              "time": "15-45",
-              "title": "Part 2: Airside Vehicles (GSE) Master Index & Defining Game (30 mins)",
+              "time": "10-25",
+              "title": "Part 2: The Turnaround Clock & Apron Narrative (15 mins)",
+              "description": "Explore the critical 35-to-45-minute turnaround window. Contrast Past Simple and Present Perfect to describe completed vs. pending ramp milestones (e.g. \"Flight BA342 landed at 14:15, but handlers have not closed the cargo doors yet\")."
+            },
+            {
+              "time": "25-55",
+              "title": "Part 3: Airside Vehicles (GSE) Master Index & Defining Game (30 mins)",
               "description": "Examine the 10 core ground support vehicles. Students practice communicative defining language using relative clauses and purpose frames (designed to, fitted with, used for) in an interactive paired mystery vehicle challenge."
             },
             {
-              "time": "45-75",
-              "title": "Part 3: Apron Safety, Turnaround Bottlenecks & Cause-Effect Linkers (30 mins)",
+              "time": "55-80",
+              "title": "Part 4: Apron Safety, Turnaround Bottlenecks & Cause-Effect Linkers (25 mins)",
               "description": "Analyze common ramp delays (fuel spills, FOD, belt loader breakdowns). Build high-yield B2 cause and effect statements using due to, owing to, as a result, consequently, and led to."
             },
             {
-              "time": "75-105",
-              "title": "Part 4: TSEEAC Operations Simulation — Turnaround Crisis at Stand Charlie-4 (30 mins)",
-              "description": "Paired role-play simulation: Ground Coordinator and Ramp Controller resolve three simultaneous operational bottlenecks under time pressure, negotiating a 3-step recovery priority plan."
+              "time": "80-110",
+              "title": "Part 5: Operations Simulation & Shift Handover Briefing (30 mins)",
+              "description": "Paired role-play simulation: Ground Coordinator and TSEEAC Aerodrome Operations Officer (AFISO) resolve three simultaneous bottlenecks at Stand Charlie-4. Students deliver a structured 60-second verbal shift handover."
             },
             {
-              "time": "105-120",
-              "title": "Part 5: The 60-Second Shift Handover & Portfolio Reflection (15 mins)",
-              "description": "Deliver a structured spoken briefing to the incoming shift using a 4-point operational template. Complete TOEIC ground operations review and self-assessment."
+              "time": "110-120",
+              "title": "Part 6: Vocabulary Review, Pronunciation & Class Wrap-Up (10 mins)",
+              "description": "Final 10-minute consolidation: rapid recall of the 18 turnaround terms, word stress and pronunciation spot-checking, personal portfolio reflection, and study log update."
             }
           ]
         },
@@ -6507,8 +6512,41 @@
             "title": "Ground Operations & Turnaround Management",
             "subtitle": "Apron Servicing Envelope & Communicative Ramp Coordination"
           },
+          "openingSession": {
+            "title": "Activity 1: Aviation News & Previous Session Vocabulary Spot-Check (10 mins)",
+            "summary": "Every class begins with a 10-minute professional opening: analyzing current aviation headlines and spot-checking vocabulary from our previous session.",
+            "newsPrompts": [
+              "What major aviation, airline, or airport news stories have you noticed in the headlines this week?",
+              "How are airlines or aerodromes adapting to recent seasonal weather disruptions, traffic surges, or fleet developments?"
+            ],
+            "spotCheck": {
+              "title": "Session 2 Vocabulary Spot-Check (Passenger Journey & Airfield Movement)",
+              "questions": [
+                {
+                  "id": 1,
+                  "q": "What is the crucial operational distinction between 'airside' and 'landside'?",
+                  "answer": "Landside refers to public terminal areas before security checkpoints; airside encompasses secure boarding gates, ramps, taxiways, and runways accessible only to authorized personnel and ticketed passengers."
+                },
+                {
+                  "id": 2,
+                  "q": "Why do runway designators consist of two numbers, such as Runway 09 and Runway 27?",
+                  "answer": "Runway numbers represent magnetic azimuth headings rounded to the nearest ten degrees (e.g., 09 = 090° East; 27 = 270° West). Opposite runway ends always differ by exactly 180°."
+                },
+                {
+                  "id": 3,
+                  "q": "What is the primary function of taxiway centerline lighting and painted yellow lines?",
+                  "answer": "They provide continuous visual guidance to pilots taxying between the runway and parking stands, preventing surface incursions and ensuring wingtip obstacle clearance."
+                },
+                {
+                  "id": 4,
+                  "q": "What personal protective equipment (PPE) must apron staff wear airside at all times?",
+                  "answer": "High-visibility vests (fluorescent yellow/orange), hearing protection (ear defenders), steel-toe safety boots, and airport security identification badges (ASIC)."
+                }
+              ]
+            }
+          },
           "turnaroundClock": {
-            "title": "Activity 1: The Turnaround Clock (15 mins)",
+            "title": "Activity 2: The Turnaround Clock (15 mins)",
             "summary": "The turnaround is the critical period between an aircraft parking at the gate (chocks-on) and departing for its next flight (chocks-off). Modern regional and short-haul turnarounds typically target a 35 to 45-minute servicing window where multiple teams work simultaneously.",
             "milestones": [
               {
@@ -6534,7 +6572,7 @@
               {
                 "time": "T+35 to T+45",
                 "phase": "Stand Clearance & Pushback",
-                "desc": "Doors closed and cross-checked, jet bridge disconnected, tug connected via bypass pin, ATC pushback clearance approved, chocks removed."
+                "desc": "Doors closed and cross-checked, jet bridge disconnected, tug connected via bypass pin, pushback clearance approved, chocks removed."
               }
             ],
             "discussionPrompts": [
@@ -6732,15 +6770,15 @@
               ],
               "sentenceStarters": [
                 "This vehicle leads aircraft when...",
-                "Airfield controllers dispatch it to..."
+                "Ramp safety and aerodrome operations officers dispatch it to..."
               ],
               "modelSentence": "The Follow-Me car is a high-visibility guidance vehicle with flashing roof beacons that escorts taxiing aircraft to their assigned stands during low visibility or complex taxi routing.",
               "definingPractice": "It is a brightly marked safety vehicle which leads arriving aircraft across the taxiway system directly to their parking gate."
             }
           ],
           "safetyDelays": {
-            "title": "Activity 3: Apron Safety & Cause-Effect Linkers (30 mins)",
-            "summary": "Every minute on the ramp is strictly accounted for. When an unexpected incident occurs, TSEEAC controllers and ramp coordinators must communicate the root cause and immediate consequence clearly using formal linkers.",
+            "title": "Activity 4: Apron Safety & Cause-Effect Linkers (25 mins)",
+            "summary": "Every minute on the ramp is strictly accounted for. When an unexpected incident occurs, TSEEAC aerodrome operations officers, AFISOs, and ramp coordinators must communicate the root cause and immediate consequence clearly using formal linkers.",
             "linkers": [
               {
                 "category": "Expressing Cause",
@@ -6770,8 +6808,8 @@
                 "id": 2,
                 "title": "Scenario 2: Foreign Object Debris (FOD) on Taxiway Mike",
                 "cause": "A metal cargo container latch snapped off a baggage trailer and lay on the centerline.",
-                "consequence": "Ground control halted arriving traffic until a Follow-Me safety vehicle completed a sweep and removed the debris.",
-                "spokenTask": "Explain this incident to the control tower using 'owing to' and 'consequently'."
+                "consequence": "Arriving traffic was halted until an aerodrome safety vehicle completed a sweep and removed the debris.",
+                "spokenTask": "Explain this incident to aerodrome operations using 'owing to' and 'consequently'."
               },
               {
                 "id": 3,
@@ -6790,7 +6828,7 @@
             ]
           },
           "simulation": {
-            "title": "Activity 4: TSEEAC Operations Simulation — Stand Charlie-4 (30 mins)",
+            "title": "Activity 5: TSEEAC Operations Simulation & Shift Handover Briefing (30 mins)",
             "context": "Flight BA342 (Airbus A320) is scheduled for a tight 40-minute turnaround. The aircraft arrived on stand at 14:15. Target off-blocks time (pushback) is 14:55. It is currently 14:32. Three simultaneous operational complications have just occurred on the ramp.",
             "bottlenecks": [
               {
@@ -6811,19 +6849,19 @@
             ],
             "roles": [
               {
-                "role": "Student A: Ramp Coordinator (Apron Operations)",
+                "role": "Student A: Ramp Coordinator (Ground Operations)",
                 "mission": "Assess immediate physical safety on the stand. Coordinate ground handling personnel, dispatch replacement equipment, and establish a realistic recovery sequence."
               },
               {
-                "role": "Student B: TSEEAC Ground Movement Controller",
-                "mission": "Monitor departure slot adherence (CTOT). Liaise with ATC regarding a possible 15-minute slot delay, verify fire safety regulations, and prioritize passenger boarding."
+                "role": "Student B: TSEEAC Aerodrome Operations Officer / AFISO",
+                "mission": "Monitor departure slot adherence (CTOT). Liaise with air traffic services regarding a possible 15-minute slot revision, verify fire safety regulations, and prioritize passenger boarding."
               }
             ],
             "recoveryInstructions": "Work together in pairs to agree on a prioritized 3-step action plan using modal verbs of necessity and obligation (must, should, have to, need to). Prepare to defend your sequence to the class."
           },
           "briefing": {
-            "title": "Activity 5: The 60-Second Shift Handover Briefing (15 mins)",
-            "summary": "Professional aviation operations depend on clear, concise spoken handovers. When handing over responsibility to the next shift, TSEEAC controllers follow a four-part briefing structure:",
+            "title": "The 60-Second Shift Handover Briefing",
+            "summary": "Professional aviation operations depend on clear, concise spoken handovers. When handing over responsibility to the incoming shift, TSEEAC aerodrome operations personnel and AFISO officers follow a four-part briefing structure:",
             "structure": [
               {
                 "step": "1. Identification",
@@ -6843,10 +6881,28 @@
               {
                 "step": "4. Action & Revised ETD",
                 "desc": "State the mitigation in progress and the revised departure time.",
-                "phrase": "\"A backup belt loader is now on stand, and refueling has commenced. Revised off-blocks is 15:15. Slot revision has been approved by ATC.\""
+                "phrase": "\"A backup belt loader is now on stand, and refueling has commenced. Revised off-blocks is 15:15. Slot revision has been coordinated with air traffic services.\""
               }
             ],
-            "spokenModel": "\"Stand Charlie-4 is currently servicing Flight BA342 to London Heathrow. Passenger deboarding concluded on schedule at 14:25; however, cargo loading and refueling have been disrupted. Due to an electrical trip on the GPU and an overheated conveyor on the aft belt loader, handlers were forced to request replacement equipment. Consequently, the turnaround is running 15 minutes behind schedule. The replacement loader has just arrived on stand, and fueling is underway. We have coordinated with ATC for a revised departure slot at 15:15. Please monitor the final pushback clearance.\""
+            "spokenModel": "\"Stand Charlie-4 is currently servicing Flight BA342 to London Heathrow. Passenger deboarding concluded on schedule at 14:25; however, cargo loading and refueling have been disrupted. Due to an electrical trip on the GPU and an overheated conveyor on the aft belt loader, handlers were forced to request replacement equipment. Consequently, the turnaround is running 15 minutes behind schedule. The replacement loader has just arrived on stand, and fueling is underway. We have coordinated with air traffic services for a revised departure slot at 15:15. Please monitor the final pushback clearance.\""
+          },
+          "closingReview": {
+            "title": "Activity 6: Vocabulary Review, Pronunciation & Class Wrap-Up (10 mins)",
+            "summary": "The final 10 minutes consolidate today's high-yield vocabulary, reinforce syllable stress, and review personal learning objectives.",
+            "reviewPrompts": [
+              {
+                "title": "1. Rapid-Fire Definition Match",
+                "desc": "In pairs, take turns testing each other on 3 random terms from today's 18 vocabulary items without looking at the definitions (e.g. Turnaround Time, Foreign Object Debris, Ground Support Equipment)."
+              },
+              {
+                "title": "2. Word Stress & Pronunciation Spot-Check",
+                "desc": "Check correct syllable stress on key operational words: ca-PA-ci-ty, CON-se-quent-ly, HY-drau-lic, RE-fu-el-er, DE-i-cing, au-THOR-i-za-tion."
+              },
+              {
+                "title": "3. Self-Assessment & Continuous Learning",
+                "desc": "Rate your confidence (1 to 5) explaining ramp delays using formal connectors like 'due to' and 'owing to'. Note any difficult words in your study portfolio."
+              }
+            ]
           }
         },
         "revision": {

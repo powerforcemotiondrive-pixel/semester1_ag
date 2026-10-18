@@ -2605,11 +2605,13 @@
       if (!bodyEl) return;
       const content = sessionData.lessonContent || {};
       const hero = content.hero || {};
+      const opening = content.openingSession || {};
       const clock = content.turnaroundClock || {};
       const vehicles = content.vehicles || [];
       const delays = content.safetyDelays || {};
       const simulation = content.simulation || {};
       const briefing = content.briefing || {};
+      const closing = content.closingReview || {};
 
       bodyEl.innerHTML = `
         <div class="space-y-6 printable-lesson-container">
@@ -2640,12 +2642,62 @@
             </div>
           </div>
 
-          <!-- Activity 1: The Turnaround Clock -->
+          <!-- Activity 1: Aviation News & Previous Session Vocabulary Spot-Check (10 mins) -->
           <div class="bg-white border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs space-y-4">
             <div class="flex items-center justify-between pb-2 border-b border-slate-100">
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">01</span>
-                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${clock.title || 'Activity 1: The Turnaround Clock (15 mins)'}</h3>
+                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${opening.title || 'Activity 1: Aviation News &amp; Previous Session Vocabulary Spot-Check (10 mins)'}</h3>
+              </div>
+              <span class="text-[11px] font-semibold text-slate-500">Warm-Up &amp; Catch-Up</span>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">${opening.summary || ''}</p>
+
+            <!-- News Prompts -->
+            <div class="p-3.5 rounded-lg bg-sky-50/70 border border-sky-200">
+              <span class="text-[11px] font-bold text-sky-900 uppercase tracking-wider">📰 Aviation News &amp; Current Events Prompts</span>
+              <ul class="space-y-1.5 mt-2 text-xs text-sky-950">
+                ${(opening.newsPrompts || []).map(p => `
+                  <li class="flex items-start gap-1.5">
+                    <span class="font-bold text-sky-700">&bull;</span>
+                    <span>${p}</span>
+                  </li>
+                `).join('')}
+              </ul>
+            </div>
+
+            <!-- Session 2 Vocabulary Spot-Check -->
+            <div class="space-y-2.5 pt-1">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold text-slate-800 uppercase tracking-wider">🎯 Session 2 Catch-Up: Airfield Vocabulary Spot-Check</span>
+                <span class="text-[11px] text-slate-500">Rapid-fire student recall</span>
+              </div>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                ${((opening.spotCheck && opening.spotCheck.questions) || []).map(q => `
+                  <div class="p-3 rounded-lg bg-slate-50 border border-slate-200/90 text-xs flex flex-col justify-between space-y-2">
+                    <div>
+                      <span class="font-bold text-slate-800 block text-xs">${q.id}. ${q.q}</span>
+                    </div>
+                    <div>
+                      <button type="button" onclick="window.toggleSpotCheckAnswer(${q.id})" id="spotcheck-btn-${q.id}" class="no-print text-[11px] font-bold text-indigo-600 hover:text-indigo-800 cursor-pointer">
+                        <span>Reveal Answer</span> &rarr;
+                      </button>
+                      <div id="spotcheck-ans-${q.id}" class="hidden p-2 mt-1.5 rounded bg-white border border-slate-200 text-[11px] text-slate-700 leading-relaxed italic">
+                        ${q.answer}
+                      </div>
+                    </div>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          </div>
+
+          <!-- Activity 2: The Turnaround Clock (15 mins) -->
+          <div class="bg-white border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs space-y-4">
+            <div class="flex items-center justify-between pb-2 border-b border-slate-100">
+              <div class="flex items-center gap-2">
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">02</span>
+                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${clock.title || 'Activity 2: The Turnaround Clock (15 mins)'}</h3>
               </div>
               <span class="text-[11px] font-semibold text-slate-500">Pacing &amp; Tenses</span>
             </div>
@@ -2690,12 +2742,12 @@
             </div>
           </div>
 
-          <!-- Activity 2: The 10 Airside Vehicles (GSE) Master Index & Defining Game -->
+          <!-- Activity 3: The 10 Airside Vehicles (GSE) Master Index & Defining Game (30 mins) -->
           <div class="bg-white border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between pb-2 border-b border-slate-100 gap-2">
               <div class="flex items-center gap-2">
-                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">02</span>
-                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">Activity 2: Airside Vehicles (GSE) Master Index &amp; Defining Game (30 mins)</h3>
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">03</span>
+                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">Activity 3: Airside Vehicles (GSE) Master Index &amp; Defining Game (30 mins)</h3>
               </div>
               <div class="no-print flex items-center gap-1.5">
                 <button type="button" onclick="window.toggleAllVehicles(true)" class="text-[11px] font-bold px-2 py-1 rounded bg-slate-100 hover:bg-slate-200 text-slate-700 transition-all cursor-pointer">Show All Answers</button>
@@ -2767,12 +2819,12 @@
             </div>
           </div>
 
-          <!-- Activity 3: Apron Safety & Cause-Effect Linkers -->
+          <!-- Activity 4: Apron Safety & Cause-Effect Linkers (25 mins) -->
           <div class="bg-white border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs space-y-4">
             <div class="flex items-center justify-between pb-2 border-b border-slate-100">
               <div class="flex items-center gap-2">
-                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">03</span>
-                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${delays.title || 'Activity 3: Apron Safety &amp; Cause-Effect Linkers (30 mins)'}</h3>
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">04</span>
+                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${delays.title || 'Activity 4: Apron Safety &amp; Cause-Effect Linkers (25 mins)'}</h3>
               </div>
               <span class="text-[11px] font-semibold text-slate-500">Formal Grammar</span>
             </div>
@@ -2814,21 +2866,21 @@
                     <span class="font-bold text-slate-700">Speaking Task: </span>${sc.spokenTask}
                   </div>
                   <div id="scenario-model-${sc.id}" class="hidden p-2.5 rounded bg-slate-50 border border-slate-200 text-xs text-slate-700 italic">
-                    <span class="font-bold not-italic text-slate-800">Target Model Sentence: </span>"${sc.spokenTask.includes('due to') ? 'Due to a ruptured hydraulic hose on the pushback tractor, fluid was spilled on stand, which resulted in a 25-minute movement suspension.' : (sc.spokenTask.includes('owing to') ? 'Owing to foreign object debris located on Taxiway Mike, arrivals were halted; consequently, airport safety teams completed an emergency inspection.' : (sc.spokenTask.includes('because of') ? 'Because of severe ice accumulation on the wing slats, the captain requested remote de-icing, which led to a fifteen-minute slot delay.' : 'As a result of an unauthorized contractor van parked behind the aircraft, the catering hi-lift was unable to reverse; therefore, pushback was held.'))}"
+                    <span class="font-bold not-italic text-slate-800">Target Model Sentence: </span>"${sc.spokenTask.includes('due to') ? 'Due to a ruptured hydraulic hose on the pushback tractor, fluid was spilled on stand, which resulted in a 25-minute movement suspension.' : (sc.spokenTask.includes('owing to') ? 'Owing to foreign object debris located on Taxiway Mike, arrivals were halted; consequently, aerodrome safety teams completed an emergency inspection.' : (sc.spokenTask.includes('because of') ? 'Because of severe ice accumulation on the wing slats, the captain requested remote de-icing, which led to a fifteen-minute slot delay.' : 'As a result of an unauthorized contractor van parked behind the aircraft, the catering hi-lift was unable to reverse; therefore, pushback was held.'))}"
                   </div>
                 </div>
               `).join('')}
             </div>
           </div>
 
-          <!-- Activity 4: TSEEAC Operations Simulation -->
+          <!-- Activity 5: Operations Simulation & Shift Handover Briefing (30 mins) -->
           <div class="bg-white border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs space-y-4">
             <div class="flex items-center justify-between pb-2 border-b border-slate-100">
               <div class="flex items-center gap-2">
-                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">04</span>
-                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${simulation.title || 'Activity 4: Operations Simulation (30 mins)'}</h3>
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">05</span>
+                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${simulation.title || 'Activity 5: Operations Simulation &amp; Shift Handover (30 mins)'}</h3>
               </div>
-              <span class="text-[11px] font-semibold text-slate-500">Collaborative Role-Play</span>
+              <span class="text-[11px] font-semibold text-slate-500">Collaborative Role-Play &amp; Briefing</span>
             </div>
             
             <div class="p-3.5 bg-slate-50 rounded-lg border border-slate-200 text-xs text-slate-700 leading-relaxed">
@@ -2865,47 +2917,83 @@
             <div class="p-3 bg-amber-50 rounded-lg border border-amber-200 text-xs text-amber-950 leading-relaxed">
               <span class="font-bold text-amber-900">Task: </span>${simulation.recoveryInstructions}
             </div>
+
+            <!-- Authentic Spoken Handover Briefing Sub-Section -->
+            <div class="pt-3 border-t border-slate-100 space-y-3">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold uppercase tracking-wider text-slate-800">The 60-Second Shift Handover Briefing Framework:</span>
+                <span class="text-[11px] text-slate-500">4-Part Standard</span>
+              </div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5">
+                ${(briefing.structure || []).map(st => `
+                  <div class="p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-xs">
+                    <span class="font-bold text-slate-900 text-xs block mb-0.5">${st.step}</span>
+                    <p class="text-[10px] text-slate-500 mb-1">${st.desc}</p>
+                    <p class="text-[11px] text-indigo-700 italic border-t border-slate-200/80 pt-1 leading-snug">${st.phrase}</p>
+                  </div>
+                `).join('')}
+              </div>
+
+              <!-- Spoken Handover Model -->
+              <div class="p-4 rounded-xl bg-slate-900 text-slate-100 space-y-2">
+                <div class="flex items-center justify-between">
+                  <span class="text-xs font-bold uppercase tracking-wider text-amber-400">Authentic Spoken Model Briefing:</span>
+                  <button type="button" onclick="speakWord(document.getElementById('model-handover-text').innerText)" class="no-print inline-flex items-center gap-1.5 px-3 py-1 rounded bg-slate-800 hover:bg-slate-700 text-white text-xs font-bold transition-all cursor-pointer">
+                    <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.536 8.464a5 5 0 010 7.072M18.364 5.636a9 9 0 010 12.728M11 5L6 9H2v6h4l5 4V5z"/></svg>
+                    <span>Listen to Model</span>
+                  </button>
+                </div>
+                <p id="model-handover-text" class="text-xs sm:text-sm text-slate-200 leading-relaxed italic border-l-2 border-amber-400 pl-3">
+                  ${briefing.spokenModel || ''}
+                </p>
+              </div>
+            </div>
           </div>
 
-          <!-- Activity 5: The 60-Second Shift Handover Briefing -->
+          <!-- Activity 6: Vocabulary Review, Pronunciation & Class Wrap-Up (10 mins) -->
           <div class="bg-white border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs space-y-4">
             <div class="flex items-center justify-between pb-2 border-b border-slate-100">
               <div class="flex items-center gap-2">
-                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">05</span>
-                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${briefing.title || 'Activity 5: The 60-Second Shift Handover Briefing (15 mins)'}</h3>
+                <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">06</span>
+                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${closing.title || 'Activity 6: Vocabulary Review &amp; Class Wrap-Up (10 mins)'}</h3>
               </div>
-              <span class="text-[11px] font-semibold text-slate-500">Spoken Fluency</span>
+              <span class="text-[11px] font-semibold text-slate-500">10-Min Consolidation</span>
             </div>
-            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">${briefing.summary || ''}</p>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">${closing.summary || ''}</p>
 
-            <!-- 4-Part Structure -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
-              ${(briefing.structure || []).map(st => `
-                <div class="p-3 rounded-lg bg-slate-50 border border-slate-200 text-xs">
-                  <span class="font-bold text-slate-900 text-xs block mb-1">${st.step}</span>
-                  <p class="text-[11px] text-slate-600 mb-1.5">${st.desc}</p>
-                  <p class="text-[11px] text-indigo-700 italic border-t border-slate-200/80 pt-1.5 leading-snug">${st.phrase}</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+              ${(closing.reviewPrompts || []).map(rp => `
+                <div class="p-3.5 rounded-xl border border-slate-200 bg-slate-50/80 flex flex-col justify-between space-y-2">
+                  <div>
+                    <h5 class="text-xs font-bold text-slate-900">${rp.title}</h5>
+                    <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">${rp.desc}</p>
+                  </div>
+                  <div class="pt-2 border-t border-slate-200/80">
+                    <button type="button" onclick="switchModalTab('revision')" class="no-print text-[11px] font-bold text-indigo-600 hover:text-indigo-800 cursor-pointer">
+                      <span>Open Flashcard Review</span> &rarr;
+                    </button>
+                  </div>
                 </div>
               `).join('')}
-            </div>
-
-            <!-- Authentic Spoken Handover Model -->
-            <div class="p-4 rounded-xl bg-slate-900 text-slate-100 space-y-2.5">
-              <div class="flex items-center justify-between">
-                <span class="text-xs font-bold uppercase tracking-wider text-amber-400">Authentic Spoken Model Briefing:</span>
-                <button type="button" onclick="speakWord(document.getElementById('model-handover-text').innerText)" class="no-print inline-flex items-center gap-1.5 px-3 py-1 rounded bg-slate-800 hover:bg-slate-700 text-white text-xs font-bold transition-all cursor-pointer">
-                  <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.536 8.464a5 5 0 010 7.072M18.364 5.636a9 9 0 010 12.728M11 5L6 9H2v6h4l5 4V5z"/></svg>
-                  <span>Listen to Model</span>
-                </button>
-              </div>
-              <p id="model-handover-text" class="text-xs sm:text-sm text-slate-200 leading-relaxed italic border-l-2 border-amber-400 pl-3">
-                ${briefing.spokenModel || ''}
-              </p>
             </div>
           </div>
         </div>
       `;
     }
+
+    window.toggleSpotCheckAnswer = function(id) {
+      const el = document.getElementById(`spotcheck-ans-${id}`);
+      const btn = document.getElementById(`spotcheck-btn-${id}`);
+      if (!el || !btn) return;
+      const isHidden = el.classList.contains('hidden');
+      if (isHidden) {
+        el.classList.remove('hidden');
+        btn.innerHTML = '<span>Hide Answer</span> &larr;';
+      } else {
+        el.classList.add('hidden');
+        btn.innerHTML = '<span>Reveal Answer</span> &rarr;';
+      }
+    };
 
     window.toggleVehicleCardView = function(id) {
       const clueEl = document.getElementById(`vehicle-clue-${id}`);
