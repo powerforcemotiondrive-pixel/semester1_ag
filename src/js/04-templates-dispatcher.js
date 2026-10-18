@@ -71,7 +71,8 @@
     }
 
     function renderLessonContentTab(sessionData, theme) {
-      const isAg = (modalState && modalState.program === 'ag') || currentProgram === 'ag';
+      const prog = (modalState && modalState.program) || currentProgram || 'ag';
+      const isAg = prog === 'ag';
       if (isAg) {
         if (modalState.modNum === 3) {
           if (modalState.sessionNum === 1) {

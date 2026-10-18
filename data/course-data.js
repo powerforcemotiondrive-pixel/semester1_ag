@@ -12189,156 +12189,171 @@
               "If the pilot increases pitch attitude without adding thrust, airspeed will decay rapidly."
             ]
           },
-          "toeic": {
-            "stem": "Because the aircraft was climbing rapidly, the pilots had to increase engine thrust in order to maintain ________ over the wings.",
-            "options": [
-              {
-                "letter": "A",
-                "text": "lifting"
-              },
-              {
-                "letter": "B",
-                "text": "lift"
-              },
-              {
-                "letter": "C",
-                "text": "lifted"
-              },
-              {
-                "letter": "D",
-                "text": "lifter"
-              }
-            ],
-            "correctLetter": "B",
-            "correctText": "lift",
-            "analysis": "The transitive verb 'maintain' requires a direct object noun phrase. 'Lift' functions as the aerodynamic noun representing the upward aerodynamic force opposing aircraft weight.",
-            "strategy": "After transitive verbs like 'maintain', 'generate', 'produce', or 'increase', look for the primary technical noun rather than participle or agentive forms."
-          },
           "toeicQuestions": [
+                    {
+                              "stem": "Because the aircraft was climbing rapidly, the pilots had to increase engine thrust in order to maintain ________ over the wings.",
+                              "options": [
+                                        {
+                                                  "letter": "A",
+                                                  "text": "lifting"
+                                        },
+                                        {
+                                                  "letter": "B",
+                                                  "text": "lift"
+                                        },
+                                        {
+                                                  "letter": "C",
+                                                  "text": "lifted"
+                                        },
+                                        {
+                                                  "letter": "D",
+                                                  "text": "lifter"
+                                        }
+                              ],
+                              "correctLetter": "B",
+                              "correctText": "lift",
+                              "analysis": "The transitive verb 'maintain' requires a direct object noun phrase. 'Lift' functions as the aerodynamic noun representing the upward aerodynamic force opposing aircraft weight.",
+                              "strategy": "After transitive verbs like 'maintain', 'generate', 'produce', or 'increase', look for the primary technical noun rather than participle or agentive forms.",
+                              "id": 1
+                    },
+                    {
+                              "stem": "When turbulent air forces the angle of attack beyond its critical limit, a sudden loss of lift ________.",
+                              "options": [
+                                        {
+                                                  "letter": "A",
+                                                  "text": "occurred"
+                                        },
+                                        {
+                                                  "letter": "B",
+                                                  "text": "occurring"
+                                        },
+                                        {
+                                                  "letter": "C",
+                                                  "text": "occurs"
+                                        },
+                                        {
+                                                  "letter": "D",
+                                                  "text": "to occur"
+                                        }
+                              ],
+                              "correctLetter": "C",
+                              "correctText": "occurs",
+                              "analysis": "This sentence states a factual law of aerodynamics (zero conditional). In factual cause-and-effect statements governed by 'when + present simple', the main clause takes the present simple ('occurs').",
+                              "strategy": "Conditionals expressing scientific facts or aerodynamic principles take present simple in both clauses (When + V1 -> V1).",
+                              "id": 2
+                    },
+                    {
+                              "stem": "The rudder, which controls movement around the vertical axis, is hinged ________ the trailing edge of the vertical stabilizer.",
+                              "options": [
+                                        {
+                                                  "letter": "A",
+                                                  "text": "to"
+                                        },
+                                        {
+                                                  "letter": "B",
+                                                  "text": "at"
+                                        },
+                                        {
+                                                  "letter": "C",
+                                                  "text": "with"
+                                        },
+                                        {
+                                                  "letter": "D",
+                                                  "text": "by"
+                                        }
+                              ],
+                              "correctLetter": "A",
+                              "correctText": "to",
+                              "analysis": "The participle/adjective 'hinged' pairs idiomatically with the preposition 'to' when describing physical attachment to another structure ('hinged to the vertical stabilizer').",
+                              "strategy": "Watch for fixed mechanical and anatomical collocations: hinged to, mounted on/along, attached to, connected with.",
+                              "id": 3
+                    },
+                    {
+                              "stem": "________ the flight crew recognizes the onset of a stall early, recovery can be accomplished with minimal loss of altitude.",
+                              "options": [
+                                        {
+                                                  "letter": "A",
+                                                  "text": "In spite of"
+                                        },
+                                        {
+                                                  "letter": "B",
+                                                  "text": "Provided that"
+                                        },
+                                        {
+                                                  "letter": "C",
+                                                  "text": "Due to"
+                                        },
+                                        {
+                                                  "letter": "D",
+                                                  "text": "Whereas"
+                                        }
+                              ],
+                              "correctLetter": "B",
+                              "correctText": "Provided that",
+                              "analysis": "'Provided that' is a conditional conjunction equivalent to 'on the condition that' or 'only if', introducing a full finite clause ('the flight crew recognizes...'). 'In spite of' and 'Due to' require noun phrases, while 'Whereas' indicates a contrast.",
+                              "strategy": "Check whether the blank is followed by a full clause (subject + verb) or a noun phrase. 'Provided that' must be followed by a complete clause.",
+                              "id": 4
+                    },
+                    {
+                              "stem": "Airlines install lightweight composite winglets primarily to reduce induced drag, ________ overall fuel efficiency.",
+                              "options": [
+                                        {
+                                                  "letter": "A",
+                                                  "text": "improve"
+                                        },
+                                        {
+                                                  "letter": "B",
+                                                  "text": "improved"
+                                        },
+                                        {
+                                                  "letter": "C",
+                                                  "text": "improves"
+                                        },
+                                        {
+                                                  "letter": "D",
+                                                  "text": "improving"
+                                        }
+                              ],
+                              "correctLetter": "D",
+                              "correctText": "improving",
+                              "analysis": "The present participle clause 'improving overall fuel efficiency' expresses an attendant result or consequence of the primary action ('to reduce induced drag').",
+                              "strategy": "A comma following a complete main clause often introduces an -ing participle clause indicating result or simultaneous action.",
+                              "id": 5
+                    }
+          ],
+          "pageUrl": "session1/admat_aas2.html"
+        }
+      },
+      "2": {
+        "session": 2,
+        "objectives": {
+          "title": "Session 2 - Aircraft Anatomy: Structure & Systems Objectives",
+          "summary": "By the end of this session, you will be able to identify external and internal aircraft parts from diagrams, use spatial prepositions and functional descriptors accurately, conduct a simulated pre-flight exterior walkaround, and report mechanical defects in professional B2 English.",
+          "items": [
             {
-              "stem": "Because the aircraft was climbing rapidly, the pilots had to increase engine thrust in order to maintain ________ over the wings.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "lifting"
-                },
-                {
-                  "letter": "B",
-                  "text": "lift"
-                },
-                {
-                  "letter": "C",
-                  "text": "lifted"
-                },
-                {
-                  "letter": "D",
-                  "text": "lifter"
-                }
-              ],
-              "correctLetter": "B",
-              "correctText": "lift",
-              "analysis": "The transitive verb 'maintain' requires a direct object noun phrase. 'Lift' functions as the aerodynamic noun representing the upward aerodynamic force opposing aircraft weight.",
-              "strategy": "After transitive verbs like 'maintain', 'generate', 'produce', or 'increase', look for the primary technical noun rather than participle or agentive forms."
+              "num": 1,
+              "title": "Identify External & Internal Aircraft Components",
+              "description": "Accurately name key airframe components including slats, flaps, ailerons, empennage, radome, landing gear, flight deck instruments, and cabin bulkheads."
             },
             {
-              "stem": "When turbulent air forces the angle of attack beyond its critical limit, a sudden loss of lift ________.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "occurred"
-                },
-                {
-                  "letter": "B",
-                  "text": "occurring"
-                },
-                {
-                  "letter": "C",
-                  "text": "occurs"
-                },
-                {
-                  "letter": "D",
-                  "text": "to occur"
-                }
-              ],
-              "correctLetter": "C",
-              "correctText": "occurs",
-              "analysis": "This sentence states a factual law of aerodynamics (zero conditional). In factual cause-and-effect statements governed by 'when + present simple', the main clause takes the present simple ('occurs').",
-              "strategy": "Conditionals expressing scientific facts or aerodynamic principles take present simple in both clauses (When + V1 -> V1)."
+              "num": 2,
+              "title": "Deploy Spatial Prepositions & Functional Descriptors",
+              "description": "Describe the physical position and operational purpose of parts using prepositions (along, behind, flush-mounted, adjacent to) and purpose clauses."
             },
             {
-              "stem": "The rudder, which controls movement around the vertical axis, is hinged ________ the trailing edge of the vertical stabilizer.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "to"
-                },
-                {
-                  "letter": "B",
-                  "text": "at"
-                },
-                {
-                  "letter": "C",
-                  "text": "with"
-                },
-                {
-                  "letter": "D",
-                  "text": "by"
-                }
-              ],
-              "correctLetter": "A",
-              "correctText": "to",
-              "analysis": "The participle/adjective 'hinged' pairs idiomatically with the preposition 'to' when describing physical attachment to another structure ('hinged to the vertical stabilizer').",
-              "strategy": "Watch for fixed mechanical and anatomical collocations: hinged to, mounted on/along, attached to, connected with."
+              "num": 3,
+              "title": "Perform a 360-Degree Pre-Flight Walkaround Inspection Role-Play",
+              "description": "Simulate a captain or maintenance engineer inspecting the airframe, identifying foreign object damage (FOD), leaks, and structural dents."
             },
             {
-              "stem": "________ the flight crew recognizes the onset of a stall early, recovery can be accomplished with minimal loss of altitude.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "In spite of"
-                },
-                {
-                  "letter": "B",
-                  "text": "Provided that"
-                },
-                {
-                  "letter": "C",
-                  "text": "Due to"
-                },
-                {
-                  "letter": "D",
-                  "text": "Whereas"
-                }
-              ],
-              "correctLetter": "B",
-              "correctText": "Provided that",
-              "analysis": "'Provided that' is a conditional conjunction equivalent to 'on the condition that' or 'only if', introducing a full finite clause ('the flight crew recognizes...'). 'In spite of' and 'Due to' require noun phrases, while 'Whereas' indicates a contrast.",
-              "strategy": "Check whether the blank is followed by a full clause (subject + verb) or a noun phrase. 'Provided that' must be followed by a complete clause."
+              "num": 4,
+              "title": "Communicate Cockpit & Cabin Defect Handovers",
+              "description": "Discuss whether unserviceable components violate the Minimum Equipment List (MEL) and agree on dispatch decisions."
             },
             {
-              "stem": "Airlines install lightweight composite winglets primarily to reduce induced drag, ________ overall fuel efficiency.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "improve"
-                },
-                {
-                  "letter": "B",
-                  "text": "improved"
-                },
-                {
-                  "letter": "C",
-                  "text": "improves"
-                },
-                {
-                  "letter": "D",
-                  "text": "improving"
-                }
-              ],
-              "correctLetter": "D",
-              "correctText": "improving",
-              "analysis": "The present participle clause 'improving overall fuel efficiency' expresses an attendant result or consequence of the primary action ('to reduce induced drag').",
-              "strategy": "A comma following a complete main clause often introduces an -ing participle clause indicating result or simultaneous action."
+              "num": 5,
+              "title": "Master High-Frequency Structural Pronunciation",
+              "description": "Correctly pronounce and stress specialized aeronautical components without hesitating during oral interactions."
             }
           ]
         },
@@ -12774,156 +12789,171 @@
               "The pitot-static probes are electrically heated to prevent ice formation during climb."
             ]
           },
-          "toeic": {
-            "stem": "The line maintenance engineer conducted a thorough exterior walkaround to ensure that no hydraulic fluid was ________ from the landing gear.",
-            "options": [
-              {
-                "letter": "A",
-                "text": "leaking"
-              },
-              {
-                "letter": "B",
-                "text": "leaked"
-              },
-              {
-                "letter": "C",
-                "text": "leaks"
-              },
-              {
-                "letter": "D",
-                "text": "leak"
-              }
-            ],
-            "correctLetter": "A",
-            "correctText": "leaking",
-            "analysis": "The auxiliary verb 'was' combined with the active continuous context requires the present participle '-ing' form ('was leaking') to indicate an ongoing fluid drip.",
-            "strategy": "Be careful with active vs. passive after 'was/were': fluid leaks (active continuous = was leaking), fluid is drained (passive = was drained)."
-          },
           "toeicQuestions": [
+                    {
+                              "stem": "The line maintenance engineer conducted a thorough exterior walkaround to ensure that no hydraulic fluid was ________ from the landing gear.",
+                              "options": [
+                                        {
+                                                  "letter": "A",
+                                                  "text": "leaking"
+                                        },
+                                        {
+                                                  "letter": "B",
+                                                  "text": "leaked"
+                                        },
+                                        {
+                                                  "letter": "C",
+                                                  "text": "leaks"
+                                        },
+                                        {
+                                                  "letter": "D",
+                                                  "text": "leak"
+                                        }
+                              ],
+                              "correctLetter": "A",
+                              "correctText": "leaking",
+                              "analysis": "The auxiliary verb 'was' combined with the active continuous context requires the present participle '-ing' form ('was leaking') to indicate an ongoing fluid drip.",
+                              "strategy": "Be careful with active vs. passive after 'was/were': fluid leaks (active continuous = was leaking), fluid is drained (passive = was drained).",
+                              "id": 1
+                    },
+                    {
+                              "stem": "Slats are high-lift aerodynamic devices mounted ________ the leading edge of the wing to prevent boundary layer separation.",
+                              "options": [
+                                        {
+                                                  "letter": "A",
+                                                  "text": "through"
+                                        },
+                                        {
+                                                  "letter": "B",
+                                                  "text": "along"
+                                        },
+                                        {
+                                                  "letter": "C",
+                                                  "text": "between"
+                                        },
+                                        {
+                                                  "letter": "D",
+                                                  "text": "into"
+                                        }
+                              ],
+                              "correctLetter": "B",
+                              "correctText": "along",
+                              "analysis": "The preposition 'along' denotes continuous linear extension from the root to the tip of the wing's leading edge.",
+                              "strategy": "Prepositions of location: use 'along' for items running parallel to a linear edge or boundary (along the leading edge, along the taxiway).",
+                              "id": 2
+                    },
+                    {
+                              "stem": "According to the Minimum Equipment List, the aircraft is permitted to dispatch ________ the weather radar is certified as fully operational.",
+                              "options": [
+                                        {
+                                                  "letter": "A",
+                                                  "text": "in case of"
+                                        },
+                                        {
+                                                  "letter": "B",
+                                                  "text": "despite"
+                                        },
+                                        {
+                                                  "letter": "C",
+                                                  "text": "provided that"
+                                        },
+                                        {
+                                                  "letter": "D",
+                                                  "text": "although"
+                                        }
+                              ],
+                              "correctLetter": "C",
+                              "correctText": "provided that",
+                              "analysis": "'Provided that' introduces the essential airworthiness condition required for flight release under MEL restrictions.",
+                              "strategy": "MEL (Minimum Equipment List) regulatory sentences frequently test conditional conjunctions like 'provided that' or 'on condition that'.",
+                              "id": 3
+                    },
+                    {
+                              "stem": "The radome is constructed from radio-frequency transparent composite materials in order to shield the antenna without ________ radar signals.",
+                              "options": [
+                                        {
+                                                  "letter": "A",
+                                                  "text": "block"
+                                        },
+                                        {
+                                                  "letter": "B",
+                                                  "text": "blocked"
+                                        },
+                                        {
+                                                  "letter": "C",
+                                                  "text": "blockage"
+                                        },
+                                        {
+                                                  "letter": "D",
+                                                  "text": "blocking"
+                                        }
+                              ],
+                              "correctLetter": "D",
+                              "correctText": "blocking",
+                              "analysis": "The preposition 'without' requires a gerund (-ing form) when taking an action and an object ('without blocking radar signals').",
+                              "strategy": "All prepositions (without, by, for, in, after, before) require a gerund (-ing) when immediately followed by a verb form.",
+                              "id": 4
+                    },
+                    {
+                              "stem": "Flight deck instruments provide real-time information regarding airspeed, altitude, and heading directly ________ the Primary Flight Display.",
+                              "options": [
+                                        {
+                                                  "letter": "A",
+                                                  "text": "on"
+                                        },
+                                        {
+                                                  "letter": "B",
+                                                  "text": "at"
+                                        },
+                                        {
+                                                  "letter": "C",
+                                                  "text": "of"
+                                        },
+                                        {
+                                                  "letter": "D",
+                                                  "text": "by"
+                                        }
+                              ],
+                              "correctLetter": "A",
+                              "correctText": "on",
+                              "analysis": "Electronic and visual information is displayed 'on' a screen, monitor, or avionics display ('on the Primary Flight Display').",
+                              "strategy": "Fixed tech preposition: information appears 'on' screens, displays, radars, monitors, and instruments.",
+                              "id": 5
+                    }
+          ],
+          "pageUrl": "session2/admat_aas2.html"
+        }
+      },
+      "3": {
+        "session": 3,
+        "objectives": {
+          "title": "Session 3 - Commercial Aircraft & Airlines Objectives",
+          "summary": "By the end of this session, you will be able to categorize commercial aircraft types, compare airliner specifications and manufacturer strategies (Airbus vs. Boeing), deploy comparative structures with confidence, and participate in an airline fleet selection committee simulation.",
+          "items": [
             {
-              "stem": "The line maintenance engineer conducted a thorough exterior walkaround to ensure that no hydraulic fluid was ________ from the landing gear.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "leaking"
-                },
-                {
-                  "letter": "B",
-                  "text": "leaked"
-                },
-                {
-                  "letter": "C",
-                  "text": "leaks"
-                },
-                {
-                  "letter": "D",
-                  "text": "leak"
-                }
-              ],
-              "correctLetter": "A",
-              "correctText": "leaking",
-              "analysis": "The auxiliary verb 'was' combined with the active continuous context requires the present participle '-ing' form ('was leaking') to indicate an ongoing fluid drip.",
-              "strategy": "Be careful with active vs. passive after 'was/were': fluid leaks (active continuous = was leaking), fluid is drained (passive = was drained)."
+              "num": 1,
+              "title": "Classify Commercial Aircraft Families",
+              "description": "Differentiate between regional turboprops/jets, single-aisle narrowbodies, twin-aisle widebodies, and dedicated freighters."
             },
             {
-              "stem": "Slats are high-lift aerodynamic devices mounted ________ the leading edge of the wing to prevent boundary layer separation.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "through"
-                },
-                {
-                  "letter": "B",
-                  "text": "along"
-                },
-                {
-                  "letter": "C",
-                  "text": "between"
-                },
-                {
-                  "letter": "D",
-                  "text": "into"
-                }
-              ],
-              "correctLetter": "B",
-              "correctText": "along",
-              "analysis": "The preposition 'along' denotes continuous linear extension from the root to the tip of the wing's leading edge.",
-              "strategy": "Prepositions of location: use 'along' for items running parallel to a linear edge or boundary (along the leading edge, along the taxiway)."
+              "num": 2,
+              "title": "Compare Manufacturer Strategies & Fleet Data",
+              "description": "Analyze the global duopoly of Airbus and Boeing alongside emerging players (ATR, Embraer, COMAC) in range, capacity, and efficiency."
             },
             {
-              "stem": "According to the Minimum Equipment List, the aircraft is permitted to dispatch ________ the weather radar is certified as fully operational.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "in case of"
-                },
-                {
-                  "letter": "B",
-                  "text": "despite"
-                },
-                {
-                  "letter": "C",
-                  "text": "provided that"
-                },
-                {
-                  "letter": "D",
-                  "text": "although"
-                }
-              ],
-              "correctLetter": "C",
-              "correctText": "provided that",
-              "analysis": "'Provided that' introduces the essential airworthiness condition required for flight release under MEL restrictions.",
-              "strategy": "MEL (Minimum Equipment List) regulatory sentences frequently test conditional conjunctions like 'provided that' or 'on condition that'."
+              "num": 3,
+              "title": "Deploy Comparative & Superlative Language for Data Evaluation",
+              "description": "Accurately use comparative modifiers (substantially more efficient, lowest fuel burn, twice as heavy) when presenting fleet statistics."
             },
             {
-              "stem": "The radome is constructed from radio-frequency transparent composite materials in order to shield the antenna without ________ radar signals.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "block"
-                },
-                {
-                  "letter": "B",
-                  "text": "blocked"
-                },
-                {
-                  "letter": "C",
-                  "text": "blockage"
-                },
-                {
-                  "letter": "D",
-                  "text": "blocking"
-                }
-              ],
-              "correctLetter": "D",
-              "correctText": "blocking",
-              "analysis": "The preposition 'without' requires a gerund (-ing form) when taking an action and an object ('without blocking radar signals').",
-              "strategy": "All prepositions (without, by, for, in, after, before) require a gerund (-ing) when immediately followed by a verb form."
+              "num": 4,
+              "title": "Role-Play an Airline Fleet Selection Committee",
+              "description": "Simulate an executive airline fleet planning committee evaluating candidate aircraft orders for regional and long-haul routes."
             },
             {
-              "stem": "Flight deck instruments provide real-time information regarding airspeed, altitude, and heading directly ________ the Primary Flight Display.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "on"
-                },
-                {
-                  "letter": "B",
-                  "text": "at"
-                },
-                {
-                  "letter": "C",
-                  "text": "of"
-                },
-                {
-                  "letter": "D",
-                  "text": "by"
-                }
-              ],
-              "correctLetter": "A",
-              "correctText": "on",
-              "analysis": "Electronic and visual information is displayed 'on' a screen, monitor, or avionics display ('on the Primary Flight Display').",
-              "strategy": "Fixed tech preposition: information appears 'on' screens, displays, radars, monitors, and instruments."
+              "num": 5,
+              "title": "Examine Airline Operating Models (Legacy vs. Low-Cost)",
+              "description": "Contrast hub-and-spoke vs. point-to-point network economics, fleet commonality benefits, and turnaround speed."
             }
           ]
         },
@@ -13300,156 +13330,171 @@
               "The new turbofan variant delivers a 15% reduction in carbon emissions compared to its predecessor."
             ]
           },
-          "toeic": {
-            "stem": "The newly ordered twin-engine widebodies are substantially ________ fuel-efficient than the quad-jet airliners they will replace.",
-            "options": [
-              {
-                "letter": "A",
-                "text": "much"
-              },
-              {
-                "letter": "B",
-                "text": "more"
-              },
-              {
-                "letter": "C",
-                "text": "most"
-              },
-              {
-                "letter": "D",
-                "text": "many"
-              }
-            ],
-            "correctLetter": "B",
-            "correctText": "more",
-            "analysis": "The presence of the comparative connector 'than' requires the comparative degree 'more' with the multi-syllable adjective 'fuel-efficient'. 'Substantially' acts as an adverb of degree modifying 'more'.",
-            "strategy": "Always scan ahead for 'than'. The marker 'than' always demands a comparative form (more, -er, less)."
-          },
           "toeicQuestions": [
+                    {
+                              "stem": "The newly ordered twin-engine widebodies are substantially ________ fuel-efficient than the quad-jet airliners they will replace.",
+                              "options": [
+                                        {
+                                                  "letter": "A",
+                                                  "text": "much"
+                                        },
+                                        {
+                                                  "letter": "B",
+                                                  "text": "more"
+                                        },
+                                        {
+                                                  "letter": "C",
+                                                  "text": "most"
+                                        },
+                                        {
+                                                  "letter": "D",
+                                                  "text": "many"
+                                        }
+                              ],
+                              "correctLetter": "B",
+                              "correctText": "more",
+                              "analysis": "The presence of the comparative connector 'than' requires the comparative degree 'more' with the multi-syllable adjective 'fuel-efficient'. 'Substantially' acts as an adverb of degree modifying 'more'.",
+                              "strategy": "Always scan ahead for 'than'. The marker 'than' always demands a comparative form (more, -er, less).",
+                              "id": 1
+                    },
+                    {
+                              "stem": "Airbus and Boeing dominate commercial airliner manufacturing, holding an effective global ________ in large passenger jet production.",
+                              "options": [
+                                        {
+                                                  "letter": "A",
+                                                  "text": "autonomy"
+                                        },
+                                        {
+                                                  "letter": "B",
+                                                  "text": "monopoly"
+                                        },
+                                        {
+                                                  "letter": "C",
+                                                  "text": "duopoly"
+                                        },
+                                        {
+                                                  "letter": "D",
+                                                  "text": "subsidy"
+                                        }
+                              ],
+                              "correctLetter": "C",
+                              "correctText": "duopoly",
+                              "analysis": "A market situation where two commercial entities dominate the supply of a commodity or aircraft type is legally and economically defined as a 'duopoly'.",
+                              "strategy": "Prefix clues: mono- (one supplier), duo- (two dominant suppliers), poly- (many). Airbus + Boeing = 2, hence duopoly.",
+                              "id": 2
+                    },
+                    {
+                              "stem": "By operating a single aircraft family across its entire network, the low-cost carrier achieved significant ________ in crew training and spare parts inventory.",
+                              "options": [
+                                        {
+                                                  "letter": "A",
+                                                  "text": "economies of scale"
+                                        },
+                                        {
+                                                  "letter": "B",
+                                                  "text": "flight limitations"
+                                        },
+                                        {
+                                                  "letter": "C",
+                                                  "text": "cabin disruptions"
+                                        },
+                                        {
+                                                  "letter": "D",
+                                                  "text": "baggage delays"
+                                        }
+                              ],
+                              "correctLetter": "A",
+                              "correctText": "economies of scale",
+                              "analysis": "'Economies of scale' is the precise financial collocation for cost savings and operational efficiencies gained through increased volume or fleet standardization.",
+                              "strategy": "High-yield business lexis: 'achieve economies of scale' is a staple TOEIC business strategy phrase.",
+                              "id": 3
+                    },
+                    {
+                              "stem": "The airline decided to retire its older aircraft earlier than planned because the escalating cost of maintenance was no longer ________.",
+                              "options": [
+                                        {
+                                                  "letter": "A",
+                                                  "text": "justify"
+                                        },
+                                        {
+                                                  "letter": "B",
+                                                  "text": "justifiable"
+                                        },
+                                        {
+                                                  "letter": "C",
+                                                  "text": "justifiably"
+                                        },
+                                        {
+                                                  "letter": "D",
+                                                  "text": "justification"
+                                        }
+                              ],
+                              "correctLetter": "B",
+                              "correctText": "justifiable",
+                              "analysis": "The linking verb 'was' accompanied by the adverbial phrase 'no longer' requires a predicate adjective ('justifiable') to describe the cost of maintenance.",
+                              "strategy": "After copular/linking verbs (be, become, remain, seem), select an adjective (ending in -able, -ive, -al) rather than a noun or adverb.",
+                              "id": 4
+                    },
+                    {
+                              "stem": "Regional turboprops remain the most economical solution for short routes ________ their low fuel burn at regional cruising altitudes.",
+                              "options": [
+                                        {
+                                                  "letter": "A",
+                                                  "text": "although"
+                                        },
+                                        {
+                                                  "letter": "B",
+                                                  "text": "despite"
+                                        },
+                                        {
+                                                  "letter": "C",
+                                                  "text": "whereas"
+                                        },
+                                        {
+                                                  "letter": "D",
+                                                  "text": "because of"
+                                        }
+                              ],
+                              "correctLetter": "D",
+                              "correctText": "because of",
+                              "analysis": "'Because of' is a compound preposition followed by a noun phrase ('their low fuel burn...') indicating the positive causal reason for their economical nature.",
+                              "strategy": "Cause vs. concession: 'their low fuel burn' is the reason for high economy (causal), so use 'because of', not concessive words like 'despite' or 'although'.",
+                              "id": 5
+                    }
+          ],
+          "pageUrl": "session3/admat_aas2.html"
+        }
+      },
+      "4": {
+        "session": 4,
+        "objectives": {
+          "title": "Session 4 - Significant Aviation Accidents & Aircraft Types Objectives",
+          "summary": "By the end of this session, you will be able to analyze landmark aviation accidents and the aircraft types involved, use past narrative tenses and sequencing linkers, conduct a 15-minute quick-fire group research sprint, and deliver a collaborative 5-minute accident briefing to classmates.",
+          "items": [
             {
-              "stem": "The newly ordered twin-engine widebodies are substantially ________ fuel-efficient than the quad-jet airliners they will replace.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "much"
-                },
-                {
-                  "letter": "B",
-                  "text": "more"
-                },
-                {
-                  "letter": "C",
-                  "text": "most"
-                },
-                {
-                  "letter": "D",
-                  "text": "many"
-                }
-              ],
-              "correctLetter": "B",
-              "correctText": "more",
-              "analysis": "The presence of the comparative connector 'than' requires the comparative degree 'more' with the multi-syllable adjective 'fuel-efficient'. 'Substantially' acts as an adverb of degree modifying 'more'.",
-              "strategy": "Always scan ahead for 'than'. The marker 'than' always demands a comparative form (more, -er, less)."
+              "num": 1,
+              "title": "Examine Landmark Historical Aviation Accidents",
+              "description": "Analyze major historical accidents (e.g., Tenerife 1977, BA 38, US Airways 1549, AF 447, Aloha 243, 737 MAX) and identify the specific aircraft types involved."
             },
             {
-              "stem": "Airbus and Boeing dominate commercial airliner manufacturing, holding an effective global ________ in large passenger jet production.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "autonomy"
-                },
-                {
-                  "letter": "B",
-                  "text": "monopoly"
-                },
-                {
-                  "letter": "C",
-                  "text": "duopoly"
-                },
-                {
-                  "letter": "D",
-                  "text": "subsidy"
-                }
-              ],
-              "correctLetter": "C",
-              "correctText": "duopoly",
-              "analysis": "A market situation where two commercial entities dominate the supply of a commodity or aircraft type is legally and economically defined as a 'duopoly'.",
-              "strategy": "Prefix clues: mono- (one supplier), duo- (two dominant suppliers), poly- (many). Airbus + Boeing = 2, hence duopoly."
+              "num": 2,
+              "title": "Master Accident Investigation Lexis & Causal Analysis",
+              "description": "Deploy technical terms including Flight Data Recorder (FDR), Cockpit Voice Recorder (CVR), root causes, human factors, and Swiss Cheese model."
             },
             {
-              "stem": "By operating a single aircraft family across its entire network, the low-cost carrier achieved significant ________ in crew training and spare parts inventory.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "economies of scale"
-                },
-                {
-                  "letter": "B",
-                  "text": "flight limitations"
-                },
-                {
-                  "letter": "C",
-                  "text": "cabin disruptions"
-                },
-                {
-                  "letter": "D",
-                  "text": "baggage delays"
-                }
-              ],
-              "correctLetter": "A",
-              "correctText": "economies of scale",
-              "analysis": "'Economies of scale' is the precise financial collocation for cost savings and operational efficiencies gained through increased volume or fleet standardization.",
-              "strategy": "High-yield business lexis: 'achieve economies of scale' is a staple TOEIC business strategy phrase."
+              "num": 3,
+              "title": "Deploy Past Narrative Tenses & Chronological Sequencers",
+              "description": "Accurately combine past simple, past continuous, and past perfect tenses to describe flight incident sequences and timelines."
             },
             {
-              "stem": "The airline decided to retire its older aircraft earlier than planned because the escalating cost of maintenance was no longer ________.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "justify"
-                },
-                {
-                  "letter": "B",
-                  "text": "justifiable"
-                },
-                {
-                  "letter": "C",
-                  "text": "justifiably"
-                },
-                {
-                  "letter": "D",
-                  "text": "justification"
-                }
-              ],
-              "correctLetter": "B",
-              "correctText": "justifiable",
-              "analysis": "The linking verb 'was' accompanied by the adverbial phrase 'no longer' requires a predicate adjective ('justifiable') to describe the cost of maintenance.",
-              "strategy": "After copular/linking verbs (be, become, remain, seem), select an adjective (ending in -able, -ive, -al) rather than a noun or adverb."
+              "num": 4,
+              "title": "Execute a 15-Minute Group Research & Preparation Sprint",
+              "description": "Collaborate in small groups (3-4 students) within a strict 15-minute timeframe to extract technical causes, timelines, and safety outcomes."
             },
             {
-              "stem": "Regional turboprops remain the most economical solution for short routes ________ their low fuel burn at regional cruising altitudes.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "although"
-                },
-                {
-                  "letter": "B",
-                  "text": "despite"
-                },
-                {
-                  "letter": "C",
-                  "text": "whereas"
-                },
-                {
-                  "letter": "D",
-                  "text": "because of"
-                }
-              ],
-              "correctLetter": "D",
-              "correctText": "because of",
-              "analysis": "'Because of' is a compound preposition followed by a noun phrase ('their low fuel burn...') indicating the positive causal reason for their economical nature.",
-              "strategy": "Cause vs. concession: 'their low fuel burn' is the reason for high economy (causal), so use 'because of', not concessive words like 'despite' or 'although'."
+              "num": 5,
+              "title": "Deliver a 5-Minute Spoken Safety Briefing & Peer Q&A",
+              "description": "Present the accident analysis collaboratively to classmates without reading verbatim from notes, answering spontaneous questions."
             }
           ]
         },
@@ -13842,156 +13887,301 @@
               "The BEA safety board determined that sensor discrepancy had triggered inappropriate flight control law degradation."
             ]
           },
-          "toeic": {
-            "stem": "The accident investigation bureau concluded that the aircraft ________ at cruise altitude for three hours before the electrical failure occurred.",
-            "options": [
-              {
-                "letter": "A",
-                "text": "is flying"
-              },
-              {
-                "letter": "B",
-                "text": "was flown"
-              },
-              {
-                "letter": "C",
-                "text": "had been flying"
-              },
-              {
-                "letter": "D",
-                "text": "has flown"
-              }
-            ],
-            "correctLetter": "C",
-            "correctText": "had been flying",
-            "analysis": "The past perfect continuous ('had been flying') indicates an ongoing action that was in progress for a specified duration ('for three hours') before another definitive past event ('the failure occurred').",
-            "strategy": "Duration markers ('for X hours') preceding a past event ('before + past simple') signal the Past Perfect Continuous (had been + -ing)."
-          },
           "toeicQuestions": [
+                    {
+                              "stem": "The accident investigation bureau concluded that the aircraft ________ at cruise altitude for three hours before the electrical failure occurred.",
+                              "options": [
+                                        {
+                                                  "letter": "A",
+                                                  "text": "is flying"
+                                        },
+                                        {
+                                                  "letter": "B",
+                                                  "text": "was flown"
+                                        },
+                                        {
+                                                  "letter": "C",
+                                                  "text": "had been flying"
+                                        },
+                                        {
+                                                  "letter": "D",
+                                                  "text": "has flown"
+                                        }
+                              ],
+                              "correctLetter": "C",
+                              "correctText": "had been flying",
+                              "analysis": "The past perfect continuous ('had been flying') indicates an ongoing action that was in progress for a specified duration ('for three hours') before another definitive past event ('the failure occurred').",
+                              "strategy": "Duration markers ('for X hours') preceding a past event ('before + past simple') signal the Past Perfect Continuous (had been + -ing).",
+                              "id": 1
+                    },
+                    {
+                              "stem": "Civil aviation authorities issued an emergency Airworthiness Directive requiring mandatory ________ of all engine fuel-oil heat exchangers.",
+                              "options": [
+                                        {
+                                                  "letter": "A",
+                                                  "text": "inspections"
+                                        },
+                                        {
+                                                  "letter": "B",
+                                                  "text": "inspects"
+                                        },
+                                        {
+                                                  "letter": "C",
+                                                  "text": "inspected"
+                                        },
+                                        {
+                                                  "letter": "D",
+                                                  "text": "inspect"
+                                        }
+                              ],
+                              "correctLetter": "A",
+                              "correctText": "inspections",
+                              "analysis": "The transitive participle 'requiring' followed by the adjective 'mandatory' requires a direct object noun. The plural noun 'inspections' completes the meaning.",
+                              "strategy": "After an adjective (mandatory, regulatory, annual, periodic), select the noun form (ending in -tion, -ment, -ance).",
+                              "id": 2
+                    },
+                    {
+                              "stem": "Investigators determined that the flight crew had lost situational awareness ________ extreme fatigue and high cognitive workload in severe weather.",
+                              "options": [
+                                        {
+                                                  "letter": "A",
+                                                  "text": "because of"
+                                        },
+                                        {
+                                                  "letter": "B",
+                                                  "text": "although"
+                                        },
+                                        {
+                                                  "letter": "C",
+                                                  "text": "whereas"
+                                        },
+                                        {
+                                                  "letter": "D",
+                                                  "text": "in spite"
+                                        }
+                              ],
+                              "correctLetter": "A",
+                              "correctText": "because of",
+                              "analysis": "'Because of' correctly introduces the noun phrase cause ('extreme fatigue and high cognitive workload'). 'In spite' lacks 'of', and 'although' / 'whereas' introduce full clauses.",
+                              "strategy": "Identify cause vs. contrast: fatigue caused the loss of awareness (direct cause = because of).",
+                              "id": 3
+                    },
+                    {
+                              "stem": "The Flight Data Recorder provided accurate telemetry data that enabled engineers ________ the exact sequence of events leading to the incident.",
+                              "options": [
+                                        {
+                                                  "letter": "A",
+                                                  "text": "reconstruct"
+                                        },
+                                        {
+                                                  "letter": "B",
+                                                  "text": "to reconstruct"
+                                        },
+                                        {
+                                                  "letter": "C",
+                                                  "text": "reconstructing"
+                                        },
+                                        {
+                                                  "letter": "D",
+                                                  "text": "reconstructed"
+                                        }
+                              ],
+                              "correctLetter": "B",
+                              "correctText": "to reconstruct",
+                              "analysis": "The causative verb 'enable' follows the structural pattern 'enable + someone / something + to-infinitive' ('enabled engineers to reconstruct').",
+                              "strategy": "Causative & permissive verbs taking object + to-infinitive: enable, allow, require, permit, instruct, authorize.",
+                              "id": 4
+                    },
+                    {
+                              "stem": "Following the publication of the final report, airlines implemented enhanced crew training programs in order to ________ future communication errors.",
+                              "options": [
+                                        {
+                                                  "letter": "A",
+                                                  "text": "preventing"
+                                        },
+                                        {
+                                                  "letter": "B",
+                                                  "text": "prevention"
+                                        },
+                                        {
+                                                  "letter": "C",
+                                                  "text": "prevent"
+                                        },
+                                        {
+                                                  "letter": "D",
+                                                  "text": "preventable"
+                                        }
+                              ],
+                              "correctLetter": "C",
+                              "correctText": "prevent",
+                              "analysis": "The purpose clause connector 'in order to' is strictly followed by the base bare form of the verb ('in order to prevent').",
+                              "strategy": "In order to / so as to are purpose markers that must be followed by a bare infinitive (base verb form V1).",
+                              "id": 5
+                    }
+          ],
+          "pageUrl": "session4/admat_aas2.html"
+        }
+      }
+    }
+  },
+  "3": {
+    "id": 3,
+    "name": "Module 3",
+    "title": "Safety and Security",
+    "ddrs": {
+      "title": "Développement Durable & Responsabilité Sociétale : Tags et Définitions Officielles",
+      "summary": "Le Référentiel National DD&RS de l'Enseignement Supérieur et de la Recherche (Label DD&RS) structure les engagements écologiques, sociétaux et éthiques des établissements et des grands projets de transport selon 5 axes stratégiques et leurs domaines transversaux d'application.",
+      "pageUrl": "ddrs3.html",
+      "axes": [
+        {
+          "badge": "Axe 1",
+          "num": "1.",
+          "title": "Gouvernance et Stratégie",
+          "desc": "Intégration du développement durable dans la vision, le projet d'établissement et le pilotage décisionnel. Dialogue continu avec les parties prenantes (étudiants, personnels, collectivités, partenaires), allocation de budgets dédiés et suivi d'indicateurs d'impact mesurables."
+        },
+        {
+          "badge": "Axe 2",
+          "num": "2.",
+          "title": "Formation et Pédagogie",
+          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-écologique (limites planétaires, climat, biodiversité). Intégration transversale des compétences DD&RS (rapport Jouzel / socle MESR) pour préparer les ingénieurs à la prise de décision éthique et responsable."
+        },
+        {
+          "badge": "Axe 3",
+          "num": "3.",
+          "title": "Recherche et Innovation",
+          "desc": "Orientation et valorisation de l'activité scientifique et technologique en réponse aux Objectifs de Développement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, éco-conception et transfert de technologies vertes au service de la société."
+        },
+        {
+          "badge": "Axe 4",
+          "num": "4.",
+          "title": "Gestion Environnementale",
+          "desc": "Maîtrise et réduction continue des impacts écologiques directs : décarbonation des mobilités pendulaires et professionnelles, efficacité et sobriété énergétique du patrimoine bâti, gestion circulaire des déchets, préservation de la biodiversité sur site et achats publics responsables."
+        },
+        {
+          "badge": "Axe 5",
+          "num": "5.",
+          "title": "Politique Sociale et Inclusion",
+          "desc": "Engagement institutionnel pour la responsabilité sociétale : égalité professionnelle femmes-hommes, inclusion et accessibilité des personnes en situation de handicap, égalité des chances, amélioration de la qualité de vie et santé globale, et prévention de toute forme de discrimination."
+        }
+      ],
+      "items": [
+        {
+          "badge": "Axe 1",
+          "num": "1.",
+          "title": "Gouvernance et Stratégie",
+          "desc": "Intégration du développement durable dans la vision, le projet d'établissement et le pilotage décisionnel. Dialogue continu avec les parties prenantes (étudiants, personnels, collectivités, partenaires), allocation de budgets dédiés et suivi d'indicateurs d'impact mesurables.",
+          "isMuted": false
+        },
+        {
+          "badge": "Axe 2",
+          "num": "2.",
+          "title": "Formation et Pédagogie",
+          "desc": "Sensibilisation et formation de 100 % des apprenants aux enjeux de la transition socio-écologique (limites planétaires, climat, biodiversité). Intégration transversale des compétences DD&amp;RS (rapport Jouzel / socle MESR) pour préparer les ingénieurs à la prise de décision éthique et responsable.",
+          "isMuted": false
+        },
+        {
+          "badge": "Axe 3",
+          "num": "3.",
+          "title": "Recherche et Innovation",
+          "desc": "Orientation et valorisation de l'activité scientifique et technologique en réponse aux Objectifs de Développement Durable (ODD). Soutien aux programmes interdisciplinaires, recherche sobre et responsable, éco-conception et transfert de technologies vertes au service de la société.",
+          "isMuted": false
+        },
+        {
+          "badge": "Axe 4",
+          "num": "4.",
+          "title": "Gestion Environnementale",
+          "desc": "Maîtrise et réduction continue des impacts écologiques directs : décarbonation des mobilités pendulaires et professionnelles, efficacité et sobriété énergétique du patrimoine bâti, gestion circulaire des déchets, préservation de la biodiversité sur site et achats publics responsables.",
+          "isMuted": false
+        },
+        {
+          "badge": "Axe 5",
+          "num": "5.",
+          "title": "Politique Sociale et Inclusion",
+          "desc": "Engagement institutionnel pour la responsabilité sociétale : égalité professionnelle femmes-hommes, inclusion et accessibilité des personnes en situation de handicap, égalité des chances, amélioration de la qualité de vie et santé globale, et prévention de toute forme de discrimination.",
+          "isMuted": true
+        },
+        {
+          "badge": "Tag",
+          "num": "6.",
+          "title": "Mobilité Durable &amp; Report Modal (Sustainable Mobility)",
+          "desc": "Stratégie d'optimisation des transports articulée autour de la hiérarchie « Éviter - Transférer - Améliorer » (ASI). Promotion active du report modal vers le ferroviaire, les transports en commun et les mobilités douces face à l'autosolisme et aux vols court-courriers.",
+          "isMuted": true
+        },
+        {
+          "badge": "Tag",
+          "num": "7.",
+          "title": "Bilan d'Émissions de GES (BEGES / Bilan Carbone)",
+          "desc": "Comptabilisation réglementaire des gaz à effet de serre (méthode ADEME / ISO 14064) sur les trois périmètres : Scope 1 (émissions directes), Scope 2 (émissions indirectes énergétiques) et Scope 3 (émissions indirectes amont/aval : déplacements, achats, logistique et cycle de vie).",
+          "isMuted": false
+        },
+        {
+          "badge": "Tag",
+          "num": "8.",
+          "title": "Sobriété Énergétique &amp; Efficacité",
+          "desc": "Démarche articulant la sobriété (questionnement et réduction des consommations par la modification des comportements et des usages collectifs) et l'efficacité (optimisation technique des rendements énergétiques pour un même niveau de service).",
+          "isMuted": false
+        },
+        {
+          "badge": "Tag",
+          "num": "9.",
+          "title": "Préservation de la Biodiversité &amp; Zéro Artificialisation Nette (ZAN)",
+          "desc": "Protection des écosystèmes et des continuités écologiques (trames vertes et bleues). Application des exigences légales (loi Climat et Résilience) visant à stopper la disparition nette d'espaces naturels et agricoles causée par les infrastructures et l'aménagement.",
+          "isMuted": true
+        },
+        {
+          "badge": "Tag",
+          "num": "10.",
+          "title": "Équité Territoriale &amp; Accessibilité (Territorial Equity)",
+          "desc": "Principe de justice spatiale garantissant un accès universel, abordable et sécurisé aux réseaux de transport et aux services d'intérêt général pour l'ensemble des territoires (urbains, périurbains et ruraux), luttant contre la fracture et la précarité mobilité.",
+          "isMuted": false
+        },
+        {
+          "badge": "Tag",
+          "num": "11.",
+          "title": "Achats Responsables &amp; Analyse du Cycle de Vie (ACV / LCA)",
+          "desc": "Intégration systématique de critères environnementaux et sociaux dans la commande publique et privée. Évaluation globale des impacts de chaque produit, infrastructure ou service de son extraction jusqu'à son recyclage ou élimination finale.",
+          "isMuted": false
+        },
+        {
+          "badge": "Tag",
+          "num": "12.",
+          "title": "Objectifs de Développement Durable (ODD - Agenda 2030)",
+          "desc": "Cadre universel des Nations Unies comprenant 17 objectifs interdépendants pour concilier prospérité économique, progrès social et protection de la biosphère. Les politiques de transport et d'ingénierie s'articulent principalement autour des ODD 9, 11, 12 et 13.",
+          "isMuted": false
+        }
+      ]
+    },
+    "sessions": {
+      "1": {
+        "session": 1,
+        "objectives": {
+          "title": "Session 1 - Artificial Intelligence Objectives",
+          "summary": "By the end of this session, you will be able to discuss artificial intelligence and automation in everyday life and workplaces with confidence, use key vocabulary and grammar, and build the skills needed for your TOEIC test and Session 5 evaluation.",
+          "items": [
             {
-              "stem": "The accident investigation bureau concluded that the aircraft ________ at cruise altitude for three hours before the electrical failure occurred.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "is flying"
-                },
-                {
-                  "letter": "B",
-                  "text": "was flown"
-                },
-                {
-                  "letter": "C",
-                  "text": "had been flying"
-                },
-                {
-                  "letter": "D",
-                  "text": "has flown"
-                }
-              ],
-              "correctLetter": "C",
-              "correctText": "had been flying",
-              "analysis": "The past perfect continuous ('had been flying') indicates an ongoing action that was in progress for a specified duration ('for three hours') before another definitive past event ('the failure occurred').",
-              "strategy": "Duration markers ('for X hours') preceding a past event ('before + past simple') signal the Past Perfect Continuous (had been + -ing)."
+              "num": 1,
+              "title": "Practice Reading TOEIC Technology Notices & Emails",
+              "description": "Read technical announcements, office memos, and software update notices typical of TOEIC Part 7."
             },
             {
-              "stem": "Civil aviation authorities issued an emergency Airworthiness Directive requiring mandatory ________ of all engine fuel-oil heat exchangers.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "inspections"
-                },
-                {
-                  "letter": "B",
-                  "text": "inspects"
-                },
-                {
-                  "letter": "C",
-                  "text": "inspected"
-                },
-                {
-                  "letter": "D",
-                  "text": "inspect"
-                }
-              ],
-              "correctLetter": "A",
-              "correctText": "inspections",
-              "analysis": "The transitive participle 'requiring' followed by the adjective 'mandatory' requires a direct object noun. The plural noun 'inspections' completes the meaning.",
-              "strategy": "After an adjective (mandatory, regulatory, annual, periodic), select the noun form (ending in -tion, -ment, -ance)."
+              "num": 2,
+              "title": "Master Everyday AI & Automation Vocabulary",
+              "description": "Learn and use key terms for machine learning, predictive tools, autonomous systems, and digital assistants."
             },
             {
-              "stem": "Investigators determined that the flight crew had lost situational awareness ________ extreme fatigue and high cognitive workload in severe weather.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "because of"
-                },
-                {
-                  "letter": "B",
-                  "text": "although"
-                },
-                {
-                  "letter": "C",
-                  "text": "whereas"
-                },
-                {
-                  "letter": "D",
-                  "text": "in spite"
-                }
-              ],
-              "correctLetter": "A",
-              "correctText": "because of",
-              "analysis": "'Because of' correctly introduces the noun phrase cause ('extreme fatigue and high cognitive workload'). 'In spite' lacks 'of', and 'although' / 'whereas' introduce full clauses.",
-              "strategy": "Identify cause vs. contrast: fatigue caused the loss of awareness (direct cause = because of)."
+              "num": 3,
+              "title": "Understand Active vs. Passive Voice in Technical English",
+              "description": "Identify when an action is done by a system (active) versus to a system (passive: is tested, must be reviewed)."
             },
             {
-              "stem": "The Flight Data Recorder provided accurate telemetry data that enabled engineers ________ the exact sequence of events leading to the incident.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "reconstruct"
-                },
-                {
-                  "letter": "B",
-                  "text": "to reconstruct"
-                },
-                {
-                  "letter": "C",
-                  "text": "reconstructing"
-                },
-                {
-                  "letter": "D",
-                  "text": "reconstructed"
-                }
-              ],
-              "correctLetter": "B",
-              "correctText": "to reconstruct",
-              "analysis": "The causative verb 'enable' follows the structural pattern 'enable + someone / something + to-infinitive' ('enabled engineers to reconstruct').",
-              "strategy": "Causative & permissive verbs taking object + to-infinitive: enable, allow, require, permit, instruct, authorize."
+              "num": 4,
+              "title": "Evaluate AI Ethics, Employment & Social Impact (DDRS)",
+              "description": "Discuss how artificial intelligence affects employment, data privacy, and ethical decision-making in society."
             },
             {
-              "stem": "Following the publication of the final report, airlines implemented enhanced crew training programs in order to ________ future communication errors.",
-              "options": [
-                {
-                  "letter": "A",
-                  "text": "preventing"
-                },
-                {
-                  "letter": "B",
-                  "text": "prevention"
-                },
-                {
-                  "letter": "C",
-                  "text": "prevent"
-                },
-                {
-                  "letter": "D",
-                  "text": "preventable"
-                }
-              ],
-              "correctLetter": "C",
-              "correctText": "prevent",
-              "analysis": "The purpose clause connector 'in order to' is strictly followed by the base bare form of the verb ('in order to prevent').",
-              "strategy": "In order to / so as to are purpose markers that must be followed by a bare infinitive (base verb form V1)."
+              "num": 5,
+              "title": "Build Fluency for the Session 5 Evaluation",
+              "description": "Practice expressing opinions and evaluating technology trends clearly in pair and group discussions."
             }
           ]
         },

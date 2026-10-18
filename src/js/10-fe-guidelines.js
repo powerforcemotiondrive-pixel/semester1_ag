@@ -1,6 +1,7 @@
     function renderFeGuidelinesTab(modNum, theme) {
       const bodyEl = document.getElementById('modal-body');
-      const isAas = (modalState && modalState.program === 'aas') || currentProgram === 'aas';
+      const prog = (modalState && modalState.program) || currentProgram || 'ag';
+      const isAas = prog === 'aas';
 
       if (isAas && modNum === 1) {
         bodyEl.innerHTML = `
@@ -1379,7 +1380,8 @@
 
     function renderFeObjectivesTab(modNum, theme) {
       const bodyEl = document.getElementById('modal-body');
-      const isAas = (modalState && modalState.program === 'aas') || currentProgram === 'aas';
+      const prog = (modalState && modalState.program) || currentProgram || 'ag';
+      const isAas = prog === 'aas';
 
       if (isAas && modNum === 1) {
         bodyEl.innerHTML = `
@@ -1682,7 +1684,8 @@
 
     function renderFeCriteriaTab(modNum, theme) {
       const bodyEl = document.getElementById('modal-body');
-      const isAas = (modalState && modalState.program === 'aas') || currentProgram === 'aas';
+      const prog = (modalState && modalState.program) || currentProgram || 'ag';
+      const isAas = prog === 'aas';
 
       if (isAas && modNum === 1) {
         bodyEl.innerHTML = `
