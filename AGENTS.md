@@ -45,7 +45,7 @@ Course administration (student lists, teacher assignments, weekly schedules, and
   *(Compiles `src/` into `index.html`, compiles Tailwind CSS v4 minified, validates manifest integrity, and outputs the SCORM zip).*
 - **Release Versioning**:
   - Main production code lives on branch `main`.
-  - Production releases are tagged with `v1.0.0-live` (or semantic version increments) and pushed with:
+  - Production releases are tagged with `v1.2.0-live` (or semantic version increments) and pushed with:
     ```bash
     git push origin main --force --tags
     ```

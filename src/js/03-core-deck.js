@@ -1264,7 +1264,7 @@
 
     window.openPortfolioDrawer = function(trackKey) {
       const activeTrack = trackKey || currentProgram || 'ag';
-      const targetUrl = `portfolio.html?track=${activeTrack}&_v=1.0.0`;
+      const targetUrl = `portfolio.html?track=${activeTrack}&_v=1.2.0`;
 
       const modalEl = document.getElementById('deck-portfolio-modal');
       const backdropEl = document.getElementById('portfolio-modal-backdrop');
