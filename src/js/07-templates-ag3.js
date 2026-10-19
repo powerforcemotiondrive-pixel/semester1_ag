@@ -51,14 +51,14 @@
             </div>
           </div>
 
-          <!-- Activity 1: News Prompts & Diagnostic Spot-Checks -->
+          <!-- Activity 1: News Prompts & Quick Warm-Up Checks -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">0-10m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Warm-Up (10 mins)'}</h4>
-                  <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and technical distinction spot-checks'}</p>
+                  <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and key concepts review'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
@@ -81,7 +81,7 @@
               </div>
             ` : ''}
 
-            <!-- Diagnostic Spot Checks -->
+            <!-- Quick Warm-Up Checks -->
             ${(opening.diagnostic && opening.diagnostic.questions && opening.diagnostic.questions.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
                 <div class="flex items-center justify-between">
@@ -124,10 +124,10 @@
 
             ${renderActivityInstructions(survey, theme)}
 
-            <!-- Signposts -->
+            <!-- Transition Phrases & Linking Words -->
             ${survey.signposts ? `
               <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
+                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Transition Phrases &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-blue-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-blue-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -257,7 +257,7 @@
                   </div>
                   ${(r.keyPhrases && r.keyPhrases.length) ? `
                     <div class="pt-2 border-t ${i === 0 ? 'border-blue-200' : 'border-slate-200'} space-y-1">
-                      <span class="text-[10px] font-bold text-slate-600 uppercase tracking-wider block">Target Spoken Formulae:</span>
+                      <span class="text-[10px] font-bold text-slate-600 uppercase tracking-wider block">Useful Spoken Phrases:</span>
                       ${r.keyPhrases.map(ph => `<p class="text-[11px] text-slate-600 italic leading-snug">${ph}</p>`).join('')}
                     </div>
                   ` : ''}
@@ -273,7 +273,7 @@
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">100-120m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${closing.title || "Activity 5: Wrap-Up &amp; FE3 Preparation (15 mins)"}</h4>
-                  <p class="text-[11px] text-slate-500">${closing.summary || "Consolidation, phonetics, and portfolio check"}</p>
+                  <p class="text-[11px] text-slate-500">${closing.summary || "Consolidation, pronunciation practice, and portfolio check"}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Debrief &amp; Exit Ticket</span>
@@ -352,14 +352,14 @@
             </div>
           </div>
 
-          <!-- Activity 1: News Prompts & Diagnostic Spot-Checks -->
+          <!-- Activity 1: News Prompts & Quick Warm-Up Checks -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">0-10m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Warm-Up (10 mins)'}</h4>
-                  <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and technical distinction spot-checks'}</p>
+                  <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and key concepts review'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
@@ -382,7 +382,7 @@
               </div>
             ` : ''}
 
-            <!-- Diagnostic Spot Checks -->
+            <!-- Quick Warm-Up Checks -->
             ${(opening.diagnostic && opening.diagnostic.questions && opening.diagnostic.questions.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
                 <div class="flex items-center justify-between">
@@ -425,10 +425,10 @@
 
             ${renderActivityInstructions(survey, theme)}
 
-            <!-- Signposts -->
+            <!-- Transition Phrases & Linking Words -->
             ${survey.signposts ? `
               <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
+                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Transition Phrases &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-blue-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-blue-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -558,7 +558,7 @@
                   </div>
                   ${(r.keyPhrases && r.keyPhrases.length) ? `
                     <div class="pt-2 border-t ${i === 0 ? 'border-blue-200' : 'border-slate-200'} space-y-1">
-                      <span class="text-[10px] font-bold text-slate-600 uppercase tracking-wider block">Target Spoken Formulae:</span>
+                      <span class="text-[10px] font-bold text-slate-600 uppercase tracking-wider block">Useful Spoken Phrases:</span>
                       ${r.keyPhrases.map(ph => `<p class="text-[11px] text-slate-600 italic leading-snug">${ph}</p>`).join('')}
                     </div>
                   ` : ''}
@@ -574,7 +574,7 @@
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">100-120m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${closing.title || "Activity 5: Wrap-Up &amp; FE3 Preparation (15 mins)"}</h4>
-                  <p class="text-[11px] text-slate-500">${closing.summary || "Consolidation, phonetics, and portfolio check"}</p>
+                  <p class="text-[11px] text-slate-500">${closing.summary || "Consolidation, pronunciation practice, and portfolio check"}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Debrief &amp; Exit Ticket</span>
@@ -653,14 +653,14 @@
             </div>
           </div>
 
-          <!-- Activity 1: News Prompts & Diagnostic Spot-Checks -->
+          <!-- Activity 1: News Prompts & Quick Warm-Up Checks -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">0-10m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Warm-Up (10 mins)'}</h4>
-                  <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and technical distinction spot-checks'}</p>
+                  <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and key concepts review'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
@@ -683,7 +683,7 @@
               </div>
             ` : ''}
 
-            <!-- Diagnostic Spot Checks -->
+            <!-- Quick Warm-Up Checks -->
             ${(opening.diagnostic && opening.diagnostic.questions && opening.diagnostic.questions.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
                 <div class="flex items-center justify-between">
@@ -726,10 +726,10 @@
 
             ${renderActivityInstructions(survey, theme)}
 
-            <!-- Signposts -->
+            <!-- Transition Phrases & Linking Words -->
             ${survey.signposts ? `
               <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
+                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Transition Phrases &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-blue-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-blue-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -859,7 +859,7 @@
                   </div>
                   ${(r.keyPhrases && r.keyPhrases.length) ? `
                     <div class="pt-2 border-t ${i === 0 ? 'border-blue-200' : 'border-slate-200'} space-y-1">
-                      <span class="text-[10px] font-bold text-slate-600 uppercase tracking-wider block">Target Spoken Formulae:</span>
+                      <span class="text-[10px] font-bold text-slate-600 uppercase tracking-wider block">Useful Spoken Phrases:</span>
                       ${r.keyPhrases.map(ph => `<p class="text-[11px] text-slate-600 italic leading-snug">${ph}</p>`).join('')}
                     </div>
                   ` : ''}
@@ -875,7 +875,7 @@
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">100-120m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${closing.title || "Activity 5: Wrap-Up &amp; FE3 Preparation (15 mins)"}</h4>
-                  <p class="text-[11px] text-slate-500">${closing.summary || "Consolidation, phonetics, and portfolio check"}</p>
+                  <p class="text-[11px] text-slate-500">${closing.summary || "Consolidation, pronunciation practice, and portfolio check"}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Debrief &amp; Exit Ticket</span>
@@ -954,14 +954,14 @@
             </div>
           </div>
 
-          <!-- Activity 1: News Prompts & Diagnostic Spot-Checks -->
+          <!-- Activity 1: News Prompts & Quick Warm-Up Checks -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">0-10m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Warm-Up (10 mins)'}</h4>
-                  <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and technical distinction spot-checks'}</p>
+                  <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and key concepts review'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
@@ -984,7 +984,7 @@
               </div>
             ` : ''}
 
-            <!-- Diagnostic Spot Checks -->
+            <!-- Quick Warm-Up Checks -->
             ${(opening.diagnostic && opening.diagnostic.questions && opening.diagnostic.questions.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
                 <div class="flex items-center justify-between">
@@ -1027,10 +1027,10 @@
 
             ${renderActivityInstructions(survey, theme)}
 
-            <!-- Signposts -->
+            <!-- Transition Phrases & Linking Words -->
             ${survey.signposts ? `
               <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
+                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Transition Phrases &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-blue-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-blue-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -1160,7 +1160,7 @@
                   </div>
                   ${(r.keyPhrases && r.keyPhrases.length) ? `
                     <div class="pt-2 border-t ${i === 0 ? 'border-blue-200' : 'border-slate-200'} space-y-1">
-                      <span class="text-[10px] font-bold text-slate-600 uppercase tracking-wider block">Target Spoken Formulae:</span>
+                      <span class="text-[10px] font-bold text-slate-600 uppercase tracking-wider block">Useful Spoken Phrases:</span>
                       ${r.keyPhrases.map(ph => `<p class="text-[11px] text-slate-600 italic leading-snug">${ph}</p>`).join('')}
                     </div>
                   ` : ''}
@@ -1176,7 +1176,7 @@
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">100-120m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${closing.title || "Activity 5: Wrap-Up &amp; FE3 Preparation (15 mins)"}</h4>
-                  <p class="text-[11px] text-slate-500">${closing.summary || "Consolidation, phonetics, and portfolio check"}</p>
+                  <p class="text-[11px] text-slate-500">${closing.summary || "Consolidation, pronunciation practice, and portfolio check"}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Debrief &amp; Exit Ticket</span>

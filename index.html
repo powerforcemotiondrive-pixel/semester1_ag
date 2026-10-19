@@ -858,13 +858,13 @@
         2: {
           s1: `Welcome to Module 2 on Weather & the Environment! In our interactive sessions, we focus on conversational practice, technical reading, and TOEIC strategies while discussing weather phenomena, climate risks, and travel disruptions.<br><br><em>Subject overview:</em> Severe weather events, atmospheric hazards, airport weather advisories, and Word Forms in context.<br><br>${formativeEvaluationNotice}`,
           s2: `Welcome to Session 2! Continuing our exploration of Weather & the Environment, we investigate how modern cities become more livable, green, and resilient.<br><br><em>Subject overview:</em> Sustainable cities, 15-minute neighborhood corridors, sponge city design, clean urban mobility, and Subject-Verb Agreement.<br><br>${formativeEvaluationNotice}`,
-          s3: `Welcome to Session 3! In this class, we practice building and defending clear arguments, using empirical evidence, and expressing opinions persuasively in environmental policy debates.<br><br><em>Subject overview:</em> Toulmin argument structure, cautious language (hedging), concession strategies, and Gerunds & Infinitives in decision-making.<br><br>${formativeEvaluationNotice}`,
+          s3: `Welcome to Session 3! In this class, we practice building and defending clear arguments, using empirical evidence, and expressing opinions persuasively in environmental policy debates.<br><br><em>Subject overview:</em> Structuring arguments & evidence, cautious language & polite disagreement, and Gerunds & Infinitives in decision-making.<br><br>${formativeEvaluationNotice}`,
           s4: `Welcome to Session 4! We examine how urban areas and major transport hubs protect local nature, restore biodiversity, and mitigate wildlife hazards.<br><br><em>Subject overview:</em> Urban tree canopies, constructed wetlands, wildlife corridors, aerodrome bird strike mitigation, and Pronouns & Determiners.<br><br>${formativeEvaluationNotice}`
         },
         3: {
           s1: `Welcome to Module 3 on New Technology! In our interactive sessions, we focus on conversational fluency, technical reading, and TOEIC preparation while exploring how artificial intelligence and machine learning transform workplaces and flight operations.<br><br><em>Subject overview:</em> Everyday AI tools, machine learning pipelines, predictive fleet maintenance, Human-in-the-Loop oversight, and Active vs. Passive Voice in technical descriptions.<br><br>${formativeEvaluationNotice}`,
           s2: `Welcome to Session 2! We explore how emerging propulsion concepts and clean mobility corridors will reshape transport networks by 2035 and beyond.<br><br><em>Subject overview:</em> Hydrogen aircraft propulsion, battery-electric commuter flight, urban air mobility (eVTOL) vertiports, and Future Forms with Predictive Certainty.<br><br>${formativeEvaluationNotice}`,
-          s3: `Welcome to Session 3! We practice professional debate, critical thinking, and polite disagreement on real-world technology governance and ethical quandaries.<br><br><em>Subject overview:</em> Algorithmic bias, explainable AI (XAI), digital surveillance vs. civil liberties, EU AI Act compliance, and Cautious Language (Hedging) with Concession.<br><br>${formativeEvaluationNotice}`,
+          s3: `Welcome to Session 3! We practice professional debate, critical thinking, and polite disagreement on real-world technology governance and ethical quandaries.<br><br><em>Subject overview:</em> Algorithmic bias, explainable AI (XAI), digital surveillance vs. civil liberties, EU AI Act compliance, and Cautious Language & Polite Disagreement.<br><br>${formativeEvaluationNotice}`,
           s4: `Welcome to Session 4! We examine contactless travel, digital credentials, and biometric sovereignty across international border control.<br><br><em>Subject overview:</em> Contactless e-gates, IATA One ID, cybersecurity vulnerabilities, biometric hash encryption, and Relative Clauses with Complex Noun Phrases.<br><br>${formativeEvaluationNotice}`
         }
       };
@@ -7269,14 +7269,14 @@
             </div>
           </div>
 
-          <!-- Activity 1: News Prompts & Diagnostic Spot-Checks -->
+          <!-- Activity 1: News Prompts & Quick Warm-Up Checks -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">0-10m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Warm-Up (10 mins)'}</h4>
-                  <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and technical distinction spot-checks'}</p>
+                  <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and key concepts review'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
@@ -7299,7 +7299,7 @@
               </div>
             ` : ''}
 
-            <!-- Diagnostic Spot Checks -->
+            <!-- Quick Warm-Up Checks -->
             ${(opening.diagnostic && opening.diagnostic.questions && opening.diagnostic.questions.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
                 <div class="flex items-center justify-between">
@@ -7342,10 +7342,10 @@
 
             ${renderActivityInstructions(survey, theme)}
 
-            <!-- Signposts -->
+            <!-- Transition Phrases & Linking Words -->
             ${survey.signposts ? `
               <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
+                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Transition Phrases &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-blue-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-blue-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -7475,7 +7475,7 @@
                   </div>
                   ${(r.keyPhrases && r.keyPhrases.length) ? `
                     <div class="pt-2 border-t ${i === 0 ? 'border-blue-200' : 'border-slate-200'} space-y-1">
-                      <span class="text-[10px] font-bold text-slate-600 uppercase tracking-wider block">Target Spoken Formulae:</span>
+                      <span class="text-[10px] font-bold text-slate-600 uppercase tracking-wider block">Useful Spoken Phrases:</span>
                       ${r.keyPhrases.map(ph => `<p class="text-[11px] text-slate-600 italic leading-snug">${ph}</p>`).join('')}
                     </div>
                   ` : ''}
@@ -7491,7 +7491,7 @@
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">100-120m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${closing.title || "Activity 5: Wrap-Up &amp; FE3 Preparation (15 mins)"}</h4>
-                  <p class="text-[11px] text-slate-500">${closing.summary || "Consolidation, phonetics, and portfolio check"}</p>
+                  <p class="text-[11px] text-slate-500">${closing.summary || "Consolidation, pronunciation practice, and portfolio check"}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Debrief &amp; Exit Ticket</span>
@@ -7570,14 +7570,14 @@
             </div>
           </div>
 
-          <!-- Activity 1: News Prompts & Diagnostic Spot-Checks -->
+          <!-- Activity 1: News Prompts & Quick Warm-Up Checks -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">0-10m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Warm-Up (10 mins)'}</h4>
-                  <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and technical distinction spot-checks'}</p>
+                  <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and key concepts review'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
@@ -7600,7 +7600,7 @@
               </div>
             ` : ''}
 
-            <!-- Diagnostic Spot Checks -->
+            <!-- Quick Warm-Up Checks -->
             ${(opening.diagnostic && opening.diagnostic.questions && opening.diagnostic.questions.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
                 <div class="flex items-center justify-between">
@@ -7643,10 +7643,10 @@
 
             ${renderActivityInstructions(survey, theme)}
 
-            <!-- Signposts -->
+            <!-- Transition Phrases & Linking Words -->
             ${survey.signposts ? `
               <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
+                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Transition Phrases &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-blue-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-blue-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -7776,7 +7776,7 @@
                   </div>
                   ${(r.keyPhrases && r.keyPhrases.length) ? `
                     <div class="pt-2 border-t ${i === 0 ? 'border-blue-200' : 'border-slate-200'} space-y-1">
-                      <span class="text-[10px] font-bold text-slate-600 uppercase tracking-wider block">Target Spoken Formulae:</span>
+                      <span class="text-[10px] font-bold text-slate-600 uppercase tracking-wider block">Useful Spoken Phrases:</span>
                       ${r.keyPhrases.map(ph => `<p class="text-[11px] text-slate-600 italic leading-snug">${ph}</p>`).join('')}
                     </div>
                   ` : ''}
@@ -7792,7 +7792,7 @@
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">100-120m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${closing.title || "Activity 5: Wrap-Up &amp; FE3 Preparation (15 mins)"}</h4>
-                  <p class="text-[11px] text-slate-500">${closing.summary || "Consolidation, phonetics, and portfolio check"}</p>
+                  <p class="text-[11px] text-slate-500">${closing.summary || "Consolidation, pronunciation practice, and portfolio check"}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Debrief &amp; Exit Ticket</span>
@@ -7871,14 +7871,14 @@
             </div>
           </div>
 
-          <!-- Activity 1: News Prompts & Diagnostic Spot-Checks -->
+          <!-- Activity 1: News Prompts & Quick Warm-Up Checks -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">0-10m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Warm-Up (10 mins)'}</h4>
-                  <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and technical distinction spot-checks'}</p>
+                  <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and key concepts review'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
@@ -7901,7 +7901,7 @@
               </div>
             ` : ''}
 
-            <!-- Diagnostic Spot Checks -->
+            <!-- Quick Warm-Up Checks -->
             ${(opening.diagnostic && opening.diagnostic.questions && opening.diagnostic.questions.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
                 <div class="flex items-center justify-between">
@@ -7944,10 +7944,10 @@
 
             ${renderActivityInstructions(survey, theme)}
 
-            <!-- Signposts -->
+            <!-- Transition Phrases & Linking Words -->
             ${survey.signposts ? `
               <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
+                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Transition Phrases &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-blue-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-blue-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -8077,7 +8077,7 @@
                   </div>
                   ${(r.keyPhrases && r.keyPhrases.length) ? `
                     <div class="pt-2 border-t ${i === 0 ? 'border-blue-200' : 'border-slate-200'} space-y-1">
-                      <span class="text-[10px] font-bold text-slate-600 uppercase tracking-wider block">Target Spoken Formulae:</span>
+                      <span class="text-[10px] font-bold text-slate-600 uppercase tracking-wider block">Useful Spoken Phrases:</span>
                       ${r.keyPhrases.map(ph => `<p class="text-[11px] text-slate-600 italic leading-snug">${ph}</p>`).join('')}
                     </div>
                   ` : ''}
@@ -8093,7 +8093,7 @@
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">100-120m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${closing.title || "Activity 5: Wrap-Up &amp; FE3 Preparation (15 mins)"}</h4>
-                  <p class="text-[11px] text-slate-500">${closing.summary || "Consolidation, phonetics, and portfolio check"}</p>
+                  <p class="text-[11px] text-slate-500">${closing.summary || "Consolidation, pronunciation practice, and portfolio check"}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Debrief &amp; Exit Ticket</span>
@@ -8172,14 +8172,14 @@
             </div>
           </div>
 
-          <!-- Activity 1: News Prompts & Diagnostic Spot-Checks -->
+          <!-- Activity 1: News Prompts & Quick Warm-Up Checks -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">0-10m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Warm-Up (10 mins)'}</h4>
-                  <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and technical distinction spot-checks'}</p>
+                  <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and key concepts review'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
@@ -8202,7 +8202,7 @@
               </div>
             ` : ''}
 
-            <!-- Diagnostic Spot Checks -->
+            <!-- Quick Warm-Up Checks -->
             ${(opening.diagnostic && opening.diagnostic.questions && opening.diagnostic.questions.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
                 <div class="flex items-center justify-between">
@@ -8245,10 +8245,10 @@
 
             ${renderActivityInstructions(survey, theme)}
 
-            <!-- Signposts -->
+            <!-- Transition Phrases & Linking Words -->
             ${survey.signposts ? `
               <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
+                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Transition Phrases &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-blue-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-blue-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -8378,7 +8378,7 @@
                   </div>
                   ${(r.keyPhrases && r.keyPhrases.length) ? `
                     <div class="pt-2 border-t ${i === 0 ? 'border-blue-200' : 'border-slate-200'} space-y-1">
-                      <span class="text-[10px] font-bold text-slate-600 uppercase tracking-wider block">Target Spoken Formulae:</span>
+                      <span class="text-[10px] font-bold text-slate-600 uppercase tracking-wider block">Useful Spoken Phrases:</span>
                       ${r.keyPhrases.map(ph => `<p class="text-[11px] text-slate-600 italic leading-snug">${ph}</p>`).join('')}
                     </div>
                   ` : ''}
@@ -8394,7 +8394,7 @@
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">100-120m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${closing.title || "Activity 5: Wrap-Up &amp; FE3 Preparation (15 mins)"}</h4>
-                  <p class="text-[11px] text-slate-500">${closing.summary || "Consolidation, phonetics, and portfolio check"}</p>
+                  <p class="text-[11px] text-slate-500">${closing.summary || "Consolidation, pronunciation practice, and portfolio check"}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Debrief &amp; Exit Ticket</span>
@@ -12371,7 +12371,7 @@
               </div>
               <div class="p-2.5 bg-white rounded-lg border border-blue-200">
                 <strong class="text-blue-900 block mb-0.5">Session 3 (Tech Ethics):</strong>
-                <em>Algorithmic bias, explainable AI (XAI), black-box algorithm, data minimization, concession, hedging.</em>
+                <em>Algorithmic bias, explainable AI (XAI), black-box algorithm, data minimization, concession, cautious language.</em>
               </div>
               <div class="p-2.5 bg-white rounded-lg border border-blue-200">
                 <strong class="text-blue-900 block mb-0.5">Session 4 (Biometrics &amp; IDs):</strong>
@@ -12425,7 +12425,7 @@
               <div>
                 <h5 class="text-xs sm:text-sm font-bold text-slate-800">Engage in Spontaneous Technical Defense (Teacher Q&amp;A)</h5>
                 <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
-                  Respond spontaneously to examiner questions. Defend technical architecture choices, justify efficiency claims, and address regulatory hurdles using clear concession and hedging strategies without switching to French.
+                  Respond spontaneously to examiner questions. Defend technical architecture choices, justify efficiency claims, and address regulatory hurdles using clear concession and cautious language strategies without switching to French.
                 </p>
               </div>
             </div>
@@ -12445,7 +12445,7 @@
               <div>
                 <h5 class="text-xs sm:text-sm font-bold text-slate-800">Demonstrate Grammatical Precision &amp; Syntactic Range</h5>
                 <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
-                  Accurately deploy technical passive constructions (<em>data is ingested</em>), future predictive certainty (<em>is bound to, is projected to</em>), cautious hedging/concession (<em>admittedly... nonetheless</em>), and defining/non-defining relative clauses.
+                  Accurately deploy technical passive constructions (<em>data is ingested</em>), future predictive certainty (<em>is bound to, is projected to</em>), cautious language and concession (<em>admittedly... nonetheless</em>), and defining/non-defining relative clauses.
                 </p>
               </div>
             </div>
@@ -12528,7 +12528,7 @@
                     <span class="inline-block px-2.5 py-1 rounded-lg text-white font-mono font-bold text-xs" style="background-color: ${theme.primary};">4.0 pts</span>
                   </td>
                   <td class="p-3.5 align-top text-slate-600 leading-relaxed">
-                    Accurate technical passive voice (<em>is analyzed by</em>), future predictive certainty (<em>is bound to succeed, is projected to</em>), hedging/concession (<em>admittedly... nonetheless</em>), and relative clauses.
+                    Accurate technical passive voice (<em>is analyzed by</em>), future predictive certainty (<em>is bound to succeed, is projected to</em>), cautious language & concession (<em>admittedly... nonetheless</em>), and relative clauses.
                   </td>
                 </tr>
                 <tr class="hover:bg-slate-50/60 transition-colors">
@@ -13251,7 +13251,7 @@
                 <div>
                   <h5 class="text-xs sm:text-sm font-bold text-slate-800">Demonstrate Grammatical Precision &amp; Syntactic Range</h5>
                   <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
-                    Accurately deploy narrative sequencers, passive voice in incident reports, modal verbs of deduction, conditional cause-and-effect clauses, and formal diplomatic hedging.
+                    Accurately deploy narrative sequencers, passive voice in incident reports, modal verbs of deduction, conditional cause-and-effect clauses, and formal diplomatic cautious phrasing.
                   </p>
                 </div>
               </div>
@@ -13298,7 +13298,7 @@
               <div>
                 <h5 class="text-xs sm:text-sm font-bold text-slate-800">Engage in Spontaneous Technical Defense (Teacher Q&amp;A)</h5>
                 <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
-                  Respond spontaneously to examiner questions. Defend technical trade-offs, explain risk mitigation models, and justify budget allocations using clear concession and hedging strategies without switching to French.
+                  Respond spontaneously to examiner questions. Defend technical trade-offs, explain risk mitigation models, and justify budget allocations using clear concession and cautious language strategies without switching to French.
                 </p>
               </div>
             </div>
@@ -15079,7 +15079,7 @@
           badge: "Grammar & Accuracy",
           title: "Grammatical Accuracy & Structural Control",
           desc: "Apply key grammatical structures (modals of deduction, passive voice in technical descriptions, conditionals, relative clauses, and cohesive linkers) with sufficient control to communicate complex ideas clearly with minimal interference.",
-          indicators: "Self-correction of verb tenses, accurate prepositional use, appropriate hedging in professional claims."
+          indicators: "Self-correction of verb tenses, accurate prepositional use, appropriate cautious language in professional claims."
         }
       ];
 
@@ -15131,7 +15131,7 @@
           badge: "Précision Grammaticale",
           title: "Précision grammaticale et maîtrise structurale",
           desc: "Mobiliser les structures grammaticales clés (modaux de déduction, voix passive technique, conditionnels, propositions relatives, marqueurs de cohérence) avec un degré de maîtrise suffisant pour exprimer des concepts complexes avec clarté.",
-          indicators: "Autocorrection des temps verbaux, usage précis des prépositions, formulation prudente (hedging)."
+          indicators: "Autocorrection des temps verbaux, usage précis des prépositions, formulation prudente (cautious language)."
         }
       ];
 

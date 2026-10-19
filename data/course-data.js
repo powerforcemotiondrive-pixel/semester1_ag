@@ -6770,7 +6770,7 @@
           ],
           "closingReview": {
             "title": "Activity 5: Wrap-Up & FE3 Preparation (15 mins)",
-            "summary": "Consolidation, phonetics, and portfolio check",
+            "summary": "Consolidation, pronunciation practice, and portfolio check",
             "modeBadges": [
               "👥 Pairs / Plenary",
               "⏱️ 15 mins",
@@ -7260,7 +7260,7 @@
               "Step 2 (Memory Recall - 4 mins): Without looking at notes, test each other on the 4 propulsion distinctions below (Cryogenic Liquid Hydrogen vs. High-Pressure Gas, SAF Drop-In Fuel vs. Clean-Sheet Airframe, Gravimetric Energy Density vs. Volumetric Density, High-Speed Rail vs. Short-Haul Turboprop).",
               "Step 3 (Class Roundup - 3 mins): One student explains why gravimetric energy density is the biggest limiting factor for battery-electric passenger aircraft."
             ],
-            "deliverable": "Clear spoken explanation of 1 clean propulsion concept and 1 energy storage challenge during the teacher spot-check.",
+            "deliverable": "Clear spoken explanation of 1 clean propulsion concept and 1 energy storage challenge during teacher Q&A.",
             "teacherNotes": "Keep pace brisk. Drill correct pronunciation of 'cryogenic' (cry-oh-JEN-ik) and 'gravimetric' (grav-ih-MET-rik)."
           },
           "survey": {
@@ -7459,7 +7459,7 @@
           ],
           "closingReview": {
             "title": "Activity 5: Wrap-Up & FE3 Preparation (15 mins)",
-            "summary": "Consolidation, phonetics, and portfolio check",
+            "summary": "Consolidation, pronunciation practice, and portfolio check",
             "modeBadges": [
               "👥 Pairs / Plenary",
               "⏱️ 15 mins",
@@ -7525,7 +7525,7 @@
             },
             {
               "time": "45-65",
-              "title": "Vocabulary Builder: Debate & Discussion Signposts (20 mins)",
+              "title": "Vocabulary Builder: Debate & Discussion Linking Words (20 mins)",
               "description": "Linking words and phrases for counter-arguments, concessions, rhetorical questions, and conclusions."
             },
             {
@@ -7954,7 +7954,7 @@
           },
           "survey": {
             "title": "Activity 2: Ethical Tech Dilemmas & Speed Sparring (25 mins)",
-            "summary": "Conduct fast-paced paired debates on 4 provocative technology dilemmas. Practice making measured concessions, using polite disagreement, and hedging controversial claims.",
+            "summary": "Conduct fast-paced paired debates on 4 provocative technology dilemmas. Practice making measured concessions, using polite disagreement, and softening controversial claims with cautious language.",
             "signposts": [
               "\"Admittedly, the operational convenience is undeniable; however, ...\"",
               "\"While efficiency increases markedly, it is worth questioning whether...\"",
@@ -8010,8 +8010,8 @@
             "teacherNotes": "Listen for polite concession phrases: 'Granted,... nevertheless', 'While it is true that...'. Encourage students to challenge each other diplomatically."
           },
           "grammarClinic": {
-            "title": "Activity 3: Language Focus: Cautious Language (Hedging), Concession & Counter-Argumentation (20 mins)",
-            "summary": "Mastering diplomatic argumentation, polite concession, and modal hedging to sound professional, objective, and persuasive in B2 academic and workplace debates.",
+            "title": "Activity 3: Language Focus: Cautious Language & Polite Disagreement (20 mins)",
+            "summary": "Mastering diplomatic arguments, polite concession, and cautious phrasing to sound professional, objective, and persuasive in B2 workplace debates.",
             "rules": [
               {
                 "type": "Concession Structures (Admittedly... nevertheless / While it is true that...)",
@@ -8019,7 +8019,7 @@
                 "usage": "Acknowledge the validity of an opposing point before presenting your stronger counter-argument. (e.g., 'Admittedly, automated screening expedites passenger flow; nevertheless, false-rejection error rates remain problematic.')"
               },
               {
-                "type": "Hedging Verbs & Modifiers (tend to / suggest / appear to / arguably)",
+                "type": "Cautious Verbs & Modifiers (tend to / suggest / appear to / arguably)",
                 "formula": "Subject + tends to / appears to / suggests that + clause",
                 "usage": "Softens dogmatic claims into professional, evidence-based assertions. (e.g., 'The empirical data appears to indicate that algorithmic bias decreases with diverse training sets.')"
               },
@@ -8052,7 +8052,7 @@
                   "is tending"
                 ],
                 "correct": "tend to",
-                "explanation": "Hedging expression 'tend to + base verb' accurately tempers the conclusion without dogmatism."
+                "explanation": "Cautious expression 'tend to + base verb' accurately softens the statement without sounding overly certain."
               },
               {
                 "id": 3,
@@ -8143,12 +8143,12 @@
           },
           "feChecklist": [
             "Add 5 technology ethics and governance terms to your Vocabulary Log.",
-            "Practice framing technical debate arguments using concession and hedging structures.",
+            "Practice framing technical debate arguments using concession and cautious language structures.",
             "Draft Dimension 3 (DDRS, Ethical, Regulatory & Societal Challenges) for your FE3 presentation."
           ],
           "closingReview": {
             "title": "Activity 5: Wrap-Up & FE3 Preparation (15 mins)",
-            "summary": "Consolidation, phonetics, and portfolio check",
+            "summary": "Consolidation, pronunciation practice, and portfolio check",
             "modeBadges": [
               "👥 Pairs / Plenary",
               "⏱️ 15 mins",
@@ -8837,7 +8837,7 @@
           ],
           "closingReview": {
             "title": "Activity 5: 10-Minute Vocabulary Wrap-Up & FE3 Readiness Check (10 mins)",
-            "summary": "Consolidation, phonetics, and portfolio check",
+            "summary": "Consolidation, pronunciation practice, and portfolio check",
             "modeBadges": [
               "👥 Pairs / Plenary",
               "⏱️ 10 mins",

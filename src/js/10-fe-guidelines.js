@@ -940,7 +940,7 @@
               </div>
               <div class="p-2.5 bg-white rounded-lg border border-blue-200">
                 <strong class="text-blue-900 block mb-0.5">Session 3 (Tech Ethics):</strong>
-                <em>Algorithmic bias, explainable AI (XAI), black-box algorithm, data minimization, concession, hedging.</em>
+                <em>Algorithmic bias, explainable AI (XAI), black-box algorithm, data minimization, concession, cautious language.</em>
               </div>
               <div class="p-2.5 bg-white rounded-lg border border-blue-200">
                 <strong class="text-blue-900 block mb-0.5">Session 4 (Biometrics &amp; IDs):</strong>
@@ -994,7 +994,7 @@
               <div>
                 <h5 class="text-xs sm:text-sm font-bold text-slate-800">Engage in Spontaneous Technical Defense (Teacher Q&amp;A)</h5>
                 <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
-                  Respond spontaneously to examiner questions. Defend technical architecture choices, justify efficiency claims, and address regulatory hurdles using clear concession and hedging strategies without switching to French.
+                  Respond spontaneously to examiner questions. Defend technical architecture choices, justify efficiency claims, and address regulatory hurdles using clear concession and cautious language strategies without switching to French.
                 </p>
               </div>
             </div>
@@ -1014,7 +1014,7 @@
               <div>
                 <h5 class="text-xs sm:text-sm font-bold text-slate-800">Demonstrate Grammatical Precision &amp; Syntactic Range</h5>
                 <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
-                  Accurately deploy technical passive constructions (<em>data is ingested</em>), future predictive certainty (<em>is bound to, is projected to</em>), cautious hedging/concession (<em>admittedly... nonetheless</em>), and defining/non-defining relative clauses.
+                  Accurately deploy technical passive constructions (<em>data is ingested</em>), future predictive certainty (<em>is bound to, is projected to</em>), cautious language and concession (<em>admittedly... nonetheless</em>), and defining/non-defining relative clauses.
                 </p>
               </div>
             </div>
@@ -1097,7 +1097,7 @@
                     <span class="inline-block px-2.5 py-1 rounded-lg text-white font-mono font-bold text-xs" style="background-color: ${theme.primary};">4.0 pts</span>
                   </td>
                   <td class="p-3.5 align-top text-slate-600 leading-relaxed">
-                    Accurate technical passive voice (<em>is analyzed by</em>), future predictive certainty (<em>is bound to succeed, is projected to</em>), hedging/concession (<em>admittedly... nonetheless</em>), and relative clauses.
+                    Accurate technical passive voice (<em>is analyzed by</em>), future predictive certainty (<em>is bound to succeed, is projected to</em>), cautious language & concession (<em>admittedly... nonetheless</em>), and relative clauses.
                   </td>
                 </tr>
                 <tr class="hover:bg-slate-50/60 transition-colors">
@@ -1820,7 +1820,7 @@
                 <div>
                   <h5 class="text-xs sm:text-sm font-bold text-slate-800">Demonstrate Grammatical Precision &amp; Syntactic Range</h5>
                   <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
-                    Accurately deploy narrative sequencers, passive voice in incident reports, modal verbs of deduction, conditional cause-and-effect clauses, and formal diplomatic hedging.
+                    Accurately deploy narrative sequencers, passive voice in incident reports, modal verbs of deduction, conditional cause-and-effect clauses, and formal diplomatic cautious phrasing.
                   </p>
                 </div>
               </div>
@@ -1867,7 +1867,7 @@
               <div>
                 <h5 class="text-xs sm:text-sm font-bold text-slate-800">Engage in Spontaneous Technical Defense (Teacher Q&amp;A)</h5>
                 <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
-                  Respond spontaneously to examiner questions. Defend technical trade-offs, explain risk mitigation models, and justify budget allocations using clear concession and hedging strategies without switching to French.
+                  Respond spontaneously to examiner questions. Defend technical trade-offs, explain risk mitigation models, and justify budget allocations using clear concession and cautious language strategies without switching to French.
                 </p>
               </div>
             </div>

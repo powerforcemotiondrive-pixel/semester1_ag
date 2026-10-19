@@ -1150,7 +1150,7 @@
           badge: "Grammar & Accuracy",
           title: "Grammatical Accuracy & Structural Control",
           desc: "Apply key grammatical structures (modals of deduction, passive voice in technical descriptions, conditionals, relative clauses, and cohesive linkers) with sufficient control to communicate complex ideas clearly with minimal interference.",
-          indicators: "Self-correction of verb tenses, accurate prepositional use, appropriate hedging in professional claims."
+          indicators: "Self-correction of verb tenses, accurate prepositional use, appropriate cautious language in professional claims."
         }
       ];
 
@@ -1202,7 +1202,7 @@
           badge: "Précision Grammaticale",
           title: "Précision grammaticale et maîtrise structurale",
           desc: "Mobiliser les structures grammaticales clés (modaux de déduction, voix passive technique, conditionnels, propositions relatives, marqueurs de cohérence) avec un degré de maîtrise suffisant pour exprimer des concepts complexes avec clarté.",
-          indicators: "Autocorrection des temps verbaux, usage précis des prépositions, formulation prudente (hedging)."
+          indicators: "Autocorrection des temps verbaux, usage précis des prépositions, formulation prudente (cautious language)."
         }
       ];
 
