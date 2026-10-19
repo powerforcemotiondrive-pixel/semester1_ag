@@ -854,12 +854,6 @@
   .gap-x-2\.5 {
     column-gap: calc(var(--spacing) * 2.5);
   }
-  .gap-x-3 {
-    column-gap: calc(var(--spacing) * 3);
-  }
-  .gap-x-3\.5 {
-    column-gap: calc(var(--spacing) * 3.5);
-  }
   .gap-x-4 {
     column-gap: calc(var(--spacing) * 4);
   }
@@ -1486,12 +1480,6 @@
       background-color: color-mix(in oklab, var(--color-amber-200) 80%, transparent);
     }
   }
-  .bg-amber-200\/90 {
-    background-color: color-mix(in srgb, oklch(92.4% 0.12 95.746) 90%, transparent);
-    @supports (color: color-mix(in lab, red, red)) {
-      background-color: color-mix(in oklab, var(--color-amber-200) 90%, transparent);
-    }
-  }
   .bg-amber-400 {
     background-color: var(--color-amber-400);
   }
@@ -2021,12 +2009,6 @@
     background-color: color-mix(in srgb, #fff 25%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
       background-color: color-mix(in oklab, var(--color-white) 25%, transparent);
-    }
-  }
-  .bg-white\/70 {
-    background-color: color-mix(in srgb, #fff 70%, transparent);
-    @supports (color: color-mix(in lab, red, red)) {
-      background-color: color-mix(in oklab, var(--color-white) 70%, transparent);
     }
   }
   .bg-white\/80 {
@@ -3020,9 +3002,6 @@
     .group-hover\:text-slate-900:is(:where(.group):hover *) {
       color: var(--color-slate-900);
     }
-    .group-hover\:text-slate-950:is(:where(.group):hover *) {
-      color: var(--color-slate-950);
-    }
     .group-hover\:text-white:is(:where(.group):hover *) {
       color: var(--color-white);
     }
@@ -3082,14 +3061,6 @@
     }
     .hover\:border-orange-300:hover {
       border-color: var(--color-orange-300);
-    }
-    .hover\:border-slate-200\/70:hover {
-      border-color: color-mix(in srgb, oklch(92.9% 0.013 255.508) 70%, transparent);
-    }
-    @supports (color: color-mix(in lab, red, red)) {
-      .hover\:border-slate-200\/70:hover {
-        border-color: color-mix(in oklab, var(--color-slate-200) 70%, transparent);
-      }
     }
     .hover\:border-slate-300:hover {
       border-color: var(--color-slate-300);
@@ -3196,22 +3167,11 @@
     .hover\:bg-slate-200:hover {
       background-color: var(--color-slate-200);
     }
-    .hover\:bg-slate-200\/90:hover {
-      background-color: color-mix(in srgb, oklch(92.9% 0.013 255.508) 90%, transparent);
-    }
-    @supports (color: color-mix(in lab, red, red)) {
-      .hover\:bg-slate-200\/90:hover {
-        background-color: color-mix(in oklab, var(--color-slate-200) 90%, transparent);
-      }
-    }
     .hover\:bg-slate-600:hover {
       background-color: var(--color-slate-600);
     }
     .hover\:bg-slate-700:hover {
       background-color: var(--color-slate-700);
-    }
-    .hover\:bg-white:hover {
-      background-color: var(--color-white);
     }
     .hover\:bg-white\/10:hover {
       background-color: color-mix(in srgb, #fff 10%, transparent);
@@ -3249,9 +3209,6 @@
     }
     .hover\:opacity-75:hover {
       opacity: 75%;
-    }
-    .hover\:opacity-80:hover {
-      opacity: 80%;
     }
     .hover\:opacity-90:hover {
       opacity: 90%;

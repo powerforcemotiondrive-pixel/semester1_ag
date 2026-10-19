@@ -320,12 +320,12 @@
         btn.setAttribute('title', `Module 0${idx + 1}: ${mod.subtitle || mod.name}`);
 
         if (isSelected) {
-          // Sharp elevated active module tab (01 / 02 / 03)
+          // Sharp elevated active module tab (MOD 1 / MOD 2 / MOD 3)
           btn.style.backgroundColor = currentTheme.accent;
           btn.style.borderColor = currentTheme.accentDark;
           btn.style.color = '#ffffff';
           btn.style.boxShadow = '0 1px 3px rgba(0, 0, 0, 0.2)';
-          btn.className = "flex items-center justify-center min-w-[28px] sm:min-w-[34px] px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded-md text-[11px] sm:text-xs font-bold tracking-wider transition-all border cursor-pointer select-none shadow-xs hover:-translate-y-[1px] active:translate-y-0";
+          btn.className = "flex items-center justify-center px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-md text-[11px] sm:text-xs font-black tracking-wide transition-all border cursor-pointer select-none shadow-xs hover:-translate-y-[1px] active:translate-y-0 text-white";
           btn.onmouseenter = () => {
             btn.style.backgroundColor = currentTheme.accentDark;
           };
@@ -333,23 +333,23 @@
             btn.style.backgroundColor = currentTheme.accent;
           };
         } else {
-          // Sleek dark cockpit glass tab (01 / 02 / 03)
-          btn.style.backgroundColor = 'rgba(255, 255, 255, 0.08)';
-          btn.style.borderColor = 'rgba(255, 255, 255, 0.15)';
-          btn.style.color = 'rgba(255, 255, 255, 0.82)';
+          // Sleek dark cockpit segmented tab (MOD 1 / MOD 2 / MOD 3)
+          btn.style.backgroundColor = 'transparent';
+          btn.style.borderColor = 'transparent';
+          btn.style.color = 'rgba(255, 255, 255, 0.72)';
           btn.style.boxShadow = 'none';
-          btn.className = "flex items-center justify-center min-w-[28px] sm:min-w-[34px] px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded-md text-[11px] sm:text-xs font-semibold tracking-wider transition-all border cursor-pointer select-none hover:bg-white/20 hover:text-white hover:-translate-y-[1px] active:translate-y-0";
+          btn.className = "flex items-center justify-center px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-md text-[11px] sm:text-xs font-semibold tracking-wide transition-all border border-transparent cursor-pointer select-none text-white/70 hover:text-white hover:bg-white/10 hover:-translate-y-[1px] active:translate-y-0";
           btn.onmouseenter = () => {
-            btn.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
+            btn.style.backgroundColor = 'rgba(255, 255, 255, 0.15)';
             btn.style.color = '#ffffff';
           };
           btn.onmouseleave = () => {
-            btn.style.backgroundColor = 'rgba(255, 255, 255, 0.08)';
-            btn.style.color = 'rgba(255, 255, 255, 0.82)';
+            btn.style.backgroundColor = 'transparent';
+            btn.style.color = 'rgba(255, 255, 255, 0.72)';
           };
         }
 
-        btn.innerHTML = `<span class="font-mono font-bold text-[11px] sm:text-xs">0${idx + 1}</span>`;
+        btn.innerHTML = `<span class="font-mono font-bold text-[10.5px] sm:text-xs tracking-tight">MOD ${idx + 1}</span>`;
 
         btn.addEventListener('click', () => {
           switchModule(idx, 0);
