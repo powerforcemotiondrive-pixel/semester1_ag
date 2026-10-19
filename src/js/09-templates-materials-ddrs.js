@@ -363,7 +363,7 @@
           <div class="p-4 bg-white border border-slate-200 rounded-xl shadow-xs space-y-3">
             <div class="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-slate-100">
               <div>
-                <span class="text-xs font-bold uppercase tracking-wider text-slate-500">TOEIC Diagnostic Practice • Reading Part 5</span>
+                <span class="text-xs font-bold uppercase tracking-wider text-slate-500">TOEIC Practice Test • Reading Part 5</span>
                 <div class="text-xs text-slate-500 mt-0.5">Target pace: ~30 seconds per item</div>
               </div>
               <div class="flex items-center gap-2">

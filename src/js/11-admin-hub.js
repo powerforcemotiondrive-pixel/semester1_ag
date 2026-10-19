@@ -90,7 +90,7 @@
             <div class="space-y-1">
               <span class="font-bold block">Dynamic Formative Evaluation (FE) Rotations:</span>
               <p class="text-[11px] text-amber-900 leading-relaxed">
-                To maximize pedagogical variety and ensure timeslot fairness, groups do <strong>not</strong> have fixed pairs or trios. Group A rotates across 2 pairs + 2 trios (4 slots = 2h), and Group B rotates across 3 pairs + 1 trio (4 slots = 2h). Every student experiences different peers and rotates between early and late slots across FE1 (W48), FE2 (W03), and FE3 (W08). Switch to the <strong>FE Tutorial Rotas</strong> tab to view your complete evaluation schedule.
+                To ensure variety in group work and timeslot fairness, groups do <strong>not</strong> have fixed pairs or trios. Group A rotates across 2 pairs + 2 trios (4 slots = 2h), and Group B rotates across 3 pairs + 1 trio (4 slots = 2h). Every student experiences different peers and rotates between early and late slots across FE1 (W48), FE2 (W03), and FE3 (W08). Switch to the <strong>FE Tutorial Rotas</strong> tab to view your complete evaluation schedule.
               </p>
             </div>
           </div>
@@ -631,7 +631,7 @@
               </span>
             </div>
             <h3 class="text-base sm:text-lg font-bold text-slate-800">
-              30-Minute Oral Tutorial Timeslot Matrices
+              30-Minute Oral Tutorial Timetables
             </h3>
             <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
               Every student group has an exact <strong>30-minute appointment slot</strong> with their assigned teacher. To guarantee fairness, pairings and trios rotate across FE1, FE2, and FE3, alternating early and late slots. Group A consists of <strong>2 pairs + 2 trios (10 students)</strong> and Group B consists of <strong>3 pairs + 1 trio (9 students)</strong>, precisely fitting 4 slots of 30 minutes (2 hours total).
@@ -643,7 +643,7 @@
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
               <!-- Course Selector -->
               <div>
-                <span class="block text-[10px] font-black uppercase tracking-wider text-slate-400 mb-1.5">Select Course Track Matrix:</span>
+                <span class="block text-[10px] font-black uppercase tracking-wider text-slate-400 mb-1.5">Select Course Track:</span>
                 <div class="inline-flex rounded-lg border border-slate-200 p-0.5 bg-slate-50">
                   <button type="button" onclick="setAdminRotaCourse('ag')" class="px-3.5 py-1.5 rounded-md text-xs font-bold transition-all cursor-pointer ${activeCourseKey === 'ag' ? 'bg-slate-800 text-white shadow-xs' : 'text-slate-600 hover:text-slate-900'}">
                     General English (AG • LV101E)
@@ -665,7 +665,7 @@
                 </span>
                 <div>
                   <h4 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-white">
-                    ${courseSched.name} — Complete Semester Rota Matrix
+                    ${courseSched.name} — Complete Semester Evaluation Schedule
                   </h4>
                   <p class="text-[11px] text-slate-300 font-medium">
                     ${courseSched.dayTime} • 30-min evaluation slots
@@ -1119,8 +1119,8 @@
         },
         {
           num: "03",
-          badge: "Lexical Range",
-          title: "Vocabulary Acquisition & Lexical Precision",
+          badge: "Vocabulary Range",
+          title: "Vocabulary Building & Accuracy",
           desc: "Accurately recognize, pronounce, and employ an extensive range of B2 general, technical, and academic vocabulary related to transport evolution, sustainable mobility, urban climate resilience, tech ethics, and responsible innovation (DDRS).",
           indicators: "Active use of module vocabulary lists, word-family derivations, accurate collocations in discussion."
         },
@@ -1171,9 +1171,9 @@
         },
         {
           num: "03",
-          badge: "Enrichissement Lexical",
-          title: "Acquisition lexicale et précision terminologique",
-          desc: "Comprendre et réutiliser avec précision un vaste répertoire lexical de niveau B2 (général, technique et académique) couvrant l'évolution des transports, la mobilité durable, la transition écologique, l'éthique technologique et la démarche DD&RS.",
+          badge: "Enrichissement du Vocabulaire",
+          title: "Acquisition du vocabulaire et précision terminologique",
+          desc: "Comprendre et réutiliser avec précision un vaste répertoire de vocabulaire de niveau B2 (général, technique et académique) couvrant l'évolution des transports, la mobilité durable, la transition écologique, l'éthique technologique et la démarche DD&RS.",
           indicators: "Réutilisation active du lexique de cours, dérivations lexicales, collocations professionnelles exactes."
         },
         {
@@ -1209,7 +1209,7 @@
       const aasObjectivesEn = [
         {
           num: "01",
-          badge: "Aeronautical Lexicon",
+          badge: "Aeronautical Vocabulary",
           title: "Aeronautical Technical Terminology",
           desc: "Accurately recognize, define, and employ standardized aviation vocabulary across aerodromes, runway designators, ground handling turnaround workflows, airframe anatomy, flight control axes, aerodynamics, meteorology, and safety/security systems.",
           indicators: "Precise naming of aircraft components, apron ground equipment, runway markings, and weather phenomena."
@@ -1226,13 +1226,13 @@
           badge: "Aviation Culture",
           title: "Professional Aviation Culture & Regulatory Frameworks",
           desc: "Explain commercial airline business models, air traffic management jurisdictions (Tower, Approach, En-Route), international safety regulations (ICAO Annex 19 Safety vs. Annex 17 Security), and air accident investigation methodologies (CVR/FDR, BEA, NTSB) with professional rigor.",
-          indicators: "Clear articulation of regulatory mandates, airline fleet economics, and safety management systems (SMS)."
+          indicators: "Clear explanation of regulatory requirements, airline fleet economics, and safety management systems (SMS)."
         },
         {
           num: "04",
           badge: "Technical Fluency",
           title: "Spoken Fluency & Technical Briefings",
-          desc: "Deliver structured technical briefings, exterior pre-flight walkaround defect reports, and incident analyses smoothly and concisely, using accurate cause-and-effect connectors and technical discourse markers.",
+          desc: "Deliver structured technical briefings, exterior pre-flight walkaround defect reports, and incident analyses smoothly and concisely, using accurate cause-and-effect connectors and technical linking words.",
           indicators: "Clear chronological sequencing, precise technical explanations, confident delivery without reading scripts."
         },
         {

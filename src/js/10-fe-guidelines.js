@@ -82,7 +82,7 @@
                     <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold bg-emerald-700">20–26 min</span>
                   </div>
                   <h5 class="text-xs font-bold text-slate-800 mt-2">Portfolio Check</h5>
-                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Present personal vocabulary log with Module 1 lexis. Conduct self-critique of strengths and weaknesses.</p>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Present personal vocabulary log with Module 1 vocabulary. Conduct self-critique of strengths and weaknesses.</p>
                 </div>
                 <div class="mt-2 pt-2 border-t border-emerald-200/60 text-[10px] text-emerald-800 font-semibold">Self-evaluation ready</div>
               </div>
@@ -117,7 +117,7 @@
             <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/70 space-y-1.5">
               <h5 class="text-xs sm:text-sm font-bold text-slate-900">Task Overview</h5>
               <p class="text-xs text-slate-600 leading-relaxed">
-                In pairs, select any commercial or civil aerodrome of your choice worldwide (e.g. <em>Toulouse-Blagnac, London Heathrow, Chicago O'Hare, Madeira Funchal, St. Maarten Princess Juliana, Tokyo Haneda, Gibraltar, Courchevel</em>). Over a 10-to-12 minute collaborative presentation, deliver an operational briefing analyzing layout, traffic constraints, safety hot spots, and incident history, while demonstrating mastery of Module 1 specialized lexis.
+                In pairs, select any commercial or civil aerodrome of your choice worldwide (e.g. <em>Toulouse-Blagnac, London Heathrow, Chicago O'Hare, Madeira Funchal, St. Maarten Princess Juliana, Tokyo Haneda, Gibraltar, Courchevel</em>). Over a 10-to-12 minute collaborative presentation, deliver an operational briefing analyzing layout, traffic constraints, safety hot spots, and incident history, while demonstrating mastery of Module 1 specialized vocabulary.
               </p>
             </div>
 
@@ -331,7 +331,7 @@
                     <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold bg-emerald-700">20–26 min</span>
                   </div>
                   <h5 class="text-xs font-bold text-slate-800 mt-2">Portfolio Check</h5>
-                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Present personal vocabulary log with recorded Module 2 lexis. Conduct self-critique of strengths and weaknesses.</p>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Present personal vocabulary log with recorded Module 2 vocabulary. Conduct self-critique of strengths and weaknesses.</p>
                 </div>
                 <div class="mt-2 pt-2 border-t border-emerald-200/60 text-[10px] text-emerald-800 font-semibold">Self-evaluation ready</div>
               </div>
@@ -366,7 +366,7 @@
             <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/70 space-y-1.5">
               <h5 class="text-xs sm:text-sm font-bold text-slate-900">Task Overview</h5>
               <p class="text-xs text-slate-600 leading-relaxed">
-                In pairs, select <strong>any commercial/civil aircraft</strong> (e.g. <em>Airbus A350, Concorde, Boeing 747, ATR 72, Embraer E195-E2</em>) OR <strong>any airline of your choice</strong> (e.g. <em>Air France, Emirates, Ryanair, Singapore Airlines, Delta, Lufthansa</em>). Over a 10-to-12 minute collaborative briefing, cover technical details, operational key figures, historical moments, and safety records while demonstrating mastery of Module 2 specialized lexis.
+                In pairs, select <strong>any commercial/civil aircraft</strong> (e.g. <em>Airbus A350, Concorde, Boeing 747, ATR 72, Embraer E195-E2</em>) OR <strong>any airline of your choice</strong> (e.g. <em>Air France, Emirates, Ryanair, Singapore Airlines, Delta, Lufthansa</em>). Over a 10-to-12 minute collaborative briefing, cover technical details, operational key figures, historical moments, and safety records while demonstrating mastery of Module 2 specialized vocabulary.
               </p>
             </div>
 
@@ -493,7 +493,7 @@
               Formative Evaluation 3 (FE3) — Aviation Current Events &amp; Press Briefing
             </h3>
             <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
-              The Formative Evaluation takes place in <strong>pairs or trios</strong> during a dedicated <strong>30-minute tutorial slot</strong> on <strong>Wednesday 25 February 2025 (Week 08)</strong> with <strong>Tracy NEILL (Group A)</strong> or <strong>Ally HEWETT (Group B)</strong>. You and your partner will roleplay as <strong>Aviation Authority / Airline Spokespersons</strong> delivering a formal 10-12 minute <strong>Press Briefing</strong> on a major recent aviation current event (severe weather disruption, in-flight medical emergency diversion, airport security breach / biometric rollout, or safety maintenance airworthiness directive), followed by spontaneous press conference cross-examination, personal vocabulary portfolio audit, and diagnostic teacher feedback.
+              The Formative Evaluation takes place in <strong>pairs or trios</strong> during a dedicated <strong>30-minute tutorial slot</strong> on <strong>Wednesday 25 February 2025 (Week 08)</strong> with <strong>Tracy NEILL (Group A)</strong> or <strong>Ally HEWETT (Group B)</strong>. You and your partner will roleplay as <strong>Aviation Authority / Airline Spokespersons</strong> delivering a formal 10-12 minute <strong>Press Briefing</strong> on a major recent aviation current event (severe weather disruption, in-flight medical emergency diversion, airport security breach / biometric rollout, or safety maintenance airworthiness directive), followed by spontaneous press conference Q&A, personal vocabulary portfolio audit, and detailed teacher feedback.
             </p>
           </div>
 
@@ -541,7 +541,7 @@
                     <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold" style="background-color: ${theme.primary};">14–22 min</span>
                   </div>
                   <h5 class="text-xs font-bold text-slate-800 mt-2">Press Q&amp;A Defense</h5>
-                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Spontaneous cross-examination by the teacher acting as investigative journalists. Defend decisions and technical nuances calmly.</p>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Spontaneous questions by the teacher acting as investigative journalists. Defend decisions and technical nuances calmly.</p>
                 </div>
                 <div class="mt-2 pt-2 border-t border-slate-100 text-[10px] text-slate-400 font-semibold">Spontaneous interaction</div>
               </div>
@@ -566,7 +566,7 @@
                     <span class="text-[10px] font-black uppercase text-slate-400">Stage 5</span>
                     <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold" style="background-color: ${theme.primary};">26–30 min</span>
                   </div>
-                  <h5 class="text-xs font-bold text-slate-800 mt-2">Diagnostic Feedback</h5>
+                  <h5 class="text-xs font-bold text-slate-800 mt-2">Detailed Feedback</h5>
                   <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Immediate teacher feedback on pronunciation, technical vocabulary, fluency, and provisional grade out of 20.</p>
                 </div>
                 <div class="mt-2 pt-2 border-t border-slate-100 text-[10px] text-slate-400 font-semibold">Score &amp; Semester Wrap-Up</div>
@@ -778,7 +778,7 @@
                     <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold bg-blue-700">20–26 min</span>
                   </div>
                   <h5 class="text-xs font-bold text-slate-800 mt-2">Portfolio Check</h5>
-                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Show your Vocabulary Log with recorded Module 3 lexis and completed TOEIC error logs. Present honest self-critique.</p>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Show your Vocabulary Log with recorded Module 3 vocabulary and completed TOEIC error logs. Present honest self-critique.</p>
                 </div>
                 <div class="mt-2 pt-2 border-t border-blue-200/60 text-[10px] text-blue-800 font-semibold">Self-evaluation ready</div>
               </div>
@@ -1049,7 +1049,7 @@
               Formative Evaluation 3 (FE3) Marking Criteria
             </h3>
             <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
-              Assessment is criteria-referenced against official CEFR B2 communication descriptors. Your mark reflects spoken fluency, pronunciation on technical vocabulary, grammatical accuracy, spontaneous Q&amp;A defense, equal partner collaboration, and documented portfolio study habits.
+              Assessment is criteria-referenced against official CEFR B2 evaluation criteria. Your mark reflects spoken fluency, pronunciation on technical vocabulary, grammatical accuracy, spontaneous Q&amp;A defense, equal partner collaboration, and documented portfolio study habits.
             </p>
           </div>
 
@@ -1085,7 +1085,7 @@
                     <span class="inline-block px-2.5 py-1 rounded-lg text-white font-mono font-bold text-xs" style="background-color: ${theme.primary};">3.0 pts</span>
                   </td>
                   <td class="p-3.5 align-top text-slate-600 leading-relaxed">
-                    Clear articulation and correct syllable stress on technical terms (<em>al-go-RI-thm, au-TO-no-mous, bi-o-ME-tric, CRY-o-ge-nic, scal-a-BI-li-ty</em>).
+                    Clear pronunciation and correct syllable stress on technical terms (<em>al-go-RI-thm, au-TO-no-mous, bi-o-ME-tric, CRY-o-ge-nic, scal-a-BI-li-ty</em>).
                   </td>
                 </tr>
                 <tr class="hover:bg-slate-50/60 transition-colors">
@@ -1121,7 +1121,7 @@
                     <span class="inline-block px-2.5 py-1 rounded-lg text-white font-mono font-bold text-xs" style="background-color: ${theme.primary};">2.5 pts</span>
                   </td>
                   <td class="p-3.5 align-top text-slate-600 leading-relaxed">
-                    Strict 50/50 talking balance (~6 min each). Natural handovers and mutual support. Spontaneous and articulate defense during examiner Q&amp;A without switching to French.
+                    Strict 50/50 talking balance (~6 min each). Natural handovers and mutual support. Spontaneous and clear defense during examiner Q&amp;A without switching to French.
                   </td>
                 </tr>
                 <tr class="hover:bg-slate-50/60 transition-colors">
@@ -1223,7 +1223,7 @@
                     <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold bg-emerald-700">20–26 min</span>
                   </div>
                   <h5 class="text-xs font-bold text-slate-800 mt-2">Portfolio Check</h5>
-                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Show your Vocabulary Log with recorded Module 2 lexis and completed TOEIC error logs. Present honest self-critique.</p>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Show your Vocabulary Log with recorded Module 2 vocabulary and completed TOEIC error logs. Present honest self-critique.</p>
                 </div>
                 <div class="mt-2 pt-2 border-t border-emerald-200/60 text-[10px] text-emerald-800 font-semibold">Self-evaluation ready</div>
               </div>
@@ -1556,7 +1556,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-2.5 text-xs text-slate-600">
               <div class="p-2.5 bg-white rounded-lg border border-slate-200">
                 <strong class="text-slate-800 block mb-0.5" style="color: ${theme.accent};">General English (AG):</strong>
-                Focus on complex grammar (conditionals, passives, relative clauses) and sustainable tourism lexis.
+                Focus on complex grammar (conditionals, passives, relative clauses) and sustainable tourism vocabulary.
               </div>
               <div class="p-2.5 bg-white rounded-lg border border-slate-200">
                 <strong class="text-slate-800 block mb-0.5" style="color: #152438;">Aeronautical English (AAS):</strong>
@@ -1615,7 +1615,7 @@
             <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Target Competencies • B2 CEFR Level</span>
             <h3 class="text-base sm:text-lg font-bold text-slate-800 mt-1">Formative Evaluation 1 Objectives (AAS Track)</h3>
             <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
-              Demonstrate collaborative spoken production, spontaneous dialogue in teacher Q&amp;A, activation of specialized aerodrome lexis from Sessions 1–4, grammatical precision with modal verbs and passives, and autonomous portfolio habits.
+              Demonstrate collaborative spoken production, spontaneous dialogue in teacher Q&amp;A, activation of specialized aerodrome vocabulary from Sessions 1–4, grammatical precision with modal verbs and passives, and autonomous portfolio habits.
             </p>
           </div>
 
@@ -1634,7 +1634,7 @@
                 <div>
                   <h5 class="text-xs sm:text-sm font-bold text-slate-800">Deliver a Structured Technical Airport Profile Presentation</h5>
                   <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
-                    Present your chosen airport's infrastructure, runways, taxiways, and apron operations over 10–12 minutes without reading written notes. Effectively utilize aerodrome charts and visual diagrams, link points with logical discourse markers, and share talking time equally (50/50).
+                    Present your chosen airport's infrastructure, runways, taxiways, and apron operations over 10–12 minutes without reading written notes. Effectively utilize aerodrome charts and visual diagrams, link points with logical linking words, and share talking time equally (50/50).
                   </p>
                 </div>
               </div>
@@ -1674,7 +1674,7 @@
                 <div>
                   <h5 class="text-xs sm:text-sm font-bold text-slate-800">Exhibit Autonomous Portfolio Habits &amp; Self-Critique</h5>
                   <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
-                    Present an updated personal vocabulary log with recorded Module 1 lexis. Arrive prepared to discuss personal strong points and weak points constructively. <em>(Note: TOEIC practice is maintained independently on the AAS portal and is not graded in this evaluation).</em>
+                    Present an updated personal vocabulary log with recorded Module 1 vocabulary. Arrive prepared to discuss personal strong points and weak points constructively. <em>(Note: TOEIC practice is maintained independently on the AAS portal and is not graded in this evaluation).</em>
                   </p>
                 </div>
               </div>
@@ -1693,7 +1693,7 @@
             <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Target Competencies • B2 CEFR Level</span>
             <h3 class="text-base sm:text-lg font-bold text-slate-800 mt-1">Formative Evaluation 2 Objectives (Aircraft / Airlines)</h3>
             <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
-              Demonstrate collaborative spoken production, spontaneous dialogue in teacher Q&amp;A, activation of specialized aerodynamics and fleet lexis from Sessions 1–4, grammatical precision with comparatives and narrative tenses, and autonomous portfolio habits.
+              Demonstrate collaborative spoken production, spontaneous dialogue in teacher Q&amp;A, activation of specialized aerodynamics and fleet vocabulary from Sessions 1–4, grammatical precision with comparatives and narrative tenses, and autonomous portfolio habits.
             </p>
           </div>
 
@@ -1712,7 +1712,7 @@
                 <div>
                   <h5 class="text-xs sm:text-sm font-bold text-slate-800">Deliver a Structured Aircraft / Airline Profile Presentation</h5>
                   <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
-                    Present your chosen aircraft or airline specifications, fleet metrics, and milestones over 10–12 minutes without reading written notes. Effectively utilize diagrams and route maps, link points with logical discourse markers, and share talking time equally (50/50).
+                    Present your chosen aircraft or airline specifications, fleet metrics, and milestones over 10–12 minutes without reading written notes. Effectively utilize diagrams and route maps, link points with logical linking words, and share talking time equally (50/50).
                   </p>
                 </div>
               </div>
@@ -1752,7 +1752,7 @@
                 <div>
                   <h5 class="text-xs sm:text-sm font-bold text-slate-800">Exhibit Autonomous Portfolio Habits &amp; Self-Critique</h5>
                   <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
-                    Present an updated personal vocabulary log with recorded Module 2 lexis. Arrive prepared to discuss personal strong points and weak points constructively. <em>(Note: TOEIC practice is maintained independently on the AAS portal and is not graded in this evaluation).</em>
+                    Present an updated personal vocabulary log with recorded Module 2 vocabulary. Arrive prepared to discuss personal strong points and weak points constructively. <em>(Note: TOEIC practice is maintained independently on the AAS portal and is not graded in this evaluation).</em>
                   </p>
                 </div>
               </div>
@@ -1771,7 +1771,7 @@
             <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Target Competencies • B2/C1 CEFR Level</span>
             <h3 class="text-base sm:text-lg font-bold text-slate-800 mt-1">Formative Evaluation 3 Objectives (Aviation Current Events)</h3>
             <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
-              Demonstrate collaborative spoken media briefing delivery, spontaneous defense during investigative teacher cross-examination, active deployment of specialized aviation safety, security, meteorology, and human factors lexis from Sessions 1–4, and autonomous portfolio habits.
+              Demonstrate collaborative spoken media briefing delivery, spontaneous defense during investigative teacher Q&A, active deployment of specialized aviation safety, security, meteorology, and human factors vocabulary from Sessions 1–4, and autonomous portfolio habits.
             </p>
           </div>
 
@@ -1830,7 +1830,7 @@
                 <div>
                   <h5 class="text-xs sm:text-sm font-bold text-slate-800">Exhibit Autonomous Portfolio Habits &amp; Constructive Self-Critique</h5>
                   <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
-                    Present an updated personal vocabulary log with recorded Module 3 lexis. Arrive prepared to discuss personal strengths and two concrete action targets for Semester 2. <em>(Note: TOEIC practice is maintained independently on the AAS portal and is not graded in this evaluation).</em>
+                    Present an updated personal vocabulary log with recorded Module 3 vocabulary. Arrive prepared to discuss personal strengths and two concrete action targets for Semester 2. <em>(Note: TOEIC practice is maintained independently on the AAS portal and is not graded in this evaluation).</em>
                   </p>
                 </div>
               </div>
@@ -1914,7 +1914,7 @@
             <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Target Competencies • B2 CEFR Level</span>
             <h3 class="text-base sm:text-lg font-bold text-slate-800 mt-1">Formative Evaluation Objectives</h3>
             <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
-              Demonstrate collaborative spoken production, spontaneous dialogue in teacher Q&amp;A, activation of target lexis from this site, grammatical control, and autonomous learning habits through your portfolio.
+              Demonstrate collaborative spoken production, spontaneous dialogue in teacher Q&amp;A, activation of target vocabulary from this site, grammatical control, and autonomous learning habits through your portfolio.
             </p>
           </div>
 
@@ -1933,7 +1933,7 @@
                 <div>
                   <h5 class="text-xs sm:text-sm font-bold text-slate-800">Deliver a Structured Oral Presentation</h5>
                   <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
-                    Present your itinerary or comparative city analysis over 10–12 minutes without reading written paragraphs. Use visual aids effectively, connect ideas with logical discourse markers, and share talking time equally.
+                    Present your itinerary or comparative city analysis over 10–12 minutes without reading written paragraphs. Use visual aids effectively, connect ideas with logical linking words, and share talking time equally.
                   </p>
                 </div>
               </div>
@@ -2022,10 +2022,10 @@
                 <tr class="hover:bg-slate-50/60">
                   <td class="p-3 font-bold text-slate-800">1. Fluency &amp; Coherence</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
-                  <td class="p-3 text-slate-600">Speech flows naturally without long hesitations. Ideas linked smoothly with discourse markers. <strong>Strictly no reading from notes or slides!</strong></td>
+                  <td class="p-3 text-slate-600">Speech flows naturally without long hesitations. Ideas linked smoothly with linking words. <strong>Strictly no reading from notes or slides!</strong></td>
                 </tr>
                 <tr class="hover:bg-slate-50/60">
-                  <td class="p-3 font-bold text-slate-800">2. Pronunciation &amp; Articulation</td>
+                  <td class="p-3 font-bold text-slate-800">2. Pronunciation &amp; Clarity</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">3</td>
                   <td class="p-3 text-slate-600">Intelligible pronunciation and correct syllable stress placed on aeronautical terms (<em>au-THOR-i-ty, co-OR-di-na-tor, tech-NI-cian, ca-PA-ci-ty, de-i-cing</em>).</td>
                 </tr>
@@ -2035,7 +2035,7 @@
                   <td class="p-3 text-slate-600">Accurate modal verbs of obligation (<em>must, should, are required to</em>), past passive voice for incidents, and responsibility formulas (<em>responsible for + -ing</em>).</td>
                 </tr>
                 <tr class="hover:bg-slate-50/60">
-                  <td class="p-3 font-bold text-slate-800">4. Vocabulary &amp; Topic Lexis</td>
+                  <td class="p-3 font-bold text-slate-800">4. Vocabulary &amp; Topic Vocabulary</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
                   <td class="p-3 text-slate-600">Active, accurate deployment of at least <strong>6 to 8 specialized technical terms</strong> from Sessions 1–4.</td>
                 </tr>
@@ -2062,7 +2062,7 @@
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 text-xs">
             <div class="p-3 bg-emerald-50 border border-emerald-200 rounded-xl">
               <strong class="text-emerald-800 block font-bold mb-1">Exemplary (18–20 pts)</strong>
-              <p class="text-slate-600">Fluent, spontaneous delivery; precise technical aerodrome lexis; high grammatical accuracy; 50/50 teamwork; portfolio fully updated.</p>
+              <p class="text-slate-600">Fluent, spontaneous delivery; precise technical aerodrome vocabulary; high grammatical accuracy; 50/50 teamwork; portfolio fully updated.</p>
             </div>
             <div class="p-3 bg-blue-50 border border-blue-200 rounded-xl">
               <strong class="text-blue-800 block font-bold mb-1">Solid B2 (14–17 pts)</strong>
@@ -2070,7 +2070,7 @@
             </div>
             <div class="p-3 bg-amber-50 border border-amber-200 rounded-xl">
               <strong class="text-amber-800 block font-bold mb-1">Developing (10–13 pts)</strong>
-              <p class="text-slate-600">Frequent pauses, limited lexis, recurring grammar slips, uneven partner balance, incomplete vocabulary portfolio.</p>
+              <p class="text-slate-600">Frequent pauses, limited vocabulary, recurring grammar slips, uneven partner balance, incomplete vocabulary portfolio.</p>
             </div>
             <div class="p-3 bg-rose-50 border border-rose-200 rounded-xl">
               <strong class="text-rose-800 block font-bold mb-1">Needs Imp. (&lt;10 pts)</strong>
@@ -2115,10 +2115,10 @@
                 <tr class="hover:bg-slate-50/60">
                   <td class="p-3 font-bold text-slate-800">1. Fluency &amp; Coherence</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
-                  <td class="p-3 text-slate-600">Speech flows naturally without long hesitations. Ideas linked smoothly with discourse markers. <strong>Strictly no reading from notes or slides!</strong></td>
+                  <td class="p-3 text-slate-600">Speech flows naturally without long hesitations. Ideas linked smoothly with linking words. <strong>Strictly no reading from notes or slides!</strong></td>
                 </tr>
                 <tr class="hover:bg-slate-50/60">
-                  <td class="p-3 font-bold text-slate-800">2. Pronunciation &amp; Articulation</td>
+                  <td class="p-3 font-bold text-slate-800">2. Pronunciation &amp; Clarity</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">3</td>
                   <td class="p-3 text-slate-600">Intelligible pronunciation and correct syllable stress placed on aerospace terms (<em>aero-DY-na-mics, ma-nu-FAC-tu-rer, ef-FI-cien-cy, ca-PA-ci-ty, sta-bi-LI-zer</em>).</td>
                 </tr>
@@ -2128,7 +2128,7 @@
                   <td class="p-3 text-slate-600">Accurate comparative/superlative evaluations, past narrative tenses for incident chronologies, and cause/effect connectors.</td>
                 </tr>
                 <tr class="hover:bg-slate-50/60">
-                  <td class="p-3 font-bold text-slate-800">4. Vocabulary &amp; Topic Lexis</td>
+                  <td class="p-3 font-bold text-slate-800">4. Vocabulary &amp; Topic Vocabulary</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
                   <td class="p-3 text-slate-600">Active, accurate deployment of at least <strong>6 to 8 specialized technical terms</strong> from Module 2 (aerodynamics, aircraft anatomy, commercial fleets, accident investigation).</td>
                 </tr>
@@ -2155,7 +2155,7 @@
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 text-xs">
             <div class="p-3 bg-emerald-50 border border-emerald-200 rounded-xl">
               <strong class="text-emerald-800 block font-bold mb-1">Exemplary (18–20 pts)</strong>
-              <p class="text-slate-600">Fluent, spontaneous delivery; precise technical aerospace lexis; high grammatical accuracy; 50/50 teamwork; portfolio fully updated.</p>
+              <p class="text-slate-600">Fluent, spontaneous delivery; precise technical aerospace vocabulary; high grammatical accuracy; 50/50 teamwork; portfolio fully updated.</p>
             </div>
             <div class="p-3 bg-blue-50 border border-blue-200 rounded-xl">
               <strong class="text-blue-800 block font-bold mb-1">Solid B2 (14–17 pts)</strong>
@@ -2163,7 +2163,7 @@
             </div>
             <div class="p-3 bg-amber-50 border border-amber-200 rounded-xl">
               <strong class="text-amber-800 block font-bold mb-1">Developing (10–13 pts)</strong>
-              <p class="text-slate-600">Frequent pauses, limited lexis, recurring grammar slips, uneven partner balance, incomplete vocabulary portfolio.</p>
+              <p class="text-slate-600">Frequent pauses, limited vocabulary, recurring grammar slips, uneven partner balance, incomplete vocabulary portfolio.</p>
             </div>
             <div class="p-3 bg-rose-50 border border-rose-200 rounded-xl">
               <strong class="text-rose-800 block font-bold mb-1">Needs Imp. (&lt;10 pts)</strong>
@@ -2211,7 +2211,7 @@
                   <td class="p-3 text-slate-600">Natural delivery flow without artificial reading pauses. Accurate syllable stress on technical terms (<em>cu-mu-lo-NIM-bus, de-FI-bri-lla-tor, clau-stro-PHO-bi-a, re-DUN-dan-cy</em>). <strong>Strictly no reading from notes or slides!</strong></td>
                 </tr>
                 <tr class="hover:bg-slate-50/60">
-                  <td class="p-3 font-bold text-slate-800">2. Technical &amp; Operational Lexis</td>
+                  <td class="p-3 font-bold text-slate-800">2. Technical &amp; Operational Vocabulary</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
                   <td class="p-3 text-slate-600">Active, accurate deployment of at least <strong>6 to 8 specialized technical terms</strong> from Module 3 (medical triage, severe meteorology, ICAO Annex 17 vs. 19, walkaround checks, MEL).</td>
                 </tr>
@@ -2223,7 +2223,7 @@
                 <tr class="hover:bg-slate-50/60">
                   <td class="p-3 font-bold text-slate-800">4. Spontaneous Q&amp;A Defense</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
-                  <td class="p-3 text-slate-600">Agile, confident answers during teacher cross-examination. Defends decisions factually, acknowledges investigative boundaries appropriately, and avoids speculation.</td>
+                  <td class="p-3 text-slate-600">Agile, confident answers during teacher Q&A. Defends decisions factually, acknowledges investigative boundaries appropriately, and avoids speculation.</td>
                 </tr>
                 <tr class="hover:bg-slate-50/60">
                   <td class="p-3 font-bold text-slate-800">5. Teamwork &amp; Pair Balance</td>
@@ -2248,7 +2248,7 @@
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 text-xs">
             <div class="p-3 bg-emerald-50 border border-emerald-200 rounded-xl">
               <strong class="text-emerald-800 block font-bold mb-1">Exemplary (18–20 pts)</strong>
-              <p class="text-slate-600">Fluent, spontaneous media delivery; precise technical aerospace lexis; high grammatical accuracy; 50/50 teamwork; portfolio fully updated.</p>
+              <p class="text-slate-600">Fluent, spontaneous media delivery; precise technical aerospace vocabulary; high grammatical accuracy; 50/50 teamwork; portfolio fully updated.</p>
             </div>
             <div class="p-3 bg-blue-50 border border-blue-200 rounded-xl">
               <strong class="text-blue-800 block font-bold mb-1">Solid B2 (14–17 pts)</strong>
@@ -2256,7 +2256,7 @@
             </div>
             <div class="p-3 bg-amber-50 border border-amber-200 rounded-xl">
               <strong class="text-amber-800 block font-bold mb-1">Developing (10–13 pts)</strong>
-              <p class="text-slate-600">Frequent pauses, limited lexis, recurring grammar slips, uneven partner balance, incomplete vocabulary portfolio.</p>
+              <p class="text-slate-600">Frequent pauses, limited vocabulary, recurring grammar slips, uneven partner balance, incomplete vocabulary portfolio.</p>
             </div>
             <div class="p-3 bg-rose-50 border border-rose-200 rounded-xl">
               <strong class="text-rose-800 block font-bold mb-1">Needs Imp. (&lt;10 pts)</strong>
@@ -2283,7 +2283,7 @@
               Formative Evaluation 2 (FE2) Marking Criteria
             </h3>
             <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
-              Assessment is criteria-referenced against official CEFR B2 communication descriptors. Your mark reflects spoken fluency, pronunciation on technical vocabulary, grammatical accuracy, spontaneous Q&amp;A defense, equal partner collaboration, and documented portfolio study habits.
+              Assessment is criteria-referenced against official CEFR B2 evaluation criteria. Your mark reflects spoken fluency, pronunciation on technical vocabulary, grammatical accuracy, spontaneous Q&amp;A defense, equal partner collaboration, and documented portfolio study habits.
             </p>
           </div>
 
@@ -2319,7 +2319,7 @@
                     <span class="inline-block px-2.5 py-1 rounded-lg text-white font-mono font-bold text-xs" style="background-color: ${theme.primary};">3.0 pts</span>
                   </td>
                   <td class="p-3.5 align-top text-slate-600 leading-relaxed">
-                    Clear articulation and correct syllable stress on technical terms (<em>ca-TAS-tro-phe, vul-ner-a-BIL-i-ty, per-me-a-ble, mi-ti-GA-tion, re-SIL-i-ence</em>).
+                    Clear pronunciation and correct syllable stress on technical terms (<em>ca-TAS-tro-phe, vul-ner-a-BIL-i-ty, per-me-a-ble, mi-ti-GA-tion, re-SIL-i-ence</em>).
                   </td>
                 </tr>
                 <tr class="hover:bg-slate-50/60 transition-colors">
@@ -2385,7 +2385,7 @@
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 text-xs">
             <div class="p-3 bg-emerald-50 border border-emerald-200 rounded-xl">
               <strong class="text-emerald-800 block font-bold mb-1">Exemplary (18–20 pts)</strong>
-              <p class="text-slate-600">Fluent, spontaneous delivery; rich environmental lexis; high grammatical precision; balanced 50/50 teamwork; portfolio fully updated.</p>
+              <p class="text-slate-600">Fluent, spontaneous delivery; rich environmental vocabulary; high grammatical precision; balanced 50/50 teamwork; portfolio fully updated.</p>
             </div>
             <div class="p-3 bg-blue-50 border border-blue-200 rounded-xl">
               <strong class="text-blue-800 block font-bold mb-1">Solid B2 (14–17 pts)</strong>
@@ -2393,7 +2393,7 @@
             </div>
             <div class="p-3 bg-amber-50 border border-amber-200 rounded-xl">
               <strong class="text-amber-800 block font-bold mb-1">Developing (10–13 pts)</strong>
-              <p class="text-slate-600">Frequent pauses, limited lexis, recurring grammar slips, uneven partner balance, incomplete vocabulary portfolio.</p>
+              <p class="text-slate-600">Frequent pauses, limited vocabulary, recurring grammar slips, uneven partner balance, incomplete vocabulary portfolio.</p>
             </div>
             <div class="p-3 bg-rose-50 border border-rose-200 rounded-xl">
               <strong class="text-rose-800 block font-bold mb-1">Needs Imp. (&lt;10 pts)</strong>
@@ -2437,10 +2437,10 @@
                 <tr class="hover:bg-slate-50/60">
                   <td class="p-3 font-bold text-slate-800">1. Fluency &amp; Coherence</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
-                  <td class="p-3 text-slate-600">Speech flows naturally without long hesitations. Ideas linked smoothly with discourse markers. No reading!</td>
+                  <td class="p-3 text-slate-600">Speech flows naturally without long hesitations. Ideas linked smoothly with linking words. No reading!</td>
                 </tr>
                 <tr class="hover:bg-slate-50/60">
-                  <td class="p-3 font-bold text-slate-800">2. Pronunciation &amp; Articulation</td>
+                  <td class="p-3 font-bold text-slate-800">2. Pronunciation &amp; Clarity</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">3</td>
                   <td class="p-3 text-slate-600">Intelligible pronunciation and correct word stress on technical and course vocabulary.</td>
                 </tr>
@@ -2450,7 +2450,7 @@
                   <td class="p-3 text-slate-600"><strong>AG:</strong> Accurate complex grammar (conditionals, passives). <strong>AAS:</strong> Precise modal verbs and prepositions.</td>
                 </tr>
                 <tr class="hover:bg-slate-50/60">
-                  <td class="p-3 font-bold text-slate-800">4. Vocabulary &amp; Topic Lexis</td>
+                  <td class="p-3 font-bold text-slate-800">4. Vocabulary &amp; Topic Vocabulary</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
                   <td class="p-3 text-slate-600">Active, accurate deployment of at least 4 to 6 specific terms from the platform revision lists.</td>
                 </tr>
@@ -2485,7 +2485,7 @@
             </div>
             <div class="p-3 bg-amber-50 border border-amber-200 rounded-xl">
               <strong class="text-amber-800 block font-bold mb-1">Developing (10–13 pts)</strong>
-              <p class="text-slate-600">Frequent pauses, limited lexis, grammar slips, unequal speaking time, incomplete portfolio.</p>
+              <p class="text-slate-600">Frequent pauses, limited vocabulary, grammar slips, unequal speaking time, incomplete portfolio.</p>
             </div>
             <div class="p-3 bg-rose-50 border border-rose-200 rounded-xl">
               <strong class="text-rose-800 block font-bold mb-1">Needs Imp. (&lt;10 pts)</strong>

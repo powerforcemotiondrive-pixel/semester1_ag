@@ -58,7 +58,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">00-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Aviation News & Course Entry Diagnostic (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Aviation News & Warm-Up Check (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || ''}</p>
                 </div>
               </div>
@@ -81,7 +81,7 @@
             <!-- Diagnostic Questions Grid -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Course Entry Diagnostic: Aviation Lexis Spot-Check'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Course Entry Check: Aviation Vocabulary Spot-Check'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -89,7 +89,7 @@
                   <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5 flex flex-col justify-between">
                     <div>
                       <div class="flex items-center justify-between gap-2">
-                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Diagnostic 0${q.id}</span>
+                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Question 0${q.id}</span>
                         <span class="w-2 h-2 rounded-full" style="background-color: ${theme.primary};"></span>
                       </div>
                       <p class="text-xs font-bold text-slate-800 mt-1">${q.q}</p>
@@ -186,7 +186,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-60m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${modals.title || 'Activity 3: Language Clinic: Modals of Authority (25 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${modals.title || 'Activity 3: Language Focus: Modals of Authority (25 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${modals.summary || ''}</p>
                 </div>
               </div>
@@ -1210,7 +1210,7 @@
             <div class="relative">
               <img src="${hero.image || 'images/aas_m1card4.jpg'}" alt="${hero.title || 'Jobs in Aviation'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/ag_m1card4.jpg'">
               <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent flex flex-col justify-end p-4 sm:p-5">
-                <span class="text-[11px] font-bold text-amber-300 uppercase tracking-wider">Operational Taxonomy &amp; Interfaces</span>
+                <span class="text-[11px] font-bold text-amber-300 uppercase tracking-wider">Aviation Roles &amp; Operational Interfaces</span>
                 <h2 class="text-base sm:text-xl font-black text-white mt-0.5">${hero.title || 'Jobs in Aviation: Roles, Responsibilities &amp; Operational Interfaces'}</h2>
                 <p class="text-xs text-white/90 mt-1 max-w-2xl">${hero.subtitle || 'Landside, Airside, Flight Crew, Air Traffic Services &amp; Civil Aviation Corps (TSEEAC).'}</p>
               </div>
@@ -1277,7 +1277,7 @@
             <div class="flex items-center justify-between pb-2 border-b border-slate-100">
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">02</span>
-                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${taxonomy.title || 'Activity 2: Aviation Job Taxonomy &amp; The Operational Spectrum (20 mins)'}</h3>
+                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${taxonomy.title || 'Activity 2: Aviation Roles Across the Industry (20 mins)'}</h3>
               </div>
               <span class="text-[11px] font-semibold text-slate-500">5 Primary Domains</span>
             </div>
@@ -1320,7 +1320,7 @@
             <div class="flex items-center justify-between pb-2 border-b border-slate-100">
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">03</span>
-                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${clinic.title || 'Activity 3: Functional Grammar &amp; Authority Clinic: Responsibilities &amp; Jurisdiction (20 mins)'}</h3>
+                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${clinic.title || 'Activity 3: Language Focus: Roles, Responsibilities &amp; Authority (20 mins)'}</h3>
               </div>
               <span class="text-[11px] font-semibold text-slate-500">Target Language</span>
             </div>
@@ -1350,7 +1350,7 @@
             <!-- Role Clinic Challenge -->
             <div class="space-y-2 pt-2 border-t border-slate-100">
               <div class="flex items-center justify-between">
-                <span class="text-xs font-bold text-slate-800 uppercase tracking-wider">🎯 Quick Role Clinic Challenge</span>
+                <span class="text-xs font-bold text-slate-800 uppercase tracking-wider">🎯 Roles & Responsibilities Quick Practice</span>
                 <span class="text-[11px] text-slate-500">Select the correct preposition or verb form</span>
               </div>
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -1448,7 +1448,7 @@
 
             <!-- Consensus Challenge & Agreement Tracker -->
             <div class="p-3.5 rounded-xl bg-white border border-slate-200 space-y-2.5">
-              <span class="text-xs font-bold text-slate-800 uppercase tracking-wider">🤝 Collaborative Consensus Matrix</span>
+              <span class="text-xs font-bold text-slate-800 uppercase tracking-wider">🤝 Consensus Summary Table</span>
               <p class="text-xs text-slate-600">${debate.consensusChallenge || 'Rate agreement across priorities and negotiate a formal sequence of actions.'}</p>
               
               <div class="space-y-2 pt-1">
@@ -1815,7 +1815,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">00-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Travel News & Course Entry Diagnostic (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Travel News & Warm-Up Check (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || ''}</p>
                 </div>
               </div>
@@ -1838,7 +1838,7 @@
             <!-- Diagnostic Questions Grid -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Course Entry Diagnostic: Travel Vocabulary Check'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Course Entry Check: Travel Vocabulary Check'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -1921,7 +1921,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${collocations.title || 'Activity 3: Language Clinic: Essential Travel Collocations & Idioms (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${collocations.title || 'Activity 3: Language Focus: Essential Travel Collocations & Idioms (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${collocations.summary || ''}</p>
                 </div>
               </div>
@@ -1982,7 +1982,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">55-80m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 4: Grammar Clinic: Narrative Tenses & Storytelling Inversions (25 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 4: Grammar Focus: Narrative Tenses & Storytelling (25 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -2195,7 +2195,7 @@
             <!-- Lexis Spot-Check -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Session 1 Lexis Spot-Check: Vocabulary Retrieval'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Session 1 Vocabulary Quick Check'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -2315,7 +2315,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">60-80m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 4: Grammar Clinic: Cause, Effect & Complex Comparisons (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 4: Grammar Focus: Cause, Effect & Complex Comparisons (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -2551,7 +2551,7 @@
             <!-- Lexis Spot-Check -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Session 2 Lexis Spot-Check: Transport Terms'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Session 2 Vocabulary Quick Check: Transport Terms'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -2588,7 +2588,7 @@
                   <p class="text-[11px] text-slate-500">${pressure.summary || ''}</p>
                 </div>
               </div>
-              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Capacity Matrix</span>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Capacity Comparison Table</span>
             </div>
 
             ${renderActivityInstructions(pressure, theme)}
@@ -2653,7 +2653,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">60-80m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 4: Grammar Clinic: Causatives & Contrast Words (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 4: Grammar Focus: Causatives & Contrast Words (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -2880,7 +2880,7 @@
             <!-- Lexis Spot-Check -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Session 3 Lexis Spot-Check: Overtourism Terms'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Session 3 Vocabulary Quick Check: Overtourism Terms'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -2955,7 +2955,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Grammar Clinic: Mixed Conditionals & Purpose Clauses (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Grammar Focus: Mixed Conditionals & Purpose Clauses (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>

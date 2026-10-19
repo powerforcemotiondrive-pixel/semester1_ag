@@ -61,7 +61,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">00-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Aviation News & Principles Diagnostic (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Aviation News & Principles Warm-Up (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || ''}</p>
                 </div>
               </div>
@@ -84,7 +84,7 @@
             <!-- Diagnostic Questions Grid -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Aerodynamics Diagnostic: Foundational Principles'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Aerodynamics Quick Check: Foundational Principles'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -92,7 +92,7 @@
                   <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5 flex flex-col justify-between">
                     <div>
                       <div class="flex items-center justify-between gap-2">
-                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Diagnostic 0${q.id}</span>
+                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Question 0${q.id}</span>
                         <span class="w-2 h-2 rounded-full" style="background-color: ${theme.primary};"></span>
                       </div>
                       <p class="text-xs font-bold text-slate-800 mt-1">${q.q}</p>
@@ -144,13 +144,13 @@
             </div>
           </div>
 
-          <!-- Activity 3: Language Clinic: Cause & Effect in Flight Physics -->
+          <!-- Activity 3: Language Focus: Cause & Effect in Flight Physics -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">30-50m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Clinic: Cause & Effect in Flight Physics (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Focus: Cause & Effect in Flight Physics (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -416,7 +416,7 @@
                   <p class="text-[11px] text-slate-500">${diagramLabeling.summary || 'Identify and describe key external parts and internal zones of commercial aircraft.'}</p>
                 </div>
               </div>
-              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Airframe Taxonomy</span>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Aircraft Components Chart</span>
             </div>
 
             ${renderActivityInstructions(diagramLabeling, theme)}
@@ -437,13 +437,13 @@
             </div>
           </div>
 
-          <!-- Activity 3: Language Clinic: Spatial Prepositions -->
+          <!-- Activity 3: Language Focus: Spatial Prepositions -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${spatialClinic.title || 'Activity 3: Language Clinic: Spatial Prepositions &amp; Functions (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${spatialClinic.title || 'Activity 3: Language Focus: Spatial Prepositions &amp; Functions (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${spatialClinic.summary || 'Mastering precise spatial locations and functional relative clauses for maintenance communication.'}</p>
                 </div>
               </div>
@@ -622,9 +622,9 @@
             <div class="relative">
               <img src="${hero.image || 'images/aas_m2card3.jpg'}" alt="Commercial Aircraft & Airlines" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/aas_m2card3.jpg'">
               <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent flex flex-col justify-end p-4 sm:p-5">
-                <span class="text-[11px] font-bold text-amber-300 uppercase tracking-wider">Commercial Aircraft Typology &amp; Fleet Strategy</span>
+                <span class="text-[11px] font-bold text-amber-300 uppercase tracking-wider">Commercial Aircraft Types &amp; Fleet Strategy</span>
                 <h3 class="text-lg sm:text-2xl font-black text-white mt-0.5">${hero.title || 'Commercial Aircraft &amp; Airlines'}</h3>
-                <p class="text-xs sm:text-sm text-slate-200 mt-1 line-clamp-2">${hero.subtitle || 'Commercial Aircraft Typology, Aerospace Manufacturers &amp; Airline Business Models'}</p>
+                <p class="text-xs sm:text-sm text-slate-200 mt-1 line-clamp-2">${hero.subtitle || 'Commercial Aircraft Types, Aerospace Manufacturers &amp; Airline Business Models'}</p>
               </div>
             </div>
             <div class="p-4 bg-slate-50 border-t border-slate-200 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-600">
@@ -690,11 +690,11 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">10-35m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${fleetTaxonomy.title || 'Activity 2: Commercial Aircraft Classification Matrix (25 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${fleetTaxonomy.title || 'Activity 2: Commercial Aircraft Classification Table (25 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${fleetTaxonomy.summary || 'Classify commercial passenger and freighter aircraft into operational categories.'}</p>
                 </div>
               </div>
-              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Fleet Matrix</span>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Fleet Table</span>
             </div>
 
             ${renderActivityInstructions(fleetTaxonomy, theme)}
@@ -722,7 +722,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${comparativeClinic.title || 'Activity 3: Language Clinic: Comparative &amp; Superlative Data (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${comparativeClinic.title || 'Activity 3: Language Focus: Comparative &amp; Superlative Data (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${comparativeClinic.summary || 'Mastering modifiers and comparative structures to evaluate aircraft efficiency and fleet statistics.'}</p>
                 </div>
               </div>
@@ -851,7 +851,7 @@
       const hero = content.hero || {};
       const opening = content.openingSession || {};
       const investigationLexis = content.investigationLexis || {};
-      const lexis = investigationLexis.terms || [];
+      const vocabTerms = investigationLexis.terms || [];
       const pastNarrativesClinic = content.pastNarrativesClinic || {};
       const pastRules = pastNarrativesClinic.rules || [];
       const groupResearchSprint = content.groupResearchSprint || {};
@@ -944,7 +944,7 @@
             </div>
           </div>
 
-          <!-- Activity 2: Investigation Lexis -->
+          <!-- Activity 2: Investigation Vocabulary -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
@@ -954,13 +954,13 @@
                   <p class="text-[11px] text-slate-500">${investigationLexis.summary || 'Learn and deploy specialized safety vocabulary used by investigation authorities.'}</p>
                 </div>
               </div>
-              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Investigation Lexis</span>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Investigation Vocabulary</span>
             </div>
 
             ${renderActivityInstructions(investigationLexis, theme)}
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-              ${lexis.map(lx => `
+              ${vocabTerms.map(lx => `
                 <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                   <h5 class="text-xs font-bold text-slate-900">${lx.term}</h5>
                   <p class="text-[11px] text-slate-600 leading-relaxed">${lx.role}</p>
@@ -975,7 +975,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">30-50m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${pastNarrativesClinic.title || 'Activity 3: Language Clinic: Narrative Past Tenses &amp; Sequencers (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${pastNarrativesClinic.title || 'Activity 3: Language Focus: Narrative Past Tenses &amp; Sequencers (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${pastNarrativesClinic.summary || 'Combining Past Simple, Past Continuous, and Past Perfect to build clear chronological incident reports.'}</p>
                 </div>
               </div>

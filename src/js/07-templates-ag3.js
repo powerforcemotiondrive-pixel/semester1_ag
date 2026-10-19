@@ -56,7 +56,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">0-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Diagnostic (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Warm-Up (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and technical distinction spot-checks'}</p>
                 </div>
               </div>
@@ -82,7 +82,7 @@
             ${(opening.diagnostic && opening.diagnostic.questions && opening.diagnostic.questions.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
                 <div class="flex items-center justify-between">
-                  <h5 class="text-xs sm:text-sm font-bold text-slate-900">${opening.diagnostic.title || 'Concepts Diagnostic'}</h5>
+                  <h5 class="text-xs sm:text-sm font-bold text-slate-900">${opening.diagnostic.title || 'Concepts Quick Check'}</h5>
                   <span class="text-[11px] text-slate-500">${opening.diagnostic.instructions || 'Discuss in pairs before revealing'}</span>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -122,7 +122,7 @@
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Discourse Connectors:</span>
+                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-blue-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-blue-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -158,13 +158,13 @@
             </div>
           </div>
 
-          <!-- Activity 3: Language Clinic -->
+          <!-- Activity 3: Language Focus -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Clinic'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Focus'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -185,7 +185,7 @@
             <!-- Interactive Drills -->
             ${(grammar.drills && grammar.drills.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-900">Grammar Diagnostics: Practice Drills</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-900">Grammar Practice: Quick Drills</h5>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   ${grammar.drills.map(d => `
                     <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5">
@@ -346,7 +346,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">0-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Diagnostic (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Warm-Up (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and technical distinction spot-checks'}</p>
                 </div>
               </div>
@@ -372,7 +372,7 @@
             ${(opening.diagnostic && opening.diagnostic.questions && opening.diagnostic.questions.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
                 <div class="flex items-center justify-between">
-                  <h5 class="text-xs sm:text-sm font-bold text-slate-900">${opening.diagnostic.title || 'Concepts Diagnostic'}</h5>
+                  <h5 class="text-xs sm:text-sm font-bold text-slate-900">${opening.diagnostic.title || 'Concepts Quick Check'}</h5>
                   <span class="text-[11px] text-slate-500">${opening.diagnostic.instructions || 'Discuss in pairs before revealing'}</span>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -412,7 +412,7 @@
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Discourse Connectors:</span>
+                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-blue-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-blue-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -448,13 +448,13 @@
             </div>
           </div>
 
-          <!-- Activity 3: Language Clinic -->
+          <!-- Activity 3: Language Focus -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Clinic'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Focus'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -475,7 +475,7 @@
             <!-- Interactive Drills -->
             ${(grammar.drills && grammar.drills.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-900">Grammar Diagnostics: Practice Drills</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-900">Grammar Practice: Quick Drills</h5>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   ${grammar.drills.map(d => `
                     <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5">
@@ -636,7 +636,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">0-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Diagnostic (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Warm-Up (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and technical distinction spot-checks'}</p>
                 </div>
               </div>
@@ -662,7 +662,7 @@
             ${(opening.diagnostic && opening.diagnostic.questions && opening.diagnostic.questions.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
                 <div class="flex items-center justify-between">
-                  <h5 class="text-xs sm:text-sm font-bold text-slate-900">${opening.diagnostic.title || 'Concepts Diagnostic'}</h5>
+                  <h5 class="text-xs sm:text-sm font-bold text-slate-900">${opening.diagnostic.title || 'Concepts Quick Check'}</h5>
                   <span class="text-[11px] text-slate-500">${opening.diagnostic.instructions || 'Discuss in pairs before revealing'}</span>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -702,7 +702,7 @@
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Discourse Connectors:</span>
+                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-blue-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-blue-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -738,13 +738,13 @@
             </div>
           </div>
 
-          <!-- Activity 3: Language Clinic -->
+          <!-- Activity 3: Language Focus -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Clinic'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Focus'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -765,7 +765,7 @@
             <!-- Interactive Drills -->
             ${(grammar.drills && grammar.drills.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-900">Grammar Diagnostics: Practice Drills</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-900">Grammar Practice: Quick Drills</h5>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   ${grammar.drills.map(d => `
                     <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5">
@@ -926,7 +926,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">0-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Diagnostic (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Warm-Up (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and technical distinction spot-checks'}</p>
                 </div>
               </div>
@@ -952,7 +952,7 @@
             ${(opening.diagnostic && opening.diagnostic.questions && opening.diagnostic.questions.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
                 <div class="flex items-center justify-between">
-                  <h5 class="text-xs sm:text-sm font-bold text-slate-900">${opening.diagnostic.title || 'Concepts Diagnostic'}</h5>
+                  <h5 class="text-xs sm:text-sm font-bold text-slate-900">${opening.diagnostic.title || 'Concepts Quick Check'}</h5>
                   <span class="text-[11px] text-slate-500">${opening.diagnostic.instructions || 'Discuss in pairs before revealing'}</span>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -992,7 +992,7 @@
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Discourse Connectors:</span>
+                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-blue-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-blue-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -1028,13 +1028,13 @@
             </div>
           </div>
 
-          <!-- Activity 3: Language Clinic -->
+          <!-- Activity 3: Language Focus -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Clinic'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Focus'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -1055,7 +1055,7 @@
             <!-- Interactive Drills -->
             ${(grammar.drills && grammar.drills.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-900">Grammar Diagnostics: Practice Drills</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-900">Grammar Practice: Quick Drills</h5>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   ${grammar.drills.map(d => `
                     <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5">

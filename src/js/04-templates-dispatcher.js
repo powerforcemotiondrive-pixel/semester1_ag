@@ -42,7 +42,7 @@
 
         if (deliverable) {
           html += '<div class="mt-2 pt-2 border-t border-blue-100/80 flex items-start gap-2 text-xs">';
-          html += '<span class="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider text-blue-800 bg-blue-100 shrink-0 mt-0.5">Deliverable</span>';
+          html += '<span class="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider text-blue-800 bg-blue-100 shrink-0 mt-0.5">Expected Output</span>';
           html += '<span class="text-blue-950 font-semibold">' + deliverable + '</span>';
           html += '</div>';
         }

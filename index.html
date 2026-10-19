@@ -2701,7 +2701,7 @@
           <div class="p-4 bg-slate-100 rounded-xl border border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3">
             <div>
               <p class="text-xs font-bold text-slate-700">Ready to proceed to classroom activities?</p>
-              <p class="text-[11px] text-slate-500">${modalState.sessionNum === 1 ? 'Access the aviation news diagnostic, speed-dating survey, modals clinic, and EU261 role-play.' : (modalState.sessionNum === 2 ? 'Access the terminal flow map, spatial prepositions clinic, apron access role-play, and guidance workshop.' : (modalState.sessionNum === 4 ? 'Access the aviation job taxonomy, responsibility clinic, day-in-the-life simulations, and career dilemma debate.' : 'Access the interactive vehicle cards, turnaround clock, and role-play simulations.'))}</p>
+              <p class="text-[11px] text-slate-500">${modalState.sessionNum === 1 ? 'Access the aviation news warm-up, speed-dating survey, modals practice, and EU261 role-play.' : (modalState.sessionNum === 2 ? 'Access the terminal flow map, spatial prepositions practice, apron access role-play, and guidance workshop.' : (modalState.sessionNum === 4 ? 'Access the aviation roles overview, roles & responsibilities practice, day-in-the-life simulations, and career dilemma debate.' : 'Access the interactive vehicle cards, turnaround clock, and role-play simulations.'))}</p>
             </div>
             <button onclick="switchModalTab('content')" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg text-xs font-bold text-white shadow-xs hover:shadow-md transition-all cursor-pointer" style="background-color: ${theme.primary};">
               <span>Open Lesson Content</span>
@@ -2756,7 +2756,7 @@
 
         if (deliverable) {
           html += '<div class="mt-2 pt-2 border-t border-blue-100/80 flex items-start gap-2 text-xs">';
-          html += '<span class="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider text-blue-800 bg-blue-100 shrink-0 mt-0.5">Deliverable</span>';
+          html += '<span class="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider text-blue-800 bg-blue-100 shrink-0 mt-0.5">Expected Output</span>';
           html += '<span class="text-blue-950 font-semibold">' + deliverable + '</span>';
           html += '</div>';
         }
@@ -2921,7 +2921,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">00-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Aviation News & Course Entry Diagnostic (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Aviation News & Warm-Up Check (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || ''}</p>
                 </div>
               </div>
@@ -2944,7 +2944,7 @@
             <!-- Diagnostic Questions Grid -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Course Entry Diagnostic: Aviation Lexis Spot-Check'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Course Entry Check: Aviation Vocabulary Spot-Check'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -2952,7 +2952,7 @@
                   <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5 flex flex-col justify-between">
                     <div>
                       <div class="flex items-center justify-between gap-2">
-                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Diagnostic 0${q.id}</span>
+                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Question 0${q.id}</span>
                         <span class="w-2 h-2 rounded-full" style="background-color: ${theme.primary};"></span>
                       </div>
                       <p class="text-xs font-bold text-slate-800 mt-1">${q.q}</p>
@@ -3049,7 +3049,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-60m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${modals.title || 'Activity 3: Language Clinic: Modals of Authority (25 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${modals.title || 'Activity 3: Language Focus: Modals of Authority (25 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${modals.summary || ''}</p>
                 </div>
               </div>
@@ -4073,7 +4073,7 @@
             <div class="relative">
               <img src="${hero.image || 'images/aas_m1card4.jpg'}" alt="${hero.title || 'Jobs in Aviation'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/ag_m1card4.jpg'">
               <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent flex flex-col justify-end p-4 sm:p-5">
-                <span class="text-[11px] font-bold text-amber-300 uppercase tracking-wider">Operational Taxonomy &amp; Interfaces</span>
+                <span class="text-[11px] font-bold text-amber-300 uppercase tracking-wider">Aviation Roles &amp; Operational Interfaces</span>
                 <h2 class="text-base sm:text-xl font-black text-white mt-0.5">${hero.title || 'Jobs in Aviation: Roles, Responsibilities &amp; Operational Interfaces'}</h2>
                 <p class="text-xs text-white/90 mt-1 max-w-2xl">${hero.subtitle || 'Landside, Airside, Flight Crew, Air Traffic Services &amp; Civil Aviation Corps (TSEEAC).'}</p>
               </div>
@@ -4140,7 +4140,7 @@
             <div class="flex items-center justify-between pb-2 border-b border-slate-100">
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">02</span>
-                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${taxonomy.title || 'Activity 2: Aviation Job Taxonomy &amp; The Operational Spectrum (20 mins)'}</h3>
+                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${taxonomy.title || 'Activity 2: Aviation Roles Across the Industry (20 mins)'}</h3>
               </div>
               <span class="text-[11px] font-semibold text-slate-500">5 Primary Domains</span>
             </div>
@@ -4183,7 +4183,7 @@
             <div class="flex items-center justify-between pb-2 border-b border-slate-100">
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">03</span>
-                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${clinic.title || 'Activity 3: Functional Grammar &amp; Authority Clinic: Responsibilities &amp; Jurisdiction (20 mins)'}</h3>
+                <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-800">${clinic.title || 'Activity 3: Language Focus: Roles, Responsibilities &amp; Authority (20 mins)'}</h3>
               </div>
               <span class="text-[11px] font-semibold text-slate-500">Target Language</span>
             </div>
@@ -4213,7 +4213,7 @@
             <!-- Role Clinic Challenge -->
             <div class="space-y-2 pt-2 border-t border-slate-100">
               <div class="flex items-center justify-between">
-                <span class="text-xs font-bold text-slate-800 uppercase tracking-wider">🎯 Quick Role Clinic Challenge</span>
+                <span class="text-xs font-bold text-slate-800 uppercase tracking-wider">🎯 Roles & Responsibilities Quick Practice</span>
                 <span class="text-[11px] text-slate-500">Select the correct preposition or verb form</span>
               </div>
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -4311,7 +4311,7 @@
 
             <!-- Consensus Challenge & Agreement Tracker -->
             <div class="p-3.5 rounded-xl bg-white border border-slate-200 space-y-2.5">
-              <span class="text-xs font-bold text-slate-800 uppercase tracking-wider">🤝 Collaborative Consensus Matrix</span>
+              <span class="text-xs font-bold text-slate-800 uppercase tracking-wider">🤝 Consensus Summary Table</span>
               <p class="text-xs text-slate-600">${debate.consensusChallenge || 'Rate agreement across priorities and negotiate a formal sequence of actions.'}</p>
               
               <div class="space-y-2 pt-1">
@@ -4678,7 +4678,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">00-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Travel News & Course Entry Diagnostic (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Travel News & Warm-Up Check (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || ''}</p>
                 </div>
               </div>
@@ -4701,7 +4701,7 @@
             <!-- Diagnostic Questions Grid -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Course Entry Diagnostic: Travel Vocabulary Check'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Course Entry Check: Travel Vocabulary Check'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -4784,7 +4784,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${collocations.title || 'Activity 3: Language Clinic: Essential Travel Collocations & Idioms (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${collocations.title || 'Activity 3: Language Focus: Essential Travel Collocations & Idioms (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${collocations.summary || ''}</p>
                 </div>
               </div>
@@ -4845,7 +4845,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">55-80m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 4: Grammar Clinic: Narrative Tenses & Storytelling Inversions (25 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 4: Grammar Focus: Narrative Tenses & Storytelling (25 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -5058,7 +5058,7 @@
             <!-- Lexis Spot-Check -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Session 1 Lexis Spot-Check: Vocabulary Retrieval'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Session 1 Vocabulary Quick Check'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -5178,7 +5178,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">60-80m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 4: Grammar Clinic: Cause, Effect & Complex Comparisons (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 4: Grammar Focus: Cause, Effect & Complex Comparisons (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -5414,7 +5414,7 @@
             <!-- Lexis Spot-Check -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Session 2 Lexis Spot-Check: Transport Terms'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Session 2 Vocabulary Quick Check: Transport Terms'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -5451,7 +5451,7 @@
                   <p class="text-[11px] text-slate-500">${pressure.summary || ''}</p>
                 </div>
               </div>
-              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Capacity Matrix</span>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Capacity Comparison Table</span>
             </div>
 
             ${renderActivityInstructions(pressure, theme)}
@@ -5516,7 +5516,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">60-80m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 4: Grammar Clinic: Causatives & Contrast Words (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 4: Grammar Focus: Causatives & Contrast Words (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -5743,7 +5743,7 @@
             <!-- Lexis Spot-Check -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Session 3 Lexis Spot-Check: Overtourism Terms'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Session 3 Vocabulary Quick Check: Overtourism Terms'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -5818,7 +5818,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Grammar Clinic: Mixed Conditionals & Purpose Clauses (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Grammar Focus: Mixed Conditionals & Purpose Clauses (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -6077,7 +6077,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">00-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Extreme Weather News & Meteorological Diagnostic (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Extreme Weather News & Meteorological Warm-Up (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || ''}</p>
                 </div>
               </div>
@@ -6100,7 +6100,7 @@
             <!-- Diagnostic Questions Grid -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Meteorological Concepts Diagnostic Spot-Check'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Meteorological Concepts Quick Check'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -6145,7 +6145,7 @@
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-emerald-50/60 border border-emerald-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-emerald-950 uppercase tracking-wide">Key Spoken Signposts &amp; Discourse Connectors:</span>
+                <span class="text-[11px] font-bold text-emerald-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-emerald-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-emerald-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -6175,13 +6175,13 @@
             </div>
           </div>
 
-          <!-- Activity 3: Language Clinic: Word Forms & Suffixes -->
+          <!-- Activity 3: Language Focus: Word Forms & Suffixes -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Clinic: Word Forms & Suffixes in Technical English (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Focus: Word Forms & Suffixes in Technical English (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -6368,7 +6368,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">00-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Sustainable Urbanism News & Diagnostic Warm-Up (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Sustainable Urbanism News & Opening Warm-Up (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || ''}</p>
                 </div>
               </div>
@@ -6391,7 +6391,7 @@
             <!-- Diagnostic Questions Grid -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Urban Planning Lexis Diagnostic Spot-Check'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Urban Planning Vocabulary Quick Check'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -6436,7 +6436,7 @@
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-emerald-50/60 border border-emerald-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-emerald-950 uppercase tracking-wide">Key Spoken Signposts &amp; Discourse Connectors:</span>
+                <span class="text-[11px] font-bold text-emerald-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-emerald-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-emerald-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -6466,13 +6466,13 @@
             </div>
           </div>
 
-          <!-- Activity 3: Language Clinic: Subject-Verb Agreement with Collective Nouns -->
+          <!-- Activity 3: Language Focus: Subject-Verb Agreement with Collective Nouns -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Clinic: Subject-Verb Agreement with Collective Nouns (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Focus: Subject-Verb Agreement with Collective Nouns (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -6635,7 +6635,7 @@
               <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-4 sm:p-5">
                 <span class="text-[11px] font-bold text-amber-300 uppercase tracking-wider">${ov.badge || 'Session Overview • Environmental Argumentation & Policy'}</span>
                 <h3 class="text-lg sm:text-2xl font-black text-white mt-0.5">${ov.title || 'Building & Defending Environmental Arguments'}</h3>
-                <p class="text-xs sm:text-sm text-slate-200 mt-1 line-clamp-2">${ov.subtitle || 'Toulmin Argumentation Framework, Discourse Markers, Polite Concession & Policy Debates'}</p>
+                <p class="text-xs sm:text-sm text-slate-200 mt-1 line-clamp-2">${ov.subtitle || 'Structuring Arguments, Linking Words, Polite Disagreement & Policy Debates'}</p>
               </div>
             </div>
             <div class="p-4 bg-slate-50 border-t border-slate-200 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-600">
@@ -6659,7 +6659,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">00-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Environmental Policy News & Argument Diagnostic (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Environmental Policy News & Argument Warm-Up (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || ''}</p>
                 </div>
               </div>
@@ -6682,7 +6682,7 @@
             <!-- Diagnostic Questions Grid -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Argumentation & Discourse Diagnostic Spot-Check'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Argumentation & Linking Words Quick Check'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -6727,7 +6727,7 @@
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-emerald-50/60 border border-emerald-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-emerald-950 uppercase tracking-wide">Key Spoken Signposts &amp; Discourse Connectors:</span>
+                <span class="text-[11px] font-bold text-emerald-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-emerald-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-emerald-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -6757,13 +6757,13 @@
             </div>
           </div>
 
-          <!-- Activity 3: Language Clinic: Gerunds vs. Infinitives & Concessive Signposts -->
+          <!-- Activity 3: Language Focus: Gerunds vs. Infinitives & Concessive Signposts -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Clinic: Gerunds vs. Infinitives & Concessive Signposts (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Focus: Gerunds vs. Infinitives & Concessive Signposts (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -6824,7 +6824,7 @@
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">55-100m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${roleplay.title || 'Activity 4: Public Inquiry Hearing Simulation (45 mins)'}</h4>
-                  <p class="text-[11px] text-slate-500">Formal administrative inquiry and stakeholder cross-examination</p>
+                  <p class="text-[11px] text-slate-500">Formal administrative inquiry and stakeholder Q&amp;A</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Classroom Simulation</span>
@@ -6950,7 +6950,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">00-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Aerodrome Ecology News & Diagnostic Warm-Up (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Airport Ecology News & Opening Warm-Up (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || ''}</p>
                 </div>
               </div>
@@ -6973,7 +6973,7 @@
             <!-- Diagnostic Questions Grid -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Ecological & Aerodrome Lexis Diagnostic Spot-Check'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Ecological & Airport Vocabulary Quick Check'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -7018,7 +7018,7 @@
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-emerald-50/60 border border-emerald-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-emerald-950 uppercase tracking-wide">Key Spoken Signposts &amp; Discourse Connectors:</span>
+                <span class="text-[11px] font-bold text-emerald-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-emerald-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-emerald-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -7048,13 +7048,13 @@
             </div>
           </div>
 
-          <!-- Activity 3: Language Clinic: Pronouns & Determiners in Technical English -->
+          <!-- Activity 3: Language Focus: Pronouns & Determiners in Technical English -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Clinic: Pronouns & Determiners in Technical English (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Focus: Pronouns & Determiners in Technical English (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -7274,7 +7274,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">0-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Diagnostic (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Warm-Up (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and technical distinction spot-checks'}</p>
                 </div>
               </div>
@@ -7300,7 +7300,7 @@
             ${(opening.diagnostic && opening.diagnostic.questions && opening.diagnostic.questions.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
                 <div class="flex items-center justify-between">
-                  <h5 class="text-xs sm:text-sm font-bold text-slate-900">${opening.diagnostic.title || 'Concepts Diagnostic'}</h5>
+                  <h5 class="text-xs sm:text-sm font-bold text-slate-900">${opening.diagnostic.title || 'Concepts Quick Check'}</h5>
                   <span class="text-[11px] text-slate-500">${opening.diagnostic.instructions || 'Discuss in pairs before revealing'}</span>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -7340,7 +7340,7 @@
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Discourse Connectors:</span>
+                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-blue-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-blue-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -7376,13 +7376,13 @@
             </div>
           </div>
 
-          <!-- Activity 3: Language Clinic -->
+          <!-- Activity 3: Language Focus -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Clinic'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Focus'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -7403,7 +7403,7 @@
             <!-- Interactive Drills -->
             ${(grammar.drills && grammar.drills.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-900">Grammar Diagnostics: Practice Drills</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-900">Grammar Practice: Quick Drills</h5>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   ${grammar.drills.map(d => `
                     <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5">
@@ -7564,7 +7564,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">0-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Diagnostic (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Warm-Up (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and technical distinction spot-checks'}</p>
                 </div>
               </div>
@@ -7590,7 +7590,7 @@
             ${(opening.diagnostic && opening.diagnostic.questions && opening.diagnostic.questions.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
                 <div class="flex items-center justify-between">
-                  <h5 class="text-xs sm:text-sm font-bold text-slate-900">${opening.diagnostic.title || 'Concepts Diagnostic'}</h5>
+                  <h5 class="text-xs sm:text-sm font-bold text-slate-900">${opening.diagnostic.title || 'Concepts Quick Check'}</h5>
                   <span class="text-[11px] text-slate-500">${opening.diagnostic.instructions || 'Discuss in pairs before revealing'}</span>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -7630,7 +7630,7 @@
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Discourse Connectors:</span>
+                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-blue-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-blue-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -7666,13 +7666,13 @@
             </div>
           </div>
 
-          <!-- Activity 3: Language Clinic -->
+          <!-- Activity 3: Language Focus -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Clinic'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Focus'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -7693,7 +7693,7 @@
             <!-- Interactive Drills -->
             ${(grammar.drills && grammar.drills.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-900">Grammar Diagnostics: Practice Drills</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-900">Grammar Practice: Quick Drills</h5>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   ${grammar.drills.map(d => `
                     <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5">
@@ -7854,7 +7854,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">0-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Diagnostic (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Warm-Up (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and technical distinction spot-checks'}</p>
                 </div>
               </div>
@@ -7880,7 +7880,7 @@
             ${(opening.diagnostic && opening.diagnostic.questions && opening.diagnostic.questions.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
                 <div class="flex items-center justify-between">
-                  <h5 class="text-xs sm:text-sm font-bold text-slate-900">${opening.diagnostic.title || 'Concepts Diagnostic'}</h5>
+                  <h5 class="text-xs sm:text-sm font-bold text-slate-900">${opening.diagnostic.title || 'Concepts Quick Check'}</h5>
                   <span class="text-[11px] text-slate-500">${opening.diagnostic.instructions || 'Discuss in pairs before revealing'}</span>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -7920,7 +7920,7 @@
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Discourse Connectors:</span>
+                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-blue-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-blue-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -7956,13 +7956,13 @@
             </div>
           </div>
 
-          <!-- Activity 3: Language Clinic -->
+          <!-- Activity 3: Language Focus -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Clinic'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Focus'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -7983,7 +7983,7 @@
             <!-- Interactive Drills -->
             ${(grammar.drills && grammar.drills.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-900">Grammar Diagnostics: Practice Drills</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-900">Grammar Practice: Quick Drills</h5>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   ${grammar.drills.map(d => `
                     <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5">
@@ -8144,7 +8144,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">0-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Diagnostic (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: News & Warm-Up (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || 'Opening warm-up and technical distinction spot-checks'}</p>
                 </div>
               </div>
@@ -8170,7 +8170,7 @@
             ${(opening.diagnostic && opening.diagnostic.questions && opening.diagnostic.questions.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
                 <div class="flex items-center justify-between">
-                  <h5 class="text-xs sm:text-sm font-bold text-slate-900">${opening.diagnostic.title || 'Concepts Diagnostic'}</h5>
+                  <h5 class="text-xs sm:text-sm font-bold text-slate-900">${opening.diagnostic.title || 'Concepts Quick Check'}</h5>
                   <span class="text-[11px] text-slate-500">${opening.diagnostic.instructions || 'Discuss in pairs before revealing'}</span>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -8210,7 +8210,7 @@
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Discourse Connectors:</span>
+                <span class="text-[11px] font-bold text-blue-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-blue-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-blue-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -8246,13 +8246,13 @@
             </div>
           </div>
 
-          <!-- Activity 3: Language Clinic -->
+          <!-- Activity 3: Language Focus -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Clinic'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Focus'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -8273,7 +8273,7 @@
             <!-- Interactive Drills -->
             ${(grammar.drills && grammar.drills.length) ? `
               <div class="mt-4 pt-4 border-t border-slate-200 space-y-3">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-900">Grammar Diagnostics: Practice Drills</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-900">Grammar Practice: Quick Drills</h5>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   ${grammar.drills.map(d => `
                     <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5">
@@ -8444,7 +8444,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">00-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Aviation News & Principles Diagnostic (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Aviation News & Principles Warm-Up (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || ''}</p>
                 </div>
               </div>
@@ -8467,7 +8467,7 @@
             <!-- Diagnostic Questions Grid -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Aerodynamics Diagnostic: Foundational Principles'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Aerodynamics Quick Check: Foundational Principles'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -8475,7 +8475,7 @@
                   <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5 flex flex-col justify-between">
                     <div>
                       <div class="flex items-center justify-between gap-2">
-                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Diagnostic 0${q.id}</span>
+                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Question 0${q.id}</span>
                         <span class="w-2 h-2 rounded-full" style="background-color: ${theme.primary};"></span>
                       </div>
                       <p class="text-xs font-bold text-slate-800 mt-1">${q.q}</p>
@@ -8527,13 +8527,13 @@
             </div>
           </div>
 
-          <!-- Activity 3: Language Clinic: Cause & Effect in Flight Physics -->
+          <!-- Activity 3: Language Focus: Cause & Effect in Flight Physics -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">30-50m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Clinic: Cause & Effect in Flight Physics (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Focus: Cause & Effect in Flight Physics (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -8799,7 +8799,7 @@
                   <p class="text-[11px] text-slate-500">${diagramLabeling.summary || 'Identify and describe key external parts and internal zones of commercial aircraft.'}</p>
                 </div>
               </div>
-              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Airframe Taxonomy</span>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Aircraft Components Chart</span>
             </div>
 
             ${renderActivityInstructions(diagramLabeling, theme)}
@@ -8820,13 +8820,13 @@
             </div>
           </div>
 
-          <!-- Activity 3: Language Clinic: Spatial Prepositions -->
+          <!-- Activity 3: Language Focus: Spatial Prepositions -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${spatialClinic.title || 'Activity 3: Language Clinic: Spatial Prepositions &amp; Functions (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${spatialClinic.title || 'Activity 3: Language Focus: Spatial Prepositions &amp; Functions (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${spatialClinic.summary || 'Mastering precise spatial locations and functional relative clauses for maintenance communication.'}</p>
                 </div>
               </div>
@@ -9005,9 +9005,9 @@
             <div class="relative">
               <img src="${hero.image || 'images/aas_m2card3.jpg'}" alt="Commercial Aircraft & Airlines" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/aas_m2card3.jpg'">
               <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent flex flex-col justify-end p-4 sm:p-5">
-                <span class="text-[11px] font-bold text-amber-300 uppercase tracking-wider">Commercial Aircraft Typology &amp; Fleet Strategy</span>
+                <span class="text-[11px] font-bold text-amber-300 uppercase tracking-wider">Commercial Aircraft Types &amp; Fleet Strategy</span>
                 <h3 class="text-lg sm:text-2xl font-black text-white mt-0.5">${hero.title || 'Commercial Aircraft &amp; Airlines'}</h3>
-                <p class="text-xs sm:text-sm text-slate-200 mt-1 line-clamp-2">${hero.subtitle || 'Commercial Aircraft Typology, Aerospace Manufacturers &amp; Airline Business Models'}</p>
+                <p class="text-xs sm:text-sm text-slate-200 mt-1 line-clamp-2">${hero.subtitle || 'Commercial Aircraft Types, Aerospace Manufacturers &amp; Airline Business Models'}</p>
               </div>
             </div>
             <div class="p-4 bg-slate-50 border-t border-slate-200 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-600">
@@ -9073,11 +9073,11 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">10-35m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${fleetTaxonomy.title || 'Activity 2: Commercial Aircraft Classification Matrix (25 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${fleetTaxonomy.title || 'Activity 2: Commercial Aircraft Classification Table (25 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${fleetTaxonomy.summary || 'Classify commercial passenger and freighter aircraft into operational categories.'}</p>
                 </div>
               </div>
-              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Fleet Matrix</span>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Fleet Table</span>
             </div>
 
             ${renderActivityInstructions(fleetTaxonomy, theme)}
@@ -9105,7 +9105,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${comparativeClinic.title || 'Activity 3: Language Clinic: Comparative &amp; Superlative Data (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${comparativeClinic.title || 'Activity 3: Language Focus: Comparative &amp; Superlative Data (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${comparativeClinic.summary || 'Mastering modifiers and comparative structures to evaluate aircraft efficiency and fleet statistics.'}</p>
                 </div>
               </div>
@@ -9234,7 +9234,7 @@
       const hero = content.hero || {};
       const opening = content.openingSession || {};
       const investigationLexis = content.investigationLexis || {};
-      const lexis = investigationLexis.terms || [];
+      const vocabTerms = investigationLexis.terms || [];
       const pastNarrativesClinic = content.pastNarrativesClinic || {};
       const pastRules = pastNarrativesClinic.rules || [];
       const groupResearchSprint = content.groupResearchSprint || {};
@@ -9327,7 +9327,7 @@
             </div>
           </div>
 
-          <!-- Activity 2: Investigation Lexis -->
+          <!-- Activity 2: Investigation Vocabulary -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
@@ -9337,13 +9337,13 @@
                   <p class="text-[11px] text-slate-500">${investigationLexis.summary || 'Learn and deploy specialized safety vocabulary used by investigation authorities.'}</p>
                 </div>
               </div>
-              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Investigation Lexis</span>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Investigation Vocabulary</span>
             </div>
 
             ${renderActivityInstructions(investigationLexis, theme)}
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-              ${lexis.map(lx => `
+              ${vocabTerms.map(lx => `
                 <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                   <h5 class="text-xs font-bold text-slate-900">${lx.term}</h5>
                   <p class="text-[11px] text-slate-600 leading-relaxed">${lx.role}</p>
@@ -9358,7 +9358,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">30-50m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${pastNarrativesClinic.title || 'Activity 3: Language Clinic: Narrative Past Tenses &amp; Sequencers (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${pastNarrativesClinic.title || 'Activity 3: Language Focus: Narrative Past Tenses &amp; Sequencers (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${pastNarrativesClinic.summary || 'Combining Past Simple, Past Continuous, and Past Perfect to build clear chronological incident reports.'}</p>
                 </div>
               </div>
@@ -9581,13 +9581,13 @@
             </div>
           </div>
 
-          <!-- Activity 1: Aviation Health News & Diagnostic Spot-Check -->
+          <!-- Activity 1: Aviation Health News & Quick Check -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">00-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Aviation Health News &amp; Diagnostic Spot-Check (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Aviation Health News &amp; Quick Check (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || 'Analyze recent airborne medical incidents and evaluate entry knowledge of aeromedical regulations.'}</p>
                 </div>
               </div>
@@ -9610,7 +9610,7 @@
             <!-- Diagnostic Questions Grid -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Aeromedical Diagnostic: In-Flight Physiology & Emergency Protocols'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Aeromedical Quick Check: In-Flight Physiology & Emergency Protocols'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -9618,7 +9618,7 @@
                   <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5 flex flex-col justify-between">
                     <div>
                       <div class="flex items-center justify-between gap-2">
-                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Diagnostic Spot-Check 0${q.id}</span>
+                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Quick Check 0${q.id}</span>
                         <span class="w-2 h-2 rounded-full" style="background-color: ${theme.primary};"></span>
                       </div>
                       <p class="text-xs font-bold text-slate-800 mt-1">${q.q}</p>
@@ -9637,17 +9637,17 @@
             </div>
           </div>
 
-          <!-- Activity 2: In-Flight Medical Emergencies & Triage Lexis -->
+          <!-- Activity 2: In-Flight Medical Emergencies & Triage Vocabulary -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">10-30m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${medLexis.title || 'Activity 2: In-Flight Medical Emergencies &amp; Triage Lexis (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${medLexis.title || 'Activity 2: In-Flight Medical Emergencies &amp; Triage Vocabulary (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${medLexis.summary || 'Master essential medical terms, clinical symptoms, and cabin response procedures.'}</p>
                 </div>
               </div>
-              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Medical Lexis &amp; Triage</span>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Medical Vocabulary &amp; Triage</span>
             </div>
 
             ${renderActivityInstructions(medLexis, theme)}
@@ -9740,13 +9740,13 @@
             </div>
           </div>
 
-          <!-- Activity 4: Airborne Medical Diversion Simulation & Decision Matrix -->
+          <!-- Activity 4: Airborne Medical Diversion Simulation & Decision Guide -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">50-85m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${diversion.title || 'Activity 4: Airborne Medical Diversion Simulation &amp; Decision Matrix (35 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${diversion.title || 'Activity 4: Airborne Medical Diversion Simulation &amp; Decision Guide (35 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${diversion.summary || 'Simulate high-stakes airborne medical emergencies requiring real-time ATC and flight dispatch coordination.'}</p>
                 </div>
               </div>
@@ -9841,7 +9841,7 @@
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">110-120m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${closing.title || 'Activity 6: Medical &amp; Human Factors Consolidation &amp; Syllable Stress (10 mins)'}</h4>
-                  <p class="text-[11px] text-slate-500">${closing.summary || 'Master syllable stress patterns and synthesize aeromedical safety competencies.'}</p>
+                  <p class="text-[11px] text-slate-500">${closing.summary || 'Master syllable stress patterns and review aeromedical safety competencies.'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Closing Consolidation</span>
@@ -9853,7 +9853,7 @@
               <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
                 <div class="flex items-center gap-2 text-slate-800">
                   <svg width="15" height="15" class="text-indigo-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 100-6 3 3 0 000 6z"/></svg>
-                  <h5 class="text-xs sm:text-sm font-bold">Pronunciation Clinic: Aeromedical Syllable Stress</h5>
+                  <h5 class="text-xs sm:text-sm font-bold">Pronunciation Practice: Aeromedical Syllable Stress</h5>
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 text-xs pt-1">
                   ${pronunciationFocus.map(p => `
@@ -9952,13 +9952,13 @@
             </div>
           </div>
 
-          <!-- Activity 1: Aviation Weather Briefing & Meteorological Diagnostic -->
+          <!-- Activity 1: Aviation Weather Briefing & Meteorological Quick Check -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">00-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Aviation Weather Briefing &amp; Meteorological Diagnostic (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Aviation Weather Briefing &amp; Meteorological Quick Check (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || 'Analyze real-time meteorological advisories and test baseline aviation weather comprehension.'}</p>
                 </div>
               </div>
@@ -9981,7 +9981,7 @@
             <!-- Diagnostic Grid -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Meteorological Diagnostic: Atmospheric Physics & Barometric Altimetry'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Meteorological Quick Check: Atmospheric Physics & Barometric Altimetry'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -9989,7 +9989,7 @@
                   <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5 flex flex-col justify-between">
                     <div>
                       <div class="flex items-center justify-between gap-2">
-                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Weather Diagnostic 0${q.id}</span>
+                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Weather Quick Check 0${q.id}</span>
                         <span class="w-2 h-2 rounded-full" style="background-color: ${theme.primary};"></span>
                       </div>
                       <p class="text-xs font-bold text-slate-800 mt-1">${q.q}</p>
@@ -10018,7 +10018,7 @@
                   <p class="text-[11px] text-slate-500">${phenomenaAct.summary || 'Analyze severe hazards: windshear, microbursts, CAT, supercooled icing, and volcanic ash.'}</p>
                 </div>
               </div>
-              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Severe Hazards Lexis</span>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Severe Hazards Vocabulary</span>
             </div>
 
             ${renderActivityInstructions(phenomenaAct, theme)}
@@ -10038,13 +10038,13 @@
             </div>
           </div>
 
-          <!-- Activity 3: Language Clinic: Decoding METAR, TAF & SIGMET Advisories -->
+          <!-- Activity 3: Language Focus: Decoding METAR, TAF & SIGMET Advisories -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">30-50m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${briefingClinic.title || 'Activity 3: Language Clinic: Decoding METAR, TAF &amp; SIGMET Advisories (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${briefingClinic.title || 'Activity 3: Language Focus: Decoding METAR, TAF &amp; SIGMET Advisories (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${briefingClinic.summary || 'Deconstruct raw international meteorological telecommunication strings into fluent operational English.'}</p>
                 </div>
               </div>
@@ -10121,7 +10121,7 @@
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">65-110m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${simAct.title || 'Activity 5: Severe Weather En-Route &amp; Terminal Diversion Simulation (45 mins)'}</h4>
-                  <p class="text-[11px] text-slate-500">${simAct.summary || 'Execute an in-flight weather diversion decision matrix evaluating fuel reserves, alternates, and ATC limits.'}</p>
+                  <p class="text-[11px] text-slate-500">${simAct.summary || 'Execute an in-flight weather diversion decision guide evaluating fuel reserves, alternates, and ATC limits.'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Flight Dispatch &amp; Cockpit Simulation</span>
@@ -10168,7 +10168,7 @@
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">110-120m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${closing.title || 'Activity 6: Meteorology Consolidation &amp; Pronunciation Wrap-Up (10 mins)'}</h4>
-                  <p class="text-[11px] text-slate-500">${closing.summary || 'Master syllable stress in meteorological lexis and consolidate operational takeaways.'}</p>
+                  <p class="text-[11px] text-slate-500">${closing.summary || 'Master syllable stress in meteorological vocabulary and consolidate operational takeaways.'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Closing Consolidation</span>
@@ -10180,7 +10180,7 @@
               <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
                 <div class="flex items-center gap-2 text-slate-800">
                   <svg width="15" height="15" class="text-indigo-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 100-6 3 3 0 000 6z"/></svg>
-                  <h5 class="text-xs sm:text-sm font-bold">Pronunciation Clinic: Meteorological Syllable Stress</h5>
+                  <h5 class="text-xs sm:text-sm font-bold">Pronunciation Practice: Meteorological Syllable Stress</h5>
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 text-xs pt-1">
                   ${pronunciationFocus.map(p => `
@@ -10278,13 +10278,13 @@
             </div>
           </div>
 
-          <!-- Activity 1: Safety & Security News & Diagnostic Spot-Check -->
+          <!-- Activity 1: Safety & Security News & Quick Check -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">00-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Safety &amp; Security News &amp; Diagnostic Spot-Check (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Safety &amp; Security News &amp; Quick Check (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || 'Analyze recent global airport security events and test legal understanding of ICAO annexes.'}</p>
                 </div>
               </div>
@@ -10307,7 +10307,7 @@
             <!-- Diagnostic Grid -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Safety vs. Security Diagnostic: Legal & Regulatory Frameworks'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Safety vs. Security Quick Check: Legal & Regulatory Frameworks'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -10315,7 +10315,7 @@
                   <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5 flex flex-col justify-between">
                     <div>
                       <div class="flex items-center justify-between gap-2">
-                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Regulatory Diagnostic 0${q.id}</span>
+                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Regulatory Quick Check 0${q.id}</span>
                         <span class="w-2 h-2 rounded-full" style="background-color: ${theme.primary};"></span>
                       </div>
                       <p class="text-xs font-bold text-slate-800 mt-1">${q.q}</p>
@@ -10344,7 +10344,7 @@
                   <p class="text-[11px] text-slate-500">${safetyLexis.summary || 'Compare ICAO Annex 19 Safety Management and ICAO Annex 17 Security standards.'}</p>
                 </div>
               </div>
-              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Safety vs. Security Matrix</span>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Safety vs. Security Comparison Table</span>
             </div>
 
             ${renderActivityInstructions(safetyLexis, theme)}
@@ -10452,7 +10452,7 @@
             <div class="p-4 bg-slate-900 text-white rounded-xl space-y-3 text-xs">
               <div class="flex items-center justify-between border-b border-slate-800 pb-2">
                 <span class="font-black text-red-400 uppercase tracking-wider text-xs">Simultaneous Dual Emergency Scenario</span>
-                <span class="text-[10px] text-slate-400">Tactical Command Matrix</span>
+                <span class="text-[10px] text-slate-400">Tactical Command Guide</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-1">
                 <div class="p-3 bg-red-950/50 border border-red-800 rounded-lg space-y-1">
@@ -10478,7 +10478,7 @@
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">110-120m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${closing.title || 'Activity 6: Safety vs. Security Wrap-Up &amp; FE3 Preview (10 mins)'}</h4>
-                  <p class="text-[11px] text-slate-500">${closing.summary || 'Synthesize essential distinctions and review preparation milestones for Formative Evaluation 3.'}</p>
+                  <p class="text-[11px] text-slate-500">${closing.summary || 'Review essential distinctions and review preparation milestones for Formative Evaluation 3.'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Closing Consolidation</span>
@@ -10490,7 +10490,7 @@
               <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
                 <div class="flex items-center gap-2 text-slate-800">
                   <svg width="15" height="15" class="text-indigo-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 100-6 3 3 0 000 6z"/></svg>
-                  <h5 class="text-xs sm:text-sm font-bold">Pronunciation Clinic: Safety vs. Security Lexis</h5>
+                  <h5 class="text-xs sm:text-sm font-bold">Pronunciation Practice: Safety vs. Security Vocabulary</h5>
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 text-xs pt-1">
                   ${pronunciationFocus.map(p => `
@@ -11206,7 +11206,7 @@
           <div class="p-4 bg-white border border-slate-200 rounded-xl shadow-xs space-y-3">
             <div class="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-slate-100">
               <div>
-                <span class="text-xs font-bold uppercase tracking-wider text-slate-500">TOEIC Diagnostic Practice • Reading Part 5</span>
+                <span class="text-xs font-bold uppercase tracking-wider text-slate-500">TOEIC Practice Test • Reading Part 5</span>
                 <div class="text-xs text-slate-500 mt-0.5">Target pace: ~30 seconds per item</div>
               </div>
               <div class="flex items-center gap-2">
@@ -11469,7 +11469,7 @@
                     <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold bg-emerald-700">20–26 min</span>
                   </div>
                   <h5 class="text-xs font-bold text-slate-800 mt-2">Portfolio Check</h5>
-                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Present personal vocabulary log with Module 1 lexis. Conduct self-critique of strengths and weaknesses.</p>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Present personal vocabulary log with Module 1 vocabulary. Conduct self-critique of strengths and weaknesses.</p>
                 </div>
                 <div class="mt-2 pt-2 border-t border-emerald-200/60 text-[10px] text-emerald-800 font-semibold">Self-evaluation ready</div>
               </div>
@@ -11504,7 +11504,7 @@
             <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/70 space-y-1.5">
               <h5 class="text-xs sm:text-sm font-bold text-slate-900">Task Overview</h5>
               <p class="text-xs text-slate-600 leading-relaxed">
-                In pairs, select any commercial or civil aerodrome of your choice worldwide (e.g. <em>Toulouse-Blagnac, London Heathrow, Chicago O'Hare, Madeira Funchal, St. Maarten Princess Juliana, Tokyo Haneda, Gibraltar, Courchevel</em>). Over a 10-to-12 minute collaborative presentation, deliver an operational briefing analyzing layout, traffic constraints, safety hot spots, and incident history, while demonstrating mastery of Module 1 specialized lexis.
+                In pairs, select any commercial or civil aerodrome of your choice worldwide (e.g. <em>Toulouse-Blagnac, London Heathrow, Chicago O'Hare, Madeira Funchal, St. Maarten Princess Juliana, Tokyo Haneda, Gibraltar, Courchevel</em>). Over a 10-to-12 minute collaborative presentation, deliver an operational briefing analyzing layout, traffic constraints, safety hot spots, and incident history, while demonstrating mastery of Module 1 specialized vocabulary.
               </p>
             </div>
 
@@ -11718,7 +11718,7 @@
                     <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold bg-emerald-700">20–26 min</span>
                   </div>
                   <h5 class="text-xs font-bold text-slate-800 mt-2">Portfolio Check</h5>
-                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Present personal vocabulary log with recorded Module 2 lexis. Conduct self-critique of strengths and weaknesses.</p>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Present personal vocabulary log with recorded Module 2 vocabulary. Conduct self-critique of strengths and weaknesses.</p>
                 </div>
                 <div class="mt-2 pt-2 border-t border-emerald-200/60 text-[10px] text-emerald-800 font-semibold">Self-evaluation ready</div>
               </div>
@@ -11753,7 +11753,7 @@
             <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/70 space-y-1.5">
               <h5 class="text-xs sm:text-sm font-bold text-slate-900">Task Overview</h5>
               <p class="text-xs text-slate-600 leading-relaxed">
-                In pairs, select <strong>any commercial/civil aircraft</strong> (e.g. <em>Airbus A350, Concorde, Boeing 747, ATR 72, Embraer E195-E2</em>) OR <strong>any airline of your choice</strong> (e.g. <em>Air France, Emirates, Ryanair, Singapore Airlines, Delta, Lufthansa</em>). Over a 10-to-12 minute collaborative briefing, cover technical details, operational key figures, historical moments, and safety records while demonstrating mastery of Module 2 specialized lexis.
+                In pairs, select <strong>any commercial/civil aircraft</strong> (e.g. <em>Airbus A350, Concorde, Boeing 747, ATR 72, Embraer E195-E2</em>) OR <strong>any airline of your choice</strong> (e.g. <em>Air France, Emirates, Ryanair, Singapore Airlines, Delta, Lufthansa</em>). Over a 10-to-12 minute collaborative briefing, cover technical details, operational key figures, historical moments, and safety records while demonstrating mastery of Module 2 specialized vocabulary.
               </p>
             </div>
 
@@ -11880,7 +11880,7 @@
               Formative Evaluation 3 (FE3) — Aviation Current Events &amp; Press Briefing
             </h3>
             <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
-              The Formative Evaluation takes place in <strong>pairs or trios</strong> during a dedicated <strong>30-minute tutorial slot</strong> on <strong>Wednesday 25 February 2025 (Week 08)</strong> with <strong>Tracy NEILL (Group A)</strong> or <strong>Ally HEWETT (Group B)</strong>. You and your partner will roleplay as <strong>Aviation Authority / Airline Spokespersons</strong> delivering a formal 10-12 minute <strong>Press Briefing</strong> on a major recent aviation current event (severe weather disruption, in-flight medical emergency diversion, airport security breach / biometric rollout, or safety maintenance airworthiness directive), followed by spontaneous press conference cross-examination, personal vocabulary portfolio audit, and diagnostic teacher feedback.
+              The Formative Evaluation takes place in <strong>pairs or trios</strong> during a dedicated <strong>30-minute tutorial slot</strong> on <strong>Wednesday 25 February 2025 (Week 08)</strong> with <strong>Tracy NEILL (Group A)</strong> or <strong>Ally HEWETT (Group B)</strong>. You and your partner will roleplay as <strong>Aviation Authority / Airline Spokespersons</strong> delivering a formal 10-12 minute <strong>Press Briefing</strong> on a major recent aviation current event (severe weather disruption, in-flight medical emergency diversion, airport security breach / biometric rollout, or safety maintenance airworthiness directive), followed by spontaneous press conference Q&A, personal vocabulary portfolio audit, and detailed teacher feedback.
             </p>
           </div>
 
@@ -11928,7 +11928,7 @@
                     <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold" style="background-color: ${theme.primary};">14–22 min</span>
                   </div>
                   <h5 class="text-xs font-bold text-slate-800 mt-2">Press Q&amp;A Defense</h5>
-                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Spontaneous cross-examination by the teacher acting as investigative journalists. Defend decisions and technical nuances calmly.</p>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Spontaneous questions by the teacher acting as investigative journalists. Defend decisions and technical nuances calmly.</p>
                 </div>
                 <div class="mt-2 pt-2 border-t border-slate-100 text-[10px] text-slate-400 font-semibold">Spontaneous interaction</div>
               </div>
@@ -11953,7 +11953,7 @@
                     <span class="text-[10px] font-black uppercase text-slate-400">Stage 5</span>
                     <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold" style="background-color: ${theme.primary};">26–30 min</span>
                   </div>
-                  <h5 class="text-xs font-bold text-slate-800 mt-2">Diagnostic Feedback</h5>
+                  <h5 class="text-xs font-bold text-slate-800 mt-2">Detailed Feedback</h5>
                   <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Immediate teacher feedback on pronunciation, technical vocabulary, fluency, and provisional grade out of 20.</p>
                 </div>
                 <div class="mt-2 pt-2 border-t border-slate-100 text-[10px] text-slate-400 font-semibold">Score &amp; Semester Wrap-Up</div>
@@ -12165,7 +12165,7 @@
                     <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold bg-blue-700">20–26 min</span>
                   </div>
                   <h5 class="text-xs font-bold text-slate-800 mt-2">Portfolio Check</h5>
-                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Show your Vocabulary Log with recorded Module 3 lexis and completed TOEIC error logs. Present honest self-critique.</p>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Show your Vocabulary Log with recorded Module 3 vocabulary and completed TOEIC error logs. Present honest self-critique.</p>
                 </div>
                 <div class="mt-2 pt-2 border-t border-blue-200/60 text-[10px] text-blue-800 font-semibold">Self-evaluation ready</div>
               </div>
@@ -12436,7 +12436,7 @@
               Formative Evaluation 3 (FE3) Marking Criteria
             </h3>
             <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
-              Assessment is criteria-referenced against official CEFR B2 communication descriptors. Your mark reflects spoken fluency, pronunciation on technical vocabulary, grammatical accuracy, spontaneous Q&amp;A defense, equal partner collaboration, and documented portfolio study habits.
+              Assessment is criteria-referenced against official CEFR B2 evaluation criteria. Your mark reflects spoken fluency, pronunciation on technical vocabulary, grammatical accuracy, spontaneous Q&amp;A defense, equal partner collaboration, and documented portfolio study habits.
             </p>
           </div>
 
@@ -12472,7 +12472,7 @@
                     <span class="inline-block px-2.5 py-1 rounded-lg text-white font-mono font-bold text-xs" style="background-color: ${theme.primary};">3.0 pts</span>
                   </td>
                   <td class="p-3.5 align-top text-slate-600 leading-relaxed">
-                    Clear articulation and correct syllable stress on technical terms (<em>al-go-RI-thm, au-TO-no-mous, bi-o-ME-tric, CRY-o-ge-nic, scal-a-BI-li-ty</em>).
+                    Clear pronunciation and correct syllable stress on technical terms (<em>al-go-RI-thm, au-TO-no-mous, bi-o-ME-tric, CRY-o-ge-nic, scal-a-BI-li-ty</em>).
                   </td>
                 </tr>
                 <tr class="hover:bg-slate-50/60 transition-colors">
@@ -12508,7 +12508,7 @@
                     <span class="inline-block px-2.5 py-1 rounded-lg text-white font-mono font-bold text-xs" style="background-color: ${theme.primary};">2.5 pts</span>
                   </td>
                   <td class="p-3.5 align-top text-slate-600 leading-relaxed">
-                    Strict 50/50 talking balance (~6 min each). Natural handovers and mutual support. Spontaneous and articulate defense during examiner Q&amp;A without switching to French.
+                    Strict 50/50 talking balance (~6 min each). Natural handovers and mutual support. Spontaneous and clear defense during examiner Q&amp;A without switching to French.
                   </td>
                 </tr>
                 <tr class="hover:bg-slate-50/60 transition-colors">
@@ -12610,7 +12610,7 @@
                     <span class="px-2 py-0.5 rounded text-white font-mono text-[10px] font-bold bg-emerald-700">20–26 min</span>
                   </div>
                   <h5 class="text-xs font-bold text-slate-800 mt-2">Portfolio Check</h5>
-                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Show your Vocabulary Log with recorded Module 2 lexis and completed TOEIC error logs. Present honest self-critique.</p>
+                  <p class="text-[11px] text-slate-600 mt-1 leading-relaxed">Show your Vocabulary Log with recorded Module 2 vocabulary and completed TOEIC error logs. Present honest self-critique.</p>
                 </div>
                 <div class="mt-2 pt-2 border-t border-emerald-200/60 text-[10px] text-emerald-800 font-semibold">Self-evaluation ready</div>
               </div>
@@ -12943,7 +12943,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-2.5 text-xs text-slate-600">
               <div class="p-2.5 bg-white rounded-lg border border-slate-200">
                 <strong class="text-slate-800 block mb-0.5" style="color: ${theme.accent};">General English (AG):</strong>
-                Focus on complex grammar (conditionals, passives, relative clauses) and sustainable tourism lexis.
+                Focus on complex grammar (conditionals, passives, relative clauses) and sustainable tourism vocabulary.
               </div>
               <div class="p-2.5 bg-white rounded-lg border border-slate-200">
                 <strong class="text-slate-800 block mb-0.5" style="color: #152438;">Aeronautical English (AAS):</strong>
@@ -13002,7 +13002,7 @@
             <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Target Competencies • B2 CEFR Level</span>
             <h3 class="text-base sm:text-lg font-bold text-slate-800 mt-1">Formative Evaluation 1 Objectives (AAS Track)</h3>
             <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
-              Demonstrate collaborative spoken production, spontaneous dialogue in teacher Q&amp;A, activation of specialized aerodrome lexis from Sessions 1–4, grammatical precision with modal verbs and passives, and autonomous portfolio habits.
+              Demonstrate collaborative spoken production, spontaneous dialogue in teacher Q&amp;A, activation of specialized aerodrome vocabulary from Sessions 1–4, grammatical precision with modal verbs and passives, and autonomous portfolio habits.
             </p>
           </div>
 
@@ -13021,7 +13021,7 @@
                 <div>
                   <h5 class="text-xs sm:text-sm font-bold text-slate-800">Deliver a Structured Technical Airport Profile Presentation</h5>
                   <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
-                    Present your chosen airport's infrastructure, runways, taxiways, and apron operations over 10–12 minutes without reading written notes. Effectively utilize aerodrome charts and visual diagrams, link points with logical discourse markers, and share talking time equally (50/50).
+                    Present your chosen airport's infrastructure, runways, taxiways, and apron operations over 10–12 minutes without reading written notes. Effectively utilize aerodrome charts and visual diagrams, link points with logical linking words, and share talking time equally (50/50).
                   </p>
                 </div>
               </div>
@@ -13061,7 +13061,7 @@
                 <div>
                   <h5 class="text-xs sm:text-sm font-bold text-slate-800">Exhibit Autonomous Portfolio Habits &amp; Self-Critique</h5>
                   <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
-                    Present an updated personal vocabulary log with recorded Module 1 lexis. Arrive prepared to discuss personal strong points and weak points constructively. <em>(Note: TOEIC practice is maintained independently on the AAS portal and is not graded in this evaluation).</em>
+                    Present an updated personal vocabulary log with recorded Module 1 vocabulary. Arrive prepared to discuss personal strong points and weak points constructively. <em>(Note: TOEIC practice is maintained independently on the AAS portal and is not graded in this evaluation).</em>
                   </p>
                 </div>
               </div>
@@ -13080,7 +13080,7 @@
             <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Target Competencies • B2 CEFR Level</span>
             <h3 class="text-base sm:text-lg font-bold text-slate-800 mt-1">Formative Evaluation 2 Objectives (Aircraft / Airlines)</h3>
             <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
-              Demonstrate collaborative spoken production, spontaneous dialogue in teacher Q&amp;A, activation of specialized aerodynamics and fleet lexis from Sessions 1–4, grammatical precision with comparatives and narrative tenses, and autonomous portfolio habits.
+              Demonstrate collaborative spoken production, spontaneous dialogue in teacher Q&amp;A, activation of specialized aerodynamics and fleet vocabulary from Sessions 1–4, grammatical precision with comparatives and narrative tenses, and autonomous portfolio habits.
             </p>
           </div>
 
@@ -13099,7 +13099,7 @@
                 <div>
                   <h5 class="text-xs sm:text-sm font-bold text-slate-800">Deliver a Structured Aircraft / Airline Profile Presentation</h5>
                   <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
-                    Present your chosen aircraft or airline specifications, fleet metrics, and milestones over 10–12 minutes without reading written notes. Effectively utilize diagrams and route maps, link points with logical discourse markers, and share talking time equally (50/50).
+                    Present your chosen aircraft or airline specifications, fleet metrics, and milestones over 10–12 minutes without reading written notes. Effectively utilize diagrams and route maps, link points with logical linking words, and share talking time equally (50/50).
                   </p>
                 </div>
               </div>
@@ -13139,7 +13139,7 @@
                 <div>
                   <h5 class="text-xs sm:text-sm font-bold text-slate-800">Exhibit Autonomous Portfolio Habits &amp; Self-Critique</h5>
                   <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
-                    Present an updated personal vocabulary log with recorded Module 2 lexis. Arrive prepared to discuss personal strong points and weak points constructively. <em>(Note: TOEIC practice is maintained independently on the AAS portal and is not graded in this evaluation).</em>
+                    Present an updated personal vocabulary log with recorded Module 2 vocabulary. Arrive prepared to discuss personal strong points and weak points constructively. <em>(Note: TOEIC practice is maintained independently on the AAS portal and is not graded in this evaluation).</em>
                   </p>
                 </div>
               </div>
@@ -13158,7 +13158,7 @@
             <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Target Competencies • B2/C1 CEFR Level</span>
             <h3 class="text-base sm:text-lg font-bold text-slate-800 mt-1">Formative Evaluation 3 Objectives (Aviation Current Events)</h3>
             <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
-              Demonstrate collaborative spoken media briefing delivery, spontaneous defense during investigative teacher cross-examination, active deployment of specialized aviation safety, security, meteorology, and human factors lexis from Sessions 1–4, and autonomous portfolio habits.
+              Demonstrate collaborative spoken media briefing delivery, spontaneous defense during investigative teacher Q&A, active deployment of specialized aviation safety, security, meteorology, and human factors vocabulary from Sessions 1–4, and autonomous portfolio habits.
             </p>
           </div>
 
@@ -13217,7 +13217,7 @@
                 <div>
                   <h5 class="text-xs sm:text-sm font-bold text-slate-800">Exhibit Autonomous Portfolio Habits &amp; Constructive Self-Critique</h5>
                   <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
-                    Present an updated personal vocabulary log with recorded Module 3 lexis. Arrive prepared to discuss personal strengths and two concrete action targets for Semester 2. <em>(Note: TOEIC practice is maintained independently on the AAS portal and is not graded in this evaluation).</em>
+                    Present an updated personal vocabulary log with recorded Module 3 vocabulary. Arrive prepared to discuss personal strengths and two concrete action targets for Semester 2. <em>(Note: TOEIC practice is maintained independently on the AAS portal and is not graded in this evaluation).</em>
                   </p>
                 </div>
               </div>
@@ -13301,7 +13301,7 @@
             <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Target Competencies • B2 CEFR Level</span>
             <h3 class="text-base sm:text-lg font-bold text-slate-800 mt-1">Formative Evaluation Objectives</h3>
             <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
-              Demonstrate collaborative spoken production, spontaneous dialogue in teacher Q&amp;A, activation of target lexis from this site, grammatical control, and autonomous learning habits through your portfolio.
+              Demonstrate collaborative spoken production, spontaneous dialogue in teacher Q&amp;A, activation of target vocabulary from this site, grammatical control, and autonomous learning habits through your portfolio.
             </p>
           </div>
 
@@ -13320,7 +13320,7 @@
                 <div>
                   <h5 class="text-xs sm:text-sm font-bold text-slate-800">Deliver a Structured Oral Presentation</h5>
                   <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
-                    Present your itinerary or comparative city analysis over 10–12 minutes without reading written paragraphs. Use visual aids effectively, connect ideas with logical discourse markers, and share talking time equally.
+                    Present your itinerary or comparative city analysis over 10–12 minutes without reading written paragraphs. Use visual aids effectively, connect ideas with logical linking words, and share talking time equally.
                   </p>
                 </div>
               </div>
@@ -13409,10 +13409,10 @@
                 <tr class="hover:bg-slate-50/60">
                   <td class="p-3 font-bold text-slate-800">1. Fluency &amp; Coherence</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
-                  <td class="p-3 text-slate-600">Speech flows naturally without long hesitations. Ideas linked smoothly with discourse markers. <strong>Strictly no reading from notes or slides!</strong></td>
+                  <td class="p-3 text-slate-600">Speech flows naturally without long hesitations. Ideas linked smoothly with linking words. <strong>Strictly no reading from notes or slides!</strong></td>
                 </tr>
                 <tr class="hover:bg-slate-50/60">
-                  <td class="p-3 font-bold text-slate-800">2. Pronunciation &amp; Articulation</td>
+                  <td class="p-3 font-bold text-slate-800">2. Pronunciation &amp; Clarity</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">3</td>
                   <td class="p-3 text-slate-600">Intelligible pronunciation and correct syllable stress placed on aeronautical terms (<em>au-THOR-i-ty, co-OR-di-na-tor, tech-NI-cian, ca-PA-ci-ty, de-i-cing</em>).</td>
                 </tr>
@@ -13422,7 +13422,7 @@
                   <td class="p-3 text-slate-600">Accurate modal verbs of obligation (<em>must, should, are required to</em>), past passive voice for incidents, and responsibility formulas (<em>responsible for + -ing</em>).</td>
                 </tr>
                 <tr class="hover:bg-slate-50/60">
-                  <td class="p-3 font-bold text-slate-800">4. Vocabulary &amp; Topic Lexis</td>
+                  <td class="p-3 font-bold text-slate-800">4. Vocabulary &amp; Topic Vocabulary</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
                   <td class="p-3 text-slate-600">Active, accurate deployment of at least <strong>6 to 8 specialized technical terms</strong> from Sessions 1–4.</td>
                 </tr>
@@ -13449,7 +13449,7 @@
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 text-xs">
             <div class="p-3 bg-emerald-50 border border-emerald-200 rounded-xl">
               <strong class="text-emerald-800 block font-bold mb-1">Exemplary (18–20 pts)</strong>
-              <p class="text-slate-600">Fluent, spontaneous delivery; precise technical aerodrome lexis; high grammatical accuracy; 50/50 teamwork; portfolio fully updated.</p>
+              <p class="text-slate-600">Fluent, spontaneous delivery; precise technical aerodrome vocabulary; high grammatical accuracy; 50/50 teamwork; portfolio fully updated.</p>
             </div>
             <div class="p-3 bg-blue-50 border border-blue-200 rounded-xl">
               <strong class="text-blue-800 block font-bold mb-1">Solid B2 (14–17 pts)</strong>
@@ -13457,7 +13457,7 @@
             </div>
             <div class="p-3 bg-amber-50 border border-amber-200 rounded-xl">
               <strong class="text-amber-800 block font-bold mb-1">Developing (10–13 pts)</strong>
-              <p class="text-slate-600">Frequent pauses, limited lexis, recurring grammar slips, uneven partner balance, incomplete vocabulary portfolio.</p>
+              <p class="text-slate-600">Frequent pauses, limited vocabulary, recurring grammar slips, uneven partner balance, incomplete vocabulary portfolio.</p>
             </div>
             <div class="p-3 bg-rose-50 border border-rose-200 rounded-xl">
               <strong class="text-rose-800 block font-bold mb-1">Needs Imp. (&lt;10 pts)</strong>
@@ -13502,10 +13502,10 @@
                 <tr class="hover:bg-slate-50/60">
                   <td class="p-3 font-bold text-slate-800">1. Fluency &amp; Coherence</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
-                  <td class="p-3 text-slate-600">Speech flows naturally without long hesitations. Ideas linked smoothly with discourse markers. <strong>Strictly no reading from notes or slides!</strong></td>
+                  <td class="p-3 text-slate-600">Speech flows naturally without long hesitations. Ideas linked smoothly with linking words. <strong>Strictly no reading from notes or slides!</strong></td>
                 </tr>
                 <tr class="hover:bg-slate-50/60">
-                  <td class="p-3 font-bold text-slate-800">2. Pronunciation &amp; Articulation</td>
+                  <td class="p-3 font-bold text-slate-800">2. Pronunciation &amp; Clarity</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">3</td>
                   <td class="p-3 text-slate-600">Intelligible pronunciation and correct syllable stress placed on aerospace terms (<em>aero-DY-na-mics, ma-nu-FAC-tu-rer, ef-FI-cien-cy, ca-PA-ci-ty, sta-bi-LI-zer</em>).</td>
                 </tr>
@@ -13515,7 +13515,7 @@
                   <td class="p-3 text-slate-600">Accurate comparative/superlative evaluations, past narrative tenses for incident chronologies, and cause/effect connectors.</td>
                 </tr>
                 <tr class="hover:bg-slate-50/60">
-                  <td class="p-3 font-bold text-slate-800">4. Vocabulary &amp; Topic Lexis</td>
+                  <td class="p-3 font-bold text-slate-800">4. Vocabulary &amp; Topic Vocabulary</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
                   <td class="p-3 text-slate-600">Active, accurate deployment of at least <strong>6 to 8 specialized technical terms</strong> from Module 2 (aerodynamics, aircraft anatomy, commercial fleets, accident investigation).</td>
                 </tr>
@@ -13542,7 +13542,7 @@
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 text-xs">
             <div class="p-3 bg-emerald-50 border border-emerald-200 rounded-xl">
               <strong class="text-emerald-800 block font-bold mb-1">Exemplary (18–20 pts)</strong>
-              <p class="text-slate-600">Fluent, spontaneous delivery; precise technical aerospace lexis; high grammatical accuracy; 50/50 teamwork; portfolio fully updated.</p>
+              <p class="text-slate-600">Fluent, spontaneous delivery; precise technical aerospace vocabulary; high grammatical accuracy; 50/50 teamwork; portfolio fully updated.</p>
             </div>
             <div class="p-3 bg-blue-50 border border-blue-200 rounded-xl">
               <strong class="text-blue-800 block font-bold mb-1">Solid B2 (14–17 pts)</strong>
@@ -13550,7 +13550,7 @@
             </div>
             <div class="p-3 bg-amber-50 border border-amber-200 rounded-xl">
               <strong class="text-amber-800 block font-bold mb-1">Developing (10–13 pts)</strong>
-              <p class="text-slate-600">Frequent pauses, limited lexis, recurring grammar slips, uneven partner balance, incomplete vocabulary portfolio.</p>
+              <p class="text-slate-600">Frequent pauses, limited vocabulary, recurring grammar slips, uneven partner balance, incomplete vocabulary portfolio.</p>
             </div>
             <div class="p-3 bg-rose-50 border border-rose-200 rounded-xl">
               <strong class="text-rose-800 block font-bold mb-1">Needs Imp. (&lt;10 pts)</strong>
@@ -13598,7 +13598,7 @@
                   <td class="p-3 text-slate-600">Natural delivery flow without artificial reading pauses. Accurate syllable stress on technical terms (<em>cu-mu-lo-NIM-bus, de-FI-bri-lla-tor, clau-stro-PHO-bi-a, re-DUN-dan-cy</em>). <strong>Strictly no reading from notes or slides!</strong></td>
                 </tr>
                 <tr class="hover:bg-slate-50/60">
-                  <td class="p-3 font-bold text-slate-800">2. Technical &amp; Operational Lexis</td>
+                  <td class="p-3 font-bold text-slate-800">2. Technical &amp; Operational Vocabulary</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
                   <td class="p-3 text-slate-600">Active, accurate deployment of at least <strong>6 to 8 specialized technical terms</strong> from Module 3 (medical triage, severe meteorology, ICAO Annex 17 vs. 19, walkaround checks, MEL).</td>
                 </tr>
@@ -13610,7 +13610,7 @@
                 <tr class="hover:bg-slate-50/60">
                   <td class="p-3 font-bold text-slate-800">4. Spontaneous Q&amp;A Defense</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
-                  <td class="p-3 text-slate-600">Agile, confident answers during teacher cross-examination. Defends decisions factually, acknowledges investigative boundaries appropriately, and avoids speculation.</td>
+                  <td class="p-3 text-slate-600">Agile, confident answers during teacher Q&A. Defends decisions factually, acknowledges investigative boundaries appropriately, and avoids speculation.</td>
                 </tr>
                 <tr class="hover:bg-slate-50/60">
                   <td class="p-3 font-bold text-slate-800">5. Teamwork &amp; Pair Balance</td>
@@ -13635,7 +13635,7 @@
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 text-xs">
             <div class="p-3 bg-emerald-50 border border-emerald-200 rounded-xl">
               <strong class="text-emerald-800 block font-bold mb-1">Exemplary (18–20 pts)</strong>
-              <p class="text-slate-600">Fluent, spontaneous media delivery; precise technical aerospace lexis; high grammatical accuracy; 50/50 teamwork; portfolio fully updated.</p>
+              <p class="text-slate-600">Fluent, spontaneous media delivery; precise technical aerospace vocabulary; high grammatical accuracy; 50/50 teamwork; portfolio fully updated.</p>
             </div>
             <div class="p-3 bg-blue-50 border border-blue-200 rounded-xl">
               <strong class="text-blue-800 block font-bold mb-1">Solid B2 (14–17 pts)</strong>
@@ -13643,7 +13643,7 @@
             </div>
             <div class="p-3 bg-amber-50 border border-amber-200 rounded-xl">
               <strong class="text-amber-800 block font-bold mb-1">Developing (10–13 pts)</strong>
-              <p class="text-slate-600">Frequent pauses, limited lexis, recurring grammar slips, uneven partner balance, incomplete vocabulary portfolio.</p>
+              <p class="text-slate-600">Frequent pauses, limited vocabulary, recurring grammar slips, uneven partner balance, incomplete vocabulary portfolio.</p>
             </div>
             <div class="p-3 bg-rose-50 border border-rose-200 rounded-xl">
               <strong class="text-rose-800 block font-bold mb-1">Needs Imp. (&lt;10 pts)</strong>
@@ -13670,7 +13670,7 @@
               Formative Evaluation 2 (FE2) Marking Criteria
             </h3>
             <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
-              Assessment is criteria-referenced against official CEFR B2 communication descriptors. Your mark reflects spoken fluency, pronunciation on technical vocabulary, grammatical accuracy, spontaneous Q&amp;A defense, equal partner collaboration, and documented portfolio study habits.
+              Assessment is criteria-referenced against official CEFR B2 evaluation criteria. Your mark reflects spoken fluency, pronunciation on technical vocabulary, grammatical accuracy, spontaneous Q&amp;A defense, equal partner collaboration, and documented portfolio study habits.
             </p>
           </div>
 
@@ -13706,7 +13706,7 @@
                     <span class="inline-block px-2.5 py-1 rounded-lg text-white font-mono font-bold text-xs" style="background-color: ${theme.primary};">3.0 pts</span>
                   </td>
                   <td class="p-3.5 align-top text-slate-600 leading-relaxed">
-                    Clear articulation and correct syllable stress on technical terms (<em>ca-TAS-tro-phe, vul-ner-a-BIL-i-ty, per-me-a-ble, mi-ti-GA-tion, re-SIL-i-ence</em>).
+                    Clear pronunciation and correct syllable stress on technical terms (<em>ca-TAS-tro-phe, vul-ner-a-BIL-i-ty, per-me-a-ble, mi-ti-GA-tion, re-SIL-i-ence</em>).
                   </td>
                 </tr>
                 <tr class="hover:bg-slate-50/60 transition-colors">
@@ -13772,7 +13772,7 @@
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 text-xs">
             <div class="p-3 bg-emerald-50 border border-emerald-200 rounded-xl">
               <strong class="text-emerald-800 block font-bold mb-1">Exemplary (18–20 pts)</strong>
-              <p class="text-slate-600">Fluent, spontaneous delivery; rich environmental lexis; high grammatical precision; balanced 50/50 teamwork; portfolio fully updated.</p>
+              <p class="text-slate-600">Fluent, spontaneous delivery; rich environmental vocabulary; high grammatical precision; balanced 50/50 teamwork; portfolio fully updated.</p>
             </div>
             <div class="p-3 bg-blue-50 border border-blue-200 rounded-xl">
               <strong class="text-blue-800 block font-bold mb-1">Solid B2 (14–17 pts)</strong>
@@ -13780,7 +13780,7 @@
             </div>
             <div class="p-3 bg-amber-50 border border-amber-200 rounded-xl">
               <strong class="text-amber-800 block font-bold mb-1">Developing (10–13 pts)</strong>
-              <p class="text-slate-600">Frequent pauses, limited lexis, recurring grammar slips, uneven partner balance, incomplete vocabulary portfolio.</p>
+              <p class="text-slate-600">Frequent pauses, limited vocabulary, recurring grammar slips, uneven partner balance, incomplete vocabulary portfolio.</p>
             </div>
             <div class="p-3 bg-rose-50 border border-rose-200 rounded-xl">
               <strong class="text-rose-800 block font-bold mb-1">Needs Imp. (&lt;10 pts)</strong>
@@ -13824,10 +13824,10 @@
                 <tr class="hover:bg-slate-50/60">
                   <td class="p-3 font-bold text-slate-800">1. Fluency &amp; Coherence</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
-                  <td class="p-3 text-slate-600">Speech flows naturally without long hesitations. Ideas linked smoothly with discourse markers. No reading!</td>
+                  <td class="p-3 text-slate-600">Speech flows naturally without long hesitations. Ideas linked smoothly with linking words. No reading!</td>
                 </tr>
                 <tr class="hover:bg-slate-50/60">
-                  <td class="p-3 font-bold text-slate-800">2. Pronunciation &amp; Articulation</td>
+                  <td class="p-3 font-bold text-slate-800">2. Pronunciation &amp; Clarity</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">3</td>
                   <td class="p-3 text-slate-600">Intelligible pronunciation and correct word stress on technical and course vocabulary.</td>
                 </tr>
@@ -13837,7 +13837,7 @@
                   <td class="p-3 text-slate-600"><strong>AG:</strong> Accurate complex grammar (conditionals, passives). <strong>AAS:</strong> Precise modal verbs and prepositions.</td>
                 </tr>
                 <tr class="hover:bg-slate-50/60">
-                  <td class="p-3 font-bold text-slate-800">4. Vocabulary &amp; Topic Lexis</td>
+                  <td class="p-3 font-bold text-slate-800">4. Vocabulary &amp; Topic Vocabulary</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
                   <td class="p-3 text-slate-600">Active, accurate deployment of at least 4 to 6 specific terms from the platform revision lists.</td>
                 </tr>
@@ -13872,7 +13872,7 @@
             </div>
             <div class="p-3 bg-amber-50 border border-amber-200 rounded-xl">
               <strong class="text-amber-800 block font-bold mb-1">Developing (10–13 pts)</strong>
-              <p class="text-slate-600">Frequent pauses, limited lexis, grammar slips, unequal speaking time, incomplete portfolio.</p>
+              <p class="text-slate-600">Frequent pauses, limited vocabulary, grammar slips, unequal speaking time, incomplete portfolio.</p>
             </div>
             <div class="p-3 bg-rose-50 border border-rose-200 rounded-xl">
               <strong class="text-rose-800 block font-bold mb-1">Needs Imp. (&lt;10 pts)</strong>
@@ -13975,7 +13975,7 @@
             <div class="space-y-1">
               <span class="font-bold block">Dynamic Formative Evaluation (FE) Rotations:</span>
               <p class="text-[11px] text-amber-900 leading-relaxed">
-                To maximize pedagogical variety and ensure timeslot fairness, groups do <strong>not</strong> have fixed pairs or trios. Group A rotates across 2 pairs + 2 trios (4 slots = 2h), and Group B rotates across 3 pairs + 1 trio (4 slots = 2h). Every student experiences different peers and rotates between early and late slots across FE1 (W48), FE2 (W03), and FE3 (W08). Switch to the <strong>FE Tutorial Rotas</strong> tab to view your complete evaluation schedule.
+                To ensure variety in group work and timeslot fairness, groups do <strong>not</strong> have fixed pairs or trios. Group A rotates across 2 pairs + 2 trios (4 slots = 2h), and Group B rotates across 3 pairs + 1 trio (4 slots = 2h). Every student experiences different peers and rotates between early and late slots across FE1 (W48), FE2 (W03), and FE3 (W08). Switch to the <strong>FE Tutorial Rotas</strong> tab to view your complete evaluation schedule.
               </p>
             </div>
           </div>
@@ -14516,7 +14516,7 @@
               </span>
             </div>
             <h3 class="text-base sm:text-lg font-bold text-slate-800">
-              30-Minute Oral Tutorial Timeslot Matrices
+              30-Minute Oral Tutorial Timetables
             </h3>
             <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
               Every student group has an exact <strong>30-minute appointment slot</strong> with their assigned teacher. To guarantee fairness, pairings and trios rotate across FE1, FE2, and FE3, alternating early and late slots. Group A consists of <strong>2 pairs + 2 trios (10 students)</strong> and Group B consists of <strong>3 pairs + 1 trio (9 students)</strong>, precisely fitting 4 slots of 30 minutes (2 hours total).
@@ -14528,7 +14528,7 @@
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
               <!-- Course Selector -->
               <div>
-                <span class="block text-[10px] font-black uppercase tracking-wider text-slate-400 mb-1.5">Select Course Track Matrix:</span>
+                <span class="block text-[10px] font-black uppercase tracking-wider text-slate-400 mb-1.5">Select Course Track:</span>
                 <div class="inline-flex rounded-lg border border-slate-200 p-0.5 bg-slate-50">
                   <button type="button" onclick="setAdminRotaCourse('ag')" class="px-3.5 py-1.5 rounded-md text-xs font-bold transition-all cursor-pointer ${activeCourseKey === 'ag' ? 'bg-slate-800 text-white shadow-xs' : 'text-slate-600 hover:text-slate-900'}">
                     General English (AG • LV101E)
@@ -14550,7 +14550,7 @@
                 </span>
                 <div>
                   <h4 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-white">
-                    ${courseSched.name} — Complete Semester Rota Matrix
+                    ${courseSched.name} — Complete Semester Evaluation Schedule
                   </h4>
                   <p class="text-[11px] text-slate-300 font-medium">
                     ${courseSched.dayTime} • 30-min evaluation slots
@@ -15004,8 +15004,8 @@
         },
         {
           num: "03",
-          badge: "Lexical Range",
-          title: "Vocabulary Acquisition & Lexical Precision",
+          badge: "Vocabulary Range",
+          title: "Vocabulary Building & Accuracy",
           desc: "Accurately recognize, pronounce, and employ an extensive range of B2 general, technical, and academic vocabulary related to transport evolution, sustainable mobility, urban climate resilience, tech ethics, and responsible innovation (DDRS).",
           indicators: "Active use of module vocabulary lists, word-family derivations, accurate collocations in discussion."
         },
@@ -15056,9 +15056,9 @@
         },
         {
           num: "03",
-          badge: "Enrichissement Lexical",
-          title: "Acquisition lexicale et précision terminologique",
-          desc: "Comprendre et réutiliser avec précision un vaste répertoire lexical de niveau B2 (général, technique et académique) couvrant l'évolution des transports, la mobilité durable, la transition écologique, l'éthique technologique et la démarche DD&RS.",
+          badge: "Enrichissement du Vocabulaire",
+          title: "Acquisition du vocabulaire et précision terminologique",
+          desc: "Comprendre et réutiliser avec précision un vaste répertoire de vocabulaire de niveau B2 (général, technique et académique) couvrant l'évolution des transports, la mobilité durable, la transition écologique, l'éthique technologique et la démarche DD&RS.",
           indicators: "Réutilisation active du lexique de cours, dérivations lexicales, collocations professionnelles exactes."
         },
         {
@@ -15094,7 +15094,7 @@
       const aasObjectivesEn = [
         {
           num: "01",
-          badge: "Aeronautical Lexicon",
+          badge: "Aeronautical Vocabulary",
           title: "Aeronautical Technical Terminology",
           desc: "Accurately recognize, define, and employ standardized aviation vocabulary across aerodromes, runway designators, ground handling turnaround workflows, airframe anatomy, flight control axes, aerodynamics, meteorology, and safety/security systems.",
           indicators: "Precise naming of aircraft components, apron ground equipment, runway markings, and weather phenomena."
@@ -15111,13 +15111,13 @@
           badge: "Aviation Culture",
           title: "Professional Aviation Culture & Regulatory Frameworks",
           desc: "Explain commercial airline business models, air traffic management jurisdictions (Tower, Approach, En-Route), international safety regulations (ICAO Annex 19 Safety vs. Annex 17 Security), and air accident investigation methodologies (CVR/FDR, BEA, NTSB) with professional rigor.",
-          indicators: "Clear articulation of regulatory mandates, airline fleet economics, and safety management systems (SMS)."
+          indicators: "Clear explanation of regulatory requirements, airline fleet economics, and safety management systems (SMS)."
         },
         {
           num: "04",
           badge: "Technical Fluency",
           title: "Spoken Fluency & Technical Briefings",
-          desc: "Deliver structured technical briefings, exterior pre-flight walkaround defect reports, and incident analyses smoothly and concisely, using accurate cause-and-effect connectors and technical discourse markers.",
+          desc: "Deliver structured technical briefings, exterior pre-flight walkaround defect reports, and incident analyses smoothly and concisely, using accurate cause-and-effect connectors and technical linking words.",
           indicators: "Clear chronological sequencing, precise technical explanations, confident delivery without reading scripts."
         },
         {

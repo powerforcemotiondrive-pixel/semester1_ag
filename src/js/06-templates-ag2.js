@@ -57,7 +57,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">00-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Extreme Weather News & Meteorological Diagnostic (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Extreme Weather News & Meteorological Warm-Up (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || ''}</p>
                 </div>
               </div>
@@ -80,7 +80,7 @@
             <!-- Diagnostic Questions Grid -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Meteorological Concepts Diagnostic Spot-Check'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Meteorological Concepts Quick Check'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -125,7 +125,7 @@
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-emerald-50/60 border border-emerald-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-emerald-950 uppercase tracking-wide">Key Spoken Signposts &amp; Discourse Connectors:</span>
+                <span class="text-[11px] font-bold text-emerald-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-emerald-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-emerald-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -155,13 +155,13 @@
             </div>
           </div>
 
-          <!-- Activity 3: Language Clinic: Word Forms & Suffixes -->
+          <!-- Activity 3: Language Focus: Word Forms & Suffixes -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Clinic: Word Forms & Suffixes in Technical English (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Focus: Word Forms & Suffixes in Technical English (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -348,7 +348,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">00-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Sustainable Urbanism News & Diagnostic Warm-Up (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Sustainable Urbanism News & Opening Warm-Up (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || ''}</p>
                 </div>
               </div>
@@ -371,7 +371,7 @@
             <!-- Diagnostic Questions Grid -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Urban Planning Lexis Diagnostic Spot-Check'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Urban Planning Vocabulary Quick Check'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -416,7 +416,7 @@
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-emerald-50/60 border border-emerald-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-emerald-950 uppercase tracking-wide">Key Spoken Signposts &amp; Discourse Connectors:</span>
+                <span class="text-[11px] font-bold text-emerald-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-emerald-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-emerald-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -446,13 +446,13 @@
             </div>
           </div>
 
-          <!-- Activity 3: Language Clinic: Subject-Verb Agreement with Collective Nouns -->
+          <!-- Activity 3: Language Focus: Subject-Verb Agreement with Collective Nouns -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Clinic: Subject-Verb Agreement with Collective Nouns (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Focus: Subject-Verb Agreement with Collective Nouns (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -615,7 +615,7 @@
               <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-4 sm:p-5">
                 <span class="text-[11px] font-bold text-amber-300 uppercase tracking-wider">${ov.badge || 'Session Overview • Environmental Argumentation & Policy'}</span>
                 <h3 class="text-lg sm:text-2xl font-black text-white mt-0.5">${ov.title || 'Building & Defending Environmental Arguments'}</h3>
-                <p class="text-xs sm:text-sm text-slate-200 mt-1 line-clamp-2">${ov.subtitle || 'Toulmin Argumentation Framework, Discourse Markers, Polite Concession & Policy Debates'}</p>
+                <p class="text-xs sm:text-sm text-slate-200 mt-1 line-clamp-2">${ov.subtitle || 'Structuring Arguments, Linking Words, Polite Disagreement & Policy Debates'}</p>
               </div>
             </div>
             <div class="p-4 bg-slate-50 border-t border-slate-200 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-600">
@@ -639,7 +639,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">00-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Environmental Policy News & Argument Diagnostic (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Environmental Policy News & Argument Warm-Up (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || ''}</p>
                 </div>
               </div>
@@ -662,7 +662,7 @@
             <!-- Diagnostic Questions Grid -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Argumentation & Discourse Diagnostic Spot-Check'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Argumentation & Linking Words Quick Check'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -707,7 +707,7 @@
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-emerald-50/60 border border-emerald-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-emerald-950 uppercase tracking-wide">Key Spoken Signposts &amp; Discourse Connectors:</span>
+                <span class="text-[11px] font-bold text-emerald-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-emerald-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-emerald-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -737,13 +737,13 @@
             </div>
           </div>
 
-          <!-- Activity 3: Language Clinic: Gerunds vs. Infinitives & Concessive Signposts -->
+          <!-- Activity 3: Language Focus: Gerunds vs. Infinitives & Concessive Signposts -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Clinic: Gerunds vs. Infinitives & Concessive Signposts (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Focus: Gerunds vs. Infinitives & Concessive Signposts (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>
@@ -804,7 +804,7 @@
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">55-100m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${roleplay.title || 'Activity 4: Public Inquiry Hearing Simulation (45 mins)'}</h4>
-                  <p class="text-[11px] text-slate-500">Formal administrative inquiry and stakeholder cross-examination</p>
+                  <p class="text-[11px] text-slate-500">Formal administrative inquiry and stakeholder Q&amp;A</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Classroom Simulation</span>
@@ -930,7 +930,7 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">00-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Aerodrome Ecology News & Diagnostic Warm-Up (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Airport Ecology News & Opening Warm-Up (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || ''}</p>
                 </div>
               </div>
@@ -953,7 +953,7 @@
             <!-- Diagnostic Questions Grid -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Ecological & Aerodrome Lexis Diagnostic Spot-Check'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Ecological & Airport Vocabulary Quick Check'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -998,7 +998,7 @@
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-emerald-50/60 border border-emerald-200 rounded-xl space-y-1.5">
-                <span class="text-[11px] font-bold text-emerald-950 uppercase tracking-wide">Key Spoken Signposts &amp; Discourse Connectors:</span>
+                <span class="text-[11px] font-bold text-emerald-950 uppercase tracking-wide">Key Spoken Signposts &amp; Linking Words:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-emerald-900">
                   ${survey.signposts.map(sp => `<div class="p-2 bg-white rounded border border-emerald-200/80 italic font-medium">${sp}</div>`).join('')}
                 </div>
@@ -1028,13 +1028,13 @@
             </div>
           </div>
 
-          <!-- Activity 3: Language Clinic: Pronouns & Determiners in Technical English -->
+          <!-- Activity 3: Language Focus: Pronouns & Determiners in Technical English -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">35-55m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Clinic: Pronouns & Determiners in Technical English (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${grammar.title || 'Activity 3: Language Focus: Pronouns & Determiners in Technical English (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${grammar.summary || ''}</p>
                 </div>
               </div>

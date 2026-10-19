@@ -101,13 +101,13 @@
             </div>
           </div>
 
-          <!-- Activity 1: Aviation Health News & Diagnostic Spot-Check -->
+          <!-- Activity 1: Aviation Health News & Quick Check -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">00-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Aviation Health News &amp; Diagnostic Spot-Check (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Aviation Health News &amp; Quick Check (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || 'Analyze recent airborne medical incidents and evaluate entry knowledge of aeromedical regulations.'}</p>
                 </div>
               </div>
@@ -130,7 +130,7 @@
             <!-- Diagnostic Questions Grid -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Aeromedical Diagnostic: In-Flight Physiology & Emergency Protocols'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Aeromedical Quick Check: In-Flight Physiology & Emergency Protocols'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -138,7 +138,7 @@
                   <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5 flex flex-col justify-between">
                     <div>
                       <div class="flex items-center justify-between gap-2">
-                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Diagnostic Spot-Check 0${q.id}</span>
+                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Quick Check 0${q.id}</span>
                         <span class="w-2 h-2 rounded-full" style="background-color: ${theme.primary};"></span>
                       </div>
                       <p class="text-xs font-bold text-slate-800 mt-1">${q.q}</p>
@@ -157,17 +157,17 @@
             </div>
           </div>
 
-          <!-- Activity 2: In-Flight Medical Emergencies & Triage Lexis -->
+          <!-- Activity 2: In-Flight Medical Emergencies & Triage Vocabulary -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">10-30m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${medLexis.title || 'Activity 2: In-Flight Medical Emergencies &amp; Triage Lexis (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${medLexis.title || 'Activity 2: In-Flight Medical Emergencies &amp; Triage Vocabulary (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${medLexis.summary || 'Master essential medical terms, clinical symptoms, and cabin response procedures.'}</p>
                 </div>
               </div>
-              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Medical Lexis &amp; Triage</span>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Medical Vocabulary &amp; Triage</span>
             </div>
 
             ${renderActivityInstructions(medLexis, theme)}
@@ -260,13 +260,13 @@
             </div>
           </div>
 
-          <!-- Activity 4: Airborne Medical Diversion Simulation & Decision Matrix -->
+          <!-- Activity 4: Airborne Medical Diversion Simulation & Decision Guide -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">50-85m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${diversion.title || 'Activity 4: Airborne Medical Diversion Simulation &amp; Decision Matrix (35 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${diversion.title || 'Activity 4: Airborne Medical Diversion Simulation &amp; Decision Guide (35 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${diversion.summary || 'Simulate high-stakes airborne medical emergencies requiring real-time ATC and flight dispatch coordination.'}</p>
                 </div>
               </div>
@@ -361,7 +361,7 @@
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">110-120m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${closing.title || 'Activity 6: Medical &amp; Human Factors Consolidation &amp; Syllable Stress (10 mins)'}</h4>
-                  <p class="text-[11px] text-slate-500">${closing.summary || 'Master syllable stress patterns and synthesize aeromedical safety competencies.'}</p>
+                  <p class="text-[11px] text-slate-500">${closing.summary || 'Master syllable stress patterns and review aeromedical safety competencies.'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Closing Consolidation</span>
@@ -373,7 +373,7 @@
               <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
                 <div class="flex items-center gap-2 text-slate-800">
                   <svg width="15" height="15" class="text-indigo-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 100-6 3 3 0 000 6z"/></svg>
-                  <h5 class="text-xs sm:text-sm font-bold">Pronunciation Clinic: Aeromedical Syllable Stress</h5>
+                  <h5 class="text-xs sm:text-sm font-bold">Pronunciation Practice: Aeromedical Syllable Stress</h5>
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 text-xs pt-1">
                   ${pronunciationFocus.map(p => `
@@ -472,13 +472,13 @@
             </div>
           </div>
 
-          <!-- Activity 1: Aviation Weather Briefing & Meteorological Diagnostic -->
+          <!-- Activity 1: Aviation Weather Briefing & Meteorological Quick Check -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">00-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Aviation Weather Briefing &amp; Meteorological Diagnostic (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Aviation Weather Briefing &amp; Meteorological Quick Check (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || 'Analyze real-time meteorological advisories and test baseline aviation weather comprehension.'}</p>
                 </div>
               </div>
@@ -501,7 +501,7 @@
             <!-- Diagnostic Grid -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Meteorological Diagnostic: Atmospheric Physics & Barometric Altimetry'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Meteorological Quick Check: Atmospheric Physics & Barometric Altimetry'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -509,7 +509,7 @@
                   <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5 flex flex-col justify-between">
                     <div>
                       <div class="flex items-center justify-between gap-2">
-                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Weather Diagnostic 0${q.id}</span>
+                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Weather Quick Check 0${q.id}</span>
                         <span class="w-2 h-2 rounded-full" style="background-color: ${theme.primary};"></span>
                       </div>
                       <p class="text-xs font-bold text-slate-800 mt-1">${q.q}</p>
@@ -538,7 +538,7 @@
                   <p class="text-[11px] text-slate-500">${phenomenaAct.summary || 'Analyze severe hazards: windshear, microbursts, CAT, supercooled icing, and volcanic ash.'}</p>
                 </div>
               </div>
-              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Severe Hazards Lexis</span>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Severe Hazards Vocabulary</span>
             </div>
 
             ${renderActivityInstructions(phenomenaAct, theme)}
@@ -558,13 +558,13 @@
             </div>
           </div>
 
-          <!-- Activity 3: Language Clinic: Decoding METAR, TAF & SIGMET Advisories -->
+          <!-- Activity 3: Language Focus: Decoding METAR, TAF & SIGMET Advisories -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">30-50m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${briefingClinic.title || 'Activity 3: Language Clinic: Decoding METAR, TAF &amp; SIGMET Advisories (20 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${briefingClinic.title || 'Activity 3: Language Focus: Decoding METAR, TAF &amp; SIGMET Advisories (20 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${briefingClinic.summary || 'Deconstruct raw international meteorological telecommunication strings into fluent operational English.'}</p>
                 </div>
               </div>
@@ -641,7 +641,7 @@
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">65-110m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${simAct.title || 'Activity 5: Severe Weather En-Route &amp; Terminal Diversion Simulation (45 mins)'}</h4>
-                  <p class="text-[11px] text-slate-500">${simAct.summary || 'Execute an in-flight weather diversion decision matrix evaluating fuel reserves, alternates, and ATC limits.'}</p>
+                  <p class="text-[11px] text-slate-500">${simAct.summary || 'Execute an in-flight weather diversion decision guide evaluating fuel reserves, alternates, and ATC limits.'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Flight Dispatch &amp; Cockpit Simulation</span>
@@ -688,7 +688,7 @@
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">110-120m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${closing.title || 'Activity 6: Meteorology Consolidation &amp; Pronunciation Wrap-Up (10 mins)'}</h4>
-                  <p class="text-[11px] text-slate-500">${closing.summary || 'Master syllable stress in meteorological lexis and consolidate operational takeaways.'}</p>
+                  <p class="text-[11px] text-slate-500">${closing.summary || 'Master syllable stress in meteorological vocabulary and consolidate operational takeaways.'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Closing Consolidation</span>
@@ -700,7 +700,7 @@
               <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
                 <div class="flex items-center gap-2 text-slate-800">
                   <svg width="15" height="15" class="text-indigo-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 100-6 3 3 0 000 6z"/></svg>
-                  <h5 class="text-xs sm:text-sm font-bold">Pronunciation Clinic: Meteorological Syllable Stress</h5>
+                  <h5 class="text-xs sm:text-sm font-bold">Pronunciation Practice: Meteorological Syllable Stress</h5>
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 text-xs pt-1">
                   ${pronunciationFocus.map(p => `
@@ -798,13 +798,13 @@
             </div>
           </div>
 
-          <!-- Activity 1: Safety & Security News & Diagnostic Spot-Check -->
+          <!-- Activity 1: Safety & Security News & Quick Check -->
           <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-xs space-y-4">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3">
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">00-10m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Safety &amp; Security News &amp; Diagnostic Spot-Check (10 mins)'}</h4>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${opening.title || 'Activity 1: Safety &amp; Security News &amp; Quick Check (10 mins)'}</h4>
                   <p class="text-[11px] text-slate-500">${opening.summary || 'Analyze recent global airport security events and test legal understanding of ICAO annexes.'}</p>
                 </div>
               </div>
@@ -827,7 +827,7 @@
             <!-- Diagnostic Grid -->
             <div class="space-y-3 pt-1">
               <div class="flex items-center justify-between">
-                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Safety vs. Security Diagnostic: Legal & Regulatory Frameworks'}</h5>
+                <h5 class="text-xs sm:text-sm font-bold text-slate-800">${(opening.diagnostic && opening.diagnostic.title) || 'Safety vs. Security Quick Check: Legal & Regulatory Frameworks'}</h5>
                 <span class="text-[11px] text-slate-500">${(opening.diagnostic && opening.diagnostic.instructions) || ''}</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -835,7 +835,7 @@
                   <div class="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5 flex flex-col justify-between">
                     <div>
                       <div class="flex items-center justify-between gap-2">
-                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Regulatory Diagnostic 0${q.id}</span>
+                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-500">Regulatory Quick Check 0${q.id}</span>
                         <span class="w-2 h-2 rounded-full" style="background-color: ${theme.primary};"></span>
                       </div>
                       <p class="text-xs font-bold text-slate-800 mt-1">${q.q}</p>
@@ -864,7 +864,7 @@
                   <p class="text-[11px] text-slate-500">${safetyLexis.summary || 'Compare ICAO Annex 19 Safety Management and ICAO Annex 17 Security standards.'}</p>
                 </div>
               </div>
-              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Safety vs. Security Matrix</span>
+              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Safety vs. Security Comparison Table</span>
             </div>
 
             ${renderActivityInstructions(safetyLexis, theme)}
@@ -972,7 +972,7 @@
             <div class="p-4 bg-slate-900 text-white rounded-xl space-y-3 text-xs">
               <div class="flex items-center justify-between border-b border-slate-800 pb-2">
                 <span class="font-black text-red-400 uppercase tracking-wider text-xs">Simultaneous Dual Emergency Scenario</span>
-                <span class="text-[10px] text-slate-400">Tactical Command Matrix</span>
+                <span class="text-[10px] text-slate-400">Tactical Command Guide</span>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-1">
                 <div class="p-3 bg-red-950/50 border border-red-800 rounded-lg space-y-1">
@@ -998,7 +998,7 @@
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">110-120m</span>
                 <div>
                   <h4 class="text-sm sm:text-base font-black text-slate-900">${closing.title || 'Activity 6: Safety vs. Security Wrap-Up &amp; FE3 Preview (10 mins)'}</h4>
-                  <p class="text-[11px] text-slate-500">${closing.summary || 'Synthesize essential distinctions and review preparation milestones for Formative Evaluation 3.'}</p>
+                  <p class="text-[11px] text-slate-500">${closing.summary || 'Review essential distinctions and review preparation milestones for Formative Evaluation 3.'}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Closing Consolidation</span>
@@ -1010,7 +1010,7 @@
               <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
                 <div class="flex items-center gap-2 text-slate-800">
                   <svg width="15" height="15" class="text-indigo-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 100-6 3 3 0 000 6z"/></svg>
-                  <h5 class="text-xs sm:text-sm font-bold">Pronunciation Clinic: Safety vs. Security Lexis</h5>
+                  <h5 class="text-xs sm:text-sm font-bold">Pronunciation Practice: Safety vs. Security Vocabulary</h5>
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 text-xs pt-1">
                   ${pronunciationFocus.map(p => `
