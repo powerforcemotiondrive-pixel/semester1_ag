@@ -221,6 +221,13 @@
           isAdmin: true,
           adminUrl: "admin.html",
           imageUrl: images.admin
+        },
+        {
+          tag: isAas ? "Aeronautical English • Course Syllabus" : "General English • Course Syllabus",
+          title: "Semester Objectives",
+          description: "Here you can find the complete objectives for the full semester 1.<br><br><em>Subject overview:</em> Comprehensive pedagogical roadmap, learning outcomes, and assessment benchmarks for GSEA Semester 1.<br><br>Consult the full bilingual syllabus (English & French) covering continuous assessment, professional development, technical communication, and evaluation criteria.",
+          isObjectives: true,
+          imageUrl: "images/semester_objectives.png"
         }
       ];
 

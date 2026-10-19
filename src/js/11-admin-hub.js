@@ -1096,3 +1096,305 @@
       `;
     }
 
+    function renderSemesterObjectivesTab(lang, theme) {
+      const bodyEl = document.getElementById('modal-body');
+      if (!bodyEl) return;
+      const isAas = (modalState.program === 'aas' || currentProgram === 'aas');
+      const isFr = (lang === 'fr');
+
+      const agObjectivesEn = [
+        {
+          num: "01",
+          badge: "Continuous Assessment",
+          title: "Continuous Assessment & Autonomous Learning",
+          desc: "Actively participate in weekly communicative tasks, role-plays, and self-evaluation logs in the Formative Learning Portfolio. Students will use ongoing formative feedback from teachers and peers to identify personal areas for growth and track their linguistic progression across Semester 1.",
+          indicators: "Weekly speaking participation, peer-review collaboration, structured portfolio reflection entries."
+        },
+        {
+          num: "02",
+          badge: "Professional Development",
+          title: "Professional Development & Public Speaking",
+          desc: "Deliver well-structured, convincing oral presentations on contemporary society and mobility themes (such as sustainable tourism itineraries, sponge city engineering, or AI ethical audits). Students will use professional signposting, visual commentary, and an appropriate formal workplace register.",
+          indicators: "Slide design with bullet cue points, formal transition phrases, confident audience engagement."
+        },
+        {
+          num: "03",
+          badge: "Lexical Range",
+          title: "Vocabulary Acquisition & Lexical Precision",
+          desc: "Accurately recognize, pronounce, and employ an extensive range of B2 general, technical, and academic vocabulary related to transport evolution, sustainable mobility, urban climate resilience, tech ethics, and responsible innovation (DDRS).",
+          indicators: "Active use of module vocabulary lists, word-family derivations, accurate collocations in discussion."
+        },
+        {
+          num: "04",
+          badge: "Spoken Fluency",
+          title: "Spoken Fluency & Spontaneous Argumentation",
+          desc: "Express viewpoints, construct balanced arguments, and defend positions smoothly and spontaneously during group discussions and debates, without noticeable strain or prolonged searching for expressions.",
+          indicators: "Smooth turn-taking in debates, effective use of concession ('While it is true that...'), natural pacing."
+        },
+        {
+          num: "05",
+          badge: "Confidence",
+          title: "Communicative Confidence & Autonomy",
+          desc: "Interact with increased self-assurance in both routine and unfamiliar professional situations. Students will develop the confidence to initiate conversations, ask clarifying questions, justify decisions, and resolve communication breakdowns independently.",
+          indicators: "Proactive contributions in class, resilient handling of impromptu questions, communicative poise."
+        },
+        {
+          num: "06",
+          badge: "TOEIC Strategy",
+          title: "TOEIC Test Strategy & Performance Progression",
+          desc: "Master essential test-taking strategies for the TOEIC Listening and Reading test, analyzing workplace dialogues, graphical data, and business documents under timed conditions to reach and exceed the target score progression toward the graduation benchmark.",
+          indicators: "Skimming and scanning business texts, predicting listening answers, error elimination techniques."
+        },
+        {
+          num: "07",
+          badge: "Grammar & Accuracy",
+          title: "Grammatical Accuracy & Structural Control",
+          desc: "Apply key grammatical structures (modals of deduction, passive voice in technical descriptions, conditionals, relative clauses, and cohesive linkers) with sufficient control to communicate complex ideas clearly with minimal interference.",
+          indicators: "Self-correction of verb tenses, accurate prepositional use, appropriate hedging in professional claims."
+        }
+      ];
+
+      const agObjectivesFr = [
+        {
+          num: "01",
+          badge: "Contrôle Continu",
+          title: "Contrôle continu et apprentissage autonome",
+          desc: "Participer activement aux activités de communication hebdomadaires, aux mises en situation et au suivi réflexif du portfolio d'apprentissage. Exploiter les retours formatifs des enseignants et des pairs pour identifier ses axes d'amélioration et mesurer sa progression tout au long du semestre 1.",
+          indicators: "Participation orale active, collaboration entre pairs, tenue rigoureuse du portfolio formatif."
+        },
+        {
+          num: "02",
+          badge: "Développement Professionnel",
+          title: "Développement professionnel et prise de parole en public",
+          desc: "Concevoir et présenter des exposés oraux structurés et convaincants sur des thématiques professionnelles et sociétales (itinéraires éco-responsables, résilience climatique, audit éthique de l'IA), en mobilisant les techniques de présentation et un registre d'anglais professionnel adapté.",
+          indicators: "Diaporamas synthétiques, connecteurs de discours formels, contact visuel et aisance scénique."
+        },
+        {
+          num: "03",
+          badge: "Enrichissement Lexical",
+          title: "Acquisition lexicale et précision terminologique",
+          desc: "Comprendre et réutiliser avec précision un vaste répertoire lexical de niveau B2 (général, technique et académique) couvrant l'évolution des transports, la mobilité durable, la transition écologique, l'éthique technologique et la démarche DD&RS.",
+          indicators: "Réutilisation active du lexique de cours, dérivations lexicales, collocations professionnelles exactes."
+        },
+        {
+          num: "04",
+          badge: "Aisance Orale",
+          title: "Aisance orale et argumentation spontanée",
+          desc: "Exprimer des opinions nuancées, structurer une argumentation équilibrée et défendre une position avec fluidité et spontanéité lors d'échanges de groupe ou de débats, sans recherche marquée de vocabulaire ni hésitation prolongée.",
+          indicators: "Prise de parole spontanée, gestion des concessions ('While it is true that...'), débit régulier."
+        },
+        {
+          num: "05",
+          badge: "Confiance & Autonomie",
+          title: "Confiance en communication et autonomie",
+          desc: "Interagir avec assurance dans des situations professionnelles courantes ou imprévues. Développer la confiance nécessaire pour initier un dialogue, demander des éclaircissements, justifier un choix et surmonter les blocages linguistiques avec autonomie.",
+          indicators: "Initiative dans les prises de parole, réactivité face aux questions imprévues, aisance relationnelle."
+        },
+        {
+          num: "06",
+          badge: "Préparation TOEIC",
+          title: "Méthodologie TOEIC et progression ciblée",
+          desc: "Maîtriser les méthodologies et stratégies spécifiques des épreuves de compréhension orale et écrite du TOEIC (Listening & Reading), en traitant des documents professionnels en temps limité afin d'atteindre et dépasser les objectifs de score requis pour le diplôme.",
+          indicators: "Lecture rapide (skimming/scanning), anticipation auditive, élimination des distracteurs."
+        },
+        {
+          num: "07",
+          badge: "Précision Grammaticale",
+          title: "Précision grammaticale et maîtrise structurale",
+          desc: "Mobiliser les structures grammaticales clés (modaux de déduction, voix passive technique, conditionnels, propositions relatives, marqueurs de cohérence) avec un degré de maîtrise suffisant pour exprimer des concepts complexes avec clarté.",
+          indicators: "Autocorrection des temps verbaux, usage précis des prépositions, formulation prudente (hedging)."
+        }
+      ];
+
+      const aasObjectivesEn = [
+        {
+          num: "01",
+          badge: "Aeronautical Lexicon",
+          title: "Aeronautical Technical Terminology",
+          desc: "Accurately recognize, define, and employ standardized aviation vocabulary across aerodromes, runway designators, ground handling turnaround workflows, airframe anatomy, flight control axes, aerodynamics, meteorology, and safety/security systems.",
+          indicators: "Precise naming of aircraft components, apron ground equipment, runway markings, and weather phenomena."
+        },
+        {
+          num: "02",
+          badge: "Operational Clarity",
+          title: "Operational Radiotelephony vs. Plain English",
+          desc: "Transition effectively between standard ICAO radiotelephony phraseology and clear plain English during abnormal operations, in-flight passenger medical events, technical anomalies, bird strikes, and severe weather diversions, avoiding ambiguous phrasing.",
+          indicators: "Standard readbacks/hearbacks, concise situational descriptions, clear distress/urgency transmissions."
+        },
+        {
+          num: "03",
+          badge: "Continuous Assessment",
+          title: "Continuous Assessment & Formative Evaluations",
+          desc: "Demonstrate steady linguistic and technical progression through weekly operational case study analyses and three 30-minute oral formative evaluations (FE1 Airports, FE2 Aircraft/Airlines, FE3 Aviation Current Events Press Briefings).",
+          indicators: "Collaborative pair presentations, adherence to evaluation rubrics, active engagement in Q&A rounds."
+        },
+        {
+          num: "04",
+          badge: "Aviation Culture",
+          title: "Professional Aviation Culture & Regulatory Frameworks",
+          desc: "Explain commercial airline business models, air traffic management jurisdictions (Tower, Approach, En-Route), international safety regulations (ICAO Annex 19 Safety vs. Annex 17 Security), and air accident investigation methodologies (CVR/FDR, BEA, NTSB) with professional rigor.",
+          indicators: "Clear articulation of regulatory mandates, airline fleet economics, and safety management systems (SMS)."
+        },
+        {
+          num: "05",
+          badge: "Technical Fluency",
+          title: "Spoken Fluency & Technical Briefings",
+          desc: "Deliver structured technical briefings, exterior pre-flight walkaround defect reports, and incident analyses smoothly and concisely, using accurate cause-and-effect connectors and technical discourse markers.",
+          indicators: "Clear chronological sequencing, precise technical explanations, confident delivery without reading scripts."
+        },
+        {
+          num: "06",
+          badge: "Crisis Communication",
+          title: "Communicative Confidence & Crisis Communication",
+          desc: "Manage simulated high-pressure communication scenarios with composure, delivering clear pilot-controller handoffs, emergency diversion requests, and simulated airline spokesperson press briefings following major operational disruptions.",
+          indicators: "Calm tone under pressure, factual communication without unverified speculation, structured holding statements."
+        },
+        {
+          num: "07",
+          badge: "ICAO Standards",
+          title: "ICAO Language Proficiency Dimensions (Level 4/5)",
+          desc: "Consolidate communicative competencies directly aligned with the six ICAO rating dimensions: Pronunciation (readily intelligible), Structure (controlled basic and complex patterns), Vocabulary (varied and idiomatic), Fluency (natural tempo), Comprehension (accurate across all topics), and Interactions (immediate and appropriate responses).",
+          indicators: "Operational intelligibility, prompt resolution of ambiguities, compliance with ICAO Doc 9835 criteria."
+        }
+      ];
+
+      const aasObjectivesFr = [
+        {
+          num: "01",
+          badge: "Lexique Aéronautique",
+          title: "Terminologie technique aéronautique",
+          desc: "Comprendre, définir et réutiliser avec rigueur le vocabulaire aéronautique standard relatif aux aérodromes, aux pistes, à l'assistance en escale, aux systèmes cellule, aux gouvernes de vol, à l'aérodynamique, à la météo et aux dispositifs de sécurité et de sûreté.",
+          indicators: "Désignation exacte des éléments d'aéronef, des équipements de piste, du balisage et des aléas météo."
+        },
+        {
+          num: "02",
+          badge: "Clarté Opérationnelle",
+          title: "Phraséologie OACI et anglais courant (Plain English)",
+          desc: "Articuler efficacement la phraséologie radiotéléphonique OACI standard et l'anglais courant en situation d'exploitation dégradée, d'urgence médicale à bord, d'avarie technique, de collision aviaire ou de déroutement météorologique, en proscrivant toute ambiguïté.",
+          indicators: "Collationnements rigoureux, synthèses de situation concises, transmissions d'urgence et de détresse claires."
+        },
+        {
+          num: "03",
+          badge: "Contrôle Continu",
+          title: "Contrôle continu et évaluations formatives",
+          desc: "Valider une progression linguistique et technique régulière grâce aux études de cas hebdomadaires et à trois évaluations formatives orales de 30 minutes (EF1 Aéroports, EF2 Aéronefs/Compagnies, EF3 Conférence de presse d'actualité aéronautique).",
+          indicators: "Présentations orales en binôme, respect des critères d'évaluation, participation active aux phases de questions."
+        },
+        {
+          num: "04",
+          badge: "Culture Aéronautique",
+          title: "Culture aéronautique et cadre réglementaire international",
+          desc: "Présenter avec clarté les modèles économiques des compagnies aériennes, les compétences des services de la circulation aérienne (Tour, Approche, En-Route), les conventions internationales (Annexe 19 Sécurité vs Annexe 17 Sûreté) et les méthodes d'enquête accident (BEA, NTSB).",
+          indicators: "Explication des obligations réglementaires, de l'économie de flotte et du Système de Gestion de la Sécurité (SGS)."
+        },
+        {
+          num: "05",
+          badge: "Fluidité Technique",
+          title: "Aisance orale et synthèses techniques",
+          desc: "Concevoir et présenter des exposés techniques, des signalements d'anomalies lors de la visite pré-vol et des retours d'expérience avec fluidité et concision, en maîtrisant les relations logiques de cause à effet et les connecteurs techniques.",
+          indicators: "Chronologie claire des événements, explications techniques précises, restitution orale sans lecture de notes."
+        },
+        {
+          num: "06",
+          badge: "Gestion de Crise",
+          title: "Confiance opérationnelle et communication de crise",
+          desc: "Réagir avec calme et professionnalisme lors de simulations d'incidents sous pression, de transferts de contrôle, de demandes de déroutement prioritaire et de conférences de presse simulées en tant que porte-parole d'une compagnie ou d'un aéroport.",
+          indicators: "Maîtrise de soi sous stress, communication factuelle sans spéculation, formulation d'une déclaration d'attente (holding statement)."
+        },
+        {
+          num: "07",
+          badge: "Standards OACI",
+          title: "Critères de compétence linguistique OACI (Niveau 4/5)",
+          desc: "Développer et consolider les compétences linguistiques opérationnelles selon les six critères de l'OACI : Prononciation (parfaitement intelligible), Structure (maîtrise des formes simples et complexes), Vocabulaire (étendu et approprié), Aisance (débit naturel), Compréhension (précise sur tous les sujets) et Interactions (réponses immédiates et pertinentes).",
+          indicators: "Intelligibilité internationale, clarification immédiate des doutes, conformité aux exigences du Doc 9835 OACI."
+        }
+      ];
+
+      const objectives = isAas 
+        ? (isFr ? aasObjectivesFr : aasObjectivesEn)
+        : (isFr ? agObjectivesFr : agObjectivesEn);
+
+      const leadSentence = isFr 
+        ? "À la fin du semestre 1, les étudiants seront capables de :"
+        : "By the end of Semester 1, students will be able to:";
+
+      const courseCode = isAas ? "LV121E • Aeronautical English" : "LV101E • General English";
+      const targetBenchmark = isAas 
+        ? (isFr ? "Niveau B2 CECRL • Standard Opérationnel OACI Niveau 4/5" : "CEFR B2 Level • ICAO Operational Level 4/5 Benchmark")
+        : (isFr ? "Niveau B2 CECRL • Utilisateur Indépendant Opérationnel" : "CEFR B2 Level • Independent Operational Proficiency");
+
+      const switchBtnEn = `<button type="button" onclick="switchModalTab('sem_obj_en')" class="px-3 py-1 rounded-md text-xs font-bold transition-all cursor-pointer ${!isFr ? 'bg-white shadow-xs text-slate-900 border border-slate-300' : 'text-slate-500 hover:text-slate-800'}">🇬🇧 English</button>`;
+      const switchBtnFr = `<button type="button" onclick="switchModalTab('sem_obj_fr')" class="px-3 py-1 rounded-md text-xs font-bold transition-all cursor-pointer ${isFr ? 'bg-white shadow-xs text-slate-900 border border-slate-300' : 'text-slate-500 hover:text-slate-800'}">🇫🇷 Français</button>`;
+
+      bodyEl.innerHTML = `
+        <div class="space-y-5">
+          <!-- Top Course Header & Language Switcher Banner -->
+          <div class="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/90 shadow-xs flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl flex items-center justify-center shrink-0 text-white shadow-xs" style="background-color: ${theme.primary};">
+                <span class="text-xl">🎯</span>
+              </div>
+              <div>
+                <div class="flex items-center gap-2">
+                  <span class="px-2 py-0.5 rounded text-[10px] font-mono font-bold uppercase tracking-wider text-white shadow-2xs" style="background-color: ${theme.accent};">${isAas ? 'AAS' : 'AG'}</span>
+                  <h3 class="text-sm sm:text-base font-extrabold text-slate-900">${courseCode}</h3>
+                </div>
+                <p class="text-xs text-slate-500 mt-0.5">${targetBenchmark}</p>
+              </div>
+            </div>
+
+            <!-- In-Drawer Quick Language Toggle -->
+            <div class="inline-flex items-center bg-slate-100 p-1 rounded-lg border border-slate-200 shadow-inner self-stretch sm:self-auto justify-center">
+              ${switchBtnEn}
+              ${switchBtnFr}
+            </div>
+          </div>
+
+          <!-- Lead Statement Box -->
+          <div class="p-4 rounded-xl border border-blue-200/80 bg-blue-50/70 shadow-2xs flex items-start gap-3">
+            <span class="text-xl shrink-0 mt-0.5">📌</span>
+            <div>
+              <h4 class="text-xs sm:text-sm font-extrabold text-blue-950">${leadSentence}</h4>
+              <p class="text-[11.5px] sm:text-xs text-blue-900/90 leading-relaxed mt-1">
+                ${isFr 
+                  ? "Ces objectifs constituent le socle de compétences évalué en contrôle continu (50%) et lors des évaluations formatives (50%). Ils sont conçus pour garantir une compréhension transparente tant par les étudiants que par l'équipe pédagogique."
+                  : "These core competencies define the learning trajectory evaluated through continuous assessment (50%) and formative evaluations (50%). They ensure complete transparent alignment between students, tutors, and external benchmarks."}
+              </p>
+            </div>
+          </div>
+
+          <!-- Structured Objectives Cards Grid -->
+          <div class="space-y-3">
+            ${objectives.map(item => `
+              <div class="p-4 rounded-xl bg-white border border-slate-200/90 shadow-xs hover:border-slate-300 transition-all flex flex-col gap-2">
+                <div class="flex items-start justify-between gap-3">
+                  <div class="flex items-center gap-2.5 min-w-0">
+                    <span class="w-6 h-6 rounded-md flex items-center justify-center font-mono font-bold text-[11px] text-white shrink-0 shadow-2xs" style="background-color: ${theme.primary};">${item.num}</span>
+                    <h4 class="text-xs sm:text-sm font-bold text-slate-900 truncate">${item.title}</h4>
+                  </div>
+                  <span class="px-2 py-0.5 rounded text-[10px] font-mono font-bold uppercase tracking-wider text-slate-700 bg-slate-100 border border-slate-200 shrink-0">${item.badge}</span>
+                </div>
+                
+                <p class="text-xs sm:text-[12.5px] text-slate-700 leading-relaxed font-normal pl-8.5">${item.desc}</p>
+                
+                <div class="ml-8.5 mt-1 px-3 py-2 rounded-lg bg-slate-50 border border-slate-200/70 flex items-start gap-2 text-[11px] text-slate-600">
+                  <span class="font-mono font-bold uppercase text-[9.5px] px-1 py-0.5 rounded bg-slate-200 text-slate-700 shrink-0 mt-0.5">${isFr ? 'Indicateurs' : 'Evidence'}</span>
+                  <span class="leading-relaxed">${item.indicators}</span>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+
+          <!-- Continuous Assessment & Evaluation Framework Callout -->
+          <div class="p-4 rounded-xl bg-slate-100 border border-slate-300/80 shadow-2xs flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs text-slate-600">
+            <div class="space-y-1">
+              <strong class="text-slate-900 block font-bold">${isFr ? 'Structure d\'Évaluation & Pondération' : 'Evaluation Weighting & Grade Architecture'}</strong>
+              <p class="text-[11px] text-slate-500">${isFr ? 'Contrôle Continu (50%) : Participation, portfolio formatif, implication hebdomadaire • Évaluations Formatives (50%) : EF1, EF2, EF3.' : 'Continuous Assessment (50%): Weekly oral tasks, formative portfolio, active engagement • Formative Evaluations (50%): FE1, FE2, FE3 oral rotas.'}</p>
+            </div>
+            <span class="font-mono text-[10px] font-bold px-2.5 py-1 rounded-md bg-white border border-slate-300 text-slate-700 shrink-0">B2 Benchmark</span>
+          </div>
+        </div>
+      `;
+    }
+
+
