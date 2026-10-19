@@ -1216,41 +1216,34 @@
         },
         {
           num: "02",
-          badge: "Operational Clarity",
-          title: "Operational Radiotelephony vs. Plain English",
-          desc: "Transition effectively between standard ICAO radiotelephony phraseology and clear plain English during abnormal operations, in-flight passenger medical events, technical anomalies, bird strikes, and severe weather diversions, avoiding ambiguous phrasing.",
-          indicators: "Standard readbacks/hearbacks, concise situational descriptions, clear distress/urgency transmissions."
-        },
-        {
-          num: "03",
           badge: "Continuous Assessment",
           title: "Continuous Assessment & Formative Evaluations",
           desc: "Demonstrate steady linguistic and technical progression through weekly operational case study analyses and three 30-minute oral formative evaluations (FE1 Airports, FE2 Aircraft/Airlines, FE3 Aviation Current Events Press Briefings).",
           indicators: "Collaborative pair presentations, adherence to evaluation rubrics, active engagement in Q&A rounds."
         },
         {
-          num: "04",
+          num: "03",
           badge: "Aviation Culture",
           title: "Professional Aviation Culture & Regulatory Frameworks",
           desc: "Explain commercial airline business models, air traffic management jurisdictions (Tower, Approach, En-Route), international safety regulations (ICAO Annex 19 Safety vs. Annex 17 Security), and air accident investigation methodologies (CVR/FDR, BEA, NTSB) with professional rigor.",
           indicators: "Clear articulation of regulatory mandates, airline fleet economics, and safety management systems (SMS)."
         },
         {
-          num: "05",
+          num: "04",
           badge: "Technical Fluency",
           title: "Spoken Fluency & Technical Briefings",
           desc: "Deliver structured technical briefings, exterior pre-flight walkaround defect reports, and incident analyses smoothly and concisely, using accurate cause-and-effect connectors and technical discourse markers.",
           indicators: "Clear chronological sequencing, precise technical explanations, confident delivery without reading scripts."
         },
         {
-          num: "06",
+          num: "05",
           badge: "Crisis Communication",
           title: "Communicative Confidence & Crisis Communication",
           desc: "Manage simulated high-pressure communication scenarios with composure, delivering clear pilot-controller handoffs, emergency diversion requests, and simulated airline spokesperson press briefings following major operational disruptions.",
           indicators: "Calm tone under pressure, factual communication without unverified speculation, structured holding statements."
         },
         {
-          num: "07",
+          num: "06",
           badge: "ICAO Standards",
           title: "ICAO Language Proficiency Dimensions (Level 4/5)",
           desc: "Consolidate communicative competencies directly aligned with the six ICAO rating dimensions: Pronunciation (readily intelligible), Structure (controlled basic and complex patterns), Vocabulary (varied and idiomatic), Fluency (natural tempo), Comprehension (accurate across all topics), and Interactions (immediate and appropriate responses).",
@@ -1268,41 +1261,34 @@
         },
         {
           num: "02",
-          badge: "Clarté Opérationnelle",
-          title: "Phraséologie OACI et anglais courant (Plain English)",
-          desc: "Articuler efficacement la phraséologie radiotéléphonique OACI standard et l'anglais courant en situation d'exploitation dégradée, d'urgence médicale à bord, d'avarie technique, de collision aviaire ou de déroutement météorologique, en proscrivant toute ambiguïté.",
-          indicators: "Collationnements rigoureux, synthèses de situation concises, transmissions d'urgence et de détresse claires."
-        },
-        {
-          num: "03",
           badge: "Contrôle Continu",
           title: "Contrôle continu et évaluations formatives",
           desc: "Valider une progression linguistique et technique régulière grâce aux études de cas hebdomadaires et à trois évaluations formatives orales de 30 minutes (EF1 Aéroports, EF2 Aéronefs/Compagnies, EF3 Conférence de presse d'actualité aéronautique).",
           indicators: "Présentations orales en binôme, respect des critères d'évaluation, participation active aux phases de questions."
         },
         {
-          num: "04",
+          num: "03",
           badge: "Culture Aéronautique",
           title: "Culture aéronautique et cadre réglementaire international",
           desc: "Présenter avec clarté les modèles économiques des compagnies aériennes, les compétences des services de la circulation aérienne (Tour, Approche, En-Route), les conventions internationales (Annexe 19 Sécurité vs Annexe 17 Sûreté) et les méthodes d'enquête accident (BEA, NTSB).",
           indicators: "Explication des obligations réglementaires, de l'économie de flotte et du Système de Gestion de la Sécurité (SGS)."
         },
         {
-          num: "05",
+          num: "04",
           badge: "Fluidité Technique",
           title: "Aisance orale et synthèses techniques",
           desc: "Concevoir et présenter des exposés techniques, des signalements d'anomalies lors de la visite pré-vol et des retours d'expérience avec fluidité et concision, en maîtrisant les relations logiques de cause à effet et les connecteurs techniques.",
           indicators: "Chronologie claire des événements, explications techniques précises, restitution orale sans lecture de notes."
         },
         {
-          num: "06",
+          num: "05",
           badge: "Gestion de Crise",
           title: "Confiance opérationnelle et communication de crise",
           desc: "Réagir avec calme et professionnalisme lors de simulations d'incidents sous pression, de transferts de contrôle, de demandes de déroutement prioritaire et de conférences de presse simulées en tant que porte-parole d'une compagnie ou d'un aéroport.",
           indicators: "Maîtrise de soi sous stress, communication factuelle sans spéculation, formulation d'une déclaration d'attente (holding statement)."
         },
         {
-          num: "07",
+          num: "06",
           badge: "Standards OACI",
           title: "Critères de compétence linguistique OACI (Niveau 4/5)",
           desc: "Développer et consolider les compétences linguistiques opérationnelles selon les six critères de l'OACI : Prononciation (parfaitement intelligible), Structure (maîtrise des formes simples et complexes), Vocabulaire (étendu et approprié), Aisance (débit naturel), Compréhension (précise sur tous les sujets) et Interactions (réponses immédiates et pertinentes).",
