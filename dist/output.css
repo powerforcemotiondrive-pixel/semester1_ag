@@ -1054,6 +1054,12 @@
       border-color: color-mix(in oklab, var(--color-amber-300) 30%, transparent);
     }
   }
+  .border-amber-300\/80 {
+    border-color: color-mix(in srgb, oklch(87.9% 0.169 91.605) 80%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-amber-300) 80%, transparent);
+    }
+  }
   .border-amber-400 {
     border-color: var(--color-amber-400);
   }
@@ -1469,6 +1475,12 @@
     background-color: color-mix(in srgb, oklch(92.4% 0.12 95.746) 70%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
       background-color: color-mix(in oklab, var(--color-amber-200) 70%, transparent);
+    }
+  }
+  .bg-amber-200\/80 {
+    background-color: color-mix(in srgb, oklch(92.4% 0.12 95.746) 80%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-amber-200) 80%, transparent);
     }
   }
   .bg-amber-200\/90 {
@@ -1901,6 +1913,12 @@
     background-color: color-mix(in srgb, oklch(96.8% 0.007 247.896) 60%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
       background-color: color-mix(in oklab, var(--color-slate-100) 60%, transparent);
+    }
+  }
+  .bg-slate-100\/75 {
+    background-color: color-mix(in srgb, oklch(96.8% 0.007 247.896) 75%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-slate-100) 75%, transparent);
     }
   }
   .bg-slate-100\/80 {
@@ -2990,6 +3008,9 @@
     .group-hover\:text-\[\#d97706\]:is(:where(.group):hover *) {
       color: #d97706;
     }
+    .group-hover\:text-amber-900:is(:where(.group):hover *) {
+      color: var(--color-amber-900);
+    }
     .group-hover\:text-slate-600:is(:where(.group):hover *) {
       color: var(--color-slate-600);
     }
@@ -3037,6 +3058,14 @@
     }
     .hover\:border-amber-300:hover {
       border-color: var(--color-amber-300);
+    }
+    .hover\:border-amber-300\/90:hover {
+      border-color: color-mix(in srgb, oklch(87.9% 0.169 91.605) 90%, transparent);
+    }
+    @supports (color: color-mix(in lab, red, red)) {
+      .hover\:border-amber-300\/90:hover {
+        border-color: color-mix(in oklab, var(--color-amber-300) 90%, transparent);
+      }
     }
     .hover\:border-blue-300:hover {
       border-color: var(--color-blue-300);
@@ -3086,6 +3115,9 @@
     }
     .hover\:bg-\[\#c2410c\]:hover {
       background-color: #c2410c;
+    }
+    .hover\:bg-amber-50:hover {
+      background-color: var(--color-amber-50);
     }
     .hover\:bg-black\/35:hover {
       background-color: color-mix(in srgb, #000 35%, transparent);
