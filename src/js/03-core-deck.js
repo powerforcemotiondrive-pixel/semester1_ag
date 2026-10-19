@@ -624,7 +624,7 @@
           item.style.borderLeft = '';
           if (idx <= 3) {
             // Sessions 01 to 04: Core Teaching Units (Clean White / Slate Border)
-            item.className = "flight-strip-card group w-full text-left px-2.5 py-2 rounded-lg text-xs font-semibold transition-all flex items-center justify-between border border-slate-200/90 bg-white hover:bg-slate-50 hover:border-slate-300 text-slate-800 hover:text-slate-900 hover:shadow-2xs cursor-pointer";
+            item.className = "flight-strip-card group w-full text-left px-2.5 py-2 rounded-lg text-xs font-semibold transition-all flex items-center justify-between border border-slate-200/90 bg-white hover:bg-slate-50 hover:border-slate-300 text-slate-800 hover:text-slate-900 hover:shadow-2xs hover:translate-x-[3px] cursor-pointer";
             item.style.backgroundColor = '#ffffff';
             item.style.borderColor = '#e2e8f0';
             if (title) {
@@ -643,7 +643,7 @@
             }
           } else if (idx === 4) {
             // Session 05: Evaluation Milestone (Warm Amber Highlight)
-            item.className = "flight-strip-card group w-full text-left px-2.5 py-2 rounded-lg text-xs font-semibold transition-all flex items-center justify-between border border-amber-200/80 bg-amber-50/70 hover:bg-amber-50 hover:border-amber-300/90 text-amber-950 hover:shadow-2xs cursor-pointer";
+            item.className = "flight-strip-card group w-full text-left px-2.5 py-2 rounded-lg text-xs font-semibold transition-all flex items-center justify-between border border-amber-200/80 bg-amber-50/70 hover:bg-amber-50 hover:border-amber-300/90 text-amber-950 hover:shadow-2xs hover:translate-x-[3px] cursor-pointer";
             item.style.backgroundColor = '#fffbeb';
             item.style.borderColor = '#fde68a';
             if (title) {
@@ -660,7 +660,7 @@
             }
           } else {
             // Cards 06 to 08/09: Administrative & Reference Frameworks (Muted Cool Slate)
-            item.className = "flight-strip-card group w-full text-left px-2.5 py-2 rounded-lg text-xs font-semibold transition-all flex items-center justify-between border border-slate-200/70 bg-slate-100/75 hover:bg-slate-100 hover:border-slate-300 text-slate-600 hover:text-slate-900 hover:shadow-2xs cursor-pointer";
+            item.className = "flight-strip-card group w-full text-left px-2.5 py-2 rounded-lg text-xs font-semibold transition-all flex items-center justify-between border border-slate-200/70 bg-slate-100/75 hover:bg-slate-100 hover:border-slate-300 text-slate-600 hover:text-slate-900 hover:shadow-2xs hover:translate-x-[3px] cursor-pointer";
             item.style.backgroundColor = '#f1f5f9';
             item.style.borderColor = '#e2e8f0';
             if (title) {

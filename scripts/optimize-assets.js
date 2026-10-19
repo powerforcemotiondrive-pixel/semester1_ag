@@ -183,3 +183,4 @@ fs.writeFileSync(packScriptPath, packScript, 'utf8');
 console.log('  ✓ scripts/package-scorm.js updated.');
 
 console.log('\n✨ Asset optimization script completed successfully!');
+

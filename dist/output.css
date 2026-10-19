@@ -927,6 +927,9 @@
   .overflow-x-auto {
     overflow-x: auto;
   }
+  .overflow-x-hidden {
+    overflow-x: hidden;
+  }
   .overflow-y-auto {
     overflow-y: auto;
   }
@@ -3046,6 +3049,10 @@
     color: var(--color-emerald-900);
   }
   @media (hover: hover) {
+    .hover\:translate-x-\[3px\]:hover {
+      --tw-translate-x: 3px;
+      translate: var(--tw-translate-x) var(--tw-translate-y);
+    }
     .hover\:-translate-y-\[1px\]:hover {
       --tw-translate-y: calc(1px * -1);
       translate: var(--tw-translate-x) var(--tw-translate-y);

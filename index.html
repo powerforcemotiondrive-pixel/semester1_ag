@@ -298,7 +298,12 @@
 
     /* Concept 1: Aeronautical Flight Strips Navigation (Calm, Grounded) */
     .flight-strip-card {
-      transition: background-color 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease, color 0.18s ease;
+      transition: transform 0.16s cubic-bezier(0.16, 1, 0.3, 1),
+                  background-color 0.16s ease,
+                  border-color 0.16s ease,
+                  box-shadow 0.16s ease,
+                  color 0.16s ease;
+      will-change: transform;
     }
 
     @media print {
@@ -416,7 +421,7 @@
       <!-- Workspace Body -->
       <div class="flex-1 flex flex-col md:flex-row overflow-hidden workspace-split">
         <!-- Sidebar Directory -->
-        <div class="w-full md:w-64 bg-slate-50 border-r border-slate-200 flex flex-col shrink-0 max-h-32 md:max-h-none overflow-y-auto sidebar-menu">
+        <div class="w-full md:w-64 bg-slate-50 border-r border-slate-200 flex flex-col shrink-0 max-h-32 md:max-h-none overflow-y-auto overflow-x-hidden sidebar-menu">
           <div class="p-2.5 bg-slate-200/70 border-b border-slate-200 text-[11px] font-bold uppercase tracking-wider text-slate-600">
             Contents Menu
           </div>
@@ -1797,7 +1802,7 @@
           item.style.borderLeft = '';
           if (idx <= 3) {
             // Sessions 01 to 04: Core Teaching Units (Clean White / Slate Border)
-            item.className = "flight-strip-card group w-full text-left px-2.5 py-2 rounded-lg text-xs font-semibold transition-all flex items-center justify-between border border-slate-200/90 bg-white hover:bg-slate-50 hover:border-slate-300 text-slate-800 hover:text-slate-900 hover:shadow-2xs cursor-pointer";
+            item.className = "flight-strip-card group w-full text-left px-2.5 py-2 rounded-lg text-xs font-semibold transition-all flex items-center justify-between border border-slate-200/90 bg-white hover:bg-slate-50 hover:border-slate-300 text-slate-800 hover:text-slate-900 hover:shadow-2xs hover:translate-x-[3px] cursor-pointer";
             item.style.backgroundColor = '#ffffff';
             item.style.borderColor = '#e2e8f0';
             if (title) {
@@ -1816,7 +1821,7 @@
             }
           } else if (idx === 4) {
             // Session 05: Evaluation Milestone (Warm Amber Highlight)
-            item.className = "flight-strip-card group w-full text-left px-2.5 py-2 rounded-lg text-xs font-semibold transition-all flex items-center justify-between border border-amber-200/80 bg-amber-50/70 hover:bg-amber-50 hover:border-amber-300/90 text-amber-950 hover:shadow-2xs cursor-pointer";
+            item.className = "flight-strip-card group w-full text-left px-2.5 py-2 rounded-lg text-xs font-semibold transition-all flex items-center justify-between border border-amber-200/80 bg-amber-50/70 hover:bg-amber-50 hover:border-amber-300/90 text-amber-950 hover:shadow-2xs hover:translate-x-[3px] cursor-pointer";
             item.style.backgroundColor = '#fffbeb';
             item.style.borderColor = '#fde68a';
             if (title) {
@@ -1833,7 +1838,7 @@
             }
           } else {
             // Cards 06 to 08/09: Administrative & Reference Frameworks (Muted Cool Slate)
-            item.className = "flight-strip-card group w-full text-left px-2.5 py-2 rounded-lg text-xs font-semibold transition-all flex items-center justify-between border border-slate-200/70 bg-slate-100/75 hover:bg-slate-100 hover:border-slate-300 text-slate-600 hover:text-slate-900 hover:shadow-2xs cursor-pointer";
+            item.className = "flight-strip-card group w-full text-left px-2.5 py-2 rounded-lg text-xs font-semibold transition-all flex items-center justify-between border border-slate-200/70 bg-slate-100/75 hover:bg-slate-100 hover:border-slate-300 text-slate-600 hover:text-slate-900 hover:shadow-2xs hover:translate-x-[3px] cursor-pointer";
             item.style.backgroundColor = '#f1f5f9';
             item.style.borderColor = '#e2e8f0';
             if (title) {
