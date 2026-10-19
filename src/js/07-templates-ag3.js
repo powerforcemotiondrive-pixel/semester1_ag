@@ -7,6 +7,7 @@
       const survey = content.survey || {};
       const grammar = content.grammarClinic || {};
       const roleplay = content.roleplay || {};
+      const closing = content.closingReview || {};
 
       bodyEl.innerHTML = `
         <div class="space-y-6 printable-lesson-container">
@@ -62,6 +63,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
             </div>
+
+            ${renderActivityInstructions(opening, theme)}
 
             <!-- News Prompts -->
             ${(opening.newsPrompts && opening.newsPrompts.length) ? `
@@ -119,6 +122,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Structured Discussion</span>
             </div>
 
+            ${renderActivityInstructions(survey, theme)}
+
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
@@ -170,6 +175,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Grammar Focus</span>
             </div>
+
+            ${renderActivityInstructions(grammar, theme)}
 
             <!-- Rules Grid -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
@@ -226,6 +233,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Pair Simulation</span>
             </div>
 
+            ${renderActivityInstructions(roleplay, theme)}
+
             <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
               <span class="text-[10px] font-black uppercase text-blue-700 tracking-wider">Mission Scenario:</span>
               <p class="text-xs text-slate-700 leading-relaxed">${roleplay.scenario || ''}</p>
@@ -263,12 +272,14 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">100-120m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">Activity 5: Wrap-Up &amp; FE3 Preparation (15 mins)</h4>
-                  <p class="text-[11px] text-slate-500">Consolidation, phonetics, and portfolio check</p>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${closing.title || "Activity 5: Wrap-Up &amp; FE3 Preparation (15 mins)"}</h4>
+                  <p class="text-[11px] text-slate-500">${closing.summary || "Consolidation, phonetics, and portfolio check"}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Debrief &amp; Exit Ticket</span>
             </div>
+
+            ${renderActivityInstructions(closing, theme)}
 
             <div class="p-4 bg-blue-50/60 border border-blue-200 rounded-xl space-y-3">
               <div class="flex items-center justify-between">
@@ -297,6 +308,7 @@
       const survey = content.survey || {};
       const grammar = content.grammarClinic || {};
       const roleplay = content.roleplay || {};
+      const closing = content.closingReview || {};
 
       bodyEl.innerHTML = `
         <div class="space-y-6 printable-lesson-container">
@@ -352,6 +364,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
             </div>
+
+            ${renderActivityInstructions(opening, theme)}
 
             <!-- News Prompts -->
             ${(opening.newsPrompts && opening.newsPrompts.length) ? `
@@ -409,6 +423,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Structured Discussion</span>
             </div>
 
+            ${renderActivityInstructions(survey, theme)}
+
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
@@ -460,6 +476,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Grammar Focus</span>
             </div>
+
+            ${renderActivityInstructions(grammar, theme)}
 
             <!-- Rules Grid -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
@@ -516,6 +534,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Pair Simulation</span>
             </div>
 
+            ${renderActivityInstructions(roleplay, theme)}
+
             <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
               <span class="text-[10px] font-black uppercase text-blue-700 tracking-wider">Mission Scenario:</span>
               <p class="text-xs text-slate-700 leading-relaxed">${roleplay.scenario || ''}</p>
@@ -553,12 +573,14 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">100-120m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">Activity 5: Wrap-Up &amp; FE3 Preparation (15 mins)</h4>
-                  <p class="text-[11px] text-slate-500">Consolidation, phonetics, and portfolio check</p>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${closing.title || "Activity 5: Wrap-Up &amp; FE3 Preparation (15 mins)"}</h4>
+                  <p class="text-[11px] text-slate-500">${closing.summary || "Consolidation, phonetics, and portfolio check"}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Debrief &amp; Exit Ticket</span>
             </div>
+
+            ${renderActivityInstructions(closing, theme)}
 
             <div class="p-4 bg-blue-50/60 border border-blue-200 rounded-xl space-y-3">
               <div class="flex items-center justify-between">
@@ -587,6 +609,7 @@
       const survey = content.survey || {};
       const grammar = content.grammarClinic || {};
       const roleplay = content.roleplay || {};
+      const closing = content.closingReview || {};
 
       bodyEl.innerHTML = `
         <div class="space-y-6 printable-lesson-container">
@@ -642,6 +665,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
             </div>
+
+            ${renderActivityInstructions(opening, theme)}
 
             <!-- News Prompts -->
             ${(opening.newsPrompts && opening.newsPrompts.length) ? `
@@ -699,6 +724,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Structured Discussion</span>
             </div>
 
+            ${renderActivityInstructions(survey, theme)}
+
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
@@ -750,6 +777,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Grammar Focus</span>
             </div>
+
+            ${renderActivityInstructions(grammar, theme)}
 
             <!-- Rules Grid -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
@@ -806,6 +835,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Pair Simulation</span>
             </div>
 
+            ${renderActivityInstructions(roleplay, theme)}
+
             <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
               <span class="text-[10px] font-black uppercase text-blue-700 tracking-wider">Mission Scenario:</span>
               <p class="text-xs text-slate-700 leading-relaxed">${roleplay.scenario || ''}</p>
@@ -843,12 +874,14 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">100-120m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">Activity 5: Wrap-Up &amp; FE3 Preparation (15 mins)</h4>
-                  <p class="text-[11px] text-slate-500">Consolidation, phonetics, and portfolio check</p>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${closing.title || "Activity 5: Wrap-Up &amp; FE3 Preparation (15 mins)"}</h4>
+                  <p class="text-[11px] text-slate-500">${closing.summary || "Consolidation, phonetics, and portfolio check"}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Debrief &amp; Exit Ticket</span>
             </div>
+
+            ${renderActivityInstructions(closing, theme)}
 
             <div class="p-4 bg-blue-50/60 border border-blue-200 rounded-xl space-y-3">
               <div class="flex items-center justify-between">
@@ -877,6 +910,7 @@
       const survey = content.survey || {};
       const grammar = content.grammarClinic || {};
       const roleplay = content.roleplay || {};
+      const closing = content.closingReview || {};
 
       bodyEl.innerHTML = `
         <div class="space-y-6 printable-lesson-container">
@@ -932,6 +966,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Opening Warm-Up</span>
             </div>
+
+            ${renderActivityInstructions(opening, theme)}
 
             <!-- News Prompts -->
             ${(opening.newsPrompts && opening.newsPrompts.length) ? `
@@ -989,6 +1025,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Structured Discussion</span>
             </div>
 
+            ${renderActivityInstructions(survey, theme)}
+
             <!-- Signposts -->
             ${survey.signposts ? `
               <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-xl space-y-1.5">
@@ -1040,6 +1078,8 @@
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Grammar Focus</span>
             </div>
+
+            ${renderActivityInstructions(grammar, theme)}
 
             <!-- Rules Grid -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
@@ -1096,6 +1136,8 @@
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Pair Simulation</span>
             </div>
 
+            ${renderActivityInstructions(roleplay, theme)}
+
             <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
               <span class="text-[10px] font-black uppercase text-blue-700 tracking-wider">Mission Scenario:</span>
               <p class="text-xs text-slate-700 leading-relaxed">${roleplay.scenario || ''}</p>
@@ -1133,12 +1175,14 @@
               <div class="flex items-center gap-2">
                 <span class="text-white text-xs font-black px-2.5 py-1 rounded-md shadow-xs" style="background-color: ${theme.primary};">100-120m</span>
                 <div>
-                  <h4 class="text-sm sm:text-base font-black text-slate-900">Activity 5: Wrap-Up &amp; FE3 Preparation (15 mins)</h4>
-                  <p class="text-[11px] text-slate-500">Consolidation, phonetics, and portfolio check</p>
+                  <h4 class="text-sm sm:text-base font-black text-slate-900">${closing.title || "Activity 5: Wrap-Up &amp; FE3 Preparation (15 mins)"}</h4>
+                  <p class="text-[11px] text-slate-500">${closing.summary || "Consolidation, phonetics, and portfolio check"}</p>
                 </div>
               </div>
               <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">Debrief &amp; Exit Ticket</span>
             </div>
+
+            ${renderActivityInstructions(closing, theme)}
 
             <div class="p-4 bg-blue-50/60 border border-blue-200 rounded-xl space-y-3">
               <div class="flex items-center justify-between">
