@@ -1,5 +1,5 @@
 /**
- * GSEA Semester 1 - General English & Aeronautical English
+ * GSEA Semester 1 - General English & Technical English (AT)
  * Complete Course Data Architecture
  * Author: Phil PARRIS (LH/LAN)
  */
@@ -16982,7 +16982,7 @@
         "session": 4,
         "objectives": {
           "title": "Session 4 - Global Semester Review & 3-Team Aviation Quiz Objectives",
-          "summary": "By the end of this session, you will be able to synthesize all core Semester 1 Aeronautical English competencies across Aerodromes (Module 1), Aircraft & Aerodynamics (Module 2), and Health, Meteorology & Safety/Security (Module 3), compete successfully in a multi-round 3-team technical aviation quiz, and structure a high-scoring 10-12 minute Press Briefing on a major aviation current event for Formative Evaluation 3 (FE3).",
+          "summary": "By the end of this session, you will be able to summarize all core Semester 1 Technical English competencies across Aerodromes (Module 1), Aircraft & Aerodynamics (Module 2), and Health, Meteorology & Safety/Security (Module 3), compete successfully in a multi-round 3-team technical aviation quiz, and structure a high-scoring 10-12 minute Press Briefing on a major aviation current event for Formative Evaluation 3 (FE3).",
           "items": [
             {
               "num": 1,
@@ -17228,7 +17228,7 @@
             {
               "url": "https://www.enac.fr",
               "tag": "01 • Academic Hub",
-              "name": "ENAC Aeronautical English Learning Repository",
+              "name": "ENAC Technical English (AT) Learning Repository",
               "desc": "Complete course documentation, semester objectives, technical vocabulary databases, and continuous assessment rubrics."
             },
             {

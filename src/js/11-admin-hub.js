@@ -57,7 +57,7 @@
                 <div class="flex items-center justify-between pb-2 mb-3 border-b border-slate-100">
                   <div class="flex items-center gap-2">
                     <span class="px-2 py-0.5 rounded text-white font-mono text-[11px] font-black" style="background-color: ${theme.accent};">LV121E</span>
-                    <span class="text-xs font-bold text-slate-800">Aeronautical English (AAS)</span>
+                    <span class="text-xs font-bold text-slate-800">Technical English (AT)</span>
                   </div>
                   <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2 py-0.5 rounded">Wednesdays 13h15 – 15h15</span>
                 </div>
@@ -246,7 +246,7 @@
       },
       aas: {
         code: "LV121E",
-        name: "Aeronautical English (AAS)",
+        name: "Technical English (AT)",
         dayTime: "Wednesdays 13h15 – 15h15",
         faculty: "Tracy NEILL (Group A) & Ally HEWETT (Group B)",
         modules: [
@@ -340,7 +340,7 @@
                     General English (AG • LV101E)
                   </button>
                   <button type="button" onclick="setAdminCalendarCourse('aas')" class="px-3.5 py-1.5 rounded-md text-xs font-bold transition-all cursor-pointer ${activeCalKey === 'aas' ? 'bg-orange-600 text-white shadow-xs' : 'text-slate-600 hover:text-slate-900'}">
-                    Aeronautical English (AAS • LV121E)
+                    Technical English (AT • LV121E)
                   </button>
                 </div>
               </div>
@@ -509,7 +509,7 @@
       },
       aas: {
         code: "LV121E",
-        name: "Aeronautical English (AAS)",
+        name: "Technical English (AT)",
         dayTime: "Wednesdays 13h15 – 15h15",
         roomNote: "Wednesday Session • 2 Hours (4 Slots of 30 min)",
         fes: {
@@ -649,7 +649,7 @@
                     General English (AG • LV101E)
                   </button>
                   <button type="button" onclick="setAdminRotaCourse('aas')" class="px-3.5 py-1.5 rounded-md text-xs font-bold transition-all cursor-pointer ${activeCourseKey === 'aas' ? 'bg-orange-600 text-white shadow-xs' : 'text-slate-600 hover:text-slate-900'}">
-                    Aeronautical English (AAS • LV121E)
+                    Technical English (AT • LV121E)
                   </button>
                 </div>
               </div>
@@ -1304,7 +1304,7 @@
         ? "À la fin du semestre 1, les étudiants seront capables de :"
         : "By the end of Semester 1, students will be able to:";
 
-      const courseCode = isAas ? "LV121E • Aeronautical English" : "LV101E • General English";
+      const courseCode = isAas ? "LV121E • Technical English" : "LV101E • General English";
       const targetBenchmark = isAas 
         ? (isFr ? "Niveau B2 CECRL • Standard Opérationnel OACI Niveau 4/5" : "CEFR B2 Level • ICAO Operational Level 4/5 Benchmark")
         : (isFr ? "Niveau B2 CECRL • Utilisateur Indépendant Opérationnel" : "CEFR B2 Level • Independent Operational Proficiency");

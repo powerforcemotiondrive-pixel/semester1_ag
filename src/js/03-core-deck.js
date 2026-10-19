@@ -104,7 +104,7 @@
         let card = 0;
         try {
           const hash = (window.location.hash + ' ' + window.location.search).toLowerCase();
-          if (hash.includes('aas') || hash.includes('aero')) {
+          if (hash.includes('at') || hash.includes('aas') || hash.includes('aero')) {
             prog = 'aas';
           } else {
             const savedProg = sessionStorage.getItem('gsea_active_prog');
@@ -163,7 +163,7 @@
       }
       const mainTitle = document.getElementById('deck-main-title');
       if (mainTitle) {
-        mainTitle.textContent = currentProgram === 'aas' ? 'GSEA SEMESTER 1 AAS' : 'GSEA SEMESTER 1 AG';
+        mainTitle.textContent = currentProgram === 'aas' ? 'GSEA SEMESTER 1 AT' : 'GSEA SEMESTER 1 AG';
       }
       const footerCurriculum = document.getElementById('footer-curriculum-label');
       if (footerCurriculum && PROGRAMS_CONFIG[currentProgram]) {
@@ -223,7 +223,7 @@
         const dot = document.getElementById('deck-port-dot');
         const label = document.getElementById('deck-port-label');
         if (dot) dot.className = isAg ? "w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" : "w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse";
-        if (label) label.innerText = isAg ? "AG Portfolio" : "AAS Portfolio";
+        if (label) label.innerText = isAg ? "AG Portfolio" : "AT Portfolio";
       }
       if (typeof syncPortfolioDrawerTrack === 'function') {
         syncPortfolioDrawerTrack(currentProgram);
@@ -402,7 +402,7 @@
       // Header Main Title & Subheader
       const mainTitle = document.getElementById('deck-main-title');
       if (mainTitle) {
-        mainTitle.textContent = currentProgram === 'aas' ? 'GSEA SEMESTER 1 AAS' : 'GSEA SEMESTER 1 AG';
+        mainTitle.textContent = currentProgram === 'aas' ? 'GSEA SEMESTER 1 AT' : 'GSEA SEMESTER 1 AG';
       }
 
       const subtitle = document.getElementById('deck-subtitle');
@@ -1079,8 +1079,8 @@
         if (semObjFrTab) semObjFrTab.classList.remove('hidden');
 
         const isAas = (modalState.program === 'aas' || currentProgram === 'aas');
-        tagEl.textContent = isAas ? "Aeronautical English (LV121E) • Semester 1" : "General English (LV101E) • Semester 1";
-        titleEl.textContent = isAas ? "AAS Semester 1 Learning Objectives & Competencies" : "AG Semester 1 Learning Objectives & Competencies";
+        tagEl.textContent = isAas ? "Technical English (LV121E) • Semester 1" : "General English (LV101E) • Semester 1";
+        titleEl.textContent = isAas ? "AT Semester 1 Learning Objectives & Competencies" : "AG Semester 1 Learning Objectives & Competencies";
       } else if (isImmersionSession) {
         if (semObjEnTab) semObjEnTab.classList.add('hidden');
         if (semObjFrTab) semObjFrTab.classList.add('hidden');
@@ -1249,15 +1249,15 @@
         if (iconBox) iconBox.className = "w-8 h-8 rounded-lg flex items-center justify-center shrink-0 text-white bg-blue-600 shadow-xs";
         if (iconAg) iconAg.classList.add("hidden");
         if (iconAas) iconAas.classList.remove("hidden");
-        if (titleEl) titleEl.innerText = "GSEA SEMESTER 1 AAS";
-        if (subtitleEl) subtitleEl.innerText = "Aeronautical English (LV121E) • Formative Learning Portfolio & Aeronautical Operations Log";
+        if (titleEl) titleEl.innerText = "GSEA SEMESTER 1 AT";
+        if (subtitleEl) subtitleEl.innerText = "Technical English (LV121E) • Formative Learning Portfolio & Technical Operations Log";
         if (drawerBtnAg) drawerBtnAg.className = "px-2 py-1 rounded text-[11px] font-semibold transition-all cursor-pointer text-white/70 hover:text-white hover:bg-white/10";
         if (drawerBtnAas) drawerBtnAas.className = "px-2 py-1 rounded text-[11px] font-black transition-all cursor-pointer text-white bg-blue-600 shadow-xs";
         if (drawerFooterBadge) {
-          drawerFooterBadge.innerText = "AAS • LV121E";
+          drawerFooterBadge.innerText = "AT • LV121E";
           drawerFooterBadge.className = "px-2 py-0.5 rounded text-[10px] font-mono font-bold text-white bg-blue-600 shadow-xs shrink-0";
         }
-        if (drawerFooterTitle) drawerFooterTitle.innerText = "GSEA Semester 1 Aeronautical English (AAS)";
+        if (drawerFooterTitle) drawerFooterTitle.innerText = "GSEA Semester 1 Technical English (AT)";
         if (drawerFooterVersion) drawerFooterVersion.className = "font-mono text-blue-400 font-bold bg-black/40 px-2 py-0.5 rounded border border-white/10 text-[10px] sm:text-xs";
       }
     };

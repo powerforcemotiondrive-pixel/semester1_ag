@@ -17,7 +17,7 @@
             <div>
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
-                <span class="text-xs font-bold text-slate-700">AAS Module 1 • Session 1</span>
+                <span class="text-xs font-bold text-slate-700">AT Module 1 • Session 1</span>
               </div>
               <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">Introduction &amp; Aviation Survey</h3>
             </div>
@@ -410,7 +410,7 @@
             <div>
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
-                <span class="text-xs font-bold text-slate-700">AAS Module 1 • Session 2</span>
+                <span class="text-xs font-bold text-slate-700">AT Module 1 • Session 2</span>
               </div>
               <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">Passenger Journey &amp; Airfield Movement</h3>
             </div>
@@ -803,7 +803,7 @@
             <div>
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
-                <span class="text-xs font-bold text-slate-700">AAS Module 1 • Session 3</span>
+                <span class="text-xs font-bold text-slate-700">AT Module 1 • Session 3</span>
               </div>
               <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">Ground Operations &amp; Turnaround Management</h3>
             </div>
@@ -1195,7 +1195,7 @@
             <div>
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
-                <span class="text-xs font-bold text-slate-700">AAS Module 1 • Session 4</span>
+                <span class="text-xs font-bold text-slate-700">AT Module 1 • Session 4</span>
               </div>
               <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">Jobs in Aviation: Roles, Responsibilities &amp; Operational Interfaces</h3>
             </div>

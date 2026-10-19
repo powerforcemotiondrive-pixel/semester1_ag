@@ -57,7 +57,7 @@ Course administration (student lists, teacher assignments, weekly schedules, and
 *This section defines the active variables for the current cohort. Update this section when rotating students or semesters.*
 
 ### Courses & Timetable
-- **Aeronautical English (AAS • LV121E)**
+- **Technical English (AT • LV121E)**
   - **Schedule**: Wednesdays 13h15 – 15h15 (2 Hours)
   - **Group A Teacher**: Tracy NEILL
   - **Group B Teacher**: Ally HEWETT
@@ -77,7 +77,7 @@ Course administration (student lists, teacher assignments, weekly schedules, and
 ### Evaluation Structure
 - **Slot Length**: 30 minutes per evaluation slot.
 - **Session Capacity**: 4 slots per 2-hour session:
-  - AAS Slots: `13h15–13h45`, `13h45–14h15`, `14h15–14h45`, `14h45–15h15`
+  - AT Slots: `13h15–13h45`, `13h45–14h15`, `14h15–14h45`, `14h45–15h15`
   - AG Slots: `08h00–08h30`, `08h30–09h00`, `09h00–09h30`, `09h30–10h00`
 - **Slot Formats**: Alternating student pairs and trios rotated dynamically across FE1, FE2, and FE3 to ensure diverse peer interactions.
 

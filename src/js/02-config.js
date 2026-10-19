@@ -102,7 +102,7 @@
 
       const aasDescriptions = {
         1: {
-          s1: `Welcome to Aeronautical English Module 1 on Aerodromes! In this opening session, we explore airport operations, aviation security, commercial airline models, and environmental challenges while practicing discussion fluency and technical vocabulary.<br><br><em>Subject overview:</em> In-class survey interviews discussing key aviation themes: alcohol on board, armed pilots and air marshals, low-cost carrier economics, noise abatement, future propulsion, space tourism, airport security, and flight delay passenger rights.<br><br>${formativeEvaluationNotice}`,
+          s1: `Welcome to Technical English Module 1 on Aerodromes! In this opening session, we explore airport operations, aviation security, commercial airline models, and environmental challenges while practicing discussion fluency and technical vocabulary.<br><br><em>Subject overview:</em> In-class survey interviews discussing key aviation themes: alcohol on board, armed pilots and air marshals, low-cost carrier economics, noise abatement, future propulsion, space tourism, airport security, and flight delay passenger rights.<br><br>${formativeEvaluationNotice}`,
           s2: `Welcome to Session 2! We explore the passenger's journey through the airport—from landside check-in, security screening, and duty-free retail to the departure gate—as well as airside movement areas including aprons, taxiways, ground markings, and runway numbering.<br><br><em>Subject overview:</em> Passenger terminal flow, security checkpoints, airside apron operations, pushback tugs, taxiway guidance markings, and runway magnetic designators.<br><br>${formativeEvaluationNotice}`,
           s3: `Welcome to Session 3! In this class, we analyze ground handling workflows, baggage logistics, refueling protocols, and gate turnaround optimization.<br><br><em>Subject overview:</em> Ramp safety, ground support equipment (GSE), slot allocation, and minimizing turnaround time.<br><br>${formativeEvaluationNotice}`,
           s4: `Welcome to Session 4! We examine aviation operational careers across landside, airside, flight operations, air traffic services, and civil aviation administration.<br><br><em>Subject overview:</em> Professional roles and jurisdictions: Passenger Service Agents, Ramp Coordinators, Flight Crew, ATCOs (Tower, Approach, En-Route), and TSEEAC functions (AFISO, aerodrome operations coordination, DGAC safety oversight). Expressing duties, authority, and handoff procedures.<br><br>${formativeEvaluationNotice}`
@@ -223,7 +223,7 @@
           imageUrl: images.admin
         },
         {
-          tag: isAas ? "Aeronautical English • Course Syllabus" : "General English • Course Syllabus",
+          tag: isAas ? "Technical English • Course Syllabus" : "General English • Course Syllabus",
           title: "Semester Objectives",
           description: "Here you can find the complete objectives for the full semester 1.<br><br><em>Subject overview:</em> Comprehensive pedagogical roadmap, learning outcomes, and assessment benchmarks for GSEA Semester 1.<br><br>Consult the full bilingual syllabus (English & French) covering continuous assessment, professional development, technical communication, and evaluation criteria.",
           isObjectives: true,
@@ -370,15 +370,15 @@
       },
       aas: {
         id: "aas",
-        code: "AAS",
-        name: "Aeronautical English",
-        footerDesc: "GSEA Semester 1 Aeronautical English (AAS) • Phil PARRIS (LH/LAN) • v1.0.0",
+        code: "AT",
+        name: "Technical English",
+        footerDesc: "GSEA Semester 1 Technical English (AT) • Phil PARRIS (LH/LAN) • v1.0.0",
         modules: [
           {
             id: 1,
             name: "Module 1",
             subtitle: "Aerodrome",
-            supertitle: "GSEA AAS SEMESTER 1 - MODULE 1: AERODROME",
+            supertitle: "GSEA AT SEMESTER 1 - MODULE 1: AERODROME",
             ...AAS_MODULE_THEMES[1],
             pages: createModulePages(1, 'aas')
           },
@@ -386,7 +386,7 @@
             id: 2,
             name: "Module 2",
             subtitle: "Aircraft and Aerodynamics",
-            supertitle: "GSEA AAS SEMESTER 1 - MODULE 2: AIRCRAFT & AERODYNAMICS",
+            supertitle: "GSEA AT SEMESTER 1 - MODULE 2: AIRCRAFT & AERODYNAMICS",
             ...AAS_MODULE_THEMES[2],
             pages: createModulePages(2, 'aas')
           },
@@ -394,7 +394,7 @@
             id: 3,
             name: "Module 3",
             subtitle: "Health, Meteorology, Safety & Security",
-            supertitle: "GSEA AAS SEMESTER 1 - MODULE 3: HEALTH, WEATHER & SAFETY",
+            supertitle: "GSEA AT SEMESTER 1 - MODULE 3: HEALTH, WEATHER & SAFETY",
             ...AAS_MODULE_THEMES[3],
             pages: createModulePages(3, 'aas')
           }

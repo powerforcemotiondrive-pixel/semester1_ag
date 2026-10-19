@@ -1,10 +1,10 @@
     /* ==========================================================================
-       AAS MODULE 3 LESSON CONTENT TEMPLATES (SESSIONS 1 - 4)
+       AT MODULE 3 LESSON CONTENT TEMPLATES (SESSIONS 1 - 4)
        Module 3: Health, Meteorology, Safety & Security (LV121E)
        4-Pillar Pedagogical Standard: modeBadges, instructions, deliverable, teacherNotes
        ========================================================================== */
 
-    // Global toggle helper for AAS Module 3 revealable answers
+    // Global toggle helper for AT Module 3 revealable answers
     if (typeof window.toggleAas3Answer !== 'function') {
       window.toggleAas3Answer = function(id) {
         const el = document.getElementById(id);
@@ -66,7 +66,7 @@
             <div>
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
-                <span class="text-xs font-bold text-slate-700">AAS Module 3 • Session 1</span>
+                <span class="text-xs font-bold text-slate-700">AT Module 3 • Session 1</span>
               </div>
               <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">${hero.title || 'Health, Medical Emergencies & Human Factors in Aviation'}</h3>
             </div>
@@ -437,7 +437,7 @@
             <div>
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
-                <span class="text-xs font-bold text-slate-700">AAS Module 3 • Session 2</span>
+                <span class="text-xs font-bold text-slate-700">AT Module 3 • Session 2</span>
               </div>
               <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">${hero.title || 'Meteorology & Severe Weather Impacts on Aviation Operations'}</h3>
             </div>
@@ -763,7 +763,7 @@
             <div>
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
-                <span class="text-xs font-bold text-slate-700">AAS Module 3 • Session 3</span>
+                <span class="text-xs font-bold text-slate-700">AT Module 3 • Session 3</span>
               </div>
               <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">${hero.title || 'Aviation Safety vs. Security: Airport Protection & Aircraft Inspections'}</h3>
             </div>
@@ -1073,7 +1073,7 @@
             <div>
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
-                <span class="text-xs font-bold text-slate-700">AAS Module 3 • Session 4</span>
+                <span class="text-xs font-bold text-slate-700">AT Module 3 • Session 4</span>
               </div>
               <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">${hero.title || 'Global Semester Review & 3-Team Aviation Grand Prix Quiz'}</h3>
             </div>

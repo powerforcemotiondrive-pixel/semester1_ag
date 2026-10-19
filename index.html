@@ -259,7 +259,7 @@
       transform: rotateY(180deg);
     }
 
-    /* Option A: Silky Aerospace AG <-> AAS Track Cross-Dissolve (750ms total) */
+    /* Option A: Silky Aerospace AG <-> AT Track Cross-Dissolve (750ms total) */
     .track-crossfade-exit {
       opacity: 0 !important;
       filter: blur(1.5px);
@@ -370,7 +370,7 @@
 
       <!-- Flight Deck Navigation Ribbon -->
       <nav id="flight-deck-ribbon" class="bg-[#1f2937] text-white px-2 sm:px-5 py-1.5 sm:py-2 border-b border-[#111827] flex items-center justify-between gap-1 sm:gap-3 shrink-0 z-10 transition-colors duration-200 overflow-x-auto no-scrollbar">
-        <!-- Left: Curriculum Track Switcher (AG / AAS) -->
+        <!-- Left: Curriculum Track Switcher (AG / AT) -->
         <div class="flex items-center gap-1.5 sm:gap-2 shrink-0">
           <span class="text-[10px] font-black uppercase tracking-wider text-slate-300 hidden sm:inline-block">Track:</span>
           <div id="program-switcher" class="inline-flex items-center bg-black/40 p-0.5 rounded-lg border border-white/15 shadow-inner" role="tablist" aria-label="Curriculum Track">
@@ -387,10 +387,10 @@
                     type="button"
                     role="tab"
                     aria-selected="false"
-                    title="Aeronautical English (AAS)"
+                    title="Technical English (AT)"
                     class="px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded-md text-[11px] sm:text-xs font-semibold transition-all cursor-pointer flex items-center gap-1 sm:gap-1.5 text-white/70 hover:text-white hover:bg-white/10">
               <svg width="13" height="13" class="w-3.5 h-3.5 shrink-0 opacity-90" viewBox="0 0 24 24" fill="currentColor"><path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg>
-              <span>AAS</span>
+              <span>AT</span>
             </button>
           </div>
         </div>
@@ -871,7 +871,7 @@
 
       const aasDescriptions = {
         1: {
-          s1: `Welcome to Aeronautical English Module 1 on Aerodromes! In this opening session, we explore airport operations, aviation security, commercial airline models, and environmental challenges while practicing discussion fluency and technical vocabulary.<br><br><em>Subject overview:</em> In-class survey interviews discussing key aviation themes: alcohol on board, armed pilots and air marshals, low-cost carrier economics, noise abatement, future propulsion, space tourism, airport security, and flight delay passenger rights.<br><br>${formativeEvaluationNotice}`,
+          s1: `Welcome to Technical English Module 1 on Aerodromes! In this opening session, we explore airport operations, aviation security, commercial airline models, and environmental challenges while practicing discussion fluency and technical vocabulary.<br><br><em>Subject overview:</em> In-class survey interviews discussing key aviation themes: alcohol on board, armed pilots and air marshals, low-cost carrier economics, noise abatement, future propulsion, space tourism, airport security, and flight delay passenger rights.<br><br>${formativeEvaluationNotice}`,
           s2: `Welcome to Session 2! We explore the passenger's journey through the airport—from landside check-in, security screening, and duty-free retail to the departure gate—as well as airside movement areas including aprons, taxiways, ground markings, and runway numbering.<br><br><em>Subject overview:</em> Passenger terminal flow, security checkpoints, airside apron operations, pushback tugs, taxiway guidance markings, and runway magnetic designators.<br><br>${formativeEvaluationNotice}`,
           s3: `Welcome to Session 3! In this class, we analyze ground handling workflows, baggage logistics, refueling protocols, and gate turnaround optimization.<br><br><em>Subject overview:</em> Ramp safety, ground support equipment (GSE), slot allocation, and minimizing turnaround time.<br><br>${formativeEvaluationNotice}`,
           s4: `Welcome to Session 4! We examine aviation operational careers across landside, airside, flight operations, air traffic services, and civil aviation administration.<br><br><em>Subject overview:</em> Professional roles and jurisdictions: Passenger Service Agents, Ramp Coordinators, Flight Crew, ATCOs (Tower, Approach, En-Route), and TSEEAC functions (AFISO, aerodrome operations coordination, DGAC safety oversight). Expressing duties, authority, and handoff procedures.<br><br>${formativeEvaluationNotice}`
@@ -992,7 +992,7 @@
           imageUrl: images.admin
         },
         {
-          tag: isAas ? "Aeronautical English • Course Syllabus" : "General English • Course Syllabus",
+          tag: isAas ? "Technical English • Course Syllabus" : "General English • Course Syllabus",
           title: "Semester Objectives",
           description: "Here you can find the complete objectives for the full semester 1.<br><br><em>Subject overview:</em> Comprehensive pedagogical roadmap, learning outcomes, and assessment benchmarks for GSEA Semester 1.<br><br>Consult the full bilingual syllabus (English & French) covering continuous assessment, professional development, technical communication, and evaluation criteria.",
           isObjectives: true,
@@ -1139,15 +1139,15 @@
       },
       aas: {
         id: "aas",
-        code: "AAS",
-        name: "Aeronautical English",
-        footerDesc: "GSEA Semester 1 Aeronautical English (AAS) • Phil PARRIS (LH/LAN) • v1.0.0",
+        code: "AT",
+        name: "Technical English",
+        footerDesc: "GSEA Semester 1 Technical English (AT) • Phil PARRIS (LH/LAN) • v1.0.0",
         modules: [
           {
             id: 1,
             name: "Module 1",
             subtitle: "Aerodrome",
-            supertitle: "GSEA AAS SEMESTER 1 - MODULE 1: AERODROME",
+            supertitle: "GSEA AT SEMESTER 1 - MODULE 1: AERODROME",
             ...AAS_MODULE_THEMES[1],
             pages: createModulePages(1, 'aas')
           },
@@ -1155,7 +1155,7 @@
             id: 2,
             name: "Module 2",
             subtitle: "Aircraft and Aerodynamics",
-            supertitle: "GSEA AAS SEMESTER 1 - MODULE 2: AIRCRAFT & AERODYNAMICS",
+            supertitle: "GSEA AT SEMESTER 1 - MODULE 2: AIRCRAFT & AERODYNAMICS",
             ...AAS_MODULE_THEMES[2],
             pages: createModulePages(2, 'aas')
           },
@@ -1163,7 +1163,7 @@
             id: 3,
             name: "Module 3",
             subtitle: "Health, Meteorology, Safety & Security",
-            supertitle: "GSEA AAS SEMESTER 1 - MODULE 3: HEALTH, WEATHER & SAFETY",
+            supertitle: "GSEA AT SEMESTER 1 - MODULE 3: HEALTH, WEATHER & SAFETY",
             ...AAS_MODULE_THEMES[3],
             pages: createModulePages(3, 'aas')
           }
@@ -1282,7 +1282,7 @@
         let card = 0;
         try {
           const hash = (window.location.hash + ' ' + window.location.search).toLowerCase();
-          if (hash.includes('aas') || hash.includes('aero')) {
+          if (hash.includes('at') || hash.includes('aas') || hash.includes('aero')) {
             prog = 'aas';
           } else {
             const savedProg = sessionStorage.getItem('gsea_active_prog');
@@ -1341,7 +1341,7 @@
       }
       const mainTitle = document.getElementById('deck-main-title');
       if (mainTitle) {
-        mainTitle.textContent = currentProgram === 'aas' ? 'GSEA SEMESTER 1 AAS' : 'GSEA SEMESTER 1 AG';
+        mainTitle.textContent = currentProgram === 'aas' ? 'GSEA SEMESTER 1 AT' : 'GSEA SEMESTER 1 AG';
       }
       const footerCurriculum = document.getElementById('footer-curriculum-label');
       if (footerCurriculum && PROGRAMS_CONFIG[currentProgram]) {
@@ -1401,7 +1401,7 @@
         const dot = document.getElementById('deck-port-dot');
         const label = document.getElementById('deck-port-label');
         if (dot) dot.className = isAg ? "w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" : "w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse";
-        if (label) label.innerText = isAg ? "AG Portfolio" : "AAS Portfolio";
+        if (label) label.innerText = isAg ? "AG Portfolio" : "AT Portfolio";
       }
       if (typeof syncPortfolioDrawerTrack === 'function') {
         syncPortfolioDrawerTrack(currentProgram);
@@ -1580,7 +1580,7 @@
       // Header Main Title & Subheader
       const mainTitle = document.getElementById('deck-main-title');
       if (mainTitle) {
-        mainTitle.textContent = currentProgram === 'aas' ? 'GSEA SEMESTER 1 AAS' : 'GSEA SEMESTER 1 AG';
+        mainTitle.textContent = currentProgram === 'aas' ? 'GSEA SEMESTER 1 AT' : 'GSEA SEMESTER 1 AG';
       }
 
       const subtitle = document.getElementById('deck-subtitle');
@@ -2257,8 +2257,8 @@
         if (semObjFrTab) semObjFrTab.classList.remove('hidden');
 
         const isAas = (modalState.program === 'aas' || currentProgram === 'aas');
-        tagEl.textContent = isAas ? "Aeronautical English (LV121E) • Semester 1" : "General English (LV101E) • Semester 1";
-        titleEl.textContent = isAas ? "AAS Semester 1 Learning Objectives & Competencies" : "AG Semester 1 Learning Objectives & Competencies";
+        tagEl.textContent = isAas ? "Technical English (LV121E) • Semester 1" : "General English (LV101E) • Semester 1";
+        titleEl.textContent = isAas ? "AT Semester 1 Learning Objectives & Competencies" : "AG Semester 1 Learning Objectives & Competencies";
       } else if (isImmersionSession) {
         if (semObjEnTab) semObjEnTab.classList.add('hidden');
         if (semObjFrTab) semObjFrTab.classList.add('hidden');
@@ -2427,15 +2427,15 @@
         if (iconBox) iconBox.className = "w-8 h-8 rounded-lg flex items-center justify-center shrink-0 text-white bg-blue-600 shadow-xs";
         if (iconAg) iconAg.classList.add("hidden");
         if (iconAas) iconAas.classList.remove("hidden");
-        if (titleEl) titleEl.innerText = "GSEA SEMESTER 1 AAS";
-        if (subtitleEl) subtitleEl.innerText = "Aeronautical English (LV121E) • Formative Learning Portfolio & Aeronautical Operations Log";
+        if (titleEl) titleEl.innerText = "GSEA SEMESTER 1 AT";
+        if (subtitleEl) subtitleEl.innerText = "Technical English (LV121E) • Formative Learning Portfolio & Technical Operations Log";
         if (drawerBtnAg) drawerBtnAg.className = "px-2 py-1 rounded text-[11px] font-semibold transition-all cursor-pointer text-white/70 hover:text-white hover:bg-white/10";
         if (drawerBtnAas) drawerBtnAas.className = "px-2 py-1 rounded text-[11px] font-black transition-all cursor-pointer text-white bg-blue-600 shadow-xs";
         if (drawerFooterBadge) {
-          drawerFooterBadge.innerText = "AAS • LV121E";
+          drawerFooterBadge.innerText = "AT • LV121E";
           drawerFooterBadge.className = "px-2 py-0.5 rounded text-[10px] font-mono font-bold text-white bg-blue-600 shadow-xs shrink-0";
         }
-        if (drawerFooterTitle) drawerFooterTitle.innerText = "GSEA Semester 1 Aeronautical English (AAS)";
+        if (drawerFooterTitle) drawerFooterTitle.innerText = "GSEA Semester 1 Technical English (AT)";
         if (drawerFooterVersion) drawerFooterVersion.className = "font-mono text-blue-400 font-bold bg-black/40 px-2 py-0.5 rounded border border-white/10 text-[10px] sm:text-xs";
       }
     };
@@ -2880,7 +2880,7 @@
             <div>
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
-                <span class="text-xs font-bold text-slate-700">AAS Module 1 • Session 1</span>
+                <span class="text-xs font-bold text-slate-700">AT Module 1 • Session 1</span>
               </div>
               <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">Introduction &amp; Aviation Survey</h3>
             </div>
@@ -3273,7 +3273,7 @@
             <div>
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
-                <span class="text-xs font-bold text-slate-700">AAS Module 1 • Session 2</span>
+                <span class="text-xs font-bold text-slate-700">AT Module 1 • Session 2</span>
               </div>
               <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">Passenger Journey &amp; Airfield Movement</h3>
             </div>
@@ -3666,7 +3666,7 @@
             <div>
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
-                <span class="text-xs font-bold text-slate-700">AAS Module 1 • Session 3</span>
+                <span class="text-xs font-bold text-slate-700">AT Module 1 • Session 3</span>
               </div>
               <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">Ground Operations &amp; Turnaround Management</h3>
             </div>
@@ -4058,7 +4058,7 @@
             <div>
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
-                <span class="text-xs font-bold text-slate-700">AAS Module 1 • Session 4</span>
+                <span class="text-xs font-bold text-slate-700">AT Module 1 • Session 4</span>
               </div>
               <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">Jobs in Aviation: Roles, Responsibilities &amp; Operational Interfaces</h3>
             </div>
@@ -8447,7 +8447,7 @@
             <div>
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
-                <span class="text-xs font-bold text-slate-700">AAS Module 2 • Session 1</span>
+                <span class="text-xs font-bold text-slate-700">AT Module 2 • Session 1</span>
               </div>
               <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">Aerodynamics &amp; Flight Principles</h3>
             </div>
@@ -8756,7 +8756,7 @@
             <div>
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
-                <span class="text-xs font-bold text-slate-700">AAS Module 2 • Session 2</span>
+                <span class="text-xs font-bold text-slate-700">AT Module 2 • Session 2</span>
               </div>
               <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">${hero.title || 'Aircraft Anatomy: Structure &amp; Systems'}</h3>
             </div>
@@ -9034,7 +9034,7 @@
             <div>
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
-                <span class="text-xs font-bold text-slate-700">AAS Module 2 • Session 3</span>
+                <span class="text-xs font-bold text-slate-700">AT Module 2 • Session 3</span>
               </div>
               <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">Commercial Aircraft &amp; Airlines</h3>
             </div>
@@ -9294,7 +9294,7 @@
             <div>
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
-                <span class="text-xs font-bold text-slate-700">AAS Module 2 • Session 4</span>
+                <span class="text-xs font-bold text-slate-700">AT Module 2 • Session 4</span>
               </div>
               <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">Significant Aviation Accidents &amp; Aircraft Types</h3>
             </div>
@@ -9523,12 +9523,12 @@
     }
 
     /* ==========================================================================
-       AAS MODULE 3 LESSON CONTENT TEMPLATES (SESSIONS 1 - 4)
+       AT MODULE 3 LESSON CONTENT TEMPLATES (SESSIONS 1 - 4)
        Module 3: Health, Meteorology, Safety & Security (LV121E)
        4-Pillar Pedagogical Standard: modeBadges, instructions, deliverable, teacherNotes
        ========================================================================== */
 
-    // Global toggle helper for AAS Module 3 revealable answers
+    // Global toggle helper for AT Module 3 revealable answers
     if (typeof window.toggleAas3Answer !== 'function') {
       window.toggleAas3Answer = function(id) {
         const el = document.getElementById(id);
@@ -9590,7 +9590,7 @@
             <div>
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
-                <span class="text-xs font-bold text-slate-700">AAS Module 3 • Session 1</span>
+                <span class="text-xs font-bold text-slate-700">AT Module 3 • Session 1</span>
               </div>
               <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">${hero.title || 'Health, Medical Emergencies & Human Factors in Aviation'}</h3>
             </div>
@@ -9961,7 +9961,7 @@
             <div>
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
-                <span class="text-xs font-bold text-slate-700">AAS Module 3 • Session 2</span>
+                <span class="text-xs font-bold text-slate-700">AT Module 3 • Session 2</span>
               </div>
               <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">${hero.title || 'Meteorology & Severe Weather Impacts on Aviation Operations'}</h3>
             </div>
@@ -10287,7 +10287,7 @@
             <div>
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
-                <span class="text-xs font-bold text-slate-700">AAS Module 3 • Session 3</span>
+                <span class="text-xs font-bold text-slate-700">AT Module 3 • Session 3</span>
               </div>
               <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">${hero.title || 'Aviation Safety vs. Security: Airport Protection & Aircraft Inspections'}</h3>
             </div>
@@ -10597,7 +10597,7 @@
             <div>
               <div class="flex items-center gap-2">
                 <span class="text-white text-[10px] font-black px-2 py-0.5 rounded shadow-xs" style="background-color: ${theme.primary};">DIGITAL WORKSHEET</span>
-                <span class="text-xs font-bold text-slate-700">AAS Module 3 • Session 4</span>
+                <span class="text-xs font-bold text-slate-700">AT Module 3 • Session 4</span>
               </div>
               <h3 class="text-sm sm:text-base font-black text-slate-900 mt-1">${hero.title || 'Global Semester Review & 3-Team Aviation Grand Prix Quiz'}</h3>
             </div>
@@ -11664,7 +11664,7 @@
           <div class="p-4 rounded-xl border space-y-2.5" style="background-color: ${theme.highlight || '#fef3c7'}; border-color: ${theme.accent}40;">
             <div class="flex items-center gap-1.5 font-bold text-xs" style="color: ${theme.accent};">
               <span>💡</span>
-              <span class="uppercase tracking-wide">B2 Student Success Tips (AAS FE 1)</span>
+              <span class="uppercase tracking-wide">B2 Student Success Tips (AT FE 1)</span>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-xs text-slate-700">
               <div class="p-2.5 bg-white rounded-lg border border-slate-200 shadow-2xs">
@@ -12983,14 +12983,14 @@
 
           <!-- Track Requirements Callout -->
           <div class="p-3.5 bg-slate-100/80 rounded-xl border border-slate-200 space-y-2">
-            <h5 class="text-xs font-bold text-slate-800 uppercase tracking-wide">Track-Specific Focus (AG vs. AAS)</h5>
+            <h5 class="text-xs font-bold text-slate-800 uppercase tracking-wide">Track-Specific Focus (AG vs. AT)</h5>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-2.5 text-xs text-slate-600">
               <div class="p-2.5 bg-white rounded-lg border border-slate-200">
                 <strong class="text-slate-800 block mb-0.5" style="color: ${theme.accent};">General English (AG):</strong>
                 Focus on complex grammar (conditionals, passives, relative clauses) and sustainable tourism vocabulary.
               </div>
               <div class="p-2.5 bg-white rounded-lg border border-slate-200">
-                <strong class="text-slate-800 block mb-0.5" style="color: #152438;">Aeronautical English (AAS):</strong>
+                <strong class="text-slate-800 block mb-0.5" style="color: #152438;">Technical English (AT):</strong>
                 Focus on active use of required aeronautical terminology (aerodrome movement areas, apron safety, runway numbering) and modal verbs.
               </div>
             </div>
@@ -13395,7 +13395,7 @@
                   <h5 class="text-xs sm:text-sm font-bold text-slate-800">Demonstrate Grammatical Accuracy &amp; Range</h5>
                   <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
                     <strong>AG Track:</strong> Complex grammar (conditionals, passives, relative clauses).<br>
-                    <strong>AAS Track:</strong> Modal verbs of obligation, permission, and prohibition, and precise prepositions.
+                    <strong>AT Track:</strong> Modal verbs of obligation, permission, and prohibition, and precise prepositions.
                   </p>
                 </div>
               </div>
@@ -13426,7 +13426,7 @@
           <!-- Overview Card -->
           <div class="bg-gradient-to-r from-slate-50 to-amber-50/40 border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs">
             <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
-              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Official Rubric • Aeronautical English</span>
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Official Rubric • Technical English (AT)</span>
               <span class="text-xs font-bold px-2.5 py-0.5 rounded-md text-white font-mono shadow-xs" style="background-color: ${theme.primary};">
                 Total: 20 Points • B2 Standard
               </span>
@@ -13446,7 +13446,7 @@
                 <tr class="bg-slate-100 text-slate-700 border-b border-slate-200">
                   <th class="p-3 font-bold w-1/3">Criterion</th>
                   <th class="p-3 font-bold w-16 text-center">Pts</th>
-                  <th class="p-3 font-bold">Examiner Expectations (B2 CEFR • Aeronautical English)</th>
+                  <th class="p-3 font-bold">Examiner Expectations (B2 CEFR • Technical English)</th>
                 </tr>
               </thead>
               <tbody class="divide-y divide-slate-100 bg-white">
@@ -13519,7 +13519,7 @@
           <!-- Overview Card -->
           <div class="bg-gradient-to-r from-slate-50 to-amber-50/40 border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs">
             <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
-              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Official Rubric • Aeronautical English</span>
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Official Rubric • Technical English (AT)</span>
               <span class="text-xs font-bold px-2.5 py-0.5 rounded-md text-white font-mono shadow-xs" style="background-color: ${theme.primary};">
                 Total: 20 Points • Continuous Assessment
               </span>
@@ -13539,7 +13539,7 @@
                 <tr class="bg-slate-100 text-slate-700 border-b border-slate-200">
                   <th class="p-3 font-bold w-1/3">Criterion</th>
                   <th class="p-3 font-bold w-16 text-center">Pts</th>
-                  <th class="p-3 font-bold">Examiner Expectations (B2 CEFR • Aeronautical English)</th>
+                  <th class="p-3 font-bold">Examiner Expectations (B2 CEFR • Technical English)</th>
                 </tr>
               </thead>
               <tbody class="divide-y divide-slate-100 bg-white">
@@ -13612,7 +13612,7 @@
           <!-- Overview Card -->
           <div class="bg-gradient-to-r from-slate-50 to-teal-50/40 border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs">
             <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
-              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Official Rubric • Aeronautical English</span>
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Official Rubric • Technical English (AT)</span>
               <span class="text-xs font-bold px-2.5 py-0.5 rounded-md text-white font-mono shadow-xs" style="background-color: ${theme.primary};">
                 Total: 20 Points • Continuous Assessment
               </span>
@@ -13632,7 +13632,7 @@
                 <tr class="bg-slate-100 text-slate-700 border-b border-slate-200">
                   <th class="p-3 font-bold w-1/3">Criterion</th>
                   <th class="p-3 font-bold w-16 text-center">Pts</th>
-                  <th class="p-3 font-bold">Examiner Expectations (B2/C1 CEFR • Aeronautical English)</th>
+                  <th class="p-3 font-bold">Examiner Expectations (B2/C1 CEFR • Technical English)</th>
                 </tr>
               </thead>
               <tbody class="divide-y divide-slate-100 bg-white">
@@ -13878,7 +13878,7 @@
                 <tr class="hover:bg-slate-50/60">
                   <td class="p-3 font-bold text-slate-800">3. Grammar &amp; Sentence Structure</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
-                  <td class="p-3 text-slate-600"><strong>AG:</strong> Accurate complex grammar (conditionals, passives). <strong>AAS:</strong> Precise modal verbs and prepositions.</td>
+                  <td class="p-3 text-slate-600"><strong>AG:</strong> Accurate complex grammar (conditionals, passives). <strong>AT:</strong> Precise modal verbs and prepositions.</td>
                 </tr>
                 <tr class="hover:bg-slate-50/60">
                   <td class="p-3 font-bold text-slate-800">4. Vocabulary &amp; Topic Vocabulary</td>
@@ -13986,7 +13986,7 @@
                 <div class="flex items-center justify-between pb-2 mb-3 border-b border-slate-100">
                   <div class="flex items-center gap-2">
                     <span class="px-2 py-0.5 rounded text-white font-mono text-[11px] font-black" style="background-color: ${theme.accent};">LV121E</span>
-                    <span class="text-xs font-bold text-slate-800">Aeronautical English (AAS)</span>
+                    <span class="text-xs font-bold text-slate-800">Technical English (AT)</span>
                   </div>
                   <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2 py-0.5 rounded">Wednesdays 13h15 – 15h15</span>
                 </div>
@@ -14175,7 +14175,7 @@
       },
       aas: {
         code: "LV121E",
-        name: "Aeronautical English (AAS)",
+        name: "Technical English (AT)",
         dayTime: "Wednesdays 13h15 – 15h15",
         faculty: "Tracy NEILL (Group A) & Ally HEWETT (Group B)",
         modules: [
@@ -14269,7 +14269,7 @@
                     General English (AG • LV101E)
                   </button>
                   <button type="button" onclick="setAdminCalendarCourse('aas')" class="px-3.5 py-1.5 rounded-md text-xs font-bold transition-all cursor-pointer ${activeCalKey === 'aas' ? 'bg-orange-600 text-white shadow-xs' : 'text-slate-600 hover:text-slate-900'}">
-                    Aeronautical English (AAS • LV121E)
+                    Technical English (AT • LV121E)
                   </button>
                 </div>
               </div>
@@ -14438,7 +14438,7 @@
       },
       aas: {
         code: "LV121E",
-        name: "Aeronautical English (AAS)",
+        name: "Technical English (AT)",
         dayTime: "Wednesdays 13h15 – 15h15",
         roomNote: "Wednesday Session • 2 Hours (4 Slots of 30 min)",
         fes: {
@@ -14578,7 +14578,7 @@
                     General English (AG • LV101E)
                   </button>
                   <button type="button" onclick="setAdminRotaCourse('aas')" class="px-3.5 py-1.5 rounded-md text-xs font-bold transition-all cursor-pointer ${activeCourseKey === 'aas' ? 'bg-orange-600 text-white shadow-xs' : 'text-slate-600 hover:text-slate-900'}">
-                    Aeronautical English (AAS • LV121E)
+                    Technical English (AT • LV121E)
                   </button>
                 </div>
               </div>
@@ -15233,7 +15233,7 @@
         ? "À la fin du semestre 1, les étudiants seront capables de :"
         : "By the end of Semester 1, students will be able to:";
 
-      const courseCode = isAas ? "LV121E • Aeronautical English" : "LV101E • General English";
+      const courseCode = isAas ? "LV121E • Technical English" : "LV101E • General English";
       const targetBenchmark = isAas 
         ? (isFr ? "Niveau B2 CECRL • Standard Opérationnel OACI Niveau 4/5" : "CEFR B2 Level • ICAO Operational Level 4/5 Benchmark")
         : (isFr ? "Niveau B2 CECRL • Utilisateur Indépendant Opérationnel" : "CEFR B2 Level • Independent Operational Proficiency");

@@ -233,7 +233,7 @@
           <div class="p-4 rounded-xl border space-y-2.5" style="background-color: ${theme.highlight || '#fef3c7'}; border-color: ${theme.accent}40;">
             <div class="flex items-center gap-1.5 font-bold text-xs" style="color: ${theme.accent};">
               <span>💡</span>
-              <span class="uppercase tracking-wide">B2 Student Success Tips (AAS FE 1)</span>
+              <span class="uppercase tracking-wide">B2 Student Success Tips (AT FE 1)</span>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-xs text-slate-700">
               <div class="p-2.5 bg-white rounded-lg border border-slate-200 shadow-2xs">
@@ -1552,14 +1552,14 @@
 
           <!-- Track Requirements Callout -->
           <div class="p-3.5 bg-slate-100/80 rounded-xl border border-slate-200 space-y-2">
-            <h5 class="text-xs font-bold text-slate-800 uppercase tracking-wide">Track-Specific Focus (AG vs. AAS)</h5>
+            <h5 class="text-xs font-bold text-slate-800 uppercase tracking-wide">Track-Specific Focus (AG vs. AT)</h5>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-2.5 text-xs text-slate-600">
               <div class="p-2.5 bg-white rounded-lg border border-slate-200">
                 <strong class="text-slate-800 block mb-0.5" style="color: ${theme.accent};">General English (AG):</strong>
                 Focus on complex grammar (conditionals, passives, relative clauses) and sustainable tourism vocabulary.
               </div>
               <div class="p-2.5 bg-white rounded-lg border border-slate-200">
-                <strong class="text-slate-800 block mb-0.5" style="color: #152438;">Aeronautical English (AAS):</strong>
+                <strong class="text-slate-800 block mb-0.5" style="color: #152438;">Technical English (AT):</strong>
                 Focus on active use of required aeronautical terminology (aerodrome movement areas, apron safety, runway numbering) and modal verbs.
               </div>
             </div>
@@ -1964,7 +1964,7 @@
                   <h5 class="text-xs sm:text-sm font-bold text-slate-800">Demonstrate Grammatical Accuracy &amp; Range</h5>
                   <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed mt-0.5">
                     <strong>AG Track:</strong> Complex grammar (conditionals, passives, relative clauses).<br>
-                    <strong>AAS Track:</strong> Modal verbs of obligation, permission, and prohibition, and precise prepositions.
+                    <strong>AT Track:</strong> Modal verbs of obligation, permission, and prohibition, and precise prepositions.
                   </p>
                 </div>
               </div>
@@ -1995,7 +1995,7 @@
           <!-- Overview Card -->
           <div class="bg-gradient-to-r from-slate-50 to-amber-50/40 border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs">
             <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
-              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Official Rubric • Aeronautical English</span>
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Official Rubric • Technical English (AT)</span>
               <span class="text-xs font-bold px-2.5 py-0.5 rounded-md text-white font-mono shadow-xs" style="background-color: ${theme.primary};">
                 Total: 20 Points • B2 Standard
               </span>
@@ -2015,7 +2015,7 @@
                 <tr class="bg-slate-100 text-slate-700 border-b border-slate-200">
                   <th class="p-3 font-bold w-1/3">Criterion</th>
                   <th class="p-3 font-bold w-16 text-center">Pts</th>
-                  <th class="p-3 font-bold">Examiner Expectations (B2 CEFR • Aeronautical English)</th>
+                  <th class="p-3 font-bold">Examiner Expectations (B2 CEFR • Technical English)</th>
                 </tr>
               </thead>
               <tbody class="divide-y divide-slate-100 bg-white">
@@ -2088,7 +2088,7 @@
           <!-- Overview Card -->
           <div class="bg-gradient-to-r from-slate-50 to-amber-50/40 border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs">
             <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
-              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Official Rubric • Aeronautical English</span>
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Official Rubric • Technical English (AT)</span>
               <span class="text-xs font-bold px-2.5 py-0.5 rounded-md text-white font-mono shadow-xs" style="background-color: ${theme.primary};">
                 Total: 20 Points • Continuous Assessment
               </span>
@@ -2108,7 +2108,7 @@
                 <tr class="bg-slate-100 text-slate-700 border-b border-slate-200">
                   <th class="p-3 font-bold w-1/3">Criterion</th>
                   <th class="p-3 font-bold w-16 text-center">Pts</th>
-                  <th class="p-3 font-bold">Examiner Expectations (B2 CEFR • Aeronautical English)</th>
+                  <th class="p-3 font-bold">Examiner Expectations (B2 CEFR • Technical English)</th>
                 </tr>
               </thead>
               <tbody class="divide-y divide-slate-100 bg-white">
@@ -2181,7 +2181,7 @@
           <!-- Overview Card -->
           <div class="bg-gradient-to-r from-slate-50 to-teal-50/40 border border-slate-200 rounded-xl p-4 sm:p-5 shadow-xs">
             <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
-              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Official Rubric • Aeronautical English</span>
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Official Rubric • Technical English (AT)</span>
               <span class="text-xs font-bold px-2.5 py-0.5 rounded-md text-white font-mono shadow-xs" style="background-color: ${theme.primary};">
                 Total: 20 Points • Continuous Assessment
               </span>
@@ -2201,7 +2201,7 @@
                 <tr class="bg-slate-100 text-slate-700 border-b border-slate-200">
                   <th class="p-3 font-bold w-1/3">Criterion</th>
                   <th class="p-3 font-bold w-16 text-center">Pts</th>
-                  <th class="p-3 font-bold">Examiner Expectations (B2/C1 CEFR • Aeronautical English)</th>
+                  <th class="p-3 font-bold">Examiner Expectations (B2/C1 CEFR • Technical English)</th>
                 </tr>
               </thead>
               <tbody class="divide-y divide-slate-100 bg-white">
@@ -2447,7 +2447,7 @@
                 <tr class="hover:bg-slate-50/60">
                   <td class="p-3 font-bold text-slate-800">3. Grammar &amp; Sentence Structure</td>
                   <td class="p-3 text-center font-bold font-mono text-white rounded" style="background-color: ${theme.primary};">4</td>
-                  <td class="p-3 text-slate-600"><strong>AG:</strong> Accurate complex grammar (conditionals, passives). <strong>AAS:</strong> Precise modal verbs and prepositions.</td>
+                  <td class="p-3 text-slate-600"><strong>AG:</strong> Accurate complex grammar (conditionals, passives). <strong>AT:</strong> Precise modal verbs and prepositions.</td>
                 </tr>
                 <tr class="hover:bg-slate-50/60">
                   <td class="p-3 font-bold text-slate-800">4. Vocabulary &amp; Topic Vocabulary</td>
