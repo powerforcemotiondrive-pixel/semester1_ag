@@ -30,7 +30,7 @@
           <!-- Hero Banner & Context -->
           <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-xs">
             <div class="relative">
-              <img src="${hero.image || 'images/aas_m1card1.png'}" alt="${hero.title || 'Introduction & Aviation Survey'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/aas_m1card1.png'">
+              <img src="${hero.image || 'images/aas_m1card1.jpg'}" alt="${hero.title || 'Introduction & Aviation Survey'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/aas_m1card1.jpg'">
               <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent flex flex-col justify-end p-4 sm:p-5">
                 <span class="text-[11px] font-bold text-amber-300 uppercase tracking-wider">Commercial Aviation Dynamics</span>
                 <h3 class="text-lg sm:text-2xl font-black text-white mt-0.5">${hero.title || 'Introduction & Aviation Survey'}</h3>
@@ -423,7 +423,7 @@
           <!-- Hero Banner & Context -->
           <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-xs">
             <div class="relative">
-              <img src="${hero.image || 'images/aas_m1card2.png'}" alt="${hero.title || 'Passenger Journey & Airfield Movement'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/aas_m1card2.png'">
+              <img src="${hero.image || 'images/aas_m1card2.jpg'}" alt="${hero.title || 'Passenger Journey & Airfield Movement'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/aas_m1card2.jpg'">
               <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent flex flex-col justify-end p-4 sm:p-5">
                 <span class="text-[11px] font-bold text-amber-300 uppercase tracking-wider">Terminal Architecture &amp; Aerodrome Markings</span>
                 <h3 class="text-lg sm:text-2xl font-black text-white mt-0.5">${hero.title || 'Passenger Journey & Airfield Movement'}</h3>
@@ -816,7 +816,7 @@
           <!-- Hero Banner & Context -->
           <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-xs">
             <div class="relative">
-              <img src="${hero.image || 'images/turnaround_apron.jpg'}" alt="${hero.title || 'Apron Turnaround'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/aas_m1card3.png'">
+              <img src="${hero.image || 'images/turnaround_apron.jpg'}" alt="${hero.title || 'Apron Turnaround'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/aas_m1card3.jpg'">
               <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent flex flex-col justify-end p-4 sm:p-5">
                 <span class="text-[11px] font-bold text-amber-300 uppercase tracking-wider">Apron Servicing Envelope</span>
                 <h2 class="text-base sm:text-xl font-black text-white mt-0.5">${hero.title || 'Ground Operations &amp; Turnaround Management'}</h2>
@@ -1208,7 +1208,7 @@
           <!-- Hero Banner & Context -->
           <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-xs">
             <div class="relative">
-              <img src="${hero.image || 'images/aas_m1card4.png'}" alt="${hero.title || 'Jobs in Aviation'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/card4.png'">
+              <img src="${hero.image || 'images/aas_m1card4.jpg'}" alt="${hero.title || 'Jobs in Aviation'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/ag_m1card4.jpg'">
               <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent flex flex-col justify-end p-4 sm:p-5">
                 <span class="text-[11px] font-bold text-amber-300 uppercase tracking-wider">Operational Taxonomy &amp; Interfaces</span>
                 <h2 class="text-base sm:text-xl font-black text-white mt-0.5">${hero.title || 'Jobs in Aviation: Roles, Responsibilities &amp; Operational Interfaces'}</h2>
@@ -1787,7 +1787,7 @@
           <!-- Session Overview Banner -->
           <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-xs">
             <div class="relative">
-              <img src="${ov.image || 'images/ag_m1card1.png'}" alt="${ov.title || 'Introduction & Travel Anecdotes'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/card1.png'">
+              <img src="${ov.image || 'images/ag_m1card1.jpg'}" alt="${ov.title || 'Introduction & Travel Anecdotes'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/ag_m1card1.jpg'">
               <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-4 sm:p-5">
                 <span class="text-[11px] font-bold text-amber-300 uppercase tracking-wider">${ov.badge || 'Session Overview • Travel & Transport'}</span>
                 <h3 class="text-lg sm:text-2xl font-black text-white mt-0.5">${ov.title || 'Introduction & Travel Anecdotes'}</h3>
@@ -2144,7 +2144,7 @@
           <!-- Session Overview Banner -->
           <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-xs">
             <div class="relative">
-              <img src="${ov.image || 'images/ag_m1card2.png'}" alt="${ov.title || 'Evolution of Transport'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/card2.png'">
+              <img src="${ov.image || 'images/ag_m1card2.jpg'}" alt="${ov.title || 'Evolution of Transport'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/ag_m1card2.jpg'">
               <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-4 sm:p-5">
                 <span class="text-[11px] font-bold text-amber-300 uppercase tracking-wider">${ov.badge || 'Session Overview • Transport Evolution & Green Mobility'}</span>
                 <h3 class="text-lg sm:text-2xl font-black text-white mt-0.5">${ov.title || 'Evolution of Transport & Sustainable Mobility'}</h3>
@@ -2500,7 +2500,7 @@
           <!-- Session Overview Banner -->
           <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-xs">
             <div class="relative">
-              <img src="${ov.image || 'images/ag_m1card3.png'}" alt="${ov.title || 'Overtourism'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/card3.png'">
+              <img src="${ov.image || 'images/ag_m1card3.jpg'}" alt="${ov.title || 'Overtourism'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/ag_m1card3.jpg'">
               <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-4 sm:p-5">
                 <span class="text-[11px] font-bold text-amber-300 uppercase tracking-wider">${ov.badge || 'Session Overview • Managing Tourism & City Life'}</span>
                 <h3 class="text-lg sm:text-2xl font-black text-white mt-0.5">${ov.title || 'Overtourism & Tourism Policy'}</h3>
@@ -2829,7 +2829,7 @@
           <!-- Session Overview Banner -->
           <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-xs">
             <div class="relative">
-              <img src="${ov.image || 'images/ag_m1card4.png'}" alt="${ov.title || 'Sustainable Tourism'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/card4.png'">
+              <img src="${ov.image || 'images/ag_m1card4.jpg'}" alt="${ov.title || 'Sustainable Tourism'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/ag_m1card4.jpg'">
               <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-4 sm:p-5">
                 <span class="text-[11px] font-bold text-amber-300 uppercase tracking-wider">${ov.badge || 'Session Overview • Eco-Tourism & Green Certification'}</span>
                 <h3 class="text-lg sm:text-2xl font-black text-white mt-0.5">${ov.title || 'Sustainable & Eco-Tourism'}</h3>

@@ -83,8 +83,6 @@ const includeList = [
   'admin.html',
   'immersion.html',
   'portfolio.html',
-  'agmod1.pdf',
-  'ws1.pdf'
 ].filter(item => fs.existsSync(path.join(rootDir, item)));
 
 try {

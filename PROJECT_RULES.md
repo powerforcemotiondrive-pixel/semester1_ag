@@ -93,23 +93,22 @@ semester1_ag/
 ├── portfolio.html             # Student Learning Portfolio & Google DB client
 ├── admin.html                 # Course administration, student rosters & FE rotas
 ├── output.css                 # Compiled minified Tailwind CSS v4 (63 KB)
-├── imsmanifest.xml            # SCORM 1.2 manifest (119 verified resources)
-├── agmod1.pdf                 # Official coursebook PDF (Modules 1-3)
-├── ws1.pdf                    # Worksheet resource PDF
+├── imsmanifest.xml            # SCORM 1.2 manifest (126 verified offline resources)
 ├── GoogleAppsScript_Backend.js# Reference backend script for Google Cloud Web App
 ├── PROJECT_RULES.md           # This master architectural constitution
 ├── package.json               # Build scripts & Tailwind CLI configuration
 │
 ├── data/
 │   └── course-data.js         # Offline course content, vocabulary & TOEIC bank
-├── images/                    # 47 educational card images (1376x768 widescreen)
+├── images/                    # 37 web-optimized card images (1024px Web JPEG / PNG)
 ├── scripts/
 │   ├── package-scorm.js       # SCORM build, CSS compile & manifest validator
+│   ├── optimize-assets.js     # Automated image optimizer & weight reduction pipeline
 │   └── extract-course-data.js # Automated data extractor & synchronizer
 ├── src/
 │   └── input.css              # Tailwind v4 source stylesheet (@import "tailwindcss";)
 ├── dist/
-│   └── GSEA_Semester_1_SCORM.zip # Final distribution package for Moodle (39.18 MB)
+│   └── GSEA_Semester_1_SCORM.zip # Final distribution package for Moodle (~7.4 MB)
 │
 ├── session1/ ... session5/    # Individual lesson cards, objectives & reviews
 └── ddrs.html ... ddrs3.html   # Sustainable Development & Mobility standalone cards

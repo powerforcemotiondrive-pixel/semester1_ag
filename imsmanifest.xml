@@ -197,63 +197,47 @@
       <file href="session5/criteria_aas2.html"/>
       
       <!-- AG General English Track Card Images -->
-      <file href="images/ag_m1card1.png"/>
-      <file href="images/ag_m1card2.png"/>
-      <file href="images/ag_m1card3.png"/>
-      <file href="images/ag_m1card4.png"/>
-      <file href="images/ddrs_ag_mod1.png"/>
-      <file href="images/card1.png"/>
-      <file href="images/card2.png"/>
-      <file href="images/card3.png"/>
-      <file href="images/card4.png"/>
-      <file href="images/card5.png"/>
-      <file href="images/card6.png"/>
+      <file href="images/ag_m1card1.jpg"/>
+      <file href="images/ag_m1card2.jpg"/>
+      <file href="images/ag_m1card3.jpg"/>
+      <file href="images/ag_m1card4.jpg"/>
+      <file href="images/ddrs_ag_mod1.jpg"/>
       <file href="images/fe_progress_check.png"/>
-      <file href="images/course_admin.png"/>
+      <file href="images/course_admin.jpg"/>
       <file href="images/semester_objectives.png"/>
-      <file href="images/ag_m2card1.png"/>
-      <file href="images/ag_m2card2.png"/>
-      <file href="images/ag_m2card3.png"/>
-      <file href="images/ag_m2card4.png"/>
-      <file href="images/ddrs_ag_mod2.png"/>
-      <file href="images/ag_m3card1.png"/>
-      <file href="images/ag_m3card2.png"/>
-      <file href="images/ag_m3card3.png"/>
-      <file href="images/ag_m3card4.png"/>
-      <file href="images/ddrs_ag_mod3.png"/>
-      <file href="images/immersion_card.png"/>
-      <file href="images/m2card1.png"/>
-      <file href="images/m2card2.png"/>
-      <file href="images/m2card3.png"/>
-      <file href="images/m2card4.png"/>
-      <file href="images/m3card1.png"/>
-      <file href="images/m3card2.png"/>
-      <file href="images/m3card3.png"/>
-      <file href="images/m3card4.png"/>
+      <file href="images/ag_m2card1.jpg"/>
+      <file href="images/ag_m2card2.jpg"/>
+      <file href="images/ag_m2card3.jpg"/>
+      <file href="images/ag_m2card4.jpg"/>
+      <file href="images/ddrs_ag_mod2.jpg"/>
+      <file href="images/ag_m3card1.jpg"/>
+      <file href="images/ag_m3card2.jpg"/>
+      <file href="images/ag_m3card3.jpg"/>
+      <file href="images/ag_m3card4.jpg"/>
+      <file href="images/ddrs_ag_mod3.jpg"/>
+      <file href="images/immersion_card.jpg"/>
       
       <!-- AAS Aeronautical English Track Card Images -->
-      <file href="images/aas_m1card1.png"/>
-      <file href="images/aas_m1card2.png"/>
-      <file href="images/aas_m1card3.png"/>
-      <file href="images/aas_m1card4.png"/>
-      <file href="images/fe_aas_mod1.png"/>
-      <file href="images/ddrs_aas_mod1.png"/>
-      <file href="images/aas_m2card1.png"/>
-      <file href="images/aas_m2card2.png"/>
-      <file href="images/aas_m2card3.png"/>
-      <file href="images/aas_m2card4.png"/>
-      <file href="images/fe_aas_mod2.png"/>
-      <file href="images/ddrs_aas_mod2.png"/>
-      <file href="images/aas_m3card1.png"/>
-      <file href="images/aas_m3card2.png"/>
-      <file href="images/aas_m3card3.png"/>
-      <file href="images/aas_m3card4.png"/>
-      <file href="images/ddrs_aas_mod3.png"/>
+      <file href="images/aas_m1card1.jpg"/>
+      <file href="images/aas_m1card2.jpg"/>
+      <file href="images/aas_m1card3.jpg"/>
+      <file href="images/aas_m1card4.jpg"/>
+      <file href="images/fe_aas_mod1.jpg"/>
+      <file href="images/ddrs_aas_mod1.jpg"/>
+      <file href="images/aas_m2card1.jpg"/>
+      <file href="images/aas_m2card2.jpg"/>
+      <file href="images/aas_m2card3.jpg"/>
+      <file href="images/aas_m2card4.jpg"/>
+      <file href="images/fe_aas_mod2.jpg"/>
+      <file href="images/ddrs_aas_mod2.jpg"/>
+      <file href="images/aas_m3card1.jpg"/>
+      <file href="images/aas_m3card2.jpg"/>
+      <file href="images/aas_m3card3.jpg"/>
+      <file href="images/aas_m3card4.jpg"/>
+      <file href="images/ddrs_aas_mod3.jpg"/>
       <file href="images/turnaround_apron.jpg"/>
       
       <!-- Student Worksheets & PDF Documents -->
-      <file href="agmod1.pdf"/>
-      <file href="ws1.pdf"/>
     </resource>
   </resources>
 </manifest>

@@ -561,13 +561,13 @@
         },
         "lessonContent": {
           "overview": {
-            "image": "images/ag_m1card1.png",
+            "image": "images/ag_m1card1.jpg",
             "title": "Introduction & Travel Anecdotes",
             "subtitle": "Travel Stories, Flight Disruptions & Sustainable Mobility",
             "badge": "Session Overview • Travel & Transport"
           },
           "hero": {
-            "image": "images/ag_m1card1.png",
+            "image": "images/ag_m1card1.jpg",
             "title": "Introduction & Travel Anecdotes",
             "subtitle": "Travel Stories, Flight Disruptions & Sustainable Mobility",
             "badge": "Session Overview • Travel & Transport"
@@ -1329,13 +1329,13 @@
         },
         "lessonContent": {
           "overview": {
-            "image": "images/ag_m1card2.png",
+            "image": "images/ag_m1card2.jpg",
             "title": "Evolution of Transport & Sustainable Mobility",
             "subtitle": "Modal Shift, High-Speed Rail & Lower Carbon Journeys",
             "badge": "Session Overview • Transport Evolution & Green Mobility"
           },
           "hero": {
-            "image": "images/ag_m1card2.png",
+            "image": "images/ag_m1card2.jpg",
             "title": "Evolution of Transport & Sustainable Mobility",
             "subtitle": "Modal Shift, High-Speed Rail & Lower Carbon Journeys",
             "badge": "Session Overview • Transport Evolution & Green Mobility"
@@ -2107,13 +2107,13 @@
         },
         "lessonContent": {
           "overview": {
-            "image": "images/ag_m1card3.png",
+            "image": "images/ag_m1card3.jpg",
             "title": "Overtourism & Tourism Policy",
             "subtitle": "Managing Visitor Numbers, Protecting Local Life & City Regulations",
             "badge": "Session Overview • Managing Tourism & City Life"
           },
           "hero": {
-            "image": "images/ag_m1card3.png",
+            "image": "images/ag_m1card3.jpg",
             "title": "Overtourism & Tourism Policy",
             "subtitle": "Managing Visitor Numbers, Protecting Local Life & City Regulations",
             "badge": "Session Overview • Managing Tourism & City Life"
@@ -2870,13 +2870,13 @@
         },
         "lessonContent": {
           "overview": {
-            "image": "images/ag_m1card4.png",
+            "image": "images/ag_m1card4.jpg",
             "title": "Sustainable & Eco-Tourism",
             "subtitle": "Responsible Travel, Genuine Green Projects & Community Benefits",
             "badge": "Session Overview • Eco-Tourism & Green Certification"
           },
           "hero": {
-            "image": "images/ag_m1card4.png",
+            "image": "images/ag_m1card4.jpg",
             "title": "Sustainable & Eco-Tourism",
             "subtitle": "Responsible Travel, Genuine Green Projects & Community Benefits",
             "badge": "Session Overview • Eco-Tourism & Green Certification"
@@ -3662,13 +3662,13 @@
         },
         "lessonContent": {
           "overview": {
-            "image": "images/ag_m2card1.png",
+            "image": "images/ag_m2card1.jpg",
             "title": "Extreme Weather & Climate Hazards",
             "subtitle": "Atmospheric Rivers, Heat Domes, Flash Floods & Aerodrome Resilience",
             "badge": "Session Overview • Extreme Weather & Climate Resilience"
           },
           "hero": {
-            "image": "images/ag_m2card1.png",
+            "image": "images/ag_m2card1.jpg",
             "title": "Extreme Weather & Climate Hazards",
             "subtitle": "Atmospheric Rivers, Heat Domes, Flash Floods & Aerodrome Resilience",
             "badge": "Session Overview • Extreme Weather & Climate Resilience"
@@ -4332,13 +4332,13 @@
         },
         "lessonContent": {
           "overview": {
-            "image": "images/ag_m2card2.png",
+            "image": "images/ag_m2card2.jpg",
             "title": "Sustainable Cities & Low-Emission Urban Mobility",
             "subtitle": "Sponge Cities, 15-Minute Urbanism, Urban Heat Islands & Transit Corridors",
             "badge": "Session Overview • Sustainable Cities & Urban Design"
           },
           "hero": {
-            "image": "images/ag_m2card2.png",
+            "image": "images/ag_m2card2.jpg",
             "title": "Sustainable Cities & Low-Emission Urban Mobility",
             "subtitle": "Sponge Cities, 15-Minute Urbanism, Urban Heat Islands & Transit Corridors",
             "badge": "Session Overview • Sustainable Cities & Urban Design"
@@ -5002,13 +5002,13 @@
         },
         "lessonContent": {
           "overview": {
-            "image": "images/ag_m2card3.png",
+            "image": "images/ag_m2card3.jpg",
             "title": "Building & Defending Environmental Arguments",
             "subtitle": "Toulmin Argumentation Framework, Discourse Markers, Polite Concession & Policy Debates",
             "badge": "Session Overview • Environmental Argumentation & Policy"
           },
           "hero": {
-            "image": "images/ag_m2card3.png",
+            "image": "images/ag_m2card3.jpg",
             "title": "Building & Defending Environmental Arguments",
             "subtitle": "Toulmin Argumentation Framework, Discourse Markers, Polite Concession & Policy Debates",
             "badge": "Session Overview • Environmental Argumentation & Policy"
@@ -5658,13 +5658,13 @@
         },
         "lessonContent": {
           "overview": {
-            "image": "images/ag_m2card4.png",
+            "image": "images/ag_m2card4.jpg",
             "title": "Biodiversity in Urban Areas & Transport Hubs",
             "subtitle": "Nature-Based Solutions, Constructed Wetlands, Ecological Corridors & Wildlife Hazard Mitigation",
             "badge": "Session Overview • Biodiversity & Ecological Infrastructure"
           },
           "hero": {
-            "image": "images/ag_m2card4.png",
+            "image": "images/ag_m2card4.jpg",
             "title": "Biodiversity in Urban Areas & Transport Hubs",
             "subtitle": "Nature-Based Solutions, Constructed Wetlands, Ecological Corridors & Wildlife Hazard Mitigation",
             "badge": "Session Overview • Biodiversity & Ecological Infrastructure"
@@ -6445,13 +6445,13 @@
         },
         "lessonContent": {
           "overview": {
-            "image": "images/ag_m3card1.png",
+            "image": "images/ag_m3card1.jpg",
             "title": "Everyday AI & Workplace Automation",
             "subtitle": "Machine Learning, Predictive Analytics, Autonomous Systems & Human-in-the-Loop",
             "badge": "Session Overview • Artificial Intelligence & Machine Learning"
           },
           "hero": {
-            "image": "images/ag_m3card1.png",
+            "image": "images/ag_m3card1.jpg",
             "title": "Everyday AI & Workplace Automation",
             "subtitle": "Machine Learning, Predictive Analytics, Autonomous Systems & Human-in-the-Loop",
             "badge": "Session Overview • Artificial Intelligence & Machine Learning"
@@ -7064,13 +7064,13 @@
         },
         "lessonContent": {
           "overview": {
-            "image": "images/ag_m3card2.png",
+            "image": "images/ag_m3card2.jpg",
             "title": "Future Mobility & Clean Energy Transport",
             "subtitle": "Hydrogen Propulsion, Battery-Electric Aviation, Urban Air Mobility & Multi-Modal Corridors",
             "badge": "Session Overview • Clean Propulsion & Future Mobility"
           },
           "hero": {
-            "image": "images/ag_m3card2.png",
+            "image": "images/ag_m3card2.jpg",
             "title": "Future Mobility & Clean Energy Transport",
             "subtitle": "Hydrogen Propulsion, Battery-Electric Aviation, Urban Air Mobility & Multi-Modal Corridors",
             "badge": "Session Overview • Clean Propulsion & Future Mobility"
@@ -7683,13 +7683,13 @@
         },
         "lessonContent": {
           "overview": {
-            "image": "images/ag_m3card3.png",
+            "image": "images/ag_m3card3.jpg",
             "title": "Technology Ethics & Automated Decisions in AI",
             "subtitle": "Algorithmic Fairness, Explainable AI (XAI), Digital Surveillance & Tech Governance",
             "badge": "Session Overview • Technology Ethics & Algorithmic Accountability"
           },
           "hero": {
-            "image": "images/ag_m3card3.png",
+            "image": "images/ag_m3card3.jpg",
             "title": "Technology Ethics & Automated Decisions in AI",
             "subtitle": "Algorithmic Fairness, Explainable AI (XAI), Digital Surveillance & Tech Governance",
             "badge": "Session Overview • Technology Ethics & Algorithmic Accountability"
@@ -8302,13 +8302,13 @@
         },
         "lessonContent": {
           "overview": {
-            "image": "images/ag_m3card4.png",
+            "image": "images/ag_m3card4.jpg",
             "title": "Biometrics, Digital IDs & Passenger Journey",
             "subtitle": "Contactless E-Gates, IATA One ID, Cybersecurity & Biometric Data Sovereignty",
             "badge": "Session Overview • Biometrics & Digital Identity"
           },
           "hero": {
-            "image": "images/ag_m3card4.png",
+            "image": "images/ag_m3card4.jpg",
             "title": "Biometrics, Digital IDs & Passenger Journey",
             "subtitle": "Contactless E-Gates, IATA One ID, Cybersecurity & Biometric Data Sovereignty",
             "badge": "Session Overview • Biometrics & Digital Identity"
@@ -8713,7 +8713,7 @@
         },
         "lessonContent": {
           "hero": {
-            "image": "images/aas_m1card1.png",
+            "image": "images/aas_m1card1.jpg",
             "title": "Introduction & Aviation Survey",
             "subtitle": "Commercial Aviation Dilemmas, Passenger Disruption & Regulatory Modals"
           },
@@ -9456,7 +9456,7 @@
         },
         "lessonContent": {
           "hero": {
-            "image": "images/aas_m1card2.png",
+            "image": "images/aas_m1card2.jpg",
             "title": "Passenger Journey & Airfield Movement",
             "subtitle": "Terminal Facilitation, Spatial Prepositions & Airside Guidance Systems"
           },
@@ -11146,7 +11146,7 @@
         },
         "lessonContent": {
           "hero": {
-            "image": "images/aas_m1card4.png",
+            "image": "images/aas_m1card4.jpg",
             "title": "Jobs in Aviation: Roles, Responsibilities & Operational Interfaces",
             "subtitle": "Landside, Airside, Flight Crew, Air Traffic Services & Civil Aviation Corps (TSEEAC)"
           },
@@ -12032,7 +12032,7 @@
           "hero": {
             "title": "Aerodynamics & Flight Principles",
             "subtitle": "The Four Forces of Flight, The Three Axes & Aerodynamic Control Surfaces",
-            "image": "images/aas_m2card1.png",
+            "image": "images/aas_m2card1.jpg",
             "level": "CEFR B2",
             "role": "Flight Crew / Flight Test Engineer & ATCO",
             "duration": "120 Minutes"
@@ -12678,7 +12678,7 @@
           "hero": {
             "title": "Aircraft Anatomy: Structure & Systems",
             "subtitle": "External Airframe Components, Flight Deck Controls & Pre-Flight Walkaround Inspections",
-            "image": "images/aas_m2card2.png",
+            "image": "images/aas_m2card2.jpg",
             "level": "CEFR B2",
             "role": "Flight Crew / Line Maintenance Engineer",
             "duration": "120 Minutes"
@@ -13354,7 +13354,7 @@
           "hero": {
             "title": "Commercial Aircraft & Airlines",
             "subtitle": "Commercial Aircraft Typology, Aerospace Manufacturers & Airline Business Models",
-            "image": "images/aas_m2card3.png",
+            "image": "images/aas_m2card3.jpg",
             "level": "CEFR B2",
             "role": "Airline Fleet Planner / Network Strategy Director",
             "duration": "120 Minutes"
@@ -13948,7 +13948,7 @@
           "hero": {
             "title": "Significant Aviation Accidents & Aircraft Types",
             "subtitle": "Landmark Air Accidents, Technical Causal Analysis & The Evolution of Flight Safety",
-            "image": "images/aas_m2card4.png",
+            "image": "images/aas_m2card4.jpg",
             "level": "CEFR B2",
             "role": "Safety Investigator / Flight Safety Officer",
             "duration": "120 Minutes"
@@ -15001,7 +15001,7 @@
         "hero": {
           "title": "Health, Medical Emergencies & Human Factors in Aviation",
           "subtitle": "In-Flight Medical Emergencies, Crew Fatigue Management, Flight Time Limitations & Pilot/ATCO Well-Being",
-          "image": "images/aas_m3card1.png"
+          "image": "images/aas_m3card1.jpg"
         },
         "openingSession": {
           "title": "Activity 1: Aviation Health News & Diagnostic Spot-Check (10 mins)",
@@ -15669,7 +15669,7 @@
         "hero": {
           "title": "Meteorology & Severe Weather Impacts on Aviation Operations",
           "subtitle": "Atmospheric Hazards, Convective Storms, Icing, Microbursts & Landmark Weather Accident Case Studies",
-          "image": "images/aas_m3card2.png"
+          "image": "images/aas_m3card2.jpg"
         },
         "openingSession": {
           "title": "Activity 1: Aviation Weather Briefing & Meteorological Diagnostic (10 mins)",
@@ -16346,7 +16346,7 @@
         "hero": {
           "title": "Aviation Safety vs. Security: Airport Protection & Aircraft Inspections",
           "subtitle": "The Fundamental Distinction Between Unintended Hazards & Malicious Acts, Airport Architecture & Pre-Flight Airworthiness Checks",
-          "image": "images/aas_m3card3.png"
+          "image": "images/aas_m3card3.jpg"
         },
         "openingSession": {
           "title": "Activity 1: Safety & Security News & Diagnostic Spot-Check (10 mins)",
@@ -16985,7 +16985,7 @@
         "hero": {
           "title": "Global Semester Review & 3-Team Aviation Grand Prix Quiz",
           "subtitle": "Comprehensive Semester 1 Retrospective, 3-Team Scored Knowledge Competition & FE3 Press Briefing Masterclass",
-          "image": "images/aas_m3card4.png"
+          "image": "images/aas_m3card4.jpg"
         },
         "openingSession": {
           "title": "Activity 1: Semester 1 Retrospective & Competition Rules (10 mins)",

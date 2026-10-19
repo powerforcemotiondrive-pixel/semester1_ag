@@ -28,7 +28,7 @@
           <!-- Session Overview Banner -->
           <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-xs">
             <div class="relative">
-              <img src="${ov.image || 'images/ag_m3card1.png'}" alt="${ov.title || 'Everyday AI & Workplace Automation'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/ag_m3card1.png'">
+              <img src="${ov.image || 'images/ag_m3card1.jpg'}" alt="${ov.title || 'Everyday AI & Workplace Automation'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/ag_m3card1.jpg'">
               <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-4 sm:p-5">
                 <span class="text-[11px] font-bold text-blue-300 uppercase tracking-wider">${ov.badge || 'Session Overview • Artificial Intelligence & Machine Learning'}</span>
                 <h3 class="text-lg sm:text-2xl font-black text-white mt-0.5">${ov.title || 'Everyday AI & Workplace Automation'}</h3>
@@ -318,7 +318,7 @@
           <!-- Session Overview Banner -->
           <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-xs">
             <div class="relative">
-              <img src="${ov.image || 'images/ag_m3card2.png'}" alt="${ov.title || 'Future Mobility & Clean Energy Transport'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/ag_m3card2.png'">
+              <img src="${ov.image || 'images/ag_m3card2.jpg'}" alt="${ov.title || 'Future Mobility & Clean Energy Transport'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/ag_m3card2.jpg'">
               <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-4 sm:p-5">
                 <span class="text-[11px] font-bold text-blue-300 uppercase tracking-wider">${ov.badge || 'Session Overview • Clean Propulsion & Future Mobility'}</span>
                 <h3 class="text-lg sm:text-2xl font-black text-white mt-0.5">${ov.title || 'Future Mobility & Clean Energy Transport'}</h3>
@@ -608,7 +608,7 @@
           <!-- Session Overview Banner -->
           <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-xs">
             <div class="relative">
-              <img src="${ov.image || 'images/ag_m3card3.png'}" alt="${ov.title || 'Technology Ethics & Automated Decisions in AI'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/ag_m3card3.png'">
+              <img src="${ov.image || 'images/ag_m3card3.jpg'}" alt="${ov.title || 'Technology Ethics & Automated Decisions in AI'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/ag_m3card3.jpg'">
               <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-4 sm:p-5">
                 <span class="text-[11px] font-bold text-blue-300 uppercase tracking-wider">${ov.badge || 'Session Overview • Technology Ethics & Algorithmic Accountability'}</span>
                 <h3 class="text-lg sm:text-2xl font-black text-white mt-0.5">${ov.title || 'Technology Ethics & Automated Decisions in AI'}</h3>
@@ -898,7 +898,7 @@
           <!-- Session Overview Banner -->
           <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-xs">
             <div class="relative">
-              <img src="${ov.image || 'images/ag_m3card4.png'}" alt="${ov.title || 'Biometrics, Digital IDs & Passenger Journey'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/ag_m3card4.png'">
+              <img src="${ov.image || 'images/ag_m3card4.jpg'}" alt="${ov.title || 'Biometrics, Digital IDs & Passenger Journey'}" class="w-full h-48 sm:h-64 object-cover" onerror="this.src='images/ag_m3card4.jpg'">
               <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-4 sm:p-5">
                 <span class="text-[11px] font-bold text-blue-300 uppercase tracking-wider">${ov.badge || 'Session Overview • Biometrics & Digital Identity'}</span>
                 <h3 class="text-lg sm:text-2xl font-black text-white mt-0.5">${ov.title || 'Biometrics, Digital IDs & Passenger Journey'}</h3>

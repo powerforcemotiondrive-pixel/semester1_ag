@@ -47,31 +47,31 @@
 
       const moduleImages = {
         1: {
-          card1: isAas ? "images/aas_m1card1.png" : "images/ag_m1card1.png",
-          card2: isAas ? "images/aas_m1card2.png" : "images/ag_m1card2.png",
-          card3: isAas ? "images/aas_m1card3.png" : "images/ag_m1card3.png",
-          card4: isAas ? "images/aas_m1card4.png" : "images/ag_m1card4.png",
+          card1: isAas ? "images/aas_m1card1.jpg" : "images/ag_m1card1.jpg",
+          card2: isAas ? "images/aas_m1card2.jpg" : "images/ag_m1card2.jpg",
+          card3: isAas ? "images/aas_m1card3.jpg" : "images/ag_m1card3.jpg",
+          card4: isAas ? "images/aas_m1card4.jpg" : "images/ag_m1card4.jpg",
           fe: "images/fe_progress_check.png",
-          ddrs: isAas ? "images/ddrs_aas_mod1.png" : "images/ddrs_ag_mod1.png",
-          admin: "images/course_admin.png"
+          ddrs: isAas ? "images/ddrs_aas_mod1.jpg" : "images/ddrs_ag_mod1.jpg",
+          admin: "images/course_admin.jpg"
         },
         2: {
-          card1: isAas ? "images/aas_m2card1.png" : "images/ag_m2card1.png",
-          card2: isAas ? "images/aas_m2card2.png" : "images/ag_m2card2.png",
-          card3: isAas ? "images/aas_m2card3.png" : "images/ag_m2card3.png",
-          card4: isAas ? "images/aas_m2card4.png" : "images/ag_m2card4.png",
+          card1: isAas ? "images/aas_m2card1.jpg" : "images/ag_m2card1.jpg",
+          card2: isAas ? "images/aas_m2card2.jpg" : "images/ag_m2card2.jpg",
+          card3: isAas ? "images/aas_m2card3.jpg" : "images/ag_m2card3.jpg",
+          card4: isAas ? "images/aas_m2card4.jpg" : "images/ag_m2card4.jpg",
           fe: "images/fe_progress_check.png",
-          ddrs: isAas ? "images/ddrs_aas_mod2.png" : "images/ddrs_ag_mod2.png",
-          admin: "images/course_admin.png"
+          ddrs: isAas ? "images/ddrs_aas_mod2.jpg" : "images/ddrs_ag_mod2.jpg",
+          admin: "images/course_admin.jpg"
         },
         3: {
-          card1: isAas ? "images/aas_m3card1.png" : "images/ag_m3card1.png",
-          card2: isAas ? "images/aas_m3card2.png" : "images/ag_m3card2.png",
-          card3: isAas ? "images/aas_m3card3.png" : "images/ag_m3card3.png",
-          card4: isAas ? "images/aas_m3card4.png" : "images/ag_m3card4.png",
+          card1: isAas ? "images/aas_m3card1.jpg" : "images/ag_m3card1.jpg",
+          card2: isAas ? "images/aas_m3card2.jpg" : "images/ag_m3card2.jpg",
+          card3: isAas ? "images/aas_m3card3.jpg" : "images/ag_m3card3.jpg",
+          card4: isAas ? "images/aas_m3card4.jpg" : "images/ag_m3card4.jpg",
           fe: "images/fe_progress_check.png",
-          ddrs: isAas ? "images/ddrs_aas_mod3.png" : "images/ddrs_ag_mod3.png",
-          admin: "images/course_admin.png"
+          ddrs: isAas ? "images/ddrs_aas_mod3.jpg" : "images/ddrs_ag_mod3.jpg",
+          admin: "images/course_admin.jpg"
         }
       };
 
@@ -238,7 +238,7 @@
           description: "At the end of Semester 2, GSEA students participate in an intensive 4-week English immersion program in an English-speaking destination: Cork, Dublin, Manchester, Leeds, Liverpool, or Shoreham.<br><br><em>Academic & cultural goals:</em> Enhance daily conversational fluency and complete intensive TOEIC preparation for Semester 3. Students attend morning and afternoon language school sessions, cultural excursions, and aviation-specific visits (airport, aerospace company, or museum, subject to availability).<br><br><em>Accommodation:</em> Homestay with vetted local host families (strictly 1 ENAC student per host family) for 100% linguistic immersion.",
           isImmersion: true,
           immersionUrl: "immersion.html",
-          imageUrl: "images/immersion_card.png"
+          imageUrl: "images/immersion_card.jpg"
         });
       }
 
